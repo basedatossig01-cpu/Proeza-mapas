@@ -10,41 +10,221 @@
   <script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
 
   <style>
-    html, body { height: 100%; margin: 0; font-family: Arial, sans-serif; }
-    #map { height: 100%; width: 100%; }
+    html, body {
+      height: 100%;
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    #map {
+      height: 100%;
+      width: 100%;
+    }
+
     .panel {
-      position: absolute; top: 10px; left: 10px; z-index: 1000;
-      background: white; padding: 10px; border-radius: 8px;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.35);
-      max-width: 330px; font-size: 13px;
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      z-index: 1000;
+      background: white;
+      padding: 10px;
+      border-radius: 10px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.35);
+      width: 310px;
+      max-width: calc(100% - 30px);
+      font-size: 13px;
     }
-    .panel h3 { margin: 0 0 6px 0; font-size: 15px; }
+
+    .panel h3 {
+      margin: 0 0 6px 0;
+      font-size: 16px;
+    }
+
+    .buscador {
+      width: 100%;
+      box-sizing: border-box;
+      padding: 8px;
+      margin-top: 8px;
+      border: 1px solid #bbb;
+      border-radius: 6px;
+      font-size: 14px;
+    }
+
+    .botones {
+      display: flex;
+      gap: 6px;
+      margin-top: 8px;
+      flex-wrap: wrap;
+    }
+
+    .boton {
+      border: none;
+      border-radius: 6px;
+      padding: 7px 9px;
+      font-weight: bold;
+      cursor: pointer;
+      background: #eeeeee;
+      color: #111;
+    }
+
+    .boton-activo {
+      background: #1a73e8;
+      color: white;
+    }
+
+    .resultados {
+      max-height: 170px;
+      overflow-y: auto;
+      margin-top: 8px;
+      border-top: 1px solid #ddd;
+      display: none;
+    }
+
+    .item-resultado {
+      padding: 7px 4px;
+      border-bottom: 1px solid #eee;
+      cursor: pointer;
+    }
+
+    .item-resultado:hover {
+      background: #f1f1f1;
+    }
+
     .btn-ruta {
-      display: inline-block; background: #1a73e8; color: white;
-      padding: 7px 10px; border-radius: 5px; text-decoration: none;
-      font-weight: bold; margin-top: 6px;
+      display: inline-block;
+      background: #1a73e8 !important;
+      color: white !important;
+      padding: 9px 12px;
+      border-radius: 7px;
+      text-decoration: none !important;
+      font-weight: bold;
+      margin-top: 8px;
+      text-align: center;
     }
+
+    .btn-telefono {
+      display: inline-block;
+      background: #188038 !important;
+      color: white !important;
+      padding: 8px 10px;
+      border-radius: 7px;
+      text-decoration: none !important;
+      font-weight: bold;
+      margin-top: 8px;
+      margin-right: 5px;
+    }
+
+    .popup-contenido {
+      min-width: 240px;
+      max-width: 300px;
+      background: white;
+      color: #111;
+      font-size: 13px;
+      line-height: 1.45;
+    }
+
+    .popup-contenido h3 {
+      margin: 0 0 8px 0;
+      font-size: 16px;
+      color: #111;
+    }
+
+    .popup-tipo {
+      display: inline-block;
+      padding: 3px 7px;
+      border-radius: 12px;
+      font-weight: bold;
+      margin-bottom: 6px;
+      color: #111;
+    }
+
+    .tipo-vivienda {
+      background: #fdd835;
+    }
+
+    .tipo-parcela {
+      background: #f4511e;
+      color: white;
+    }
+
     .label-nombre {
-      background: rgba(255,255,255,0.85);
-      border: 1px solid #555; border-radius: 4px;
-      padding: 2px 4px; font-size: 11px; font-weight: bold;
-      color: #111; white-space: nowrap;
+      background: rgba(255,255,255,0.92);
+      border: 1px solid #555;
+      border-radius: 4px;
+      padding: 2px 4px;
+      font-size: 11px;
+      font-weight: bold;
+      color: #111;
+      white-space: nowrap;
+    }
+
+    .leaflet-popup-content-wrapper {
+      background: white !important;
+      color: #111 !important;
+      border-radius: 10px;
+    }
+
+    .leaflet-popup-content {
+      margin: 12px;
+    }
+
+    .mi-ubicacion-btn {
+      position: absolute;
+      right: 10px;
+      bottom: 30px;
+      z-index: 1000;
+      background: white;
+      border: none;
+      border-radius: 8px;
+      padding: 10px 12px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.35);
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    @media (max-width: 600px) {
+      .panel {
+        width: 280px;
+        font-size: 12px;
+      }
+
+      .panel h3 {
+        font-size: 15px;
+      }
+
+      .buscador {
+        font-size: 13px;
+      }
     }
   </style>
 </head>
 
 <body>
+
 <div id="map"></div>
 
 <div class="panel">
   <h3>Mapa de campo</h3>
   <div><b>Archivo:</b> ALTO VERA_A.csv</div>
   <div id="resumen">Cargando datos...</div>
-  <div style="margin-top:6px;">
-    🏠 Vivienda<br>
-    🟠 Parcela
+
+  <input id="buscador" class="buscador" type="text" placeholder="Buscar nombre, cédula o comunidad">
+
+  <div class="botones">
+    <button id="btnViviendas" class="boton boton-activo">🏠 Viviendas</button>
+    <button id="btnParcelas" class="boton boton-activo">🟠 Parcelas</button>
   </div>
+
+  <div style="margin-top:8px;">
+    🏠 Vivienda<br>
+    🟠 P Parcela<br>
+    🔵 Mi ubicación
+  </div>
+
+  <div id="resultados" class="resultados"></div>
 </div>
+
+<button class="mi-ubicacion-btn" onclick="centrarMiUbicacion()">📍 Mi ubicación</button>
 
 <script>
   const archivoCSV = "ALTO VERA_A.csv";
@@ -61,14 +241,26 @@
     { maxZoom: 19, attribution: '' }
   ).addTo(map);
 
+  const capaViviendas = L.featureGroup().addTo(map);
+  const capaParcelas = L.featureGroup().addTo(map);
+  const todosLosPuntos = L.featureGroup().addTo(map);
+
+  let registrosBusqueda = [];
+  let ubicacionActual = null;
+  let marcadorUsuario = null;
+
   const iconoVivienda = L.divIcon({
-    html: `<div style="width:28px;height:28px;border-radius:50%;background:#fdd835;border:2px solid white;display:flex;align-items:center;justify-content:center;font-size:17px;box-shadow:0 1px 4px rgba(0,0,0,0.45);">🏠</div>`,
-    className: "", iconSize: [28, 28], iconAnchor: [14, 14]
+    html: `<div style="width:30px;height:30px;border-radius:50%;background:#fdd835;border:2px solid white;display:flex;align-items:center;justify-content:center;font-size:18px;box-shadow:0 1px 5px rgba(0,0,0,0.55);">🏠</div>`,
+    className: "",
+    iconSize: [30, 30],
+    iconAnchor: [15, 15]
   });
 
   const iconoParcela = L.divIcon({
-    html: `<div style="width:30px;height:30px;border-radius:50%;background:#f4511e;border:2px solid white;display:flex;align-items:center;justify-content:center;color:white;font-weight:bold;font-size:17px;box-shadow:0 1px 4px rgba(0,0,0,0.45);">P</div>`,
-    className: "", iconSize: [30, 30], iconAnchor: [15, 15]
+    html: `<div style="width:32px;height:32px;border-radius:50%;background:#f4511e;border:2px solid white;display:flex;align-items:center;justify-content:center;color:white;font-weight:bold;font-size:18px;box-shadow:0 1px 5px rgba(0,0,0,0.55);">P</div>`,
+    className: "",
+    iconSize: [32, 32],
+    iconAnchor: [16, 16]
   });
 
   function limpiarValor(valor) {
@@ -107,12 +299,21 @@
     const estadoMonitoreo = limpiarValor(get(row, "Estado monitoreo"));
     const prioridad = limpiarValor(get(row, "Prioridad"));
     const superficie = limpiarValor(get(row, "Superficie (Ha.)"));
+
     const urlRuta = `https://www.google.com/maps/dir/?api=1&destination=${lat},${lon}`;
+    const tipoClase = tipo === "Vivienda" ? "tipo-vivienda" : "tipo-parcela";
+
+    let botonTelefono = "";
+    if (telefono !== "") {
+      const telefonoLimpio = telefono.replace(/\D/g, "");
+      botonTelefono = `<a class="btn-telefono" href="tel:${telefonoLimpio}">Llamar</a>`;
+    }
 
     return `
-      <div style="min-width:230px; max-width:290px;">
-        <h3 style="margin:0 0 6px 0;">${nombre}</h3>
-        <b>Tipo:</b> ${tipo}<br>
+      <div class="popup-contenido">
+        <span class="popup-tipo ${tipoClase}">${tipo}</span>
+        <h3>${nombre}</h3>
+
         <b>Cédula:</b> ${cedula}<br>
         <b>Comunidad:</b> ${comunidad}<br>
         <b>Departamento:</b> ${departamento}<br>
@@ -126,6 +327,8 @@
         <b>Estado participante:</b> ${estadoParticipante}<br>
         <b>Estado monitoreo:</b> ${estadoMonitoreo}<br>
         <b>Prioridad:</b> ${prioridad}<br>
+
+        ${botonTelefono}
         <a class="btn-ruta" target="_blank" href="${urlRuta}">Cómo llegar</a>
       </div>
     `;
@@ -140,7 +343,30 @@
     });
   }
 
-  const grupoPuntos = L.featureGroup().addTo(map);
+  function agregarPunto(row, tipo, lat, lon, icono, capa) {
+    const nombre = limpiarValor(get(row, "Nombres y Apellidos"));
+    const cedula = limpiarValor(get(row, "Cédula"));
+    const comunidad = limpiarValor(get(row, "Comunidad"));
+
+    const marker = L.marker([lat, lon], { icon: icono }).addTo(capa);
+    marker.bindPopup(crearPopup(row, tipo, lat, lon));
+    agregarEtiqueta(marker, `${nombre} - ${tipo}`);
+
+    todosLosPuntos.addLayer(marker);
+
+    registrosBusqueda.push({
+      texto: `${nombre} ${cedula} ${comunidad} ${tipo}`.toLowerCase(),
+      nombre,
+      cedula,
+      comunidad,
+      tipo,
+      lat,
+      lon,
+      marker
+    });
+
+    return marker;
+  }
 
   Papa.parse(archivoCSV, {
     download: true,
@@ -151,20 +377,13 @@
       const datos = results.data;
       let totalViviendas = 0;
       let totalParcelas = 0;
-      let sinCoordenadas = 0;
-
-      console.log("Columnas detectadas:", results.meta.fields);
 
       datos.forEach(row => {
-        const nombre = limpiarValor(get(row, "Nombres y Apellidos"));
-
         const latViv = convertirNumero(get(row, "Vivienda_Latitud"));
         const lonViv = convertirNumero(get(row, "Vivienda_Longitud"));
 
         if (latViv !== null && lonViv !== null) {
-          const markerViv = L.marker([latViv, lonViv], { icon: iconoVivienda }).addTo(grupoPuntos);
-          markerViv.bindPopup(crearPopup(row, "Vivienda", latViv, lonViv));
-          agregarEtiqueta(markerViv, `${nombre} - Vivienda`);
+          agregarPunto(row, "Vivienda", latViv, lonViv, iconoVivienda, capaViviendas);
           totalViviendas++;
         }
 
@@ -172,29 +391,19 @@
         const lonPar = convertirNumero(get(row, "Parcela_Longitud"));
 
         if (latPar !== null && lonPar !== null) {
-          const markerPar = L.marker([latPar, lonPar], { icon: iconoParcela }).addTo(grupoPuntos);
-          markerPar.bindPopup(crearPopup(row, "Parcela", latPar, lonPar));
-          agregarEtiqueta(markerPar, `${nombre} - Parcela`);
+          agregarPunto(row, "Parcela", latPar, lonPar, iconoParcela, capaParcelas);
           totalParcelas++;
-        }
-
-        if ((latViv === null || lonViv === null) && (latPar === null || lonPar === null)) {
-          sinCoordenadas++;
         }
       });
 
       document.getElementById("resumen").innerHTML =
         `<b>Viviendas:</b> ${totalViviendas}<br><b>Parcelas:</b> ${totalParcelas}`;
 
-      if (grupoPuntos.getLayers().length > 0) {
-        map.fitBounds(grupoPuntos.getBounds(), { padding: [40, 40] });
+      if (todosLosPuntos.getLayers().length > 0) {
+        map.fitBounds(todosLosPuntos.getBounds(), { padding: [45, 45] });
       } else {
-        alert("El CSV se leyó, pero no se encontraron coordenadas. Revisar nombres de columnas Vivienda_Latitud, Vivienda_Longitud, Parcela_Latitud y Parcela_Longitud.");
+        alert("El CSV se leyó, pero no se encontraron coordenadas.");
       }
-
-      console.log("Viviendas:", totalViviendas);
-      console.log("Parcelas:", totalParcelas);
-      console.log("Filas sin coordenadas:", sinCoordenadas);
     },
     error: function(error) {
       alert("No se pudo leer el CSV. Verificá que el archivo se llame exactamente: ALTO VERA_A.csv");
@@ -202,11 +411,62 @@
     }
   });
 
-  map.locate({ setView: false, watch: true, enableHighAccuracy: true });
+  document.getElementById("btnViviendas").addEventListener("click", function() {
+    if (map.hasLayer(capaViviendas)) {
+      map.removeLayer(capaViviendas);
+      this.classList.remove("boton-activo");
+    } else {
+      map.addLayer(capaViviendas);
+      this.classList.add("boton-activo");
+    }
+  });
 
-  let marcadorUsuario = null;
+  document.getElementById("btnParcelas").addEventListener("click", function() {
+    if (map.hasLayer(capaParcelas)) {
+      map.removeLayer(capaParcelas);
+      this.classList.remove("boton-activo");
+    } else {
+      map.addLayer(capaParcelas);
+      this.classList.add("boton-activo");
+    }
+  });
+
+  document.getElementById("buscador").addEventListener("input", function() {
+    const valor = this.value.trim().toLowerCase();
+    const contenedor = document.getElementById("resultados");
+    contenedor.innerHTML = "";
+
+    if (valor.length < 2) {
+      contenedor.style.display = "none";
+      return;
+    }
+
+    const encontrados = registrosBusqueda.filter(r => r.texto.includes(valor)).slice(0, 12);
+
+    encontrados.forEach(r => {
+      const div = document.createElement("div");
+      div.className = "item-resultado";
+      div.innerHTML = `<b>${r.nombre}</b><br>${r.tipo} | CI: ${r.cedula}<br>${r.comunidad}`;
+      div.onclick = function() {
+        map.setView([r.lat, r.lon], 17);
+        r.marker.openPopup();
+        contenedor.style.display = "none";
+      };
+      contenedor.appendChild(div);
+    });
+
+    contenedor.style.display = encontrados.length > 0 ? "block" : "none";
+  });
+
+  map.locate({
+    setView: false,
+    watch: true,
+    enableHighAccuracy: true
+  });
 
   map.on('locationfound', function(e) {
+    ubicacionActual = e.latlng;
+
     if (marcadorUsuario) {
       marcadorUsuario.setLatLng(e.latlng);
     } else {
@@ -214,10 +474,22 @@
         radius: 8,
         color: "#1a73e8",
         fillColor: "#1a73e8",
-        fillOpacity: 0.8
+        fillOpacity: 0.9,
+        weight: 3
       }).addTo(map).bindPopup("Mi ubicación actual");
     }
   });
+
+  function centrarMiUbicacion() {
+    if (ubicacionActual) {
+      map.setView(ubicacionActual, 17);
+      if (marcadorUsuario) marcadorUsuario.openPopup();
+    } else {
+      alert("Todavía no se pudo obtener tu ubicación. Permití el acceso a ubicación en el navegador.");
+    }
+  }
 </script>
+
 </body>
+</html>
 </html>
