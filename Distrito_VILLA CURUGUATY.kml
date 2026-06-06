@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document id="root_doc">
+    <Schema id="Distrito_VILLA_CURUGUATY.schema">
+      <SimpleField name="Cédula" type="double"/>
+      <SimpleField name="Nombres_y_" type="string"/>
+      <SimpleField name="Sexo" type="string"/>
+      <SimpleField name="Cambio_de_" type="string"/>
+      <SimpleField name="Titular_se" type="string"/>
+      <SimpleField name="Cédula_Ti" type="string"/>
+      <SimpleField name="ci_UNIF" type="double"/>
+      <SimpleField name="Situación" type="string"/>
+      <SimpleField name="Comunidad" type="string"/>
+      <SimpleField name="Modelo" type="string"/>
+      <SimpleField name="Departamen" type="string"/>
+      <SimpleField name="Distrito" type="string"/>
+      <SimpleField name="Localidad" type="string"/>
+      <SimpleField name="Teléfono" type="string"/>
+      <SimpleField name="Vivienda_L" type="double"/>
+      <SimpleField name="Vivienda_1" type="double"/>
+      <SimpleField name="Situaci_1" type="string"/>
+      <SimpleField name="Plantado_f" type="string"/>
+      <SimpleField name="año_usar" type="string"/>
+      <SimpleField name="año" type="double"/>
+      <SimpleField name="mes" type="string"/>
+      <SimpleField name="Grupo_de_p" type="string"/>
+      <SimpleField name="ETAPA_FAO" type="string"/>
+      <SimpleField name="Estado_del" type="string"/>
+      <SimpleField name="Empresa" type="string"/>
+      <SimpleField name="Lote" type="string"/>
+      <SimpleField name="X" type="double"/>
+      <SimpleField name="Y" type="double"/>
+      <SimpleField name="Sup_SIG" type="double"/>
+    </Schema>
+    <Document id="Distrito_VILLA_CURUGUATY">
+      <name>Distrito_VILLA CURUGUATY</name>
+      <Placemark id="Distrito_VILLA_CURUGUATY.1">
+        <ExtendedData>
+          <SchemaData schemaUrl="#Distrito_VILLA_CURUGUATY.schema">
+            <SimpleData name="Cédula">5905291.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">MARIA LUCILA FLORES QUI?ONEZ</SimpleData>
+            <SimpleData name="Sexo">Mujer</SimpleData>
+            <SimpleData name="Cambio_de_">NO</SimpleData>
+            <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="ci_UNIF">5905291.00000000000</SimpleData>
+            <SimpleData name="Situación">NO</SimpleData>
+            <SimpleData name="Comunidad">Campesina</SimpleData>
+            <SimpleData name="Modelo">Modelo 5</SimpleData>
+            <SimpleData name="Departamen">CANINDEYU</SimpleData>
+            <SimpleData name="Distrito">VILLA CURUGUATY</SimpleData>
+            <SimpleData name="Localidad">ARAUJO CUE</SimpleData>
+            <SimpleData name="Teléfono">0986367988</SimpleData>
+            <SimpleData name="Vivienda_L">-24.67209920000</SimpleData>
+            <SimpleData name="Vivienda_1">-55.64415980000</SimpleData>
+            <SimpleData name="Situaci_1">Pol?gono</SimpleData>
+            <SimpleData name="Plantado_f">2025/04/04</SimpleData>
+            <SimpleData name="año_usar">2025/04/04</SimpleData>
+            <SimpleData name="año">2025.00000000000</SimpleData>
+            <SimpleData name="mes">abril</SimpleData>
+            <SimpleData name="Grupo_de_p">Lote 1-G12G12</SimpleData>
+            <SimpleData name="ETAPA_FAO">Mantenimiento A?o 1.2</SimpleData>
+            <SimpleData name="Estado_del">Activo</SimpleData>
+            <SimpleData name="Empresa">Hyh Consultores SRL</SimpleData>
+            <SimpleData name="Lote">Lote 1</SimpleData>
+            <SimpleData name="X">-55.64552446000</SimpleData>
+            <SimpleData name="Y">-24.67151420000</SimpleData>
+            <SimpleData name="Sup_SIG">0.73960297631</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+                -55.6451616995946,-24.6715167003464,0
+                -55.6452016995635,-24.6720700011624,0
+                -55.6460103000132,-24.6719019004686,0
+                -55.6455964999671,-24.6708422006746,0
+                -55.6451831002841,-24.6709544007212,0
+                -55.6453485000731,-24.6714796004142,0
+                -55.6451616995946,-24.6715167003464,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark id="Distrito_VILLA_CURUGUATY.2">
+        <ExtendedData>
+          <SchemaData schemaUrl="#Distrito_VILLA_CURUGUATY.schema">
+            <SimpleData name="Cédula">5058979.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">CELIA LUCILA BENITEZ ARCE</SimpleData>
+            <SimpleData name="Sexo">Mujer</SimpleData>
+            <SimpleData name="Cambio_de_">NO</SimpleData>
+            <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="ci_UNIF">5058979.00000000000</SimpleData>
+            <SimpleData name="Situación">NO</SimpleData>
+            <SimpleData name="Comunidad">Ind?gena</SimpleData>
+            <SimpleData name="Modelo">Modelo 1</SimpleData>
+            <SimpleData name="Departamen">CANINDEYU</SimpleData>
+            <SimpleData name="Distrito">VILLA CURUGUATY</SimpleData>
+            <SimpleData name="Localidad">COM INDIG NUEVA ESPERANZA</SimpleData>
+            <SimpleData name="Teléfono">0981210933</SimpleData>
+            <SimpleData name="Vivienda_L">-24.38698920000</SimpleData>
+            <SimpleData name="Vivienda_1">-55.70943390000</SimpleData>
+            <SimpleData name="Situaci_1">Pol?gono</SimpleData>
+            <SimpleData name="Plantado_f">2024/01/08</SimpleData>
+            <SimpleData name="año_usar">2024/01/08</SimpleData>
+            <SimpleData name="año">2024.00000000000</SimpleData>
+            <SimpleData name="mes">enero</SimpleData>
+            <SimpleData name="Grupo_de_p">Lote 1-G2P15P15</SimpleData>
+            <SimpleData name="ETAPA_FAO">Mantenimiento A?o 2</SimpleData>
+            <SimpleData name="Estado_del">Activo</SimpleData>
+            <SimpleData name="Empresa">Hyh Consultores SRL</SimpleData>
+            <SimpleData name="Lote">Lote 1</SimpleData>
+            <SimpleData name="X">-55.71262768000</SimpleData>
+            <SimpleData name="Y">-24.38369272000</SimpleData>
+            <SimpleData name="Sup_SIG">0.81390351442</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+                -55.7121809997134,-24.3833467998478,0
+                -55.7121822000409,-24.3840622000886,0
+                -55.7123673001438,-24.3840628008482,0
+                -55.7123972004939,-24.3841856000238,0
+                -55.7131541002665,-24.3839901013628,0
+                -55.7129430995839,-24.3831918003049,0
+                -55.7121809997134,-24.3833467998478,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+    </Document>
+  </Document>
+</kml>
