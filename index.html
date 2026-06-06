@@ -8,205 +8,106 @@
   <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
   <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/leaflet-omnivore@0.3.4/leaflet-omnivore.min.js"></script>
 
   <style>
-    html, body {
-      height: 100%;
-      margin: 0;
-      font-family: Arial, sans-serif;
-    }
-
-    #map {
-      height: 100%;
-      width: 100%;
-    }
+    html, body { height: 100%; margin: 0; font-family: Arial, sans-serif; }
+    #map { height: 100%; width: 100%; }
 
     .panel {
-      position: absolute;
-      top: 12px;
-      left: 12px;
-      z-index: 1000;
-      background: white;
-      padding: 12px;
-      border-radius: 12px;
+      position: absolute; top: 12px; left: 12px; z-index: 1000;
+      background: white; padding: 12px; border-radius: 12px;
       box-shadow: 0 3px 12px rgba(0,0,0,0.35);
-      width: 330px;
-      max-width: calc(100% - 30px);
-      font-size: 13px;
+      width: 330px; max-width: calc(100% - 30px); font-size: 13px;
     }
 
-    .panel h3 {
-      margin: 0 0 6px 0;
-      font-size: 17px;
-      color: #111;
-    }
+    .panel h3 { margin: 0 0 6px 0; font-size: 17px; color: #111; }
 
     .buscador {
-      width: 100%;
-      box-sizing: border-box;
-      padding: 9px;
-      margin-top: 9px;
-      border: 1px solid #aaa;
-      border-radius: 7px;
+      width: 100%; box-sizing: border-box; padding: 9px;
+      margin-top: 9px; border: 1px solid #aaa; border-radius: 7px;
       font-size: 14px;
     }
 
-    .botones {
-      display: flex;
-      gap: 6px;
-      margin-top: 8px;
-      flex-wrap: wrap;
-    }
+    .botones { display: flex; gap: 6px; margin-top: 8px; flex-wrap: wrap; }
 
     .boton {
-      border: none;
-      border-radius: 7px;
-      padding: 8px 10px;
-      font-weight: bold;
-      cursor: pointer;
-      background: #eeeeee;
-      color: #111;
+      border: none; border-radius: 7px; padding: 8px 10px;
+      font-weight: bold; cursor: pointer; background: #eeeeee; color: #111;
     }
 
-    .boton-activo {
-      background: #1a73e8;
-      color: white;
-    }
+    .boton-activo { background: #1a73e8; color: white; }
 
     .resultados {
-      max-height: 180px;
-      overflow-y: auto;
-      margin-top: 8px;
-      border-top: 1px solid #ddd;
-      display: none;
-      background: #fff;
+      max-height: 180px; overflow-y: auto; margin-top: 8px;
+      border-top: 1px solid #ddd; display: none; background: #fff;
     }
 
     .item-resultado {
-      padding: 8px 4px;
-      border-bottom: 1px solid #eee;
-      cursor: pointer;
-      line-height: 1.35;
+      padding: 8px 4px; border-bottom: 1px solid #eee;
+      cursor: pointer; line-height: 1.35;
     }
 
-    .item-resultado:hover {
-      background: #f1f1f1;
-    }
+    .item-resultado:hover { background: #f1f1f1; }
 
     .popup-card {
-      min-width: 260px;
-      max-width: 320px;
-      color: #111;
-      font-size: 13px;
-      line-height: 1.45;
+      min-width: 260px; max-width: 320px; color: #111;
+      font-size: 13px; line-height: 1.45;
     }
 
     .popup-card h3 {
-      margin: 0 0 8px 0;
-      font-size: 17px;
-      color: #111;
-      line-height: 1.2;
+      margin: 0 0 8px 0; font-size: 17px; color: #111; line-height: 1.2;
     }
 
     .popup-badge {
-      display: inline-block;
-      padding: 4px 9px;
-      border-radius: 14px;
-      font-weight: bold;
-      margin-bottom: 8px;
-      font-size: 12px;
+      display: inline-block; padding: 4px 9px; border-radius: 14px;
+      font-weight: bold; margin-bottom: 8px; font-size: 12px;
     }
 
-    .badge-vivienda {
-      background: #fdd835;
-      color: #111;
-    }
-
-    .badge-parcela {
-      background: #f4511e;
-      color: white;
-    }
+    .badge-vivienda { background: #fdd835; color: #111; }
+    .badge-parcela { background: #f4511e; color: white; }
+    .badge-poligono { background: #2e7d32; color: white; }
 
     .popup-grid {
-      border-top: 1px solid #ddd;
-      margin-top: 6px;
-      padding-top: 6px;
+      border-top: 1px solid #ddd; margin-top: 6px; padding-top: 6px;
     }
 
-    .popup-grid div {
-      margin-bottom: 3px;
-    }
+    .popup-grid div { margin-bottom: 3px; }
 
     .btn-ruta {
-      display: block;
-      background: #1a73e8 !important;
-      color: #ffffff !important;
-      padding: 10px 12px;
-      border-radius: 8px;
-      text-decoration: none !important;
-      font-weight: bold;
-      margin-top: 10px;
-      text-align: center;
-      font-size: 14px;
+      display: block; background: #1a73e8 !important; color: #ffffff !important;
+      padding: 10px 12px; border-radius: 8px; text-decoration: none !important;
+      font-weight: bold; margin-top: 10px; text-align: center; font-size: 14px;
     }
 
-    .btn-ruta:visited,
-    .btn-ruta:hover,
-    .btn-ruta:active {
-      color: #ffffff !important;
-      text-decoration: none !important;
+    .btn-ruta:visited, .btn-ruta:hover, .btn-ruta:active {
+      color: #ffffff !important; text-decoration: none !important;
     }
 
     .leaflet-popup-content-wrapper {
-      background: white !important;
-      color: #111 !important;
-      border-radius: 12px;
-      box-shadow: 0 4px 16px rgba(0,0,0,0.35);
+      background: white !important; color: #111 !important;
+      border-radius: 12px; box-shadow: 0 4px 16px rgba(0,0,0,0.35);
     }
 
-    .leaflet-popup-content {
-      margin: 14px;
-    }
+    .leaflet-popup-content { margin: 14px; }
 
     .label-nombre {
-      background: rgba(255,255,255,0.92);
-      border: 1px solid #555;
-      border-radius: 4px;
-      padding: 2px 4px;
-      font-size: 11px;
-      font-weight: bold;
-      color: #111;
-      white-space: nowrap;
+      background: rgba(255,255,255,0.92); border: 1px solid #555;
+      border-radius: 4px; padding: 2px 4px; font-size: 11px;
+      font-weight: bold; color: #111; white-space: nowrap;
     }
 
     .mi-ubicacion-btn {
-      position: absolute;
-      right: 12px;
-      bottom: 28px;
-      z-index: 1000;
-      background: white;
-      border: none;
-      border-radius: 9px;
-      padding: 11px 13px;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.35);
-      font-weight: bold;
-      cursor: pointer;
+      position: absolute; right: 12px; bottom: 28px; z-index: 1000;
+      background: white; border: none; border-radius: 9px;
+      padding: 11px 13px; box-shadow: 0 2px 8px rgba(0,0,0,0.35);
+      font-weight: bold; cursor: pointer;
     }
 
     @media (max-width: 600px) {
-      .panel {
-        width: 290px;
-        font-size: 12px;
-      }
-
-      .panel h3 {
-        font-size: 15px;
-      }
-
-      .popup-card {
-        min-width: 230px;
-        max-width: 270px;
-      }
+      .panel { width: 290px; font-size: 12px; }
+      .panel h3 { font-size: 15px; }
+      .popup-card { min-width: 230px; max-width: 270px; }
     }
   </style>
 </head>
@@ -217,7 +118,8 @@
 
 <div class="panel">
   <h3>Mapa de campo</h3>
-  <div><b>Archivo:</b> ALTO VERA_A.csv</div>
+  <div><b>CSV:</b> <span id="nombreCSV">Cargando...</span></div>
+  <div><b>KML:</b> <span id="nombreKML">Sin KML</span></div>
   <div id="resumen">Cargando datos...</div>
 
   <input id="buscador" class="buscador" type="text" placeholder="Buscar por nombre, cédula o comunidad">
@@ -225,11 +127,13 @@
   <div class="botones">
     <button id="btnViviendas" class="boton boton-activo">🏠 Viviendas</button>
     <button id="btnParcelas" class="boton boton-activo">🟠 Parcelas</button>
+    <button id="btnKML" class="boton boton-activo">🟩 Polígonos</button>
   </div>
 
   <div style="margin-top:8px;">
     🏠 Vivienda<br>
     🟠 P Parcela<br>
+    🟩 Polígono KML<br>
     🔵 Mi ubicación
   </div>
 
@@ -239,7 +143,13 @@
 <button class="mi-ubicacion-btn" onclick="centrarMiUbicacion()">📍 Mi ubicación</button>
 
 <script>
-  const archivoCSV = "ALTO VERA_A.csv";
+  const params = new URLSearchParams(window.location.search);
+
+  const archivoCSV = params.get("csv") || "ALTO VERA_A.csv";
+  const archivoKML = params.get("kml") || "";
+
+  document.getElementById("nombreCSV").textContent = archivoCSV;
+  document.getElementById("nombreKML").textContent = archivoKML || "Sin KML";
 
   const map = L.map('map').setView([-24.4, -56.4], 12);
 
@@ -255,24 +165,22 @@
 
   const capaViviendas = L.featureGroup().addTo(map);
   const capaParcelas = L.featureGroup().addTo(map);
+  const capaKML = L.featureGroup().addTo(map);
   const todosLosPuntos = L.featureGroup().addTo(map);
 
   let registrosBusqueda = [];
   let ubicacionActual = null;
   let marcadorUsuario = null;
+  let totalPoligonos = 0;
 
   const iconoVivienda = L.divIcon({
     html: `<div style="width:30px;height:30px;border-radius:50%;background:#fdd835;border:2px solid white;display:flex;align-items:center;justify-content:center;font-size:18px;box-shadow:0 1px 5px rgba(0,0,0,0.55);">🏠</div>`,
-    className: "",
-    iconSize: [30, 30],
-    iconAnchor: [15, 15]
+    className: "", iconSize: [30, 30], iconAnchor: [15, 15]
   });
 
   const iconoParcela = L.divIcon({
     html: `<div style="width:32px;height:32px;border-radius:50%;background:#f4511e;border:2px solid white;display:flex;align-items:center;justify-content:center;color:white;font-weight:bold;font-size:18px;box-shadow:0 1px 5px rgba(0,0,0,0.55);">P</div>`,
-    className: "",
-    iconSize: [32, 32],
-    iconAnchor: [16, 16]
+    className: "", iconSize: [32, 32], iconAnchor: [16, 16]
   });
 
   function limpiarValor(valor) {
@@ -318,7 +226,6 @@
       <div class="popup-card">
         <span class="popup-badge ${badge}">${tipo}</span>
         <h3>${nombre}</h3>
-
         <div class="popup-grid">
           <div><b>Cédula:</b> ${cedula}</div>
           <div><b>Comunidad:</b> ${comunidad}</div>
@@ -334,7 +241,6 @@
           <div><b>Estado monitoreo:</b> ${estadoMonitoreo}</div>
           <div><b>Prioridad:</b> ${prioridad}</div>
         </div>
-
         <a class="btn-ruta" target="_blank" href="${urlRuta}">🧭 Cómo llegar</a>
       </div>
     `;
@@ -362,15 +268,19 @@
 
     registrosBusqueda.push({
       texto: `${nombre} ${cedula} ${comunidad} ${tipo}`.toLowerCase(),
-      nombre,
-      cedula,
-      comunidad,
-      tipo,
-      lat,
-      lon,
-      marker
+      nombre, cedula, comunidad, tipo, lat, lon, marker
     });
   }
+
+  function actualizarResumen(totalViviendas, totalParcelas) {
+    document.getElementById("resumen").innerHTML =
+      `<b>Viviendas:</b> ${totalViviendas}<br>` +
+      `<b>Parcelas:</b> ${totalParcelas}<br>` +
+      `<b>Polígonos KML:</b> ${totalPoligonos}`;
+  }
+
+  let totalViviendasGlobal = 0;
+  let totalParcelasGlobal = 0;
 
   Papa.parse(archivoCSV, {
     download: true,
@@ -379,8 +289,6 @@
     delimiter: "",
     complete: function(results) {
       const datos = results.data;
-      let totalViviendas = 0;
-      let totalParcelas = 0;
 
       datos.forEach(row => {
         const latViv = convertirNumero(get(row, "Vivienda_Latitud"));
@@ -388,7 +296,7 @@
 
         if (latViv !== null && lonViv !== null) {
           agregarPunto(row, "Vivienda", latViv, lonViv, iconoVivienda, capaViviendas);
-          totalViviendas++;
+          totalViviendasGlobal++;
         }
 
         const latPar = convertirNumero(get(row, "Parcela_Latitud"));
@@ -396,24 +304,71 @@
 
         if (latPar !== null && lonPar !== null) {
           agregarPunto(row, "Parcela", latPar, lonPar, iconoParcela, capaParcelas);
-          totalParcelas++;
+          totalParcelasGlobal++;
         }
       });
 
-      document.getElementById("resumen").innerHTML =
-        `<b>Viviendas:</b> ${totalViviendas}<br><b>Parcelas:</b> ${totalParcelas}`;
-
-      if (todosLosPuntos.getLayers().length > 0) {
-        map.fitBounds(todosLosPuntos.getBounds(), { padding: [45, 45] });
-      } else {
-        alert("El CSV se leyó, pero no se encontraron coordenadas.");
-      }
+      actualizarResumen(totalViviendasGlobal, totalParcelasGlobal);
+      ajustarVistaGeneral();
     },
     error: function(error) {
-      alert("No se pudo leer el CSV. Verificá que el archivo se llame exactamente: ALTO VERA_A.csv");
+      alert("No se pudo leer el CSV. Verificá que el archivo indicado exista en GitHub.");
       console.error(error);
     }
   });
+
+  function cargarKML() {
+    if (!archivoKML) return;
+
+    const kmlLayer = omnivore.kml(archivoKML)
+      .on('ready', function() {
+        kmlLayer.eachLayer(function(layer) {
+          totalPoligonos++;
+
+          if (layer.setStyle) {
+            layer.setStyle({
+              color: "#2e7d32",
+              weight: 3,
+              fillColor: "#66bb6a",
+              fillOpacity: 0.25
+            });
+          }
+
+          let nombrePoligono = "Polígono de plantación";
+          if (layer.feature && layer.feature.properties && layer.feature.properties.name) {
+            nombrePoligono = layer.feature.properties.name;
+          }
+
+          layer.bindPopup(`
+            <div class="popup-card">
+              <span class="popup-badge badge-poligono">Polígono KML</span>
+              <h3>${nombrePoligono}</h3>
+              <div class="popup-grid">
+                <div><b>Archivo:</b> ${archivoKML}</div>
+              </div>
+            </div>
+          `);
+
+          capaKML.addLayer(layer);
+          todosLosPuntos.addLayer(layer);
+        });
+
+        actualizarResumen(totalViviendasGlobal, totalParcelasGlobal);
+        ajustarVistaGeneral();
+      })
+      .on('error', function(e) {
+        alert("No se pudo leer el KML. Verificá que el archivo indicado exista en GitHub.");
+        console.error(e);
+      });
+  }
+
+  cargarKML();
+
+  function ajustarVistaGeneral() {
+    if (todosLosPuntos.getLayers().length > 0) {
+      map.fitBounds(todosLosPuntos.getBounds(), { padding: [45, 45] });
+    }
+  }
 
   document.getElementById("btnViviendas").addEventListener("click", function() {
     if (map.hasLayer(capaViviendas)) {
@@ -431,6 +386,16 @@
       this.classList.remove("boton-activo");
     } else {
       map.addLayer(capaParcelas);
+      this.classList.add("boton-activo");
+    }
+  });
+
+  document.getElementById("btnKML").addEventListener("click", function() {
+    if (map.hasLayer(capaKML)) {
+      map.removeLayer(capaKML);
+      this.classList.remove("boton-activo");
+    } else {
+      map.addLayer(capaKML);
       this.classList.add("boton-activo");
     }
   });
@@ -462,11 +427,7 @@
     contenedor.style.display = encontrados.length > 0 ? "block" : "none";
   });
 
-  map.locate({
-    setView: false,
-    watch: true,
-    enableHighAccuracy: true
-  });
+  map.locate({ setView: false, watch: true, enableHighAccuracy: true });
 
   map.on('locationfound', function(e) {
     ubicacionActual = e.latlng;
