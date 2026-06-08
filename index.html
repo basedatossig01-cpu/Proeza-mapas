@@ -14,6 +14,18 @@
     html, body { height: 100%; margin: 0; font-family: Arial, sans-serif; }
     #map { height: 100%; width: 100%; }
 
+    .logo-proeza {
+      position: absolute;
+      top: 12px;
+      right: 12px;
+      z-index: 1000;
+      width: 92px;
+      background: white;
+      padding: 6px;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.35);
+    }
+
     .panel {
       position: absolute; top: 12px; left: 12px; z-index: 1000;
       background: white; padding: 14px; border-radius: 12px;
@@ -22,7 +34,6 @@
     }
 
     .panel h3 { margin: 0 0 8px 0; font-size: 20px; color: #111; }
-
     .resumen-linea { font-weight: bold; line-height: 1.25; }
     .resumen-parcelas { color: #f57c00; }
     .resumen-poligonos { color: #e11b22; }
@@ -122,7 +133,7 @@
       background: transparent;
       border: none;
       color: white;
-      font-size: 14px;
+      font-size: 13px;
       font-weight: bold;
       text-shadow:
         -1px -1px 2px #000,
@@ -140,6 +151,7 @@
     }
 
     @media (max-width: 600px) {
+      .logo-proeza { width: 70px; }
       .panel { width: 300px; font-size: 12px; }
       .panel h3 { font-size: 17px; }
       .popup-card { min-width: 230px; max-width: 280px; }
@@ -150,6 +162,7 @@
 <body>
 
 <div id="map"></div>
+<img src="Logo PROEZA (1).png" class="logo-proeza" alt="Logo PROEZA">
 
 <div class="panel">
   <h3>Mapa de campo 🗺️</h3>
@@ -179,9 +192,10 @@
 
 <script>
   const params = new URLSearchParams(window.location.search);
-
   const archivoCSV = params.get("csv") || "ALTO VERA_A.csv";
   const archivoKML = params.get("kml") || "";
+
+  const ZOOM_ETIQUETA_KML = 16;
 
   document.getElementById("nombreCSV").textContent = archivoCSV;
   document.getElementById("nombreKML").textContent = archivoKML || "Sin KML";
@@ -225,20 +239,14 @@
 
   function get(row, nombre) {
     if (row[nombre] !== undefined) return row[nombre];
+
     const buscado = nombre.trim().toLowerCase();
     const clave = Object.keys(row).find(k => k.trim().toLowerCase() === buscado);
     return clave ? row[clave] : "";
   }
 
   function getModelo(row) {
-    const posibles = [
-      "Modelo",
-      "Modelo ",
-      "MODELO",
-      "modelo",
-      "Tipo de modelo",
-      "Modelo SAF"
-    ];
+    const posibles = ["Modelo", "MODELO", "modelo", "Tipo de modelo", "Modelo SAF"];
 
     for (const campo of posibles) {
       const valor = limpiarValor(get(row, campo));
@@ -422,7 +430,7 @@
           const nombrePoligono = getNombrePoligono(layer);
 
           layer.bindTooltip(nombrePoligono, {
-            permanent: true,
+            permanent: false,
             direction: "center",
             className: "kml-label"
           });
@@ -443,6 +451,7 @@
 
         actualizarResumen(totalViviendasGlobal, totalParcelasGlobal);
         ajustarVistaGeneral();
+        actualizarEtiquetasKML();
       })
       .on('error', function(e) {
         alert("No se pudo leer el KML. Verificá que el archivo indicado exista en GitHub.");
@@ -457,6 +466,21 @@
       map.fitBounds(todosLosPuntos.getBounds(), { padding: [45, 45] });
     }
   }
+
+  function actualizarEtiquetasKML() {
+    capaKML.eachLayer(function(layer) {
+      if (!layer.getTooltip || !layer.getTooltip()) return;
+
+      if (map.getZoom() >= ZOOM_ETIQUETA_KML && map.hasLayer(capaKML)) {
+        layer.openTooltip();
+      } else {
+        layer.closeTooltip();
+      }
+    });
+  }
+
+  map.on("zoomend", actualizarEtiquetasKML);
+  map.on("moveend", actualizarEtiquetasKML);
 
   document.getElementById("btnViviendas").addEventListener("click", function() {
     if (map.hasLayer(capaViviendas)) {
@@ -485,6 +509,7 @@
     } else {
       map.addLayer(capaKML);
       this.classList.add("boton-activo");
+      actualizarEtiquetasKML();
     }
   });
 
