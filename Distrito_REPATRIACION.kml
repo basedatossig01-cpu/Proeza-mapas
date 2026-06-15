@@ -11,77 +11,84 @@
       <SimpleField name="ci_UNIF" type="double"/>
       <SimpleField name="Situación" type="string"/>
       <SimpleField name="Comunidad" type="string"/>
-      <SimpleField name="Modelo" type="string"/>
+      <SimpleField name="Modelo_imp" type="string"/>
       <SimpleField name="Departamen" type="string"/>
       <SimpleField name="Distrito" type="string"/>
       <SimpleField name="Localidad" type="string"/>
       <SimpleField name="Teléfono" type="string"/>
       <SimpleField name="Vivienda_L" type="double"/>
       <SimpleField name="Vivienda_1" type="double"/>
+      <SimpleField name="Superficie" type="double"/>
       <SimpleField name="Situaci_1" type="string"/>
+      <SimpleField name="Plantado" type="string"/>
       <SimpleField name="Plantado_f" type="string"/>
-      <SimpleField name="año_usar" type="string"/>
-      <SimpleField name="año" type="double"/>
-      <SimpleField name="mes" type="string"/>
+      <SimpleField name="Jornales" type="double"/>
+      <SimpleField name="Monto" type="double"/>
       <SimpleField name="Grupo_de_p" type="string"/>
-      <SimpleField name="ETAPA_FAO" type="string"/>
       <SimpleField name="Estado_del" type="string"/>
       <SimpleField name="Empresa" type="string"/>
       <SimpleField name="Lote" type="string"/>
+      <SimpleField name="Parametro" type="double"/>
+      <SimpleField name="Sup_Sig" type="double"/>
+      <SimpleField name="Situacion" type="string"/>
       <SimpleField name="X" type="double"/>
       <SimpleField name="Y" type="double"/>
-      <SimpleField name="Sup_SIG" type="double"/>
     </Schema>
     <Document id="Distrito_REPATRIACION">
       <name>Distrito_REPATRIACION</name>
       <Placemark id="Distrito_REPATRIACION.1">
         <ExtendedData>
           <SchemaData schemaUrl="#Distrito_REPATRIACION.schema">
-            <SimpleData name="Cédula">7539977.00000000000</SimpleData>
-            <SimpleData name="Nombres_y_">IRMA DUARTE ROMERO</SimpleData>
+            <SimpleData name="Cédula">4374187.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">ROSANA BENITEZ CENTURION</SimpleData>
             <SimpleData name="Sexo">Mujer</SimpleData>
             <SimpleData name="Cambio_de_">NO</SimpleData>
             <SimpleData name="Titular_se">NO</SimpleData>
-            <SimpleData name="ci_UNIF">7539977.00000000000</SimpleData>
+            <SimpleData name="ci_UNIF">4374187.00000000000</SimpleData>
             <SimpleData name="Situación">NO</SimpleData>
             <SimpleData name="Comunidad">Ind?gena</SimpleData>
-            <SimpleData name="Modelo">Modelo 5</SimpleData>
+            <SimpleData name="Modelo_imp">Modelo 5</SimpleData>
             <SimpleData name="Departamen">CAAGUAZU</SimpleData>
             <SimpleData name="Distrito">REPATRIACION</SimpleData>
             <SimpleData name="Localidad">COM INDIG KAATYMI</SimpleData>
             <SimpleData name="Teléfono">ND</SimpleData>
-            <SimpleData name="Vivienda_L">-25.66051490000</SimpleData>
-            <SimpleData name="Vivienda_1">-55.69294050000</SimpleData>
-            <SimpleData name="Situaci_1">Pol?gono</SimpleData>
-            <SimpleData name="Plantado_f">2025/09/22</SimpleData>
-            <SimpleData name="año_usar">2025/09/22</SimpleData>
-            <SimpleData name="año">2025.00000000000</SimpleData>
-            <SimpleData name="mes">septiembre</SimpleData>
-            <SimpleData name="Grupo_de_p">C-GN</SimpleData>
-            <SimpleData name="ETAPA_FAO">Plantaci?n</SimpleData>
+            <SimpleData name="Vivienda_L">-25.66299960000</SimpleData>
+            <SimpleData name="Vivienda_1">-55.69715480000</SimpleData>
+            <SimpleData name="Superficie">0.70000000000</SimpleData>
+            <SimpleData name="Situaci_1">Par?metro</SimpleData>
+            <SimpleData name="Plantado">SI</SimpleData>
+            <SimpleData name="Plantado_f">2025/09/24</SimpleData>
+            <SimpleData name="Jornales">0.00000000000</SimpleData>
+            <SimpleData name="Monto">0.00000000000</SimpleData>
+            <SimpleData name="Grupo_de_p">C-P3</SimpleData>
             <SimpleData name="Estado_del">Activo</SimpleData>
             <SimpleData name="Empresa">Unique Wood Paraguay SA</SimpleData>
             <SimpleData name="Lote">C</SimpleData>
-            <SimpleData name="X">-55.69328161000</SimpleData>
-            <SimpleData name="Y">-25.66126537000</SimpleData>
-            <SimpleData name="Sup_SIG">0.79829508759</SimpleData>
+            <SimpleData name="Parametro">0.70000000000</SimpleData>
+            <SimpleData name="Sup_Sig">0.74974288037</SimpleData>
+            <SimpleData name="Situacion">Cumple</SimpleData>
+            <SimpleData name="X">-55.69701083000</SimpleData>
+            <SimpleData name="Y">-25.66346033000</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Polygon>
           <outerBoundaryIs>
             <LinearRing>
               <coordinates>
-                -55.6927049993332,-25.6607283000025,0
-                -55.6927652997334,-25.6613585999806,0
-                -55.6928130993715,-25.6615111001971,0
-                -55.6928903998753,-25.6616005004554,0
-                -55.6942876999213,-25.6615782001203,0
-                -55.6942182992169,-25.6613399997787,0
-                -55.6935685997964,-25.6613513001048,0
-                -55.693371099904,-25.6611735996524,0
-                -55.6933023993162,-25.6608622998649,0
-                -55.6932232995847,-25.6607932996457,0
-                -55.6927049993332,-25.6607283000025,0
+                -55.6964962993363,-25.6632966998493,0
+                -55.6969982994173,-25.6640649997975,0
+                -55.6972966991857,-25.6640049999953,0
+                -55.6973166999146,-25.6637350004041,0
+                -55.6975975997652,-25.6635335997473,0
+                -55.6975682999629,-25.6632733997159,0
+                -55.6972013995909,-25.6633622000518,0
+                -55.6969608998832,-25.663227799992,0
+                -55.6969596993188,-25.6630521996839,0
+                -55.6969596991507,-25.6627119002077,0
+                -55.6967582999663,-25.6626950004432,0
+                -55.6967630993107,-25.6630727003588,0
+                -55.6965457991234,-25.663122000185,0
+                -55.6964962993363,-25.6632966998493,0
               </coordinates>
             </LinearRing>
           </outerBoundaryIs>

@@ -71,21 +71,11 @@
             <SimpleData name="Y">-26.23780095000</SimpleData>
           </SchemaData>
         </ExtendedData>
-        <Polygon>
-          <outerBoundaryIs>
-            <LinearRing>
-              <coordinates>
-                -55.6710961001673,-26.2373488999888,0
-                -55.6710349995515,-26.238268300029,0
-                -55.672106699877,-26.2381800004255,0
-                -55.6719333003098,-26.2375932999524,0
-                -55.6718970998733,-26.2374154002544,0
-                -55.6717182004667,-26.2372946003073,0
-                -55.6710961001673,-26.2373488999888,0
-              </coordinates>
-            </LinearRing>
-          </outerBoundaryIs>
-        </Polygon>
+        <Point>
+          <coordinates>
+            -55.6715214143419,-26.2378009490823,0
+          </coordinates>
+        </Point>
       </Placemark>
       <Placemark id="Distrito_TAVA__.2">
         <ExtendedData>
@@ -122,22 +112,11 @@
             <SimpleData name="Y">-26.14117702000</SimpleData>
           </SchemaData>
         </ExtendedData>
-        <Polygon>
-          <outerBoundaryIs>
-            <LinearRing>
-              <coordinates>
-                -55.6734274016273,-26.1413982533854,0
-                -55.6739882993551,-26.1414416997966,0
-                -55.6743826006029,-26.1412577996505,0
-                -55.6743939999465,-26.1410903999261,0
-                -55.6722142994153,-26.1408883001079,0
-                -55.6723099999501,-26.1413116996909,0
-                -55.6727963207032,-26.1413493696479,0
-                -55.6734274016273,-26.1413982533854,0
-              </coordinates>
-            </LinearRing>
-          </outerBoundaryIs>
-        </Polygon>
+        <Point>
+          <coordinates>
+            -55.6732596211138,-26.1411770177378,0
+          </coordinates>
+        </Point>
       </Placemark>
       <Placemark id="Distrito_TAVA__.3">
         <ExtendedData>
@@ -175,37 +154,16 @@
           </SchemaData>
         </ExtendedData>
         <MultiGeometry>
-          <Polygon>
-            <outerBoundaryIs>
-              <LinearRing>
-                <coordinates>
-                  -55.6931517004714,-26.2434150000878,0
-                  -55.6932312000579,-26.2433269001376,0
-                  -55.6928833001415,-26.2429314996517,0
-                  -55.6928063004079,-26.2430042996431,0
-                  -55.6931517004714,-26.2434150000878,0
-                </coordinates>
-              </LinearRing>
-            </outerBoundaryIs>
-          </Polygon>
-          <Polygon>
-            <outerBoundaryIs>
-              <LinearRing>
-                <coordinates>
-                  -55.6934332997841,-26.2433982999697,0
-                  -55.6936600001101,-26.2433650002582,0
-                  -55.6938883000273,-26.2432066996777,0
-                  -55.6942817001731,-26.2427967003679,0
-                  -55.6944299996367,-26.2424217001583,0
-                  -55.6934582998247,-26.2426033001175,0
-                  -55.6932850004013,-26.243038300198,0
-                  -55.6933150004239,-26.2432183002928,0
-                  -55.6933883005588,-26.2433267003962,0
-                  -55.6934332997841,-26.2433982999697,0
-                </coordinates>
-              </LinearRing>
-            </outerBoundaryIs>
-          </Polygon>
+          <Point>
+            <coordinates>
+              -55.6937855629489,-26.2428844167585,0
+            </coordinates>
+          </Point>
+          <Point>
+            <coordinates>
+              -55.6930210835949,-26.2431731044164,0
+            </coordinates>
+          </Point>
         </MultiGeometry>
       </Placemark>
       <Placemark id="Distrito_TAVA__.4">
@@ -243,25 +201,11 @@
             <SimpleData name="Y">-26.23160987000</SimpleData>
           </SchemaData>
         </ExtendedData>
-        <Polygon>
-          <outerBoundaryIs>
-            <LinearRing>
-              <coordinates>
-                -55.6704245996822,-26.2320412998938,0
-                -55.6704292005385,-26.2322158001479,0
-                -55.6711173000161,-26.2321657999402,0
-                -55.6710897003713,-26.2317961003241,0
-                -55.6707346999051,-26.2317201003431,0
-                -55.6706141003305,-26.2311613997112,0
-                -55.6710445005435,-26.2311371000963,0
-                -55.6710294003539,-26.2309557000577,0
-                -55.6702250999236,-26.2309969997415,0
-                -55.6704006001273,-26.2320249997376,0
-                -55.6704245996822,-26.2320412998938,0
-              </coordinates>
-            </LinearRing>
-          </outerBoundaryIs>
-        </Polygon>
+        <Point>
+          <coordinates>
+            -55.6706372057215,-26.2316098670961,0
+          </coordinates>
+        </Point>
       </Placemark>
       <Placemark id="Distrito_TAVA__.5">
         <ExtendedData>
@@ -298,20 +242,11 @@
             <SimpleData name="Y">-26.24304170000</SimpleData>
           </SchemaData>
         </ExtendedData>
-        <Polygon>
-          <outerBoundaryIs>
-            <LinearRing>
-              <coordinates>
-                -55.6489777003859,-26.2434464004407,0
-                -55.649275700086,-26.2435170996426,0
-                -55.6498182995764,-26.2434349995855,0
-                -55.650126499679,-26.2427769003991,0
-                -55.6489002996683,-26.2425549999638,0
-                -55.6489777003859,-26.2434464004407,0
-              </coordinates>
-            </LinearRing>
-          </outerBoundaryIs>
-        </Polygon>
+        <Point>
+          <coordinates>
+            -55.6494352912813,-26.2430416981296,0
+          </coordinates>
+        </Point>
       </Placemark>
     </Document>
   </Document>

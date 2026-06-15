@@ -1,0 +1,534 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document id="root_doc">
+    <Schema id="Distrito_YBY_PYTA.schema">
+      <SimpleField name="Cédula" type="double"/>
+      <SimpleField name="Nombres_y_" type="string"/>
+      <SimpleField name="Sexo" type="string"/>
+      <SimpleField name="Cambio_de_" type="string"/>
+      <SimpleField name="Titular_se" type="string"/>
+      <SimpleField name="Cédula_Ti" type="string"/>
+      <SimpleField name="ci_UNIF" type="double"/>
+      <SimpleField name="Situación" type="string"/>
+      <SimpleField name="Comunidad" type="string"/>
+      <SimpleField name="Modelo_imp" type="string"/>
+      <SimpleField name="Departamen" type="string"/>
+      <SimpleField name="Distrito" type="string"/>
+      <SimpleField name="Localidad" type="string"/>
+      <SimpleField name="Teléfono" type="string"/>
+      <SimpleField name="Vivienda_L" type="double"/>
+      <SimpleField name="Vivienda_1" type="double"/>
+      <SimpleField name="Superficie" type="double"/>
+      <SimpleField name="Situaci_1" type="string"/>
+      <SimpleField name="Plantado" type="string"/>
+      <SimpleField name="Plantado_f" type="string"/>
+      <SimpleField name="Jornales" type="double"/>
+      <SimpleField name="Monto" type="double"/>
+      <SimpleField name="Grupo_de_p" type="string"/>
+      <SimpleField name="Estado_del" type="string"/>
+      <SimpleField name="Empresa" type="string"/>
+      <SimpleField name="Lote" type="string"/>
+      <SimpleField name="Parametro" type="double"/>
+      <SimpleField name="Sup_Sig" type="double"/>
+      <SimpleField name="Situacion" type="string"/>
+      <SimpleField name="X" type="double"/>
+      <SimpleField name="Y" type="double"/>
+    </Schema>
+    <Document id="Distrito_YBY_PYTA">
+      <name>Distrito_YBY PYTA</name>
+      <Placemark id="Distrito_YBY_PYTA.1">
+        <ExtendedData>
+          <SchemaData schemaUrl="#Distrito_YBY_PYTA.schema">
+            <SimpleData name="Cédula">4173655.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">DORA PIRAGI</SimpleData>
+            <SimpleData name="Sexo">Mujer</SimpleData>
+            <SimpleData name="Cambio_de_">NO</SimpleData>
+            <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="ci_UNIF">4173655.00000000000</SimpleData>
+            <SimpleData name="Situación">NO</SimpleData>
+            <SimpleData name="Comunidad">Ind?gena</SimpleData>
+            <SimpleData name="Modelo_imp">Modelo 4</SimpleData>
+            <SimpleData name="Departamen">CANINDEYU</SimpleData>
+            <SimpleData name="Distrito">YBY PYTA</SimpleData>
+            <SimpleData name="Localidad">COM INDIG KUETUVY</SimpleData>
+            <SimpleData name="Teléfono">0981977175</SimpleData>
+            <SimpleData name="Vivienda_L">-24.28724980000</SimpleData>
+            <SimpleData name="Vivienda_1">-55.41588140000</SimpleData>
+            <SimpleData name="Superficie">0.70000000000</SimpleData>
+            <SimpleData name="Situaci_1">Par?metro</SimpleData>
+            <SimpleData name="Plantado">SI</SimpleData>
+            <SimpleData name="Plantado_f">2026/01/07</SimpleData>
+            <SimpleData name="Jornales">0.00000000000</SimpleData>
+            <SimpleData name="Monto">0.00000000000</SimpleData>
+            <SimpleData name="Grupo_de_p">G-P2</SimpleData>
+            <SimpleData name="Estado_del">Activo</SimpleData>
+            <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
+            <SimpleData name="Lote">G</SimpleData>
+            <SimpleData name="Parametro">0.70000000000</SimpleData>
+            <SimpleData name="Sup_Sig">0.71472842661</SimpleData>
+            <SimpleData name="Situacion">Cumple</SimpleData>
+            <SimpleData name="X">-55.40643476000</SimpleData>
+            <SimpleData name="Y">-24.28985608000</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+                -55.4057417001717,-24.2894482999486,0
+                -55.4067635996994,-24.2905106004468,0
+                -55.4071199999388,-24.2902733001411,0
+                -55.4061360002885,-24.2892125002924,0
+                -55.4057417001717,-24.2894482999486,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark id="Distrito_YBY_PYTA.2">
+        <ExtendedData>
+          <SchemaData schemaUrl="#Distrito_YBY_PYTA.schema">
+            <SimpleData name="Cédula">5073233.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">LUISA MBEPEGI</SimpleData>
+            <SimpleData name="Sexo">Mujer</SimpleData>
+            <SimpleData name="Cambio_de_">NO</SimpleData>
+            <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="ci_UNIF">5073233.00000000000</SimpleData>
+            <SimpleData name="Situación">NO</SimpleData>
+            <SimpleData name="Comunidad">Ind?gena</SimpleData>
+            <SimpleData name="Modelo_imp">Modelo 4</SimpleData>
+            <SimpleData name="Departamen">CANINDEYU</SimpleData>
+            <SimpleData name="Distrito">YBY PYTA</SimpleData>
+            <SimpleData name="Localidad">COM INDIG KUETUVY</SimpleData>
+            <SimpleData name="Teléfono">0984216713</SimpleData>
+            <SimpleData name="Vivienda_L">-24.28723050000</SimpleData>
+            <SimpleData name="Vivienda_1">-55.41580030000</SimpleData>
+            <SimpleData name="Superficie">0.70000000000</SimpleData>
+            <SimpleData name="Situaci_1">Par?metro</SimpleData>
+            <SimpleData name="Plantado">SI</SimpleData>
+            <SimpleData name="Plantado_f">2025/11/29</SimpleData>
+            <SimpleData name="Jornales">0.00000000000</SimpleData>
+            <SimpleData name="Monto">0.00000000000</SimpleData>
+            <SimpleData name="Grupo_de_p">G-P1</SimpleData>
+            <SimpleData name="Estado_del">Activo</SimpleData>
+            <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
+            <SimpleData name="Lote">G</SimpleData>
+            <SimpleData name="Parametro">0.70000000000</SimpleData>
+            <SimpleData name="Sup_Sig">0.82109352822</SimpleData>
+            <SimpleData name="Situacion">Cumple</SimpleData>
+            <SimpleData name="X">-55.40518455000</SimpleData>
+            <SimpleData name="Y">-24.29272348000</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+                -55.4045215995439,-24.2927675997572,0
+                -55.4054649998872,-24.293293300104,0
+                -55.4057766998207,-24.2925216998977,0
+                -55.4049267004432,-24.2922350002003,0
+                -55.4045215995439,-24.2927675997572,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark id="Distrito_YBY_PYTA.3">
+        <ExtendedData>
+          <SchemaData schemaUrl="#Distrito_YBY_PYTA.schema">
+            <SimpleData name="Cédula">5316192.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">MIRTA RAQUEL ENCISO PERALTA</SimpleData>
+            <SimpleData name="Sexo">Mujer</SimpleData>
+            <SimpleData name="Cambio_de_">NO</SimpleData>
+            <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="ci_UNIF">5316192.00000000000</SimpleData>
+            <SimpleData name="Situación">NO</SimpleData>
+            <SimpleData name="Comunidad">Ind?gena</SimpleData>
+            <SimpleData name="Modelo_imp">Modelo 5</SimpleData>
+            <SimpleData name="Departamen">CANINDEYU</SimpleData>
+            <SimpleData name="Distrito">YBY PYTA</SimpleData>
+            <SimpleData name="Localidad">COM INDIG YRYAPU</SimpleData>
+            <SimpleData name="Teléfono">0986886008</SimpleData>
+            <SimpleData name="Vivienda_L">-24.32243040000</SimpleData>
+            <SimpleData name="Vivienda_1">-55.32159400000</SimpleData>
+            <SimpleData name="Superficie">0.70000000000</SimpleData>
+            <SimpleData name="Situaci_1">Pol?gono</SimpleData>
+            <SimpleData name="Plantado">SI</SimpleData>
+            <SimpleData name="Plantado_f">2025/11/09</SimpleData>
+            <SimpleData name="Jornales">0.00000000000</SimpleData>
+            <SimpleData name="Monto">0.00000000000</SimpleData>
+            <SimpleData name="Grupo_de_p">G-P3</SimpleData>
+            <SimpleData name="Estado_del">Activo</SimpleData>
+            <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
+            <SimpleData name="Lote">G</SimpleData>
+            <SimpleData name="Parametro">0.70000000000</SimpleData>
+            <SimpleData name="Sup_Sig">0.72577835623</SimpleData>
+            <SimpleData name="Situacion">Cumple</SimpleData>
+            <SimpleData name="X">-55.32225728000</SimpleData>
+            <SimpleData name="Y">-24.32216217000</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+                -55.3217653996193,-24.3221969002785,0
+                -55.3220916997401,-24.3226482996833,0
+                -55.3228517004147,-24.3223717002124,0
+                -55.3223567004518,-24.3216382999246,0
+                -55.3218642000294,-24.3218535996804,0
+                -55.3217653996193,-24.3221969002785,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark id="Distrito_YBY_PYTA.4">
+        <ExtendedData>
+          <SchemaData schemaUrl="#Distrito_YBY_PYTA.schema">
+            <SimpleData name="Cédula">7215848.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">MERCEDES DYRAGI URUGI TYKUARANGI</SimpleData>
+            <SimpleData name="Sexo">Mujer</SimpleData>
+            <SimpleData name="Cambio_de_">NO</SimpleData>
+            <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="ci_UNIF">7215848.00000000000</SimpleData>
+            <SimpleData name="Situación">NO</SimpleData>
+            <SimpleData name="Comunidad">Ind?gena</SimpleData>
+            <SimpleData name="Modelo_imp">Modelo 4</SimpleData>
+            <SimpleData name="Departamen">CANINDEYU</SimpleData>
+            <SimpleData name="Distrito">YBY PYTA</SimpleData>
+            <SimpleData name="Localidad">COM INDIG KUETUVY</SimpleData>
+            <SimpleData name="Teléfono">0984287385</SimpleData>
+            <SimpleData name="Vivienda_L">-24.28643590000</SimpleData>
+            <SimpleData name="Vivienda_1">-55.41757060000</SimpleData>
+            <SimpleData name="Superficie">0.70000000000</SimpleData>
+            <SimpleData name="Situaci_1">Par?metro</SimpleData>
+            <SimpleData name="Plantado">SI</SimpleData>
+            <SimpleData name="Plantado_f">2025/11/29</SimpleData>
+            <SimpleData name="Jornales">0.00000000000</SimpleData>
+            <SimpleData name="Monto">0.00000000000</SimpleData>
+            <SimpleData name="Grupo_de_p">G-P1</SimpleData>
+            <SimpleData name="Estado_del">Activo</SimpleData>
+            <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
+            <SimpleData name="Lote">G</SimpleData>
+            <SimpleData name="Parametro">0.70000000000</SimpleData>
+            <SimpleData name="Sup_Sig">0.75038849535</SimpleData>
+            <SimpleData name="Situacion">Cumple</SimpleData>
+            <SimpleData name="X">-55.40685284000</SimpleData>
+            <SimpleData name="Y">-24.28949705000</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+                -55.406195000263,-24.2892049998191,0
+                -55.4072300002732,-24.2901950000094,0
+                -55.4074558999977,-24.2897959004161,0
+                -55.4066136003277,-24.2888474997217,0
+                -55.406195000263,-24.2892049998191,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark id="Distrito_YBY_PYTA.5">
+        <ExtendedData>
+          <SchemaData schemaUrl="#Distrito_YBY_PYTA.schema">
+            <SimpleData name="Cédula">5960732.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">CATALINA VERA</SimpleData>
+            <SimpleData name="Sexo">Mujer</SimpleData>
+            <SimpleData name="Cambio_de_">NO</SimpleData>
+            <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="ci_UNIF">5960732.00000000000</SimpleData>
+            <SimpleData name="Situación">NO</SimpleData>
+            <SimpleData name="Comunidad">Ind?gena</SimpleData>
+            <SimpleData name="Modelo_imp">Modelo 4</SimpleData>
+            <SimpleData name="Departamen">CANINDEYU</SimpleData>
+            <SimpleData name="Distrito">YBY PYTA</SimpleData>
+            <SimpleData name="Localidad">COM INDIG KUETUVY</SimpleData>
+            <SimpleData name="Teléfono">0985906751</SimpleData>
+            <SimpleData name="Vivienda_L">-24.28756860000</SimpleData>
+            <SimpleData name="Vivienda_1">-55.41616870000</SimpleData>
+            <SimpleData name="Superficie">0.70000000000</SimpleData>
+            <SimpleData name="Situaci_1">Par?metro</SimpleData>
+            <SimpleData name="Plantado">SI</SimpleData>
+            <SimpleData name="Plantado_f">2025/11/29</SimpleData>
+            <SimpleData name="Jornales">0.00000000000</SimpleData>
+            <SimpleData name="Monto">0.00000000000</SimpleData>
+            <SimpleData name="Grupo_de_p">G-P1</SimpleData>
+            <SimpleData name="Estado_del">Activo</SimpleData>
+            <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
+            <SimpleData name="Lote">G</SimpleData>
+            <SimpleData name="Parametro">0.70000000000</SimpleData>
+            <SimpleData name="Sup_Sig">0.70517663215</SimpleData>
+            <SimpleData name="Situacion">Cumple</SimpleData>
+            <SimpleData name="X">-55.40626700000</SimpleData>
+            <SimpleData name="Y">-24.29372609000</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+                -55.4058816995177,-24.2933800001265,0
+                -55.4057531999315,-24.2941181000671,0
+                -55.406568299594,-24.2940766997377,0
+                -55.4066183003232,-24.2937117000149,0
+                -55.4068115996435,-24.2936983996969,0
+                -55.4069190998287,-24.2934138996122,0
+                -55.4058816995177,-24.2933800001265,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark id="Distrito_YBY_PYTA.6">
+        <ExtendedData>
+          <SchemaData schemaUrl="#Distrito_YBY_PYTA.schema">
+            <SimpleData name="Cédula">5465350.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">YSMAEL  GOMEZ</SimpleData>
+            <SimpleData name="Sexo">Hombre</SimpleData>
+            <SimpleData name="Cambio_de_">NO</SimpleData>
+            <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="ci_UNIF">5465350.00000000000</SimpleData>
+            <SimpleData name="Situación">NO</SimpleData>
+            <SimpleData name="Comunidad">Campesina</SimpleData>
+            <SimpleData name="Modelo_imp">Modelo 1</SimpleData>
+            <SimpleData name="Departamen">CANINDEYU</SimpleData>
+            <SimpleData name="Distrito">YBY PYTA</SimpleData>
+            <SimpleData name="Localidad">GUYRA KEHA - SAN JOSE</SimpleData>
+            <SimpleData name="Teléfono">983145159</SimpleData>
+            <SimpleData name="Vivienda_L">-24.24599530000</SimpleData>
+            <SimpleData name="Vivienda_1">-55.29092120000</SimpleData>
+            <SimpleData name="Superficie">0.80000000000</SimpleData>
+            <SimpleData name="Situaci_1">Par?metro</SimpleData>
+            <SimpleData name="Plantado">SI</SimpleData>
+            <SimpleData name="Plantado_f">2025/11/29</SimpleData>
+            <SimpleData name="Jornales">0.00000000000</SimpleData>
+            <SimpleData name="Monto">0.00000000000</SimpleData>
+            <SimpleData name="Grupo_de_p">G-P1</SimpleData>
+            <SimpleData name="Estado_del">Activo</SimpleData>
+            <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
+            <SimpleData name="Lote">G</SimpleData>
+            <SimpleData name="Parametro">0.80000000000</SimpleData>
+            <SimpleData name="Sup_Sig">0.90546048882</SimpleData>
+            <SimpleData name="Situacion">Cumple</SimpleData>
+            <SimpleData name="X">-55.29850400000</SimpleData>
+            <SimpleData name="Y">-24.23073460000</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+                -55.2980277003382,-24.2311698997146,0
+                -55.2989249999651,-24.2312200002846,0
+                -55.2989433004352,-24.2302883001587,0
+                -55.2981251996075,-24.2302319000467,0
+                -55.2980277003382,-24.2311698997146,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark id="Distrito_YBY_PYTA.7">
+        <ExtendedData>
+          <SchemaData schemaUrl="#Distrito_YBY_PYTA.schema">
+            <SimpleData name="Cédula">5948138.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">FLORENCIA  GONZALEZ JARA</SimpleData>
+            <SimpleData name="Sexo">Mujer</SimpleData>
+            <SimpleData name="Cambio_de_">NO</SimpleData>
+            <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="ci_UNIF">5948138.00000000000</SimpleData>
+            <SimpleData name="Situación">NO</SimpleData>
+            <SimpleData name="Comunidad">Campesina</SimpleData>
+            <SimpleData name="Modelo_imp">Modelo 5</SimpleData>
+            <SimpleData name="Departamen">CANINDEYU</SimpleData>
+            <SimpleData name="Distrito">YBY PYTA</SimpleData>
+            <SimpleData name="Localidad">GUYRA KEHA - SAN JOSE</SimpleData>
+            <SimpleData name="Teléfono">987195844</SimpleData>
+            <SimpleData name="Vivienda_L">-24.24599790000</SimpleData>
+            <SimpleData name="Vivienda_1">-55.30833160000</SimpleData>
+            <SimpleData name="Superficie">0.70000000000</SimpleData>
+            <SimpleData name="Situaci_1">Pol?gono</SimpleData>
+            <SimpleData name="Plantado">SI</SimpleData>
+            <SimpleData name="Plantado_f">2025/11/09</SimpleData>
+            <SimpleData name="Jornales">0.00000000000</SimpleData>
+            <SimpleData name="Monto">0.00000000000</SimpleData>
+            <SimpleData name="Grupo_de_p">G-P1</SimpleData>
+            <SimpleData name="Estado_del">Activo</SimpleData>
+            <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
+            <SimpleData name="Lote">G</SimpleData>
+            <SimpleData name="Parametro">0.70000000000</SimpleData>
+            <SimpleData name="Sup_Sig">0.70951311659</SimpleData>
+            <SimpleData name="Situacion">Cumple</SimpleData>
+            <SimpleData name="X">-55.31386066000</SimpleData>
+            <SimpleData name="Y">-24.24625674000</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+                -55.3131119000075,-24.2464352998215,0
+                -55.3144855005421,-24.2465240997664,0
+                -55.3146022999173,-24.2460390005094,0
+                -55.3131531001759,-24.246031900276,0
+                -55.3131119000075,-24.2464352998215,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark id="Distrito_YBY_PYTA.8">
+        <ExtendedData>
+          <SchemaData schemaUrl="#Distrito_YBY_PYTA.schema">
+            <SimpleData name="Cédula">6358403.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">RUTH NARDILIN ALTAMIRANO RUIZ</SimpleData>
+            <SimpleData name="Sexo">Mujer</SimpleData>
+            <SimpleData name="Cambio_de_">NO</SimpleData>
+            <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="ci_UNIF">6358403.00000000000</SimpleData>
+            <SimpleData name="Situación">NO</SimpleData>
+            <SimpleData name="Comunidad">Campesina</SimpleData>
+            <SimpleData name="Modelo_imp">Modelo 5</SimpleData>
+            <SimpleData name="Departamen">CANINDEYU</SimpleData>
+            <SimpleData name="Distrito">YBY PYTA</SimpleData>
+            <SimpleData name="Localidad">GUYRA KEHA</SimpleData>
+            <SimpleData name="Teléfono">0985376447</SimpleData>
+            <SimpleData name="Vivienda_L">-24.24793470000</SimpleData>
+            <SimpleData name="Vivienda_1">-55.28940130000</SimpleData>
+            <SimpleData name="Superficie">0.70000000000</SimpleData>
+            <SimpleData name="Situaci_1">Pol?gono</SimpleData>
+            <SimpleData name="Plantado">SI</SimpleData>
+            <SimpleData name="Plantado_f">2025/10/23</SimpleData>
+            <SimpleData name="Jornales">0.00000000000</SimpleData>
+            <SimpleData name="Monto">0.00000000000</SimpleData>
+            <SimpleData name="Grupo_de_p">G-P1</SimpleData>
+            <SimpleData name="Estado_del">Activo</SimpleData>
+            <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
+            <SimpleData name="Lote">G</SimpleData>
+            <SimpleData name="Parametro">0.70000000000</SimpleData>
+            <SimpleData name="Sup_Sig">0.71090494349</SimpleData>
+            <SimpleData name="Situacion">Cumple</SimpleData>
+            <SimpleData name="X">-55.28722714000</SimpleData>
+            <SimpleData name="Y">-24.24814473000</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+                -55.2868845999523,-24.2486390000269,0
+                -55.2875447995054,-24.2486535996569,0
+                -55.287523300107,-24.2476199999059,0
+                -55.286955600331,-24.2476144998855,0
+                -55.2868845999523,-24.2486390000269,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark id="Distrito_YBY_PYTA.9">
+        <ExtendedData>
+          <SchemaData schemaUrl="#Distrito_YBY_PYTA.schema">
+            <SimpleData name="Cédula">2890135.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">MARTIN FRANCISCO VILLALBA</SimpleData>
+            <SimpleData name="Sexo">Hombre</SimpleData>
+            <SimpleData name="Cambio_de_">NO</SimpleData>
+            <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="ci_UNIF">2890135.00000000000</SimpleData>
+            <SimpleData name="Situación">NO</SimpleData>
+            <SimpleData name="Comunidad">Ind?gena</SimpleData>
+            <SimpleData name="Modelo_imp">Modelo 4</SimpleData>
+            <SimpleData name="Departamen">CANINDEYU</SimpleData>
+            <SimpleData name="Distrito">YBY PYTA</SimpleData>
+            <SimpleData name="Localidad">COM INDIG KUETUVY</SimpleData>
+            <SimpleData name="Teléfono">0984044996</SimpleData>
+            <SimpleData name="Vivienda_L">-24.28761950000</SimpleData>
+            <SimpleData name="Vivienda_1">-55.41564130000</SimpleData>
+            <SimpleData name="Superficie">0.70000000000</SimpleData>
+            <SimpleData name="Situaci_1">Par?metro</SimpleData>
+            <SimpleData name="Plantado">SI</SimpleData>
+            <SimpleData name="Plantado_f">2025/11/29</SimpleData>
+            <SimpleData name="Jornales">0.00000000000</SimpleData>
+            <SimpleData name="Monto">0.00000000000</SimpleData>
+            <SimpleData name="Grupo_de_p">G-P1</SimpleData>
+            <SimpleData name="Estado_del">Activo</SimpleData>
+            <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
+            <SimpleData name="Lote">G</SimpleData>
+            <SimpleData name="Parametro">0.70000000000</SimpleData>
+            <SimpleData name="Sup_Sig">0.72784838769</SimpleData>
+            <SimpleData name="Situacion">Cumple</SimpleData>
+            <SimpleData name="X">-55.40553546000</SimpleData>
+            <SimpleData name="Y">-24.29200372000</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+                -55.4049533003478,-24.2920833002997,0
+                -55.4058416997088,-24.2925116999903,0
+                -55.4061305997635,-24.2919185998836,0
+                -55.4052000004313,-24.2915016997372,0
+                -55.4049533003478,-24.2920833002997,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark id="Distrito_YBY_PYTA.10">
+        <ExtendedData>
+          <SchemaData schemaUrl="#Distrito_YBY_PYTA.schema">
+            <SimpleData name="Cédula">6963244.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">BRIGILDA SOSA CHAPARRO</SimpleData>
+            <SimpleData name="Sexo">Mujer</SimpleData>
+            <SimpleData name="Cambio_de_">NO</SimpleData>
+            <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="ci_UNIF">6963244.00000000000</SimpleData>
+            <SimpleData name="Situación">NO</SimpleData>
+            <SimpleData name="Comunidad">Campesina</SimpleData>
+            <SimpleData name="Modelo_imp">Modelo 5</SimpleData>
+            <SimpleData name="Departamen">CANINDEYU</SimpleData>
+            <SimpleData name="Distrito">YBY PYTA</SimpleData>
+            <SimpleData name="Localidad">GUYRA KEHA</SimpleData>
+            <SimpleData name="Teléfono">0986931361</SimpleData>
+            <SimpleData name="Vivienda_L">-24.24068670000</SimpleData>
+            <SimpleData name="Vivienda_1">-55.29923860000</SimpleData>
+            <SimpleData name="Superficie">0.70000000000</SimpleData>
+            <SimpleData name="Situaci_1">Pol?gono</SimpleData>
+            <SimpleData name="Plantado">SI</SimpleData>
+            <SimpleData name="Plantado_f">2025/10/29</SimpleData>
+            <SimpleData name="Jornales">0.00000000000</SimpleData>
+            <SimpleData name="Monto">0.00000000000</SimpleData>
+            <SimpleData name="Grupo_de_p">G-P1</SimpleData>
+            <SimpleData name="Estado_del">Activo</SimpleData>
+            <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
+            <SimpleData name="Lote">G</SimpleData>
+            <SimpleData name="Parametro">0.70000000000</SimpleData>
+            <SimpleData name="Sup_Sig">0.77305054798</SimpleData>
+            <SimpleData name="Situacion">Cumple</SimpleData>
+            <SimpleData name="X">-55.29829576000</SimpleData>
+            <SimpleData name="Y">-24.24071141000</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+                -55.2978587001482,-24.2412286001405,0
+                -55.29847170014,-24.2412567002573,0
+                -55.2987669998048,-24.2402207996472,0
+                -55.2980767004722,-24.2401816999547,0
+                -55.2978587001482,-24.2412286001405,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+    </Document>
+  </Document>
+</kml>

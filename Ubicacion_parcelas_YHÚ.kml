@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2">
   <Document id="root_doc">
-    <Schema id="Distrito_REPATRIACION.schema">
+    <Schema id="Distrito_YH__.schema">
       <SimpleField name="Cédula" type="double"/>
       <SimpleField name="Nombres_y_" type="string"/>
       <SimpleField name="Sexo" type="string"/>
@@ -34,46 +34,46 @@
       <SimpleField name="X" type="double"/>
       <SimpleField name="Y" type="double"/>
     </Schema>
-    <Document id="Distrito_REPATRIACION">
-      <name>Distrito_REPATRIACION</name>
-      <Placemark id="Distrito_REPATRIACION.1">
+    <Document id="Distrito_YH__">
+      <name>Distrito_YHÃš</name>
+      <Placemark id="Distrito_YH__.1">
         <ExtendedData>
-          <SchemaData schemaUrl="#Distrito_REPATRIACION.schema">
-            <SimpleData name="Cédula">4374187.00000000000</SimpleData>
-            <SimpleData name="Nombres_y_">ROSANA BENITEZ CENTURION</SimpleData>
+          <SchemaData schemaUrl="#Distrito_YH__.schema">
+            <SimpleData name="Cédula">4570879.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">EMILIA  OCAMPO DE FLORES</SimpleData>
             <SimpleData name="Sexo">Mujer</SimpleData>
             <SimpleData name="Cambio_de_">NO</SimpleData>
             <SimpleData name="Titular_se">NO</SimpleData>
-            <SimpleData name="ci_UNIF">4374187.00000000000</SimpleData>
+            <SimpleData name="ci_UNIF">4570879.00000000000</SimpleData>
             <SimpleData name="Situación">NO</SimpleData>
-            <SimpleData name="Comunidad">Ind?gena</SimpleData>
+            <SimpleData name="Comunidad">Campesina</SimpleData>
             <SimpleData name="Modelo_imp">Modelo 5</SimpleData>
             <SimpleData name="Departamen">CAAGUAZU</SimpleData>
-            <SimpleData name="Distrito">REPATRIACION</SimpleData>
-            <SimpleData name="Localidad">COM INDIG KAATYMI</SimpleData>
-            <SimpleData name="Teléfono">ND</SimpleData>
-            <SimpleData name="Vivienda_L">-25.66299960000</SimpleData>
-            <SimpleData name="Vivienda_1">-55.69715480000</SimpleData>
+            <SimpleData name="Distrito">YH?</SimpleData>
+            <SimpleData name="Localidad">CA?ADITA</SimpleData>
+            <SimpleData name="Teléfono">981051094</SimpleData>
+            <SimpleData name="Vivienda_L">-25.15962770000</SimpleData>
+            <SimpleData name="Vivienda_1">-55.91685630000</SimpleData>
             <SimpleData name="Superficie">0.70000000000</SimpleData>
-            <SimpleData name="Situaci_1">Par?metro</SimpleData>
+            <SimpleData name="Situaci_1">Pol?gono</SimpleData>
             <SimpleData name="Plantado">SI</SimpleData>
-            <SimpleData name="Plantado_f">2025/09/24</SimpleData>
+            <SimpleData name="Plantado_f">2025/10/24</SimpleData>
             <SimpleData name="Jornales">0.00000000000</SimpleData>
             <SimpleData name="Monto">0.00000000000</SimpleData>
-            <SimpleData name="Grupo_de_p">C-P3</SimpleData>
+            <SimpleData name="Grupo_de_p">D-P3</SimpleData>
             <SimpleData name="Estado_del">Activo</SimpleData>
             <SimpleData name="Empresa">Unique Wood Paraguay SA</SimpleData>
-            <SimpleData name="Lote">C</SimpleData>
+            <SimpleData name="Lote">D</SimpleData>
             <SimpleData name="Parametro">0.70000000000</SimpleData>
-            <SimpleData name="Sup_Sig">0.74974288037</SimpleData>
+            <SimpleData name="Sup_Sig">0.79857039288</SimpleData>
             <SimpleData name="Situacion">Cumple</SimpleData>
-            <SimpleData name="X">-55.69701083000</SimpleData>
-            <SimpleData name="Y">-25.66346033000</SimpleData>
+            <SimpleData name="X">-55.91524011000</SimpleData>
+            <SimpleData name="Y">-25.15941675000</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Point>
           <coordinates>
-            -55.6970108277444,-25.6634603346563,0
+            -55.9152401097833,-25.1594167459262,0
           </coordinates>
         </Point>
       </Placemark>
