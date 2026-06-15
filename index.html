@@ -31,7 +31,7 @@
 
     .resumen-linea { font-weight: bold; line-height: 1.28; }
     .resumen-viviendas { color: #333; }
-    .resumen-parcelas { color: #f57c00; }
+    .resumen-plantacion { color: #f57c00; }
     .resumen-poligonos { color: #e11b22; }
     .resumen-ubicacion { color: #6a1b9a; }
     .resumen-cocinas { color: #00897b; }
@@ -73,7 +73,7 @@
     .item-resultado:hover { background: #f1f1f1; }
 
     .popup-card {
-      min-width: 270px; max-width: 330px; color: #111;
+      min-width: 270px; max-width: 340px; color: #111;
       font-size: 14px; line-height: 1.55;
     }
 
@@ -161,17 +161,17 @@
 
   <div class="botones">
     <button id="btnViviendas" class="boton btn-viviendas boton-activo">🏠 Viviendas</button>
-    <button id="btnParcelas" class="boton btn-parcelas boton-activo">○ Parcelas</button>
+    <button id="btnParcelas" class="boton btn-parcelas boton-activo">○ Plantación</button>
     <button id="btnKML" class="boton btn-kml boton-activo">□ Polígono Mant.</button>
-    <button id="btnKMLP" class="boton btn-kmlp boton-activo">◆ Ubicación Mant.</button>
+    <button id="btnKMLP" class="boton btn-kmlp boton-activo">📍 Ubicación Mant.</button>
     <button id="btnCocinas" class="boton btn-cocinas boton-activo">🔥 Cocinas</button>
   </div>
 
   <div style="margin-top:10px; line-height:1.5;">
     🟡 Vivienda<br>
-    🟠 Parcela Plantación<br>
+    🟠 Plantación<br>
     □ Polígono Mantenimiento<br>
-    ◆ Ubicación Mantenimiento<br>
+    📍 Ubicación Mantenimiento<br>
     🔥 Cocina eficiente<br>
     🔵 Mi ubicación
   </div>
@@ -236,8 +236,20 @@
   });
 
   const iconoKMLP = L.divIcon({
-    html: `<div style="width:32px;height:32px;border-radius:50%;background:#6a1b9a;border:2px solid white;display:flex;align-items:center;justify-content:center;color:white;font-weight:bold;font-size:17px;box-shadow:0 1px 5px rgba(0,0,0,0.55);">◆</div>`,
-    className: "", iconSize: [32, 32], iconAnchor: [16, 16]
+    html: `<div style="
+      width:34px;height:34px;border-radius:50% 50% 50% 0;
+      background:#e11b22;border:2px solid white;
+      transform:rotate(-45deg);
+      box-shadow:0 1px 5px rgba(0,0,0,0.55);
+      display:flex;align-items:center;justify-content:center;">
+      <div style="
+        width:13px;height:13px;border-radius:50%;
+        background:white;"></div>
+    </div>`,
+    className: "",
+    iconSize: [34, 34],
+    iconAnchor: [17, 34],
+    popupAnchor: [0, -30]
   });
 
   const iconoCocina = L.divIcon({
@@ -343,6 +355,59 @@
     `;
   }
 
+  function getPropFlexible(props, posibles, contieneTexto) {
+    for (const campo of posibles) {
+      if (props[campo] !== undefined && String(props[campo]).trim() !== "") {
+        return String(props[campo]).trim();
+      }
+    }
+
+    if (contieneTexto) {
+      const clave = Object.keys(props).find(k => k.trim().toLowerCase().includes(contieneTexto.toLowerCase()));
+      if (clave && String(props[clave]).trim() !== "") {
+        return String(props[clave]).trim();
+      }
+    }
+
+    return "-";
+  }
+
+  function crearPopupMantenimiento(layer, tipo, archivo, latlng) {
+    const props = layer.feature && layer.feature.properties ? layer.feature.properties : {};
+
+    const cedula = getPropFlexible(props, ["Cédula", "Cedula", "CI", "C_I"], "ced");
+    const nombres = getPropFlexible(props, ["Nombres_y_", "Nombres_y", "NOMBRES_Y_", "Nombre", "name"], "nombres");
+    const sexo = getPropFlexible(props, ["Sexo", "SEXO"], "sexo");
+    const comunidad = getPropFlexible(props, ["Comunidad", "COMUNIDAD"], "comunidad");
+    const modelo = getPropFlexible(props, ["Modelo_imp", "MODELO_IMP", "modelo_imp"], "modelo");
+    const departamento = getPropFlexible(props, ["Departamen", "Departamento", "DEPARTAMEN"], "depart");
+    const distrito = getPropFlexible(props, ["Distrito", "DISTRITO"], "distrito");
+    const localidad = getPropFlexible(props, ["Localidad", "LOCALIDAD"], "localidad");
+    const telefono = getPropFlexible(props, ["Teléfono", "Telefono", "TELEFONO"], "tel");
+
+    const badge = tipo === "Polígono Mantenimiento" ? "badge-poligono" : "badge-kmlp";
+
+    return `
+      <div class="popup-card">
+        <span class="popup-badge ${badge}">${tipo}</span>
+        <h3>${nombres}</h3>
+        <div class="popup-grid">
+          <div><b>Cédula:</b> ${cedula}</div>
+          <div><b>Nombres_y_:</b> ${nombres}</div>
+          <div><b>Sexo:</b> ${sexo}</div>
+          <div><b>Comunidad:</b> ${comunidad}</div>
+          <div><b>Modelo_imp:</b> ${modelo}</div>
+          <div><b>Departamen:</b> ${departamento}</div>
+          <div><b>Distrito:</b> ${distrito}</div>
+          <div><b>Localidad:</b> ${localidad}</div>
+          <div><b>Teléfono:</b> ${telefono}</div>
+          <div><b>Archivo:</b> ${archivo}</div>
+        </div>
+        ${latlng ? crearBotonRuta(latlng.lat, latlng.lng) : ""}
+      </div>
+    `;
+  }
+
   function crearPopupCocina(row, lat, lon) {
     const nombre = getCampoFlexible(row, ["Nombre y Apellido", "Nombres y Apellidos", "Nombre"], "nombre");
     const cedula = getCampoFlexible(row, ["C.I. del participante", "C.I.", "CI", "Cédula"], "participante");
@@ -405,7 +470,7 @@
   function actualizarResumen() {
     document.getElementById("resumen").innerHTML =
       `<div class="resumen-linea resumen-viviendas">Viviendas: ${totalViviendasGlobal}</div>` +
-      `<div class="resumen-linea resumen-parcelas">Parcelas: ${totalParcelasGlobal}</div>` +
+      `<div class="resumen-linea resumen-plantacion">Plantación: ${totalParcelasGlobal}</div>` +
       `<div class="resumen-linea resumen-poligonos">Polígono Mantenimiento: ${totalPoligonos}</div>` +
       `<div class="resumen-linea resumen-ubicacion">Ubicación Mantenimiento: ${totalUbicacionMant}</div>` +
       `<div class="resumen-linea resumen-cocinas">Cocinas eficientes: ${totalCocinas}</div>`;
@@ -436,7 +501,7 @@
             const lonPar = convertirNumero(get(row, "Parcela_Longitud"));
 
             if (latPar !== null && lonPar !== null) {
-              agregarPuntoPrincipal(row, "Parcela", latPar, lonPar, iconoParcela, capaParcelas);
+              agregarPuntoPrincipal(row, "Plantación", latPar, lonPar, iconoParcela, capaParcelas);
               totalParcelasGlobal++;
             }
           }
@@ -454,18 +519,7 @@
 
   function getNombrePoligono(layer) {
     const props = layer.feature && layer.feature.properties ? layer.feature.properties : {};
-    const posibles = ["Nombres_y_", "Nombres_y", "Nombres y Apellidos", "NOMBRES_Y_", "Nombre", "name"];
-
-    for (const campo of posibles) {
-      if (props[campo] !== undefined && String(props[campo]).trim() !== "") {
-        return String(props[campo]).trim();
-      }
-    }
-
-    const clave = Object.keys(props).find(k => k.toLowerCase().includes("nombres"));
-    if (clave && String(props[clave]).trim() !== "") return String(props[clave]).trim();
-
-    return "Polígono Mantenimiento";
+    return getPropFlexible(props, ["Nombres_y_", "Nombres_y", "Nombres y Apellidos", "NOMBRES_Y_", "Nombre", "name"], "nombres");
   }
 
   function cargarKMLPoligono() {
@@ -481,6 +535,7 @@
               color: "#e11b22",
               weight: 5,
               fillOpacity: 0,
+              fillColor: "transparent",
               opacity: 1
             });
           }
@@ -493,15 +548,7 @@
             className: "kml-label"
           });
 
-          layer.bindPopup(`
-            <div class="popup-card">
-              <span class="popup-badge badge-poligono">Polígono Mantenimiento</span>
-              <h3>${nombrePoligono}</h3>
-              <div class="popup-grid">
-                <div><b>Archivo:</b> ${archivoKML}</div>
-              </div>
-            </div>
-          `);
+          layer.bindPopup(crearPopupMantenimiento(layer, "Polígono Mantenimiento", archivoKML, null));
 
           capaKML.addLayer(layer);
           todosLosPuntos.addLayer(layer);
@@ -536,16 +583,7 @@
             layer.setIcon(iconoKMLP);
           }
 
-          layer.bindPopup(`
-            <div class="popup-card">
-              <span class="popup-badge badge-kmlp">Ubicación Mantenimiento</span>
-              <h3>${nombre}</h3>
-              <div class="popup-grid">
-                <div><b>Archivo:</b> ${archivoKMLP}</div>
-              </div>
-              ${latlng ? crearBotonRuta(latlng.lat, latlng.lng) : ""}
-            </div>
-          `);
+          layer.bindPopup(crearPopupMantenimiento(layer, "Ubicación Mantenimiento", archivoKMLP, latlng));
 
           if (latlng) {
             agregarEtiqueta(layer, `${nombre} - Ubicación Mantenimiento`);
