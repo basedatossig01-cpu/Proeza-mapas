@@ -6,11 +6,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
-  <link rel="stylesheet" href="https://unpkg.com/leaflet-rotate@0.2.8/dist/leaflet-rotate.css" />
   <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
-  <script src="https://unpkg.com/leaflet-rotate@0.2.8/dist/leaflet-rotate-src.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/leaflet-omnivore@0.3.4/leaflet-omnivore.min.js"></script>
+  <script src="https://unpkg.com/leaflet-rotate@0.2.8/dist/leaflet-rotate-src.js"></script>
 
   <style>
     html, body { height: 100%; margin: 0; font-family: Arial, sans-serif; }
@@ -90,6 +89,39 @@
 
     .item-resultado:hover { background: #f1f1f1; }
 
+    .resultado-titulo {
+      font-weight: bold;
+      margin-bottom: 3px;
+    }
+
+    .resultado-subtitulo {
+      font-size: 12px;
+      color: #444;
+      margin-bottom: 6px;
+    }
+
+    .acciones-resultado {
+      display: flex;
+      gap: 6px;
+      flex-wrap: wrap;
+      margin-top: 4px;
+    }
+
+    .btn-resultado {
+      border: none;
+      border-radius: 6px;
+      padding: 6px 8px;
+      font-weight: bold;
+      font-size: 12px;
+      cursor: pointer;
+    }
+
+    .btn-res-vivienda { background: #fdd835; color: #111; }
+    .btn-res-plantacion { background: #fb8c00; color: white; }
+    .btn-res-mantenimiento { background: #e11b22; color: white; }
+    .btn-res-cocina { background: #00897b; color: white; }
+
+
     .popup-card {
       min-width: 270px; max-width: 340px; color: #111;
       font-size: 14px; line-height: 1.55;
@@ -125,13 +157,24 @@
       line-height: 1.35;
     }
 
-    .btn-ruta {
-      display: inline-block; background: #1a73e8 !important; color: #ffffff !important;
-      padding: 10px 14px; border-radius: 8px; text-decoration: none !important;
-      font-weight: bold; margin-top: 12px; text-align: center; font-size: 14px;
+    .btn-ruta, .btn-offline {
+      display: inline-block;
+      color: #ffffff !important;
+      padding: 10px 14px;
+      border-radius: 8px;
+      text-decoration: none !important;
+      font-weight: bold;
+      margin-top: 12px;
+      margin-right: 6px;
+      text-align: center;
+      font-size: 14px;
     }
 
-    .btn-ruta:visited, .btn-ruta:hover, .btn-ruta:active {
+    .btn-ruta { background: #1a73e8 !important; }
+    .btn-offline { background: #2e7d32 !important; }
+
+    .btn-ruta:visited, .btn-ruta:hover, .btn-ruta:active,
+    .btn-offline:visited, .btn-offline:hover, .btn-offline:active {
       color: #ffffff !important; text-decoration: none !important;
     }
 
@@ -162,18 +205,19 @@
       font-weight: bold; cursor: pointer;
     }
 
-    .norte-btn {
-      position: absolute; right: 12px; bottom: 78px; z-index: 1000;
-      background: white; border: none; border-radius: 9px;
-      padding: 11px 13px; box-shadow: 0 2px 8px rgba(0,0,0,0.35);
-      font-weight: bold; cursor: pointer;
-    }
 
-    .rotacion-info {
-      position: absolute; right: 12px; bottom: 128px; z-index: 1000;
-      background: rgba(255,255,255,0.92); border-radius: 9px;
-      padding: 8px 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.25);
-      font-size: 12px; font-weight: bold; max-width: 160px;
+    .norte-btn {
+      position: absolute;
+      right: 12px;
+      bottom: 82px;
+      z-index: 1000;
+      background: white;
+      border: none;
+      border-radius: 9px;
+      padding: 11px 13px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.35);
+      font-weight: bold;
+      cursor: pointer;
     }
 
     @media (max-width: 600px) {
@@ -190,9 +234,12 @@
       }
       .panel.panel-visible { display: block; }
       .panel h3 { font-size: 17px; }
+
+      .norte-btn {
+        bottom: 82px;
+        padding: 10px 12px;
+      }
       .popup-card { min-width: 230px; max-width: 280px; }
-      .rotacion-info { display: none; }
-      .norte-btn { bottom: 78px; }
     }
   </style>
 </head>
@@ -213,7 +260,7 @@
 
   <div id="resumen">Cargando datos...</div>
 
-  <input id="buscador" class="buscador" type="text" placeholder="Buscar por nombre, cédula o comunidad">
+  <input id="buscador" class="buscador" type="text" placeholder="Buscar por nombre, cédula o localidad">
 
   <div class="botones">
     <button id="btnViviendas" class="boton btn-viviendas boton-activo">🏠 Viviendas</button>
@@ -235,9 +282,8 @@
   <div id="resultados" class="resultados"></div>
 </div>
 
-<div class="rotacion-info">Girar: dos dedos ↻</div>
-<button class="norte-btn" onclick="resetearNorte()">🧭 Norte</button>
 <button class="mi-ubicacion-btn" onclick="centrarMiUbicacion()">📍 Mi ubicación</button>
+<button class="norte-btn" onclick="resetNorte()">🧭 Norte</button>
 
 <script>
   const params = new URLSearchParams(window.location.search);
@@ -257,7 +303,7 @@
   const map = L.map('map', {
     rotate: true,
     touchRotate: true,
-    rotateControl: { closeOnZeroBearing: false },
+    rotateControl: false,
     bearing: 0
   }).setView([-24.4, -56.4], 12);
 
@@ -410,8 +456,20 @@
 
   function crearBotonRuta(lat, lon) {
     if (lat === null || lon === null) return "";
-    const urlRuta = `https://www.google.com/maps/dir/?api=1&destination=${lat},${lon}`;
-    return `<a class="btn-ruta" target="_blank" href="${urlRuta}">🧭 Cómo llegar</a>`;
+
+    const urlRutaOnline = `https://www.google.com/maps/dir/?api=1&destination=${lat},${lon}`;
+
+    // Este enlace usa el esquema nativo del teléfono.
+    // En Android puede abrir Google Maps u otra app de mapas con la ubicación,
+    // y tiene más posibilidades de funcionar si el mapa offline ya está descargado.
+    const urlRutaOffline = `geo:${lat},${lon}?q=${lat},${lon}`;
+
+    return `
+      <div>
+        <a class="btn-ruta" target="_blank" href="${urlRutaOnline}">🧭 Cómo llegar</a>
+        <a class="btn-offline" href="${urlRutaOffline}">📍 Maps Offline</a>
+      </div>
+    `;
   }
 
   function crearPopupPrincipal(row, tipo, lat, lon) {
@@ -586,10 +644,22 @@
     });
   }
 
-  function agregarBusqueda(nombre, cedula, comunidad, tipo, lat, lon, marker) {
+  function agregarBusqueda(nombre, cedula, comunidad, localidad, tipo, lat, lon, marker) {
+    const nombreLimpio = limpiarValor(nombre);
+    const cedulaLimpia = limpiarValor(cedula);
+    const comunidadLimpia = limpiarValor(comunidad);
+    const localidadLimpia = limpiarValor(localidad);
+
     registrosBusqueda.push({
-      texto: `${nombre} ${cedula} ${comunidad} ${tipo}`.toLowerCase(),
-      nombre, cedula, comunidad, tipo, lat, lon, marker
+      texto: `${nombreLimpio} ${cedulaLimpia} ${localidadLimpia} ${comunidadLimpia} ${tipo}`.toLowerCase(),
+      nombre: nombreLimpio,
+      cedula: cedulaLimpia,
+      comunidad: comunidadLimpia,
+      localidad: localidadLimpia,
+      tipo,
+      lat,
+      lon,
+      marker
     });
   }
 
@@ -597,13 +667,14 @@
     const nombre = limpiarValor(get(row, "Nombres y Apellidos"));
     const cedula = limpiarValor(get(row, "Cédula"));
     const comunidad = limpiarValor(get(row, "Comunidad"));
+    const localidad = limpiarValor(get(row, "Localidad"));
 
     const marker = L.marker([lat, lon], { icon: icono }).addTo(capa);
     marker.bindPopup(() => crearPopupPrincipal(row, tipo, lat, lon));
     agregarEtiqueta(marker, `${nombre} - ${tipo}`);
 
     todosLosPuntos.addLayer(marker);
-    agregarBusqueda(nombre, cedula, comunidad, tipo, lat, lon, marker);
+    agregarBusqueda(nombre, cedula, comunidad, localidad, tipo, lat, lon, marker);
   }
 
   function actualizarResumen() {
@@ -738,8 +809,31 @@
           );
 
           if (latlng) {
-            agregarEtiqueta(layer, `${nombre} - Ubicación Mantenimiento`);
-            agregarBusqueda(nombre, "-", "-", "Ubicación Mantenimiento", latlng.lat, latlng.lng, layer);
+            const props = layer.feature && layer.feature.properties ? layer.feature.properties : {};
+            const cedula = getPropFlexible(
+              props,
+              [
+                "Cédula",
+                "Cedula",
+                "CEDULA",
+                "CI",
+                "C.I.",
+                "C_I",
+                "Nro_CI",
+                "Nro CI",
+                "nro_ci",
+                "Cedula_Unificada",
+                "Cédula_Unificada",
+                "nro_ci_participant",
+                "NRO_CI_PARTICIPANT"
+              ],
+              "ced"
+            );
+            const comunidad = getPropFlexible(props, ["Comunidad", "COMUNIDAD"], "comunidad");
+            const localidad = getPropFlexible(props, ["Localidad", "LOCALIDAD"], "localidad");
+
+            agregarEtiqueta(layer, `${nombre} - Parcela Mantenimiento`);
+            agregarBusqueda(nombre, cedula, comunidad, localidad, "Parcela Mantenimiento", latlng.lat, latlng.lng, layer);
           }
 
           capaKMLP.addLayer(layer);
@@ -773,13 +867,14 @@
             const nombre = getCampoFlexible(row, ["Nombre y Apellido", "Nombres y Apellidos", "Nombre"], "nombre");
             const cedula = getCampoFlexible(row, ["C.I. del participante", "C.I.", "CI", "Cédula"], "participante");
             const comunidad = limpiarValor(get(row, "Comunidad"));
+            const localidad = limpiarValor(get(row, "Localidad"));
 
             const marker = L.marker([lat, lon], { icon: iconoCocina }).addTo(capaCocinas);
             marker.bindPopup(() => crearPopupCocina(row, lat, lon));
             agregarEtiqueta(marker, `${nombre} - Cocina eficiente`);
 
             todosLosPuntos.addLayer(marker);
-            agregarBusqueda(nombre, cedula, comunidad, "Cocina eficiente", lat, lon, marker);
+            agregarBusqueda(nombre, cedula, comunidad, localidad, "Cocina eficiente", lat, lon, marker);
             totalCocinas++;
           }
         });
@@ -852,6 +947,35 @@
     toggleLayer("btnCocinas", capaCocinas, false);
   });
 
+  function etiquetaTipoBusqueda(tipo) {
+    if (tipo === "Vivienda") return "🏠 Vivienda";
+    if (tipo === "Plantación") return "🌳 Plantación";
+    if (tipo === "Parcela Mantenimiento" || tipo === "Ubicación Mantenimiento") return "📍 Parcela Mantenimiento";
+    if (tipo === "Cocina eficiente") return "🔥 Cocina eficiente";
+    return tipo;
+  }
+
+  function claseBotonResultado(tipo) {
+    if (tipo === "Vivienda") return "btn-res-vivienda";
+    if (tipo === "Plantación") return "btn-res-plantacion";
+    if (tipo === "Parcela Mantenimiento" || tipo === "Ubicación Mantenimiento") return "btn-res-mantenimiento";
+    if (tipo === "Cocina eficiente") return "btn-res-cocina";
+    return "btn-res-vivienda";
+  }
+
+  function abrirResultadoBusqueda(registro) {
+    map.setView([registro.lat, registro.lon], 17);
+    registro.marker.openPopup();
+    document.getElementById("resultados").style.display = "none";
+  }
+
+  function claveParticipanteBusqueda(registro) {
+    if (registro.cedula && registro.cedula !== "-") {
+      return `CI_${registro.cedula}`;
+    }
+    return `NOMBRE_${registro.nombre}_${registro.localidad}_${registro.comunidad}`;
+  }
+
   document.getElementById("buscador").addEventListener("input", function() {
     const valor = this.value.trim().toLowerCase();
     const contenedor = document.getElementById("resultados");
@@ -862,21 +986,69 @@
       return;
     }
 
-    const encontrados = registrosBusqueda.filter(r => r.texto.includes(valor)).slice(0, 12);
+    const encontrados = registrosBusqueda.filter(r => r.texto.includes(valor));
+    const grupos = new Map();
 
     encontrados.forEach(r => {
+      const clave = claveParticipanteBusqueda(r);
+
+      if (!grupos.has(clave)) {
+        grupos.set(clave, {
+          nombre: r.nombre,
+          cedula: r.cedula,
+          localidad: r.localidad,
+          comunidad: r.comunidad,
+          opciones: []
+        });
+      }
+
+      const grupo = grupos.get(clave);
+      const yaExisteTipo = grupo.opciones.some(op => op.tipo === r.tipo);
+
+      if (!yaExisteTipo) {
+        grupo.opciones.push(r);
+      }
+    });
+
+    Array.from(grupos.values()).slice(0, 12).forEach(grupo => {
       const div = document.createElement("div");
       div.className = "item-resultado";
-      div.innerHTML = `<b>${r.nombre}</b><br>${r.tipo} | CI: ${r.cedula}<br>${r.comunidad}`;
-      div.onclick = function() {
-        map.setView([r.lat, r.lon], 17);
-        r.marker.openPopup();
-        contenedor.style.display = "none";
+
+      const subtitulo = `CI: ${grupo.cedula || "-"} | Localidad: ${grupo.localidad || "-"}`;
+
+      div.innerHTML = `
+        <div class="resultado-titulo">${grupo.nombre}</div>
+        <div class="resultado-subtitulo">${subtitulo}</div>
+        <div class="acciones-resultado"></div>
+      `;
+
+      const acciones = div.querySelector(".acciones-resultado");
+
+      const orden = {
+        "Vivienda": 1,
+        "Plantación": 2,
+        "Parcela Mantenimiento": 3,
+        "Ubicación Mantenimiento": 3,
+        "Cocina eficiente": 4
       };
+
+      grupo.opciones
+        .sort((a, b) => (orden[a.tipo] || 99) - (orden[b.tipo] || 99))
+        .forEach(opcion => {
+          const btn = document.createElement("button");
+          btn.className = `btn-resultado ${claseBotonResultado(opcion.tipo)}`;
+          btn.textContent = etiquetaTipoBusqueda(opcion.tipo);
+          btn.onclick = function(e) {
+            e.stopPropagation();
+            abrirResultadoBusqueda(opcion);
+          };
+          acciones.appendChild(btn);
+        });
+
       contenedor.appendChild(div);
     });
 
-    contenedor.style.display = encontrados.length > 0 ? "block" : "none";
+    contenedor.style.display = grupos.size > 0 ? "block" : "none";
   });
 
   map.locate({ setView: false, watch: true, enableHighAccuracy: true });
@@ -901,9 +1073,13 @@
     document.querySelector(".panel").classList.toggle("panel-visible");
   }
 
-  function resetearNorte() {
+  function resetNorte() {
     if (map.setBearing) {
       map.setBearing(0);
+    } else if (map.touchRotate && map.touchRotate.setBearing) {
+      map.touchRotate.setBearing(0);
+    } else {
+      alert("La rotación no está disponible en este navegador.");
     }
   }
 
