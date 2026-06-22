@@ -33,6 +33,8 @@
       <SimpleField name="Situacion" type="string"/>
       <SimpleField name="X" type="double"/>
       <SimpleField name="Y" type="double"/>
+      <SimpleField name="Shape_Leng" type="double"/>
+      <SimpleField name="Shape_Area" type="double"/>
     </Schema>
     <Document id="Distrito_YH__">
       <name>Distrito_YHÚ</name>
@@ -69,6 +71,8 @@
             <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.91524011000</SimpleData>
             <SimpleData name="Y">-25.15941675000</SimpleData>
+            <SimpleData name="Shape_Leng">358.42732568400</SimpleData>
+            <SimpleData name="Shape_Area">7985.70392877000</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Polygon>
