@@ -35,6 +35,7 @@
       <SimpleField name="Y" type="double"/>
       <SimpleField name="Shape_Leng" type="double"/>
       <SimpleField name="Shape_Area" type="double"/>
+      <SimpleField name="cedula" type="string"/>
     </Schema>
     <Document id="Distrito_GUAYAIBI">
       <name>Distrito_GUAYAIBI</name>
@@ -73,6 +74,7 @@
             <SimpleData name="Y">-24.50783417000</SimpleData>
             <SimpleData name="Shape_Leng">512.15117183400</SimpleData>
             <SimpleData name="Shape_Area">7866.47811919000</SimpleData>
+            <SimpleData name="cedula">4596707</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Polygon>

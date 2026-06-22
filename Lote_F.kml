@@ -35,6 +35,7 @@
       <SimpleField name="Y" type="double"/>
       <SimpleField name="Shape_Leng" type="double"/>
       <SimpleField name="Shape_Area" type="double"/>
+      <SimpleField name="cedula" type="string"/>
     </Schema>
     <Document id="Lote_F">
       <name>Lote_F</name>
@@ -67,12 +68,13 @@
             <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
             <SimpleData name="Lote">F</SimpleData>
             <SimpleData name="Parametro">0.80000000000</SimpleData>
-            <SimpleData name="Sup_Sig">0.84444691334</SimpleData>
+            <SimpleData name="Sup_Sig">0.84444691333</SimpleData>
             <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.06156529000</SimpleData>
             <SimpleData name="Y">-24.96580114000</SimpleData>
             <SimpleData name="Shape_Leng">571.27763689300</SimpleData>
             <SimpleData name="Shape_Area">8444.46913335000</SimpleData>
+            <SimpleData name="cedula">7620600</SimpleData>
           </SchemaData>
         </ExtendedData>
         <MultiGeometry>
@@ -145,6 +147,7 @@
             <SimpleData name="Y">-24.87717809000</SimpleData>
             <SimpleData name="Shape_Leng">413.60832371500</SimpleData>
             <SimpleData name="Shape_Area">8225.60698384000</SimpleData>
+            <SimpleData name="cedula">8004337</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Polygon>
@@ -199,6 +202,7 @@
             <SimpleData name="Y">-24.87683040000</SimpleData>
             <SimpleData name="Shape_Leng">396.11733638100</SimpleData>
             <SimpleData name="Shape_Area">9623.53194447000</SimpleData>
+            <SimpleData name="cedula">6628647</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Polygon>
@@ -250,6 +254,7 @@
             <SimpleData name="Y">-25.12647389000</SimpleData>
             <SimpleData name="Shape_Leng">337.46346637500</SimpleData>
             <SimpleData name="Shape_Area">7060.22247544000</SimpleData>
+            <SimpleData name="cedula">2904890</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Polygon>
@@ -301,6 +306,7 @@
             <SimpleData name="Y">-24.55717351000</SimpleData>
             <SimpleData name="Shape_Leng">394.59367303900</SimpleData>
             <SimpleData name="Shape_Area">9149.40107637000</SimpleData>
+            <SimpleData name="cedula">4525932</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Polygon>
@@ -352,6 +358,7 @@
             <SimpleData name="Y">-25.30756539000</SimpleData>
             <SimpleData name="Shape_Leng">377.36947720700</SimpleData>
             <SimpleData name="Shape_Area">7475.72480206000</SimpleData>
+            <SimpleData name="cedula">3732692</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Polygon>
@@ -403,6 +410,7 @@
             <SimpleData name="Y">-25.07883328000</SimpleData>
             <SimpleData name="Shape_Leng">399.41844796600</SimpleData>
             <SimpleData name="Shape_Area">8736.97730808000</SimpleData>
+            <SimpleData name="cedula">2330260</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Polygon>
@@ -452,12 +460,13 @@
             <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
             <SimpleData name="Lote">F</SimpleData>
             <SimpleData name="Parametro">0.80000000000</SimpleData>
-            <SimpleData name="Sup_Sig">0.96098948572</SimpleData>
+            <SimpleData name="Sup_Sig">0.96098948571</SimpleData>
             <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.04010371000</SimpleData>
             <SimpleData name="Y">-24.55823071000</SimpleData>
             <SimpleData name="Shape_Leng">428.86205666600</SimpleData>
             <SimpleData name="Shape_Area">9609.89485715000</SimpleData>
+            <SimpleData name="cedula">6764956</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Polygon>
@@ -511,6 +520,7 @@
             <SimpleData name="Y">-24.96525122000</SimpleData>
             <SimpleData name="Shape_Leng">597.82973531400</SimpleData>
             <SimpleData name="Shape_Area">8405.03928566000</SimpleData>
+            <SimpleData name="cedula">4121535</SimpleData>
           </SchemaData>
         </ExtendedData>
         <MultiGeometry>
@@ -586,6 +596,7 @@
             <SimpleData name="Y">-24.84277469000</SimpleData>
             <SimpleData name="Shape_Leng">465.27725709100</SimpleData>
             <SimpleData name="Shape_Area">9127.27677173000</SimpleData>
+            <SimpleData name="cedula">4257476</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Polygon>
@@ -637,6 +648,7 @@
             <SimpleData name="Y">-24.85806264000</SimpleData>
             <SimpleData name="Shape_Leng">464.57751166300</SimpleData>
             <SimpleData name="Shape_Area">7706.73434371000</SimpleData>
+            <SimpleData name="cedula">7479321</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Polygon>
@@ -691,6 +703,7 @@
             <SimpleData name="Y">-24.87761944000</SimpleData>
             <SimpleData name="Shape_Leng">375.64936851200</SimpleData>
             <SimpleData name="Shape_Area">8532.84464236000</SimpleData>
+            <SimpleData name="cedula">6669839</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Polygon>
@@ -742,6 +755,7 @@
             <SimpleData name="Y">-24.96635492000</SimpleData>
             <SimpleData name="Shape_Leng">390.46778425100</SimpleData>
             <SimpleData name="Shape_Area">9654.97239194000</SimpleData>
+            <SimpleData name="cedula">5905530</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Polygon>
@@ -801,6 +815,7 @@
             <SimpleData name="Y">-24.85731858000</SimpleData>
             <SimpleData name="Shape_Leng">365.04038263200</SimpleData>
             <SimpleData name="Shape_Area">6863.42431001000</SimpleData>
+            <SimpleData name="cedula">6691798</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Polygon>
@@ -854,6 +869,7 @@
             <SimpleData name="Y">-24.86770406000</SimpleData>
             <SimpleData name="Shape_Leng">322.05536079900</SimpleData>
             <SimpleData name="Shape_Area">7043.28467032000</SimpleData>
+            <SimpleData name="cedula">8023459</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Polygon>
@@ -908,6 +924,7 @@
             <SimpleData name="Y">-24.93752842000</SimpleData>
             <SimpleData name="Shape_Leng">483.42188160500</SimpleData>
             <SimpleData name="Shape_Area">9347.44188953000</SimpleData>
+            <SimpleData name="cedula">7653146</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Polygon>
@@ -962,6 +979,7 @@
             <SimpleData name="Y">-24.97024310000</SimpleData>
             <SimpleData name="Shape_Leng">748.68174013600</SimpleData>
             <SimpleData name="Shape_Area">8360.39954418000</SimpleData>
+            <SimpleData name="cedula">4703470</SimpleData>
           </SchemaData>
         </ExtendedData>
         <MultiGeometry>
@@ -1056,6 +1074,7 @@
             <SimpleData name="Y">-25.07520938000</SimpleData>
             <SimpleData name="Shape_Leng">407.06024350200</SimpleData>
             <SimpleData name="Shape_Area">8727.42044750000</SimpleData>
+            <SimpleData name="cedula">7815688</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Polygon>
@@ -1111,6 +1130,7 @@
             <SimpleData name="Y">-25.28411122000</SimpleData>
             <SimpleData name="Shape_Leng">497.17683950700</SimpleData>
             <SimpleData name="Shape_Area">7548.55324903000</SimpleData>
+            <SimpleData name="cedula">6110562</SimpleData>
           </SchemaData>
         </ExtendedData>
         <MultiGeometry>
@@ -1179,6 +1199,7 @@
             <SimpleData name="Y">-25.10287967000</SimpleData>
             <SimpleData name="Shape_Leng">445.33068669300</SimpleData>
             <SimpleData name="Shape_Area">7459.89971349000</SimpleData>
+            <SimpleData name="cedula">5155616</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Polygon>
@@ -1232,6 +1253,7 @@
             <SimpleData name="Y">-25.08337296000</SimpleData>
             <SimpleData name="Shape_Leng">402.18388892400</SimpleData>
             <SimpleData name="Shape_Area">8424.21709989000</SimpleData>
+            <SimpleData name="cedula">3375475</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Polygon>
@@ -1292,6 +1314,7 @@
             <SimpleData name="Y">-25.34782755000</SimpleData>
             <SimpleData name="Shape_Leng">370.10254154400</SimpleData>
             <SimpleData name="Shape_Area">8132.34984524000</SimpleData>
+            <SimpleData name="cedula">4117254</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Polygon>
@@ -1345,6 +1368,7 @@
             <SimpleData name="Y">-24.96412348000</SimpleData>
             <SimpleData name="Shape_Leng">524.43812304000</SimpleData>
             <SimpleData name="Shape_Area">8000.11012560000</SimpleData>
+            <SimpleData name="cedula">1411568</SimpleData>
           </SchemaData>
         </ExtendedData>
         <MultiGeometry>
@@ -1415,6 +1439,7 @@
             <SimpleData name="Y">-24.94103495000</SimpleData>
             <SimpleData name="Shape_Leng">452.12868392800</SimpleData>
             <SimpleData name="Shape_Area">9524.69535917000</SimpleData>
+            <SimpleData name="cedula">7275201</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Polygon>
@@ -1471,6 +1496,7 @@
             <SimpleData name="Y">-25.09522847000</SimpleData>
             <SimpleData name="Shape_Leng">370.57057646400</SimpleData>
             <SimpleData name="Shape_Area">7476.12674217000</SimpleData>
+            <SimpleData name="cedula">7254831</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Polygon>
@@ -1522,6 +1548,7 @@
             <SimpleData name="Y">-24.91942976000</SimpleData>
             <SimpleData name="Shape_Leng">490.27374556800</SimpleData>
             <SimpleData name="Shape_Area">13478.51333980000</SimpleData>
+            <SimpleData name="cedula">2538189</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Polygon>
@@ -1573,6 +1600,7 @@
             <SimpleData name="Y">-24.89614216000</SimpleData>
             <SimpleData name="Shape_Leng">416.55975760800</SimpleData>
             <SimpleData name="Shape_Area">10297.50787620000</SimpleData>
+            <SimpleData name="cedula">4107903</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Polygon>
@@ -1625,6 +1653,7 @@
             <SimpleData name="Y">-24.97097809000</SimpleData>
             <SimpleData name="Shape_Leng">688.55218708300</SimpleData>
             <SimpleData name="Shape_Area">9551.20563210000</SimpleData>
+            <SimpleData name="cedula">1597869</SimpleData>
           </SchemaData>
         </ExtendedData>
         <MultiGeometry>
@@ -1709,6 +1738,7 @@
             <SimpleData name="Y">-25.27994354000</SimpleData>
             <SimpleData name="Shape_Leng">763.50180220300</SimpleData>
             <SimpleData name="Shape_Area">12183.32516400000</SimpleData>
+            <SimpleData name="cedula">6868970</SimpleData>
           </SchemaData>
         </ExtendedData>
         <MultiGeometry>
@@ -1776,6 +1806,7 @@
             <SimpleData name="Y">-25.11229711000</SimpleData>
             <SimpleData name="Shape_Leng">472.20878639400</SimpleData>
             <SimpleData name="Shape_Area">12071.92146050000</SimpleData>
+            <SimpleData name="cedula">4117402</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Polygon>
@@ -1821,12 +1852,13 @@
             <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
             <SimpleData name="Lote">F</SimpleData>
             <SimpleData name="Parametro">0.80000000000</SimpleData>
-            <SimpleData name="Sup_Sig">0.80806930004</SimpleData>
+            <SimpleData name="Sup_Sig">0.80806930003</SimpleData>
             <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.06305862000</SimpleData>
             <SimpleData name="Y">-24.97127183000</SimpleData>
             <SimpleData name="Shape_Leng">381.46798134700</SimpleData>
             <SimpleData name="Shape_Area">8080.69300035000</SimpleData>
+            <SimpleData name="cedula">5653799</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Polygon>
@@ -1880,6 +1912,7 @@
             <SimpleData name="Y">-25.30236540000</SimpleData>
             <SimpleData name="Shape_Leng">486.40454333000</SimpleData>
             <SimpleData name="Shape_Area">10840.09139670000</SimpleData>
+            <SimpleData name="cedula">6895663</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Polygon>
@@ -1935,6 +1968,7 @@
             <SimpleData name="Y">-24.60970294000</SimpleData>
             <SimpleData name="Shape_Leng">414.11373438200</SimpleData>
             <SimpleData name="Shape_Area">10112.00251230000</SimpleData>
+            <SimpleData name="cedula">5904752</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Polygon>
@@ -1989,6 +2023,7 @@
             <SimpleData name="Y">-24.84632914000</SimpleData>
             <SimpleData name="Shape_Leng">406.65523559000</SimpleData>
             <SimpleData name="Shape_Area">9413.37661954000</SimpleData>
+            <SimpleData name="cedula">6321004</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Polygon>
@@ -2040,6 +2075,7 @@
             <SimpleData name="Y">-24.80146734000</SimpleData>
             <SimpleData name="Shape_Leng">454.49775268200</SimpleData>
             <SimpleData name="Shape_Area">8045.88786094000</SimpleData>
+            <SimpleData name="cedula">6281925</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Polygon>
@@ -2091,6 +2127,7 @@
             <SimpleData name="Y">-25.27291233000</SimpleData>
             <SimpleData name="Shape_Leng">383.74993504500</SimpleData>
             <SimpleData name="Shape_Area">8431.45838001000</SimpleData>
+            <SimpleData name="cedula">6870075</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Polygon>
@@ -2144,6 +2181,7 @@
             <SimpleData name="Y">-25.29962875000</SimpleData>
             <SimpleData name="Shape_Leng">470.52738888800</SimpleData>
             <SimpleData name="Shape_Area">8032.23202555000</SimpleData>
+            <SimpleData name="cedula">7897621</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Polygon>
@@ -2197,6 +2235,7 @@
             <SimpleData name="Y">-24.96724712000</SimpleData>
             <SimpleData name="Shape_Leng">584.97433472400</SimpleData>
             <SimpleData name="Shape_Area">9215.56313511000</SimpleData>
+            <SimpleData name="cedula">6250607</SimpleData>
           </SchemaData>
         </ExtendedData>
         <MultiGeometry>
@@ -2265,6 +2304,7 @@
             <SimpleData name="Y">-25.07068922000</SimpleData>
             <SimpleData name="Shape_Leng">573.85661873200</SimpleData>
             <SimpleData name="Shape_Area">7413.09316286000</SimpleData>
+            <SimpleData name="cedula">6278660</SimpleData>
           </SchemaData>
         </ExtendedData>
         <MultiGeometry>
@@ -2334,6 +2374,7 @@
             <SimpleData name="Y">-25.05553830000</SimpleData>
             <SimpleData name="Shape_Leng">482.09155382100</SimpleData>
             <SimpleData name="Shape_Area">7034.99398104000</SimpleData>
+            <SimpleData name="cedula">7162249</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Polygon>
@@ -2389,6 +2430,7 @@
             <SimpleData name="Y">-24.93633015000</SimpleData>
             <SimpleData name="Shape_Leng">395.56348795700</SimpleData>
             <SimpleData name="Shape_Area">8127.73253009000</SimpleData>
+            <SimpleData name="cedula">6780702</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Polygon>
@@ -2451,6 +2493,7 @@
             <SimpleData name="Y">-25.12593157000</SimpleData>
             <SimpleData name="Shape_Leng">601.84678208500</SimpleData>
             <SimpleData name="Shape_Area">9426.41565535000</SimpleData>
+            <SimpleData name="cedula">6891725</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Polygon>
@@ -2508,6 +2551,7 @@
             <SimpleData name="Y">-24.98090433000</SimpleData>
             <SimpleData name="Shape_Leng">405.15460669500</SimpleData>
             <SimpleData name="Shape_Area">10269.24700300000</SimpleData>
+            <SimpleData name="cedula">3937429</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Polygon>
@@ -2560,6 +2604,7 @@
             <SimpleData name="Y">-24.93785220000</SimpleData>
             <SimpleData name="Shape_Leng">420.03058136100</SimpleData>
             <SimpleData name="Shape_Area">8181.42246931000</SimpleData>
+            <SimpleData name="cedula">7493511</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Polygon>
@@ -2622,6 +2667,7 @@
             <SimpleData name="Y">-25.35345286000</SimpleData>
             <SimpleData name="Shape_Leng">513.91246592400</SimpleData>
             <SimpleData name="Shape_Area">7389.57578867000</SimpleData>
+            <SimpleData name="cedula">3871680</SimpleData>
           </SchemaData>
         </ExtendedData>
         <MultiGeometry>
@@ -2696,6 +2742,7 @@
             <SimpleData name="Y">-24.56726820000</SimpleData>
             <SimpleData name="Shape_Leng">335.97858090300</SimpleData>
             <SimpleData name="Shape_Area">7048.40508769000</SimpleData>
+            <SimpleData name="cedula">6034486</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Polygon>
@@ -2749,6 +2796,7 @@
             <SimpleData name="Y">-25.07428315000</SimpleData>
             <SimpleData name="Shape_Leng">374.43179020600</SimpleData>
             <SimpleData name="Shape_Area">8634.24175034000</SimpleData>
+            <SimpleData name="cedula">2330244</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Polygon>
@@ -2800,6 +2848,7 @@
             <SimpleData name="Y">-24.56311918000</SimpleData>
             <SimpleData name="Shape_Leng">563.99119637600</SimpleData>
             <SimpleData name="Shape_Area">8363.43613010000</SimpleData>
+            <SimpleData name="cedula">7234331</SimpleData>
           </SchemaData>
         </ExtendedData>
         <MultiGeometry>
@@ -2867,6 +2916,7 @@
             <SimpleData name="Y">-24.93993264000</SimpleData>
             <SimpleData name="Shape_Leng">368.33199268600</SimpleData>
             <SimpleData name="Shape_Area">8400.71787712000</SimpleData>
+            <SimpleData name="cedula">7321241</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Polygon>
@@ -2920,6 +2970,7 @@
             <SimpleData name="Y">-24.62718573000</SimpleData>
             <SimpleData name="Shape_Leng">363.38103436900</SimpleData>
             <SimpleData name="Shape_Area">8198.39267680000</SimpleData>
+            <SimpleData name="cedula">7744867</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Polygon>
@@ -2971,6 +3022,7 @@
             <SimpleData name="Y">-25.30800320000</SimpleData>
             <SimpleData name="Shape_Leng">405.22485987500</SimpleData>
             <SimpleData name="Shape_Area">8514.72386072000</SimpleData>
+            <SimpleData name="cedula">6869560</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Polygon>
@@ -3024,6 +3076,7 @@
             <SimpleData name="Y">-24.58956517000</SimpleData>
             <SimpleData name="Shape_Leng">393.79225784100</SimpleData>
             <SimpleData name="Shape_Area">8522.01452516000</SimpleData>
+            <SimpleData name="cedula">5962029</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Polygon>
@@ -3077,6 +3130,7 @@
             <SimpleData name="Y">-25.10916417000</SimpleData>
             <SimpleData name="Shape_Leng">474.11753740600</SimpleData>
             <SimpleData name="Shape_Area">7942.46466617000</SimpleData>
+            <SimpleData name="cedula">6521692</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Polygon>
@@ -3130,6 +3184,7 @@
             <SimpleData name="Y">-24.60623814000</SimpleData>
             <SimpleData name="Shape_Leng">366.06701952200</SimpleData>
             <SimpleData name="Shape_Area">8203.28280857000</SimpleData>
+            <SimpleData name="cedula">8105516</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Polygon>
@@ -3181,6 +3236,7 @@
             <SimpleData name="Y">-24.98348301000</SimpleData>
             <SimpleData name="Shape_Leng">405.85890926100</SimpleData>
             <SimpleData name="Shape_Area">9990.59365732000</SimpleData>
+            <SimpleData name="cedula">7570434</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Polygon>
@@ -3235,6 +3291,7 @@
             <SimpleData name="Y">-24.98220619000</SimpleData>
             <SimpleData name="Shape_Leng">360.05501989700</SimpleData>
             <SimpleData name="Shape_Area">8010.54821129000</SimpleData>
+            <SimpleData name="cedula">6793819</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Polygon>
@@ -3288,6 +3345,7 @@
             <SimpleData name="Y">-25.07692896000</SimpleData>
             <SimpleData name="Shape_Leng">441.19956611300</SimpleData>
             <SimpleData name="Shape_Area">8476.82324663000</SimpleData>
+            <SimpleData name="cedula">5109570</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Polygon>
@@ -3345,6 +3403,7 @@
             <SimpleData name="Y">-24.94006912000</SimpleData>
             <SimpleData name="Shape_Leng">443.69280140800</SimpleData>
             <SimpleData name="Shape_Area">9766.75079676000</SimpleData>
+            <SimpleData name="cedula">7053951</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Polygon>
@@ -3402,6 +3461,7 @@
             <SimpleData name="Y">-25.32980865000</SimpleData>
             <SimpleData name="Shape_Leng">388.39840336700</SimpleData>
             <SimpleData name="Shape_Area">8834.41215584000</SimpleData>
+            <SimpleData name="cedula">3550969</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Polygon>
@@ -3455,6 +3515,7 @@
             <SimpleData name="Y">-24.94358884000</SimpleData>
             <SimpleData name="Shape_Leng">458.79512623200</SimpleData>
             <SimpleData name="Shape_Area">6970.81867942000</SimpleData>
+            <SimpleData name="cedula">6790915</SimpleData>
           </SchemaData>
         </ExtendedData>
         <MultiGeometry>
@@ -3529,6 +3590,7 @@
             <SimpleData name="Y">-24.85786486000</SimpleData>
             <SimpleData name="Shape_Leng">390.21379640300</SimpleData>
             <SimpleData name="Shape_Area">8088.26696837000</SimpleData>
+            <SimpleData name="cedula">6687221</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Polygon>
@@ -3580,6 +3642,7 @@
             <SimpleData name="Y">-25.28873562000</SimpleData>
             <SimpleData name="Shape_Leng">512.63624089600</SimpleData>
             <SimpleData name="Shape_Area">7017.43368397000</SimpleData>
+            <SimpleData name="cedula">4641317</SimpleData>
           </SchemaData>
         </ExtendedData>
         <MultiGeometry>
@@ -3649,6 +3712,7 @@
             <SimpleData name="Y">-24.56552506000</SimpleData>
             <SimpleData name="Shape_Leng">490.43243889100</SimpleData>
             <SimpleData name="Shape_Area">7846.29380108000</SimpleData>
+            <SimpleData name="cedula">4342085</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Polygon>
@@ -3700,6 +3764,7 @@
             <SimpleData name="Y">-24.60875099000</SimpleData>
             <SimpleData name="Shape_Leng">408.11877014300</SimpleData>
             <SimpleData name="Shape_Area">8318.21193673000</SimpleData>
+            <SimpleData name="cedula">8397330</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Polygon>
@@ -3753,6 +3818,7 @@
             <SimpleData name="Y">-24.87713232000</SimpleData>
             <SimpleData name="Shape_Leng">376.48136671400</SimpleData>
             <SimpleData name="Shape_Area">8344.36549144000</SimpleData>
+            <SimpleData name="cedula">6648221</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Polygon>
@@ -3804,6 +3870,7 @@
             <SimpleData name="Y">-25.27715525000</SimpleData>
             <SimpleData name="Shape_Leng">463.63076798700</SimpleData>
             <SimpleData name="Shape_Area">10773.03348260000</SimpleData>
+            <SimpleData name="cedula">6110563</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Polygon>
@@ -3860,6 +3927,7 @@
             <SimpleData name="Y">-24.94287214000</SimpleData>
             <SimpleData name="Shape_Leng">699.83256440200</SimpleData>
             <SimpleData name="Shape_Area">9007.37553491000</SimpleData>
+            <SimpleData name="cedula">4148694</SimpleData>
           </SchemaData>
         </ExtendedData>
         <MultiGeometry>
@@ -3956,12 +4024,13 @@
             <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
             <SimpleData name="Lote">F</SimpleData>
             <SimpleData name="Parametro">0.80000000000</SimpleData>
-            <SimpleData name="Sup_Sig">0.80801958315</SimpleData>
+            <SimpleData name="Sup_Sig">0.80801958314</SimpleData>
             <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-54.98518286000</SimpleData>
             <SimpleData name="Y">-24.62579726000</SimpleData>
             <SimpleData name="Shape_Leng">455.27006625700</SimpleData>
             <SimpleData name="Shape_Area">8080.19583145000</SimpleData>
+            <SimpleData name="cedula">5813130</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Polygon>
@@ -4020,6 +4089,7 @@
             <SimpleData name="Y">-24.98296886000</SimpleData>
             <SimpleData name="Shape_Leng">365.10305508400</SimpleData>
             <SimpleData name="Shape_Area">8258.06585527000</SimpleData>
+            <SimpleData name="cedula">6580485</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Polygon>
@@ -4076,6 +4146,7 @@
             <SimpleData name="Y">-25.24462802000</SimpleData>
             <SimpleData name="Shape_Leng">366.88193001500</SimpleData>
             <SimpleData name="Shape_Area">7840.29332791000</SimpleData>
+            <SimpleData name="cedula">1304387</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Polygon>
@@ -4129,6 +4200,7 @@
             <SimpleData name="Y">-24.97101315000</SimpleData>
             <SimpleData name="Shape_Leng">747.49793822900</SimpleData>
             <SimpleData name="Shape_Area">9243.93918214000</SimpleData>
+            <SimpleData name="cedula">6047106</SimpleData>
           </SchemaData>
         </ExtendedData>
         <MultiGeometry>
@@ -4215,6 +4287,7 @@
             <SimpleData name="Y">-25.27597216000</SimpleData>
             <SimpleData name="Shape_Leng">394.89584282800</SimpleData>
             <SimpleData name="Shape_Area">8177.56174462000</SimpleData>
+            <SimpleData name="cedula">6872448</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Polygon>
@@ -4271,6 +4344,7 @@
             <SimpleData name="Y">-25.09871959000</SimpleData>
             <SimpleData name="Shape_Leng">391.56652798500</SimpleData>
             <SimpleData name="Shape_Area">9303.47317013000</SimpleData>
+            <SimpleData name="cedula">4709511</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Polygon>
@@ -4325,6 +4399,7 @@
             <SimpleData name="Y">-24.98436018000</SimpleData>
             <SimpleData name="Shape_Leng">414.38203143900</SimpleData>
             <SimpleData name="Shape_Area">10669.73324140000</SimpleData>
+            <SimpleData name="cedula">3186754</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Polygon>
@@ -4378,6 +4453,7 @@
             <SimpleData name="Y">-24.56193370000</SimpleData>
             <SimpleData name="Shape_Leng">633.44844670800</SimpleData>
             <SimpleData name="Shape_Area">9159.75012587000</SimpleData>
+            <SimpleData name="cedula">6605100</SimpleData>
           </SchemaData>
         </ExtendedData>
         <MultiGeometry>
@@ -4444,6 +4520,7 @@
             <SimpleData name="Y">-25.31955683000</SimpleData>
             <SimpleData name="Shape_Leng">336.75297878500</SimpleData>
             <SimpleData name="Shape_Area">7034.77642666000</SimpleData>
+            <SimpleData name="cedula">7897608</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Polygon>
@@ -4496,6 +4573,7 @@
             <SimpleData name="Y">-24.96683167000</SimpleData>
             <SimpleData name="Shape_Leng">565.87549044900</SimpleData>
             <SimpleData name="Shape_Area">11792.48308650000</SimpleData>
+            <SimpleData name="cedula">8669058</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Polygon>
@@ -4547,6 +4625,7 @@
             <SimpleData name="Y">-25.09910036000</SimpleData>
             <SimpleData name="Shape_Leng">376.27250716200</SimpleData>
             <SimpleData name="Shape_Area">8454.89446932000</SimpleData>
+            <SimpleData name="cedula">7822363</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Polygon>
@@ -4604,6 +4683,7 @@
             <SimpleData name="Y">-24.96294008000</SimpleData>
             <SimpleData name="Shape_Leng">448.22243217600</SimpleData>
             <SimpleData name="Shape_Area">7138.14152548000</SimpleData>
+            <SimpleData name="cedula">4198295</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Polygon>
@@ -4666,6 +4746,7 @@
             <SimpleData name="Y">-24.87823830000</SimpleData>
             <SimpleData name="Shape_Leng">365.87301381300</SimpleData>
             <SimpleData name="Shape_Area">8254.79723412000</SimpleData>
+            <SimpleData name="cedula">6648224</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Polygon>
@@ -4717,6 +4798,7 @@
             <SimpleData name="Y">-25.08896026000</SimpleData>
             <SimpleData name="Shape_Leng">545.68974913400</SimpleData>
             <SimpleData name="Shape_Area">7412.78741687000</SimpleData>
+            <SimpleData name="cedula">6529991</SimpleData>
           </SchemaData>
         </ExtendedData>
         <MultiGeometry>
@@ -4801,6 +4883,7 @@
             <SimpleData name="Y">-24.87630807000</SimpleData>
             <SimpleData name="Shape_Leng">365.65489661000</SimpleData>
             <SimpleData name="Shape_Area">7476.17978543000</SimpleData>
+            <SimpleData name="cedula">7668958</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Polygon>
@@ -4852,6 +4935,7 @@
             <SimpleData name="Y">-25.28781093000</SimpleData>
             <SimpleData name="Shape_Leng">544.89840991400</SimpleData>
             <SimpleData name="Shape_Area">8472.61173323000</SimpleData>
+            <SimpleData name="cedula">6098927</SimpleData>
           </SchemaData>
         </ExtendedData>
         <MultiGeometry>
@@ -4920,6 +5004,7 @@
             <SimpleData name="Y">-24.57219034000</SimpleData>
             <SimpleData name="Shape_Leng">507.14413369200</SimpleData>
             <SimpleData name="Shape_Area">9781.38998381000</SimpleData>
+            <SimpleData name="cedula">6297487</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Polygon>
@@ -4977,6 +5062,7 @@
             <SimpleData name="Y">-25.30442621000</SimpleData>
             <SimpleData name="Shape_Leng">471.33858068500</SimpleData>
             <SimpleData name="Shape_Area">9198.94684050000</SimpleData>
+            <SimpleData name="cedula">4749726</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Polygon>
@@ -5030,6 +5116,7 @@
             <SimpleData name="Y">-24.96395576000</SimpleData>
             <SimpleData name="Shape_Leng">633.07760045900</SimpleData>
             <SimpleData name="Shape_Area">9225.91181497000</SimpleData>
+            <SimpleData name="cedula">5860183</SimpleData>
           </SchemaData>
         </ExtendedData>
         <MultiGeometry>
@@ -5101,6 +5188,7 @@
             <SimpleData name="Y">-24.85767836000</SimpleData>
             <SimpleData name="Shape_Leng">388.21789055200</SimpleData>
             <SimpleData name="Shape_Area">8253.68783604000</SimpleData>
+            <SimpleData name="cedula">4148769</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Polygon>
@@ -5157,6 +5245,7 @@
             <SimpleData name="Y">-25.11132941000</SimpleData>
             <SimpleData name="Shape_Leng">482.14015868400</SimpleData>
             <SimpleData name="Shape_Area">7041.28627088000</SimpleData>
+            <SimpleData name="cedula">6278952</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Polygon>
@@ -5217,6 +5306,7 @@
             <SimpleData name="Y">-24.85769543000</SimpleData>
             <SimpleData name="Shape_Leng">432.98049670600</SimpleData>
             <SimpleData name="Shape_Area">11318.09143340000</SimpleData>
+            <SimpleData name="cedula">6691725</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Polygon>
@@ -5274,6 +5364,7 @@
             <SimpleData name="Y">-24.55331124000</SimpleData>
             <SimpleData name="Shape_Leng">491.56888909900</SimpleData>
             <SimpleData name="Shape_Area">9193.99167416000</SimpleData>
+            <SimpleData name="cedula">4455365</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Polygon>
@@ -5325,6 +5416,7 @@
             <SimpleData name="Y">-24.81330401000</SimpleData>
             <SimpleData name="Shape_Leng">525.38763175200</SimpleData>
             <SimpleData name="Shape_Area">10592.05777630000</SimpleData>
+            <SimpleData name="cedula">7731685</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Polygon>
@@ -5376,6 +5468,7 @@
             <SimpleData name="Y">-24.98586500000</SimpleData>
             <SimpleData name="Shape_Leng">346.94686529200</SimpleData>
             <SimpleData name="Shape_Area">7084.61560669000</SimpleData>
+            <SimpleData name="cedula">2261475</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Polygon>
@@ -5428,6 +5521,7 @@
             <SimpleData name="Y">-25.29145735000</SimpleData>
             <SimpleData name="Shape_Leng">464.13158509000</SimpleData>
             <SimpleData name="Shape_Area">9222.90757644000</SimpleData>
+            <SimpleData name="cedula">6905606</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Polygon>
@@ -5481,6 +5575,7 @@
             <SimpleData name="Y">-24.97073351000</SimpleData>
             <SimpleData name="Shape_Leng">579.31289824200</SimpleData>
             <SimpleData name="Shape_Area">10315.02565290000</SimpleData>
+            <SimpleData name="cedula">6901378</SimpleData>
           </SchemaData>
         </ExtendedData>
         <MultiGeometry>
@@ -5557,6 +5652,7 @@
             <SimpleData name="Y">-24.96413039000</SimpleData>
             <SimpleData name="Shape_Leng">663.92010520100</SimpleData>
             <SimpleData name="Shape_Area">8541.22820946000</SimpleData>
+            <SimpleData name="cedula">6047097</SimpleData>
           </SchemaData>
         </ExtendedData>
         <MultiGeometry>
@@ -5643,6 +5739,7 @@
             <SimpleData name="Y">-24.96299698000</SimpleData>
             <SimpleData name="Shape_Leng">519.16080833400</SimpleData>
             <SimpleData name="Shape_Area">8366.06852311000</SimpleData>
+            <SimpleData name="cedula">5653809</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Polygon>
@@ -5698,6 +5795,7 @@
             <SimpleData name="Y">-24.85780090000</SimpleData>
             <SimpleData name="Shape_Leng">368.29571540900</SimpleData>
             <SimpleData name="Shape_Area">6534.48699918000</SimpleData>
+            <SimpleData name="cedula">5766672</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Polygon>
@@ -5750,6 +5848,7 @@
             <SimpleData name="Y">-25.11326575000</SimpleData>
             <SimpleData name="Shape_Leng">479.00252939600</SimpleData>
             <SimpleData name="Shape_Area">9120.23010046000</SimpleData>
+            <SimpleData name="cedula">5155619</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Polygon>
@@ -5813,6 +5912,7 @@
             <SimpleData name="Y">-24.88785417000</SimpleData>
             <SimpleData name="Shape_Leng">494.56773194100</SimpleData>
             <SimpleData name="Shape_Area">10413.18910300000</SimpleData>
+            <SimpleData name="cedula">5251822</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Polygon>
@@ -5870,6 +5970,7 @@
             <SimpleData name="Y">-25.09257698000</SimpleData>
             <SimpleData name="Shape_Leng">381.80311521100</SimpleData>
             <SimpleData name="Shape_Area">8601.06732839000</SimpleData>
+            <SimpleData name="cedula">6909435</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Polygon>
@@ -5921,6 +6022,7 @@
             <SimpleData name="Y">-24.96348673000</SimpleData>
             <SimpleData name="Shape_Leng">796.37721779400</SimpleData>
             <SimpleData name="Shape_Area">9317.42889679000</SimpleData>
+            <SimpleData name="cedula">4046590</SimpleData>
           </SchemaData>
         </ExtendedData>
         <MultiGeometry>
@@ -6004,6 +6106,7 @@
             <SimpleData name="Y">-24.98376647000</SimpleData>
             <SimpleData name="Shape_Leng">370.69084049300</SimpleData>
             <SimpleData name="Shape_Area">8556.61448429000</SimpleData>
+            <SimpleData name="cedula">6797223</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Polygon>
@@ -6056,6 +6159,7 @@
             <SimpleData name="Y">-24.93124634000</SimpleData>
             <SimpleData name="Shape_Leng">618.61313533500</SimpleData>
             <SimpleData name="Shape_Area">9680.29279017000</SimpleData>
+            <SimpleData name="cedula">4388486</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Polygon>
@@ -6109,6 +6213,7 @@
             <SimpleData name="Y">-24.94152498000</SimpleData>
             <SimpleData name="Shape_Leng">659.65377799400</SimpleData>
             <SimpleData name="Shape_Area">10191.17257790000</SimpleData>
+            <SimpleData name="cedula">4148805</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Polygon>
@@ -6167,6 +6272,7 @@
             <SimpleData name="Y">-25.26526774000</SimpleData>
             <SimpleData name="Shape_Leng">460.66651651300</SimpleData>
             <SimpleData name="Shape_Area">10483.61111190000</SimpleData>
+            <SimpleData name="cedula">2333012</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Polygon>
@@ -6221,6 +6327,7 @@
             <SimpleData name="Y">-24.79562592000</SimpleData>
             <SimpleData name="Shape_Leng">331.27071657800</SimpleData>
             <SimpleData name="Shape_Area">7133.38368949000</SimpleData>
+            <SimpleData name="cedula">5240281</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Polygon>
@@ -6276,6 +6383,7 @@
             <SimpleData name="Y">-25.13623475000</SimpleData>
             <SimpleData name="Shape_Leng">538.08535166200</SimpleData>
             <SimpleData name="Shape_Area">8579.65862225000</SimpleData>
+            <SimpleData name="cedula">3720908</SimpleData>
           </SchemaData>
         </ExtendedData>
         <MultiGeometry>
@@ -6343,6 +6451,7 @@
             <SimpleData name="Y">-25.24832837000</SimpleData>
             <SimpleData name="Shape_Leng">511.18364012100</SimpleData>
             <SimpleData name="Shape_Area">8944.69750622000</SimpleData>
+            <SimpleData name="cedula">7589269</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Polygon>
@@ -6394,6 +6503,7 @@
             <SimpleData name="Y">-25.26281545000</SimpleData>
             <SimpleData name="Shape_Leng">496.23120590000</SimpleData>
             <SimpleData name="Shape_Area">14025.69219190000</SimpleData>
+            <SimpleData name="cedula">5905529</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Polygon>
@@ -6446,6 +6556,7 @@
             <SimpleData name="Y">-24.60883517000</SimpleData>
             <SimpleData name="Shape_Leng">347.46743176400</SimpleData>
             <SimpleData name="Shape_Area">8339.15093766000</SimpleData>
+            <SimpleData name="cedula">5128173</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Polygon>
@@ -6499,6 +6610,7 @@
             <SimpleData name="Y">-25.09935845000</SimpleData>
             <SimpleData name="Shape_Leng">591.48079525700</SimpleData>
             <SimpleData name="Shape_Area">10288.90040000000</SimpleData>
+            <SimpleData name="cedula">6521672</SimpleData>
           </SchemaData>
         </ExtendedData>
         <MultiGeometry>
@@ -6569,6 +6681,7 @@
             <SimpleData name="Y">-24.89080626000</SimpleData>
             <SimpleData name="Shape_Leng">586.88708516800</SimpleData>
             <SimpleData name="Shape_Area">11039.04139560000</SimpleData>
+            <SimpleData name="cedula">6658682</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Polygon>
@@ -6624,6 +6737,7 @@
             <SimpleData name="Y">-24.87561092000</SimpleData>
             <SimpleData name="Shape_Leng">363.46049471500</SimpleData>
             <SimpleData name="Shape_Area">7382.79355655000</SimpleData>
+            <SimpleData name="cedula">6691795</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Polygon>
@@ -6677,6 +6791,7 @@
             <SimpleData name="Y">-24.85089773000</SimpleData>
             <SimpleData name="Shape_Leng">477.66982468000</SimpleData>
             <SimpleData name="Shape_Area">10395.79330110000</SimpleData>
+            <SimpleData name="cedula">7758397</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Polygon>
@@ -6730,6 +6845,7 @@
             <SimpleData name="Y">-24.93615700000</SimpleData>
             <SimpleData name="Shape_Leng">506.09442699100</SimpleData>
             <SimpleData name="Shape_Area">8711.48307026000</SimpleData>
+            <SimpleData name="cedula">6797371</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Polygon>
@@ -6790,6 +6906,7 @@
             <SimpleData name="Y">-24.94144210000</SimpleData>
             <SimpleData name="Shape_Leng">643.00475511000</SimpleData>
             <SimpleData name="Shape_Area">8284.58748791000</SimpleData>
+            <SimpleData name="cedula">5490793</SimpleData>
           </SchemaData>
         </ExtendedData>
         <MultiGeometry>
@@ -6862,6 +6979,7 @@
             <SimpleData name="Y">-25.26935653000</SimpleData>
             <SimpleData name="Shape_Leng">382.35519668400</SimpleData>
             <SimpleData name="Shape_Area">8709.68266549000</SimpleData>
+            <SimpleData name="cedula">7878019</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Polygon>
@@ -6915,6 +7033,7 @@
             <SimpleData name="Y">-24.85833786000</SimpleData>
             <SimpleData name="Shape_Leng">411.56170307300</SimpleData>
             <SimpleData name="Shape_Area">8020.53653960000</SimpleData>
+            <SimpleData name="cedula">4405668</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Polygon>
@@ -6972,6 +7091,7 @@
             <SimpleData name="Y">-24.85850979000</SimpleData>
             <SimpleData name="Shape_Leng">399.41211939000</SimpleData>
             <SimpleData name="Shape_Area">9437.51884128000</SimpleData>
+            <SimpleData name="cedula">8235188</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Polygon>
@@ -7026,6 +7146,7 @@
             <SimpleData name="Y">-24.86106368000</SimpleData>
             <SimpleData name="Shape_Leng">408.53170043900</SimpleData>
             <SimpleData name="Shape_Area">8144.64875507000</SimpleData>
+            <SimpleData name="cedula">6772798</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Polygon>
@@ -7078,6 +7199,7 @@
             <SimpleData name="Y">-24.98714277000</SimpleData>
             <SimpleData name="Shape_Leng">573.38173944200</SimpleData>
             <SimpleData name="Shape_Area">11126.04674150000</SimpleData>
+            <SimpleData name="cedula">7072109</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Polygon>
@@ -7134,6 +7256,7 @@
             <SimpleData name="Y">-25.08660592000</SimpleData>
             <SimpleData name="Shape_Leng">453.66122850300</SimpleData>
             <SimpleData name="Shape_Area">7358.69455790000</SimpleData>
+            <SimpleData name="cedula">6280666</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Polygon>
@@ -7191,6 +7314,7 @@
             <SimpleData name="Y">-25.08715414000</SimpleData>
             <SimpleData name="Shape_Leng">369.63028657400</SimpleData>
             <SimpleData name="Shape_Area">7819.15387396000</SimpleData>
+            <SimpleData name="cedula">4066550</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Polygon>
@@ -7242,6 +7366,7 @@
             <SimpleData name="Y">-25.07816400000</SimpleData>
             <SimpleData name="Shape_Leng">399.47100804700</SimpleData>
             <SimpleData name="Shape_Area">9370.47510432000</SimpleData>
+            <SimpleData name="cedula">5832397</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Polygon>
@@ -7299,6 +7424,7 @@
             <SimpleData name="Y">-25.09063385000</SimpleData>
             <SimpleData name="Shape_Leng">342.16054655200</SimpleData>
             <SimpleData name="Shape_Area">7252.04894907000</SimpleData>
+            <SimpleData name="cedula">6534653</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Polygon>
@@ -7351,6 +7477,7 @@
             <SimpleData name="Y">-24.84487024000</SimpleData>
             <SimpleData name="Shape_Leng">365.85063598100</SimpleData>
             <SimpleData name="Shape_Area">8339.42233145000</SimpleData>
+            <SimpleData name="cedula">4342869</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Polygon>
@@ -7402,6 +7529,7 @@
             <SimpleData name="Y">-24.84997428000</SimpleData>
             <SimpleData name="Shape_Leng">591.48259824700</SimpleData>
             <SimpleData name="Shape_Area">8208.86737616000</SimpleData>
+            <SimpleData name="cedula">2474360</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Polygon>
@@ -7453,6 +7581,7 @@
             <SimpleData name="Y">-24.88877911000</SimpleData>
             <SimpleData name="Shape_Leng">375.17371119300</SimpleData>
             <SimpleData name="Shape_Area">8763.93474308000</SimpleData>
+            <SimpleData name="cedula">2150990</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Polygon>
@@ -7504,6 +7633,7 @@
             <SimpleData name="Y">-24.93434850000</SimpleData>
             <SimpleData name="Shape_Leng">462.85500666700</SimpleData>
             <SimpleData name="Shape_Area">8730.91647539000</SimpleData>
+            <SimpleData name="cedula">7961499</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Polygon>
@@ -7558,6 +7688,7 @@
             <SimpleData name="Y">-25.26605744000</SimpleData>
             <SimpleData name="Shape_Leng">401.04762802400</SimpleData>
             <SimpleData name="Shape_Area">10110.72427360000</SimpleData>
+            <SimpleData name="cedula">4896955</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Polygon>
@@ -7612,6 +7743,7 @@
             <SimpleData name="Y">-24.56068128000</SimpleData>
             <SimpleData name="Shape_Leng">623.54117784900</SimpleData>
             <SimpleData name="Shape_Area">9533.02282226000</SimpleData>
+            <SimpleData name="cedula">2686293</SimpleData>
           </SchemaData>
         </ExtendedData>
         <MultiGeometry>
@@ -7678,6 +7810,7 @@
             <SimpleData name="Y">-25.28634157000</SimpleData>
             <SimpleData name="Shape_Leng">344.43337354900</SimpleData>
             <SimpleData name="Shape_Area">7034.52353827000</SimpleData>
+            <SimpleData name="cedula">6110566</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Polygon>
@@ -7731,6 +7864,7 @@
             <SimpleData name="Y">-24.58897574000</SimpleData>
             <SimpleData name="Shape_Leng">442.81510320600</SimpleData>
             <SimpleData name="Shape_Area">7014.73653807000</SimpleData>
+            <SimpleData name="cedula">5962028</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Polygon>
@@ -7784,6 +7918,7 @@
             <SimpleData name="Y">-24.55962385000</SimpleData>
             <SimpleData name="Shape_Leng">546.27337650600</SimpleData>
             <SimpleData name="Shape_Area">7588.98197582000</SimpleData>
+            <SimpleData name="cedula">6341199</SimpleData>
           </SchemaData>
         </ExtendedData>
         <MultiGeometry>
@@ -7851,6 +7986,7 @@
             <SimpleData name="Y">-25.27433574000</SimpleData>
             <SimpleData name="Shape_Leng">402.97988989500</SimpleData>
             <SimpleData name="Shape_Area">8389.63705731000</SimpleData>
+            <SimpleData name="cedula">6098835</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Polygon>
@@ -7916,6 +8052,7 @@
             <SimpleData name="Y">-24.98259341000</SimpleData>
             <SimpleData name="Shape_Leng">410.76782874600</SimpleData>
             <SimpleData name="Shape_Area">10435.57194840000</SimpleData>
+            <SimpleData name="cedula">7953237</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Polygon>
@@ -7967,6 +8104,7 @@
             <SimpleData name="Y">-24.86175488000</SimpleData>
             <SimpleData name="Shape_Leng">422.93045772700</SimpleData>
             <SimpleData name="Shape_Area">7000.20393477000</SimpleData>
+            <SimpleData name="cedula">6617588</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Polygon>
@@ -8022,6 +8160,7 @@
             <SimpleData name="Y">-25.33420598000</SimpleData>
             <SimpleData name="Shape_Leng">375.75109368400</SimpleData>
             <SimpleData name="Shape_Area">9006.21843066000</SimpleData>
+            <SimpleData name="cedula">8259272</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Polygon>
@@ -8074,6 +8213,7 @@
             <SimpleData name="Y">-25.28495328000</SimpleData>
             <SimpleData name="Shape_Leng">797.01840409900</SimpleData>
             <SimpleData name="Shape_Area">8057.99543170000</SimpleData>
+            <SimpleData name="cedula">6110561</SimpleData>
           </SchemaData>
         </ExtendedData>
         <MultiGeometry>
@@ -8162,6 +8302,7 @@
             <SimpleData name="Y">-25.08391015000</SimpleData>
             <SimpleData name="Shape_Leng">369.41997894900</SimpleData>
             <SimpleData name="Shape_Area">8084.49630033000</SimpleData>
+            <SimpleData name="cedula">5233240</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Polygon>
@@ -8215,6 +8356,7 @@
             <SimpleData name="Y">-25.32719921000</SimpleData>
             <SimpleData name="Shape_Leng">543.72776134100</SimpleData>
             <SimpleData name="Shape_Area">7177.70290841000</SimpleData>
+            <SimpleData name="cedula">7820366</SimpleData>
           </SchemaData>
         </ExtendedData>
         <MultiGeometry>
@@ -8282,6 +8424,7 @@
             <SimpleData name="Y">-24.93220939000</SimpleData>
             <SimpleData name="Shape_Leng">512.77634221600</SimpleData>
             <SimpleData name="Shape_Area">7993.40002932000</SimpleData>
+            <SimpleData name="cedula">7761005</SimpleData>
           </SchemaData>
         </ExtendedData>
         <MultiGeometry>
@@ -8352,6 +8495,7 @@
             <SimpleData name="Y">-25.10479461000</SimpleData>
             <SimpleData name="Shape_Leng">418.15769127800</SimpleData>
             <SimpleData name="Shape_Area">7080.41948693000</SimpleData>
+            <SimpleData name="cedula">5155613</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Polygon>
@@ -8405,6 +8549,7 @@
             <SimpleData name="Y">-24.93168131000</SimpleData>
             <SimpleData name="Shape_Leng">714.45167973700</SimpleData>
             <SimpleData name="Shape_Area">10123.50177080000</SimpleData>
+            <SimpleData name="cedula">5525492</SimpleData>
           </SchemaData>
         </ExtendedData>
         <MultiGeometry>
@@ -8479,6 +8624,7 @@
             <SimpleData name="Y">-25.07322608000</SimpleData>
             <SimpleData name="Shape_Leng">379.99232663800</SimpleData>
             <SimpleData name="Shape_Area">8879.85945333000</SimpleData>
+            <SimpleData name="cedula">1500586</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Polygon>
@@ -8535,6 +8681,7 @@
             <SimpleData name="Y">-24.96223768000</SimpleData>
             <SimpleData name="Shape_Leng">383.94838727900</SimpleData>
             <SimpleData name="Shape_Area">8705.22321197000</SimpleData>
+            <SimpleData name="cedula">7887804</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Polygon>
@@ -8596,6 +8743,7 @@
             <SimpleData name="Y">-25.09007068000</SimpleData>
             <SimpleData name="Shape_Leng">503.72043673400</SimpleData>
             <SimpleData name="Shape_Area">8783.09538094000</SimpleData>
+            <SimpleData name="cedula">5086424</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Polygon>
@@ -8657,12 +8805,13 @@
             <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
             <SimpleData name="Lote">F</SimpleData>
             <SimpleData name="Parametro">0.80000000000</SimpleData>
-            <SimpleData name="Sup_Sig">0.80208852405</SimpleData>
+            <SimpleData name="Sup_Sig">0.80208852404</SimpleData>
             <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.07999391000</SimpleData>
             <SimpleData name="Y">-24.93922081000</SimpleData>
             <SimpleData name="Shape_Leng">662.32116167600</SimpleData>
             <SimpleData name="Shape_Area">8020.88524045000</SimpleData>
+            <SimpleData name="cedula">6829642</SimpleData>
           </SchemaData>
         </ExtendedData>
         <MultiGeometry>
@@ -8738,6 +8887,7 @@
             <SimpleData name="Y">-25.28614051000</SimpleData>
             <SimpleData name="Shape_Leng">341.04682568400</SimpleData>
             <SimpleData name="Shape_Area">7027.11372390000</SimpleData>
+            <SimpleData name="cedula">7063934</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Polygon>
@@ -8792,6 +8942,7 @@
             <SimpleData name="Y">-24.98460508000</SimpleData>
             <SimpleData name="Shape_Leng">381.07747425200</SimpleData>
             <SimpleData name="Shape_Area">9011.30028156000</SimpleData>
+            <SimpleData name="cedula">6797219</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Polygon>
@@ -8843,6 +8994,7 @@
             <SimpleData name="Y">-24.96606937000</SimpleData>
             <SimpleData name="Shape_Leng">346.03420578400</SimpleData>
             <SimpleData name="Shape_Area">7112.03047969000</SimpleData>
+            <SimpleData name="cedula">8560361</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Polygon>
@@ -8894,6 +9046,7 @@
             <SimpleData name="Y">-24.96503408000</SimpleData>
             <SimpleData name="Shape_Leng">744.29827642800</SimpleData>
             <SimpleData name="Shape_Area">9605.35854410000</SimpleData>
+            <SimpleData name="cedula">5860179</SimpleData>
           </SchemaData>
         </ExtendedData>
         <MultiGeometry>
@@ -8970,6 +9123,7 @@
             <SimpleData name="Y">-25.27819890000</SimpleData>
             <SimpleData name="Shape_Leng">389.48838131400</SimpleData>
             <SimpleData name="Shape_Area">6977.80262847000</SimpleData>
+            <SimpleData name="cedula">7274981</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Polygon>
@@ -9024,6 +9178,7 @@
             <SimpleData name="Y">-24.56763248000</SimpleData>
             <SimpleData name="Shape_Leng">440.99490189700</SimpleData>
             <SimpleData name="Shape_Area">7196.51386053000</SimpleData>
+            <SimpleData name="cedula">5470226</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Polygon>
@@ -9075,6 +9230,7 @@
             <SimpleData name="Y">-24.98174975000</SimpleData>
             <SimpleData name="Shape_Leng">386.91398260100</SimpleData>
             <SimpleData name="Shape_Area">9153.45204703000</SimpleData>
+            <SimpleData name="cedula">7899249</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Polygon>
@@ -9126,6 +9282,7 @@
             <SimpleData name="Y">-24.98143093000</SimpleData>
             <SimpleData name="Shape_Leng">374.64925337100</SimpleData>
             <SimpleData name="Shape_Area">8285.91156912000</SimpleData>
+            <SimpleData name="cedula">5063124</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Polygon>
@@ -9177,6 +9334,7 @@
             <SimpleData name="Y">-24.84775910000</SimpleData>
             <SimpleData name="Shape_Leng">373.08597064600</SimpleData>
             <SimpleData name="Shape_Area">7268.80047385000</SimpleData>
+            <SimpleData name="cedula">5787145</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Polygon>
@@ -9228,6 +9386,7 @@
             <SimpleData name="Y">-25.25943341000</SimpleData>
             <SimpleData name="Shape_Leng">583.03337304300</SimpleData>
             <SimpleData name="Shape_Area">12587.49089130000</SimpleData>
+            <SimpleData name="cedula">6098831</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Polygon>
@@ -9290,6 +9449,7 @@
             <SimpleData name="Y">-24.86197090000</SimpleData>
             <SimpleData name="Shape_Leng">408.46984294300</SimpleData>
             <SimpleData name="Shape_Area">8036.15021700000</SimpleData>
+            <SimpleData name="cedula">1844165</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Polygon>
@@ -9350,6 +9510,7 @@
             <SimpleData name="Y">-24.81929499000</SimpleData>
             <SimpleData name="Shape_Leng">361.45702342200</SimpleData>
             <SimpleData name="Shape_Area">7970.38908487000</SimpleData>
+            <SimpleData name="cedula">3875757</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Polygon>
@@ -9403,6 +9564,7 @@
             <SimpleData name="Y">-24.97115949000</SimpleData>
             <SimpleData name="Shape_Leng">435.43237449500</SimpleData>
             <SimpleData name="Shape_Area">7485.25983210000</SimpleData>
+            <SimpleData name="cedula">7205237</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Polygon>
@@ -9457,6 +9619,7 @@
             <SimpleData name="Y">-24.86248939000</SimpleData>
             <SimpleData name="Shape_Leng">422.25272049100</SimpleData>
             <SimpleData name="Shape_Area">8022.60899627000</SimpleData>
+            <SimpleData name="cedula">7622749</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Polygon>
@@ -9529,6 +9692,7 @@
             <SimpleData name="Y">-24.97043019000</SimpleData>
             <SimpleData name="Shape_Leng">422.08368779600</SimpleData>
             <SimpleData name="Shape_Area">7075.45281411000</SimpleData>
+            <SimpleData name="cedula">4021724</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Polygon>
@@ -9588,6 +9752,7 @@
             <SimpleData name="Y">-24.55621815000</SimpleData>
             <SimpleData name="Shape_Leng">545.01847886500</SimpleData>
             <SimpleData name="Shape_Area">8986.70199555000</SimpleData>
+            <SimpleData name="cedula">4320990</SimpleData>
           </SchemaData>
         </ExtendedData>
         <MultiGeometry>
@@ -9654,6 +9819,7 @@
             <SimpleData name="Y">-24.81352684000</SimpleData>
             <SimpleData name="Shape_Leng">490.47116942300</SimpleData>
             <SimpleData name="Shape_Area">9313.91703659000</SimpleData>
+            <SimpleData name="cedula">5448498</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Polygon>
@@ -9707,6 +9873,7 @@
             <SimpleData name="Y">-24.62234361000</SimpleData>
             <SimpleData name="Shape_Leng">486.68840833400</SimpleData>
             <SimpleData name="Shape_Area">8009.35952294000</SimpleData>
+            <SimpleData name="cedula">5821020</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Polygon>
@@ -9768,6 +9935,7 @@
             <SimpleData name="Y">-24.62554866000</SimpleData>
             <SimpleData name="Shape_Leng">413.26046075100</SimpleData>
             <SimpleData name="Shape_Area">9023.67725986000</SimpleData>
+            <SimpleData name="cedula">5905545</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Polygon>
@@ -9821,6 +9989,7 @@
             <SimpleData name="Y">-24.80300989000</SimpleData>
             <SimpleData name="Shape_Leng">442.10355521200</SimpleData>
             <SimpleData name="Shape_Area">7965.33569338000</SimpleData>
+            <SimpleData name="cedula">6033605</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Polygon>
@@ -9874,6 +10043,7 @@
             <SimpleData name="Y">-24.93887631000</SimpleData>
             <SimpleData name="Shape_Leng">475.62848589900</SimpleData>
             <SimpleData name="Shape_Area">9002.61981792000</SimpleData>
+            <SimpleData name="cedula">6780704</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Polygon>
@@ -9935,6 +10105,7 @@
             <SimpleData name="Y">-24.96635705000</SimpleData>
             <SimpleData name="Shape_Leng">337.67093835500</SimpleData>
             <SimpleData name="Shape_Area">7138.28853023000</SimpleData>
+            <SimpleData name="cedula">7220935</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Polygon>
@@ -9988,6 +10159,7 @@
             <SimpleData name="Y">-24.94005462000</SimpleData>
             <SimpleData name="Shape_Leng">600.02508544500</SimpleData>
             <SimpleData name="Shape_Area">9321.48754423000</SimpleData>
+            <SimpleData name="cedula">7612587</SimpleData>
           </SchemaData>
         </ExtendedData>
         <MultiGeometry>
@@ -10058,6 +10230,7 @@
             <SimpleData name="Y">-24.79834817000</SimpleData>
             <SimpleData name="Shape_Leng">507.46844960400</SimpleData>
             <SimpleData name="Shape_Area">8424.37575711000</SimpleData>
+            <SimpleData name="cedula">7889736</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Polygon>
@@ -10110,6 +10283,7 @@
             <SimpleData name="Y">-24.61843757000</SimpleData>
             <SimpleData name="Shape_Leng">415.25681990100</SimpleData>
             <SimpleData name="Shape_Area">9762.49510347000</SimpleData>
+            <SimpleData name="cedula">8166333</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Polygon>
@@ -10163,6 +10337,7 @@
             <SimpleData name="Y">-24.93809886000</SimpleData>
             <SimpleData name="Shape_Leng">464.78042580000</SimpleData>
             <SimpleData name="Shape_Area">9918.84309732000</SimpleData>
+            <SimpleData name="cedula">5653793</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Polygon>

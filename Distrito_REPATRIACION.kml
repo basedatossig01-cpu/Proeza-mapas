@@ -35,6 +35,7 @@
       <SimpleField name="Y" type="double"/>
       <SimpleField name="Shape_Leng" type="double"/>
       <SimpleField name="Shape_Area" type="double"/>
+      <SimpleField name="cedula" type="string"/>
     </Schema>
     <Document id="Distrito_REPATRIACION">
       <name>Distrito_REPATRIACION</name>
@@ -73,6 +74,7 @@
             <SimpleData name="Y">-25.66346033000</SimpleData>
             <SimpleData name="Shape_Leng">452.71018817100</SimpleData>
             <SimpleData name="Shape_Area">7497.42880365000</SimpleData>
+            <SimpleData name="cedula">4374187</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Polygon>
