@@ -1,0 +1,1216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document id="root_doc">
+    <Schema id="Distrito_HERNANDARIAS.schema">
+      <SimpleField name="Cédula" type="double"/>
+      <SimpleField name="Nombres_y_" type="string"/>
+      <SimpleField name="Sexo" type="string"/>
+      <SimpleField name="Cambio_de_" type="string"/>
+      <SimpleField name="Titular_se" type="string"/>
+      <SimpleField name="Cédula_Ti" type="string"/>
+      <SimpleField name="ci_UNIF" type="double"/>
+      <SimpleField name="Situación" type="string"/>
+      <SimpleField name="Comunidad" type="string"/>
+      <SimpleField name="Modelo_imp" type="string"/>
+      <SimpleField name="Departamen" type="string"/>
+      <SimpleField name="Distrito" type="string"/>
+      <SimpleField name="Localidad" type="string"/>
+      <SimpleField name="Teléfono" type="string"/>
+      <SimpleField name="Vivienda_L" type="double"/>
+      <SimpleField name="Vivienda_1" type="double"/>
+      <SimpleField name="Superficie" type="double"/>
+      <SimpleField name="Situaci_1" type="string"/>
+      <SimpleField name="Plantado" type="string"/>
+      <SimpleField name="Plantado_f" type="string"/>
+      <SimpleField name="Jornales" type="double"/>
+      <SimpleField name="Monto" type="double"/>
+      <SimpleField name="Grupo_de_p" type="string"/>
+      <SimpleField name="Estado_del" type="string"/>
+      <SimpleField name="Empresa" type="string"/>
+      <SimpleField name="Lote" type="string"/>
+      <SimpleField name="Parametro" type="double"/>
+      <SimpleField name="Situacion" type="string"/>
+      <SimpleField name="X" type="double"/>
+      <SimpleField name="Y" type="double"/>
+      <SimpleField name="Sup_SIG" type="double"/>
+    </Schema>
+    <Document id="Distrito_HERNANDARIAS">
+      <name>Distrito_HERNANDARIAS</name>
+      <Placemark id="Distrito_HERNANDARIAS.1">
+        <ExtendedData>
+          <SchemaData schemaUrl="#Distrito_HERNANDARIAS.schema">
+            <SimpleData name="Cédula">6868970.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">NATALIA GABRIELA MARTINEZ NOCEDA</SimpleData>
+            <SimpleData name="Sexo">Mujer</SimpleData>
+            <SimpleData name="Cambio_de_">NO</SimpleData>
+            <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="ci_UNIF">6868970.00000000000</SimpleData>
+            <SimpleData name="Situación">NO</SimpleData>
+            <SimpleData name="Comunidad">Ind?gena</SimpleData>
+            <SimpleData name="Modelo_imp">Modelo 1</SimpleData>
+            <SimpleData name="Departamen">ALTO PARANA</SimpleData>
+            <SimpleData name="Distrito">HERNANDARIAS</SimpleData>
+            <SimpleData name="Localidad">COM INDIG ACARAYMI - ANGELA ANTONIA</SimpleData>
+            <SimpleData name="Teléfono">973558493</SimpleData>
+            <SimpleData name="Vivienda_L">-25.28243340000</SimpleData>
+            <SimpleData name="Vivienda_1">-54.86673330000</SimpleData>
+            <SimpleData name="Superficie">0.80000000000</SimpleData>
+            <SimpleData name="Situaci_1">Parametro</SimpleData>
+            <SimpleData name="Plantado">SI</SimpleData>
+            <SimpleData name="Plantado_f">2025/12/05</SimpleData>
+            <SimpleData name="Jornales">0.00000000000</SimpleData>
+            <SimpleData name="Monto">0.00000000000</SimpleData>
+            <SimpleData name="Grupo_de_p">F-P3</SimpleData>
+            <SimpleData name="Estado_del">Activo</SimpleData>
+            <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
+            <SimpleData name="Lote">F</SimpleData>
+            <SimpleData name="Parametro">0.80000000000</SimpleData>
+            <SimpleData name="Situacion">Cumple</SimpleData>
+            <SimpleData name="X">-54.86550479000</SimpleData>
+            <SimpleData name="Y">-25.27994354000</SimpleData>
+            <SimpleData name="Sup_SIG">1.21833251641</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <MultiGeometry>
+          <Polygon>
+            <outerBoundaryIs>
+              <LinearRing>
+                <coordinates>
+                  -54.8640836999904,-25.2810216998718,0
+                  -54.8659804991584,-25.2798308012608,0
+                  -54.8657017998527,-25.2794763008669,0
+                  -54.8650391003339,-25.2798588002176,0
+                  -54.8645615998653,-25.2802026001149,0
+                  -54.8640836999904,-25.2810216998718,0
+                </coordinates>
+              </LinearRing>
+            </outerBoundaryIs>
+          </Polygon>
+          <Polygon>
+            <outerBoundaryIs>
+              <LinearRing>
+                <coordinates>
+                  -54.8664354003958,-25.2795553008348,0
+                  -54.8672256999094,-25.2794419003736,0
+                  -54.8671633990652,-25.2791503002541,0
+                  -54.8663252000302,-25.279191800096,0
+                  -54.8664354003958,-25.2795553008348,0
+                </coordinates>
+              </LinearRing>
+            </outerBoundaryIs>
+          </Polygon>
+        </MultiGeometry>
+      </Placemark>
+      <Placemark id="Distrito_HERNANDARIAS.2">
+        <ExtendedData>
+          <SchemaData schemaUrl="#Distrito_HERNANDARIAS.schema">
+            <SimpleData name="Cédula">6110566.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">EVANY YSAMAR ACOSTA OLIVEIRA</SimpleData>
+            <SimpleData name="Sexo">Mujer</SimpleData>
+            <SimpleData name="Cambio_de_">NO</SimpleData>
+            <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="ci_UNIF">6110566.00000000000</SimpleData>
+            <SimpleData name="Situación">NO</SimpleData>
+            <SimpleData name="Comunidad">Ind?gena</SimpleData>
+            <SimpleData name="Modelo_imp">Modelo 5</SimpleData>
+            <SimpleData name="Departamen">ALTO PARANA</SimpleData>
+            <SimpleData name="Distrito">HERNANDARIAS</SimpleData>
+            <SimpleData name="Localidad">COM INDIG ACARAYMI - BARRIO ANGELA ANTONIA</SimpleData>
+            <SimpleData name="Teléfono">0987147272</SimpleData>
+            <SimpleData name="Vivienda_L">-25.28574350000</SimpleData>
+            <SimpleData name="Vivienda_1">-54.86908770000</SimpleData>
+            <SimpleData name="Superficie">0.70000000000</SimpleData>
+            <SimpleData name="Situaci_1">Pol?gono</SimpleData>
+            <SimpleData name="Plantado">SI</SimpleData>
+            <SimpleData name="Plantado_f">2025/11/18</SimpleData>
+            <SimpleData name="Jornales">0.00000000000</SimpleData>
+            <SimpleData name="Monto">0.00000000000</SimpleData>
+            <SimpleData name="Grupo_de_p">F-P1</SimpleData>
+            <SimpleData name="Estado_del">Activo</SimpleData>
+            <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
+            <SimpleData name="Lote">F</SimpleData>
+            <SimpleData name="Parametro">0.70000000000</SimpleData>
+            <SimpleData name="Situacion">Cumple</SimpleData>
+            <SimpleData name="X">-54.86860425000</SimpleData>
+            <SimpleData name="Y">-25.28634157000</SimpleData>
+            <SimpleData name="Sup_SIG">0.70345235381</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+                -54.8686359152683,-25.2868739057343,0
+                -54.8691840997252,-25.2865747999332,0
+                -54.8686366568124,-25.285831030972,0
+                -54.8686291998836,-25.2858208998978,0
+                -54.8680071002904,-25.2860834004972,0
+                -54.8686142999059,-25.2868856999976,0
+                -54.8686359152683,-25.2868739057343,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark id="Distrito_HERNANDARIAS.3">
+        <ExtendedData>
+          <SchemaData schemaUrl="#Distrito_HERNANDARIAS.schema">
+            <SimpleData name="Cédula">3732692.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">VICTORIO LOPEZ</SimpleData>
+            <SimpleData name="Sexo">Hombre</SimpleData>
+            <SimpleData name="Cambio_de_">NO</SimpleData>
+            <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="ci_UNIF">3732692.00000000000</SimpleData>
+            <SimpleData name="Situación">NO</SimpleData>
+            <SimpleData name="Comunidad">Ind?gena</SimpleData>
+            <SimpleData name="Modelo_imp">Modelo 4</SimpleData>
+            <SimpleData name="Departamen">ALTO PARANA</SimpleData>
+            <SimpleData name="Distrito">HERNANDARIAS</SimpleData>
+            <SimpleData name="Localidad">COM INDIG ACARAYMI - INDEPENDIENTE</SimpleData>
+            <SimpleData name="Teléfono">0973676946</SimpleData>
+            <SimpleData name="Vivienda_L">-25.30864910000</SimpleData>
+            <SimpleData name="Vivienda_1">-54.90340710000</SimpleData>
+            <SimpleData name="Superficie">0.70000000000</SimpleData>
+            <SimpleData name="Situaci_1">Par?metro</SimpleData>
+            <SimpleData name="Plantado">SI</SimpleData>
+            <SimpleData name="Plantado_f">2026/02/12</SimpleData>
+            <SimpleData name="Jornales">0.00000000000</SimpleData>
+            <SimpleData name="Monto">0.00000000000</SimpleData>
+            <SimpleData name="Grupo_de_p">F-P2</SimpleData>
+            <SimpleData name="Estado_del">Activo</SimpleData>
+            <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
+            <SimpleData name="Lote">F</SimpleData>
+            <SimpleData name="Parametro">0.70000000000</SimpleData>
+            <SimpleData name="Situacion">Cumple</SimpleData>
+            <SimpleData name="X">-54.90282541000</SimpleData>
+            <SimpleData name="Y">-25.30756539000</SimpleData>
+            <SimpleData name="Sup_SIG">0.74757248021</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+                -54.902160699436,-25.3078183002567,0
+                -54.9025816996454,-25.3081658005534,0
+                -54.9034858005109,-25.3073092996894,0
+                -54.9030812991221,-25.3069627001749,0
+                -54.902160699436,-25.3078183002567,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark id="Distrito_HERNANDARIAS.4">
+        <ExtendedData>
+          <SchemaData schemaUrl="#Distrito_HERNANDARIAS.schema">
+            <SimpleData name="Cédula">6110561.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">PERLA MARIELA ACOSTA OLIVEIRA</SimpleData>
+            <SimpleData name="Sexo">Mujer</SimpleData>
+            <SimpleData name="Cambio_de_">NO</SimpleData>
+            <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="ci_UNIF">6110561.00000000000</SimpleData>
+            <SimpleData name="Situación">NO</SimpleData>
+            <SimpleData name="Comunidad">Ind?gena</SimpleData>
+            <SimpleData name="Modelo_imp">Modelo 1</SimpleData>
+            <SimpleData name="Departamen">ALTO PARANA</SimpleData>
+            <SimpleData name="Distrito">HERNANDARIAS</SimpleData>
+            <SimpleData name="Localidad">COM INDIG ACARAYMI - BARRIO ANGELA ANTONIA</SimpleData>
+            <SimpleData name="Teléfono">0975859101</SimpleData>
+            <SimpleData name="Vivienda_L">-25.28509660000</SimpleData>
+            <SimpleData name="Vivienda_1">-54.86886870000</SimpleData>
+            <SimpleData name="Superficie">0.80000000000</SimpleData>
+            <SimpleData name="Situaci_1">Pol?gono</SimpleData>
+            <SimpleData name="Plantado">SI</SimpleData>
+            <SimpleData name="Plantado_f">2025/09/26</SimpleData>
+            <SimpleData name="Jornales">0.00000000000</SimpleData>
+            <SimpleData name="Monto">0.00000000000</SimpleData>
+            <SimpleData name="Grupo_de_p">F-P1</SimpleData>
+            <SimpleData name="Estado_del">Activo</SimpleData>
+            <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
+            <SimpleData name="Lote">F</SimpleData>
+            <SimpleData name="Parametro">0.80000000000</SimpleData>
+            <SimpleData name="Situacion">Cumple</SimpleData>
+            <SimpleData name="X">-54.86926590000</SimpleData>
+            <SimpleData name="Y">-25.28495328000</SimpleData>
+            <SimpleData name="Sup_SIG">0.80579954318</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <MultiGeometry>
+          <Polygon>
+            <outerBoundaryIs>
+              <LinearRing>
+                <coordinates>
+                  -54.869086999695,-25.2860364993404,0
+                  -54.8689477001804,-25.2860211999683,0
+                  -54.8687777006396,-25.2858201999258,0
+                  -54.8687097003685,-25.2857367000683,0
+                  -54.8686692003222,-25.2857503002871,0
+                  -54.8686366568124,-25.285831030972,0
+                  -54.8691840997252,-25.2865747999332,0
+                  -54.8686359152683,-25.2868739057343,0
+                  -54.8686188004518,-25.2868844002008,0
+                  -54.868704999758,-25.2869132001798,0
+                  -54.8688986997528,-25.28693119967,0
+                  -54.869116300035,-25.2868794001053,0
+                  -54.8692861992795,-25.2868106005665,0
+                  -54.8694447187576,-25.286701321138,0
+                  -54.8694565000341,-25.2866932002773,0
+                  -54.8693295006177,-25.2865252000814,0
+                  -54.8692371387807,-25.2864094370851,0
+                  -54.8691814996839,-25.2863396994757,0
+                  -54.8690472003867,-25.2861470002104,0
+                  -54.8691148108081,-25.2860924906351,0
+                  -54.8692237001562,-25.2860047000651,0
+                  -54.8694377006289,-25.2858581997183,0
+                  -54.8695134001001,-25.2857381001748,0
+                  -54.8692969993629,-25.2858879997456,0
+                  -54.869086999695,-25.2860364993404,0
+                </coordinates>
+              </LinearRing>
+            </outerBoundaryIs>
+          </Polygon>
+          <Polygon>
+            <outerBoundaryIs>
+              <LinearRing>
+                <coordinates>
+                  -54.8690222993568,-25.285353300079,0
+                  -54.8697652818698,-25.2849829472167,0
+                  -54.8694501003612,-25.2845618005276,0
+                  -54.8694770565315,-25.2845467226089,0
+                  -54.8694715001739,-25.2845397007662,0
+                  -54.8688026000931,-25.28491590071,0
+                  -54.8690222993568,-25.285353300079,0
+                </coordinates>
+              </LinearRing>
+            </outerBoundaryIs>
+          </Polygon>
+        </MultiGeometry>
+      </Placemark>
+      <Placemark id="Distrito_HERNANDARIAS.5">
+        <ExtendedData>
+          <SchemaData schemaUrl="#Distrito_HERNANDARIAS.schema">
+            <SimpleData name="Cédula">4896955.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">FRANCISCO MARTINEZ ORTIZ</SimpleData>
+            <SimpleData name="Sexo">Hombre</SimpleData>
+            <SimpleData name="Cambio_de_">NO</SimpleData>
+            <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="ci_UNIF">4896955.00000000000</SimpleData>
+            <SimpleData name="Situación">NO</SimpleData>
+            <SimpleData name="Comunidad">Ind?gena</SimpleData>
+            <SimpleData name="Modelo_imp">Modelo 3</SimpleData>
+            <SimpleData name="Departamen">ALTO PARANA</SimpleData>
+            <SimpleData name="Distrito">HERNANDARIAS</SimpleData>
+            <SimpleData name="Localidad">COM INDIG ACARAYMI - CENTRO</SimpleData>
+            <SimpleData name="Teléfono">0982266195</SimpleData>
+            <SimpleData name="Vivienda_L">-25.26637770000</SimpleData>
+            <SimpleData name="Vivienda_1">-54.88467230000</SimpleData>
+            <SimpleData name="Superficie">1.00000000000</SimpleData>
+            <SimpleData name="Situaci_1">Pol?gono</SimpleData>
+            <SimpleData name="Plantado">SI</SimpleData>
+            <SimpleData name="Plantado_f">2025/11/28</SimpleData>
+            <SimpleData name="Jornales">0.00000000000</SimpleData>
+            <SimpleData name="Monto">0.00000000000</SimpleData>
+            <SimpleData name="Grupo_de_p">F-P1</SimpleData>
+            <SimpleData name="Estado_del">Activo</SimpleData>
+            <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
+            <SimpleData name="Lote">F</SimpleData>
+            <SimpleData name="Parametro">1.00000000000</SimpleData>
+            <SimpleData name="Situacion">Cumple</SimpleData>
+            <SimpleData name="X">-54.88529503000</SimpleData>
+            <SimpleData name="Y">-25.26605744000</SimpleData>
+            <SimpleData name="Sup_SIG">1.01107242734</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+                -54.8852257033745,-25.2655615749521,0
+                -54.8850322005359,-25.2656029996665,0
+                -54.8848586390677,-25.2657224643758,0
+                -54.8846041997579,-25.2660933003772,0
+                -54.8849883998221,-25.2664542004649,0
+                -54.8859438999541,-25.2665496998215,0
+                -54.8855844994962,-25.2655033997715,0
+                -54.8852257033745,-25.2655615749521,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark id="Distrito_HERNANDARIAS.6">
+        <ExtendedData>
+          <SchemaData schemaUrl="#Distrito_HERNANDARIAS.schema">
+            <SimpleData name="Cédula">6098835.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">AIDA MARTINEZ ACOSTA</SimpleData>
+            <SimpleData name="Sexo">Mujer</SimpleData>
+            <SimpleData name="Cambio_de_">NO</SimpleData>
+            <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="ci_UNIF">6098835.00000000000</SimpleData>
+            <SimpleData name="Situación">NO</SimpleData>
+            <SimpleData name="Comunidad">Ind?gena</SimpleData>
+            <SimpleData name="Modelo_imp">Modelo 1</SimpleData>
+            <SimpleData name="Departamen">ALTO PARANA</SimpleData>
+            <SimpleData name="Distrito">HERNANDARIAS</SimpleData>
+            <SimpleData name="Localidad">COM INDIG ACARAYMI - SAN MIGUEL</SimpleData>
+            <SimpleData name="Teléfono">0994949085</SimpleData>
+            <SimpleData name="Vivienda_L">-25.27138640000</SimpleData>
+            <SimpleData name="Vivienda_1">-54.85869280000</SimpleData>
+            <SimpleData name="Superficie">0.80000000000</SimpleData>
+            <SimpleData name="Situaci_1">Pol?gono</SimpleData>
+            <SimpleData name="Plantado">SI</SimpleData>
+            <SimpleData name="Plantado_f">2025/09/26</SimpleData>
+            <SimpleData name="Jornales">0.00000000000</SimpleData>
+            <SimpleData name="Monto">0.00000000000</SimpleData>
+            <SimpleData name="Grupo_de_p">F-P1</SimpleData>
+            <SimpleData name="Estado_del">Activo</SimpleData>
+            <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
+            <SimpleData name="Lote">F</SimpleData>
+            <SimpleData name="Parametro">0.80000000000</SimpleData>
+            <SimpleData name="Situacion">Cumple</SimpleData>
+            <SimpleData name="X">-54.86117064000</SimpleData>
+            <SimpleData name="Y">-25.27433574000</SimpleData>
+            <SimpleData name="Sup_SIG">0.83896370573</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+                -54.8608107995329,-25.2749175998553,0
+                -54.8609206992841,-25.2750306998033,0
+                -54.8609558997174,-25.2749753997509,0
+                -54.8611127003992,-25.274831699332,0
+                -54.8612669002039,-25.2746967999939,0
+                -54.8614087000648,-25.2745191000887,0
+                -54.8614851991526,-25.2743406998389,0
+                -54.8616436992959,-25.2741932998786,0
+                -54.8617774005753,-25.2740029999898,0
+                -54.861741599962,-25.2738094994094,0
+                -54.8615931000952,-25.2736579002853,0
+                -54.8613987996175,-25.2737764995864,0
+                -54.861193300327,-25.2739583995982,0
+                -54.8610165002309,-25.2740983998997,0
+                -54.8608259000803,-25.2742567001403,0
+                -54.8606171004049,-25.274431399516,0
+                -54.8605211996481,-25.2745720993591,0
+                -54.8607039004486,-25.2747432996912,0
+                -54.8608107995329,-25.2749175998553,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark id="Distrito_HERNANDARIAS.7">
+        <ExtendedData>
+          <SchemaData schemaUrl="#Distrito_HERNANDARIAS.schema">
+            <SimpleData name="Cédula">6895663.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">DOMINGA LARREA DELGADO</SimpleData>
+            <SimpleData name="Sexo">Mujer</SimpleData>
+            <SimpleData name="Cambio_de_">NO</SimpleData>
+            <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="ci_UNIF">6895663.00000000000</SimpleData>
+            <SimpleData name="Situación">NO</SimpleData>
+            <SimpleData name="Comunidad">Ind?gena</SimpleData>
+            <SimpleData name="Modelo_imp">Modelo 1</SimpleData>
+            <SimpleData name="Departamen">ALTO PARANA</SimpleData>
+            <SimpleData name="Distrito">HERNANDARIAS</SimpleData>
+            <SimpleData name="Localidad">COM INDIG ACARAYMI - INDEPENDIENTE</SimpleData>
+            <SimpleData name="Teléfono">0973529886</SimpleData>
+            <SimpleData name="Vivienda_L">-25.30302120000</SimpleData>
+            <SimpleData name="Vivienda_1">-54.90750770000</SimpleData>
+            <SimpleData name="Superficie">0.80000000000</SimpleData>
+            <SimpleData name="Situaci_1">Pol?gono</SimpleData>
+            <SimpleData name="Plantado">SI</SimpleData>
+            <SimpleData name="Plantado_f">2025/10/06</SimpleData>
+            <SimpleData name="Jornales">0.00000000000</SimpleData>
+            <SimpleData name="Monto">0.00000000000</SimpleData>
+            <SimpleData name="Grupo_de_p">F-P1</SimpleData>
+            <SimpleData name="Estado_del">Activo</SimpleData>
+            <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
+            <SimpleData name="Lote">F</SimpleData>
+            <SimpleData name="Parametro">0.80000000000</SimpleData>
+            <SimpleData name="Situacion">Cumple</SimpleData>
+            <SimpleData name="X">-54.90664503000</SimpleData>
+            <SimpleData name="Y">-25.30236540000</SimpleData>
+            <SimpleData name="Sup_SIG">1.08400913968</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+                -54.9057912004509,-25.3024548001677,0
+                -54.9065222994483,-25.3027927000067,0
+                -54.9066529998195,-25.3025998005434,0
+                -54.9071614000831,-25.3027724994306,0
+                -54.907366399513,-25.3026081996678,0
+                -54.9075083002384,-25.302693300174,0
+                -54.9076830995094,-25.3024696997465,0
+                -54.9061999993938,-25.3018082996347,0
+                -54.9057912004509,-25.3024548001677,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark id="Distrito_HERNANDARIAS.8">
+        <ExtendedData>
+          <SchemaData schemaUrl="#Distrito_HERNANDARIAS.schema">
+            <SimpleData name="Cédula">6110562.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">EVER EULALIO ACOSTA OLIVEIRA</SimpleData>
+            <SimpleData name="Sexo">Hombre</SimpleData>
+            <SimpleData name="Cambio_de_">NO</SimpleData>
+            <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="ci_UNIF">6110562.00000000000</SimpleData>
+            <SimpleData name="Situación">NO</SimpleData>
+            <SimpleData name="Comunidad">Ind?gena</SimpleData>
+            <SimpleData name="Modelo_imp">Modelo 5</SimpleData>
+            <SimpleData name="Departamen">ALTO PARANA</SimpleData>
+            <SimpleData name="Distrito">HERNANDARIAS</SimpleData>
+            <SimpleData name="Localidad">COM INDIG ACARAYMI - BARRIO ANGELA ANTONIA</SimpleData>
+            <SimpleData name="Teléfono">0973604019</SimpleData>
+            <SimpleData name="Vivienda_L">-25.28421720000</SimpleData>
+            <SimpleData name="Vivienda_1">-54.87009490000</SimpleData>
+            <SimpleData name="Superficie">0.70000000000</SimpleData>
+            <SimpleData name="Situaci_1">Pol?gono</SimpleData>
+            <SimpleData name="Plantado">SI</SimpleData>
+            <SimpleData name="Plantado_f">2025/11/18</SimpleData>
+            <SimpleData name="Jornales">0.00000000000</SimpleData>
+            <SimpleData name="Monto">0.00000000000</SimpleData>
+            <SimpleData name="Grupo_de_p">F-P1</SimpleData>
+            <SimpleData name="Estado_del">Activo</SimpleData>
+            <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
+            <SimpleData name="Lote">F</SimpleData>
+            <SimpleData name="Parametro">0.70000000000</SimpleData>
+            <SimpleData name="Situacion">Cumple</SimpleData>
+            <SimpleData name="X">-54.87068578000</SimpleData>
+            <SimpleData name="Y">-25.28411122000</SimpleData>
+            <SimpleData name="Sup_SIG">0.75485532490</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <MultiGeometry>
+          <Polygon>
+            <outerBoundaryIs>
+              <LinearRing>
+                <coordinates>
+                  -54.8697749003897,-25.2849957994325,0
+                  -54.8702656997684,-25.2846883994477,0
+                  -54.8699033000874,-25.2843083006658,0
+                  -54.8694770565315,-25.2845467226089,0
+                  -54.8694501003612,-25.2845618005276,0
+                  -54.8697652818698,-25.2849829472167,0
+                  -54.8697749003897,-25.2849957994325,0
+                </coordinates>
+              </LinearRing>
+            </outerBoundaryIs>
+          </Polygon>
+          <Polygon>
+            <outerBoundaryIs>
+              <LinearRing>
+                <coordinates>
+                  -54.8705847997434,-25.2846039998285,0
+                  -54.8711133000093,-25.2840358002313,0
+                  -54.8708234003982,-25.2836835000643,0
+                  -54.8702656993794,-25.284054699488,0
+                  -54.8705847997434,-25.2846039998285,0
+                </coordinates>
+              </LinearRing>
+            </outerBoundaryIs>
+          </Polygon>
+        </MultiGeometry>
+      </Placemark>
+      <Placemark id="Distrito_HERNANDARIAS.9">
+        <ExtendedData>
+          <SchemaData schemaUrl="#Distrito_HERNANDARIAS.schema">
+            <SimpleData name="Cédula">4749726.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">JUAN SIMON LOPEZ BENITEZ</SimpleData>
+            <SimpleData name="Sexo">Hombre</SimpleData>
+            <SimpleData name="Cambio_de_">NO</SimpleData>
+            <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="ci_UNIF">4749726.00000000000</SimpleData>
+            <SimpleData name="Situación">NO</SimpleData>
+            <SimpleData name="Comunidad">Ind?gena</SimpleData>
+            <SimpleData name="Modelo_imp">Modelo 4</SimpleData>
+            <SimpleData name="Departamen">ALTO PARANA</SimpleData>
+            <SimpleData name="Distrito">HERNANDARIAS</SimpleData>
+            <SimpleData name="Localidad">COM INDIG ACARAYMI - INDEPENDIENTE</SimpleData>
+            <SimpleData name="Teléfono">0985959796</SimpleData>
+            <SimpleData name="Vivienda_L">-25.30488730000</SimpleData>
+            <SimpleData name="Vivienda_1">-54.90639250000</SimpleData>
+            <SimpleData name="Superficie">0.70000000000</SimpleData>
+            <SimpleData name="Situaci_1">Pol?gono</SimpleData>
+            <SimpleData name="Plantado">SI</SimpleData>
+            <SimpleData name="Plantado_f">2025/11/18</SimpleData>
+            <SimpleData name="Jornales">0.00000000000</SimpleData>
+            <SimpleData name="Monto">0.00000000000</SimpleData>
+            <SimpleData name="Grupo_de_p">F-P1</SimpleData>
+            <SimpleData name="Estado_del">Activo</SimpleData>
+            <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
+            <SimpleData name="Lote">F</SimpleData>
+            <SimpleData name="Parametro">0.70000000000</SimpleData>
+            <SimpleData name="Situacion">Cumple</SimpleData>
+            <SimpleData name="X">-54.90742990000</SimpleData>
+            <SimpleData name="Y">-25.30442621000</SimpleData>
+            <SimpleData name="Sup_SIG">0.91989468403</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+                -54.9078528997832,-25.3035218001412,0
+                -54.9072237999709,-25.3043157999684,0
+                -54.9070748996473,-25.3042884998927,0
+                -54.9067698997899,-25.3048743997518,0
+                -54.9074683997572,-25.3051366993174,0
+                -54.9080383003992,-25.3036100000059,0
+                -54.9078528997832,-25.3035218001412,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark id="Distrito_HERNANDARIAS.10">
+        <ExtendedData>
+          <SchemaData schemaUrl="#Distrito_HERNANDARIAS.schema">
+            <SimpleData name="Cédula">6110563.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">ALICIA OLIVEIRA BENITEZ</SimpleData>
+            <SimpleData name="Sexo">Mujer</SimpleData>
+            <SimpleData name="Cambio_de_">NO</SimpleData>
+            <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="ci_UNIF">6110563.00000000000</SimpleData>
+            <SimpleData name="Situación">NO</SimpleData>
+            <SimpleData name="Comunidad">Ind?gena</SimpleData>
+            <SimpleData name="Modelo_imp">Modelo 1</SimpleData>
+            <SimpleData name="Departamen">ALTO PARANA</SimpleData>
+            <SimpleData name="Distrito">HERNANDARIAS</SimpleData>
+            <SimpleData name="Localidad">COM INDIG ACARAYMI - BARRIO ANGELA ANTONIA</SimpleData>
+            <SimpleData name="Teléfono">0973174488</SimpleData>
+            <SimpleData name="Vivienda_L">-25.28577450000</SimpleData>
+            <SimpleData name="Vivienda_1">-54.86903540000</SimpleData>
+            <SimpleData name="Superficie">0.80000000000</SimpleData>
+            <SimpleData name="Situaci_1">Pol?gono</SimpleData>
+            <SimpleData name="Plantado">SI</SimpleData>
+            <SimpleData name="Plantado_f">2025/09/26</SimpleData>
+            <SimpleData name="Jornales">0.00000000000</SimpleData>
+            <SimpleData name="Monto">0.00000000000</SimpleData>
+            <SimpleData name="Grupo_de_p">F-P1</SimpleData>
+            <SimpleData name="Estado_del">Activo</SimpleData>
+            <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
+            <SimpleData name="Lote">F</SimpleData>
+            <SimpleData name="Parametro">0.80000000000</SimpleData>
+            <SimpleData name="Situacion">Cumple</SimpleData>
+            <SimpleData name="X">-54.86151026000</SimpleData>
+            <SimpleData name="Y">-25.27715525000</SimpleData>
+            <SimpleData name="Sup_SIG">1.07730334826</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+                -54.8607666998869,-25.2766249999414,0
+                -54.8615767002729,-25.2778567000383,0
+                -54.861896699473,-25.2777582995632,0
+                -54.8620767003312,-25.2776650004442,0
+                -54.8621782999236,-25.2776000001104,0
+                -54.8620392998706,-25.27714620024,0
+                -54.8617101007138,-25.2768256003168,0
+                -54.8615166997489,-25.2768766997895,0
+                -54.8612766003196,-25.2763936999199,0
+                -54.8607666998869,-25.2766249999414,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark id="Distrito_HERNANDARIAS.11">
+        <ExtendedData>
+          <SchemaData schemaUrl="#Distrito_HERNANDARIAS.schema">
+            <SimpleData name="Cédula">1304387.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">JULIANA VILLAGRA DE VELAZQUEZ</SimpleData>
+            <SimpleData name="Sexo">Mujer</SimpleData>
+            <SimpleData name="Cambio_de_">NO</SimpleData>
+            <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="ci_UNIF">1304387.00000000000</SimpleData>
+            <SimpleData name="Situación">NO</SimpleData>
+            <SimpleData name="Comunidad">Campesina</SimpleData>
+            <SimpleData name="Modelo_imp">Modelo 5</SimpleData>
+            <SimpleData name="Departamen">ALTO PARANA</SimpleData>
+            <SimpleData name="Distrito">HERNANDARIAS</SimpleData>
+            <SimpleData name="Localidad">NUEVA FORTUNA</SimpleData>
+            <SimpleData name="Teléfono">0972505831</SimpleData>
+            <SimpleData name="Vivienda_L">-25.24625410000</SimpleData>
+            <SimpleData name="Vivienda_1">-54.96522560000</SimpleData>
+            <SimpleData name="Superficie">0.70000000000</SimpleData>
+            <SimpleData name="Situaci_1">Pol?gono</SimpleData>
+            <SimpleData name="Plantado">SI</SimpleData>
+            <SimpleData name="Plantado_f">2025/11/18</SimpleData>
+            <SimpleData name="Jornales">0.00000000000</SimpleData>
+            <SimpleData name="Monto">0.00000000000</SimpleData>
+            <SimpleData name="Grupo_de_p">F-P1</SimpleData>
+            <SimpleData name="Estado_del">Activo</SimpleData>
+            <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
+            <SimpleData name="Lote">F</SimpleData>
+            <SimpleData name="Parametro">0.70000000000</SimpleData>
+            <SimpleData name="Situacion">Cumple</SimpleData>
+            <SimpleData name="X">-54.96287345000</SimpleData>
+            <SimpleData name="Y">-25.24462802000</SimpleData>
+            <SimpleData name="Sup_SIG">0.78402933279</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+                -54.9624847998295,-25.2449840000447,0
+                -54.9629300992285,-25.2452286999625,0
+                -54.9634567001861,-25.2443994996313,0
+                -54.9627540999768,-25.2440715996611,0
+                -54.9623235999832,-25.244725399397,0
+                -54.9625669001376,-25.2448705000702,0
+                -54.9624847998295,-25.2449840000447,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark id="Distrito_HERNANDARIAS.12">
+        <ExtendedData>
+          <SchemaData schemaUrl="#Distrito_HERNANDARIAS.schema">
+            <SimpleData name="Cédula">7878019.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">CECILIA MARTINEZ PALACIOS</SimpleData>
+            <SimpleData name="Sexo">Mujer</SimpleData>
+            <SimpleData name="Cambio_de_">NO</SimpleData>
+            <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="ci_UNIF">7878019.00000000000</SimpleData>
+            <SimpleData name="Situación">NO</SimpleData>
+            <SimpleData name="Comunidad">Ind?gena</SimpleData>
+            <SimpleData name="Modelo_imp">Modelo 1</SimpleData>
+            <SimpleData name="Departamen">ALTO PARANA</SimpleData>
+            <SimpleData name="Distrito">HERNANDARIAS</SimpleData>
+            <SimpleData name="Localidad">COM INDIG ACARAYMI - SAN MIGUEL</SimpleData>
+            <SimpleData name="Teléfono">0975868292</SimpleData>
+            <SimpleData name="Vivienda_L">-25.26741830000</SimpleData>
+            <SimpleData name="Vivienda_1">-54.86371050000</SimpleData>
+            <SimpleData name="Superficie">0.80000000000</SimpleData>
+            <SimpleData name="Situaci_1">Pol?gono</SimpleData>
+            <SimpleData name="Plantado">SI</SimpleData>
+            <SimpleData name="Plantado_f">2025/09/26</SimpleData>
+            <SimpleData name="Jornales">0.00000000000</SimpleData>
+            <SimpleData name="Monto">0.00000000000</SimpleData>
+            <SimpleData name="Grupo_de_p">F-P1</SimpleData>
+            <SimpleData name="Estado_del">Activo</SimpleData>
+            <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
+            <SimpleData name="Lote">F</SimpleData>
+            <SimpleData name="Parametro">0.80000000000</SimpleData>
+            <SimpleData name="Situacion">Cumple</SimpleData>
+            <SimpleData name="X">-54.86873611000</SimpleData>
+            <SimpleData name="Y">-25.26935653000</SimpleData>
+            <SimpleData name="Sup_SIG">0.87096826654</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+                -54.8681181993961,-25.2695728996794,0
+                -54.8686956006632,-25.2699894004313,0
+                -54.8692366999463,-25.2693132000207,0
+                -54.8691982996948,-25.2692717000285,0
+                -54.8693617006113,-25.2689853999503,0
+                -54.8686577007802,-25.2688126996258,0
+                -54.8681181993961,-25.2695728996794,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark id="Distrito_HERNANDARIAS.13">
+        <ExtendedData>
+          <SchemaData schemaUrl="#Distrito_HERNANDARIAS.schema">
+            <SimpleData name="Cédula">7063934.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">NILSA LORENA ACOSTA OLIVEIRA</SimpleData>
+            <SimpleData name="Sexo">Mujer</SimpleData>
+            <SimpleData name="Cambio_de_">NO</SimpleData>
+            <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="ci_UNIF">7063934.00000000000</SimpleData>
+            <SimpleData name="Situación">NO</SimpleData>
+            <SimpleData name="Comunidad">Ind?gena</SimpleData>
+            <SimpleData name="Modelo_imp">Modelo 5</SimpleData>
+            <SimpleData name="Departamen">ALTO PARANA</SimpleData>
+            <SimpleData name="Distrito">HERNANDARIAS</SimpleData>
+            <SimpleData name="Localidad">COM INDIG ACARAYMI - BARRIO ANGELA ANTONIA</SimpleData>
+            <SimpleData name="Teléfono">0981699637</SimpleData>
+            <SimpleData name="Vivienda_L">-25.28548750000</SimpleData>
+            <SimpleData name="Vivienda_1">-54.86959960000</SimpleData>
+            <SimpleData name="Superficie">0.70000000000</SimpleData>
+            <SimpleData name="Situaci_1">Par?metro</SimpleData>
+            <SimpleData name="Plantado">SI</SimpleData>
+            <SimpleData name="Plantado_f">2025/12/05</SimpleData>
+            <SimpleData name="Jornales">0.00000000000</SimpleData>
+            <SimpleData name="Monto">0.00000000000</SimpleData>
+            <SimpleData name="Grupo_de_p">F-P1</SimpleData>
+            <SimpleData name="Estado_del">Activo</SimpleData>
+            <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
+            <SimpleData name="Lote">F</SimpleData>
+            <SimpleData name="Parametro">0.70000000000</SimpleData>
+            <SimpleData name="Situacion">Cumple</SimpleData>
+            <SimpleData name="X">-54.86961973000</SimpleData>
+            <SimpleData name="Y">-25.28614051000</SimpleData>
+            <SimpleData name="Sup_SIG">0.70271137238</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+                -54.8691148108081,-25.2860924906351,0
+                -54.8690472003867,-25.2861470002104,0
+                -54.8692371387807,-25.2864094370851,0
+                -54.8693295006177,-25.2865252000814,0
+                -54.8694565000341,-25.2866932002773,0
+                -54.8701453000026,-25.2861815002947,0
+                -54.8698633999407,-25.2855666000144,0
+                -54.8691148108081,-25.2860924906351,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark id="Distrito_HERNANDARIAS.14">
+        <ExtendedData>
+          <SchemaData schemaUrl="#Distrito_HERNANDARIAS.schema">
+            <SimpleData name="Cédula">2333012.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">GRACIELA ORTIZ PALACIOS</SimpleData>
+            <SimpleData name="Sexo">Mujer</SimpleData>
+            <SimpleData name="Cambio_de_">NO</SimpleData>
+            <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="ci_UNIF">2333012.00000000000</SimpleData>
+            <SimpleData name="Situación">NO</SimpleData>
+            <SimpleData name="Comunidad">Ind?gena</SimpleData>
+            <SimpleData name="Modelo_imp">Modelo 3</SimpleData>
+            <SimpleData name="Departamen">ALTO PARANA</SimpleData>
+            <SimpleData name="Distrito">HERNANDARIAS</SimpleData>
+            <SimpleData name="Localidad">COM INDIG ACARAYMI - CENTRO</SimpleData>
+            <SimpleData name="Teléfono">0973154182</SimpleData>
+            <SimpleData name="Vivienda_L">-25.26598500000</SimpleData>
+            <SimpleData name="Vivienda_1">-54.88441860000</SimpleData>
+            <SimpleData name="Superficie">1.00000000000</SimpleData>
+            <SimpleData name="Situaci_1">Par?metro</SimpleData>
+            <SimpleData name="Plantado">SI</SimpleData>
+            <SimpleData name="Plantado_f">2026/02/09</SimpleData>
+            <SimpleData name="Jornales">0.00000000000</SimpleData>
+            <SimpleData name="Monto">0.00000000000</SimpleData>
+            <SimpleData name="Grupo_de_p">F-P2</SimpleData>
+            <SimpleData name="Estado_del">Activo</SimpleData>
+            <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
+            <SimpleData name="Lote">F</SimpleData>
+            <SimpleData name="Parametro">1.00000000000</SimpleData>
+            <SimpleData name="Situacion">Cumple</SimpleData>
+            <SimpleData name="X">-54.88501864000</SimpleData>
+            <SimpleData name="Y">-25.26526774000</SimpleData>
+            <SimpleData name="Sup_SIG">1.04836111118</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+                -54.8848586390677,-25.2657224643758,0
+                -54.8850322005359,-25.2656029996665,0
+                -54.8852257033745,-25.2655615749521,0
+                -54.8859290841792,-25.2654216026794,0
+                -54.8849092002205,-25.264570499788,0
+                -54.8844196998377,-25.2653573003219,0
+                -54.8845377998592,-25.2659433001506,0
+                -54.8848586390677,-25.2657224643758,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark id="Distrito_HERNANDARIAS.15">
+        <ExtendedData>
+          <SchemaData schemaUrl="#Distrito_HERNANDARIAS.schema">
+            <SimpleData name="Cédula">6098831.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">RICHARD FERREIRA GOMEZ</SimpleData>
+            <SimpleData name="Sexo">Hombre</SimpleData>
+            <SimpleData name="Cambio_de_">NO</SimpleData>
+            <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="ci_UNIF">6098831.00000000000</SimpleData>
+            <SimpleData name="Situación">NO</SimpleData>
+            <SimpleData name="Comunidad">Ind?gena</SimpleData>
+            <SimpleData name="Modelo_imp">Modelo 3</SimpleData>
+            <SimpleData name="Departamen">ALTO PARANA</SimpleData>
+            <SimpleData name="Distrito">HERNANDARIAS</SimpleData>
+            <SimpleData name="Localidad">COM INDIG ACARAYMI - CENTRO</SimpleData>
+            <SimpleData name="Teléfono">0984887125</SimpleData>
+            <SimpleData name="Vivienda_L">-25.25932170000</SimpleData>
+            <SimpleData name="Vivienda_1">-54.88572970000</SimpleData>
+            <SimpleData name="Superficie">1.00000000000</SimpleData>
+            <SimpleData name="Situaci_1">Par?metro</SimpleData>
+            <SimpleData name="Plantado">SI</SimpleData>
+            <SimpleData name="Plantado_f">2026/02/11</SimpleData>
+            <SimpleData name="Jornales">0.00000000000</SimpleData>
+            <SimpleData name="Monto">0.00000000000</SimpleData>
+            <SimpleData name="Grupo_de_p">F-P3</SimpleData>
+            <SimpleData name="Estado_del">Activo</SimpleData>
+            <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
+            <SimpleData name="Lote">F</SimpleData>
+            <SimpleData name="Parametro">1.00000000000</SimpleData>
+            <SimpleData name="Situacion">Cumple</SimpleData>
+            <SimpleData name="X">-54.88592844000</SimpleData>
+            <SimpleData name="Y">-25.25943341000</SimpleData>
+            <SimpleData name="Sup_SIG">1.25874908913</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+                -54.8858968997545,-25.2594581001072,0
+                -54.8856311000375,-25.2595180001968,0
+                -54.8851719002168,-25.2594641995563,0
+                -54.8852897995482,-25.2600371000683,0
+                -54.8856562995947,-25.2601466003679,0
+                -54.8860948999785,-25.2597520004496,0
+                -54.8866009997647,-25.259574700286,0
+                -54.8865749004311,-25.2594183002625,0
+                -54.8867703996425,-25.2592854000475,0
+                -54.8861409000821,-25.2587434999064,0
+                -54.8854307995816,-25.2590324996555,0
+                -54.8855755995396,-25.2592661000396,0
+                -54.8857100995948,-25.2592811997994,0
+                -54.8859138998634,-25.2593730002616,0
+                -54.8859593000377,-25.2594021997815,0
+                -54.8858968997545,-25.2594581001072,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark id="Distrito_HERNANDARIAS.16">
+        <ExtendedData>
+          <SchemaData schemaUrl="#Distrito_HERNANDARIAS.schema">
+            <SimpleData name="Cédula">8259272.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">ROSANA  MEZA PAIVA</SimpleData>
+            <SimpleData name="Sexo">Mujer</SimpleData>
+            <SimpleData name="Cambio_de_">NO</SimpleData>
+            <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="ci_UNIF">8259272.00000000000</SimpleData>
+            <SimpleData name="Situación">NO</SimpleData>
+            <SimpleData name="Comunidad">Campesina</SimpleData>
+            <SimpleData name="Modelo_imp">Modelo 1</SimpleData>
+            <SimpleData name="Departamen">ALTO PARANA</SimpleData>
+            <SimpleData name="Distrito">HERNANDARIAS</SimpleData>
+            <SimpleData name="Localidad">COLONIA TORYVETE</SimpleData>
+            <SimpleData name="Teléfono">974876585</SimpleData>
+            <SimpleData name="Vivienda_L">-25.33213190000</SimpleData>
+            <SimpleData name="Vivienda_1">-54.91615610000</SimpleData>
+            <SimpleData name="Superficie">0.80000000000</SimpleData>
+            <SimpleData name="Situaci_1">Pol?gono</SimpleData>
+            <SimpleData name="Plantado">SI</SimpleData>
+            <SimpleData name="Plantado_f">2025/11/18</SimpleData>
+            <SimpleData name="Jornales">0.00000000000</SimpleData>
+            <SimpleData name="Monto">0.00000000000</SimpleData>
+            <SimpleData name="Grupo_de_p">F-P1</SimpleData>
+            <SimpleData name="Estado_del">Activo</SimpleData>
+            <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
+            <SimpleData name="Lote">F</SimpleData>
+            <SimpleData name="Parametro">0.80000000000</SimpleData>
+            <SimpleData name="Situacion">Cumple</SimpleData>
+            <SimpleData name="X">-54.90842183000</SimpleData>
+            <SimpleData name="Y">-25.33420598000</SimpleData>
+            <SimpleData name="Sup_SIG">0.90062184306</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+                -54.9080997002289,-25.3345609002897,0
+                -54.9083040993914,-25.3347488998909,0
+                -54.9090757993204,-25.3344110999676,0
+                -54.9086190000792,-25.3336619994394,0
+                -54.9077665003071,-25.3339806001253,0
+                -54.9080997002289,-25.3345609002897,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark id="Distrito_HERNANDARIAS.17">
+        <ExtendedData>
+          <SchemaData schemaUrl="#Distrito_HERNANDARIAS.schema">
+            <SimpleData name="Cédula">6869560.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">ROSITA AQUINO ROMERO</SimpleData>
+            <SimpleData name="Sexo">Mujer</SimpleData>
+            <SimpleData name="Cambio_de_">NO</SimpleData>
+            <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="ci_UNIF">6869560.00000000000</SimpleData>
+            <SimpleData name="Situación">NO</SimpleData>
+            <SimpleData name="Comunidad">Ind?gena</SimpleData>
+            <SimpleData name="Modelo_imp">Modelo 2</SimpleData>
+            <SimpleData name="Departamen">ALTO PARANA</SimpleData>
+            <SimpleData name="Distrito">HERNANDARIAS</SimpleData>
+            <SimpleData name="Localidad">COM INDIG ACARAYMI - INDEPENDIENTE</SimpleData>
+            <SimpleData name="Teléfono">0985959796</SimpleData>
+            <SimpleData name="Vivienda_L">-25.30782140000</SimpleData>
+            <SimpleData name="Vivienda_1">-54.89942490000</SimpleData>
+            <SimpleData name="Superficie">0.80000000000</SimpleData>
+            <SimpleData name="Situaci_1">Pol?gono</SimpleData>
+            <SimpleData name="Plantado">SI</SimpleData>
+            <SimpleData name="Plantado_f">2025/10/06</SimpleData>
+            <SimpleData name="Jornales">0.00000000000</SimpleData>
+            <SimpleData name="Monto">0.00000000000</SimpleData>
+            <SimpleData name="Grupo_de_p">F-P1</SimpleData>
+            <SimpleData name="Estado_del">Activo</SimpleData>
+            <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
+            <SimpleData name="Lote">F</SimpleData>
+            <SimpleData name="Parametro">0.80000000000</SimpleData>
+            <SimpleData name="Situacion">Cumple</SimpleData>
+            <SimpleData name="X">-54.89927963000</SimpleData>
+            <SimpleData name="Y">-25.30800320000</SimpleData>
+            <SimpleData name="Sup_SIG">0.85147238608</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+                -54.899073299498,-25.3074316998724,0
+                -54.8985816994982,-25.307864999701,0
+                -54.8994782994842,-25.3086297998342,0
+                -54.8999484004007,-25.3079115003643,0
+                -54.8996566999122,-25.3077232998555,0
+                -54.8995016998123,-25.3078466993441,0
+                -54.899073299498,-25.3074316998724,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark id="Distrito_HERNANDARIAS.18">
+        <ExtendedData>
+          <SchemaData schemaUrl="#Distrito_HERNANDARIAS.schema">
+            <SimpleData name="Cédula">3550969.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">JOSE MIGUEL MARTINEZ</SimpleData>
+            <SimpleData name="Sexo">Hombre</SimpleData>
+            <SimpleData name="Cambio_de_">NO</SimpleData>
+            <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="ci_UNIF">3550969.00000000000</SimpleData>
+            <SimpleData name="Situación">NO</SimpleData>
+            <SimpleData name="Comunidad">Campesina</SimpleData>
+            <SimpleData name="Modelo_imp">Modelo 1</SimpleData>
+            <SimpleData name="Departamen">ALTO PARANA</SimpleData>
+            <SimpleData name="Distrito">HERNANDARIAS</SimpleData>
+            <SimpleData name="Localidad">COLONIA TORYVETE</SimpleData>
+            <SimpleData name="Teléfono">0973172334</SimpleData>
+            <SimpleData name="Vivienda_L">-25.32878550000</SimpleData>
+            <SimpleData name="Vivienda_1">-54.91512370000</SimpleData>
+            <SimpleData name="Superficie">0.80000000000</SimpleData>
+            <SimpleData name="Situaci_1">Pol?gono</SimpleData>
+            <SimpleData name="Plantado">SI</SimpleData>
+            <SimpleData name="Plantado_f">2025/10/06</SimpleData>
+            <SimpleData name="Jornales">0.00000000000</SimpleData>
+            <SimpleData name="Monto">0.00000000000</SimpleData>
+            <SimpleData name="Grupo_de_p">F-P1</SimpleData>
+            <SimpleData name="Estado_del">Activo</SimpleData>
+            <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
+            <SimpleData name="Lote">F</SimpleData>
+            <SimpleData name="Parametro">0.80000000000</SimpleData>
+            <SimpleData name="Situacion">Cumple</SimpleData>
+            <SimpleData name="X">-54.91353876000</SimpleData>
+            <SimpleData name="Y">-25.32980865000</SimpleData>
+            <SimpleData name="Sup_SIG">0.88344121558</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+                -54.9137507999001,-25.3293191998876,0
+                -54.913561700178,-25.3294699997862,0
+                -54.9133632999016,-25.3293450006441,0
+                -54.912883499304,-25.329777100652,0
+                -54.9134199997342,-25.3304182996013,0
+                -54.9142532999657,-25.3297066997966,0
+                -54.9137507999001,-25.3293191998876,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark id="Distrito_HERNANDARIAS.19">
+        <ExtendedData>
+          <SchemaData schemaUrl="#Distrito_HERNANDARIAS.schema">
+            <SimpleData name="Cédula">5905529.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">TERESA RIVAROLA SILVA</SimpleData>
+            <SimpleData name="Sexo">Mujer</SimpleData>
+            <SimpleData name="Cambio_de_">NO</SimpleData>
+            <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="ci_UNIF">5905529.00000000000</SimpleData>
+            <SimpleData name="Situación">NO</SimpleData>
+            <SimpleData name="Comunidad">Ind?gena</SimpleData>
+            <SimpleData name="Modelo_imp">Modelo 3</SimpleData>
+            <SimpleData name="Departamen">ALTO PARANA</SimpleData>
+            <SimpleData name="Distrito">HERNANDARIAS</SimpleData>
+            <SimpleData name="Localidad">COM INDIG ACARAYMI - CENTRO</SimpleData>
+            <SimpleData name="Teléfono">ND</SimpleData>
+            <SimpleData name="Vivienda_L">-25.26283650000</SimpleData>
+            <SimpleData name="Vivienda_1">-54.87532770000</SimpleData>
+            <SimpleData name="Superficie">1.00000000000</SimpleData>
+            <SimpleData name="Situaci_1">Pol?gono</SimpleData>
+            <SimpleData name="Plantado">SI</SimpleData>
+            <SimpleData name="Plantado_f">2025/11/20</SimpleData>
+            <SimpleData name="Jornales">0.00000000000</SimpleData>
+            <SimpleData name="Monto">0.00000000000</SimpleData>
+            <SimpleData name="Grupo_de_p">F-P1</SimpleData>
+            <SimpleData name="Estado_del">Activo</SimpleData>
+            <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
+            <SimpleData name="Lote">F</SimpleData>
+            <SimpleData name="Parametro">1.00000000000</SimpleData>
+            <SimpleData name="Situacion">Cumple</SimpleData>
+            <SimpleData name="X">-54.87357964000</SimpleData>
+            <SimpleData name="Y">-25.26281545000</SimpleData>
+            <SimpleData name="Sup_SIG">1.40256921919</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+                -54.8727015002751,-25.2631738992975,0
+                -54.8743021994162,-25.2632799996921,0
+                -54.8744424000318,-25.2626587000868,0
+                -54.8740061995851,-25.2625224000333,0
+                -54.8731635001808,-25.262144899668,0
+                -54.8727015002751,-25.2631738992975,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark id="Distrito_HERNANDARIAS.20">
+        <ExtendedData>
+          <SchemaData schemaUrl="#Distrito_HERNANDARIAS.schema">
+            <SimpleData name="Cédula">6870075.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">SERGIO DANIEL MARTINEZ ZORRILLA</SimpleData>
+            <SimpleData name="Sexo">Hombre</SimpleData>
+            <SimpleData name="Cambio_de_">NO</SimpleData>
+            <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="ci_UNIF">6870075.00000000000</SimpleData>
+            <SimpleData name="Situación">NO</SimpleData>
+            <SimpleData name="Comunidad">Ind?gena</SimpleData>
+            <SimpleData name="Modelo_imp">Modelo 2</SimpleData>
+            <SimpleData name="Departamen">ALTO PARANA</SimpleData>
+            <SimpleData name="Distrito">HERNANDARIAS</SimpleData>
+            <SimpleData name="Localidad">COM INDIG ACARAYMI - CENTRO</SimpleData>
+            <SimpleData name="Teléfono">0973896712</SimpleData>
+            <SimpleData name="Vivienda_L">-25.27354370000</SimpleData>
+            <SimpleData name="Vivienda_1">-54.89566180000</SimpleData>
+            <SimpleData name="Superficie">0.80000000000</SimpleData>
+            <SimpleData name="Situaci_1">Pol?gono</SimpleData>
+            <SimpleData name="Plantado">SI</SimpleData>
+            <SimpleData name="Plantado_f">2025/11/18</SimpleData>
+            <SimpleData name="Jornales">0.00000000000</SimpleData>
+            <SimpleData name="Monto">0.00000000000</SimpleData>
+            <SimpleData name="Grupo_de_p">F-P1</SimpleData>
+            <SimpleData name="Estado_del">Activo</SimpleData>
+            <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
+            <SimpleData name="Lote">F</SimpleData>
+            <SimpleData name="Parametro">0.80000000000</SimpleData>
+            <SimpleData name="Situacion">Cumple</SimpleData>
+            <SimpleData name="X">-54.89615089000</SimpleData>
+            <SimpleData name="Y">-25.27291233000</SimpleData>
+            <SimpleData name="Sup_SIG">0.84314583801</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+                -54.89547060037,-25.2727867000485,0
+                -54.896285699953,-25.273490100057,0
+                -54.8968163995286,-25.2731489003171,0
+                -54.8964016994941,-25.2727433006371,0
+                -54.8964086998127,-25.2725897000067,0
+                -54.8961153000722,-25.2723090991475,0
+                -54.89547060037,-25.2727867000485,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark id="Distrito_HERNANDARIAS.21">
+        <ExtendedData>
+          <SchemaData schemaUrl="#Distrito_HERNANDARIAS.schema">
+            <SimpleData name="Cédula">6098927.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">PLACIDO MARTINEZ PALACIOS</SimpleData>
+            <SimpleData name="Sexo">Hombre</SimpleData>
+            <SimpleData name="Cambio_de_">NO</SimpleData>
+            <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="ci_UNIF">6098927.00000000000</SimpleData>
+            <SimpleData name="Situación">NO</SimpleData>
+            <SimpleData name="Comunidad">Ind?gena</SimpleData>
+            <SimpleData name="Modelo_imp">Modelo 1</SimpleData>
+            <SimpleData name="Departamen">ALTO PARANA</SimpleData>
+            <SimpleData name="Distrito">HERNANDARIAS</SimpleData>
+            <SimpleData name="Localidad">COM INDIG ACARAYMI - BARRIO ANGELA ANTONIA</SimpleData>
+            <SimpleData name="Teléfono">0984623821</SimpleData>
+            <SimpleData name="Vivienda_L">-25.28306220000</SimpleData>
+            <SimpleData name="Vivienda_1">-54.86935240000</SimpleData>
+            <SimpleData name="Superficie">0.80000000000</SimpleData>
+            <SimpleData name="Situaci_1">Pol?gono</SimpleData>
+            <SimpleData name="Plantado">SI</SimpleData>
+            <SimpleData name="Plantado_f">2025/10/06</SimpleData>
+            <SimpleData name="Jornales">0.00000000000</SimpleData>
+            <SimpleData name="Monto">0.00000000000</SimpleData>
+            <SimpleData name="Grupo_de_p">F-P1</SimpleData>
+            <SimpleData name="Estado_del">Activo</SimpleData>
+            <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
+            <SimpleData name="Lote">F</SimpleData>
+            <SimpleData name="Parametro">0.80000000000</SimpleData>
+            <SimpleData name="Situacion">Cumple</SimpleData>
+            <SimpleData name="X">-54.87875313000</SimpleData>
+            <SimpleData name="Y">-25.28781093000</SimpleData>
+            <SimpleData name="Sup_SIG">0.84726117332</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <MultiGeometry>
+          <Polygon>
+            <outerBoundaryIs>
+              <LinearRing>
+                <coordinates>
+                  -54.8785291003481,-25.2881309002601,0
+                  -54.8791966996217,-25.2879767996698,0
+                  -54.879187700134,-25.2874961003986,0
+                  -54.8781414003577,-25.2877025004322,0
+                  -54.8785308001904,-25.2881300996669,0
+                  -54.8785291003481,-25.2881309002601,0
+                </coordinates>
+              </LinearRing>
+            </outerBoundaryIs>
+          </Polygon>
+          <Polygon>
+            <outerBoundaryIs>
+              <LinearRing>
+                <coordinates>
+                  -54.8926102998997,-25.2831700003529,0
+                  -54.8927731002857,-25.2826798003491,0
+                  -54.8921855996957,-25.2824020001033,0
+                  -54.8920066004518,-25.2825801004889,0
+                  -54.8919216996972,-25.2827000000989,0
+                  -54.8926102998997,-25.2831700003529,0
+                </coordinates>
+              </LinearRing>
+            </outerBoundaryIs>
+          </Polygon>
+        </MultiGeometry>
+      </Placemark>
+    </Document>
+  </Document>
+</kml>

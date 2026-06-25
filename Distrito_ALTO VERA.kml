@@ -1,0 +1,1162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document id="root_doc">
+    <Schema id="Distrito_ALTO_VERA.schema">
+      <SimpleField name="Cédula" type="double"/>
+      <SimpleField name="Nombres_y_" type="string"/>
+      <SimpleField name="Sexo" type="string"/>
+      <SimpleField name="Cambio_de_" type="string"/>
+      <SimpleField name="Titular_se" type="string"/>
+      <SimpleField name="Cédula_Ti" type="string"/>
+      <SimpleField name="ci_UNIF" type="double"/>
+      <SimpleField name="Situación" type="string"/>
+      <SimpleField name="Comunidad" type="string"/>
+      <SimpleField name="Modelo_imp" type="string"/>
+      <SimpleField name="Departamen" type="string"/>
+      <SimpleField name="Distrito" type="string"/>
+      <SimpleField name="Localidad" type="string"/>
+      <SimpleField name="Teléfono" type="string"/>
+      <SimpleField name="Vivienda_L" type="double"/>
+      <SimpleField name="Vivienda_1" type="double"/>
+      <SimpleField name="Superficie" type="double"/>
+      <SimpleField name="Situaci_1" type="string"/>
+      <SimpleField name="Plantado" type="string"/>
+      <SimpleField name="Plantado_f" type="string"/>
+      <SimpleField name="Jornales" type="double"/>
+      <SimpleField name="Monto" type="double"/>
+      <SimpleField name="Grupo_de_p" type="string"/>
+      <SimpleField name="Estado_del" type="string"/>
+      <SimpleField name="Empresa" type="string"/>
+      <SimpleField name="Lote" type="string"/>
+      <SimpleField name="Parametro" type="double"/>
+      <SimpleField name="Situacion" type="string"/>
+      <SimpleField name="X" type="double"/>
+      <SimpleField name="Y" type="double"/>
+      <SimpleField name="Sup_SIG" type="double"/>
+    </Schema>
+    <Document id="Distrito_ALTO_VERA">
+      <name>Distrito_ALTO VERA</name>
+      <Placemark id="Distrito_ALTO_VERA.1">
+        <ExtendedData>
+          <SchemaData schemaUrl="#Distrito_ALTO_VERA.schema">
+            <SimpleData name="Cédula">6768856.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">SANDRA BRIZUELA MARTINEZ</SimpleData>
+            <SimpleData name="Sexo">Mujer</SimpleData>
+            <SimpleData name="Cambio_de_">NO</SimpleData>
+            <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="ci_UNIF">6768856.00000000000</SimpleData>
+            <SimpleData name="Situación">NO</SimpleData>
+            <SimpleData name="Comunidad">Ind?gena</SimpleData>
+            <SimpleData name="Modelo_imp">Modelo 3</SimpleData>
+            <SimpleData name="Departamen">ITAPUA</SimpleData>
+            <SimpleData name="Distrito">ALTO VERA</SimpleData>
+            <SimpleData name="Localidad">COM INDIG MBERU - PIRAPO I</SimpleData>
+            <SimpleData name="Teléfono">0982071647</SimpleData>
+            <SimpleData name="Vivienda_L">-26.70484460000</SimpleData>
+            <SimpleData name="Vivienda_1">-55.66193800000</SimpleData>
+            <SimpleData name="Superficie">1.00000000000</SimpleData>
+            <SimpleData name="Situaci_1">Par?metro</SimpleData>
+            <SimpleData name="Plantado">SI</SimpleData>
+            <SimpleData name="Plantado_f">2025/11/06</SimpleData>
+            <SimpleData name="Jornales">0.00000000000</SimpleData>
+            <SimpleData name="Monto">0.00000000000</SimpleData>
+            <SimpleData name="Grupo_de_p">A-P2</SimpleData>
+            <SimpleData name="Estado_del">Activo</SimpleData>
+            <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
+            <SimpleData name="Lote">A</SimpleData>
+            <SimpleData name="Parametro">1.00000000000</SimpleData>
+            <SimpleData name="Situacion">Cumple</SimpleData>
+            <SimpleData name="X">-55.64855388000</SimpleData>
+            <SimpleData name="Y">-26.69209441000</SimpleData>
+            <SimpleData name="Sup_SIG">1.11786741316</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+                -55.6480830478569,-26.6923590385164,0
+                -55.6486701002799,-26.6928710996657,0
+                -55.6491917003377,-26.6919633002367,0
+                -55.6484249997797,-26.6913232999203,0
+                -55.6479216996374,-26.6922183001152,0
+                -55.6479416797645,-26.6922357274591,0
+                -55.6480830478569,-26.6923590385164,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark id="Distrito_ALTO_VERA.2">
+        <ExtendedData>
+          <SchemaData schemaUrl="#Distrito_ALTO_VERA.schema">
+            <SimpleData name="Cédula">7305049.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">IGNACIA VILLALBA BENITEZ</SimpleData>
+            <SimpleData name="Sexo">Mujer</SimpleData>
+            <SimpleData name="Cambio_de_">NO</SimpleData>
+            <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="ci_UNIF">7305049.00000000000</SimpleData>
+            <SimpleData name="Situación">NO</SimpleData>
+            <SimpleData name="Comunidad">Ind?gena</SimpleData>
+            <SimpleData name="Modelo_imp">Modelo 3</SimpleData>
+            <SimpleData name="Departamen">ITAPUA</SimpleData>
+            <SimpleData name="Distrito">ALTO VERA</SimpleData>
+            <SimpleData name="Localidad">COM INDIG MBERU - PIRAPO I</SimpleData>
+            <SimpleData name="Teléfono">0983475639</SimpleData>
+            <SimpleData name="Vivienda_L">-26.70318340000</SimpleData>
+            <SimpleData name="Vivienda_1">-55.65790150000</SimpleData>
+            <SimpleData name="Superficie">1.00000000000</SimpleData>
+            <SimpleData name="Situaci_1">Pol?gono</SimpleData>
+            <SimpleData name="Plantado">SI</SimpleData>
+            <SimpleData name="Plantado_f">2025/11/06</SimpleData>
+            <SimpleData name="Jornales">0.00000000000</SimpleData>
+            <SimpleData name="Monto">0.00000000000</SimpleData>
+            <SimpleData name="Grupo_de_p">A-P2</SimpleData>
+            <SimpleData name="Estado_del">Activo</SimpleData>
+            <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
+            <SimpleData name="Lote">A</SimpleData>
+            <SimpleData name="Parametro">1.00000000000</SimpleData>
+            <SimpleData name="Situacion">Cumple</SimpleData>
+            <SimpleData name="X">-55.65002901000</SimpleData>
+            <SimpleData name="Y">-26.69186916000</SimpleData>
+            <SimpleData name="Sup_SIG">1.05656487997</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+                -55.6501600481062,-26.6925749240251,0
+                -55.6504191859747,-26.6921869146086,0
+                -55.6506337892502,-26.6918394733966,0
+                -55.6506766997162,-26.6917700003587,0
+                -55.6499183000778,-26.6911549999345,0
+                -55.6493666995688,-26.6919716996339,0
+                -55.6501600481062,-26.6925749240251,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark id="Distrito_ALTO_VERA.3">
+        <ExtendedData>
+          <SchemaData schemaUrl="#Distrito_ALTO_VERA.schema">
+            <SimpleData name="Cédula">7311473.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">VERONICA BRIZUELA MARTINEZ</SimpleData>
+            <SimpleData name="Sexo">Mujer</SimpleData>
+            <SimpleData name="Cambio_de_">NO</SimpleData>
+            <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="ci_UNIF">7311473.00000000000</SimpleData>
+            <SimpleData name="Situación">NO</SimpleData>
+            <SimpleData name="Comunidad">Ind?gena</SimpleData>
+            <SimpleData name="Modelo_imp">Modelo 3</SimpleData>
+            <SimpleData name="Departamen">ITAPUA</SimpleData>
+            <SimpleData name="Distrito">ALTO VERA</SimpleData>
+            <SimpleData name="Localidad">COM INDIG MBERU - PIRAPO I</SimpleData>
+            <SimpleData name="Teléfono">0986261717</SimpleData>
+            <SimpleData name="Vivienda_L">-26.70464130000</SimpleData>
+            <SimpleData name="Vivienda_1">-55.66162110000</SimpleData>
+            <SimpleData name="Superficie">1.00000000000</SimpleData>
+            <SimpleData name="Situaci_1">Par?metro</SimpleData>
+            <SimpleData name="Plantado">SI</SimpleData>
+            <SimpleData name="Plantado_f">2025/11/06</SimpleData>
+            <SimpleData name="Jornales">0.00000000000</SimpleData>
+            <SimpleData name="Monto">0.00000000000</SimpleData>
+            <SimpleData name="Grupo_de_p">A-P2</SimpleData>
+            <SimpleData name="Estado_del">Activo</SimpleData>
+            <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
+            <SimpleData name="Lote">A</SimpleData>
+            <SimpleData name="Parametro">1.00000000000</SimpleData>
+            <SimpleData name="Situacion">Cumple</SimpleData>
+            <SimpleData name="X">-55.64956527000</SimpleData>
+            <SimpleData name="Y">-26.69451476000</SimpleData>
+            <SimpleData name="Sup_SIG">1.04434983989</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+                -55.6489611220251,-26.6946186761319,0
+                -55.6489883000355,-26.6946383005178,0
+                -55.6489788879156,-26.6946479209028,0
+                -55.6497179002438,-26.6952127001514,0
+                -55.6502194001621,-26.694584100329,0
+                -55.6493841996229,-26.69372479979,0
+                -55.6489611220251,-26.6946186761319,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark id="Distrito_ALTO_VERA.4">
+        <ExtendedData>
+          <SchemaData schemaUrl="#Distrito_ALTO_VERA.schema">
+            <SimpleData name="Cédula">7311362.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">SANTA VILLALBA BENITEZ</SimpleData>
+            <SimpleData name="Sexo">Mujer</SimpleData>
+            <SimpleData name="Cambio_de_">NO</SimpleData>
+            <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="ci_UNIF">7311362.00000000000</SimpleData>
+            <SimpleData name="Situación">NO</SimpleData>
+            <SimpleData name="Comunidad">Ind?gena</SimpleData>
+            <SimpleData name="Modelo_imp">Modelo 3</SimpleData>
+            <SimpleData name="Departamen">ITAPUA</SimpleData>
+            <SimpleData name="Distrito">ALTO VERA</SimpleData>
+            <SimpleData name="Localidad">COM INDIG MBERU - PIRAPO I</SimpleData>
+            <SimpleData name="Teléfono">0984631890</SimpleData>
+            <SimpleData name="Vivienda_L">-26.70333500000</SimpleData>
+            <SimpleData name="Vivienda_1">-55.65865170000</SimpleData>
+            <SimpleData name="Superficie">1.00000000000</SimpleData>
+            <SimpleData name="Situaci_1">Par?metro</SimpleData>
+            <SimpleData name="Plantado">SI</SimpleData>
+            <SimpleData name="Plantado_f">2025/11/06</SimpleData>
+            <SimpleData name="Jornales">0.00000000000</SimpleData>
+            <SimpleData name="Monto">0.00000000000</SimpleData>
+            <SimpleData name="Grupo_de_p">A-P2</SimpleData>
+            <SimpleData name="Estado_del">Activo</SimpleData>
+            <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
+            <SimpleData name="Lote">A</SimpleData>
+            <SimpleData name="Parametro">1.00000000000</SimpleData>
+            <SimpleData name="Situacion">Cumple</SimpleData>
+            <SimpleData name="X">-55.64825380000</SimpleData>
+            <SimpleData name="Y">-26.69469843000</SimpleData>
+            <SimpleData name="Sup_SIG">1.05404456057</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+                -55.6480989025505,-26.6940701014199,0
+                -55.647825075041,-26.6944698391815,0
+                -55.6475830302071,-26.6948231754778,0
+                -55.6475982999947,-26.6948767003998,0
+                -55.6483049997634,-26.6953367004288,0
+                -55.6489788879156,-26.6946479209028,0
+                -55.6489883000355,-26.6946383005178,0
+                -55.6489611220251,-26.6946186761319,0
+                -55.6481348227972,-26.6940222232015,0
+                -55.6481261817463,-26.6940159859849,0
+                -55.6480989025505,-26.6940701014199,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark id="Distrito_ALTO_VERA.5">
+        <ExtendedData>
+          <SchemaData schemaUrl="#Distrito_ALTO_VERA.schema">
+            <SimpleData name="Cédula">2518994.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">PABLO BENITEZ OTELA</SimpleData>
+            <SimpleData name="Sexo">Hombre</SimpleData>
+            <SimpleData name="Cambio_de_">NO</SimpleData>
+            <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="ci_UNIF">2518994.00000000000</SimpleData>
+            <SimpleData name="Situación">NO</SimpleData>
+            <SimpleData name="Comunidad">Ind?gena</SimpleData>
+            <SimpleData name="Modelo_imp">Modelo 3</SimpleData>
+            <SimpleData name="Departamen">ITAPUA</SimpleData>
+            <SimpleData name="Distrito">ALTO VERA</SimpleData>
+            <SimpleData name="Localidad">COM INDIG MBERU - PIRAPO I</SimpleData>
+            <SimpleData name="Teléfono">0986538356</SimpleData>
+            <SimpleData name="Vivienda_L">-26.71038270000</SimpleData>
+            <SimpleData name="Vivienda_1">-55.65273790000</SimpleData>
+            <SimpleData name="Superficie">1.00000000000</SimpleData>
+            <SimpleData name="Situaci_1">Par?metro</SimpleData>
+            <SimpleData name="Plantado">SI</SimpleData>
+            <SimpleData name="Plantado_f">2025/11/06</SimpleData>
+            <SimpleData name="Jornales">0.00000000000</SimpleData>
+            <SimpleData name="Monto">0.00000000000</SimpleData>
+            <SimpleData name="Grupo_de_p">A-P2</SimpleData>
+            <SimpleData name="Estado_del">Activo</SimpleData>
+            <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
+            <SimpleData name="Lote">A</SimpleData>
+            <SimpleData name="Parametro">1.00000000000</SimpleData>
+            <SimpleData name="Situacion">Cumple</SimpleData>
+            <SimpleData name="X">-55.65165074000</SimpleData>
+            <SimpleData name="Y">-26.69325264000</SimpleData>
+            <SimpleData name="Sup_SIG">1.02824721414</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+                -55.6510622829372,-26.6930910904025,0
+                -55.6509832549075,-26.6932243561129,0
+                -55.6518800000348,-26.6939517003617,0
+                -55.6523200007052,-26.6933700003254,0
+                -55.6514702005991,-26.6925182004695,0
+                -55.6510622829372,-26.6930910904025,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark id="Distrito_ALTO_VERA.6">
+        <ExtendedData>
+          <SchemaData schemaUrl="#Distrito_ALTO_VERA.schema">
+            <SimpleData name="Cédula">7271454.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">MARIA CRISTINA DUARTE MARTINEZ</SimpleData>
+            <SimpleData name="Sexo">Mujer</SimpleData>
+            <SimpleData name="Cambio_de_">NO</SimpleData>
+            <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="ci_UNIF">7271454.00000000000</SimpleData>
+            <SimpleData name="Situación">NO</SimpleData>
+            <SimpleData name="Comunidad">Ind?gena</SimpleData>
+            <SimpleData name="Modelo_imp">Modelo 3</SimpleData>
+            <SimpleData name="Departamen">ITAPUA</SimpleData>
+            <SimpleData name="Distrito">ALTO VERA</SimpleData>
+            <SimpleData name="Localidad">COM INDIG MBERU - PIRAPO I</SimpleData>
+            <SimpleData name="Teléfono">0982571204</SimpleData>
+            <SimpleData name="Vivienda_L">-26.71031670000</SimpleData>
+            <SimpleData name="Vivienda_1">-55.65381290000</SimpleData>
+            <SimpleData name="Superficie">1.00000000000</SimpleData>
+            <SimpleData name="Situaci_1">Par?metro</SimpleData>
+            <SimpleData name="Plantado">SI</SimpleData>
+            <SimpleData name="Plantado_f">2025/11/06</SimpleData>
+            <SimpleData name="Jornales">0.00000000000</SimpleData>
+            <SimpleData name="Monto">0.00000000000</SimpleData>
+            <SimpleData name="Grupo_de_p">A-P2</SimpleData>
+            <SimpleData name="Estado_del">Activo</SimpleData>
+            <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
+            <SimpleData name="Lote">A</SimpleData>
+            <SimpleData name="Parametro">1.00000000000</SimpleData>
+            <SimpleData name="Situacion">Cumple</SimpleData>
+            <SimpleData name="X">-55.64876578000</SimpleData>
+            <SimpleData name="Y">-26.69383990000</SimpleData>
+            <SimpleData name="Sup_SIG">1.16248812276</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+                -55.6485136431492,-26.6932465572702,0
+                -55.6481261817463,-26.6940159859849,0
+                -55.6481348227972,-26.6940222232015,0
+                -55.6489611220251,-26.6946186761319,0
+                -55.6493841996229,-26.69372479979,0
+                -55.6493824659864,-26.6937231764057,0
+                -55.6486342090241,-26.693022462118,0
+                -55.6485136431492,-26.6932465572702,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark id="Distrito_ALTO_VERA.7">
+        <ExtendedData>
+          <SchemaData schemaUrl="#Distrito_ALTO_VERA.schema">
+            <SimpleData name="Cédula">6764474.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">ELENO BENITEZ CABRERA</SimpleData>
+            <SimpleData name="Sexo">Hombre</SimpleData>
+            <SimpleData name="Cambio_de_">NO</SimpleData>
+            <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="ci_UNIF">6764474.00000000000</SimpleData>
+            <SimpleData name="Situación">NO</SimpleData>
+            <SimpleData name="Comunidad">Ind?gena</SimpleData>
+            <SimpleData name="Modelo_imp">Modelo 3</SimpleData>
+            <SimpleData name="Departamen">ITAPUA</SimpleData>
+            <SimpleData name="Distrito">ALTO VERA</SimpleData>
+            <SimpleData name="Localidad">COM INDIG MBERU - PIRAPO I</SimpleData>
+            <SimpleData name="Teléfono">0984235644</SimpleData>
+            <SimpleData name="Vivienda_L">-26.70255290000</SimpleData>
+            <SimpleData name="Vivienda_1">-55.65499770000</SimpleData>
+            <SimpleData name="Superficie">1.00000000000</SimpleData>
+            <SimpleData name="Situaci_1">Par?metro</SimpleData>
+            <SimpleData name="Plantado">SI</SimpleData>
+            <SimpleData name="Plantado_f">2025/11/06</SimpleData>
+            <SimpleData name="Jornales">0.00000000000</SimpleData>
+            <SimpleData name="Monto">0.00000000000</SimpleData>
+            <SimpleData name="Grupo_de_p">A-P2</SimpleData>
+            <SimpleData name="Estado_del">Activo</SimpleData>
+            <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
+            <SimpleData name="Lote">A</SimpleData>
+            <SimpleData name="Parametro">1.00000000000</SimpleData>
+            <SimpleData name="Situacion">Cumple</SimpleData>
+            <SimpleData name="X">-55.64743087000</SimpleData>
+            <SimpleData name="Y">-26.69412729000</SimpleData>
+            <SimpleData name="Sup_SIG">1.06491247070</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+                -55.6467701998225,-26.6942334999425,0
+                -55.6475830302071,-26.6948231754778,0
+                -55.647825075041,-26.6944698391815,0
+                -55.6480989025505,-26.6940701014199,0
+                -55.6480818214826,-26.6940562621363,0
+                -55.6472802084749,-26.6934067891315,0
+                -55.6472796281833,-26.6934063114654,0
+                -55.6467701998225,-26.6942334999425,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark id="Distrito_ALTO_VERA.8">
+        <ExtendedData>
+          <SchemaData schemaUrl="#Distrito_ALTO_VERA.schema">
+            <SimpleData name="Cédula">5599382.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">SALUSTIANA MARTINEZ CASTILLO</SimpleData>
+            <SimpleData name="Sexo">Mujer</SimpleData>
+            <SimpleData name="Cambio_de_">NO</SimpleData>
+            <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="ci_UNIF">5599382.00000000000</SimpleData>
+            <SimpleData name="Situación">NO</SimpleData>
+            <SimpleData name="Comunidad">Ind?gena</SimpleData>
+            <SimpleData name="Modelo_imp">Modelo 3</SimpleData>
+            <SimpleData name="Departamen">ITAPUA</SimpleData>
+            <SimpleData name="Distrito">ALTO VERA</SimpleData>
+            <SimpleData name="Localidad">COM INDIG MBERU - PIRAPO I</SimpleData>
+            <SimpleData name="Teléfono">0983368446</SimpleData>
+            <SimpleData name="Vivienda_L">-26.70079490000</SimpleData>
+            <SimpleData name="Vivienda_1">-55.66237030000</SimpleData>
+            <SimpleData name="Superficie">1.00000000000</SimpleData>
+            <SimpleData name="Situaci_1">Pol?gono</SimpleData>
+            <SimpleData name="Plantado">SI</SimpleData>
+            <SimpleData name="Plantado_f">2025/11/06</SimpleData>
+            <SimpleData name="Jornales">0.00000000000</SimpleData>
+            <SimpleData name="Monto">0.00000000000</SimpleData>
+            <SimpleData name="Grupo_de_p">A-P2</SimpleData>
+            <SimpleData name="Estado_del">Activo</SimpleData>
+            <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
+            <SimpleData name="Lote">A</SimpleData>
+            <SimpleData name="Parametro">1.00000000000</SimpleData>
+            <SimpleData name="Situacion">Cumple</SimpleData>
+            <SimpleData name="X">-55.64923597000</SimpleData>
+            <SimpleData name="Y">-26.69115516000</SimpleData>
+            <SimpleData name="Sup_SIG">1.03911245555</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+                -55.6486017000054,-26.6912116996754,0
+                -55.6494282996056,-26.6918766999398,0
+                -55.6498707002597,-26.6911408002458,0
+                -55.6490584999459,-26.6904117000106,0
+                -55.6486017000054,-26.6912116996754,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark id="Distrito_ALTO_VERA.9">
+        <ExtendedData>
+          <SchemaData schemaUrl="#Distrito_ALTO_VERA.schema">
+            <SimpleData name="Cédula">8069116.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">AURELIANA MARTINEZ FRANCO</SimpleData>
+            <SimpleData name="Sexo">Mujer</SimpleData>
+            <SimpleData name="Cambio_de_">NO</SimpleData>
+            <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="ci_UNIF">8069116.00000000000</SimpleData>
+            <SimpleData name="Situación">NO</SimpleData>
+            <SimpleData name="Comunidad">Ind?gena</SimpleData>
+            <SimpleData name="Modelo_imp">Modelo 3</SimpleData>
+            <SimpleData name="Departamen">ITAPUA</SimpleData>
+            <SimpleData name="Distrito">ALTO VERA</SimpleData>
+            <SimpleData name="Localidad">COM INDIG MBERU - PIRAPO I</SimpleData>
+            <SimpleData name="Teléfono">ND</SimpleData>
+            <SimpleData name="Vivienda_L">-26.70951620000</SimpleData>
+            <SimpleData name="Vivienda_1">-55.65278880000</SimpleData>
+            <SimpleData name="Superficie">1.00000000000</SimpleData>
+            <SimpleData name="Situaci_1">Pol?gono</SimpleData>
+            <SimpleData name="Plantado">SI</SimpleData>
+            <SimpleData name="Plantado_f">2025/11/06</SimpleData>
+            <SimpleData name="Jornales">0.00000000000</SimpleData>
+            <SimpleData name="Monto">0.00000000000</SimpleData>
+            <SimpleData name="Grupo_de_p">A-P2</SimpleData>
+            <SimpleData name="Estado_del">Activo</SimpleData>
+            <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
+            <SimpleData name="Lote">A</SimpleData>
+            <SimpleData name="Parametro">1.00000000000</SimpleData>
+            <SimpleData name="Situacion">Cumple</SimpleData>
+            <SimpleData name="X">-55.64930241000</SimpleData>
+            <SimpleData name="Y">-26.69275813000</SimpleData>
+            <SimpleData name="Sup_SIG">1.00614299378</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+                -55.6487483004962,-26.6928900000398,0
+                -55.6493331997438,-26.6935651998484,0
+                -55.6498796995818,-26.6925856000019,0
+                -55.6492217002392,-26.6919817002076,0
+                -55.6487483004962,-26.6928900000398,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark id="Distrito_ALTO_VERA.10">
+        <ExtendedData>
+          <SchemaData schemaUrl="#Distrito_ALTO_VERA.schema">
+            <SimpleData name="Cédula">7242175.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">LIDIA QUINTANA BOGADO</SimpleData>
+            <SimpleData name="Sexo">Mujer</SimpleData>
+            <SimpleData name="Cambio_de_">NO</SimpleData>
+            <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="ci_UNIF">7242175.00000000000</SimpleData>
+            <SimpleData name="Situación">NO</SimpleData>
+            <SimpleData name="Comunidad">Ind?gena</SimpleData>
+            <SimpleData name="Modelo_imp">Modelo 3</SimpleData>
+            <SimpleData name="Departamen">ITAPUA</SimpleData>
+            <SimpleData name="Distrito">ALTO VERA</SimpleData>
+            <SimpleData name="Localidad">COM INDIG MBERU - PIRAPO I</SimpleData>
+            <SimpleData name="Teléfono">0983006917</SimpleData>
+            <SimpleData name="Vivienda_L">-26.70365320000</SimpleData>
+            <SimpleData name="Vivienda_1">-55.65691990000</SimpleData>
+            <SimpleData name="Superficie">1.00000000000</SimpleData>
+            <SimpleData name="Situaci_1">Par?metro</SimpleData>
+            <SimpleData name="Plantado">SI</SimpleData>
+            <SimpleData name="Plantado_f">2026/02/21</SimpleData>
+            <SimpleData name="Jornales">0.00000000000</SimpleData>
+            <SimpleData name="Monto">0.00000000000</SimpleData>
+            <SimpleData name="Grupo_de_p">A-P2</SimpleData>
+            <SimpleData name="Estado_del">Activo</SimpleData>
+            <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
+            <SimpleData name="Lote">A</SimpleData>
+            <SimpleData name="Parametro">1.00000000000</SimpleData>
+            <SimpleData name="Situacion">Cumple</SimpleData>
+            <SimpleData name="X">-55.65138877000</SimpleData>
+            <SimpleData name="Y">-26.69571118000</SimpleData>
+            <SimpleData name="Sup_SIG">1.12282052196</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+                -55.6507450001304,-26.6957017002852,0
+                -55.6512751001973,-26.6963861999439,0
+                -55.6521250005367,-26.6959167001843,0
+                -55.6513108996007,-26.6949155001571,0
+                -55.6507450001304,-26.6957017002852,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark id="Distrito_ALTO_VERA.11">
+        <ExtendedData>
+          <SchemaData schemaUrl="#Distrito_ALTO_VERA.schema">
+            <SimpleData name="Cédula">7102731.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">MARIZA MEDINA FRANCO</SimpleData>
+            <SimpleData name="Sexo">Mujer</SimpleData>
+            <SimpleData name="Cambio_de_">NO</SimpleData>
+            <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="ci_UNIF">7102731.00000000000</SimpleData>
+            <SimpleData name="Situación">NO</SimpleData>
+            <SimpleData name="Comunidad">Ind?gena</SimpleData>
+            <SimpleData name="Modelo_imp">Modelo 3</SimpleData>
+            <SimpleData name="Departamen">ITAPUA</SimpleData>
+            <SimpleData name="Distrito">ALTO VERA</SimpleData>
+            <SimpleData name="Localidad">COM INDIG MBERU - PIRAPO I</SimpleData>
+            <SimpleData name="Teléfono">0985225108</SimpleData>
+            <SimpleData name="Vivienda_L">-26.70454500000</SimpleData>
+            <SimpleData name="Vivienda_1">-55.65958170000</SimpleData>
+            <SimpleData name="Superficie">1.00000000000</SimpleData>
+            <SimpleData name="Situaci_1">Pol?gono</SimpleData>
+            <SimpleData name="Plantado">SI</SimpleData>
+            <SimpleData name="Plantado_f">2025/11/06</SimpleData>
+            <SimpleData name="Jornales">0.00000000000</SimpleData>
+            <SimpleData name="Monto">0.00000000000</SimpleData>
+            <SimpleData name="Grupo_de_p">A-P2</SimpleData>
+            <SimpleData name="Estado_del">Activo</SimpleData>
+            <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
+            <SimpleData name="Lote">A</SimpleData>
+            <SimpleData name="Parametro">1.00000000000</SimpleData>
+            <SimpleData name="Situacion">Cumple</SimpleData>
+            <SimpleData name="X">-55.64846622000</SimpleData>
+            <SimpleData name="Y">-26.69607696000</SimpleData>
+            <SimpleData name="Sup_SIG">1.02200901148</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+                -55.6478498997133,-26.6964448997369,0
+                -55.6485683000129,-26.6967082996367,0
+                -55.6491424005091,-26.6958305002339,0
+                -55.6482882999203,-26.6954067002525,0
+                -55.6478498997133,-26.6964448997369,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark id="Distrito_ALTO_VERA.12">
+        <ExtendedData>
+          <SchemaData schemaUrl="#Distrito_ALTO_VERA.schema">
+            <SimpleData name="Cédula">6638971.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">LINA MARCELINA BRIZUELA BENITEZ</SimpleData>
+            <SimpleData name="Sexo">Mujer</SimpleData>
+            <SimpleData name="Cambio_de_">NO</SimpleData>
+            <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="ci_UNIF">6638971.00000000000</SimpleData>
+            <SimpleData name="Situación">NO</SimpleData>
+            <SimpleData name="Comunidad">Ind?gena</SimpleData>
+            <SimpleData name="Modelo_imp">Modelo 3</SimpleData>
+            <SimpleData name="Departamen">ITAPUA</SimpleData>
+            <SimpleData name="Distrito">ALTO VERA</SimpleData>
+            <SimpleData name="Localidad">COM INDIG MBERU - PIRAPO I</SimpleData>
+            <SimpleData name="Teléfono">0986538669</SimpleData>
+            <SimpleData name="Vivienda_L">-26.70210920000</SimpleData>
+            <SimpleData name="Vivienda_1">-55.65386570000</SimpleData>
+            <SimpleData name="Superficie">1.00000000000</SimpleData>
+            <SimpleData name="Situaci_1">Par?metro</SimpleData>
+            <SimpleData name="Plantado">SI</SimpleData>
+            <SimpleData name="Plantado_f">2026/02/21</SimpleData>
+            <SimpleData name="Jornales">0.00000000000</SimpleData>
+            <SimpleData name="Monto">0.00000000000</SimpleData>
+            <SimpleData name="Grupo_de_p">A-P2</SimpleData>
+            <SimpleData name="Estado_del">Activo</SimpleData>
+            <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
+            <SimpleData name="Lote">A</SimpleData>
+            <SimpleData name="Parametro">1.00000000000</SimpleData>
+            <SimpleData name="Situacion">Cumple</SimpleData>
+            <SimpleData name="X">-55.65006858000</SimpleData>
+            <SimpleData name="Y">-26.69569112000</SimpleData>
+            <SimpleData name="Sup_SIG">1.07511542521</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+                -55.6499915506156,-26.6963360677957,0
+                -55.6500400899459,-26.696370164867,0
+                -55.6501589448756,-26.6964536572614,0
+                -55.6501609992903,-26.6964551004294,0
+                -55.6506266000049,-26.6956460001937,0
+                -55.6506238929794,-26.6956418561265,0
+                -55.6500662999486,-26.6947881001279,0
+                -55.6494749991339,-26.6959732006485,0
+                -55.6499915506156,-26.6963360677957,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark id="Distrito_ALTO_VERA.13">
+        <ExtendedData>
+          <SchemaData schemaUrl="#Distrito_ALTO_VERA.schema">
+            <SimpleData name="Cédula">7239001.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">FATIMA BENITEZ BOGADO</SimpleData>
+            <SimpleData name="Sexo">Mujer</SimpleData>
+            <SimpleData name="Cambio_de_">NO</SimpleData>
+            <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="ci_UNIF">7239001.00000000000</SimpleData>
+            <SimpleData name="Situación">NO</SimpleData>
+            <SimpleData name="Comunidad">Ind?gena</SimpleData>
+            <SimpleData name="Modelo_imp">Modelo 3</SimpleData>
+            <SimpleData name="Departamen">ITAPUA</SimpleData>
+            <SimpleData name="Distrito">ALTO VERA</SimpleData>
+            <SimpleData name="Localidad">COM INDIG MBERU - PIRAPO I</SimpleData>
+            <SimpleData name="Teléfono">0986911700</SimpleData>
+            <SimpleData name="Vivienda_L">-26.70532770000</SimpleData>
+            <SimpleData name="Vivienda_1">-55.65711670000</SimpleData>
+            <SimpleData name="Superficie">1.00000000000</SimpleData>
+            <SimpleData name="Situaci_1">Pol?gono</SimpleData>
+            <SimpleData name="Plantado">SI</SimpleData>
+            <SimpleData name="Plantado_f">2025/11/06</SimpleData>
+            <SimpleData name="Jornales">0.00000000000</SimpleData>
+            <SimpleData name="Monto">0.00000000000</SimpleData>
+            <SimpleData name="Grupo_de_p">A-P1</SimpleData>
+            <SimpleData name="Estado_del">Activo</SimpleData>
+            <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
+            <SimpleData name="Lote">A</SimpleData>
+            <SimpleData name="Parametro">1.00000000000</SimpleData>
+            <SimpleData name="Situacion">Cumple</SimpleData>
+            <SimpleData name="X">-55.64693772000</SimpleData>
+            <SimpleData name="Y">-26.69497916000</SimpleData>
+            <SimpleData name="Sup_SIG">1.14588799458</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+                -55.6467701998225,-26.6942334999425,0
+                -55.6462560002883,-26.6950826001176,0
+                -55.6471858004006,-26.6957378007331,0
+                -55.6475678997332,-26.6948285001823,0
+                -55.6467701998225,-26.6942334999425,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark id="Distrito_ALTO_VERA.14">
+        <ExtendedData>
+          <SchemaData schemaUrl="#Distrito_ALTO_VERA.schema">
+            <SimpleData name="Cédula">7108865.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">FLORENCIA GIMENEZ MEDINA</SimpleData>
+            <SimpleData name="Sexo">Mujer</SimpleData>
+            <SimpleData name="Cambio_de_">NO</SimpleData>
+            <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="ci_UNIF">7108865.00000000000</SimpleData>
+            <SimpleData name="Situación">NO</SimpleData>
+            <SimpleData name="Comunidad">Ind?gena</SimpleData>
+            <SimpleData name="Modelo_imp">Modelo 3</SimpleData>
+            <SimpleData name="Departamen">ITAPUA</SimpleData>
+            <SimpleData name="Distrito">ALTO VERA</SimpleData>
+            <SimpleData name="Localidad">COM INDIG MBERU - PIRAPO I</SimpleData>
+            <SimpleData name="Teléfono">0983368446</SimpleData>
+            <SimpleData name="Vivienda_L">-26.70444000000</SimpleData>
+            <SimpleData name="Vivienda_1">-55.65977170000</SimpleData>
+            <SimpleData name="Superficie">1.00000000000</SimpleData>
+            <SimpleData name="Situaci_1">Par?metro</SimpleData>
+            <SimpleData name="Plantado">SI</SimpleData>
+            <SimpleData name="Plantado_f">2025/11/06</SimpleData>
+            <SimpleData name="Jornales">0.00000000000</SimpleData>
+            <SimpleData name="Monto">0.00000000000</SimpleData>
+            <SimpleData name="Grupo_de_p">A-P2</SimpleData>
+            <SimpleData name="Estado_del">Activo</SimpleData>
+            <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
+            <SimpleData name="Lote">A</SimpleData>
+            <SimpleData name="Parametro">1.00000000000</SimpleData>
+            <SimpleData name="Situacion">Cumple</SimpleData>
+            <SimpleData name="X">-55.65082505000</SimpleData>
+            <SimpleData name="Y">-26.69377054000</SimpleData>
+            <SimpleData name="Sup_SIG">1.01912018526</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+                -55.6502722046054,-26.6936402375428,0
+                -55.6500858005598,-26.6938921997666,0
+                -55.6501086538208,-26.6939020268193,0
+                -55.6507203837034,-26.6941650594009,0
+                -55.6508830233847,-26.6942349900408,0
+                -55.6511926007135,-26.6943681006987,0
+                -55.6514904000473,-26.6937742003893,0
+                -55.6506754997912,-26.693095099974,0
+                -55.6502722046054,-26.6936402375428,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark id="Distrito_ALTO_VERA.15">
+        <ExtendedData>
+          <SchemaData schemaUrl="#Distrito_ALTO_VERA.schema">
+            <SimpleData name="Cédula">6766560.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">RAMONA QUINTANA BOGADO</SimpleData>
+            <SimpleData name="Sexo">Mujer</SimpleData>
+            <SimpleData name="Cambio_de_">NO</SimpleData>
+            <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="ci_UNIF">6766560.00000000000</SimpleData>
+            <SimpleData name="Situación">NO</SimpleData>
+            <SimpleData name="Comunidad">Ind?gena</SimpleData>
+            <SimpleData name="Modelo_imp">Modelo 3</SimpleData>
+            <SimpleData name="Departamen">ITAPUA</SimpleData>
+            <SimpleData name="Distrito">ALTO VERA</SimpleData>
+            <SimpleData name="Localidad">COM INDIG MBERU - PIRAPO I</SimpleData>
+            <SimpleData name="Teléfono">0983368446</SimpleData>
+            <SimpleData name="Vivienda_L">-26.70395770000</SimpleData>
+            <SimpleData name="Vivienda_1">-55.65703930000</SimpleData>
+            <SimpleData name="Superficie">1.00000000000</SimpleData>
+            <SimpleData name="Situaci_1">Par?metro</SimpleData>
+            <SimpleData name="Plantado">SI</SimpleData>
+            <SimpleData name="Plantado_f">2025/11/06</SimpleData>
+            <SimpleData name="Jornales">0.00000000000</SimpleData>
+            <SimpleData name="Monto">0.00000000000</SimpleData>
+            <SimpleData name="Grupo_de_p">A-P2</SimpleData>
+            <SimpleData name="Estado_del">Activo</SimpleData>
+            <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
+            <SimpleData name="Lote">A</SimpleData>
+            <SimpleData name="Parametro">1.00000000000</SimpleData>
+            <SimpleData name="Situacion">Cumple</SimpleData>
+            <SimpleData name="X">-55.65079446000</SimpleData>
+            <SimpleData name="Y">-26.69483384000</SimpleData>
+            <SimpleData name="Sup_SIG">1.22542254466</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+                -55.6508830233847,-26.6942349900408,0
+                -55.6507203837034,-26.6941650594009,0
+                -55.6500939997982,-26.6948043999355,0
+                -55.6507200000581,-26.6956700000993,0
+                -55.6515667004863,-26.6945729998561,0
+                -55.6508830233847,-26.6942349900408,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark id="Distrito_ALTO_VERA.16">
+        <ExtendedData>
+          <SchemaData schemaUrl="#Distrito_ALTO_VERA.schema">
+            <SimpleData name="Cédula">8068664.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">ALICIA QUINTANA BOGADO</SimpleData>
+            <SimpleData name="Sexo">Mujer</SimpleData>
+            <SimpleData name="Cambio_de_">NO</SimpleData>
+            <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="ci_UNIF">8068664.00000000000</SimpleData>
+            <SimpleData name="Situación">NO</SimpleData>
+            <SimpleData name="Comunidad">Ind?gena</SimpleData>
+            <SimpleData name="Modelo_imp">Modelo 3</SimpleData>
+            <SimpleData name="Departamen">ITAPUA</SimpleData>
+            <SimpleData name="Distrito">ALTO VERA</SimpleData>
+            <SimpleData name="Localidad">COM INDIG MBERU - PIRAPO I</SimpleData>
+            <SimpleData name="Teléfono">0984489743</SimpleData>
+            <SimpleData name="Vivienda_L">-26.70296570000</SimpleData>
+            <SimpleData name="Vivienda_1">-55.65507820000</SimpleData>
+            <SimpleData name="Superficie">1.00000000000</SimpleData>
+            <SimpleData name="Situaci_1">Pol?gono</SimpleData>
+            <SimpleData name="Plantado">SI</SimpleData>
+            <SimpleData name="Plantado_f">2025/11/06</SimpleData>
+            <SimpleData name="Jornales">0.00000000000</SimpleData>
+            <SimpleData name="Monto">0.00000000000</SimpleData>
+            <SimpleData name="Grupo_de_p">A-P2</SimpleData>
+            <SimpleData name="Estado_del">Activo</SimpleData>
+            <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
+            <SimpleData name="Lote">A</SimpleData>
+            <SimpleData name="Parametro">1.00000000000</SimpleData>
+            <SimpleData name="Situacion">Cumple</SimpleData>
+            <SimpleData name="X">-55.65078824000</SimpleData>
+            <SimpleData name="Y">-26.69255655000</SimpleData>
+            <SimpleData name="Sup_SIG">1.03328380642</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+                -55.6501600481062,-26.6925749240251,0
+                -55.650143300367,-26.6926000002178,0
+                -55.650948300242,-26.6932833002331,0
+                -55.6509832549075,-26.6932243561129,0
+                -55.6510622829372,-26.6930910904025,0
+                -55.6514217000931,-26.6924849997995,0
+                -55.6506337892502,-26.6918394733966,0
+                -55.6504191859747,-26.6921869146086,0
+                -55.6501600481062,-26.6925749240251,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark id="Distrito_ALTO_VERA.17">
+        <ExtendedData>
+          <SchemaData schemaUrl="#Distrito_ALTO_VERA.schema">
+            <SimpleData name="Cédula">8068704.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">MARTIN CARLOS QUINTANA BENITEZ</SimpleData>
+            <SimpleData name="Sexo">Hombre</SimpleData>
+            <SimpleData name="Cambio_de_">NO</SimpleData>
+            <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="ci_UNIF">8068704.00000000000</SimpleData>
+            <SimpleData name="Situación">NO</SimpleData>
+            <SimpleData name="Comunidad">Ind?gena</SimpleData>
+            <SimpleData name="Modelo_imp">Modelo 3</SimpleData>
+            <SimpleData name="Departamen">ITAPUA</SimpleData>
+            <SimpleData name="Distrito">ALTO VERA</SimpleData>
+            <SimpleData name="Localidad">COM INDIG MBERU - PIRAPO I</SimpleData>
+            <SimpleData name="Teléfono">ND</SimpleData>
+            <SimpleData name="Vivienda_L">-26.70394900000</SimpleData>
+            <SimpleData name="Vivienda_1">-55.65803120000</SimpleData>
+            <SimpleData name="Superficie">1.00000000000</SimpleData>
+            <SimpleData name="Situaci_1">Par?metro</SimpleData>
+            <SimpleData name="Plantado">SI</SimpleData>
+            <SimpleData name="Plantado_f">2026/02/21</SimpleData>
+            <SimpleData name="Jornales">0.00000000000</SimpleData>
+            <SimpleData name="Monto">0.00000000000</SimpleData>
+            <SimpleData name="Grupo_de_p">A-P2</SimpleData>
+            <SimpleData name="Estado_del">Activo</SimpleData>
+            <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
+            <SimpleData name="Lote">A</SimpleData>
+            <SimpleData name="Parametro">1.00000000000</SimpleData>
+            <SimpleData name="Situacion">Cumple</SimpleData>
+            <SimpleData name="X">-55.65070072000</SimpleData>
+            <SimpleData name="Y">-26.69643558000</SimpleData>
+            <SimpleData name="Sup_SIG">0.96728722371</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+                -55.6501589448756,-26.6964536572614,0
+                -55.6507116993194,-26.6972212005847,0
+                -55.6512728000867,-26.6964266997444,0
+                -55.6506238929794,-26.6956418561265,0
+                -55.6506266000049,-26.6956460001937,0
+                -55.6501609992903,-26.6964551004294,0
+                -55.6501589448756,-26.6964536572614,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark id="Distrito_ALTO_VERA.18">
+        <ExtendedData>
+          <SchemaData schemaUrl="#Distrito_ALTO_VERA.schema">
+            <SimpleData name="Cédula">7188619.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">PATROCINIA GIMENEZ MARTINEZ</SimpleData>
+            <SimpleData name="Sexo">Mujer</SimpleData>
+            <SimpleData name="Cambio_de_">NO</SimpleData>
+            <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="ci_UNIF">7188619.00000000000</SimpleData>
+            <SimpleData name="Situación">NO</SimpleData>
+            <SimpleData name="Comunidad">Ind?gena</SimpleData>
+            <SimpleData name="Modelo_imp">Modelo 3</SimpleData>
+            <SimpleData name="Departamen">ITAPUA</SimpleData>
+            <SimpleData name="Distrito">ALTO VERA</SimpleData>
+            <SimpleData name="Localidad">COM INDIG MBERU - PIRAPO I</SimpleData>
+            <SimpleData name="Teléfono">0985236094</SimpleData>
+            <SimpleData name="Vivienda_L">-26.69898990000</SimpleData>
+            <SimpleData name="Vivienda_1">-55.65954860000</SimpleData>
+            <SimpleData name="Superficie">1.00000000000</SimpleData>
+            <SimpleData name="Situaci_1">Pol?gono</SimpleData>
+            <SimpleData name="Plantado">SI</SimpleData>
+            <SimpleData name="Plantado_f">2025/11/06</SimpleData>
+            <SimpleData name="Jornales">0.00000000000</SimpleData>
+            <SimpleData name="Monto">0.00000000000</SimpleData>
+            <SimpleData name="Grupo_de_p">A-P3</SimpleData>
+            <SimpleData name="Estado_del">Activo</SimpleData>
+            <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
+            <SimpleData name="Lote">A</SimpleData>
+            <SimpleData name="Parametro">1.00000000000</SimpleData>
+            <SimpleData name="Situacion">Cumple</SimpleData>
+            <SimpleData name="X">-55.64771062000</SimpleData>
+            <SimpleData name="Y">-26.69567316000</SimpleData>
+            <SimpleData name="Sup_SIG">1.00344759671</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+                -55.6471600001547,-26.6959350001343,0
+                -55.6478233001401,-26.696433299745,0
+                -55.6482816996213,-26.6953867002278,0
+                -55.6475534003288,-26.6949421001057,0
+                -55.6471600001547,-26.6959350001343,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark id="Distrito_ALTO_VERA.19">
+        <ExtendedData>
+          <SchemaData schemaUrl="#Distrito_ALTO_VERA.schema">
+            <SimpleData name="Cédula">8118265.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">CATALINA OCAMPO GARAY</SimpleData>
+            <SimpleData name="Sexo">Mujer</SimpleData>
+            <SimpleData name="Cambio_de_">NO</SimpleData>
+            <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="ci_UNIF">8118265.00000000000</SimpleData>
+            <SimpleData name="Situación">NO</SimpleData>
+            <SimpleData name="Comunidad">Ind?gena</SimpleData>
+            <SimpleData name="Modelo_imp">Modelo 3</SimpleData>
+            <SimpleData name="Departamen">ITAPUA</SimpleData>
+            <SimpleData name="Distrito">ALTO VERA</SimpleData>
+            <SimpleData name="Localidad">COM INDIG MBERU - PIRAPO I</SimpleData>
+            <SimpleData name="Teléfono">0985880249</SimpleData>
+            <SimpleData name="Vivienda_L">-26.70453240000</SimpleData>
+            <SimpleData name="Vivienda_1">-55.65748830000</SimpleData>
+            <SimpleData name="Superficie">1.00000000000</SimpleData>
+            <SimpleData name="Situaci_1">Par?metro</SimpleData>
+            <SimpleData name="Plantado">SI</SimpleData>
+            <SimpleData name="Plantado_f">2025/11/06</SimpleData>
+            <SimpleData name="Jornales">0.00000000000</SimpleData>
+            <SimpleData name="Monto">0.00000000000</SimpleData>
+            <SimpleData name="Grupo_de_p">A-P2</SimpleData>
+            <SimpleData name="Estado_del">Activo</SimpleData>
+            <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
+            <SimpleData name="Lote">A</SimpleData>
+            <SimpleData name="Parametro">1.00000000000</SimpleData>
+            <SimpleData name="Situacion">Cumple</SimpleData>
+            <SimpleData name="X">-55.64994258000</SimpleData>
+            <SimpleData name="Y">-26.69338216000</SimpleData>
+            <SimpleData name="Sup_SIG">1.02112619782</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+                -55.6501086538208,-26.6939020268193,0
+                -55.6500858005598,-26.6938921997666,0
+                -55.6502722046054,-26.6936402375428,0
+                -55.6505482996781,-26.6931983001474,0
+                -55.6498883004226,-26.6926100000246,0
+                -55.649366699784,-26.6935782996615,0
+                -55.6499433004118,-26.694166700167,0
+                -55.6501086538208,-26.6939020268193,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark id="Distrito_ALTO_VERA.20">
+        <ExtendedData>
+          <SchemaData schemaUrl="#Distrito_ALTO_VERA.schema">
+            <SimpleData name="Cédula">6889177.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">BERNARDO LOPEZ GONZALEZ</SimpleData>
+            <SimpleData name="Sexo">Hombre</SimpleData>
+            <SimpleData name="Cambio_de_">NO</SimpleData>
+            <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="ci_UNIF">6889177.00000000000</SimpleData>
+            <SimpleData name="Situación">NO</SimpleData>
+            <SimpleData name="Comunidad">Ind?gena</SimpleData>
+            <SimpleData name="Modelo_imp">Modelo 3</SimpleData>
+            <SimpleData name="Departamen">ITAPUA</SimpleData>
+            <SimpleData name="Distrito">ALTO VERA</SimpleData>
+            <SimpleData name="Localidad">COM INDIG MBERU - PIRAPO I</SimpleData>
+            <SimpleData name="Teléfono">0984339141</SimpleData>
+            <SimpleData name="Vivienda_L">-26.69941920000</SimpleData>
+            <SimpleData name="Vivienda_1">-55.66020690000</SimpleData>
+            <SimpleData name="Superficie">1.00000000000</SimpleData>
+            <SimpleData name="Situaci_1">Par?metro</SimpleData>
+            <SimpleData name="Plantado">SI</SimpleData>
+            <SimpleData name="Plantado_f">2025/11/06</SimpleData>
+            <SimpleData name="Jornales">0.00000000000</SimpleData>
+            <SimpleData name="Monto">0.00000000000</SimpleData>
+            <SimpleData name="Grupo_de_p">A-P2</SimpleData>
+            <SimpleData name="Estado_del">Activo</SimpleData>
+            <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
+            <SimpleData name="Lote">A</SimpleData>
+            <SimpleData name="Parametro">1.00000000000</SimpleData>
+            <SimpleData name="Situacion">Cumple</SimpleData>
+            <SimpleData name="X">-55.64908533000</SimpleData>
+            <SimpleData name="Y">-26.69532715000</SimpleData>
+            <SimpleData name="Sup_SIG">1.01775722688</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+                -55.6483299997275,-26.695360000051,0
+                -55.6493819004735,-26.6959643003448,0
+                -55.6497482999374,-26.6953149998038,0
+                -55.6489817002131,-26.6946750003089,0
+                -55.6483299997275,-26.695360000051,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark id="Distrito_ALTO_VERA.21">
+        <ExtendedData>
+          <SchemaData schemaUrl="#Distrito_ALTO_VERA.schema">
+            <SimpleData name="Cédula">7140896.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">PASTORA BRIZUELA MARTINEZ</SimpleData>
+            <SimpleData name="Sexo">Mujer</SimpleData>
+            <SimpleData name="Cambio_de_">NO</SimpleData>
+            <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="ci_UNIF">7140896.00000000000</SimpleData>
+            <SimpleData name="Situación">NO</SimpleData>
+            <SimpleData name="Comunidad">Ind?gena</SimpleData>
+            <SimpleData name="Modelo_imp">Modelo 3</SimpleData>
+            <SimpleData name="Departamen">ITAPUA</SimpleData>
+            <SimpleData name="Distrito">ALTO VERA</SimpleData>
+            <SimpleData name="Localidad">COM INDIG MBERU - PIRAPO I</SimpleData>
+            <SimpleData name="Teléfono">0983175328</SimpleData>
+            <SimpleData name="Vivienda_L">-26.70550670000</SimpleData>
+            <SimpleData name="Vivienda_1">-55.65821640000</SimpleData>
+            <SimpleData name="Superficie">1.00000000000</SimpleData>
+            <SimpleData name="Situaci_1">Par?metro</SimpleData>
+            <SimpleData name="Plantado">SI</SimpleData>
+            <SimpleData name="Plantado_f">2025/11/06</SimpleData>
+            <SimpleData name="Jornales">0.00000000000</SimpleData>
+            <SimpleData name="Monto">0.00000000000</SimpleData>
+            <SimpleData name="Grupo_de_p">A-P2</SimpleData>
+            <SimpleData name="Estado_del">Activo</SimpleData>
+            <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
+            <SimpleData name="Lote">A</SimpleData>
+            <SimpleData name="Parametro">1.00000000000</SimpleData>
+            <SimpleData name="Situacion">Cumple</SimpleData>
+            <SimpleData name="X">-55.64790947000</SimpleData>
+            <SimpleData name="Y">-26.69331909000</SimpleData>
+            <SimpleData name="Sup_SIG">1.05863049033</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+                -55.6472802084749,-26.6934067891315,0
+                -55.6480818214826,-26.6940562621363,0
+                -55.6480989025505,-26.6940701014199,0
+                -55.6481261817463,-26.6940159859849,0
+                -55.6485136431492,-26.6932465572702,0
+                -55.648494821508,-26.6932289640914,0
+                -55.6479119528482,-26.6926841398124,0
+                -55.6477739044238,-26.6925551015739,0
+                -55.6477705845525,-26.6925608294846,0
+                -55.6472802084749,-26.6934067891315,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark id="Distrito_ALTO_VERA.22">
+        <ExtendedData>
+          <SchemaData schemaUrl="#Distrito_ALTO_VERA.schema">
+            <SimpleData name="Cédula">7311409.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">JORGELINA CASTILLO OCAMPOS</SimpleData>
+            <SimpleData name="Sexo">Mujer</SimpleData>
+            <SimpleData name="Cambio_de_">NO</SimpleData>
+            <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="ci_UNIF">7311409.00000000000</SimpleData>
+            <SimpleData name="Situación">NO</SimpleData>
+            <SimpleData name="Comunidad">Ind?gena</SimpleData>
+            <SimpleData name="Modelo_imp">Modelo 3</SimpleData>
+            <SimpleData name="Departamen">ITAPUA</SimpleData>
+            <SimpleData name="Distrito">ALTO VERA</SimpleData>
+            <SimpleData name="Localidad">COM INDIG MBERU - PIRAPO I</SimpleData>
+            <SimpleData name="Teléfono">ND</SimpleData>
+            <SimpleData name="Vivienda_L">-26.70544500000</SimpleData>
+            <SimpleData name="Vivienda_1">-55.66021310000</SimpleData>
+            <SimpleData name="Superficie">1.00000000000</SimpleData>
+            <SimpleData name="Situaci_1">Par?metro</SimpleData>
+            <SimpleData name="Plantado">SI</SimpleData>
+            <SimpleData name="Plantado_f">2025/12/23</SimpleData>
+            <SimpleData name="Jornales">0.00000000000</SimpleData>
+            <SimpleData name="Monto">0.00000000000</SimpleData>
+            <SimpleData name="Grupo_de_p">A-P2</SimpleData>
+            <SimpleData name="Estado_del">Activo</SimpleData>
+            <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
+            <SimpleData name="Lote">A</SimpleData>
+            <SimpleData name="Parametro">1.00000000000</SimpleData>
+            <SimpleData name="Situacion">Cumple</SimpleData>
+            <SimpleData name="X">-55.64928148000</SimpleData>
+            <SimpleData name="Y">-26.69654527000</SimpleData>
+            <SimpleData name="Sup_SIG">1.07636206130</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+                -55.6500400899459,-26.696370164867,0
+                -55.6499915506156,-26.6963360677957,0
+                -55.6491366995788,-26.6958733003208,0
+                -55.6486170570482,-26.6968357595938,0
+                -55.6492461826889,-26.6972051861666,0
+                -55.6500400899459,-26.696370164867,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+    </Document>
+  </Document>
+</kml>
