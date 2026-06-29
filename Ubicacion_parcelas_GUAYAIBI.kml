@@ -29,12 +29,10 @@
       <SimpleField name="Empresa" type="string"/>
       <SimpleField name="Lote" type="string"/>
       <SimpleField name="Parametro" type="double"/>
-      <SimpleField name="Sup_Sig" type="double"/>
       <SimpleField name="Situacion" type="string"/>
       <SimpleField name="X" type="double"/>
       <SimpleField name="Y" type="double"/>
-      <SimpleField name="Shape_Leng" type="double"/>
-      <SimpleField name="Shape_Area" type="double"/>
+      <SimpleField name="Sup_SIG" type="double"/>
       <SimpleField name="cedula" type="string"/>
     </Schema>
     <Document id="Distrito_GUAYAIBI">
@@ -68,12 +66,10 @@
             <SimpleData name="Empresa">Hyh Consultores SRL</SimpleData>
             <SimpleData name="Lote">Lote 1</SimpleData>
             <SimpleData name="Parametro">0.70000000000</SimpleData>
-            <SimpleData name="Sup_Sig">0.78664781192</SimpleData>
             <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-56.38393121000</SimpleData>
             <SimpleData name="Y">-24.50783417000</SimpleData>
-            <SimpleData name="Shape_Leng">512.15117183400</SimpleData>
-            <SimpleData name="Shape_Area">7866.47811919000</SimpleData>
+            <SimpleData name="Sup_SIG">0.78664781191</SimpleData>
             <SimpleData name="cedula">4596707</SimpleData>
           </SchemaData>
         </ExtendedData>

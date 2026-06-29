@@ -29,57 +29,59 @@
       <SimpleField name="Empresa" type="string"/>
       <SimpleField name="Lote" type="string"/>
       <SimpleField name="Parametro" type="double"/>
-      <SimpleField name="Sup_Sig" type="double"/>
       <SimpleField name="Situacion" type="string"/>
       <SimpleField name="X" type="double"/>
       <SimpleField name="Y" type="double"/>
+      <SimpleField name="Sup_SIG" type="double"/>
+      <SimpleField name="cedula" type="string"/>
     </Schema>
     <Document id="Distrito_ITAKYRY">
       <name>Distrito_ITAKYRY</name>
       <Placemark id="Distrito_ITAKYRY.1">
         <ExtendedData>
           <SchemaData schemaUrl="#Distrito_ITAKYRY.schema">
-            <SimpleData name="Cédula">6605100.00000000000</SimpleData>
-            <SimpleData name="Nombres_y_">LOURDES MARTINEZ CARDENA</SimpleData>
+            <SimpleData name="Cédula">4148694.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">MARGARITA ESQUIVEL</SimpleData>
             <SimpleData name="Sexo">Mujer</SimpleData>
             <SimpleData name="Cambio_de_">NO</SimpleData>
             <SimpleData name="Titular_se">NO</SimpleData>
-            <SimpleData name="ci_UNIF">6605100.00000000000</SimpleData>
+            <SimpleData name="ci_UNIF">4148694.00000000000</SimpleData>
             <SimpleData name="Situación">NO</SimpleData>
-            <SimpleData name="Comunidad">Campesina</SimpleData>
-            <SimpleData name="Modelo_imp">Modelo 6</SimpleData>
+            <SimpleData name="Comunidad">Ind?gena</SimpleData>
+            <SimpleData name="Modelo_imp">Modelo 1</SimpleData>
             <SimpleData name="Departamen">ALTO PARANA</SimpleData>
             <SimpleData name="Distrito">ITAKYRY</SimpleData>
-            <SimpleData name="Localidad">SANTA LUCIA</SimpleData>
-            <SimpleData name="Teléfono">0972446679</SimpleData>
-            <SimpleData name="Vivienda_L">-24.55935400000</SimpleData>
-            <SimpleData name="Vivienda_1">-55.03229640000</SimpleData>
-            <SimpleData name="Superficie">0.90000000000</SimpleData>
-            <SimpleData name="Situaci_1">Pol?gono</SimpleData>
+            <SimpleData name="Localidad">COM INDIG LOMA CLAVEL</SimpleData>
+            <SimpleData name="Teléfono">0982225208</SimpleData>
+            <SimpleData name="Vivienda_L">-24.94313410000</SimpleData>
+            <SimpleData name="Vivienda_1">-55.07994720000</SimpleData>
+            <SimpleData name="Superficie">0.80000000000</SimpleData>
+            <SimpleData name="Situaci_1">Par?metro</SimpleData>
             <SimpleData name="Plantado">SI</SimpleData>
-            <SimpleData name="Plantado_f">2025/11/14</SimpleData>
+            <SimpleData name="Plantado_f">2025/12/17</SimpleData>
             <SimpleData name="Jornales">0.00000000000</SimpleData>
             <SimpleData name="Monto">0.00000000000</SimpleData>
-            <SimpleData name="Grupo_de_p">F-P1</SimpleData>
+            <SimpleData name="Grupo_de_p">F-P3</SimpleData>
             <SimpleData name="Estado_del">Activo</SimpleData>
             <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
             <SimpleData name="Lote">F</SimpleData>
-            <SimpleData name="Parametro">0.90000000000</SimpleData>
-            <SimpleData name="Sup_Sig">0.91597501259</SimpleData>
+            <SimpleData name="Parametro">0.80000000000</SimpleData>
             <SimpleData name="Situacion">Cumple</SimpleData>
-            <SimpleData name="X">-55.03965318000</SimpleData>
-            <SimpleData name="Y">-24.56193370000</SimpleData>
+            <SimpleData name="X">-55.07992012000</SimpleData>
+            <SimpleData name="Y">-24.94287214000</SimpleData>
+            <SimpleData name="Sup_SIG">0.90073755349</SimpleData>
+            <SimpleData name="cedula">4148694</SimpleData>
           </SchemaData>
         </ExtendedData>
         <MultiGeometry>
           <Point>
             <coordinates>
-              -55.0396531822398,-24.5619336979657,0
+              -55.080210101037,-24.9430839204175,0
             </coordinates>
           </Point>
           <Point>
             <coordinates>
-              -55.0316612557576,-24.5600008161283,0
+              -55.0797142824202,-24.9427218123155,0
             </coordinates>
           </Point>
         </MultiGeometry>
@@ -87,114 +89,467 @@
       <Placemark id="Distrito_ITAKYRY.2">
         <ExtendedData>
           <SchemaData schemaUrl="#Distrito_ITAKYRY.schema">
-            <SimpleData name="Cédula">2686293.00000000000</SimpleData>
-            <SimpleData name="Nombres_y_">FELICITA CENTURION PEREIRA</SimpleData>
+            <SimpleData name="Cédula">6797371.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">MATILDE PORTILLO BARRIOS</SimpleData>
             <SimpleData name="Sexo">Mujer</SimpleData>
             <SimpleData name="Cambio_de_">NO</SimpleData>
             <SimpleData name="Titular_se">NO</SimpleData>
-            <SimpleData name="ci_UNIF">2686293.00000000000</SimpleData>
+            <SimpleData name="ci_UNIF">6797371.00000000000</SimpleData>
             <SimpleData name="Situación">NO</SimpleData>
-            <SimpleData name="Comunidad">Campesina</SimpleData>
-            <SimpleData name="Modelo_imp">Modelo 6</SimpleData>
+            <SimpleData name="Comunidad">Ind?gena</SimpleData>
+            <SimpleData name="Modelo_imp">Modelo 1</SimpleData>
             <SimpleData name="Departamen">ALTO PARANA</SimpleData>
             <SimpleData name="Distrito">ITAKYRY</SimpleData>
-            <SimpleData name="Localidad">SANTA LUCIA</SimpleData>
-            <SimpleData name="Teléfono">0973879059</SimpleData>
-            <SimpleData name="Vivienda_L">-24.56344370000</SimpleData>
-            <SimpleData name="Vivienda_1">-55.04798450000</SimpleData>
-            <SimpleData name="Superficie">0.90000000000</SimpleData>
-            <SimpleData name="Situaci_1">Pol?gono</SimpleData>
+            <SimpleData name="Localidad">COM INDIG LOMA CLAVEL</SimpleData>
+            <SimpleData name="Teléfono">0982731809</SimpleData>
+            <SimpleData name="Vivienda_L">-24.93652090000</SimpleData>
+            <SimpleData name="Vivienda_1">-55.07961850000</SimpleData>
+            <SimpleData name="Superficie">0.80000000000</SimpleData>
+            <SimpleData name="Situaci_1">Par?metro</SimpleData>
             <SimpleData name="Plantado">SI</SimpleData>
-            <SimpleData name="Plantado_f">2025/11/08</SimpleData>
+            <SimpleData name="Plantado_f">2025/12/17</SimpleData>
             <SimpleData name="Jornales">0.00000000000</SimpleData>
             <SimpleData name="Monto">0.00000000000</SimpleData>
             <SimpleData name="Grupo_de_p">F-P1</SimpleData>
             <SimpleData name="Estado_del">Activo</SimpleData>
             <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
             <SimpleData name="Lote">F</SimpleData>
-            <SimpleData name="Parametro">0.90000000000</SimpleData>
-            <SimpleData name="Sup_Sig">0.95330228223</SimpleData>
+            <SimpleData name="Parametro">0.80000000000</SimpleData>
             <SimpleData name="Situacion">Cumple</SimpleData>
-            <SimpleData name="X">-55.04769895000</SimpleData>
-            <SimpleData name="Y">-24.56068128000</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <MultiGeometry>
-          <Point>
-            <coordinates>
-              -55.0478668019526,-24.563833666636,0
-            </coordinates>
-          </Point>
-          <Point>
-            <coordinates>
-              -55.0476989483727,-24.5606812824916,0
-            </coordinates>
-          </Point>
-        </MultiGeometry>
-      </Placemark>
-      <Placemark id="Distrito_ITAKYRY.3">
-        <ExtendedData>
-          <SchemaData schemaUrl="#Distrito_ITAKYRY.schema">
-            <SimpleData name="Cédula">6297487.00000000000</SimpleData>
-            <SimpleData name="Nombres_y_">LIZ LORENA QUINTANA BENITEZ</SimpleData>
-            <SimpleData name="Sexo">Mujer</SimpleData>
-            <SimpleData name="Cambio_de_">NO</SimpleData>
-            <SimpleData name="Titular_se">NO</SimpleData>
-            <SimpleData name="ci_UNIF">6297487.00000000000</SimpleData>
-            <SimpleData name="Situación">NO</SimpleData>
-            <SimpleData name="Comunidad">Campesina</SimpleData>
-            <SimpleData name="Modelo_imp">Modelo 6</SimpleData>
-            <SimpleData name="Departamen">ALTO PARANA</SimpleData>
-            <SimpleData name="Distrito">ITAKYRY</SimpleData>
-            <SimpleData name="Localidad">SANTA LUCIA</SimpleData>
-            <SimpleData name="Teléfono">0975552919</SimpleData>
-            <SimpleData name="Vivienda_L">-24.57174600000</SimpleData>
-            <SimpleData name="Vivienda_1">-55.04064810000</SimpleData>
-            <SimpleData name="Superficie">0.90000000000</SimpleData>
-            <SimpleData name="Situaci_1">Pol?gono</SimpleData>
-            <SimpleData name="Plantado">SI</SimpleData>
-            <SimpleData name="Plantado_f">2025/11/08</SimpleData>
-            <SimpleData name="Jornales">0.00000000000</SimpleData>
-            <SimpleData name="Monto">0.00000000000</SimpleData>
-            <SimpleData name="Grupo_de_p">F-P1</SimpleData>
-            <SimpleData name="Estado_del">Activo</SimpleData>
-            <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
-            <SimpleData name="Lote">F</SimpleData>
-            <SimpleData name="Parametro">0.90000000000</SimpleData>
-            <SimpleData name="Sup_Sig">0.97813899838</SimpleData>
-            <SimpleData name="Situacion">Cumple</SimpleData>
-            <SimpleData name="X">-55.03980446000</SimpleData>
-            <SimpleData name="Y">-24.57219034000</SimpleData>
+            <SimpleData name="X">-55.07893297000</SimpleData>
+            <SimpleData name="Y">-24.93615700000</SimpleData>
+            <SimpleData name="Sup_SIG">0.87114830702</SimpleData>
+            <SimpleData name="cedula">6797371</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Point>
           <coordinates>
-            -55.0398044646214,-24.5721903358926,0
+            -55.0789329722084,-24.9361570013659,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Distrito_ITAKYRY.3">
+        <ExtendedData>
+          <SchemaData schemaUrl="#Distrito_ITAKYRY.schema">
+            <SimpleData name="Cédula">5240281.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">CRISTINA MARIELA SERVIAN LEZCANO</SimpleData>
+            <SimpleData name="Sexo">Mujer</SimpleData>
+            <SimpleData name="Cambio_de_">NO</SimpleData>
+            <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="ci_UNIF">5240281.00000000000</SimpleData>
+            <SimpleData name="Situación">NO</SimpleData>
+            <SimpleData name="Comunidad">Campesina</SimpleData>
+            <SimpleData name="Modelo_imp">Modelo 5</SimpleData>
+            <SimpleData name="Departamen">ALTO PARANA</SimpleData>
+            <SimpleData name="Distrito">ITAKYRY</SimpleData>
+            <SimpleData name="Localidad">CHINO KUE 1 LINEA</SimpleData>
+            <SimpleData name="Teléfono">0973145625</SimpleData>
+            <SimpleData name="Vivienda_L">-24.80208520000</SimpleData>
+            <SimpleData name="Vivienda_1">-55.18831770000</SimpleData>
+            <SimpleData name="Superficie">0.70000000000</SimpleData>
+            <SimpleData name="Situaci_1">Par?metro</SimpleData>
+            <SimpleData name="Plantado">SI</SimpleData>
+            <SimpleData name="Plantado_f">2026/01/13</SimpleData>
+            <SimpleData name="Jornales">0.00000000000</SimpleData>
+            <SimpleData name="Monto">0.00000000000</SimpleData>
+            <SimpleData name="Grupo_de_p">F-P2</SimpleData>
+            <SimpleData name="Estado_del">Activo</SimpleData>
+            <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
+            <SimpleData name="Lote">F</SimpleData>
+            <SimpleData name="Parametro">0.70000000000</SimpleData>
+            <SimpleData name="Situacion">Cumple</SimpleData>
+            <SimpleData name="X">-55.18789320000</SimpleData>
+            <SimpleData name="Y">-24.79562592000</SimpleData>
+            <SimpleData name="Sup_SIG">0.71333836895</SimpleData>
+            <SimpleData name="cedula">5240281</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -55.1878932036808,-24.795625924853,0
           </coordinates>
         </Point>
       </Placemark>
       <Placemark id="Distrito_ITAKYRY.4">
         <ExtendedData>
           <SchemaData schemaUrl="#Distrito_ITAKYRY.schema">
-            <SimpleData name="Cédula">4525932.00000000000</SimpleData>
-            <SimpleData name="Nombres_y_">CYNTHIA BEATRIS MARECO BAEZ</SimpleData>
+            <SimpleData name="Cédula">4148805.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">VALERIANA GONZALEZ</SimpleData>
             <SimpleData name="Sexo">Mujer</SimpleData>
             <SimpleData name="Cambio_de_">NO</SimpleData>
             <SimpleData name="Titular_se">NO</SimpleData>
-            <SimpleData name="ci_UNIF">4525932.00000000000</SimpleData>
+            <SimpleData name="ci_UNIF">4148805.00000000000</SimpleData>
+            <SimpleData name="Situación">NO</SimpleData>
+            <SimpleData name="Comunidad">Ind?gena</SimpleData>
+            <SimpleData name="Modelo_imp">Modelo 1</SimpleData>
+            <SimpleData name="Departamen">ALTO PARANA</SimpleData>
+            <SimpleData name="Distrito">ITAKYRY</SimpleData>
+            <SimpleData name="Localidad">COM INDIG LOMA CLAVEL</SimpleData>
+            <SimpleData name="Teléfono">0982046398</SimpleData>
+            <SimpleData name="Vivienda_L">-24.94084200000</SimpleData>
+            <SimpleData name="Vivienda_1">-55.07955090000</SimpleData>
+            <SimpleData name="Superficie">0.80000000000</SimpleData>
+            <SimpleData name="Situaci_1">Par?metro</SimpleData>
+            <SimpleData name="Plantado">SI</SimpleData>
+            <SimpleData name="Plantado_f">2025/12/17</SimpleData>
+            <SimpleData name="Jornales">0.00000000000</SimpleData>
+            <SimpleData name="Monto">0.00000000000</SimpleData>
+            <SimpleData name="Grupo_de_p">F-P2</SimpleData>
+            <SimpleData name="Estado_del">Activo</SimpleData>
+            <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
+            <SimpleData name="Lote">F</SimpleData>
+            <SimpleData name="Parametro">0.80000000000</SimpleData>
+            <SimpleData name="Situacion">Cumple</SimpleData>
+            <SimpleData name="X">-55.07936200000</SimpleData>
+            <SimpleData name="Y">-24.94152498000</SimpleData>
+            <SimpleData name="Sup_SIG">1.01911725781</SimpleData>
+            <SimpleData name="cedula">4148805</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -55.079198489081,-24.9413207595872,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Distrito_ITAKYRY.5">
+        <ExtendedData>
+          <SchemaData schemaUrl="#Distrito_ITAKYRY.schema">
+            <SimpleData name="Cédula">7961499.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">FELICIA DUARTE NOCEDA</SimpleData>
+            <SimpleData name="Sexo">Mujer</SimpleData>
+            <SimpleData name="Cambio_de_">NO</SimpleData>
+            <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="ci_UNIF">7961499.00000000000</SimpleData>
+            <SimpleData name="Situación">NO</SimpleData>
+            <SimpleData name="Comunidad">Ind?gena</SimpleData>
+            <SimpleData name="Modelo_imp">Modelo 2</SimpleData>
+            <SimpleData name="Departamen">ALTO PARANA</SimpleData>
+            <SimpleData name="Distrito">ITAKYRY</SimpleData>
+            <SimpleData name="Localidad">COM INDIG LOMA CLAVEL</SimpleData>
+            <SimpleData name="Teléfono">0975828932</SimpleData>
+            <SimpleData name="Vivienda_L">-24.93500700000</SimpleData>
+            <SimpleData name="Vivienda_1">-55.07909850000</SimpleData>
+            <SimpleData name="Superficie">0.80000000000</SimpleData>
+            <SimpleData name="Situaci_1">Par?metro</SimpleData>
+            <SimpleData name="Plantado">SI</SimpleData>
+            <SimpleData name="Plantado_f">2025/12/17</SimpleData>
+            <SimpleData name="Jornales">0.00000000000</SimpleData>
+            <SimpleData name="Monto">0.00000000000</SimpleData>
+            <SimpleData name="Grupo_de_p">F-P1</SimpleData>
+            <SimpleData name="Estado_del">Activo</SimpleData>
+            <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
+            <SimpleData name="Lote">F</SimpleData>
+            <SimpleData name="Parametro">0.80000000000</SimpleData>
+            <SimpleData name="Situacion">Cumple</SimpleData>
+            <SimpleData name="X">-55.07892115000</SimpleData>
+            <SimpleData name="Y">-24.93434850000</SimpleData>
+            <SimpleData name="Sup_SIG">0.87309164756</SimpleData>
+            <SimpleData name="cedula">7961499</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -55.0789211501563,-24.9343484974068,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Distrito_ITAKYRY.6">
+        <ExtendedData>
+          <SchemaData schemaUrl="#Distrito_ITAKYRY.schema">
+            <SimpleData name="Cédula">6780702.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">MIRIAN PORTILLO MARTINEZ</SimpleData>
+            <SimpleData name="Sexo">Mujer</SimpleData>
+            <SimpleData name="Cambio_de_">NO</SimpleData>
+            <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="ci_UNIF">6780702.00000000000</SimpleData>
+            <SimpleData name="Situación">NO</SimpleData>
+            <SimpleData name="Comunidad">Ind?gena</SimpleData>
+            <SimpleData name="Modelo_imp">Modelo 2</SimpleData>
+            <SimpleData name="Departamen">ALTO PARANA</SimpleData>
+            <SimpleData name="Distrito">ITAKYRY</SimpleData>
+            <SimpleData name="Localidad">COM INDIG YSATI (3 DE JULIO)</SimpleData>
+            <SimpleData name="Teléfono">0982203531</SimpleData>
+            <SimpleData name="Vivienda_L">-24.94046280000</SimpleData>
+            <SimpleData name="Vivienda_1">-55.09612640000</SimpleData>
+            <SimpleData name="Superficie">0.80000000000</SimpleData>
+            <SimpleData name="Situaci_1">Par?metro</SimpleData>
+            <SimpleData name="Plantado">SI</SimpleData>
+            <SimpleData name="Plantado_f">2025/12/17</SimpleData>
+            <SimpleData name="Jornales">0.00000000000</SimpleData>
+            <SimpleData name="Monto">0.00000000000</SimpleData>
+            <SimpleData name="Grupo_de_p">F-P3</SimpleData>
+            <SimpleData name="Estado_del">Activo</SimpleData>
+            <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
+            <SimpleData name="Lote">F</SimpleData>
+            <SimpleData name="Parametro">0.80000000000</SimpleData>
+            <SimpleData name="Situacion">Cumple</SimpleData>
+            <SimpleData name="X">-55.07964316000</SimpleData>
+            <SimpleData name="Y">-24.93633015000</SimpleData>
+            <SimpleData name="Sup_SIG">0.81277325302</SimpleData>
+            <SimpleData name="cedula">6780702</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -55.0796431633024,-24.9363301538696,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Distrito_ITAKYRY.7">
+        <ExtendedData>
+          <SchemaData schemaUrl="#Distrito_ITAKYRY.schema">
+            <SimpleData name="Cédula">5525492.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">RUMILDO BENITEZ BENITEZ</SimpleData>
+            <SimpleData name="Sexo">Hombre</SimpleData>
+            <SimpleData name="Cambio_de_">NO</SimpleData>
+            <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="ci_UNIF">5525492.00000000000</SimpleData>
+            <SimpleData name="Situación">NO</SimpleData>
+            <SimpleData name="Comunidad">Ind?gena</SimpleData>
+            <SimpleData name="Modelo_imp">Modelo 1</SimpleData>
+            <SimpleData name="Departamen">ALTO PARANA</SimpleData>
+            <SimpleData name="Distrito">ITAKYRY</SimpleData>
+            <SimpleData name="Localidad">COM INDIG LOMA CLAVEL</SimpleData>
+            <SimpleData name="Teléfono">0982731809</SimpleData>
+            <SimpleData name="Vivienda_L">-24.93085240000</SimpleData>
+            <SimpleData name="Vivienda_1">-55.07961990000</SimpleData>
+            <SimpleData name="Superficie">0.80000000000</SimpleData>
+            <SimpleData name="Situaci_1">Par?metro</SimpleData>
+            <SimpleData name="Plantado">SI</SimpleData>
+            <SimpleData name="Plantado_f">2025/12/17</SimpleData>
+            <SimpleData name="Jornales">0.00000000000</SimpleData>
+            <SimpleData name="Monto">0.00000000000</SimpleData>
+            <SimpleData name="Grupo_de_p">F-P1</SimpleData>
+            <SimpleData name="Estado_del">Activo</SimpleData>
+            <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
+            <SimpleData name="Lote">F</SimpleData>
+            <SimpleData name="Parametro">0.80000000000</SimpleData>
+            <SimpleData name="Situacion">Cumple</SimpleData>
+            <SimpleData name="X">-55.07971247000</SimpleData>
+            <SimpleData name="Y">-24.93168131000</SimpleData>
+            <SimpleData name="Sup_SIG">1.01235017707</SimpleData>
+            <SimpleData name="cedula">5525492</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <MultiGeometry>
+          <Point>
+            <coordinates>
+              -55.0797408462617,-24.9314543489454,0
+            </coordinates>
+          </Point>
+          <Point>
+            <coordinates>
+              -55.0790839841429,-24.9327975717424,0
+            </coordinates>
+          </Point>
+        </MultiGeometry>
+      </Placemark>
+      <Placemark id="Distrito_ITAKYRY.8">
+        <ExtendedData>
+          <SchemaData schemaUrl="#Distrito_ITAKYRY.schema">
+            <SimpleData name="Cédula">6790915.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">JULIA PORTILLO MARTINEZ</SimpleData>
+            <SimpleData name="Sexo">Mujer</SimpleData>
+            <SimpleData name="Cambio_de_">NO</SimpleData>
+            <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="ci_UNIF">6790915.00000000000</SimpleData>
+            <SimpleData name="Situación">NO</SimpleData>
+            <SimpleData name="Comunidad">Ind?gena</SimpleData>
+            <SimpleData name="Modelo_imp">Modelo 5</SimpleData>
+            <SimpleData name="Departamen">ALTO PARANA</SimpleData>
+            <SimpleData name="Distrito">ITAKYRY</SimpleData>
+            <SimpleData name="Localidad">COM INDIG LOMA CLAVEL</SimpleData>
+            <SimpleData name="Teléfono">0986443949</SimpleData>
+            <SimpleData name="Vivienda_L">-24.94397330000</SimpleData>
+            <SimpleData name="Vivienda_1">-55.08066830000</SimpleData>
+            <SimpleData name="Superficie">0.70000000000</SimpleData>
+            <SimpleData name="Situaci_1">Par?metro</SimpleData>
+            <SimpleData name="Plantado">SI</SimpleData>
+            <SimpleData name="Plantado_f">2025/12/17</SimpleData>
+            <SimpleData name="Jornales">0.00000000000</SimpleData>
+            <SimpleData name="Monto">0.00000000000</SimpleData>
+            <SimpleData name="Grupo_de_p">F-P1</SimpleData>
+            <SimpleData name="Estado_del">Activo</SimpleData>
+            <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
+            <SimpleData name="Lote">F</SimpleData>
+            <SimpleData name="Parametro">0.70000000000</SimpleData>
+            <SimpleData name="Situacion">Cumple</SimpleData>
+            <SimpleData name="X">-55.08061774000</SimpleData>
+            <SimpleData name="Y">-24.94358884000</SimpleData>
+            <SimpleData name="Sup_SIG">0.69708186796</SimpleData>
+            <SimpleData name="cedula">6790915</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <MultiGeometry>
+          <Point>
+            <coordinates>
+              -55.0807390616507,-24.9435272722478,0
+            </coordinates>
+          </Point>
+          <Point>
+            <coordinates>
+              -55.0802576499971,-24.9437715702911,0
+            </coordinates>
+          </Point>
+        </MultiGeometry>
+      </Placemark>
+      <Placemark id="Distrito_ITAKYRY.9">
+        <ExtendedData>
+          <SchemaData schemaUrl="#Distrito_ITAKYRY.schema">
+            <SimpleData name="Cédula">7493511.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">NILSA RAMIREZ ESQUIVEL</SimpleData>
+            <SimpleData name="Sexo">Mujer</SimpleData>
+            <SimpleData name="Cambio_de_">NO</SimpleData>
+            <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="ci_UNIF">7493511.00000000000</SimpleData>
+            <SimpleData name="Situación">NO</SimpleData>
+            <SimpleData name="Comunidad">Ind?gena</SimpleData>
+            <SimpleData name="Modelo_imp">Modelo 2</SimpleData>
+            <SimpleData name="Departamen">ALTO PARANA</SimpleData>
+            <SimpleData name="Distrito">ITAKYRY</SimpleData>
+            <SimpleData name="Localidad">COM INDIG LOMA CLAVEL</SimpleData>
+            <SimpleData name="Teléfono">No tiene</SimpleData>
+            <SimpleData name="Vivienda_L">-24.93705440000</SimpleData>
+            <SimpleData name="Vivienda_1">-55.07981770000</SimpleData>
+            <SimpleData name="Superficie">0.80000000000</SimpleData>
+            <SimpleData name="Situaci_1">Par?metro</SimpleData>
+            <SimpleData name="Plantado">SI</SimpleData>
+            <SimpleData name="Plantado_f">2025/12/17</SimpleData>
+            <SimpleData name="Jornales">0.00000000000</SimpleData>
+            <SimpleData name="Monto">0.00000000000</SimpleData>
+            <SimpleData name="Grupo_de_p">F-P3</SimpleData>
+            <SimpleData name="Estado_del">Activo</SimpleData>
+            <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
+            <SimpleData name="Lote">F</SimpleData>
+            <SimpleData name="Parametro">0.80000000000</SimpleData>
+            <SimpleData name="Situacion">Cumple</SimpleData>
+            <SimpleData name="X">-55.07958539000</SimpleData>
+            <SimpleData name="Y">-24.93785220000</SimpleData>
+            <SimpleData name="Sup_SIG">0.81814224694</SimpleData>
+            <SimpleData name="cedula">7493511</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -55.0795853921915,-24.937852204664,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Distrito_ITAKYRY.10">
+        <ExtendedData>
+          <SchemaData schemaUrl="#Distrito_ITAKYRY.schema">
+            <SimpleData name="Cédula">7761005.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">DARIO GONZALEZ BENITEZ</SimpleData>
+            <SimpleData name="Sexo">Hombre</SimpleData>
+            <SimpleData name="Cambio_de_">SI</SimpleData>
+            <SimpleData name="Titular_se">MARIA ANGELA BENITEZ BENITEZ</SimpleData>
+            <SimpleData name="Cédula_Ti">5525485</SimpleData>
+            <SimpleData name="ci_UNIF">5525485.00000000000</SimpleData>
+            <SimpleData name="Situación">Migraci?n</SimpleData>
+            <SimpleData name="Comunidad">Ind?gena</SimpleData>
+            <SimpleData name="Modelo_imp">Modelo 2</SimpleData>
+            <SimpleData name="Departamen">ALTO PARANA</SimpleData>
+            <SimpleData name="Distrito">ITAKYRY</SimpleData>
+            <SimpleData name="Localidad">COM INDIG LOMA CLAVEL</SimpleData>
+            <SimpleData name="Teléfono">0973823081</SimpleData>
+            <SimpleData name="Vivienda_L">-24.93271220000</SimpleData>
+            <SimpleData name="Vivienda_1">-55.07950530000</SimpleData>
+            <SimpleData name="Superficie">0.80000000000</SimpleData>
+            <SimpleData name="Situaci_1">Par?metro</SimpleData>
+            <SimpleData name="Plantado">SI</SimpleData>
+            <SimpleData name="Plantado_f">2025/12/17</SimpleData>
+            <SimpleData name="Jornales">0.00000000000</SimpleData>
+            <SimpleData name="Monto">0.00000000000</SimpleData>
+            <SimpleData name="Grupo_de_p">F-P1</SimpleData>
+            <SimpleData name="Estado_del">Activo</SimpleData>
+            <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
+            <SimpleData name="Lote">F</SimpleData>
+            <SimpleData name="Parametro">0.80000000000</SimpleData>
+            <SimpleData name="Situacion">Cumple</SimpleData>
+            <SimpleData name="X">-55.07969845000</SimpleData>
+            <SimpleData name="Y">-24.93220939000</SimpleData>
+            <SimpleData name="Sup_SIG">0.79934000293</SimpleData>
+            <SimpleData name="cedula">7761005</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <MultiGeometry>
+          <Point>
+            <coordinates>
+              -55.0796984476797,-24.9322093914534,0
+            </coordinates>
+          </Point>
+          <Point>
+            <coordinates>
+              -55.0796608784759,-24.9330967876364,0
+            </coordinates>
+          </Point>
+        </MultiGeometry>
+      </Placemark>
+      <Placemark id="Distrito_ITAKYRY.11">
+        <ExtendedData>
+          <SchemaData schemaUrl="#Distrito_ITAKYRY.schema">
+            <SimpleData name="Cédula">7653146.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">ANSELMO TROCHE</SimpleData>
+            <SimpleData name="Sexo">Hombre</SimpleData>
+            <SimpleData name="Cambio_de_">NO</SimpleData>
+            <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="ci_UNIF">7653146.00000000000</SimpleData>
+            <SimpleData name="Situación">NO</SimpleData>
+            <SimpleData name="Comunidad">Ind?gena</SimpleData>
+            <SimpleData name="Modelo_imp">Modelo 2</SimpleData>
+            <SimpleData name="Departamen">ALTO PARANA</SimpleData>
+            <SimpleData name="Distrito">ITAKYRY</SimpleData>
+            <SimpleData name="Localidad">COM INDIG LOMA CLAVEL</SimpleData>
+            <SimpleData name="Teléfono">0986203704</SimpleData>
+            <SimpleData name="Vivienda_L">-24.93780070000</SimpleData>
+            <SimpleData name="Vivienda_1">-55.07912140000</SimpleData>
+            <SimpleData name="Superficie">0.80000000000</SimpleData>
+            <SimpleData name="Situaci_1">Par?metro</SimpleData>
+            <SimpleData name="Plantado">SI</SimpleData>
+            <SimpleData name="Plantado_f">2025/12/17</SimpleData>
+            <SimpleData name="Jornales">0.00000000000</SimpleData>
+            <SimpleData name="Monto">0.00000000000</SimpleData>
+            <SimpleData name="Grupo_de_p">F-P2</SimpleData>
+            <SimpleData name="Estado_del">Activo</SimpleData>
+            <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
+            <SimpleData name="Lote">F</SimpleData>
+            <SimpleData name="Parametro">0.80000000000</SimpleData>
+            <SimpleData name="Situacion">Cumple</SimpleData>
+            <SimpleData name="X">-55.07884473000</SimpleData>
+            <SimpleData name="Y">-24.93752842000</SimpleData>
+            <SimpleData name="Sup_SIG">0.93474418895</SimpleData>
+            <SimpleData name="cedula">7653146</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -55.0788447295853,-24.9375284237621,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Distrito_ITAKYRY.12">
+        <ExtendedData>
+          <SchemaData schemaUrl="#Distrito_ITAKYRY.schema">
+            <SimpleData name="Cédula">4107903.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">ANDRESA BARRETO LESME</SimpleData>
+            <SimpleData name="Sexo">Mujer</SimpleData>
+            <SimpleData name="Cambio_de_">NO</SimpleData>
+            <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="ci_UNIF">4107903.00000000000</SimpleData>
             <SimpleData name="Situación">NO</SimpleData>
             <SimpleData name="Comunidad">Campesina</SimpleData>
             <SimpleData name="Modelo_imp">Modelo 6</SimpleData>
             <SimpleData name="Departamen">ALTO PARANA</SimpleData>
             <SimpleData name="Distrito">ITAKYRY</SimpleData>
-            <SimpleData name="Localidad">SANTA LUCIA</SimpleData>
-            <SimpleData name="Teléfono">0986840335</SimpleData>
-            <SimpleData name="Vivienda_L">-24.56791560000</SimpleData>
-            <SimpleData name="Vivienda_1">-55.02722110000</SimpleData>
+            <SimpleData name="Localidad"><![CDATA[CAPI'I]]></SimpleData>
+            <SimpleData name="Teléfono">0986533562</SimpleData>
+            <SimpleData name="Vivienda_L">-24.89666900000</SimpleData>
+            <SimpleData name="Vivienda_1">-55.17278040000</SimpleData>
             <SimpleData name="Superficie">0.90000000000</SimpleData>
             <SimpleData name="Situaci_1">Pol?gono</SimpleData>
             <SimpleData name="Plantado">SI</SimpleData>
-            <SimpleData name="Plantado_f">2025/11/14</SimpleData>
+            <SimpleData name="Plantado_f">2025/11/07</SimpleData>
             <SimpleData name="Jornales">0.00000000000</SimpleData>
             <SimpleData name="Monto">0.00000000000</SimpleData>
             <SimpleData name="Grupo_de_p">F-P1</SimpleData>
@@ -202,15 +557,58 @@
             <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
             <SimpleData name="Lote">F</SimpleData>
             <SimpleData name="Parametro">0.90000000000</SimpleData>
-            <SimpleData name="Sup_Sig">0.91494010764</SimpleData>
             <SimpleData name="Situacion">Cumple</SimpleData>
-            <SimpleData name="X">-55.01786166000</SimpleData>
-            <SimpleData name="Y">-24.55717351000</SimpleData>
+            <SimpleData name="X">-55.17251954000</SimpleData>
+            <SimpleData name="Y">-24.89614216000</SimpleData>
+            <SimpleData name="Sup_SIG">1.02975078762</SimpleData>
+            <SimpleData name="cedula">4107903</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Point>
           <coordinates>
-            -55.0178616619144,-24.5571735109269,0
+            -55.1725195387389,-24.8961421634277,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Distrito_ITAKYRY.13">
+        <ExtendedData>
+          <SchemaData schemaUrl="#Distrito_ITAKYRY.schema">
+            <SimpleData name="Cédula">4388486.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">FRANCISCA BENITEZ ZORRILLA</SimpleData>
+            <SimpleData name="Sexo">Mujer</SimpleData>
+            <SimpleData name="Cambio_de_">NO</SimpleData>
+            <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="ci_UNIF">4388486.00000000000</SimpleData>
+            <SimpleData name="Situación">NO</SimpleData>
+            <SimpleData name="Comunidad">Ind?gena</SimpleData>
+            <SimpleData name="Modelo_imp">Modelo 2</SimpleData>
+            <SimpleData name="Departamen">ALTO PARANA</SimpleData>
+            <SimpleData name="Distrito">ITAKYRY</SimpleData>
+            <SimpleData name="Localidad">COM INDIG LOMA CLAVEL</SimpleData>
+            <SimpleData name="Teléfono">0982731809</SimpleData>
+            <SimpleData name="Vivienda_L">-24.93024000000</SimpleData>
+            <SimpleData name="Vivienda_1">-55.07915830000</SimpleData>
+            <SimpleData name="Superficie">0.80000000000</SimpleData>
+            <SimpleData name="Situaci_1">Par?metro</SimpleData>
+            <SimpleData name="Plantado">SI</SimpleData>
+            <SimpleData name="Plantado_f">2025/12/17</SimpleData>
+            <SimpleData name="Jornales">0.00000000000</SimpleData>
+            <SimpleData name="Monto">0.00000000000</SimpleData>
+            <SimpleData name="Grupo_de_p">F-P1</SimpleData>
+            <SimpleData name="Estado_del">Activo</SimpleData>
+            <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
+            <SimpleData name="Lote">F</SimpleData>
+            <SimpleData name="Parametro">0.80000000000</SimpleData>
+            <SimpleData name="Situacion">Cumple</SimpleData>
+            <SimpleData name="X">-55.07888413000</SimpleData>
+            <SimpleData name="Y">-24.93124634000</SimpleData>
+            <SimpleData name="Sup_SIG">0.96802927901</SimpleData>
+            <SimpleData name="cedula">4388486</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -55.0788841261745,-24.9312463370043,0
           </coordinates>
         </Point>
       </Placemark>

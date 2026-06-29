@@ -29,12 +29,10 @@
       <SimpleField name="Empresa" type="string"/>
       <SimpleField name="Lote" type="string"/>
       <SimpleField name="Parametro" type="double"/>
-      <SimpleField name="Sup_Sig" type="double"/>
       <SimpleField name="Situacion" type="string"/>
       <SimpleField name="X" type="double"/>
       <SimpleField name="Y" type="double"/>
-      <SimpleField name="Shape_Leng" type="double"/>
-      <SimpleField name="Shape_Area" type="double"/>
+      <SimpleField name="Sup_SIG" type="double"/>
       <SimpleField name="cedula" type="string"/>
     </Schema>
     <Document id="Lote_A">
@@ -68,12 +66,10 @@
             <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
             <SimpleData name="Lote">A</SimpleData>
             <SimpleData name="Parametro">1.00000000000</SimpleData>
-            <SimpleData name="Sup_Sig">1.07511542523</SimpleData>
             <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.65006858000</SimpleData>
             <SimpleData name="Y">-26.69569112000</SimpleData>
-            <SimpleData name="Shape_Leng">441.60089092500</SimpleData>
-            <SimpleData name="Shape_Area">10751.15425230000</SimpleData>
+            <SimpleData name="Sup_SIG">1.07511542521</SimpleData>
             <SimpleData name="cedula">6638971</SimpleData>
           </SchemaData>
         </ExtendedData>
@@ -86,7 +82,7 @@
                 -55.6501589448756,-26.6964536572614,0
                 -55.6501609992903,-26.6964551004294,0
                 -55.6506266000049,-26.6956460001937,0
-                -55.6506238929794,-26.6956418561264,0
+                -55.6506238929794,-26.6956418561265,0
                 -55.6500662999486,-26.6947881001279,0
                 -55.6494749991339,-26.6959732006485,0
                 -55.6499915506156,-26.6963360677957,0
@@ -124,12 +120,10 @@
             <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
             <SimpleData name="Lote">A</SimpleData>
             <SimpleData name="Parametro">0.70000000000</SimpleData>
-            <SimpleData name="Sup_Sig">0.70122003684</SimpleData>
             <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.71795151000</SimpleData>
             <SimpleData name="Y">-26.27619872000</SimpleData>
-            <SimpleData name="Shape_Leng">516.44081806800</SimpleData>
-            <SimpleData name="Shape_Area">7012.20036844000</SimpleData>
+            <SimpleData name="Sup_SIG">0.70122003683</SimpleData>
             <SimpleData name="cedula">6702537</SimpleData>
           </SchemaData>
         </ExtendedData>
@@ -158,11 +152,11 @@
             <outerBoundaryIs>
               <LinearRing>
                 <coordinates>
-                  -55.7185101001496,-26.2761098001842,0
+                  -55.7185101001496,-26.2761098001841,0
                   -55.7187565000779,-26.2760966998491,0
                   -55.7187387997733,-26.2758456003921,0
                   -55.7184983003396,-26.2758550003971,0
-                  -55.7185101001496,-26.2761098001842,0
+                  -55.7185101001496,-26.2761098001841,0
                 </coordinates>
               </LinearRing>
             </outerBoundaryIs>
@@ -198,12 +192,10 @@
             <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
             <SimpleData name="Lote">A</SimpleData>
             <SimpleData name="Parametro">1.00000000000</SimpleData>
-            <SimpleData name="Sup_Sig">1.07636206130</SimpleData>
             <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.64928148000</SimpleData>
             <SimpleData name="Y">-26.69654527000</SimpleData>
-            <SimpleData name="Shape_Leng">420.37483449100</SimpleData>
-            <SimpleData name="Shape_Area">10763.62061300000</SimpleData>
+            <SimpleData name="Sup_SIG">1.07636206130</SimpleData>
             <SimpleData name="cedula">7311409</SimpleData>
           </SchemaData>
         </ExtendedData>
@@ -213,7 +205,7 @@
               <coordinates>
                 -55.6500400899459,-26.696370164867,0
                 -55.6499915506156,-26.6963360677957,0
-                -55.6491366995788,-26.6958733003207,0
+                -55.6491366995788,-26.6958733003208,0
                 -55.6486170570482,-26.6968357595938,0
                 -55.6492461826889,-26.6972051861666,0
                 -55.6500400899459,-26.696370164867,0
@@ -251,12 +243,10 @@
             <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
             <SimpleData name="Lote">A</SimpleData>
             <SimpleData name="Parametro">0.80000000000</SimpleData>
-            <SimpleData name="Sup_Sig">1.04482146755</SimpleData>
             <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.71770292000</SimpleData>
             <SimpleData name="Y">-26.17871049000</SimpleData>
-            <SimpleData name="Shape_Leng">418.71243433800</SimpleData>
-            <SimpleData name="Shape_Area">10448.21467550000</SimpleData>
+            <SimpleData name="Sup_SIG">1.04482146754</SimpleData>
             <SimpleData name="cedula">4566751</SimpleData>
           </SchemaData>
         </ExtendedData>
@@ -264,11 +254,11 @@
           <outerBoundaryIs>
             <LinearRing>
               <coordinates>
-                -55.7170583005616,-26.1782949998275,0
+                -55.7170583005615,-26.1782949998275,0
                 -55.7174700003464,-26.179265000504,0
                 -55.7183520996949,-26.1791866999037,0
                 -55.7179012000269,-26.1781032997057,0
-                -55.7170583005616,-26.1782949998275,0
+                -55.7170583005615,-26.1782949998275,0
               </coordinates>
             </LinearRing>
           </outerBoundaryIs>
@@ -303,12 +293,10 @@
             <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
             <SimpleData name="Lote">A</SimpleData>
             <SimpleData name="Parametro">1.00000000000</SimpleData>
-            <SimpleData name="Sup_Sig">1.05863049034</SimpleData>
             <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.64790947000</SimpleData>
             <SimpleData name="Y">-26.69331909000</SimpleData>
-            <SimpleData name="Shape_Leng">422.44525667100</SimpleData>
-            <SimpleData name="Shape_Area">10586.30490340000</SimpleData>
+            <SimpleData name="Sup_SIG">1.05863049033</SimpleData>
             <SimpleData name="cedula">7140896</SimpleData>
           </SchemaData>
         </ExtendedData>
@@ -360,12 +348,10 @@
             <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
             <SimpleData name="Lote">A</SimpleData>
             <SimpleData name="Parametro">0.80000000000</SimpleData>
-            <SimpleData name="Sup_Sig">0.86412536734</SimpleData>
             <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.66161584000</SimpleData>
             <SimpleData name="Y">-26.19057009000</SimpleData>
-            <SimpleData name="Shape_Leng">471.58253112300</SimpleData>
-            <SimpleData name="Shape_Area">8641.25367335000</SimpleData>
+            <SimpleData name="Sup_SIG">0.86412536732</SimpleData>
             <SimpleData name="cedula">3362661</SimpleData>
           </SchemaData>
         </ExtendedData>
@@ -373,13 +359,13 @@
           <outerBoundaryIs>
             <LinearRing>
               <coordinates>
-                -55.6621666002116,-26.1911100004059,0
+                -55.6621666002117,-26.1911100004059,0
                 -55.6623850002219,-26.1911132997018,0
                 -55.6623916996876,-26.1906350003946,0
                 -55.6606850005094,-26.1899667001708,0
                 -55.6607613998337,-26.1901500003352,0
                 -55.6607250002436,-26.1903466999067,0
-                -55.6621666002116,-26.1911100004059,0
+                -55.6621666002117,-26.1911100004059,0
               </coordinates>
             </LinearRing>
           </outerBoundaryIs>
@@ -414,12 +400,10 @@
             <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
             <SimpleData name="Lote">A</SimpleData>
             <SimpleData name="Parametro">0.80000000000</SimpleData>
-            <SimpleData name="Sup_Sig">0.90531378255</SimpleData>
             <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.70530114000</SimpleData>
             <SimpleData name="Y">-26.24992549000</SimpleData>
-            <SimpleData name="Shape_Leng">509.84663193200</SimpleData>
-            <SimpleData name="Shape_Area">9053.13782555000</SimpleData>
+            <SimpleData name="Sup_SIG">0.90531378257</SimpleData>
             <SimpleData name="cedula">3932773</SimpleData>
           </SchemaData>
         </ExtendedData>
@@ -466,12 +450,10 @@
             <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
             <SimpleData name="Lote">A</SimpleData>
             <SimpleData name="Parametro">0.80000000000</SimpleData>
-            <SimpleData name="Sup_Sig">0.99305770919</SimpleData>
             <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.65323697000</SimpleData>
             <SimpleData name="Y">-26.24819454000</SimpleData>
-            <SimpleData name="Shape_Leng">569.44964198500</SimpleData>
-            <SimpleData name="Shape_Area">9930.57709192000</SimpleData>
+            <SimpleData name="Sup_SIG">0.99305770919</SimpleData>
             <SimpleData name="cedula">6755041</SimpleData>
           </SchemaData>
         </ExtendedData>
@@ -523,12 +505,10 @@
             <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
             <SimpleData name="Lote">A</SimpleData>
             <SimpleData name="Parametro">0.80000000000</SimpleData>
-            <SimpleData name="Sup_Sig">0.99460078298</SimpleData>
             <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.58744352000</SimpleData>
             <SimpleData name="Y">-26.16909668000</SimpleData>
-            <SimpleData name="Shape_Leng">402.85869510600</SimpleData>
-            <SimpleData name="Shape_Area">9946.00782980000</SimpleData>
+            <SimpleData name="Sup_SIG">0.99460078298</SimpleData>
             <SimpleData name="cedula">5401951</SimpleData>
           </SchemaData>
         </ExtendedData>
@@ -536,14 +516,14 @@
           <outerBoundaryIs>
             <LinearRing>
               <coordinates>
-                -55.5871233003532,-26.1696616996806,0
+                -55.5871233003532,-26.1696616996807,0
                 -55.587834999465,-26.1696882997032,0
                 -55.5878466996253,-26.1686466996557,0
                 -55.5876399996101,-26.1684949998232,0
                 -55.5870367000882,-26.1685833003137,0
                 -55.5870599994367,-26.1687500000949,0
-                -55.5869650002325,-26.1687682998238,0
-                -55.5871233003532,-26.1696616996806,0
+                -55.5869650002326,-26.1687682998238,0
+                -55.5871233003532,-26.1696616996807,0
               </coordinates>
             </LinearRing>
           </outerBoundaryIs>
@@ -578,12 +558,10 @@
             <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
             <SimpleData name="Lote">A</SimpleData>
             <SimpleData name="Parametro">0.80000000000</SimpleData>
-            <SimpleData name="Sup_Sig">0.81638141750</SimpleData>
             <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.42147173000</SimpleData>
             <SimpleData name="Y">-26.15992314000</SimpleData>
-            <SimpleData name="Shape_Leng">372.59307224400</SimpleData>
-            <SimpleData name="Shape_Area">8163.81417497000</SimpleData>
+            <SimpleData name="Sup_SIG">0.81638141750</SimpleData>
             <SimpleData name="cedula">4806462</SimpleData>
           </SchemaData>
         </ExtendedData>
@@ -630,12 +608,10 @@
             <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
             <SimpleData name="Lote">A</SimpleData>
             <SimpleData name="Parametro">0.70000000000</SimpleData>
-            <SimpleData name="Sup_Sig">0.77324420731</SimpleData>
             <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.69372055000</SimpleData>
             <SimpleData name="Y">-26.24290897000</SimpleData>
-            <SimpleData name="Shape_Leng">486.27586080500</SimpleData>
-            <SimpleData name="Shape_Area">7732.44207312000</SimpleData>
+            <SimpleData name="Sup_SIG">0.77324420731</SimpleData>
             <SimpleData name="cedula">6355091</SimpleData>
           </SchemaData>
         </ExtendedData>
@@ -658,13 +634,13 @@
               <LinearRing>
                 <coordinates>
                   -55.6934332997841,-26.2433982999697,0
-                  -55.6936600001101,-26.2433650002582,0
+                  -55.69366000011,-26.2433650002582,0
                   -55.6938883000273,-26.2432066996777,0
                   -55.6942817001731,-26.2427967003679,0
                   -55.6944299996367,-26.2424217001583,0
                   -55.6934582998247,-26.2426033001175,0
-                  -55.6932850004013,-26.243038300198,0
-                  -55.6933150004239,-26.2432183002928,0
+                  -55.6932850004013,-26.2430383001981,0
+                  -55.6933150004239,-26.2432183002929,0
                   -55.6933883005588,-26.2433267003962,0
                   -55.6934332997841,-26.2433982999697,0
                 </coordinates>
@@ -702,12 +678,10 @@
             <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
             <SimpleData name="Lote">A</SimpleData>
             <SimpleData name="Parametro">0.80000000000</SimpleData>
-            <SimpleData name="Sup_Sig">0.80767991268</SimpleData>
             <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.50629911000</SimpleData>
             <SimpleData name="Y">-26.16470898000</SimpleData>
-            <SimpleData name="Shape_Leng">363.15331141700</SimpleData>
-            <SimpleData name="Shape_Area">8076.79912678000</SimpleData>
+            <SimpleData name="Sup_SIG">0.80767991267</SimpleData>
             <SimpleData name="cedula">5600376</SimpleData>
           </SchemaData>
         </ExtendedData>
@@ -754,12 +728,10 @@
             <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
             <SimpleData name="Lote">A</SimpleData>
             <SimpleData name="Parametro">1.00000000000</SimpleData>
-            <SimpleData name="Sup_Sig">1.00614299378</SimpleData>
             <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.64930241000</SimpleData>
             <SimpleData name="Y">-26.69275813000</SimpleData>
-            <SimpleData name="Shape_Leng">420.86498783400</SimpleData>
-            <SimpleData name="Shape_Area">10061.42993780000</SimpleData>
+            <SimpleData name="Sup_SIG">1.00614299378</SimpleData>
             <SimpleData name="cedula">8069116</SimpleData>
           </SchemaData>
         </ExtendedData>
@@ -806,12 +778,10 @@
             <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
             <SimpleData name="Lote">A</SimpleData>
             <SimpleData name="Parametro">0.80000000000</SimpleData>
-            <SimpleData name="Sup_Sig">0.79984188578</SimpleData>
             <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.55958143000</SimpleData>
             <SimpleData name="Y">-26.16412751000</SimpleData>
-            <SimpleData name="Shape_Leng">419.03973362800</SimpleData>
-            <SimpleData name="Shape_Area">7998.41885784000</SimpleData>
+            <SimpleData name="Sup_SIG">0.79984188578</SimpleData>
             <SimpleData name="cedula">7047004</SimpleData>
           </SchemaData>
         </ExtendedData>
@@ -864,12 +834,10 @@
             <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
             <SimpleData name="Lote">A</SimpleData>
             <SimpleData name="Parametro">1.00000000000</SimpleData>
-            <SimpleData name="Sup_Sig">1.22542254467</SimpleData>
             <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.65079446000</SimpleData>
             <SimpleData name="Y">-26.69483384000</SimpleData>
-            <SimpleData name="Shape_Leng">452.15802250000</SimpleData>
-            <SimpleData name="Shape_Area">12254.22544670000</SimpleData>
+            <SimpleData name="Sup_SIG">1.22542254466</SimpleData>
             <SimpleData name="cedula">6766560</SimpleData>
           </SchemaData>
         </ExtendedData>
@@ -879,7 +847,7 @@
               <coordinates>
                 -55.6508830233847,-26.6942349900408,0
                 -55.6507203837034,-26.6941650594009,0
-                -55.6500939997983,-26.6948043999355,0
+                -55.6500939997982,-26.6948043999355,0
                 -55.6507200000581,-26.6956700000993,0
                 -55.6515667004863,-26.6945729998561,0
                 -55.6508830233847,-26.6942349900408,0
@@ -917,12 +885,10 @@
             <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
             <SimpleData name="Lote">A</SimpleData>
             <SimpleData name="Parametro">0.70000000000</SimpleData>
-            <SimpleData name="Sup_Sig">0.74394571542</SimpleData>
             <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.67063721000</SimpleData>
             <SimpleData name="Y">-26.23160987000</SimpleData>
-            <SimpleData name="Shape_Leng">490.77696154000</SimpleData>
-            <SimpleData name="Shape_Area">7439.45715422000</SimpleData>
+            <SimpleData name="Sup_SIG">0.74394571542</SimpleData>
             <SimpleData name="cedula">7201809</SimpleData>
           </SchemaData>
         </ExtendedData>
@@ -930,17 +896,17 @@
           <outerBoundaryIs>
             <LinearRing>
               <coordinates>
-                -55.6704245996822,-26.2320412998938,0
+                -55.6704245996822,-26.2320412998937,0
                 -55.6704292005385,-26.2322158001479,0
                 -55.6711173000161,-26.2321657999402,0
                 -55.6710897003713,-26.2317961003241,0
                 -55.6707346999051,-26.2317201003431,0
                 -55.6706141003305,-26.2311613997112,0
-                -55.6710445005435,-26.2311371000963,0
+                -55.6710445005434,-26.2311371000963,0
                 -55.6710294003539,-26.2309557000577,0
                 -55.6702250999236,-26.2309969997415,0
                 -55.6704006001273,-26.2320249997376,0
-                -55.6704245996822,-26.2320412998938,0
+                -55.6704245996822,-26.2320412998937,0
               </coordinates>
             </LinearRing>
           </outerBoundaryIs>
@@ -975,12 +941,10 @@
             <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
             <SimpleData name="Lote">A</SimpleData>
             <SimpleData name="Parametro">1.00000000000</SimpleData>
-            <SimpleData name="Sup_Sig">1.02824721414</SimpleData>
             <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.65165074000</SimpleData>
             <SimpleData name="Y">-26.69325264000</SimpleData>
-            <SimpleData name="Shape_Leng">416.89968457500</SimpleData>
-            <SimpleData name="Shape_Area">10282.47214140000</SimpleData>
+            <SimpleData name="Sup_SIG">1.02824721414</SimpleData>
             <SimpleData name="cedula">2518994</SimpleData>
           </SchemaData>
         </ExtendedData>
@@ -990,7 +954,7 @@
               <coordinates>
                 -55.6510622829372,-26.6930910904025,0
                 -55.6509832549075,-26.6932243561129,0
-                -55.6518800000348,-26.6939517003617,0
+                -55.6518800000349,-26.6939517003617,0
                 -55.6523200007052,-26.6933700003254,0
                 -55.6514702005991,-26.6925182004695,0
                 -55.6510622829372,-26.6930910904025,0
@@ -1028,12 +992,10 @@
             <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
             <SimpleData name="Lote">A</SimpleData>
             <SimpleData name="Parametro">0.80000000000</SimpleData>
-            <SimpleData name="Sup_Sig">0.85861721171</SimpleData>
             <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.50658462000</SimpleData>
             <SimpleData name="Y">-26.19409569000</SimpleData>
-            <SimpleData name="Shape_Leng">417.31672583900</SimpleData>
-            <SimpleData name="Shape_Area">8586.17211709000</SimpleData>
+            <SimpleData name="Sup_SIG">0.85861721172</SimpleData>
             <SimpleData name="cedula">1387366</SimpleData>
           </SchemaData>
         </ExtendedData>
@@ -1043,7 +1005,7 @@
               <coordinates>
                 -55.5060525001075,-26.1936539006526,0
                 -55.5061717009964,-26.1945201000321,0
-                -55.507185800161,-26.1944434996908,0
+                -55.5071858001609,-26.1944434996908,0
                 -55.5071136003076,-26.193793699619,0
                 -55.5068145002485,-26.1938482994626,0
                 -55.5067685007203,-26.1939968996228,0
@@ -1083,12 +1045,10 @@
             <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
             <SimpleData name="Lote">A</SimpleData>
             <SimpleData name="Parametro">0.80000000000</SimpleData>
-            <SimpleData name="Sup_Sig">0.80825054438</SimpleData>
             <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.48978602000</SimpleData>
             <SimpleData name="Y">-26.16854365000</SimpleData>
-            <SimpleData name="Shape_Leng">388.43830130400</SimpleData>
-            <SimpleData name="Shape_Area">8082.50544379000</SimpleData>
+            <SimpleData name="Sup_SIG">0.80825054438</SimpleData>
             <SimpleData name="cedula">4887607</SimpleData>
           </SchemaData>
         </ExtendedData>
@@ -1096,12 +1056,12 @@
           <outerBoundaryIs>
             <LinearRing>
               <coordinates>
-                -55.4890052004545,-26.1688708000192,0
+                -55.4890052004544,-26.1688708000192,0
                 -55.4896354996164,-26.1690045001805,0
                 -55.4905576995092,-26.1683874993132,0
                 -55.4900250003661,-26.1680069999403,0
-                -55.4891894005777,-26.1686172996622,0
-                -55.4890052004545,-26.1688708000192,0
+                -55.4891894005776,-26.1686172996622,0
+                -55.4890052004544,-26.1688708000192,0
               </coordinates>
             </LinearRing>
           </outerBoundaryIs>
@@ -1136,12 +1096,10 @@
             <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
             <SimpleData name="Lote">A</SimpleData>
             <SimpleData name="Parametro">0.80000000000</SimpleData>
-            <SimpleData name="Sup_Sig">0.84234011820</SimpleData>
             <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.50363994000</SimpleData>
             <SimpleData name="Y">-26.16481397000</SimpleData>
-            <SimpleData name="Shape_Leng">435.66022496700</SimpleData>
-            <SimpleData name="Shape_Area">8423.40118204000</SimpleData>
+            <SimpleData name="Sup_SIG">0.84234011821</SimpleData>
             <SimpleData name="cedula">4887586</SimpleData>
           </SchemaData>
         </ExtendedData>
@@ -1192,12 +1150,10 @@
             <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
             <SimpleData name="Lote">A</SimpleData>
             <SimpleData name="Parametro">0.90000000000</SimpleData>
-            <SimpleData name="Sup_Sig">1.01741985867</SimpleData>
             <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.69164335000</SimpleData>
             <SimpleData name="Y">-26.23023057000</SimpleData>
-            <SimpleData name="Shape_Leng">408.41173423800</SimpleData>
-            <SimpleData name="Shape_Area">10174.19858670000</SimpleData>
+            <SimpleData name="Sup_SIG">1.01741985866</SimpleData>
             <SimpleData name="cedula">2918161</SimpleData>
           </SchemaData>
         </ExtendedData>
@@ -1244,12 +1200,10 @@
             <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
             <SimpleData name="Lote">A</SimpleData>
             <SimpleData name="Parametro">1.00000000000</SimpleData>
-            <SimpleData name="Sup_Sig">0.96728722371</SimpleData>
             <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.65070072000</SimpleData>
             <SimpleData name="Y">-26.69643558000</SimpleData>
-            <SimpleData name="Shape_Leng">415.47975904000</SimpleData>
-            <SimpleData name="Shape_Area">9672.87223715000</SimpleData>
+            <SimpleData name="Sup_SIG">0.96728722371</SimpleData>
             <SimpleData name="cedula">8068704</SimpleData>
           </SchemaData>
         </ExtendedData>
@@ -1260,7 +1214,7 @@
                 -55.6501589448756,-26.6964536572614,0
                 -55.6507116993194,-26.6972212005847,0
                 -55.6512728000867,-26.6964266997444,0
-                -55.6506238929794,-26.6956418561264,0
+                -55.6506238929794,-26.6956418561265,0
                 -55.6506266000049,-26.6956460001937,0
                 -55.6501609992903,-26.6964551004294,0
                 -55.6501589448756,-26.6964536572614,0
@@ -1298,12 +1252,10 @@
             <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
             <SimpleData name="Lote">A</SimpleData>
             <SimpleData name="Parametro">0.70000000000</SimpleData>
-            <SimpleData name="Sup_Sig">0.73771538512</SimpleData>
             <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.57951897000</SimpleData>
             <SimpleData name="Y">-26.16973328000</SimpleData>
-            <SimpleData name="Shape_Leng">524.44448910700</SimpleData>
-            <SimpleData name="Shape_Area">7377.15385115000</SimpleData>
+            <SimpleData name="Sup_SIG">0.73771538512</SimpleData>
             <SimpleData name="cedula">2309725</SimpleData>
           </SchemaData>
         </ExtendedData>
@@ -1368,12 +1320,10 @@
             <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
             <SimpleData name="Lote">A</SimpleData>
             <SimpleData name="Parametro">0.80000000000</SimpleData>
-            <SimpleData name="Sup_Sig">0.96467871441</SimpleData>
             <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.58650982000</SimpleData>
             <SimpleData name="Y">-26.15633722000</SimpleData>
-            <SimpleData name="Shape_Leng">405.14217511200</SimpleData>
-            <SimpleData name="Shape_Area">9646.78714415000</SimpleData>
+            <SimpleData name="Sup_SIG">0.96467871442</SimpleData>
             <SimpleData name="cedula">6177848</SimpleData>
           </SchemaData>
         </ExtendedData>
@@ -1382,7 +1332,7 @@
             <LinearRing>
               <coordinates>
                 -55.5861232997267,-26.1557950002895,0
-                -55.5861286001327,-26.1569333000321,0
+                -55.5861286001327,-26.1569333000322,0
                 -55.5868916998775,-26.1568766996929,0
                 -55.5868984004419,-26.1557496002554,0
                 -55.5861232997267,-26.1557950002895,0
@@ -1420,12 +1370,10 @@
             <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
             <SimpleData name="Lote">A</SimpleData>
             <SimpleData name="Parametro">0.80000000000</SimpleData>
-            <SimpleData name="Sup_Sig">0.90636303005</SimpleData>
             <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.67252582000</SimpleData>
             <SimpleData name="Y">-26.13984128000</SimpleData>
-            <SimpleData name="Shape_Leng">519.13888006900</SimpleData>
-            <SimpleData name="Shape_Area">9063.63030050000</SimpleData>
+            <SimpleData name="Sup_SIG">0.90636303003</SimpleData>
             <SimpleData name="cedula">6774747</SimpleData>
           </SchemaData>
         </ExtendedData>
@@ -1437,7 +1385,7 @@
                 -55.6714966997282,-26.1399566999748,0
                 -55.6726817003674,-26.1400950000862,0
                 -55.6727749999689,-26.1399017002766,0
-                -55.6728833002498,-26.1399250003592,0
+                -55.6728833002497,-26.1399250003592,0
                 -55.6730267004858,-26.1400899997794,0
                 -55.6735599995674,-26.1401433005199,0
                 -55.6735717004702,-26.1397500001458,0
@@ -1476,12 +1424,10 @@
             <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
             <SimpleData name="Lote">A</SimpleData>
             <SimpleData name="Parametro">1.00000000000</SimpleData>
-            <SimpleData name="Sup_Sig">1.12282052195</SimpleData>
             <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.65138877000</SimpleData>
             <SimpleData name="Y">-26.69571118000</SimpleData>
-            <SimpleData name="Shape_Leng">432.70634393500</SimpleData>
-            <SimpleData name="Shape_Area">11228.20521950000</SimpleData>
+            <SimpleData name="Sup_SIG">1.12282052196</SimpleData>
             <SimpleData name="cedula">7242175</SimpleData>
           </SchemaData>
         </ExtendedData>
@@ -1492,7 +1438,7 @@
                 -55.6507450001304,-26.6957017002852,0
                 -55.6512751001973,-26.6963861999439,0
                 -55.6521250005367,-26.6959167001843,0
-                -55.6513108996008,-26.6949155001571,0
+                -55.6513108996007,-26.6949155001571,0
                 -55.6507450001304,-26.6957017002852,0
               </coordinates>
             </LinearRing>
@@ -1528,12 +1474,10 @@
             <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
             <SimpleData name="Lote">A</SimpleData>
             <SimpleData name="Parametro">0.80000000000</SimpleData>
-            <SimpleData name="Sup_Sig">0.94393591520</SimpleData>
             <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.67258414000</SimpleData>
             <SimpleData name="Y">-26.14152579000</SimpleData>
-            <SimpleData name="Shape_Leng">572.93413070600</SimpleData>
-            <SimpleData name="Shape_Area">9439.35915204000</SimpleData>
+            <SimpleData name="Sup_SIG">0.94393591523</SimpleData>
             <SimpleData name="cedula">5831784</SimpleData>
           </SchemaData>
         </ExtendedData>
@@ -1542,8 +1486,8 @@
             <LinearRing>
               <coordinates>
                 -55.6714367003419,-26.1412450001404,0
-                -55.6716449999474,-26.1417266997922,0
-                -55.6726050003345,-26.1417733004815,0
+                -55.6716449999475,-26.1417266997922,0
+                -55.6726050003345,-26.1417733004816,0
                 -55.6727966999964,-26.141609999876,0
                 -55.6738967003673,-26.1417532998136,0
                 -55.6739113004449,-26.1414501004476,0
@@ -1582,12 +1526,10 @@
             <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
             <SimpleData name="Lote">A</SimpleData>
             <SimpleData name="Parametro">0.80000000000</SimpleData>
-            <SimpleData name="Sup_Sig">0.92045508368</SimpleData>
             <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.50708936000</SimpleData>
             <SimpleData name="Y">-26.16397143000</SimpleData>
-            <SimpleData name="Shape_Leng">672.63666073900</SimpleData>
-            <SimpleData name="Shape_Area">9204.55083678000</SimpleData>
+            <SimpleData name="Sup_SIG">0.92045508366</SimpleData>
             <SimpleData name="cedula">5748854</SimpleData>
           </SchemaData>
         </ExtendedData>
@@ -1598,7 +1540,7 @@
                 -55.5060581001795,-26.1635771002208,0
                 -55.5060220001388,-26.1642517001064,0
                 -55.5072756004055,-26.1641846000663,0
-                -55.5075887997484,-26.1638561995498,0
+                -55.5075887997485,-26.1638561995498,0
                 -55.5078781996437,-26.163872699564,0
                 -55.5078855994864,-26.1641361001003,0
                 -55.508466400395,-26.1640672994017,0
@@ -1640,12 +1582,10 @@
             <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
             <SimpleData name="Lote">A</SimpleData>
             <SimpleData name="Parametro">0.70000000000</SimpleData>
-            <SimpleData name="Sup_Sig">0.74927599459</SimpleData>
             <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.55271537000</SimpleData>
             <SimpleData name="Y">-26.19539009000</SimpleData>
-            <SimpleData name="Shape_Leng">409.66983940700</SimpleData>
-            <SimpleData name="Shape_Area">7492.75994593000</SimpleData>
+            <SimpleData name="Sup_SIG">0.74927599460</SimpleData>
             <SimpleData name="cedula">5895651</SimpleData>
           </SchemaData>
         </ExtendedData>
@@ -1701,12 +1641,10 @@
             <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
             <SimpleData name="Lote">A</SimpleData>
             <SimpleData name="Parametro">0.80000000000</SimpleData>
-            <SimpleData name="Sup_Sig">0.82048221595</SimpleData>
             <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.56282896000</SimpleData>
             <SimpleData name="Y">-26.18985302000</SimpleData>
-            <SimpleData name="Shape_Leng">387.36277854200</SimpleData>
-            <SimpleData name="Shape_Area">8204.82215951000</SimpleData>
+            <SimpleData name="Sup_SIG">0.82048221595</SimpleData>
             <SimpleData name="cedula">5668374</SimpleData>
           </SchemaData>
         </ExtendedData>
@@ -1753,12 +1691,10 @@
             <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
             <SimpleData name="Lote">A</SimpleData>
             <SimpleData name="Parametro">0.70000000000</SimpleData>
-            <SimpleData name="Sup_Sig">0.69693169747</SimpleData>
             <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.57553375000</SimpleData>
             <SimpleData name="Y">-26.15083548000</SimpleData>
-            <SimpleData name="Shape_Leng">335.55677034700</SimpleData>
-            <SimpleData name="Shape_Area">6969.31697468000</SimpleData>
+            <SimpleData name="Sup_SIG">0.69693169747</SimpleData>
             <SimpleData name="cedula">6830693</SimpleData>
           </SchemaData>
         </ExtendedData>
@@ -1767,13 +1703,13 @@
             <LinearRing>
               <coordinates>
                 -55.5754167005048,-26.1513800001658,0
-                -55.5755416998515,-26.1514096999616,0
+                -55.5755416998514,-26.1514096999616,0
                 -55.5758422003882,-26.1512471002318,0
                 -55.5758716997353,-26.1503499997269,0
                 -55.5753782997145,-26.1503233000987,0
                 -55.5753550003266,-26.1504733001829,0
                 -55.5751971003775,-26.1504984003421,0
-                -55.5751250997454,-26.1509203000024,0
+                -55.5751250997454,-26.1509203000025,0
                 -55.5754167005048,-26.1513800001658,0
               </coordinates>
             </LinearRing>
@@ -1809,12 +1745,10 @@
             <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
             <SimpleData name="Lote">A</SimpleData>
             <SimpleData name="Parametro">0.70000000000</SimpleData>
-            <SimpleData name="Sup_Sig">0.72698373543</SimpleData>
             <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.85036433000</SimpleData>
             <SimpleData name="Y">-26.68558308000</SimpleData>
-            <SimpleData name="Shape_Leng">396.75761794300</SimpleData>
-            <SimpleData name="Shape_Area">7269.83735435000</SimpleData>
+            <SimpleData name="Sup_SIG">0.72698373543</SimpleData>
             <SimpleData name="cedula">5601438</SimpleData>
           </SchemaData>
         </ExtendedData>
@@ -1861,12 +1795,10 @@
             <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
             <SimpleData name="Lote">A</SimpleData>
             <SimpleData name="Parametro">1.00000000000</SimpleData>
-            <SimpleData name="Sup_Sig">1.06491247070</SimpleData>
             <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.64743087000</SimpleData>
             <SimpleData name="Y">-26.69412729000</SimpleData>
-            <SimpleData name="Shape_Leng">416.42513789800</SimpleData>
-            <SimpleData name="Shape_Area">10649.12470700000</SimpleData>
+            <SimpleData name="Sup_SIG">1.06491247070</SimpleData>
             <SimpleData name="cedula">6764474</SimpleData>
           </SchemaData>
         </ExtendedData>
@@ -1916,12 +1848,10 @@
             <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
             <SimpleData name="Lote">A</SimpleData>
             <SimpleData name="Parametro">0.70000000000</SimpleData>
-            <SimpleData name="Sup_Sig">0.70824977526</SimpleData>
             <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.86980378000</SimpleData>
             <SimpleData name="Y">-26.69163700000</SimpleData>
-            <SimpleData name="Shape_Leng">609.92615352400</SimpleData>
-            <SimpleData name="Shape_Area">7082.49775258000</SimpleData>
+            <SimpleData name="Sup_SIG">0.70824977526</SimpleData>
             <SimpleData name="cedula">8537017</SimpleData>
           </SchemaData>
         </ExtendedData>
@@ -1996,12 +1926,10 @@
             <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
             <SimpleData name="Lote">A</SimpleData>
             <SimpleData name="Parametro">0.80000000000</SimpleData>
-            <SimpleData name="Sup_Sig">0.97645414891</SimpleData>
             <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.55981701000</SimpleData>
             <SimpleData name="Y">-26.16499516000</SimpleData>
-            <SimpleData name="Shape_Leng">500.66336490400</SimpleData>
-            <SimpleData name="Shape_Area">9764.54148912000</SimpleData>
+            <SimpleData name="Sup_SIG">0.97645414890</SimpleData>
             <SimpleData name="cedula">2907706</SimpleData>
           </SchemaData>
         </ExtendedData>
@@ -2013,7 +1941,7 @@
                 -55.5592764000103,-26.1654977004668,0
                 -55.5607811000888,-26.165027699867,0
                 -55.5607368999971,-26.1646690001461,0
-                -55.5598064996567,-26.1649249999023,0
+                -55.5598064996568,-26.1649249999024,0
                 -55.5597530005569,-26.1645251002064,0
                 -55.5590900005232,-26.164696100379,0
               </coordinates>
@@ -2050,12 +1978,10 @@
             <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
             <SimpleData name="Lote">A</SimpleData>
             <SimpleData name="Parametro">0.70000000000</SimpleData>
-            <SimpleData name="Sup_Sig">0.70254533865</SimpleData>
             <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.57220059000</SimpleData>
             <SimpleData name="Y">-26.25337299000</SimpleData>
-            <SimpleData name="Shape_Leng">607.33711095600</SimpleData>
-            <SimpleData name="Shape_Area">7025.45338649000</SimpleData>
+            <SimpleData name="Sup_SIG">0.70254533864</SimpleData>
             <SimpleData name="cedula">3940372</SimpleData>
           </SchemaData>
         </ExtendedData>
@@ -2132,12 +2058,10 @@
             <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
             <SimpleData name="Lote">A</SimpleData>
             <SimpleData name="Parametro">0.70000000000</SimpleData>
-            <SimpleData name="Sup_Sig">0.72512312989</SimpleData>
             <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.56241289000</SimpleData>
             <SimpleData name="Y">-26.16781927000</SimpleData>
-            <SimpleData name="Shape_Leng">453.72147490100</SimpleData>
-            <SimpleData name="Shape_Area">7251.23129889000</SimpleData>
+            <SimpleData name="Sup_SIG">0.72512312989</SimpleData>
             <SimpleData name="cedula">7552055</SimpleData>
           </SchemaData>
         </ExtendedData>
@@ -2199,12 +2123,10 @@
             <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
             <SimpleData name="Lote">A</SimpleData>
             <SimpleData name="Parametro">0.70000000000</SimpleData>
-            <SimpleData name="Sup_Sig">0.96846681171</SimpleData>
             <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.56321763000</SimpleData>
             <SimpleData name="Y">-26.18374101000</SimpleData>
-            <SimpleData name="Shape_Leng">621.19996538600</SimpleData>
-            <SimpleData name="Shape_Area">9684.66811705000</SimpleData>
+            <SimpleData name="Sup_SIG">0.96846681170</SimpleData>
             <SimpleData name="cedula">7124446</SimpleData>
           </SchemaData>
         </ExtendedData>
@@ -2230,7 +2152,7 @@
               <LinearRing>
                 <coordinates>
                   -55.564351700295,-26.183829600212,0
-                  -55.5649517005301,-26.1827725001234,0
+                  -55.5649517005301,-26.1827725001235,0
                   -55.5646923999697,-26.1826541004206,0
                   -55.5640310996523,-26.1835865002211,0
                   -55.564351700295,-26.183829600212,0
@@ -2269,12 +2191,10 @@
             <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
             <SimpleData name="Lote">A</SimpleData>
             <SimpleData name="Parametro">1.00000000000</SimpleData>
-            <SimpleData name="Sup_Sig">1.03911245555</SimpleData>
             <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.64923597000</SimpleData>
             <SimpleData name="Y">-26.69115516000</SimpleData>
-            <SimpleData name="Shape_Leng">416.92899113400</SimpleData>
-            <SimpleData name="Shape_Area">10391.12455550000</SimpleData>
+            <SimpleData name="Sup_SIG">1.03911245555</SimpleData>
             <SimpleData name="cedula">5599382</SimpleData>
           </SchemaData>
         </ExtendedData>
@@ -2284,7 +2204,7 @@
               <coordinates>
                 -55.6486017000054,-26.6912116996754,0
                 -55.6494282996056,-26.6918766999398,0
-                -55.6498707002597,-26.6911408002457,0
+                -55.6498707002597,-26.6911408002458,0
                 -55.6490584999459,-26.6904117000106,0
                 -55.6486017000054,-26.6912116996754,0
               </coordinates>
@@ -2321,12 +2241,10 @@
             <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
             <SimpleData name="Lote">A</SimpleData>
             <SimpleData name="Parametro">0.80000000000</SimpleData>
-            <SimpleData name="Sup_Sig">0.86569320707</SimpleData>
             <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.56941790000</SimpleData>
             <SimpleData name="Y">-26.19458881000</SimpleData>
-            <SimpleData name="Shape_Leng">554.31663632800</SimpleData>
-            <SimpleData name="Shape_Area">8656.93207068000</SimpleData>
+            <SimpleData name="Sup_SIG">0.86569320705</SimpleData>
             <SimpleData name="cedula">2633983</SimpleData>
           </SchemaData>
         </ExtendedData>
@@ -2338,7 +2256,7 @@
                   -55.5689969998086,-26.1950847996981,0
                   -55.5699192006199,-26.1949624998974,0
                   -55.5698828005562,-26.1946802006611,0
-                  -55.568984800797,-26.1947820997079,0
+                  -55.568984800797,-26.194782099708,0
                   -55.5689969998086,-26.1950847996981,0
                 </coordinates>
               </LinearRing>
@@ -2349,7 +2267,7 @@
               <LinearRing>
                 <coordinates>
                   -55.5689681992877,-26.1947554999938,0
-                  -55.5698962002601,-26.1946759002869,0
+                  -55.56989620026,-26.1946759002869,0
                   -55.5698560999301,-26.194300199629,0
                   -55.5698199995957,-26.1941383001749,0
                   -55.5689500994946,-26.1941651001784,0
@@ -2389,12 +2307,10 @@
             <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
             <SimpleData name="Lote">A</SimpleData>
             <SimpleData name="Parametro">0.80000000000</SimpleData>
-            <SimpleData name="Sup_Sig">0.85008776791</SimpleData>
             <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.67202827000</SimpleData>
             <SimpleData name="Y">-26.16474543000</SimpleData>
-            <SimpleData name="Shape_Leng">375.94726185900</SimpleData>
-            <SimpleData name="Shape_Area">8500.87767910000</SimpleData>
+            <SimpleData name="Sup_SIG">0.85008776791</SimpleData>
             <SimpleData name="cedula">2652069</SimpleData>
           </SchemaData>
         </ExtendedData>
@@ -2442,12 +2358,10 @@
             <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
             <SimpleData name="Lote">A</SimpleData>
             <SimpleData name="Parametro">0.80000000000</SimpleData>
-            <SimpleData name="Sup_Sig">0.82475065439</SimpleData>
             <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.68116440000</SimpleData>
             <SimpleData name="Y">-26.24024554000</SimpleData>
-            <SimpleData name="Shape_Leng">420.46059975500</SimpleData>
-            <SimpleData name="Shape_Area">8247.50654393000</SimpleData>
+            <SimpleData name="Sup_SIG">0.82475065440</SimpleData>
             <SimpleData name="cedula">6827440</SimpleData>
           </SchemaData>
         </ExtendedData>
@@ -2461,7 +2375,7 @@
                 -55.6819983000132,-26.2403733001875,0
                 -55.6806611000402,-26.2397143997529,0
                 -55.680370000301,-26.2402617005093,0
-                -55.6806699997635,-26.2403751996796,0
+                -55.6806699997635,-26.2403751996797,0
                 -55.6811872001854,-26.2404448998779,0
               </coordinates>
             </LinearRing>
@@ -2497,12 +2411,10 @@
             <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
             <SimpleData name="Lote">A</SimpleData>
             <SimpleData name="Parametro">0.80000000000</SimpleData>
-            <SimpleData name="Sup_Sig">1.08318006823</SimpleData>
             <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.56255686000</SimpleData>
             <SimpleData name="Y">-26.18817686000</SimpleData>
-            <SimpleData name="Shape_Leng">542.61076746100</SimpleData>
-            <SimpleData name="Shape_Area">10831.80068230000</SimpleData>
+            <SimpleData name="Sup_SIG">1.08318006824</SimpleData>
             <SimpleData name="cedula">7445311</SimpleData>
           </SchemaData>
         </ExtendedData>
@@ -2551,12 +2463,10 @@
             <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
             <SimpleData name="Lote">A</SimpleData>
             <SimpleData name="Parametro">0.80000000000</SimpleData>
-            <SimpleData name="Sup_Sig">0.99483918666</SimpleData>
             <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.72812183000</SimpleData>
             <SimpleData name="Y">-26.30563263000</SimpleData>
-            <SimpleData name="Shape_Leng">457.51688042800</SimpleData>
-            <SimpleData name="Shape_Area">9948.39186664000</SimpleData>
+            <SimpleData name="Sup_SIG">0.99483918666</SimpleData>
             <SimpleData name="cedula">4778726</SimpleData>
           </SchemaData>
         </ExtendedData>
@@ -2568,7 +2478,7 @@
                 -55.7275699996664,-26.3062599999308,0
                 -55.7290716998164,-26.3053950000731,0
                 -55.7289399995257,-26.3051432999578,0
-                -55.7285482995067,-26.3051799996427,0
+                -55.7285482995068,-26.3051799996427,0
                 -55.7283332995284,-26.3052349995688,0
                 -55.7272732998551,-26.3056867001672,0
               </coordinates>
@@ -2605,12 +2515,10 @@
             <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
             <SimpleData name="Lote">A</SimpleData>
             <SimpleData name="Parametro">0.80000000000</SimpleData>
-            <SimpleData name="Sup_Sig">0.87057971371</SimpleData>
             <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.67241898000</SimpleData>
             <SimpleData name="Y">-26.13883901000</SimpleData>
-            <SimpleData name="Shape_Leng">375.36802057400</SimpleData>
-            <SimpleData name="Shape_Area">8705.79713710000</SimpleData>
+            <SimpleData name="Sup_SIG">0.87057971370</SimpleData>
             <SimpleData name="cedula">6781967</SimpleData>
           </SchemaData>
         </ExtendedData>
@@ -2621,7 +2529,7 @@
                 -55.6717817000821,-26.1391220002092,0
                 -55.672773499571,-26.1393052000204,0
                 -55.6730417002927,-26.1385532999861,0
-                -55.6720859000273,-26.1383678004801,0
+                -55.6720859000273,-26.1383678004802,0
                 -55.6717817000821,-26.1391220002092,0
               </coordinates>
             </LinearRing>
@@ -2657,12 +2565,10 @@
             <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
             <SimpleData name="Lote">A</SimpleData>
             <SimpleData name="Parametro">0.70000000000</SimpleData>
-            <SimpleData name="Sup_Sig">0.75819931038</SimpleData>
             <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.84331185000</SimpleData>
             <SimpleData name="Y">-26.69265227000</SimpleData>
-            <SimpleData name="Shape_Leng">591.69895299900</SimpleData>
-            <SimpleData name="Shape_Area">7581.99310385000</SimpleData>
+            <SimpleData name="Sup_SIG">0.75819931040</SimpleData>
             <SimpleData name="cedula">5651595</SimpleData>
           </SchemaData>
         </ExtendedData>
@@ -2672,13 +2578,13 @@
               <LinearRing>
                 <coordinates>
                   -55.8427451006513,-26.6927619010963,0
-                  -55.8430367004678,-26.6932534009888,0
+                  -55.8430367004678,-26.6932534009889,0
                   -55.8432599999622,-26.6930798998868,0
                   -55.8432875001192,-26.6928581003226,0
                   -55.8433772002989,-26.6927571003878,0
                   -55.843697000277,-26.69294630075,0
                   -55.8439105999175,-26.6927325003589,0
-                  -55.8438960003529,-26.6925855005177,0
+                  -55.8438960003529,-26.6925855005176,0
                   -55.8435902004369,-26.6921489007621,0
                   -55.8427451006513,-26.6927619010963,0
                 </coordinates>
@@ -2729,12 +2635,10 @@
             <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
             <SimpleData name="Lote">A</SimpleData>
             <SimpleData name="Parametro">1.00000000000</SimpleData>
-            <SimpleData name="Sup_Sig">1.04434983989</SimpleData>
             <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.64956527000</SimpleData>
             <SimpleData name="Y">-26.69451476000</SimpleData>
-            <SimpleData name="Shape_Leng">421.07297134100</SimpleData>
-            <SimpleData name="Shape_Area">10443.49839890000</SimpleData>
+            <SimpleData name="Sup_SIG">1.04434983989</SimpleData>
             <SimpleData name="cedula">7311473</SimpleData>
           </SchemaData>
         </ExtendedData>
@@ -2783,12 +2687,10 @@
             <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
             <SimpleData name="Lote">A</SimpleData>
             <SimpleData name="Parametro">0.80000000000</SimpleData>
-            <SimpleData name="Sup_Sig">0.87935112286</SimpleData>
             <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.59409931000</SimpleData>
             <SimpleData name="Y">-26.16340408000</SimpleData>
-            <SimpleData name="Shape_Leng">377.81562668500</SimpleData>
-            <SimpleData name="Shape_Area">8793.51122858000</SimpleData>
+            <SimpleData name="Sup_SIG">0.87935112287</SimpleData>
             <SimpleData name="cedula">5748908</SimpleData>
           </SchemaData>
         </ExtendedData>
@@ -2836,12 +2738,10 @@
             <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
             <SimpleData name="Lote">A</SimpleData>
             <SimpleData name="Parametro">0.70000000000</SimpleData>
-            <SimpleData name="Sup_Sig">0.77798481375</SimpleData>
             <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.69747953000</SimpleData>
             <SimpleData name="Y">-26.25446902000</SimpleData>
-            <SimpleData name="Shape_Leng">411.14357332700</SimpleData>
-            <SimpleData name="Shape_Area">7779.84813751000</SimpleData>
+            <SimpleData name="Sup_SIG">0.77798481374</SimpleData>
             <SimpleData name="cedula">6886608</SimpleData>
           </SchemaData>
         </ExtendedData>
@@ -2888,12 +2788,10 @@
             <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
             <SimpleData name="Lote">A</SimpleData>
             <SimpleData name="Parametro">0.80000000000</SimpleData>
-            <SimpleData name="Sup_Sig">0.91496374064</SimpleData>
             <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.67152141000</SimpleData>
             <SimpleData name="Y">-26.23780095000</SimpleData>
-            <SimpleData name="Shape_Leng">381.58757362600</SimpleData>
-            <SimpleData name="Shape_Area">9149.63740645000</SimpleData>
+            <SimpleData name="Sup_SIG">0.91496374065</SimpleData>
             <SimpleData name="cedula">5078380</SimpleData>
           </SchemaData>
         </ExtendedData>
@@ -2903,7 +2801,7 @@
               <coordinates>
                 -55.6710961001673,-26.2373488999888,0
                 -55.6710349995515,-26.238268300029,0
-                -55.672106699877,-26.2381800004255,0
+                -55.6721066998771,-26.2381800004255,0
                 -55.6719333003098,-26.2375932999524,0
                 -55.6718970998733,-26.2374154002544,0
                 -55.6717182004667,-26.2372946003073,0
@@ -2942,12 +2840,10 @@
             <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
             <SimpleData name="Lote">A</SimpleData>
             <SimpleData name="Parametro">0.80000000000</SimpleData>
-            <SimpleData name="Sup_Sig">0.84199410957</SimpleData>
             <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.46302469000</SimpleData>
             <SimpleData name="Y">-26.14409591000</SimpleData>
-            <SimpleData name="Shape_Leng">577.41366706300</SimpleData>
-            <SimpleData name="Shape_Area">8419.94109567000</SimpleData>
+            <SimpleData name="Sup_SIG">0.84199410957</SimpleData>
             <SimpleData name="cedula">3262711</SimpleData>
           </SchemaData>
         </ExtendedData>
@@ -2959,7 +2855,7 @@
                   -55.4604571001586,-26.1443080995282,0
                   -55.4615217002748,-26.1442532993462,0
                   -55.4614499998368,-26.1439349994307,0
-                  -55.4606417999383,-26.1439276000078,0
+                  -55.4606417999383,-26.1439276000077,0
                   -55.4604305001676,-26.1439470007941,0
                   -55.4604571001586,-26.1443080995282,0
                 </coordinates>
@@ -3012,12 +2908,10 @@
             <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
             <SimpleData name="Lote">A</SimpleData>
             <SimpleData name="Parametro">1.00000000000</SimpleData>
-            <SimpleData name="Sup_Sig">1.02200901148</SimpleData>
             <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.64846622000</SimpleData>
             <SimpleData name="Y">-26.69607696000</SimpleData>
-            <SimpleData name="Shape_Leng">410.08484975300</SimpleData>
-            <SimpleData name="Shape_Area">10220.09011480000</SimpleData>
+            <SimpleData name="Sup_SIG">1.02200901148</SimpleData>
             <SimpleData name="cedula">7102731</SimpleData>
           </SchemaData>
         </ExtendedData>
@@ -3064,12 +2958,10 @@
             <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
             <SimpleData name="Lote">A</SimpleData>
             <SimpleData name="Parametro">0.80000000000</SimpleData>
-            <SimpleData name="Sup_Sig">1.01518465641</SimpleData>
             <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.68975005000</SimpleData>
             <SimpleData name="Y">-26.23830584000</SimpleData>
-            <SimpleData name="Shape_Leng">547.37416576100</SimpleData>
-            <SimpleData name="Shape_Area">10151.84656410000</SimpleData>
+            <SimpleData name="Sup_SIG">1.01518465643</SimpleData>
             <SimpleData name="cedula">3009418</SimpleData>
           </SchemaData>
         </ExtendedData>
@@ -3081,7 +2973,7 @@
                 -55.6901634997595,-26.2392492997246,0
                 -55.6905542000585,-26.2390014993571,0
                 -55.6901774000173,-26.2385826992957,0
-                -55.6899878003115,-26.2386773007019,0
+                -55.6899878003114,-26.2386773007019,0
                 -55.6897988006207,-26.2383880996247,0
                 -55.6900510004478,-26.2379903002148,0
                 -55.6896552995975,-26.2375433998859,0
@@ -3121,12 +3013,10 @@
             <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
             <SimpleData name="Lote">A</SimpleData>
             <SimpleData name="Parametro">1.00000000000</SimpleData>
-            <SimpleData name="Sup_Sig">1.02112619781</SimpleData>
             <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.64994258000</SimpleData>
             <SimpleData name="Y">-26.69338216000</SimpleData>
-            <SimpleData name="Shape_Leng">424.31705216600</SimpleData>
-            <SimpleData name="Shape_Area">10211.26197810000</SimpleData>
+            <SimpleData name="Sup_SIG">1.02112619782</SimpleData>
             <SimpleData name="cedula">8118265</SimpleData>
           </SchemaData>
         </ExtendedData>
@@ -3176,12 +3066,10 @@
             <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
             <SimpleData name="Lote">A</SimpleData>
             <SimpleData name="Parametro">0.80000000000</SimpleData>
-            <SimpleData name="Sup_Sig">0.83881476703</SimpleData>
             <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.50543800000</SimpleData>
             <SimpleData name="Y">-26.16368725000</SimpleData>
-            <SimpleData name="Shape_Leng">427.54345124400</SimpleData>
-            <SimpleData name="Shape_Area">8388.14767032000</SimpleData>
+            <SimpleData name="Sup_SIG">0.83881476704</SimpleData>
             <SimpleData name="cedula">5103631</SimpleData>
           </SchemaData>
         </ExtendedData>
@@ -3191,7 +3079,7 @@
               <coordinates>
                 -55.5048917001243,-26.1633440999035,0
                 -55.5049464997723,-26.1642126000605,0
-                -55.5050987003694,-26.1642215996528,0
+                -55.5050987003693,-26.1642215996528,0
                 -55.5051526007514,-26.1639724008454,0
                 -55.5056303001239,-26.1639849004009,0
                 -55.505781099713,-26.1640239002363,0
@@ -3232,12 +3120,10 @@
             <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
             <SimpleData name="Lote">A</SimpleData>
             <SimpleData name="Parametro">1.00000000000</SimpleData>
-            <SimpleData name="Sup_Sig">1.05656487996</SimpleData>
             <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.65002901000</SimpleData>
             <SimpleData name="Y">-26.69186916000</SimpleData>
-            <SimpleData name="Shape_Leng">413.86128499500</SimpleData>
-            <SimpleData name="Shape_Area">10565.64879960000</SimpleData>
+            <SimpleData name="Sup_SIG">1.05656487997</SimpleData>
             <SimpleData name="cedula">7305049</SimpleData>
           </SchemaData>
         </ExtendedData>
@@ -3286,12 +3172,10 @@
             <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
             <SimpleData name="Lote">A</SimpleData>
             <SimpleData name="Parametro">0.80000000000</SimpleData>
-            <SimpleData name="Sup_Sig">0.91751111911</SimpleData>
             <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.67676775000</SimpleData>
             <SimpleData name="Y">-26.15764187000</SimpleData>
-            <SimpleData name="Shape_Leng">396.17747011200</SimpleData>
-            <SimpleData name="Shape_Area">9175.11119110000</SimpleData>
+            <SimpleData name="Sup_SIG">0.91751111911</SimpleData>
             <SimpleData name="cedula">5472060</SimpleData>
           </SchemaData>
         </ExtendedData>
@@ -3338,12 +3222,10 @@
             <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
             <SimpleData name="Lote">A</SimpleData>
             <SimpleData name="Parametro">0.80000000000</SimpleData>
-            <SimpleData name="Sup_Sig">0.89034098283</SimpleData>
             <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.62629692000</SimpleData>
             <SimpleData name="Y">-26.16926890000</SimpleData>
-            <SimpleData name="Shape_Leng">375.68918234300</SimpleData>
-            <SimpleData name="Shape_Area">8903.40982829000</SimpleData>
+            <SimpleData name="Sup_SIG">0.89034098283</SimpleData>
             <SimpleData name="cedula">3621207</SimpleData>
           </SchemaData>
         </ExtendedData>
@@ -3353,7 +3235,7 @@
               <coordinates>
                 -55.6259525993165,-26.1696173000286,0
                 -55.6267349998592,-26.169780000318,0
-                -55.6268150998241,-26.169011199681,0
+                -55.626815099824,-26.169011199681,0
                 -55.626574999746,-26.1689066997043,0
                 -55.6259279991797,-26.1687231003181,0
                 -55.6257449997156,-26.1695500002231,0
@@ -3392,12 +3274,10 @@
             <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
             <SimpleData name="Lote">A</SimpleData>
             <SimpleData name="Parametro">0.70000000000</SimpleData>
-            <SimpleData name="Sup_Sig">0.80708647795</SimpleData>
             <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.56741459000</SimpleData>
             <SimpleData name="Y">-26.24737589000</SimpleData>
-            <SimpleData name="Shape_Leng">409.90788817700</SimpleData>
-            <SimpleData name="Shape_Area">8070.86477946000</SimpleData>
+            <SimpleData name="Sup_SIG">0.80708647796</SimpleData>
             <SimpleData name="cedula">5751982</SimpleData>
           </SchemaData>
         </ExtendedData>
@@ -3448,12 +3328,10 @@
             <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
             <SimpleData name="Lote">A</SimpleData>
             <SimpleData name="Parametro">0.80000000000</SimpleData>
-            <SimpleData name="Sup_Sig">0.97837636753</SimpleData>
             <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.67028224000</SimpleData>
             <SimpleData name="Y">-26.21803902000</SimpleData>
-            <SimpleData name="Shape_Leng">418.53922747400</SimpleData>
-            <SimpleData name="Shape_Area">9783.76367528000</SimpleData>
+            <SimpleData name="Sup_SIG">0.97837636753</SimpleData>
             <SimpleData name="cedula">4085658</SimpleData>
           </SchemaData>
         </ExtendedData>
@@ -3461,11 +3339,11 @@
           <outerBoundaryIs>
             <LinearRing>
               <coordinates>
-                -55.6696416995403,-26.2178769999535,0
+                -55.6696416995402,-26.2178769999535,0
                 -55.66985999985,-26.218719999537,0
-                -55.6709999997565,-26.2179700001916,0
+                -55.6709999997566,-26.2179700001916,0
                 -55.670808299953,-26.2174832998997,0
-                -55.6696416995403,-26.2178769999535,0
+                -55.6696416995402,-26.2178769999535,0
               </coordinates>
             </LinearRing>
           </outerBoundaryIs>
@@ -3500,12 +3378,10 @@
             <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
             <SimpleData name="Lote">A</SimpleData>
             <SimpleData name="Parametro">0.70000000000</SimpleData>
-            <SimpleData name="Sup_Sig">0.77073725039</SimpleData>
             <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.58610253000</SimpleData>
             <SimpleData name="Y">-26.22665813000</SimpleData>
-            <SimpleData name="Shape_Leng">527.01424013500</SimpleData>
-            <SimpleData name="Shape_Area">7707.37250389000</SimpleData>
+            <SimpleData name="Sup_SIG">0.77073725040</SimpleData>
             <SimpleData name="cedula">1949625</SimpleData>
           </SchemaData>
         </ExtendedData>
@@ -3528,7 +3404,7 @@
               <LinearRing>
                 <coordinates>
                   -55.5864735005104,-26.22677499997,0
-                  -55.5868947003108,-26.2263732001006,0
+                  -55.5868947003109,-26.2263732001006,0
                   -55.5864582997056,-26.2259944001265,0
                   -55.5860883003241,-26.2263432997642,0
                   -55.5864735005104,-26.22677499997,0
@@ -3567,12 +3443,10 @@
             <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
             <SimpleData name="Lote">A</SimpleData>
             <SimpleData name="Parametro">0.70000000000</SimpleData>
-            <SimpleData name="Sup_Sig">0.76300612193</SimpleData>
             <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.59170448000</SimpleData>
             <SimpleData name="Y">-26.18929742000</SimpleData>
-            <SimpleData name="Shape_Leng">438.47604292100</SimpleData>
-            <SimpleData name="Shape_Area">7630.06121928000</SimpleData>
+            <SimpleData name="Sup_SIG">0.76300612193</SimpleData>
             <SimpleData name="cedula">3723284</SimpleData>
           </SchemaData>
         </ExtendedData>
@@ -3580,13 +3454,13 @@
           <outerBoundaryIs>
             <LinearRing>
               <coordinates>
-                -55.5916638007295,-26.1901317006044,0
+                -55.5916638007295,-26.1901317006045,0
                 -55.591930300441,-26.1901473997852,0
                 -55.5917968999628,-26.1893886998585,0
                 -55.5922164004559,-26.1892255004493,0
                 -55.5917956001323,-26.1886283001112,0
                 -55.5912680998477,-26.1889022998359,0
-                -55.5916638007295,-26.1901317006044,0
+                -55.5916638007295,-26.1901317006045,0
               </coordinates>
             </LinearRing>
           </outerBoundaryIs>
@@ -3621,12 +3495,10 @@
             <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
             <SimpleData name="Lote">A</SimpleData>
             <SimpleData name="Parametro">0.80000000000</SimpleData>
-            <SimpleData name="Sup_Sig">0.90036166732</SimpleData>
             <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.59887310000</SimpleData>
             <SimpleData name="Y">-26.14940249000</SimpleData>
-            <SimpleData name="Shape_Leng">378.06083035300</SimpleData>
-            <SimpleData name="Shape_Area">9003.61667324000</SimpleData>
+            <SimpleData name="Sup_SIG">0.90036166733</SimpleData>
             <SimpleData name="cedula">7653085</SimpleData>
           </SchemaData>
         </ExtendedData>
@@ -3675,12 +3547,10 @@
             <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
             <SimpleData name="Lote">A</SimpleData>
             <SimpleData name="Parametro">0.80000000000</SimpleData>
-            <SimpleData name="Sup_Sig">0.81340095405</SimpleData>
             <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.66933324000</SimpleData>
             <SimpleData name="Y">-26.21849774000</SimpleData>
-            <SimpleData name="Shape_Leng">498.83063334900</SimpleData>
-            <SimpleData name="Shape_Area">8134.00954048000</SimpleData>
+            <SimpleData name="Sup_SIG">0.81340095404</SimpleData>
             <SimpleData name="cedula">4875803</SimpleData>
           </SchemaData>
         </ExtendedData>
@@ -3744,12 +3614,10 @@
             <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
             <SimpleData name="Lote">A</SimpleData>
             <SimpleData name="Parametro">1.00000000000</SimpleData>
-            <SimpleData name="Sup_Sig">1.05404456057</SimpleData>
             <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.64825380000</SimpleData>
             <SimpleData name="Y">-26.69469843000</SimpleData>
-            <SimpleData name="Shape_Leng">410.54687491200</SimpleData>
-            <SimpleData name="Shape_Area">10540.44560570000</SimpleData>
+            <SimpleData name="Sup_SIG">1.05404456057</SimpleData>
             <SimpleData name="cedula">7311362</SimpleData>
           </SchemaData>
         </ExtendedData>
@@ -3765,7 +3633,7 @@
                 -55.6489788879156,-26.6946479209028,0
                 -55.6489883000355,-26.6946383005178,0
                 -55.6489611220251,-26.6946186761319,0
-                -55.6481348227972,-26.6940222232014,0
+                -55.6481348227972,-26.6940222232015,0
                 -55.6481261817463,-26.6940159859849,0
                 -55.6480989025505,-26.6940701014199,0
               </coordinates>
@@ -3802,12 +3670,10 @@
             <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
             <SimpleData name="Lote">A</SimpleData>
             <SimpleData name="Parametro">1.00000000000</SimpleData>
-            <SimpleData name="Sup_Sig">1.00344759670</SimpleData>
             <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.64771062000</SimpleData>
             <SimpleData name="Y">-26.69567316000</SimpleData>
-            <SimpleData name="Shape_Leng">415.00433937100</SimpleData>
-            <SimpleData name="Shape_Area">10034.47596700000</SimpleData>
+            <SimpleData name="Sup_SIG">1.00344759671</SimpleData>
             <SimpleData name="cedula">7188619</SimpleData>
           </SchemaData>
         </ExtendedData>
@@ -3817,7 +3683,7 @@
               <coordinates>
                 -55.6471600001547,-26.6959350001343,0
                 -55.6478233001401,-26.696433299745,0
-                -55.6482816996213,-26.6953867002277,0
+                -55.6482816996214,-26.6953867002278,0
                 -55.6475534003288,-26.6949421001057,0
                 -55.6471600001547,-26.6959350001343,0
               </coordinates>
@@ -3854,12 +3720,10 @@
             <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
             <SimpleData name="Lote">A</SimpleData>
             <SimpleData name="Parametro">0.80000000000</SimpleData>
-            <SimpleData name="Sup_Sig">0.94036736590</SimpleData>
             <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.66885034000</SimpleData>
             <SimpleData name="Y">-26.16977459000</SimpleData>
-            <SimpleData name="Shape_Leng">556.93838049500</SimpleData>
-            <SimpleData name="Shape_Area">9403.67365903000</SimpleData>
+            <SimpleData name="Sup_SIG">0.94036736590</SimpleData>
             <SimpleData name="cedula">2689413</SimpleData>
           </SchemaData>
         </ExtendedData>
@@ -3869,7 +3733,7 @@
               <LinearRing>
                 <coordinates>
                   -55.6683083000645,-26.1862183002392,0
-                  -55.6682006002443,-26.1859871998603,0
+                  -55.6682006002443,-26.1859871998602,0
                   -55.6677183003437,-26.1858417000543,0
                   -55.6674580003365,-26.1858483998292,0
                   -55.6674166998377,-26.1859434003834,0
@@ -3923,12 +3787,10 @@
             <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
             <SimpleData name="Lote">A</SimpleData>
             <SimpleData name="Parametro">0.80000000000</SimpleData>
-            <SimpleData name="Sup_Sig">0.93412499331</SimpleData>
             <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.64943529000</SimpleData>
             <SimpleData name="Y">-26.24304170000</SimpleData>
-            <SimpleData name="Shape_Leng">388.85040587500</SimpleData>
-            <SimpleData name="Shape_Area">9341.24993310000</SimpleData>
+            <SimpleData name="Sup_SIG">0.93412499330</SimpleData>
             <SimpleData name="cedula">5991202</SimpleData>
           </SchemaData>
         </ExtendedData>
@@ -3939,7 +3801,7 @@
                 -55.6489777003859,-26.2434464004407,0
                 -55.649275700086,-26.2435170996426,0
                 -55.6498182995764,-26.2434349995855,0
-                -55.650126499679,-26.2427769003991,0
+                -55.650126499679,-26.2427769003992,0
                 -55.6489002996683,-26.2425549999638,0
                 -55.6489777003859,-26.2434464004407,0
               </coordinates>
@@ -3976,12 +3838,10 @@
             <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
             <SimpleData name="Lote">A</SimpleData>
             <SimpleData name="Parametro">0.80000000000</SimpleData>
-            <SimpleData name="Sup_Sig">0.93445291327</SimpleData>
             <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.67675594000</SimpleData>
             <SimpleData name="Y">-26.15636615000</SimpleData>
-            <SimpleData name="Shape_Leng">406.51239093000</SimpleData>
-            <SimpleData name="Shape_Area">9344.52913272000</SimpleData>
+            <SimpleData name="Sup_SIG">0.93445291326</SimpleData>
             <SimpleData name="cedula">3445656</SimpleData>
           </SchemaData>
         </ExtendedData>
@@ -3989,11 +3849,11 @@
           <outerBoundaryIs>
             <LinearRing>
               <coordinates>
-                -55.6763850001157,-26.1557783004423,0
-                -55.6764233003379,-26.1569733003421,0
+                -55.6763850001157,-26.1557783004424,0
+                -55.676423300338,-26.1569733003421,0
                 -55.6771300002461,-26.1569567004626,0
                 -55.6770833002341,-26.1557517998027,0
-                -55.6763850001157,-26.1557783004423,0
+                -55.6763850001157,-26.1557783004424,0
               </coordinates>
             </LinearRing>
           </outerBoundaryIs>
@@ -4028,12 +3888,10 @@
             <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
             <SimpleData name="Lote">A</SimpleData>
             <SimpleData name="Parametro">0.80000000000</SimpleData>
-            <SimpleData name="Sup_Sig">0.89138678998</SimpleData>
             <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.67325962000</SimpleData>
             <SimpleData name="Y">-26.14117702000</SimpleData>
-            <SimpleData name="Shape_Leng">498.30224700400</SimpleData>
-            <SimpleData name="Shape_Area">8913.86789983000</SimpleData>
+            <SimpleData name="Sup_SIG">0.89138678997</SimpleData>
             <SimpleData name="cedula">4886663</SimpleData>
           </SchemaData>
         </ExtendedData>
@@ -4083,12 +3941,10 @@
             <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
             <SimpleData name="Lote">A</SimpleData>
             <SimpleData name="Parametro">1.00000000000</SimpleData>
-            <SimpleData name="Sup_Sig">1.16248812276</SimpleData>
             <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.64876578000</SimpleData>
             <SimpleData name="Y">-26.69383990000</SimpleData>
-            <SimpleData name="Shape_Leng">443.11482657900</SimpleData>
-            <SimpleData name="Shape_Area">11624.88122760000</SimpleData>
+            <SimpleData name="Sup_SIG">1.16248812276</SimpleData>
             <SimpleData name="cedula">7271454</SimpleData>
           </SchemaData>
         </ExtendedData>
@@ -4098,7 +3954,7 @@
               <coordinates>
                 -55.6485136431492,-26.6932465572702,0
                 -55.6481261817463,-26.6940159859849,0
-                -55.6481348227972,-26.6940222232014,0
+                -55.6481348227972,-26.6940222232015,0
                 -55.6489611220251,-26.6946186761319,0
                 -55.6493841996229,-26.69372479979,0
                 -55.6493824659864,-26.6937231764057,0
@@ -4138,12 +3994,10 @@
             <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
             <SimpleData name="Lote">A</SimpleData>
             <SimpleData name="Parametro">0.80000000000</SimpleData>
-            <SimpleData name="Sup_Sig">0.85495978417</SimpleData>
             <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.68168689000</SimpleData>
             <SimpleData name="Y">-26.16625471000</SimpleData>
-            <SimpleData name="Shape_Leng">504.85849331300</SimpleData>
-            <SimpleData name="Shape_Area">8549.59784168000</SimpleData>
+            <SimpleData name="Sup_SIG">0.85495978414</SimpleData>
             <SimpleData name="cedula">5766160</SimpleData>
           </SchemaData>
         </ExtendedData>
@@ -4190,12 +4044,10 @@
             <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
             <SimpleData name="Lote">A</SimpleData>
             <SimpleData name="Parametro">0.80000000000</SimpleData>
-            <SimpleData name="Sup_Sig">0.84942952965</SimpleData>
             <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.58160738000</SimpleData>
             <SimpleData name="Y">-26.15262766000</SimpleData>
-            <SimpleData name="Shape_Leng">379.05990465200</SimpleData>
-            <SimpleData name="Shape_Area">8494.29529649000</SimpleData>
+            <SimpleData name="Sup_SIG">0.84942952964</SimpleData>
             <SimpleData name="cedula">5153841</SimpleData>
           </SchemaData>
         </ExtendedData>
@@ -4210,7 +4062,7 @@
                 -55.5812932997499,-26.1520466999718,0
                 -55.5812099997496,-26.1521317000594,0
                 -55.5812400005407,-26.1529032998599,0
-                -55.5813451000073,-26.1529165004614,0
+                -55.5813451000074,-26.1529165004614,0
                 -55.5814283004909,-26.1531299999859,0
               </coordinates>
             </LinearRing>
@@ -4246,12 +4098,10 @@
             <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
             <SimpleData name="Lote">A</SimpleData>
             <SimpleData name="Parametro">0.70000000000</SimpleData>
-            <SimpleData name="Sup_Sig">0.69760048184</SimpleData>
             <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.68421258000</SimpleData>
             <SimpleData name="Y">-26.23597990000</SimpleData>
-            <SimpleData name="Shape_Leng">636.32280001400</SimpleData>
-            <SimpleData name="Shape_Area">6976.00481838000</SimpleData>
+            <SimpleData name="Sup_SIG">0.69760048182</SimpleData>
             <SimpleData name="cedula">8242209</SimpleData>
           </SchemaData>
         </ExtendedData>
@@ -4261,7 +4111,7 @@
               <LinearRing>
                 <coordinates>
                   -55.6845320997625,-26.2370128002827,0
-                  -55.6845082995606,-26.2366517010677,0
+                  -55.6845082995606,-26.2366517010676,0
                   -55.684370499904,-26.2366898001329,0
                   -55.6842330987814,-26.2369249997589,0
                   -55.6845320997625,-26.2370128002827,0
@@ -4275,7 +4125,7 @@
                 <coordinates>
                   -55.6845887002567,-26.236174799826,0
                   -55.6847667000463,-26.236380000378,0
-                  -55.6850300006469,-26.2361300006442,0
+                  -55.685030000647,-26.2361300006442,0
                   -55.684393299263,-26.2356332999093,0
                   -55.6839632989698,-26.2360317006175,0
                   -55.6842860993923,-26.2362363003863,0
@@ -4329,12 +4179,10 @@
             <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
             <SimpleData name="Lote">A</SimpleData>
             <SimpleData name="Parametro">1.00000000000</SimpleData>
-            <SimpleData name="Sup_Sig">1.01775722688</SimpleData>
             <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.64908533000</SimpleData>
             <SimpleData name="Y">-26.69532715000</SimpleData>
-            <SimpleData name="Shape_Leng">408.84256010700</SimpleData>
-            <SimpleData name="Shape_Area">10177.57226880000</SimpleData>
+            <SimpleData name="Sup_SIG">1.01775722688</SimpleData>
             <SimpleData name="cedula">6889177</SimpleData>
           </SchemaData>
         </ExtendedData>
@@ -4381,12 +4229,10 @@
             <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
             <SimpleData name="Lote">A</SimpleData>
             <SimpleData name="Parametro">0.80000000000</SimpleData>
-            <SimpleData name="Sup_Sig">0.85282551751</SimpleData>
             <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.67384717000</SimpleData>
             <SimpleData name="Y">-26.14042200000</SimpleData>
-            <SimpleData name="Shape_Leng">442.67103653200</SimpleData>
-            <SimpleData name="Shape_Area">8528.25517512000</SimpleData>
+            <SimpleData name="Sup_SIG">0.85282551752</SimpleData>
             <SimpleData name="cedula">6593223</SimpleData>
           </SchemaData>
         </ExtendedData>
@@ -4395,7 +4241,7 @@
             <LinearRing>
               <coordinates>
                 -55.6729628004227,-26.140597600027,0
-                -55.6747171997263,-26.1406929000426,0
+                -55.6747171997263,-26.1406929000427,0
                 -55.6747364998773,-26.1402847999602,0
                 -55.6730784005489,-26.1401135999105,0
                 -55.6729628004227,-26.140597600027,0
@@ -4433,12 +4279,10 @@
             <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
             <SimpleData name="Lote">A</SimpleData>
             <SimpleData name="Parametro">1.00000000000</SimpleData>
-            <SimpleData name="Sup_Sig">1.11786741317</SimpleData>
             <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.64855388000</SimpleData>
             <SimpleData name="Y">-26.69209441000</SimpleData>
-            <SimpleData name="Shape_Leng">432.20136980200</SimpleData>
-            <SimpleData name="Shape_Area">11178.67413170000</SimpleData>
+            <SimpleData name="Sup_SIG">1.11786741316</SimpleData>
             <SimpleData name="cedula">6768856</SimpleData>
           </SchemaData>
         </ExtendedData>
@@ -4447,7 +4291,7 @@
             <LinearRing>
               <coordinates>
                 -55.6480830478569,-26.6923590385164,0
-                -55.6486701002799,-26.6928710996657,0
+                -55.64867010028,-26.6928710996657,0
                 -55.6491917003377,-26.6919633002367,0
                 -55.6484249997797,-26.6913232999203,0
                 -55.6479216996374,-26.6922183001152,0
@@ -4487,12 +4331,10 @@
             <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
             <SimpleData name="Lote">A</SimpleData>
             <SimpleData name="Parametro">1.00000000000</SimpleData>
-            <SimpleData name="Sup_Sig">1.01912018527</SimpleData>
             <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.65082505000</SimpleData>
             <SimpleData name="Y">-26.69377054000</SimpleData>
-            <SimpleData name="Shape_Leng">410.88716964500</SimpleData>
-            <SimpleData name="Shape_Area">10191.20185270000</SimpleData>
+            <SimpleData name="Sup_SIG">1.01912018526</SimpleData>
             <SimpleData name="cedula">7108865</SimpleData>
           </SchemaData>
         </ExtendedData>
@@ -4543,12 +4385,10 @@
             <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
             <SimpleData name="Lote">A</SimpleData>
             <SimpleData name="Parametro">1.00000000000</SimpleData>
-            <SimpleData name="Sup_Sig">1.14588799458</SimpleData>
             <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.64693772000</SimpleData>
             <SimpleData name="Y">-26.69497916000</SimpleData>
-            <SimpleData name="Shape_Leng">435.51173960200</SimpleData>
-            <SimpleData name="Shape_Area">11458.87994580000</SimpleData>
+            <SimpleData name="Sup_SIG">1.14588799458</SimpleData>
             <SimpleData name="cedula">7239001</SimpleData>
           </SchemaData>
         </ExtendedData>
@@ -4595,12 +4435,10 @@
             <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
             <SimpleData name="Lote">A</SimpleData>
             <SimpleData name="Parametro">0.70000000000</SimpleData>
-            <SimpleData name="Sup_Sig">0.87504220952</SimpleData>
             <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.69654777000</SimpleData>
             <SimpleData name="Y">-26.22178639000</SimpleData>
-            <SimpleData name="Shape_Leng">380.99244209600</SimpleData>
-            <SimpleData name="Shape_Area">8750.42209517000</SimpleData>
+            <SimpleData name="Sup_SIG">0.87504220952</SimpleData>
             <SimpleData name="cedula">1971289</SimpleData>
           </SchemaData>
         </ExtendedData>
@@ -4608,13 +4446,13 @@
           <outerBoundaryIs>
             <LinearRing>
               <coordinates>
-                -55.6959517003251,-26.2221450003597,0
+                -55.6959517003252,-26.2221450003597,0
                 -55.6961732998873,-26.2221852998418,0
                 -55.6972500004872,-26.2219697005252,0
                 -55.6969963996359,-26.2213046002752,0
                 -55.6960702004277,-26.2215888003014,0
                 -55.6958515004891,-26.2217651005187,0
-                -55.6959517003251,-26.2221450003597,0
+                -55.6959517003252,-26.2221450003597,0
               </coordinates>
             </LinearRing>
           </outerBoundaryIs>
@@ -4649,12 +4487,10 @@
             <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
             <SimpleData name="Lote">A</SimpleData>
             <SimpleData name="Parametro">1.00000000000</SimpleData>
-            <SimpleData name="Sup_Sig">1.03328380642</SimpleData>
             <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.65078824000</SimpleData>
             <SimpleData name="Y">-26.69255655000</SimpleData>
-            <SimpleData name="Shape_Leng">413.90398754400</SimpleData>
-            <SimpleData name="Shape_Area">10332.83806420000</SimpleData>
+            <SimpleData name="Sup_SIG">1.03328380642</SimpleData>
             <SimpleData name="cedula">8068664</SimpleData>
           </SchemaData>
         </ExtendedData>
@@ -4705,12 +4541,10 @@
             <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
             <SimpleData name="Lote">A</SimpleData>
             <SimpleData name="Parametro">0.80000000000</SimpleData>
-            <SimpleData name="Sup_Sig">0.88585967269</SimpleData>
             <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.68179958000</SimpleData>
             <SimpleData name="Y">-26.16588641000</SimpleData>
-            <SimpleData name="Shape_Leng">524.05378979700</SimpleData>
-            <SimpleData name="Shape_Area">8858.59672691000</SimpleData>
+            <SimpleData name="Sup_SIG">0.88585967270</SimpleData>
             <SimpleData name="cedula">5766123</SimpleData>
           </SchemaData>
         </ExtendedData>
@@ -4758,12 +4592,10 @@
             <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
             <SimpleData name="Lote">A</SimpleData>
             <SimpleData name="Parametro">0.80000000000</SimpleData>
-            <SimpleData name="Sup_Sig">0.84463748360</SimpleData>
             <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.68234519000</SimpleData>
             <SimpleData name="Y">-26.23521509000</SimpleData>
-            <SimpleData name="Shape_Leng">386.82003153900</SimpleData>
-            <SimpleData name="Shape_Area">8446.37483601000</SimpleData>
+            <SimpleData name="Sup_SIG">0.84463748360</SimpleData>
             <SimpleData name="cedula">2689491</SimpleData>
           </SchemaData>
         </ExtendedData>
@@ -4816,12 +4648,10 @@
             <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
             <SimpleData name="Lote">A</SimpleData>
             <SimpleData name="Parametro">0.80000000000</SimpleData>
-            <SimpleData name="Sup_Sig">0.83411245211</SimpleData>
             <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.69388719000</SimpleData>
             <SimpleData name="Y">-26.23091420000</SimpleData>
-            <SimpleData name="Shape_Leng">361.78592419100</SimpleData>
-            <SimpleData name="Shape_Area">8341.12452110000</SimpleData>
+            <SimpleData name="Sup_SIG">0.83411245210</SimpleData>
             <SimpleData name="cedula">7653388</SimpleData>
           </SchemaData>
         </ExtendedData>
@@ -4832,7 +4662,7 @@
                 -55.6936298998076,-26.2311652004678,0
                 -55.6942617003827,-26.2314582997699,0
                 -55.6943933000533,-26.2312616998887,0
-                -55.6944466999846,-26.2308816997714,0
+                -55.6944466999845,-26.2308816997714,0
                 -55.6942882004215,-26.2306430997312,0
                 -55.6934571004863,-26.2304560000937,0
                 -55.6931916996863,-26.2308283004347,0
@@ -4871,12 +4701,10 @@
             <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
             <SimpleData name="Lote">A</SimpleData>
             <SimpleData name="Parametro">0.80000000000</SimpleData>
-            <SimpleData name="Sup_Sig">0.97065856589</SimpleData>
             <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.70516945000</SimpleData>
             <SimpleData name="Y">-26.24953220000</SimpleData>
-            <SimpleData name="Shape_Leng">551.75519893200</SimpleData>
-            <SimpleData name="Shape_Area">9706.58565894000</SimpleData>
+            <SimpleData name="Sup_SIG">0.97065856589</SimpleData>
             <SimpleData name="cedula">7111615</SimpleData>
           </SchemaData>
         </ExtendedData>
@@ -4925,12 +4753,10 @@
             <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
             <SimpleData name="Lote">A</SimpleData>
             <SimpleData name="Parametro">0.70000000000</SimpleData>
-            <SimpleData name="Sup_Sig">0.77379797878</SimpleData>
             <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.58597358000</SimpleData>
             <SimpleData name="Y">-26.17041964000</SimpleData>
-            <SimpleData name="Shape_Leng">372.39540059500</SimpleData>
-            <SimpleData name="Shape_Area">7737.97978782000</SimpleData>
+            <SimpleData name="Sup_SIG">0.77379797880</SimpleData>
             <SimpleData name="cedula">4778713</SimpleData>
           </SchemaData>
         </ExtendedData>
@@ -4981,12 +4807,10 @@
             <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
             <SimpleData name="Lote">A</SimpleData>
             <SimpleData name="Parametro">0.80000000000</SimpleData>
-            <SimpleData name="Sup_Sig">0.98228202220</SimpleData>
             <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.66689205000</SimpleData>
             <SimpleData name="Y">-26.23483025000</SimpleData>
-            <SimpleData name="Shape_Leng">575.54430979400</SimpleData>
-            <SimpleData name="Shape_Area">9822.82022198000</SimpleData>
+            <SimpleData name="Sup_SIG">0.98228202220</SimpleData>
             <SimpleData name="cedula">5639709</SimpleData>
           </SchemaData>
         </ExtendedData>
@@ -4996,7 +4820,7 @@
               <LinearRing>
                 <coordinates>
                   -55.6676499999913,-26.2354330000997,0
-                  -55.6678416990344,-26.235431800019,0
+                  -55.6678416990344,-26.2354318000191,0
                   -55.6678232990251,-26.2346482999795,0
                   -55.6676282997056,-26.2346582005176,0
                   -55.6676499999913,-26.2354330000997,0
@@ -5008,13 +4832,13 @@
             <outerBoundaryIs>
               <LinearRing>
                 <coordinates>
-                  -55.6661666997339,-26.235156699892,0
+                  -55.666166699734,-26.235156699892,0
                   -55.6672666998315,-26.235063300466,0
                   -55.6672866993199,-26.2343917001701,0
                   -55.666744999475,-26.2344333005323,0
                   -55.6662982991938,-26.2345550000903,0
                   -55.6660666990344,-26.2347299999006,0
-                  -55.6661666997339,-26.235156699892,0
+                  -55.666166699734,-26.235156699892,0
                 </coordinates>
               </LinearRing>
             </outerBoundaryIs>
@@ -5050,12 +4874,10 @@
             <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
             <SimpleData name="Lote">A</SimpleData>
             <SimpleData name="Parametro">0.80000000000</SimpleData>
-            <SimpleData name="Sup_Sig">0.99165555692</SimpleData>
             <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.56735816000</SimpleData>
             <SimpleData name="Y">-26.14153320000</SimpleData>
-            <SimpleData name="Shape_Leng">497.74752180600</SimpleData>
-            <SimpleData name="Shape_Area">9916.55556918000</SimpleData>
+            <SimpleData name="Sup_SIG">0.99165555694</SimpleData>
             <SimpleData name="cedula">5668331</SimpleData>
           </SchemaData>
         </ExtendedData>
@@ -5064,7 +4886,7 @@
             <LinearRing>
               <coordinates>
                 -55.5670541732767,-26.1419707238013,0
-                -55.5670334446266,-26.1424369363554,0
+                -55.5670334446265,-26.1424369363554,0
                 -55.5675267000936,-26.1424149996556,0
                 -55.5676900002347,-26.1406366999303,0
                 -55.5672167004415,-26.1406100001493,0
@@ -5103,12 +4925,10 @@
             <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
             <SimpleData name="Lote">A</SimpleData>
             <SimpleData name="Parametro">0.80000000000</SimpleData>
-            <SimpleData name="Sup_Sig">0.87007734665</SimpleData>
             <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.69762972000</SimpleData>
             <SimpleData name="Y">-26.21226221000</SimpleData>
-            <SimpleData name="Shape_Leng">545.54242766400</SimpleData>
-            <SimpleData name="Shape_Area">8700.77346645000</SimpleData>
+            <SimpleData name="Sup_SIG">0.87007734665</SimpleData>
             <SimpleData name="cedula">4593966</SimpleData>
           </SchemaData>
         </ExtendedData>
@@ -5157,12 +4977,10 @@
             <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
             <SimpleData name="Lote">A</SimpleData>
             <SimpleData name="Parametro">0.80000000000</SimpleData>
-            <SimpleData name="Sup_Sig">0.80148959745</SimpleData>
             <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.56681940000</SimpleData>
             <SimpleData name="Y">-26.14209312000</SimpleData>
-            <SimpleData name="Shape_Leng">445.95651448300</SimpleData>
-            <SimpleData name="Shape_Area">8014.89597452000</SimpleData>
+            <SimpleData name="Sup_SIG">0.80148959746</SimpleData>
             <SimpleData name="cedula">6588622</SimpleData>
           </SchemaData>
         </ExtendedData>
@@ -5170,13 +4988,13 @@
           <outerBoundaryIs>
             <LinearRing>
               <coordinates>
-                -55.5670334446266,-26.1424369363554,0
+                -55.5670334446265,-26.1424369363554,0
                 -55.5670541732767,-26.1419707238013,0
                 -55.567081699944,-26.1413516003172,0
                 -55.5666300004893,-26.1412416997058,0
                 -55.5665633000203,-26.1428982998697,0
                 -55.5670133003935,-26.1428900000722,0
-                -55.5670334446266,-26.1424369363554,0
+                -55.5670334446265,-26.1424369363554,0
               </coordinates>
             </LinearRing>
           </outerBoundaryIs>
@@ -5211,12 +5029,10 @@
             <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
             <SimpleData name="Lote">A</SimpleData>
             <SimpleData name="Parametro">0.70000000000</SimpleData>
-            <SimpleData name="Sup_Sig">0.69787206777</SimpleData>
             <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.83105111000</SimpleData>
             <SimpleData name="Y">-26.68692730000</SimpleData>
-            <SimpleData name="Shape_Leng">499.81934544300</SimpleData>
-            <SimpleData name="Shape_Area">6978.72067774000</SimpleData>
+            <SimpleData name="Sup_SIG">0.69787206777</SimpleData>
             <SimpleData name="cedula">6607303</SimpleData>
           </SchemaData>
         </ExtendedData>
@@ -5226,7 +5042,7 @@
               <LinearRing>
                 <coordinates>
                   -55.8307596997499,-26.6874479997785,0
-                  -55.83155729982,-26.6869523999233,0
+                  -55.83155729982,-26.6869523999232,0
                   -55.831210200087,-26.6865261996665,0
                   -55.8303850000068,-26.6869951999126,0
                   -55.8307596997499,-26.6874479997785,0
@@ -5278,12 +5094,10 @@
             <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
             <SimpleData name="Lote">A</SimpleData>
             <SimpleData name="Parametro">0.70000000000</SimpleData>
-            <SimpleData name="Sup_Sig">0.72580757516</SimpleData>
             <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.82866767000</SimpleData>
             <SimpleData name="Y">-26.73221058000</SimpleData>
-            <SimpleData name="Shape_Leng">537.92685734300</SimpleData>
-            <SimpleData name="Shape_Area">7258.07575156000</SimpleData>
+            <SimpleData name="Sup_SIG">0.72580757516</SimpleData>
             <SimpleData name="cedula">6655884</SimpleData>
           </SchemaData>
         </ExtendedData>
@@ -5305,11 +5119,11 @@
             <outerBoundaryIs>
               <LinearRing>
                 <coordinates>
-                  -55.8288300999105,-26.7327428998924,0
+                  -55.8288300999105,-26.7327428998925,0
                   -55.8292306002851,-26.7322665996432,0
                   -55.8283200000079,-26.7316999999292,0
                   -55.8281485003541,-26.7320438000829,0
-                  -55.8288300999105,-26.7327428998924,0
+                  -55.8288300999105,-26.7327428998925,0
                 </coordinates>
               </LinearRing>
             </outerBoundaryIs>
@@ -5345,12 +5159,10 @@
             <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
             <SimpleData name="Lote">A</SimpleData>
             <SimpleData name="Parametro">0.80000000000</SimpleData>
-            <SimpleData name="Sup_Sig">0.85163912159</SimpleData>
             <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.71202431000</SimpleData>
             <SimpleData name="Y">-26.31121299000</SimpleData>
-            <SimpleData name="Shape_Leng">370.46648855000</SimpleData>
-            <SimpleData name="Shape_Area">8516.39121586000</SimpleData>
+            <SimpleData name="Sup_SIG">0.85163912161</SimpleData>
             <SimpleData name="cedula">5730725</SimpleData>
           </SchemaData>
         </ExtendedData>
@@ -5397,12 +5209,10 @@
             <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
             <SimpleData name="Lote">A</SimpleData>
             <SimpleData name="Parametro">0.80000000000</SimpleData>
-            <SimpleData name="Sup_Sig">0.82353038761</SimpleData>
             <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.83978559000</SimpleData>
             <SimpleData name="Y">-26.72363442000</SimpleData>
-            <SimpleData name="Shape_Leng">444.24610725100</SimpleData>
-            <SimpleData name="Shape_Area">8235.30387607000</SimpleData>
+            <SimpleData name="Sup_SIG">0.82353038762</SimpleData>
             <SimpleData name="cedula">6600755</SimpleData>
           </SchemaData>
         </ExtendedData>
@@ -5415,7 +5225,7 @@
                 -55.8391941005779,-26.7231932239857,0
                 -55.8389715001342,-26.7235317004298,0
                 -55.8405298998332,-26.7242181003331,0
-                -55.8406644998927,-26.7239649998815,0
+                -55.8406644998926,-26.7239649998815,0
                 -55.8400955000842,-26.7236558001201,0
                 -55.8401891004902,-26.7234877998468,0
                 -55.8394117004892,-26.7231310998251,0
@@ -5454,12 +5264,10 @@
             <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
             <SimpleData name="Lote">A</SimpleData>
             <SimpleData name="Parametro">0.80000000000</SimpleData>
-            <SimpleData name="Sup_Sig">0.81182705350</SimpleData>
             <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.59825002000</SimpleData>
             <SimpleData name="Y">-26.14222257000</SimpleData>
-            <SimpleData name="Shape_Leng">448.01970983100</SimpleData>
-            <SimpleData name="Shape_Area">8118.27053496000</SimpleData>
+            <SimpleData name="Sup_SIG">0.81182705348</SimpleData>
             <SimpleData name="cedula">5153887</SimpleData>
           </SchemaData>
         </ExtendedData>
@@ -5467,13 +5275,13 @@
           <outerBoundaryIs>
             <LinearRing>
               <coordinates>
-                -55.597941699961,-26.1415300003041,0
+                -55.597941699961,-26.1415300003042,0
                 -55.5981069001108,-26.1430414998711,0
                 -55.598241699578,-26.1430032997103,0
                 -55.5985716995419,-26.1430233001175,0
-                -55.5983774997871,-26.1413761002434,0
+                -55.598377499787,-26.1413761002434,0
                 -55.5980333000275,-26.1414332998543,0
-                -55.597941699961,-26.1415300003041,0
+                -55.597941699961,-26.1415300003042,0
               </coordinates>
             </LinearRing>
           </outerBoundaryIs>
@@ -5508,12 +5316,10 @@
             <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
             <SimpleData name="Lote">A</SimpleData>
             <SimpleData name="Parametro">0.80000000000</SimpleData>
-            <SimpleData name="Sup_Sig">0.84922054961</SimpleData>
             <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.83893037000</SimpleData>
             <SimpleData name="Y">-26.72274447000</SimpleData>
-            <SimpleData name="Shape_Leng">426.42765000600</SimpleData>
-            <SimpleData name="Shape_Area">8492.20549606000</SimpleData>
+            <SimpleData name="Sup_SIG">0.84922054961</SimpleData>
             <SimpleData name="cedula">8141631</SimpleData>
           </SchemaData>
         </ExtendedData>
@@ -5527,13 +5333,13 @@
                 -55.8394695003728,-26.7229087999135,0
                 -55.8393027997235,-26.7227805002403,0
                 -55.8394050001352,-26.7226012995785,0
-                -55.8395047003855,-26.7223617001914,0
+                -55.8395047003855,-26.7223617001915,0
                 -55.8390066996387,-26.72219170037,0
                 -55.8385275000654,-26.7227322000076,0
                 -55.8383315001009,-26.7226267001941,0
                 -55.8381431004511,-26.722926900192,0
                 -55.8388314995206,-26.7231686999542,0
-                -55.838923499793,-26.7230640998757,0
+                -55.8389234997931,-26.7230640998757,0
                 -55.8391423004546,-26.7231976002349,0
                 -55.8391941005779,-26.7231932239857,0
               </coordinates>
@@ -5570,12 +5376,10 @@
             <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
             <SimpleData name="Lote">A</SimpleData>
             <SimpleData name="Parametro">0.70000000000</SimpleData>
-            <SimpleData name="Sup_Sig">0.72223076180</SimpleData>
             <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.83693910000</SimpleData>
             <SimpleData name="Y">-26.69010755000</SimpleData>
-            <SimpleData name="Shape_Leng">358.90393573200</SimpleData>
-            <SimpleData name="Shape_Area">7222.30761799000</SimpleData>
+            <SimpleData name="Sup_SIG">0.72223076180</SimpleData>
             <SimpleData name="cedula">5129578</SimpleData>
           </SchemaData>
         </ExtendedData>
@@ -5624,12 +5428,10 @@
             <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
             <SimpleData name="Lote">A</SimpleData>
             <SimpleData name="Parametro">0.80000000000</SimpleData>
-            <SimpleData name="Sup_Sig">0.87857322202</SimpleData>
             <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.69756274000</SimpleData>
             <SimpleData name="Y">-26.16406405000</SimpleData>
-            <SimpleData name="Shape_Leng">376.24103387600</SimpleData>
-            <SimpleData name="Shape_Area">8785.73222017000</SimpleData>
+            <SimpleData name="Sup_SIG">0.87857322202</SimpleData>
             <SimpleData name="cedula">1813436</SimpleData>
           </SchemaData>
         </ExtendedData>
@@ -5676,12 +5478,10 @@
             <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
             <SimpleData name="Lote">A</SimpleData>
             <SimpleData name="Parametro">0.80000000000</SimpleData>
-            <SimpleData name="Sup_Sig">1.12122225410</SimpleData>
             <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.58987042000</SimpleData>
             <SimpleData name="Y">-26.23611739000</SimpleData>
-            <SimpleData name="Shape_Leng">424.39720986500</SimpleData>
-            <SimpleData name="Shape_Area">11212.22254100000</SimpleData>
+            <SimpleData name="Sup_SIG">1.12122225412</SimpleData>
             <SimpleData name="cedula">7094797</SimpleData>
           </SchemaData>
         </ExtendedData>
@@ -5728,12 +5528,10 @@
             <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
             <SimpleData name="Lote">A</SimpleData>
             <SimpleData name="Parametro">0.70000000000</SimpleData>
-            <SimpleData name="Sup_Sig">0.70071504061</SimpleData>
             <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.86698427000</SimpleData>
             <SimpleData name="Y">-26.69109508000</SimpleData>
-            <SimpleData name="Shape_Leng">554.60299357200</SimpleData>
-            <SimpleData name="Shape_Area">7007.15040612000</SimpleData>
+            <SimpleData name="Sup_SIG">0.70071504061</SimpleData>
             <SimpleData name="cedula">6021948</SimpleData>
           </SchemaData>
         </ExtendedData>
@@ -5796,12 +5594,10 @@
             <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
             <SimpleData name="Lote">A</SimpleData>
             <SimpleData name="Parametro">0.70000000000</SimpleData>
-            <SimpleData name="Sup_Sig">0.70621480163</SimpleData>
             <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.83935678000</SimpleData>
             <SimpleData name="Y">-26.72571758000</SimpleData>
-            <SimpleData name="Shape_Leng">342.52720236000</SimpleData>
-            <SimpleData name="Shape_Area">7062.14801627000</SimpleData>
+            <SimpleData name="Sup_SIG">0.70621480163</SimpleData>
             <SimpleData name="cedula">7112602</SimpleData>
           </SchemaData>
         </ExtendedData>
@@ -5850,12 +5646,10 @@
             <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
             <SimpleData name="Lote">A</SimpleData>
             <SimpleData name="Parametro">0.70000000000</SimpleData>
-            <SimpleData name="Sup_Sig">0.70393483897</SimpleData>
             <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.83922527000</SimpleData>
             <SimpleData name="Y">-26.72455350000</SimpleData>
-            <SimpleData name="Shape_Leng">388.51709346900</SimpleData>
-            <SimpleData name="Shape_Area">7039.34838969000</SimpleData>
+            <SimpleData name="Sup_SIG">0.70393483898</SimpleData>
             <SimpleData name="cedula">6745283</SimpleData>
           </SchemaData>
         </ExtendedData>
@@ -5863,14 +5657,14 @@
           <outerBoundaryIs>
             <LinearRing>
               <coordinates>
-                -55.8386632996747,-26.7241317000864,0
+                -55.8386632996746,-26.7241317000864,0
                 -55.8384218992172,-26.724413399963,0
-                -55.8396199996374,-26.7250451000732,0
+                -55.8396199996375,-26.7250451000732,0
                 -55.8398933990459,-26.7246015993122,0
                 -55.8397770996581,-26.7244728998021,0
                 -55.8392615993044,-26.7242069000046,0
                 -55.8391471991223,-26.724376999903,0
-                -55.8386632996747,-26.7241317000864,0
+                -55.8386632996746,-26.7241317000864,0
               </coordinates>
             </LinearRing>
           </outerBoundaryIs>
@@ -5905,12 +5699,10 @@
             <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
             <SimpleData name="Lote">A</SimpleData>
             <SimpleData name="Parametro">0.70000000000</SimpleData>
-            <SimpleData name="Sup_Sig">0.72830534329</SimpleData>
             <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.84922888000</SimpleData>
             <SimpleData name="Y">-26.72515306000</SimpleData>
-            <SimpleData name="Shape_Leng">401.62602284900</SimpleData>
-            <SimpleData name="Shape_Area">7283.05343294000</SimpleData>
+            <SimpleData name="Sup_SIG">0.72830534330</SimpleData>
             <SimpleData name="cedula">7197021</SimpleData>
           </SchemaData>
         </ExtendedData>
@@ -5957,12 +5749,10 @@
             <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
             <SimpleData name="Lote">A</SimpleData>
             <SimpleData name="Parametro">0.80000000000</SimpleData>
-            <SimpleData name="Sup_Sig">0.95258242813</SimpleData>
             <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.59874054000</SimpleData>
             <SimpleData name="Y">-26.26086832000</SimpleData>
-            <SimpleData name="Shape_Leng">412.54207437500</SimpleData>
-            <SimpleData name="Shape_Area">9525.82428125000</SimpleData>
+            <SimpleData name="Sup_SIG">0.95258242812</SimpleData>
             <SimpleData name="cedula">2421355</SimpleData>
           </SchemaData>
         </ExtendedData>
@@ -5972,7 +5762,7 @@
               <coordinates>
                 -55.5982217997684,-26.2606346000246,0
                 -55.5987532997111,-26.2615699996067,0
-                -55.5989164996084,-26.2615316997649,0
+                -55.5989164996085,-26.2615316997649,0
                 -55.5993369994301,-26.2613184000726,0
                 -55.598701699811,-26.2601066997275,0
                 -55.5982496998485,-26.260381699979,0
@@ -6011,12 +5801,10 @@
             <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
             <SimpleData name="Lote">A</SimpleData>
             <SimpleData name="Parametro">0.70000000000</SimpleData>
-            <SimpleData name="Sup_Sig">0.73092494738</SimpleData>
             <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.84350365000</SimpleData>
             <SimpleData name="Y">-26.69489779000</SimpleData>
-            <SimpleData name="Shape_Leng">541.51193099600</SimpleData>
-            <SimpleData name="Shape_Area">7309.24947377000</SimpleData>
+            <SimpleData name="Sup_SIG">0.73092494738</SimpleData>
             <SimpleData name="cedula">1448656</SimpleData>
           </SchemaData>
         </ExtendedData>
@@ -6026,13 +5814,13 @@
               <coordinates>
                 -55.842975899491,-26.6940991998318,0
                 -55.8431627994111,-26.694761399376,0
-                -55.842927799757,-26.695081699274,0
+                -55.842927799757,-26.6950816992739,0
                 -55.8431311999297,-26.6953047998909,0
                 -55.8436210999402,-26.6949683993518,0
                 -55.8441480992118,-26.6955970997295,0
                 -55.8443342998409,-26.695447499669,0
-                -55.8436457996746,-26.6946143997548,0
-                -55.8435412997793,-26.6946606993939,0
+                -55.8436457996747,-26.6946143997548,0
+                -55.8435412997793,-26.694660699394,0
                 -55.8430456994752,-26.6940567995483,0
                 -55.842975899491,-26.6940991998318,0
               </coordinates>
@@ -6069,12 +5857,10 @@
             <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
             <SimpleData name="Lote">A</SimpleData>
             <SimpleData name="Parametro">0.70000000000</SimpleData>
-            <SimpleData name="Sup_Sig">0.73439809970</SimpleData>
             <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.83885725000</SimpleData>
             <SimpleData name="Y">-26.69283578000</SimpleData>
-            <SimpleData name="Shape_Leng">520.83998209700</SimpleData>
-            <SimpleData name="Shape_Area">7343.98099698000</SimpleData>
+            <SimpleData name="Sup_SIG">0.73439809970</SimpleData>
             <SimpleData name="cedula">4077626</SimpleData>
           </SchemaData>
         </ExtendedData>
@@ -6083,13 +5869,13 @@
             <outerBoundaryIs>
               <LinearRing>
                 <coordinates>
-                  -55.8407384997587,-26.6958586996439,0
+                  -55.8407384997586,-26.6958586996439,0
                   -55.8410096993813,-26.6956591995817,0
                   -55.8408223992609,-26.6954233997692,0
                   -55.8408957998398,-26.695369799312,0
                   -55.8406899990117,-26.6951153998232,0
                   -55.8402796990202,-26.69537590015,0
-                  -55.8407384997587,-26.6958586996439,0
+                  -55.8407384997586,-26.6958586996439,0
                 </coordinates>
               </LinearRing>
             </outerBoundaryIs>
@@ -6138,12 +5924,10 @@
             <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
             <SimpleData name="Lote">A</SimpleData>
             <SimpleData name="Parametro">0.70000000000</SimpleData>
-            <SimpleData name="Sup_Sig">0.69922904719</SimpleData>
             <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.83201902000</SimpleData>
             <SimpleData name="Y">-26.72940545000</SimpleData>
-            <SimpleData name="Shape_Leng">332.06156055800</SimpleData>
-            <SimpleData name="Shape_Area">6992.29047188000</SimpleData>
+            <SimpleData name="Sup_SIG">0.69922904719</SimpleData>
             <SimpleData name="cedula">6373818</SimpleData>
           </SchemaData>
         </ExtendedData>
@@ -6156,7 +5940,7 @@
                 -55.8326055992493,-26.7293234995259,0
                 -55.83193119967,-26.728956399802,0
                 -55.8317866994512,-26.7289701995986,0
-                -55.8313963997131,-26.72940640003,0
+                -55.8313963997131,-26.7294064000301,0
                 -55.8317548998958,-26.7296473001431,0
               </coordinates>
             </LinearRing>
@@ -6192,12 +5976,10 @@
             <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
             <SimpleData name="Lote">A</SimpleData>
             <SimpleData name="Parametro">0.70000000000</SimpleData>
-            <SimpleData name="Sup_Sig">0.77282309194</SimpleData>
             <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.73380390000</SimpleData>
             <SimpleData name="Y">-26.59665265000</SimpleData>
-            <SimpleData name="Shape_Leng">436.10925819400</SimpleData>
-            <SimpleData name="Shape_Area">7728.23091939000</SimpleData>
+            <SimpleData name="Sup_SIG">0.77282309195</SimpleData>
             <SimpleData name="cedula">5449941</SimpleData>
           </SchemaData>
         </ExtendedData>
@@ -6244,12 +6026,10 @@
             <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
             <SimpleData name="Lote">A</SimpleData>
             <SimpleData name="Parametro">0.80000000000</SimpleData>
-            <SimpleData name="Sup_Sig">0.81792484229</SimpleData>
             <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.60296356000</SimpleData>
             <SimpleData name="Y">-26.24208706000</SimpleData>
-            <SimpleData name="Shape_Leng">600.77486781900</SimpleData>
-            <SimpleData name="Shape_Area">8179.24842290000</SimpleData>
+            <SimpleData name="Sup_SIG">0.81792484228</SimpleData>
             <SimpleData name="cedula">5027967</SimpleData>
           </SchemaData>
         </ExtendedData>
@@ -6262,8 +6042,8 @@
                   -55.6036049995105,-26.242326999303,0
                   -55.603559999814,-26.2419366996036,0
                   -55.6032148991076,-26.241856399823,0
-                  -55.6032165993175,-26.2418448994456,0
-                  -55.6021045990873,-26.2418714997484,0
+                  -55.6032165993174,-26.2418448994456,0
+                  -55.6021045990874,-26.2418714997484,0
                   -55.6021832990929,-26.2422832999173,0
                   -55.6023332991388,-26.2422916999872,0
                   -55.6023649995002,-26.2423432995603,0
@@ -6320,12 +6100,10 @@
             <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
             <SimpleData name="Lote">A</SimpleData>
             <SimpleData name="Parametro">0.80000000000</SimpleData>
-            <SimpleData name="Sup_Sig">0.86186007640</SimpleData>
             <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.56287221000</SimpleData>
             <SimpleData name="Y">-26.15673759000</SimpleData>
-            <SimpleData name="Shape_Leng">413.59428082900</SimpleData>
-            <SimpleData name="Shape_Area">8618.60076400000</SimpleData>
+            <SimpleData name="Sup_SIG">0.86186007640</SimpleData>
             <SimpleData name="cedula">7011500</SimpleData>
           </SchemaData>
         </ExtendedData>
@@ -6333,11 +6111,11 @@
           <outerBoundaryIs>
             <LinearRing>
               <coordinates>
-                -55.5624316993886,-26.1561399994184,0
+                -55.5624316993887,-26.1561399994184,0
                 -55.5627566996744,-26.1574750003563,0
                 -55.5633105003554,-26.1573098995936,0
                 -55.5629967001878,-26.1560232999917,0
-                -55.5624316993886,-26.1561399994184,0
+                -55.5624316993887,-26.1561399994184,0
               </coordinates>
             </LinearRing>
           </outerBoundaryIs>
@@ -6372,12 +6150,10 @@
             <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
             <SimpleData name="Lote">A</SimpleData>
             <SimpleData name="Parametro">0.70000000000</SimpleData>
-            <SimpleData name="Sup_Sig">0.70009498008</SimpleData>
             <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.68380211000</SimpleData>
             <SimpleData name="Y">-26.22932872000</SimpleData>
-            <SimpleData name="Shape_Leng">446.67033550300</SimpleData>
-            <SimpleData name="Shape_Area">7000.94980077000</SimpleData>
+            <SimpleData name="Sup_SIG">0.70009498008</SimpleData>
             <SimpleData name="cedula">1451905</SimpleData>
           </SchemaData>
         </ExtendedData>
@@ -6389,8 +6165,8 @@
                 -55.6836099997902,-26.2294599999454,0
                 -55.6831032998977,-26.2294282996365,0
                 -55.6830602003174,-26.2296714000381,0
-                -55.6841250004532,-26.2296731998077,0
-                -55.6844182994318,-26.2289150001736,0
+                -55.6841250004532,-26.2296731998078,0
+                -55.6844182994318,-26.2289150001735,0
                 -55.6834214997705,-26.2290210995671,0
                 -55.6833666996331,-26.2292183005234,0
                 -55.6836416997537,-26.2292568002898,0
@@ -6428,12 +6204,10 @@
             <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
             <SimpleData name="Lote">A</SimpleData>
             <SimpleData name="Parametro">0.70000000000</SimpleData>
-            <SimpleData name="Sup_Sig">0.79137325475</SimpleData>
             <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.58398029000</SimpleData>
             <SimpleData name="Y">-26.24168078000</SimpleData>
-            <SimpleData name="Shape_Leng">407.92392591200</SimpleData>
-            <SimpleData name="Shape_Area">7913.73254755000</SimpleData>
+            <SimpleData name="Sup_SIG">0.79137325476</SimpleData>
             <SimpleData name="cedula">6297590</SimpleData>
           </SchemaData>
         </ExtendedData>
@@ -6482,12 +6256,10 @@
             <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
             <SimpleData name="Lote">A</SimpleData>
             <SimpleData name="Parametro">0.70000000000</SimpleData>
-            <SimpleData name="Sup_Sig">1.05418834380</SimpleData>
             <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.51269577000</SimpleData>
             <SimpleData name="Y">-26.06290543000</SimpleData>
-            <SimpleData name="Shape_Leng">432.81864754700</SimpleData>
-            <SimpleData name="Shape_Area">10541.88343800000</SimpleData>
+            <SimpleData name="Sup_SIG">1.05418834381</SimpleData>
             <SimpleData name="cedula">6580474</SimpleData>
           </SchemaData>
         </ExtendedData>
@@ -6534,12 +6306,10 @@
             <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
             <SimpleData name="Lote">A</SimpleData>
             <SimpleData name="Parametro">0.70000000000</SimpleData>
-            <SimpleData name="Sup_Sig">0.73549402412</SimpleData>
             <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.58652077000</SimpleData>
             <SimpleData name="Y">-26.23005196000</SimpleData>
-            <SimpleData name="Shape_Leng">458.03720283300</SimpleData>
-            <SimpleData name="Shape_Area">7354.94024125000</SimpleData>
+            <SimpleData name="Sup_SIG">0.73549402411</SimpleData>
             <SimpleData name="cedula">6777261</SimpleData>
           </SchemaData>
         </ExtendedData>
@@ -6590,12 +6360,10 @@
             <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
             <SimpleData name="Lote">A</SimpleData>
             <SimpleData name="Parametro">0.70000000000</SimpleData>
-            <SimpleData name="Sup_Sig">0.70527378491</SimpleData>
             <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.51231178000</SimpleData>
             <SimpleData name="Y">-26.06128904000</SimpleData>
-            <SimpleData name="Shape_Leng">358.94523737300</SimpleData>
-            <SimpleData name="Shape_Area">7052.73784908000</SimpleData>
+            <SimpleData name="Sup_SIG">0.70527378491</SimpleData>
             <SimpleData name="cedula">7495240</SimpleData>
           </SchemaData>
         </ExtendedData>
@@ -6642,12 +6410,10 @@
             <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
             <SimpleData name="Lote">A</SimpleData>
             <SimpleData name="Parametro">0.70000000000</SimpleData>
-            <SimpleData name="Sup_Sig">0.70692378060</SimpleData>
             <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.57341203000</SimpleData>
             <SimpleData name="Y">-26.25360633000</SimpleData>
-            <SimpleData name="Shape_Leng">517.19799098000</SimpleData>
-            <SimpleData name="Shape_Area">7069.23780603000</SimpleData>
+            <SimpleData name="Sup_SIG">0.70692378059</SimpleData>
             <SimpleData name="cedula">9115513</SimpleData>
           </SchemaData>
         </ExtendedData>
@@ -6657,7 +6423,7 @@
               <LinearRing>
                 <coordinates>
                   -55.5729850004101,-26.2540350003481,0
-                  -55.5732232998265,-26.2539318001905,0
+                  -55.5732232998265,-26.2539318001904,0
                   -55.5731486002552,-26.2534203006228,0
                   -55.5727132996032,-26.2534666998626,0
                   -55.5729850004101,-26.2540350003481,0
@@ -6684,6 +6450,599 @@
             </outerBoundaryIs>
           </Polygon>
         </MultiGeometry>
+      </Placemark>
+      <Placemark id="Lote_A.117">
+        <ExtendedData>
+          <SchemaData schemaUrl="#Lote_A.schema">
+            <SimpleData name="Cédula">5391246.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">MARISA RAMIREZ ALVAREZ</SimpleData>
+            <SimpleData name="Sexo">Mujer</SimpleData>
+            <SimpleData name="Cambio_de_">NO</SimpleData>
+            <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="ci_UNIF">5391246.00000000000</SimpleData>
+            <SimpleData name="Situación">NO</SimpleData>
+            <SimpleData name="Comunidad">Campesina</SimpleData>
+            <SimpleData name="Modelo_imp">Modelo 1</SimpleData>
+            <SimpleData name="Departamen">CAAZAPA</SimpleData>
+            <SimpleData name="Distrito">TAVA?</SimpleData>
+            <SimpleData name="Localidad">TORO BLANCO</SimpleData>
+            <SimpleData name="Teléfono">0985477911</SimpleData>
+            <SimpleData name="Vivienda_L">-26.20649530000</SimpleData>
+            <SimpleData name="Vivienda_1">-55.66012140000</SimpleData>
+            <SimpleData name="Superficie">0.80000000000</SimpleData>
+            <SimpleData name="Situaci_1">Pol?gono</SimpleData>
+            <SimpleData name="Plantado">SI</SimpleData>
+            <SimpleData name="Plantado_f">2025/10/12</SimpleData>
+            <SimpleData name="Jornales">0.00000000000</SimpleData>
+            <SimpleData name="Monto">0.00000000000</SimpleData>
+            <SimpleData name="Grupo_de_p">A-GN</SimpleData>
+            <SimpleData name="Estado_del">Activo</SimpleData>
+            <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
+            <SimpleData name="Lote">A</SimpleData>
+            <SimpleData name="Parametro">0.00000000000</SimpleData>
+            <SimpleData name="X">-55.66056626000</SimpleData>
+            <SimpleData name="Y">-26.20272142000</SimpleData>
+            <SimpleData name="Sup_SIG">0.80776023728</SimpleData>
+            <SimpleData name="cedula">5391246</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+                -55.6602167001112,-26.203298299812,0
+                -55.6608048999979,-26.2033377004919,0
+                -55.6609432994635,-26.2021649995914,0
+                -55.6602966997587,-26.2021216999044,0
+                -55.6602167001112,-26.203298299812,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark id="Lote_A.118">
+        <ExtendedData>
+          <SchemaData schemaUrl="#Lote_A.schema">
+            <SimpleData name="Cédula">5452923.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">CLAUDIO BENITEZ GARAY</SimpleData>
+            <SimpleData name="Sexo">Hombre</SimpleData>
+            <SimpleData name="Cambio_de_">NO</SimpleData>
+            <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="ci_UNIF">5452923.00000000000</SimpleData>
+            <SimpleData name="Situación">NO</SimpleData>
+            <SimpleData name="Comunidad">Ind?gena</SimpleData>
+            <SimpleData name="Modelo_imp">Modelo 4</SimpleData>
+            <SimpleData name="Departamen">CAAZAPA</SimpleData>
+            <SimpleData name="Distrito">TAVA?</SimpleData>
+            <SimpleData name="Localidad">COM INDIG KOKUERE GUASU</SimpleData>
+            <SimpleData name="Teléfono">0982789644</SimpleData>
+            <SimpleData name="Vivienda_L">-26.05979670000</SimpleData>
+            <SimpleData name="Vivienda_1">-55.50257170000</SimpleData>
+            <SimpleData name="Superficie">0.70000000000</SimpleData>
+            <SimpleData name="Situaci_1">Par?metro</SimpleData>
+            <SimpleData name="Plantado">SI</SimpleData>
+            <SimpleData name="Plantado_f">1899/12/30</SimpleData>
+            <SimpleData name="Jornales">0.00000000000</SimpleData>
+            <SimpleData name="Monto">0.00000000000</SimpleData>
+            <SimpleData name="Grupo_de_p">A-GN</SimpleData>
+            <SimpleData name="Estado_del">Activo</SimpleData>
+            <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
+            <SimpleData name="Lote">A</SimpleData>
+            <SimpleData name="Parametro">0.00000000000</SimpleData>
+            <SimpleData name="X">-55.50186833000</SimpleData>
+            <SimpleData name="Y">-26.06405832000</SimpleData>
+            <SimpleData name="Sup_SIG">0.76372159020</SimpleData>
+            <SimpleData name="cedula">5452923</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+                -55.5015017004656,-26.0644783001481,0
+                -55.5023250001987,-26.0645498999371,0
+                -55.5021683004544,-26.0636683000904,0
+                -55.5015149997825,-26.0634666999622,0
+                -55.5015017004656,-26.0644783001481,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark id="Lote_A.119">
+        <ExtendedData>
+          <SchemaData schemaUrl="#Lote_A.schema">
+            <SimpleData name="Cédula">6013244.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">MARIA ESTER TABOADA VEGA</SimpleData>
+            <SimpleData name="Sexo">Mujer</SimpleData>
+            <SimpleData name="Cambio_de_">NO</SimpleData>
+            <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="ci_UNIF">6013244.00000000000</SimpleData>
+            <SimpleData name="Situación">NO</SimpleData>
+            <SimpleData name="Comunidad">Campesina</SimpleData>
+            <SimpleData name="Modelo_imp">Modelo 4</SimpleData>
+            <SimpleData name="Departamen">CAAZAPA</SimpleData>
+            <SimpleData name="Distrito">TAVA?</SimpleData>
+            <SimpleData name="Localidad">SAN ROQUE</SimpleData>
+            <SimpleData name="Teléfono">0983611156</SimpleData>
+            <SimpleData name="Vivienda_L">-26.18592140000</SimpleData>
+            <SimpleData name="Vivienda_1">-55.50170980000</SimpleData>
+            <SimpleData name="Superficie">0.70000000000</SimpleData>
+            <SimpleData name="Situaci_1">Par?metro</SimpleData>
+            <SimpleData name="Plantado">NO</SimpleData>
+            <SimpleData name="Plantado_f">1899/12/30</SimpleData>
+            <SimpleData name="Jornales">0.00000000000</SimpleData>
+            <SimpleData name="Monto">0.00000000000</SimpleData>
+            <SimpleData name="Grupo_de_p">A-GN</SimpleData>
+            <SimpleData name="Estado_del">Activo</SimpleData>
+            <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
+            <SimpleData name="Lote">A</SimpleData>
+            <SimpleData name="Parametro">0.00000000000</SimpleData>
+            <SimpleData name="X">-55.52577546000</SimpleData>
+            <SimpleData name="Y">-26.23486469000</SimpleData>
+            <SimpleData name="Sup_SIG">0.70510736588</SimpleData>
+            <SimpleData name="cedula">6013244</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+                -55.5251599999446,-26.2350300000704,0
+                -55.525930000347,-26.2353149996874,0
+                -55.5264516995283,-26.2346949996969,0
+                -55.5255067004434,-26.2344383003058,0
+                -55.5251599999446,-26.2350300000704,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark id="Lote_A.120">
+        <ExtendedData>
+          <SchemaData schemaUrl="#Lote_A.schema">
+            <SimpleData name="Cédula">6013301.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">WILSON  LOMBARDO MOREL</SimpleData>
+            <SimpleData name="Sexo">Hombre</SimpleData>
+            <SimpleData name="Cambio_de_">NO</SimpleData>
+            <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="ci_UNIF">6013301.00000000000</SimpleData>
+            <SimpleData name="Situación">NO</SimpleData>
+            <SimpleData name="Comunidad">Campesina</SimpleData>
+            <SimpleData name="Modelo_imp">Modelo 5</SimpleData>
+            <SimpleData name="Departamen">CAAZAPA</SimpleData>
+            <SimpleData name="Distrito">TAVA?</SimpleData>
+            <SimpleData name="Localidad">?U KA?Y</SimpleData>
+            <SimpleData name="Teléfono">983764463</SimpleData>
+            <SimpleData name="Vivienda_L">-26.24111430000</SimpleData>
+            <SimpleData name="Vivienda_1">-55.56689740000</SimpleData>
+            <SimpleData name="Superficie">0.70000000000</SimpleData>
+            <SimpleData name="Situaci_1">Pol?gono</SimpleData>
+            <SimpleData name="Plantado">SI</SimpleData>
+            <SimpleData name="Plantado_f">2025/10/12</SimpleData>
+            <SimpleData name="Jornales">0.00000000000</SimpleData>
+            <SimpleData name="Monto">0.00000000000</SimpleData>
+            <SimpleData name="Grupo_de_p">A-GN</SimpleData>
+            <SimpleData name="Estado_del">Activo</SimpleData>
+            <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
+            <SimpleData name="Lote">A</SimpleData>
+            <SimpleData name="Parametro">0.00000000000</SimpleData>
+            <SimpleData name="X">-55.56967911000</SimpleData>
+            <SimpleData name="Y">-26.23707293000</SimpleData>
+            <SimpleData name="Sup_SIG">0.77869232103</SimpleData>
+            <SimpleData name="cedula">6013301</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+                -55.5690749998197,-26.2375982996416,0
+                -55.5691380001753,-26.2376700005094,0
+                -55.5694967002706,-26.2375050000074,0
+                -55.5695018998769,-26.2374686000779,0
+                -55.5703433003901,-26.2369349992877,0
+                -55.5702632994842,-26.236423299718,0
+                -55.5689966999138,-26.2372250006022,0
+                -55.5690749998197,-26.2375982996416,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark id="Lote_A.121">
+        <ExtendedData>
+          <SchemaData schemaUrl="#Lote_A.schema">
+            <SimpleData name="Cédula">6231798.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">NATALIA SOLEDAD ALVARENGA ACOSTA</SimpleData>
+            <SimpleData name="Sexo">Mujer</SimpleData>
+            <SimpleData name="Cambio_de_">NO</SimpleData>
+            <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="ci_UNIF">6231798.00000000000</SimpleData>
+            <SimpleData name="Situación">NO</SimpleData>
+            <SimpleData name="Comunidad">Campesina</SimpleData>
+            <SimpleData name="Modelo_imp">Modelo 5</SimpleData>
+            <SimpleData name="Departamen">ITAPUA</SimpleData>
+            <SimpleData name="Distrito">ALTO VERA</SimpleData>
+            <SimpleData name="Localidad">TARUMA</SimpleData>
+            <SimpleData name="Teléfono">0984794694</SimpleData>
+            <SimpleData name="Vivienda_L">-26.71983710000</SimpleData>
+            <SimpleData name="Vivienda_1">-55.83325330000</SimpleData>
+            <SimpleData name="Superficie">0.70000000000</SimpleData>
+            <SimpleData name="Situaci_1">Par?metro</SimpleData>
+            <SimpleData name="Plantado">NO</SimpleData>
+            <SimpleData name="Plantado_f">1899/12/30</SimpleData>
+            <SimpleData name="Jornales">0.00000000000</SimpleData>
+            <SimpleData name="Monto">0.00000000000</SimpleData>
+            <SimpleData name="Grupo_de_p">A-GN</SimpleData>
+            <SimpleData name="Estado_del">Activo</SimpleData>
+            <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
+            <SimpleData name="Lote">A</SimpleData>
+            <SimpleData name="Parametro">0.00000000000</SimpleData>
+            <SimpleData name="X">-55.87474636000</SimpleData>
+            <SimpleData name="Y">-26.72838383000</SimpleData>
+            <SimpleData name="Sup_SIG">0.70012751164</SimpleData>
+            <SimpleData name="cedula">6231798</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+                -55.8744383997649,-26.7283927004613,0
+                -55.8753843002081,-26.7289965001211,0
+                -55.8756240999011,-26.7287350004209,0
+                -55.8744736999457,-26.7279779003767,0
+                -55.8741464000277,-26.7278746997559,0
+                -55.8737053999689,-26.7278985002089,0
+                -55.8744383997649,-26.7283927004613,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark id="Lote_A.122">
+        <ExtendedData>
+          <SchemaData schemaUrl="#Lote_A.schema">
+            <SimpleData name="Cédula">6511846.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">ANTOLIN DIEGO FERNANDEZ GONZALEZ</SimpleData>
+            <SimpleData name="Sexo">Hombre</SimpleData>
+            <SimpleData name="Cambio_de_">NO</SimpleData>
+            <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="ci_UNIF">6511846.00000000000</SimpleData>
+            <SimpleData name="Situación">NO</SimpleData>
+            <SimpleData name="Comunidad">Ind?gena</SimpleData>
+            <SimpleData name="Modelo_imp">Modelo 4</SimpleData>
+            <SimpleData name="Departamen">CAAZAPA</SimpleData>
+            <SimpleData name="Distrito">TAVA?</SimpleData>
+            <SimpleData name="Localidad">COM INDIG KOKUERE GUAZU 6TA LINEA</SimpleData>
+            <SimpleData name="Teléfono">ND</SimpleData>
+            <SimpleData name="Vivienda_L">-26.03181640000</SimpleData>
+            <SimpleData name="Vivienda_1">-55.51643910000</SimpleData>
+            <SimpleData name="Superficie">0.70000000000</SimpleData>
+            <SimpleData name="Situaci_1">Par?metro</SimpleData>
+            <SimpleData name="Plantado">NO</SimpleData>
+            <SimpleData name="Plantado_f">1899/12/30</SimpleData>
+            <SimpleData name="Jornales">0.00000000000</SimpleData>
+            <SimpleData name="Monto">0.00000000000</SimpleData>
+            <SimpleData name="Grupo_de_p">A-GN</SimpleData>
+            <SimpleData name="Estado_del">Activo</SimpleData>
+            <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
+            <SimpleData name="Lote">A</SimpleData>
+            <SimpleData name="Parametro">0.00000000000</SimpleData>
+            <SimpleData name="X">-55.51359146000</SimpleData>
+            <SimpleData name="Y">-26.06491279000</SimpleData>
+            <SimpleData name="Sup_SIG">0.74096620391</SimpleData>
+            <SimpleData name="cedula">6511846</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+                -55.5130649999519,-26.0648432993938,0
+                -55.5133666999048,-26.0654783004327,0
+                -55.5142063000934,-26.0649720001126,0
+                -55.5136466994806,-26.0643382994983,0
+                -55.5130649999519,-26.0648432993938,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark id="Lote_A.123">
+        <ExtendedData>
+          <SchemaData schemaUrl="#Lote_A.schema">
+            <SimpleData name="Cédula">6585410.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">SONIA  LOMBARDO AREVALOS</SimpleData>
+            <SimpleData name="Sexo">Mujer</SimpleData>
+            <SimpleData name="Cambio_de_">NO</SimpleData>
+            <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="ci_UNIF">6585410.00000000000</SimpleData>
+            <SimpleData name="Situación">NO</SimpleData>
+            <SimpleData name="Comunidad">Campesina</SimpleData>
+            <SimpleData name="Modelo_imp">Modelo 5</SimpleData>
+            <SimpleData name="Departamen">CAAZAPA</SimpleData>
+            <SimpleData name="Distrito">TAVA?</SimpleData>
+            <SimpleData name="Localidad">?U KA?Y</SimpleData>
+            <SimpleData name="Teléfono">984901766</SimpleData>
+            <SimpleData name="Vivienda_L">-26.24056020000</SimpleData>
+            <SimpleData name="Vivienda_1">-55.56949300000</SimpleData>
+            <SimpleData name="Superficie">0.70000000000</SimpleData>
+            <SimpleData name="Situaci_1">Pol?gono</SimpleData>
+            <SimpleData name="Plantado">SI</SimpleData>
+            <SimpleData name="Plantado_f">2025/10/12</SimpleData>
+            <SimpleData name="Jornales">0.00000000000</SimpleData>
+            <SimpleData name="Monto">0.00000000000</SimpleData>
+            <SimpleData name="Grupo_de_p">A-GN</SimpleData>
+            <SimpleData name="Estado_del">Activo</SimpleData>
+            <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
+            <SimpleData name="Lote">A</SimpleData>
+            <SimpleData name="Parametro">0.00000000000</SimpleData>
+            <SimpleData name="X">-55.57013213000</SimpleData>
+            <SimpleData name="Y">-26.23739367000</SimpleData>
+            <SimpleData name="Sup_SIG">0.69909713499</SimpleData>
+            <SimpleData name="cedula">6585410</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+                -55.5695067000209,-26.237471700181,0
+                -55.5697553000252,-26.2379364003609,0
+                -55.570703300487,-26.2373782999497,0
+                -55.5705514004244,-26.2368183997229,0
+                -55.5695067000209,-26.237471700181,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark id="Lote_A.124">
+        <ExtendedData>
+          <SchemaData schemaUrl="#Lote_A.schema">
+            <SimpleData name="Cédula">6776884.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">SERGIO CABRAL OCAMPOS</SimpleData>
+            <SimpleData name="Sexo">Hombre</SimpleData>
+            <SimpleData name="Cambio_de_">NO</SimpleData>
+            <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="ci_UNIF">6776884.00000000000</SimpleData>
+            <SimpleData name="Situación">NO</SimpleData>
+            <SimpleData name="Comunidad">Ind?gena</SimpleData>
+            <SimpleData name="Modelo_imp">Modelo 4</SimpleData>
+            <SimpleData name="Departamen">CAAZAPA</SimpleData>
+            <SimpleData name="Distrito">TAVA?</SimpleData>
+            <SimpleData name="Localidad">COM INDIG KOKUERE GUASU</SimpleData>
+            <SimpleData name="Teléfono">0984175920</SimpleData>
+            <SimpleData name="Vivienda_L">-26.05966930000</SimpleData>
+            <SimpleData name="Vivienda_1">-55.51467830000</SimpleData>
+            <SimpleData name="Superficie">0.70000000000</SimpleData>
+            <SimpleData name="Situaci_1">Par?metro</SimpleData>
+            <SimpleData name="Plantado">NO</SimpleData>
+            <SimpleData name="Plantado_f">1899/12/30</SimpleData>
+            <SimpleData name="Jornales">0.00000000000</SimpleData>
+            <SimpleData name="Monto">0.00000000000</SimpleData>
+            <SimpleData name="Grupo_de_p">A-GN</SimpleData>
+            <SimpleData name="Estado_del">Activo</SimpleData>
+            <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
+            <SimpleData name="Lote">A</SimpleData>
+            <SimpleData name="Parametro">0.00000000000</SimpleData>
+            <SimpleData name="X">-55.51304321000</SimpleData>
+            <SimpleData name="Y">-26.06412516000</SimpleData>
+            <SimpleData name="Sup_SIG">0.71097304840</SimpleData>
+            <SimpleData name="cedula">6776884</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+                -55.5124932999318,-26.0640567006654,0
+                -55.5129899998793,-26.0646882995487,0
+                -55.5135583001345,-26.064294999601,0
+                -55.5131449994814,-26.063518299455,0
+                -55.5124932999318,-26.0640567006654,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark id="Lote_A.125">
+        <ExtendedData>
+          <SchemaData schemaUrl="#Lote_A.schema">
+            <SimpleData name="Cédula">7290509.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">DOMINICA AQUINO NU?EZ</SimpleData>
+            <SimpleData name="Sexo">Mujer</SimpleData>
+            <SimpleData name="Cambio_de_">NO</SimpleData>
+            <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="ci_UNIF">7290509.00000000000</SimpleData>
+            <SimpleData name="Situación">NO</SimpleData>
+            <SimpleData name="Comunidad">Ind?gena</SimpleData>
+            <SimpleData name="Modelo_imp">Modelo 3</SimpleData>
+            <SimpleData name="Departamen">CAAZAPA</SimpleData>
+            <SimpleData name="Distrito">TAVA?</SimpleData>
+            <SimpleData name="Localidad">COM INDIG KOKUERE GUASU</SimpleData>
+            <SimpleData name="Teléfono">0984282663</SimpleData>
+            <SimpleData name="Vivienda_L">-26.06287050000</SimpleData>
+            <SimpleData name="Vivienda_1">-55.52423450000</SimpleData>
+            <SimpleData name="Superficie">1.00000000000</SimpleData>
+            <SimpleData name="Situaci_1">Par?metro</SimpleData>
+            <SimpleData name="Plantado">SI</SimpleData>
+            <SimpleData name="Plantado_f">1899/12/30</SimpleData>
+            <SimpleData name="Jornales">0.00000000000</SimpleData>
+            <SimpleData name="Monto">0.00000000000</SimpleData>
+            <SimpleData name="Grupo_de_p">A-GN</SimpleData>
+            <SimpleData name="Estado_del">Activo</SimpleData>
+            <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
+            <SimpleData name="Lote">A</SimpleData>
+            <SimpleData name="Parametro">0.00000000000</SimpleData>
+            <SimpleData name="X">-55.52460024000</SimpleData>
+            <SimpleData name="Y">-26.06099896000</SimpleData>
+            <SimpleData name="Sup_SIG">1.00411586546</SimpleData>
+            <SimpleData name="cedula">7290509</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+                -55.523938699777,-26.0613233994321,0
+                -55.5251466997504,-26.0613967000342,0
+                -55.5252767003345,-26.060596699569,0
+                -55.5239299995674,-26.0607033000911,0
+                -55.523938699777,-26.0613233994321,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark id="Lote_A.126">
+        <ExtendedData>
+          <SchemaData schemaUrl="#Lote_A.schema">
+            <SimpleData name="Cédula">8068699.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">CLAUDIA FERNANDEZ FRANCO</SimpleData>
+            <SimpleData name="Sexo">Mujer</SimpleData>
+            <SimpleData name="Cambio_de_">NO</SimpleData>
+            <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="ci_UNIF">8068699.00000000000</SimpleData>
+            <SimpleData name="Situación">NO</SimpleData>
+            <SimpleData name="Comunidad">Ind?gena</SimpleData>
+            <SimpleData name="Modelo_imp">Modelo 4</SimpleData>
+            <SimpleData name="Departamen">CAAZAPA</SimpleData>
+            <SimpleData name="Distrito">TAVA?</SimpleData>
+            <SimpleData name="Localidad">COM INDIG KOKUERE GUASU</SimpleData>
+            <SimpleData name="Teléfono">0984816283</SimpleData>
+            <SimpleData name="Vivienda_L">-26.06157200000</SimpleData>
+            <SimpleData name="Vivienda_1">-55.52085900000</SimpleData>
+            <SimpleData name="Superficie">0.70000000000</SimpleData>
+            <SimpleData name="Situaci_1">Par?metro</SimpleData>
+            <SimpleData name="Plantado">SI</SimpleData>
+            <SimpleData name="Plantado_f">1899/12/30</SimpleData>
+            <SimpleData name="Jornales">0.00000000000</SimpleData>
+            <SimpleData name="Monto">0.00000000000</SimpleData>
+            <SimpleData name="Grupo_de_p">A-GN</SimpleData>
+            <SimpleData name="Estado_del">Activo</SimpleData>
+            <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
+            <SimpleData name="Lote">A</SimpleData>
+            <SimpleData name="Parametro">0.00000000000</SimpleData>
+            <SimpleData name="X">-55.52186998000</SimpleData>
+            <SimpleData name="Y">-26.06070104000</SimpleData>
+            <SimpleData name="Sup_SIG">0.70168507299</SimpleData>
+            <SimpleData name="cedula">8068699</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+                -55.5215567000156,-26.0611016996519,0
+                -55.5222282999135,-26.0612600007419,0
+                -55.522141699324,-26.0601649997675,0
+                -55.5214917006713,-26.0602749994668,0
+                -55.5215567000156,-26.0611016996519,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark id="Lote_A.127">
+        <ExtendedData>
+          <SchemaData schemaUrl="#Lote_A.schema">
+            <SimpleData name="Cédula">8397959.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">EDUARDO LOPEZ BENITEZ</SimpleData>
+            <SimpleData name="Sexo">Hombre</SimpleData>
+            <SimpleData name="Cambio_de_">NO</SimpleData>
+            <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="ci_UNIF">8397959.00000000000</SimpleData>
+            <SimpleData name="Situación">NO</SimpleData>
+            <SimpleData name="Comunidad">Ind?gena</SimpleData>
+            <SimpleData name="Modelo_imp">Modelo 4</SimpleData>
+            <SimpleData name="Departamen">CAAZAPA</SimpleData>
+            <SimpleData name="Distrito">TAVA?</SimpleData>
+            <SimpleData name="Localidad">COM INDIG KOKUERE GUASU</SimpleData>
+            <SimpleData name="Teléfono">0984023221</SimpleData>
+            <SimpleData name="Vivienda_L">-26.06242230000</SimpleData>
+            <SimpleData name="Vivienda_1">-55.50673660000</SimpleData>
+            <SimpleData name="Superficie">0.70000000000</SimpleData>
+            <SimpleData name="Situaci_1">Par?metro</SimpleData>
+            <SimpleData name="Plantado">SI</SimpleData>
+            <SimpleData name="Plantado_f">1899/12/30</SimpleData>
+            <SimpleData name="Jornales">0.00000000000</SimpleData>
+            <SimpleData name="Monto">0.00000000000</SimpleData>
+            <SimpleData name="Grupo_de_p">A-GN</SimpleData>
+            <SimpleData name="Estado_del">Activo</SimpleData>
+            <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
+            <SimpleData name="Lote">A</SimpleData>
+            <SimpleData name="Parametro">0.00000000000</SimpleData>
+            <SimpleData name="X">-55.50816929000</SimpleData>
+            <SimpleData name="Y">-26.06343939000</SimpleData>
+            <SimpleData name="Sup_SIG">0.92224518797</SimpleData>
+            <SimpleData name="cedula">8397959</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+                -55.5078581997481,-26.0638772997372,0
+                -55.5085683001285,-26.0640449998845,0
+                -55.5085649999807,-26.0628533005077,0
+                -55.5075850009159,-26.0631149998125,0
+                -55.5078581997481,-26.0638772997372,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark id="Lote_A.128">
+        <ExtendedData>
+          <SchemaData schemaUrl="#Lote_A.schema">
+            <SimpleData name="Cédula">6376706.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">MARIELA CUELLA LUJAN</SimpleData>
+            <SimpleData name="Sexo">Mujer</SimpleData>
+            <SimpleData name="Cambio_de_">NO</SimpleData>
+            <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="ci_UNIF">6376706.00000000000</SimpleData>
+            <SimpleData name="Situación">NO</SimpleData>
+            <SimpleData name="Comunidad">Campesina</SimpleData>
+            <SimpleData name="Modelo_imp">Modelo 6</SimpleData>
+            <SimpleData name="Departamen">ITAPUA</SimpleData>
+            <SimpleData name="Distrito">ALTO VERA</SimpleData>
+            <SimpleData name="Localidad">PONCHO</SimpleData>
+            <SimpleData name="Teléfono">0984255819</SimpleData>
+            <SimpleData name="Vivienda_L">-26.69789830000</SimpleData>
+            <SimpleData name="Vivienda_1">-55.73989000000</SimpleData>
+            <SimpleData name="Superficie">0.90000000000</SimpleData>
+            <SimpleData name="Situaci_1">Par?metro</SimpleData>
+            <SimpleData name="Plantado">NO</SimpleData>
+            <SimpleData name="Plantado_f">1899/12/30</SimpleData>
+            <SimpleData name="Jornales">0.00000000000</SimpleData>
+            <SimpleData name="Monto">0.00000000000</SimpleData>
+            <SimpleData name="Grupo_de_p">A-GN</SimpleData>
+            <SimpleData name="Estado_del">Activo</SimpleData>
+            <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
+            <SimpleData name="Lote">A</SimpleData>
+            <SimpleData name="Parametro">0.00000000000</SimpleData>
+            <SimpleData name="X">-55.75498782000</SimpleData>
+            <SimpleData name="Y">-26.68670076000</SimpleData>
+            <SimpleData name="Sup_SIG">1.03345069947</SimpleData>
+            <SimpleData name="cedula">6376706</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+                -55.7542886995638,-26.6866912995638,0
+                -55.7550532995701,-26.6873832999992,0
+                -55.7557283001209,-26.6865566998318,0
+                -55.7547951491767,-26.6861049334958,0
+                -55.7542886995638,-26.6866912995638,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
       </Placemark>
     </Document>
   </Document>

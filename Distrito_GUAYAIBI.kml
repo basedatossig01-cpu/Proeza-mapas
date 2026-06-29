@@ -33,6 +33,7 @@
       <SimpleField name="X" type="double"/>
       <SimpleField name="Y" type="double"/>
       <SimpleField name="Sup_SIG" type="double"/>
+      <SimpleField name="cedula" type="string"/>
     </Schema>
     <Document id="Distrito_GUAYAIBI">
       <name>Distrito_GUAYAIBI</name>
@@ -68,7 +69,8 @@
             <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-56.38393121000</SimpleData>
             <SimpleData name="Y">-24.50783417000</SimpleData>
-            <SimpleData name="Sup_SIG">0.78664781192</SimpleData>
+            <SimpleData name="Sup_SIG">0.78664781191</SimpleData>
+            <SimpleData name="cedula">4596707</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Polygon>
