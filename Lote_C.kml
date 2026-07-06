@@ -15,21 +15,19 @@
       <SimpleField name="Departamen" type="string"/>
       <SimpleField name="Distrito" type="string"/>
       <SimpleField name="Localidad" type="string"/>
+      <SimpleField name="Localidad_" type="string"/>
       <SimpleField name="Teléfono" type="string"/>
       <SimpleField name="Vivienda_L" type="double"/>
       <SimpleField name="Vivienda_1" type="double"/>
       <SimpleField name="Superficie" type="double"/>
-      <SimpleField name="Situaci_1" type="string"/>
-      <SimpleField name="Plantado" type="string"/>
-      <SimpleField name="Plantado_f" type="string"/>
+      <SimpleField name="Fecha_Plan" type="string"/>
       <SimpleField name="Jornales" type="double"/>
       <SimpleField name="Monto" type="double"/>
       <SimpleField name="Grupo_de_p" type="string"/>
+      <SimpleField name="ETAPA_FAO" type="string"/>
       <SimpleField name="Estado_del" type="string"/>
       <SimpleField name="Empresa" type="string"/>
       <SimpleField name="Lote" type="string"/>
-      <SimpleField name="Parametro" type="double"/>
-      <SimpleField name="Situacion" type="string"/>
       <SimpleField name="X" type="double"/>
       <SimpleField name="Y" type="double"/>
       <SimpleField name="Sup_SIG" type="double"/>
@@ -45,6 +43,7 @@
             <SimpleData name="Sexo">Mujer</SimpleData>
             <SimpleData name="Cambio_de_">NO</SimpleData>
             <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="Cédula_Ti">NO</SimpleData>
             <SimpleData name="ci_UNIF">5178107.00000000000</SimpleData>
             <SimpleData name="Situación">NO</SimpleData>
             <SimpleData name="Comunidad">Campesina</SimpleData>
@@ -52,21 +51,19 @@
             <SimpleData name="Departamen">CAAGUAZU</SimpleData>
             <SimpleData name="Distrito">REPATRIACION</SimpleData>
             <SimpleData name="Localidad">ASENT. JULIANA FLEITAS</SimpleData>
+            <SimpleData name="Localidad_">ASENT. JULIANA FLEITAS</SimpleData>
             <SimpleData name="Teléfono">0975178379</SimpleData>
             <SimpleData name="Vivienda_L">-25.49324000000</SimpleData>
             <SimpleData name="Vivienda_1">-55.74124170000</SimpleData>
             <SimpleData name="Superficie">0.80000000000</SimpleData>
-            <SimpleData name="Situaci_1">Par?metro</SimpleData>
-            <SimpleData name="Plantado">SI</SimpleData>
-            <SimpleData name="Plantado_f">2026/01/13</SimpleData>
+            <SimpleData name="Fecha_Plan">2026/01/13</SimpleData>
             <SimpleData name="Jornales">0.00000000000</SimpleData>
             <SimpleData name="Monto">0.00000000000</SimpleData>
-            <SimpleData name="Grupo_de_p">C-P2</SimpleData>
+            <SimpleData name="Grupo_de_p">C-P2-XX-XX-XX</SimpleData>
+            <SimpleData name="ETAPA_FAO">Mantenimiento A?o 1.1</SimpleData>
             <SimpleData name="Estado_del">Activo</SimpleData>
             <SimpleData name="Empresa">Unique Wood Paraguay SA</SimpleData>
             <SimpleData name="Lote">C</SimpleData>
-            <SimpleData name="Parametro">0.80000000000</SimpleData>
-            <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.74040581000</SimpleData>
             <SimpleData name="Y">-25.49438275000</SimpleData>
             <SimpleData name="Sup_SIG">0.82374775377</SimpleData>
@@ -96,6 +93,7 @@
             <SimpleData name="Sexo">Mujer</SimpleData>
             <SimpleData name="Cambio_de_">NO</SimpleData>
             <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="Cédula_Ti">NO</SimpleData>
             <SimpleData name="ci_UNIF">7959656.00000000000</SimpleData>
             <SimpleData name="Situación">NO</SimpleData>
             <SimpleData name="Comunidad">Ind?gena</SimpleData>
@@ -103,21 +101,19 @@
             <SimpleData name="Departamen">CAAGUAZU</SimpleData>
             <SimpleData name="Distrito">REPATRIACION</SimpleData>
             <SimpleData name="Localidad">COM INDIG ?U JHOVY</SimpleData>
+            <SimpleData name="Localidad_">?U HOVY</SimpleData>
             <SimpleData name="Teléfono">0985298211</SimpleData>
             <SimpleData name="Vivienda_L">-25.65311330000</SimpleData>
             <SimpleData name="Vivienda_1">-55.71471000000</SimpleData>
             <SimpleData name="Superficie">0.70000000000</SimpleData>
-            <SimpleData name="Situaci_1">Pol?gono</SimpleData>
-            <SimpleData name="Plantado">SI</SimpleData>
-            <SimpleData name="Plantado_f">2025/09/19</SimpleData>
+            <SimpleData name="Fecha_Plan">2025/09/19</SimpleData>
             <SimpleData name="Jornales">0.00000000000</SimpleData>
             <SimpleData name="Monto">0.00000000000</SimpleData>
-            <SimpleData name="Grupo_de_p">C-P1</SimpleData>
+            <SimpleData name="Grupo_de_p">C-P1-XX-XX-XX</SimpleData>
+            <SimpleData name="ETAPA_FAO">Mantenimiento A?o 1.1</SimpleData>
             <SimpleData name="Estado_del">Activo</SimpleData>
             <SimpleData name="Empresa">Unique Wood Paraguay SA</SimpleData>
             <SimpleData name="Lote">C</SimpleData>
-            <SimpleData name="Parametro">0.70000000000</SimpleData>
-            <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.71559345000</SimpleData>
             <SimpleData name="Y">-25.65339856000</SimpleData>
             <SimpleData name="Sup_SIG">0.98878425408</SimpleData>
@@ -128,13 +124,13 @@
           <outerBoundaryIs>
             <LinearRing>
               <coordinates>
-                -55.7151577994147,-25.6537078000915,0
+                -55.7151577994148,-25.6537078000915,0
                 -55.7161866000373,-25.6538300004569,0
                 -55.7162603004202,-25.6531601000494,0
                 -55.7154182999631,-25.6530033004433,0
                 -55.7150180999671,-25.6529803999519,0
                 -55.7149019004736,-25.6535089000529,0
-                -55.7151577994147,-25.6537078000915,0
+                -55.7151577994148,-25.6537078000915,0
               </coordinates>
             </LinearRing>
           </outerBoundaryIs>
@@ -148,6 +144,7 @@
             <SimpleData name="Sexo">Mujer</SimpleData>
             <SimpleData name="Cambio_de_">NO</SimpleData>
             <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="Cédula_Ti">NO</SimpleData>
             <SimpleData name="ci_UNIF">2089144.00000000000</SimpleData>
             <SimpleData name="Situación">NO</SimpleData>
             <SimpleData name="Comunidad">Campesina</SimpleData>
@@ -155,24 +152,22 @@
             <SimpleData name="Departamen">CAAGUAZU</SimpleData>
             <SimpleData name="Distrito">REPATRIACION</SimpleData>
             <SimpleData name="Localidad">1RA. LINEA CHACORE</SimpleData>
+            <SimpleData name="Localidad_">1RA. LINEA CHACORE</SimpleData>
             <SimpleData name="Teléfono">0973516793</SimpleData>
             <SimpleData name="Vivienda_L">-25.55401550000</SimpleData>
             <SimpleData name="Vivienda_1">-55.83828720000</SimpleData>
             <SimpleData name="Superficie">0.70000000000</SimpleData>
-            <SimpleData name="Situaci_1">Par?metro</SimpleData>
-            <SimpleData name="Plantado">SI</SimpleData>
-            <SimpleData name="Plantado_f">2026/02/04</SimpleData>
+            <SimpleData name="Fecha_Plan">2026/02/04</SimpleData>
             <SimpleData name="Jornales">0.00000000000</SimpleData>
             <SimpleData name="Monto">0.00000000000</SimpleData>
-            <SimpleData name="Grupo_de_p">C-P2</SimpleData>
+            <SimpleData name="Grupo_de_p">C-P2-XX-XX-XX</SimpleData>
+            <SimpleData name="ETAPA_FAO">Mantenimiento A?o 1.1</SimpleData>
             <SimpleData name="Estado_del">Activo</SimpleData>
             <SimpleData name="Empresa">Unique Wood Paraguay SA</SimpleData>
             <SimpleData name="Lote">C</SimpleData>
-            <SimpleData name="Parametro">0.70000000000</SimpleData>
-            <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.83990834000</SimpleData>
             <SimpleData name="Y">-25.57029204000</SimpleData>
-            <SimpleData name="Sup_SIG">0.76212720339</SimpleData>
+            <SimpleData name="Sup_SIG">0.76212720340</SimpleData>
             <SimpleData name="cedula">2089144</SimpleData>
           </SchemaData>
         </ExtendedData>
@@ -198,6 +193,7 @@
             <SimpleData name="Sexo">Hombre</SimpleData>
             <SimpleData name="Cambio_de_">NO</SimpleData>
             <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="Cédula_Ti">NO</SimpleData>
             <SimpleData name="ci_UNIF">2401147.00000000000</SimpleData>
             <SimpleData name="Situación">NO</SimpleData>
             <SimpleData name="Comunidad">Campesina</SimpleData>
@@ -205,24 +201,22 @@
             <SimpleData name="Departamen">CAAGUAZU</SimpleData>
             <SimpleData name="Distrito">REPATRIACION</SimpleData>
             <SimpleData name="Localidad">2DA. LINEA CHACORE</SimpleData>
+            <SimpleData name="Localidad_">2DA. LINEA CHACORE</SimpleData>
             <SimpleData name="Teléfono">0971429761</SimpleData>
             <SimpleData name="Vivienda_L">-25.54829620000</SimpleData>
             <SimpleData name="Vivienda_1">-55.81354750000</SimpleData>
             <SimpleData name="Superficie">0.70000000000</SimpleData>
-            <SimpleData name="Situaci_1">Par?metro</SimpleData>
-            <SimpleData name="Plantado">SI</SimpleData>
-            <SimpleData name="Plantado_f">2026/01/13</SimpleData>
+            <SimpleData name="Fecha_Plan">2026/01/13</SimpleData>
             <SimpleData name="Jornales">0.00000000000</SimpleData>
             <SimpleData name="Monto">0.00000000000</SimpleData>
-            <SimpleData name="Grupo_de_p">C-P2</SimpleData>
+            <SimpleData name="Grupo_de_p">C-P2-XX-XX-XX</SimpleData>
+            <SimpleData name="ETAPA_FAO">Mantenimiento A?o 1.1</SimpleData>
             <SimpleData name="Estado_del">Activo</SimpleData>
             <SimpleData name="Empresa">Unique Wood Paraguay SA</SimpleData>
             <SimpleData name="Lote">C</SimpleData>
-            <SimpleData name="Parametro">0.70000000000</SimpleData>
-            <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.80999312000</SimpleData>
             <SimpleData name="Y">-25.54858845000</SimpleData>
-            <SimpleData name="Sup_SIG">0.69988264712</SimpleData>
+            <SimpleData name="Sup_SIG">0.69988264713</SimpleData>
             <SimpleData name="cedula">2401147</SimpleData>
           </SchemaData>
         </ExtendedData>
@@ -252,6 +246,7 @@
             <SimpleData name="Sexo">Hombre</SimpleData>
             <SimpleData name="Cambio_de_">NO</SimpleData>
             <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="Cédula_Ti">NO</SimpleData>
             <SimpleData name="ci_UNIF">6901304.00000000000</SimpleData>
             <SimpleData name="Situación">NO</SimpleData>
             <SimpleData name="Comunidad">Ind?gena</SimpleData>
@@ -259,24 +254,22 @@
             <SimpleData name="Departamen">CAAGUAZU</SimpleData>
             <SimpleData name="Distrito">REPATRIACION</SimpleData>
             <SimpleData name="Localidad">COM INDIG KAATYMI</SimpleData>
+            <SimpleData name="Localidad_"><![CDATA[KA'ATYMI]]></SimpleData>
             <SimpleData name="Teléfono">ND</SimpleData>
             <SimpleData name="Vivienda_L">-25.66446470000</SimpleData>
             <SimpleData name="Vivienda_1">-55.69899810000</SimpleData>
             <SimpleData name="Superficie">0.70000000000</SimpleData>
-            <SimpleData name="Situaci_1">Pol?gono</SimpleData>
-            <SimpleData name="Plantado">SI</SimpleData>
-            <SimpleData name="Plantado_f">2025/09/25</SimpleData>
+            <SimpleData name="Fecha_Plan">2025/09/25</SimpleData>
             <SimpleData name="Jornales">0.00000000000</SimpleData>
             <SimpleData name="Monto">0.00000000000</SimpleData>
-            <SimpleData name="Grupo_de_p">C-P1</SimpleData>
+            <SimpleData name="Grupo_de_p">C-P1-XX-XX-XX</SimpleData>
+            <SimpleData name="ETAPA_FAO">Mantenimiento A?o 1.1</SimpleData>
             <SimpleData name="Estado_del">Activo</SimpleData>
             <SimpleData name="Empresa">Unique Wood Paraguay SA</SimpleData>
             <SimpleData name="Lote">C</SimpleData>
-            <SimpleData name="Parametro">0.70000000000</SimpleData>
-            <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.69880891000</SimpleData>
             <SimpleData name="Y">-25.66498562000</SimpleData>
-            <SimpleData name="Sup_SIG">0.74086407378</SimpleData>
+            <SimpleData name="Sup_SIG">0.74086407379</SimpleData>
             <SimpleData name="cedula">6901304</SimpleData>
           </SchemaData>
         </ExtendedData>
@@ -305,6 +298,7 @@
             <SimpleData name="Sexo">Mujer</SimpleData>
             <SimpleData name="Cambio_de_">NO</SimpleData>
             <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="Cédula_Ti">NO</SimpleData>
             <SimpleData name="ci_UNIF">8508232.00000000000</SimpleData>
             <SimpleData name="Situación">NO</SimpleData>
             <SimpleData name="Comunidad">Ind?gena</SimpleData>
@@ -312,21 +306,19 @@
             <SimpleData name="Departamen">CAAGUAZU</SimpleData>
             <SimpleData name="Distrito">REPATRIACION</SimpleData>
             <SimpleData name="Localidad">COM INDIG KAATYMI</SimpleData>
+            <SimpleData name="Localidad_"><![CDATA[KA'ATYMI]]></SimpleData>
             <SimpleData name="Teléfono">ND</SimpleData>
             <SimpleData name="Vivienda_L">-25.66342830000</SimpleData>
             <SimpleData name="Vivienda_1">-55.69480170000</SimpleData>
             <SimpleData name="Superficie">0.70000000000</SimpleData>
-            <SimpleData name="Situaci_1">Pol?gono</SimpleData>
-            <SimpleData name="Plantado">SI</SimpleData>
-            <SimpleData name="Plantado_f">2025/09/24</SimpleData>
+            <SimpleData name="Fecha_Plan">2025/09/24</SimpleData>
             <SimpleData name="Jornales">0.00000000000</SimpleData>
             <SimpleData name="Monto">0.00000000000</SimpleData>
-            <SimpleData name="Grupo_de_p">C-P1</SimpleData>
+            <SimpleData name="Grupo_de_p">C-P1-XX-XX-XX</SimpleData>
+            <SimpleData name="ETAPA_FAO">Mantenimiento A?o 1.1</SimpleData>
             <SimpleData name="Estado_del">Activo</SimpleData>
             <SimpleData name="Empresa">Unique Wood Paraguay SA</SimpleData>
             <SimpleData name="Lote">C</SimpleData>
-            <SimpleData name="Parametro">0.70000000000</SimpleData>
-            <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.69776171000</SimpleData>
             <SimpleData name="Y">-25.66267349000</SimpleData>
             <SimpleData name="Sup_SIG">0.69838092987</SimpleData>
@@ -341,7 +333,7 @@
                 -55.6979550002004,-25.6634082995724,0
                 -55.69807999946,-25.662910000326,0
                 -55.6979200001246,-25.6624632999713,0
-                -55.6980283001535,-25.6619333005186,0
+                -55.6980283001535,-25.6619333005185,0
                 -55.6977267005636,-25.6618532997577,0
                 -55.6975486997241,-25.66263539976,0
                 -55.6972370008675,-25.6628682003772,0
@@ -358,6 +350,7 @@
             <SimpleData name="Sexo">Mujer</SimpleData>
             <SimpleData name="Cambio_de_">NO</SimpleData>
             <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="Cédula_Ti">NO</SimpleData>
             <SimpleData name="ci_UNIF">4668123.00000000000</SimpleData>
             <SimpleData name="Situación">NO</SimpleData>
             <SimpleData name="Comunidad">Ind?gena</SimpleData>
@@ -365,24 +358,22 @@
             <SimpleData name="Departamen">CAAGUAZU</SimpleData>
             <SimpleData name="Distrito">REPATRIACION</SimpleData>
             <SimpleData name="Localidad">COM INDIG PINDO-I</SimpleData>
+            <SimpleData name="Localidad_"><![CDATA[PINDO'I CULANDRILLO]]></SimpleData>
             <SimpleData name="Teléfono">0976450894</SimpleData>
             <SimpleData name="Vivienda_L">-25.53646590000</SimpleData>
             <SimpleData name="Vivienda_1">-55.64973560000</SimpleData>
             <SimpleData name="Superficie">0.70000000000</SimpleData>
-            <SimpleData name="Situaci_1">Par?metro</SimpleData>
-            <SimpleData name="Plantado">SI</SimpleData>
-            <SimpleData name="Plantado_f">2026/01/14</SimpleData>
+            <SimpleData name="Fecha_Plan">2026/01/14</SimpleData>
             <SimpleData name="Jornales">0.00000000000</SimpleData>
             <SimpleData name="Monto">0.00000000000</SimpleData>
-            <SimpleData name="Grupo_de_p">C-P2</SimpleData>
+            <SimpleData name="Grupo_de_p">C-P2-XX-XX-XX</SimpleData>
+            <SimpleData name="ETAPA_FAO">Mantenimiento A?o 1.1</SimpleData>
             <SimpleData name="Estado_del">Activo</SimpleData>
             <SimpleData name="Empresa">Unique Wood Paraguay SA</SimpleData>
             <SimpleData name="Lote">C</SimpleData>
-            <SimpleData name="Parametro">0.70000000000</SimpleData>
-            <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.64935240000</SimpleData>
             <SimpleData name="Y">-25.53582170000</SimpleData>
-            <SimpleData name="Sup_SIG">0.75456570644</SimpleData>
+            <SimpleData name="Sup_SIG">0.75456570643</SimpleData>
             <SimpleData name="cedula">4668123</SimpleData>
           </SchemaData>
         </ExtendedData>
@@ -392,8 +383,8 @@
               <coordinates>
                 -55.6487250000627,-25.5356382999794,0
                 -55.6490299999762,-25.5362449998248,0
-                -55.6499733000323,-25.5360533002247,0
-                -55.6496450003556,-25.5353633003014,0
+                -55.6499733000323,-25.5360533002248,0
+                -55.6496450003555,-25.5353633003014,0
                 -55.6487250000627,-25.5356382999794,0
               </coordinates>
             </LinearRing>
@@ -408,6 +399,7 @@
             <SimpleData name="Sexo">Hombre</SimpleData>
             <SimpleData name="Cambio_de_">NO</SimpleData>
             <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="Cédula_Ti">NO</SimpleData>
             <SimpleData name="ci_UNIF">7190380.00000000000</SimpleData>
             <SimpleData name="Situación">NO</SimpleData>
             <SimpleData name="Comunidad">Ind?gena</SimpleData>
@@ -415,24 +407,22 @@
             <SimpleData name="Departamen">CAAGUAZU</SimpleData>
             <SimpleData name="Distrito">REPATRIACION</SimpleData>
             <SimpleData name="Localidad">COM INDIG KAATYMI</SimpleData>
+            <SimpleData name="Localidad_"><![CDATA[KA'ATYMI]]></SimpleData>
             <SimpleData name="Teléfono">0971478007</SimpleData>
             <SimpleData name="Vivienda_L">-25.66254170000</SimpleData>
             <SimpleData name="Vivienda_1">-55.69297840000</SimpleData>
             <SimpleData name="Superficie">0.70000000000</SimpleData>
-            <SimpleData name="Situaci_1">Pol?gono</SimpleData>
-            <SimpleData name="Plantado">SI</SimpleData>
-            <SimpleData name="Plantado_f">2025/09/22</SimpleData>
+            <SimpleData name="Fecha_Plan">2025/09/22</SimpleData>
             <SimpleData name="Jornales">0.00000000000</SimpleData>
             <SimpleData name="Monto">0.00000000000</SimpleData>
-            <SimpleData name="Grupo_de_p">C-P1</SimpleData>
+            <SimpleData name="Grupo_de_p">C-P1-XX-XX-XX</SimpleData>
+            <SimpleData name="ETAPA_FAO">Mantenimiento A?o 1.1</SimpleData>
             <SimpleData name="Estado_del">Activo</SimpleData>
             <SimpleData name="Empresa">Unique Wood Paraguay SA</SimpleData>
             <SimpleData name="Lote">C</SimpleData>
-            <SimpleData name="Parametro">0.70000000000</SimpleData>
-            <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.69319496000</SimpleData>
             <SimpleData name="Y">-25.66212217000</SimpleData>
-            <SimpleData name="Sup_SIG">0.70066552445</SimpleData>
+            <SimpleData name="Sup_SIG">0.70066552446</SimpleData>
             <SimpleData name="cedula">7190380</SimpleData>
           </SchemaData>
         </ExtendedData>
@@ -460,6 +450,7 @@
             <SimpleData name="Sexo">Mujer</SimpleData>
             <SimpleData name="Cambio_de_">NO</SimpleData>
             <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="Cédula_Ti">NO</SimpleData>
             <SimpleData name="ci_UNIF">7871801.00000000000</SimpleData>
             <SimpleData name="Situación">NO</SimpleData>
             <SimpleData name="Comunidad">Ind?gena</SimpleData>
@@ -467,21 +458,19 @@
             <SimpleData name="Departamen">CAAGUAZU</SimpleData>
             <SimpleData name="Distrito">REPATRIACION</SimpleData>
             <SimpleData name="Localidad">COM INDIG ?U HOVY</SimpleData>
+            <SimpleData name="Localidad_">?U HOVY</SimpleData>
             <SimpleData name="Teléfono">985337698</SimpleData>
             <SimpleData name="Vivienda_L">-25.65148390000</SimpleData>
             <SimpleData name="Vivienda_1">-55.71427930000</SimpleData>
             <SimpleData name="Superficie">0.90000000000</SimpleData>
-            <SimpleData name="Situaci_1">Pol?gono</SimpleData>
-            <SimpleData name="Plantado">SI</SimpleData>
-            <SimpleData name="Plantado_f">2025/10/15</SimpleData>
+            <SimpleData name="Fecha_Plan">2025/10/15</SimpleData>
             <SimpleData name="Jornales">0.00000000000</SimpleData>
             <SimpleData name="Monto">0.00000000000</SimpleData>
-            <SimpleData name="Grupo_de_p">C-P1</SimpleData>
+            <SimpleData name="Grupo_de_p">C-P1-XX-XX-XX</SimpleData>
+            <SimpleData name="ETAPA_FAO">Mantenimiento A?o 1.1</SimpleData>
             <SimpleData name="Estado_del">Activo</SimpleData>
             <SimpleData name="Empresa">Unique Wood Paraguay SA</SimpleData>
             <SimpleData name="Lote">C</SimpleData>
-            <SimpleData name="Parametro">0.90000000000</SimpleData>
-            <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.71367285000</SimpleData>
             <SimpleData name="Y">-25.66184405000</SimpleData>
             <SimpleData name="Sup_SIG">0.92883493432</SimpleData>
@@ -493,7 +482,7 @@
             <LinearRing>
               <coordinates>
                 -55.7135359003056,-25.6622570006928,0
-                -55.7138521995724,-25.6626213006098,0
+                -55.7138521995725,-25.6626213006098,0
                 -55.7143416996307,-25.6616482997867,0
                 -55.7128360004065,-25.6612566998308,0
                 -55.7128067003054,-25.6613881001008,0
@@ -512,6 +501,7 @@
             <SimpleData name="Sexo">Mujer</SimpleData>
             <SimpleData name="Cambio_de_">NO</SimpleData>
             <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="Cédula_Ti">NO</SimpleData>
             <SimpleData name="ci_UNIF">7825655.00000000000</SimpleData>
             <SimpleData name="Situación">NO</SimpleData>
             <SimpleData name="Comunidad">Ind?gena</SimpleData>
@@ -519,24 +509,22 @@
             <SimpleData name="Departamen">CAAGUAZU</SimpleData>
             <SimpleData name="Distrito">REPATRIACION</SimpleData>
             <SimpleData name="Localidad">COM INDIG PINDO-I</SimpleData>
+            <SimpleData name="Localidad_"><![CDATA[PINDO'I CULANDRILLO]]></SimpleData>
             <SimpleData name="Teléfono">0984057501</SimpleData>
             <SimpleData name="Vivienda_L">-25.54315000000</SimpleData>
             <SimpleData name="Vivienda_1">-55.66044000000</SimpleData>
             <SimpleData name="Superficie">0.70000000000</SimpleData>
-            <SimpleData name="Situaci_1">Par?metro</SimpleData>
-            <SimpleData name="Plantado">SI</SimpleData>
-            <SimpleData name="Plantado_f">2026/01/14</SimpleData>
+            <SimpleData name="Fecha_Plan">2026/01/14</SimpleData>
             <SimpleData name="Jornales">0.00000000000</SimpleData>
             <SimpleData name="Monto">0.00000000000</SimpleData>
-            <SimpleData name="Grupo_de_p">C-P2</SimpleData>
+            <SimpleData name="Grupo_de_p">C-P2-XX-XX-XX</SimpleData>
+            <SimpleData name="ETAPA_FAO">Mantenimiento A?o 1.1</SimpleData>
             <SimpleData name="Estado_del">Activo</SimpleData>
             <SimpleData name="Empresa">Unique Wood Paraguay SA</SimpleData>
             <SimpleData name="Lote">C</SimpleData>
-            <SimpleData name="Parametro">0.70000000000</SimpleData>
-            <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.67131092000</SimpleData>
             <SimpleData name="Y">-25.54250674000</SimpleData>
-            <SimpleData name="Sup_SIG">0.70060588679</SimpleData>
+            <SimpleData name="Sup_SIG">0.70060588678</SimpleData>
             <SimpleData name="cedula">7825655</SimpleData>
           </SchemaData>
         </ExtendedData>
@@ -550,10 +538,10 @@
                 -55.6708733003088,-25.5427083002276,0
                 -55.6710916997961,-25.5430850002251,0
                 -55.671391699798,-25.543086700232,0
-                -55.6715900003295,-25.5425200003678,0
+                -55.6715900003294,-25.5425200003678,0
                 -55.6714616997613,-25.5421167004208,0
                 -55.6717167002334,-25.5422050001942,0
-                -55.6719532997263,-25.5422732997958,0
+                -55.6719532997264,-25.5422732997958,0
                 -55.6719866997048,-25.5420882999688,0
                 -55.6713967000886,-25.5418967005041,0
               </coordinates>
@@ -569,6 +557,7 @@
             <SimpleData name="Sexo">Mujer</SimpleData>
             <SimpleData name="Cambio_de_">NO</SimpleData>
             <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="Cédula_Ti">NO</SimpleData>
             <SimpleData name="ci_UNIF">6381953.00000000000</SimpleData>
             <SimpleData name="Situación">NO</SimpleData>
             <SimpleData name="Comunidad">Ind?gena</SimpleData>
@@ -576,24 +565,22 @@
             <SimpleData name="Departamen">CAAGUAZU</SimpleData>
             <SimpleData name="Distrito">REPATRIACION</SimpleData>
             <SimpleData name="Localidad">COM INDIG ?U JHOVY</SimpleData>
+            <SimpleData name="Localidad_">?U HOVY</SimpleData>
             <SimpleData name="Teléfono">ND</SimpleData>
             <SimpleData name="Vivienda_L">-25.64273420000</SimpleData>
             <SimpleData name="Vivienda_1">-55.72125600000</SimpleData>
             <SimpleData name="Superficie">0.70000000000</SimpleData>
-            <SimpleData name="Situaci_1">Pol?gono</SimpleData>
-            <SimpleData name="Plantado">SI</SimpleData>
-            <SimpleData name="Plantado_f">2025/09/19</SimpleData>
+            <SimpleData name="Fecha_Plan">2025/09/19</SimpleData>
             <SimpleData name="Jornales">0.00000000000</SimpleData>
             <SimpleData name="Monto">0.00000000000</SimpleData>
-            <SimpleData name="Grupo_de_p">C-P1</SimpleData>
+            <SimpleData name="Grupo_de_p">C-P1-XX-XX-XX</SimpleData>
+            <SimpleData name="ETAPA_FAO">Mantenimiento A?o 1.1</SimpleData>
             <SimpleData name="Estado_del">Activo</SimpleData>
             <SimpleData name="Empresa">Unique Wood Paraguay SA</SimpleData>
             <SimpleData name="Lote">C</SimpleData>
-            <SimpleData name="Parametro">0.70000000000</SimpleData>
-            <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.72133073000</SimpleData>
             <SimpleData name="Y">-25.64310094000</SimpleData>
-            <SimpleData name="Sup_SIG">0.71486247156</SimpleData>
+            <SimpleData name="Sup_SIG">0.71486247157</SimpleData>
             <SimpleData name="cedula">6381953</SimpleData>
           </SchemaData>
         </ExtendedData>
@@ -623,6 +610,7 @@
             <SimpleData name="Sexo">Hombre</SimpleData>
             <SimpleData name="Cambio_de_">NO</SimpleData>
             <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="Cédula_Ti">NO</SimpleData>
             <SimpleData name="ci_UNIF">7174509.00000000000</SimpleData>
             <SimpleData name="Situación">NO</SimpleData>
             <SimpleData name="Comunidad">Ind?gena</SimpleData>
@@ -630,21 +618,19 @@
             <SimpleData name="Departamen">CAAGUAZU</SimpleData>
             <SimpleData name="Distrito">REPATRIACION</SimpleData>
             <SimpleData name="Localidad">COM INDIG ?U HOVY</SimpleData>
+            <SimpleData name="Localidad_">?U HOVY</SimpleData>
             <SimpleData name="Teléfono">982792016</SimpleData>
             <SimpleData name="Vivienda_L">-25.65208530000</SimpleData>
             <SimpleData name="Vivienda_1">-55.71427230000</SimpleData>
             <SimpleData name="Superficie">0.80000000000</SimpleData>
-            <SimpleData name="Situaci_1">Pol?gono</SimpleData>
-            <SimpleData name="Plantado">SI</SimpleData>
-            <SimpleData name="Plantado_f">2025/10/10</SimpleData>
+            <SimpleData name="Fecha_Plan">2025/10/10</SimpleData>
             <SimpleData name="Jornales">0.00000000000</SimpleData>
             <SimpleData name="Monto">0.00000000000</SimpleData>
-            <SimpleData name="Grupo_de_p">C-P1</SimpleData>
+            <SimpleData name="Grupo_de_p">C-P1-XX-XX-XX</SimpleData>
+            <SimpleData name="ETAPA_FAO">Mantenimiento A?o 1.1</SimpleData>
             <SimpleData name="Estado_del">Activo</SimpleData>
             <SimpleData name="Empresa">Unique Wood Paraguay SA</SimpleData>
             <SimpleData name="Lote">C</SimpleData>
-            <SimpleData name="Parametro">0.80000000000</SimpleData>
-            <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.71388371000</SimpleData>
             <SimpleData name="Y">-25.65219897000</SimpleData>
             <SimpleData name="Sup_SIG">0.90813043688</SimpleData>
@@ -689,7 +675,7 @@
                   -55.7140054000854,-25.6521534999074,0
                   -55.7140316007965,-25.6519700999015,0
                   -55.7142899994918,-25.6520217003441,0
-                  -55.7143258994499,-25.6518734998306,0
+                  -55.7143258994498,-25.6518734998306,0
                   -55.7137410991436,-25.6517673998945,0
                   -55.7135906994611,-25.6520992000172,0
                   -55.7134951003444,-25.6522407003355,0
@@ -707,6 +693,7 @@
             <SimpleData name="Sexo">Mujer</SimpleData>
             <SimpleData name="Cambio_de_">NO</SimpleData>
             <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="Cédula_Ti">NO</SimpleData>
             <SimpleData name="ci_UNIF">3292462.00000000000</SimpleData>
             <SimpleData name="Situación">NO</SimpleData>
             <SimpleData name="Comunidad">Ind?gena</SimpleData>
@@ -714,24 +701,22 @@
             <SimpleData name="Departamen">CAAGUAZU</SimpleData>
             <SimpleData name="Distrito">REPATRIACION</SimpleData>
             <SimpleData name="Localidad"><![CDATA[COM INDIG YHOVY'I]]></SimpleData>
+            <SimpleData name="Localidad_"><![CDATA[YHOVY'I]]></SimpleData>
             <SimpleData name="Teléfono">ND</SimpleData>
             <SimpleData name="Vivienda_L">-25.68225500000</SimpleData>
             <SimpleData name="Vivienda_1">-55.74943830000</SimpleData>
             <SimpleData name="Superficie">0.80000000000</SimpleData>
-            <SimpleData name="Situaci_1">Pol?gono</SimpleData>
-            <SimpleData name="Plantado">SI</SimpleData>
-            <SimpleData name="Plantado_f">2025/10/23</SimpleData>
+            <SimpleData name="Fecha_Plan">2025/10/23</SimpleData>
             <SimpleData name="Jornales">0.00000000000</SimpleData>
             <SimpleData name="Monto">0.00000000000</SimpleData>
-            <SimpleData name="Grupo_de_p">C-P1</SimpleData>
+            <SimpleData name="Grupo_de_p">C-P1-XX-XX-XX</SimpleData>
+            <SimpleData name="ETAPA_FAO">Mantenimiento A?o 1.1</SimpleData>
             <SimpleData name="Estado_del">Activo</SimpleData>
             <SimpleData name="Empresa">Unique Wood Paraguay SA</SimpleData>
             <SimpleData name="Lote">C</SimpleData>
-            <SimpleData name="Parametro">0.80000000000</SimpleData>
-            <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.75105543000</SimpleData>
             <SimpleData name="Y">-25.68382330000</SimpleData>
-            <SimpleData name="Sup_SIG">0.89515262128</SimpleData>
+            <SimpleData name="Sup_SIG">0.89515262129</SimpleData>
             <SimpleData name="cedula">3292462</SimpleData>
           </SchemaData>
         </ExtendedData>
@@ -739,11 +724,11 @@
           <outerBoundaryIs>
             <LinearRing>
               <coordinates>
-                -55.7503853001405,-25.6836275003746,0
+                -55.7503853001405,-25.6836275003745,0
                 -55.7507923004714,-25.6843584000788,0
                 -55.7517082996368,-25.6840066998825,0
                 -55.7513583000745,-25.6833033004758,0
-                -55.7503853001405,-25.6836275003746,0
+                -55.7503853001405,-25.6836275003745,0
               </coordinates>
             </LinearRing>
           </outerBoundaryIs>
@@ -757,6 +742,7 @@
             <SimpleData name="Sexo">Mujer</SimpleData>
             <SimpleData name="Cambio_de_">NO</SimpleData>
             <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="Cédula_Ti">NO</SimpleData>
             <SimpleData name="ci_UNIF">6240997.00000000000</SimpleData>
             <SimpleData name="Situación">NO</SimpleData>
             <SimpleData name="Comunidad">Ind?gena</SimpleData>
@@ -764,24 +750,22 @@
             <SimpleData name="Departamen">CAAGUAZU</SimpleData>
             <SimpleData name="Distrito">REPATRIACION</SimpleData>
             <SimpleData name="Localidad">COM INDIG KAATYMI</SimpleData>
+            <SimpleData name="Localidad_"><![CDATA[KA'ATYMI]]></SimpleData>
             <SimpleData name="Teléfono">0986825377</SimpleData>
             <SimpleData name="Vivienda_L">-25.65546350000</SimpleData>
             <SimpleData name="Vivienda_1">-55.70161870000</SimpleData>
             <SimpleData name="Superficie">0.80000000000</SimpleData>
-            <SimpleData name="Situaci_1">Pol?gono</SimpleData>
-            <SimpleData name="Plantado">SI</SimpleData>
-            <SimpleData name="Plantado_f">2025/09/22</SimpleData>
+            <SimpleData name="Fecha_Plan">2025/09/22</SimpleData>
             <SimpleData name="Jornales">0.00000000000</SimpleData>
             <SimpleData name="Monto">0.00000000000</SimpleData>
-            <SimpleData name="Grupo_de_p">C-P1</SimpleData>
+            <SimpleData name="Grupo_de_p">C-P1-XX-XX-XX</SimpleData>
+            <SimpleData name="ETAPA_FAO">Mantenimiento A?o 1.1</SimpleData>
             <SimpleData name="Estado_del">Activo</SimpleData>
             <SimpleData name="Empresa">Unique Wood Paraguay SA</SimpleData>
             <SimpleData name="Lote">C</SimpleData>
-            <SimpleData name="Parametro">0.80000000000</SimpleData>
-            <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.70299857000</SimpleData>
             <SimpleData name="Y">-25.65653589000</SimpleData>
-            <SimpleData name="Sup_SIG">0.87195080249</SimpleData>
+            <SimpleData name="Sup_SIG">0.87195080251</SimpleData>
             <SimpleData name="cedula">6240997</SimpleData>
           </SchemaData>
         </ExtendedData>
@@ -807,6 +791,7 @@
             <SimpleData name="Sexo">Mujer</SimpleData>
             <SimpleData name="Cambio_de_">NO</SimpleData>
             <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="Cédula_Ti">NO</SimpleData>
             <SimpleData name="ci_UNIF">6347063.00000000000</SimpleData>
             <SimpleData name="Situación">NO</SimpleData>
             <SimpleData name="Comunidad">Ind?gena</SimpleData>
@@ -814,24 +799,22 @@
             <SimpleData name="Departamen">CAAGUAZU</SimpleData>
             <SimpleData name="Distrito">REPATRIACION</SimpleData>
             <SimpleData name="Localidad">COM INDIG ?U JHOVY</SimpleData>
+            <SimpleData name="Localidad_">?U HOVY</SimpleData>
             <SimpleData name="Teléfono">ND</SimpleData>
             <SimpleData name="Vivienda_L">-25.64718000000</SimpleData>
             <SimpleData name="Vivienda_1">-55.71455000000</SimpleData>
             <SimpleData name="Superficie">0.70000000000</SimpleData>
-            <SimpleData name="Situaci_1">Pol?gono</SimpleData>
-            <SimpleData name="Plantado">SI</SimpleData>
-            <SimpleData name="Plantado_f">2025/09/19</SimpleData>
+            <SimpleData name="Fecha_Plan">2025/09/19</SimpleData>
             <SimpleData name="Jornales">0.00000000000</SimpleData>
             <SimpleData name="Monto">0.00000000000</SimpleData>
-            <SimpleData name="Grupo_de_p">C-P1</SimpleData>
+            <SimpleData name="Grupo_de_p">C-P1-XX-XX-XX</SimpleData>
+            <SimpleData name="ETAPA_FAO">Mantenimiento A?o 1.1</SimpleData>
             <SimpleData name="Estado_del">Activo</SimpleData>
             <SimpleData name="Empresa">Unique Wood Paraguay SA</SimpleData>
             <SimpleData name="Lote">C</SimpleData>
-            <SimpleData name="Parametro">0.70000000000</SimpleData>
-            <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.71389670000</SimpleData>
             <SimpleData name="Y">-25.64655023000</SimpleData>
-            <SimpleData name="Sup_SIG">0.76141762070</SimpleData>
+            <SimpleData name="Sup_SIG">0.76141762068</SimpleData>
             <SimpleData name="cedula">6347063</SimpleData>
           </SchemaData>
         </ExtendedData>
@@ -841,9 +824,9 @@
               <coordinates>
                 -55.7133356991491,-25.6462624004485,0
                 -55.7137589000805,-25.6470544004101,0
-                -55.7138049998976,-25.6470832997821,0
+                -55.7138049998976,-25.647083299782,0
                 -55.714466699757,-25.6468466999069,0
-                -55.7141750001194,-25.646258300651,0
+                -55.7141750001193,-25.646258300651,0
                 -55.7140383000199,-25.6463399999136,0
                 -55.7140139999878,-25.6461548999712,0
                 -55.7140942997409,-25.6461165997111,0
@@ -862,6 +845,7 @@
             <SimpleData name="Sexo">Mujer</SimpleData>
             <SimpleData name="Cambio_de_">NO</SimpleData>
             <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="Cédula_Ti">NO</SimpleData>
             <SimpleData name="ci_UNIF">7990155.00000000000</SimpleData>
             <SimpleData name="Situación">NO</SimpleData>
             <SimpleData name="Comunidad">Ind?gena</SimpleData>
@@ -869,21 +853,19 @@
             <SimpleData name="Departamen">CAAGUAZU</SimpleData>
             <SimpleData name="Distrito">REPATRIACION</SimpleData>
             <SimpleData name="Localidad">COM INDIG KAATYMI</SimpleData>
+            <SimpleData name="Localidad_"><![CDATA[KA'ATYMI]]></SimpleData>
             <SimpleData name="Teléfono">ND</SimpleData>
             <SimpleData name="Vivienda_L">-25.66481080000</SimpleData>
             <SimpleData name="Vivienda_1">-55.70106790000</SimpleData>
             <SimpleData name="Superficie">0.70000000000</SimpleData>
-            <SimpleData name="Situaci_1">Pol?gono</SimpleData>
-            <SimpleData name="Plantado">SI</SimpleData>
-            <SimpleData name="Plantado_f">2025/09/26</SimpleData>
+            <SimpleData name="Fecha_Plan">2025/09/26</SimpleData>
             <SimpleData name="Jornales">0.00000000000</SimpleData>
             <SimpleData name="Monto">0.00000000000</SimpleData>
-            <SimpleData name="Grupo_de_p">C-P1</SimpleData>
+            <SimpleData name="Grupo_de_p">C-P1-XX-XX-XX</SimpleData>
+            <SimpleData name="ETAPA_FAO">Mantenimiento A?o 1.1</SimpleData>
             <SimpleData name="Estado_del">Activo</SimpleData>
             <SimpleData name="Empresa">Unique Wood Paraguay SA</SimpleData>
             <SimpleData name="Lote">C</SimpleData>
-            <SimpleData name="Parametro">0.70000000000</SimpleData>
-            <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.70053923000</SimpleData>
             <SimpleData name="Y">-25.66550086000</SimpleData>
             <SimpleData name="Sup_SIG">0.77995960766</SimpleData>
@@ -896,9 +878,9 @@
               <coordinates>
                 -55.7002617000453,-25.6659767001966,0
                 -55.7009266998119,-25.6659982996474,0
-                -55.7008369998286,-25.6649375001034,0
+                -55.7008369998286,-25.6649375001035,0
                 -55.7003258004918,-25.664949900262,0
-                -55.7003004002358,-25.6653402001196,0
+                -55.7003004002358,-25.6653402001195,0
                 -55.7000183000667,-25.6654872002581,0
                 -55.7000250004058,-25.6655949998775,0
                 -55.7001883001611,-25.6657633998547,0
@@ -916,6 +898,7 @@
             <SimpleData name="Sexo">Hombre</SimpleData>
             <SimpleData name="Cambio_de_">NO</SimpleData>
             <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="Cédula_Ti">NO</SimpleData>
             <SimpleData name="ci_UNIF">6374519.00000000000</SimpleData>
             <SimpleData name="Situación">NO</SimpleData>
             <SimpleData name="Comunidad">Ind?gena</SimpleData>
@@ -923,21 +906,19 @@
             <SimpleData name="Departamen">CAAGUAZU</SimpleData>
             <SimpleData name="Distrito">REPATRIACION</SimpleData>
             <SimpleData name="Localidad">COM INDIG ?U JHOVY</SimpleData>
+            <SimpleData name="Localidad_">?U HOVY</SimpleData>
             <SimpleData name="Teléfono">0971429659</SimpleData>
             <SimpleData name="Vivienda_L">-25.64170670000</SimpleData>
             <SimpleData name="Vivienda_1">-55.72140330000</SimpleData>
             <SimpleData name="Superficie">0.70000000000</SimpleData>
-            <SimpleData name="Situaci_1">Pol?gono</SimpleData>
-            <SimpleData name="Plantado">SI</SimpleData>
-            <SimpleData name="Plantado_f">2025/09/19</SimpleData>
+            <SimpleData name="Fecha_Plan">2025/09/19</SimpleData>
             <SimpleData name="Jornales">0.00000000000</SimpleData>
             <SimpleData name="Monto">0.00000000000</SimpleData>
-            <SimpleData name="Grupo_de_p">C-P1</SimpleData>
+            <SimpleData name="Grupo_de_p">C-P1-XX-XX-XX</SimpleData>
+            <SimpleData name="ETAPA_FAO">Mantenimiento A?o 1.1</SimpleData>
             <SimpleData name="Estado_del">Activo</SimpleData>
             <SimpleData name="Empresa">Unique Wood Paraguay SA</SimpleData>
             <SimpleData name="Lote">C</SimpleData>
-            <SimpleData name="Parametro">0.70000000000</SimpleData>
-            <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.72123930000</SimpleData>
             <SimpleData name="Y">-25.64202972000</SimpleData>
             <SimpleData name="Sup_SIG">0.69712215753</SimpleData>
@@ -948,14 +929,14 @@
           <outerBoundaryIs>
             <LinearRing>
               <coordinates>
-                -55.7207049001728,-25.6417759999538,0
+                -55.7207049001727,-25.6417759999538,0
                 -55.7211149003596,-25.6425021999789,0
                 -55.7213744996634,-25.6424690997414,0
                 -55.7218266998073,-25.6422867001642,0
                 -55.7216487996531,-25.6418770001726,0
                 -55.7213682007216,-25.6418985000518,0
                 -55.7211499001398,-25.6414118997494,0
-                -55.7207049001728,-25.6417759999538,0
+                -55.7207049001727,-25.6417759999538,0
               </coordinates>
             </LinearRing>
           </outerBoundaryIs>
@@ -969,6 +950,7 @@
             <SimpleData name="Sexo">Hombre</SimpleData>
             <SimpleData name="Cambio_de_">NO</SimpleData>
             <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="Cédula_Ti">NO</SimpleData>
             <SimpleData name="ci_UNIF">3474840.00000000000</SimpleData>
             <SimpleData name="Situación">NO</SimpleData>
             <SimpleData name="Comunidad">Campesina</SimpleData>
@@ -976,21 +958,19 @@
             <SimpleData name="Departamen">CAAGUAZU</SimpleData>
             <SimpleData name="Distrito">REPATRIACION</SimpleData>
             <SimpleData name="Localidad">ARROYITO CHACORE</SimpleData>
+            <SimpleData name="Localidad_">ARROYITO CHACORE</SimpleData>
             <SimpleData name="Teléfono">0975972646</SimpleData>
             <SimpleData name="Vivienda_L">-25.55088660000</SimpleData>
             <SimpleData name="Vivienda_1">-55.81102670000</SimpleData>
             <SimpleData name="Superficie">0.70000000000</SimpleData>
-            <SimpleData name="Situaci_1">Par?metro</SimpleData>
-            <SimpleData name="Plantado">SI</SimpleData>
-            <SimpleData name="Plantado_f">2026/01/13</SimpleData>
+            <SimpleData name="Fecha_Plan">2026/01/13</SimpleData>
             <SimpleData name="Jornales">0.00000000000</SimpleData>
             <SimpleData name="Monto">0.00000000000</SimpleData>
-            <SimpleData name="Grupo_de_p">C-P2</SimpleData>
+            <SimpleData name="Grupo_de_p">C-P2-XX-XX-XX</SimpleData>
+            <SimpleData name="ETAPA_FAO">Mantenimiento A?o 1.1</SimpleData>
             <SimpleData name="Estado_del">Activo</SimpleData>
             <SimpleData name="Empresa">Unique Wood Paraguay SA</SimpleData>
             <SimpleData name="Lote">C</SimpleData>
-            <SimpleData name="Parametro">0.70000000000</SimpleData>
-            <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.80949137000</SimpleData>
             <SimpleData name="Y">-25.55220432000</SimpleData>
             <SimpleData name="Sup_SIG">0.72789723102</SimpleData>
@@ -1020,6 +1000,7 @@
             <SimpleData name="Sexo">Hombre</SimpleData>
             <SimpleData name="Cambio_de_">NO</SimpleData>
             <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="Cédula_Ti">NO</SimpleData>
             <SimpleData name="ci_UNIF">5608880.00000000000</SimpleData>
             <SimpleData name="Situación">NO</SimpleData>
             <SimpleData name="Comunidad">Campesina</SimpleData>
@@ -1027,24 +1008,22 @@
             <SimpleData name="Departamen">CAAGUAZU</SimpleData>
             <SimpleData name="Distrito">REPATRIACION</SimpleData>
             <SimpleData name="Localidad">ASENT. JULIANA FLEITAS</SimpleData>
+            <SimpleData name="Localidad_">ASENT. JULIANA FLEITAS</SimpleData>
             <SimpleData name="Teléfono">0975527808</SimpleData>
             <SimpleData name="Vivienda_L">-25.55059780000</SimpleData>
             <SimpleData name="Vivienda_1">-55.88314630000</SimpleData>
             <SimpleData name="Superficie">0.80000000000</SimpleData>
-            <SimpleData name="Situaci_1">Par?metro</SimpleData>
-            <SimpleData name="Plantado">SI</SimpleData>
-            <SimpleData name="Plantado_f">2026/01/13</SimpleData>
+            <SimpleData name="Fecha_Plan">2026/01/13</SimpleData>
             <SimpleData name="Jornales">0.00000000000</SimpleData>
             <SimpleData name="Monto">0.00000000000</SimpleData>
-            <SimpleData name="Grupo_de_p">C-P2</SimpleData>
+            <SimpleData name="Grupo_de_p">C-P2-XX-XX-XX</SimpleData>
+            <SimpleData name="ETAPA_FAO">Mantenimiento A?o 1.1</SimpleData>
             <SimpleData name="Estado_del">Activo</SimpleData>
             <SimpleData name="Empresa">Unique Wood Paraguay SA</SimpleData>
             <SimpleData name="Lote">C</SimpleData>
-            <SimpleData name="Parametro">0.80000000000</SimpleData>
-            <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.73995524000</SimpleData>
             <SimpleData name="Y">-25.51716155000</SimpleData>
-            <SimpleData name="Sup_SIG">0.95520597814</SimpleData>
+            <SimpleData name="Sup_SIG">0.95520597812</SimpleData>
             <SimpleData name="cedula">5608880</SimpleData>
           </SchemaData>
         </ExtendedData>
@@ -1054,7 +1033,7 @@
               <coordinates>
                 -55.7392146997065,-25.5177626003847,0
                 -55.7396004997289,-25.5180283996067,0
-                -55.7407125000858,-25.5165345002944,0
+                -55.7407125000858,-25.5165345002945,0
                 -55.7402875996081,-25.5163191998442,0
                 -55.7392146997065,-25.5177626003847,0
               </coordinates>
@@ -1070,6 +1049,7 @@
             <SimpleData name="Sexo">Mujer</SimpleData>
             <SimpleData name="Cambio_de_">NO</SimpleData>
             <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="Cédula_Ti">NO</SimpleData>
             <SimpleData name="ci_UNIF">6731114.00000000000</SimpleData>
             <SimpleData name="Situación">NO</SimpleData>
             <SimpleData name="Comunidad">Campesina</SimpleData>
@@ -1077,21 +1057,19 @@
             <SimpleData name="Departamen">CAAGUAZU</SimpleData>
             <SimpleData name="Distrito">REPATRIACION</SimpleData>
             <SimpleData name="Localidad">AGUILA NEGRA</SimpleData>
+            <SimpleData name="Localidad_">AGUILA NEGRA</SimpleData>
             <SimpleData name="Teléfono">0976421362</SimpleData>
             <SimpleData name="Vivienda_L">-25.62999330000</SimpleData>
             <SimpleData name="Vivienda_1">-55.70509000000</SimpleData>
             <SimpleData name="Superficie">0.80000000000</SimpleData>
-            <SimpleData name="Situaci_1">Pol?gono</SimpleData>
-            <SimpleData name="Plantado">SI</SimpleData>
-            <SimpleData name="Plantado_f">2025/10/02</SimpleData>
+            <SimpleData name="Fecha_Plan">2025/10/02</SimpleData>
             <SimpleData name="Jornales">0.00000000000</SimpleData>
             <SimpleData name="Monto">0.00000000000</SimpleData>
-            <SimpleData name="Grupo_de_p">C-P1</SimpleData>
+            <SimpleData name="Grupo_de_p">C-P1-XX-XX-XX</SimpleData>
+            <SimpleData name="ETAPA_FAO">Mantenimiento A?o 1.1</SimpleData>
             <SimpleData name="Estado_del">Activo</SimpleData>
             <SimpleData name="Empresa">Unique Wood Paraguay SA</SimpleData>
             <SimpleData name="Lote">C</SimpleData>
-            <SimpleData name="Parametro">0.80000000000</SimpleData>
-            <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.70480054000</SimpleData>
             <SimpleData name="Y">-25.62899888000</SimpleData>
             <SimpleData name="Sup_SIG">0.99498073056</SimpleData>
@@ -1122,6 +1100,7 @@
             <SimpleData name="Sexo">Mujer</SimpleData>
             <SimpleData name="Cambio_de_">NO</SimpleData>
             <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="Cédula_Ti">NO</SimpleData>
             <SimpleData name="ci_UNIF">6278537.00000000000</SimpleData>
             <SimpleData name="Situación">NO</SimpleData>
             <SimpleData name="Comunidad">Ind?gena</SimpleData>
@@ -1129,21 +1108,19 @@
             <SimpleData name="Departamen">CAAGUAZU</SimpleData>
             <SimpleData name="Distrito">REPATRIACION</SimpleData>
             <SimpleData name="Localidad">COM INDIG KAATYMI</SimpleData>
+            <SimpleData name="Localidad_"><![CDATA[KA'ATYMI]]></SimpleData>
             <SimpleData name="Teléfono">ND</SimpleData>
             <SimpleData name="Vivienda_L">-25.53634780000</SimpleData>
             <SimpleData name="Vivienda_1">-55.99284740000</SimpleData>
             <SimpleData name="Superficie">0.70000000000</SimpleData>
-            <SimpleData name="Situaci_1">Pol?gono</SimpleData>
-            <SimpleData name="Plantado">SI</SimpleData>
-            <SimpleData name="Plantado_f">2025/09/22</SimpleData>
+            <SimpleData name="Fecha_Plan">2025/09/22</SimpleData>
             <SimpleData name="Jornales">0.00000000000</SimpleData>
             <SimpleData name="Monto">0.00000000000</SimpleData>
-            <SimpleData name="Grupo_de_p">C-P1</SimpleData>
+            <SimpleData name="Grupo_de_p">C-P1-XX-XX-XX</SimpleData>
+            <SimpleData name="ETAPA_FAO">Mantenimiento A?o 1.1</SimpleData>
             <SimpleData name="Estado_del">Activo</SimpleData>
             <SimpleData name="Empresa">Unique Wood Paraguay SA</SimpleData>
             <SimpleData name="Lote">C</SimpleData>
-            <SimpleData name="Parametro">0.80000000000</SimpleData>
-            <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.69328691000</SimpleData>
             <SimpleData name="Y">-25.65696054000</SimpleData>
             <SimpleData name="Sup_SIG">1.05164950923</SimpleData>
@@ -1154,14 +1131,14 @@
           <outerBoundaryIs>
             <LinearRing>
               <coordinates>
-                -55.6924000008313,-25.6570750001292,0
+                -55.6924000008314,-25.6570750001292,0
                 -55.6939606235501,-25.657320679347,0
                 -55.6942103999645,-25.6573600006112,0
-                -55.6943254002401,-25.6570469006815,0
+                -55.69432540024,-25.6570469006815,0
                 -55.6942417001154,-25.6569282998431,0
                 -55.6923762574931,-25.6565022346669,0
-                -55.6923926798173,-25.6570222929948,0
-                -55.6924000008313,-25.6570750001292,0
+                -55.6923926798173,-25.6570222929947,0
+                -55.6924000008314,-25.6570750001292,0
               </coordinates>
             </LinearRing>
           </outerBoundaryIs>
@@ -1175,6 +1152,7 @@
             <SimpleData name="Sexo">Mujer</SimpleData>
             <SimpleData name="Cambio_de_">NO</SimpleData>
             <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="Cédula_Ti">NO</SimpleData>
             <SimpleData name="ci_UNIF">8061446.00000000000</SimpleData>
             <SimpleData name="Situación">NO</SimpleData>
             <SimpleData name="Comunidad">Ind?gena</SimpleData>
@@ -1182,21 +1160,19 @@
             <SimpleData name="Departamen">CAAGUAZU</SimpleData>
             <SimpleData name="Distrito">REPATRIACION</SimpleData>
             <SimpleData name="Localidad">COM INDIG KAATYMI</SimpleData>
+            <SimpleData name="Localidad_"><![CDATA[KA'ATYMI]]></SimpleData>
             <SimpleData name="Teléfono">0976422139</SimpleData>
             <SimpleData name="Vivienda_L">-25.66701040000</SimpleData>
             <SimpleData name="Vivienda_1">-55.69343100000</SimpleData>
             <SimpleData name="Superficie">0.70000000000</SimpleData>
-            <SimpleData name="Situaci_1">Pol?gono</SimpleData>
-            <SimpleData name="Plantado">SI</SimpleData>
-            <SimpleData name="Plantado_f">2025/10/24</SimpleData>
+            <SimpleData name="Fecha_Plan">2025/10/24</SimpleData>
             <SimpleData name="Jornales">0.00000000000</SimpleData>
             <SimpleData name="Monto">0.00000000000</SimpleData>
-            <SimpleData name="Grupo_de_p">C-P1</SimpleData>
+            <SimpleData name="Grupo_de_p">C-P1-XX-XX-XX</SimpleData>
+            <SimpleData name="ETAPA_FAO">Mantenimiento A?o 1.1</SimpleData>
             <SimpleData name="Estado_del">Activo</SimpleData>
             <SimpleData name="Empresa">Unique Wood Paraguay SA</SimpleData>
             <SimpleData name="Lote">C</SimpleData>
-            <SimpleData name="Parametro">0.70000000000</SimpleData>
-            <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.69425081000</SimpleData>
             <SimpleData name="Y">-25.66722706000</SimpleData>
             <SimpleData name="Sup_SIG">0.72337891847</SimpleData>
@@ -1226,6 +1202,7 @@
             <SimpleData name="Sexo">Mujer</SimpleData>
             <SimpleData name="Cambio_de_">NO</SimpleData>
             <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="Cédula_Ti">NO</SimpleData>
             <SimpleData name="ci_UNIF">6216126.00000000000</SimpleData>
             <SimpleData name="Situación">NO</SimpleData>
             <SimpleData name="Comunidad">Ind?gena</SimpleData>
@@ -1233,24 +1210,22 @@
             <SimpleData name="Departamen">CAAGUAZU</SimpleData>
             <SimpleData name="Distrito">REPATRIACION</SimpleData>
             <SimpleData name="Localidad">COM INDIG PINDO-I</SimpleData>
+            <SimpleData name="Localidad_"><![CDATA[PINDO'I CULANDRILLO]]></SimpleData>
             <SimpleData name="Teléfono">0972910550</SimpleData>
             <SimpleData name="Vivienda_L">-25.53332890000</SimpleData>
             <SimpleData name="Vivienda_1">-55.64779730000</SimpleData>
             <SimpleData name="Superficie">0.70000000000</SimpleData>
-            <SimpleData name="Situaci_1">Par?metro</SimpleData>
-            <SimpleData name="Plantado">SI</SimpleData>
-            <SimpleData name="Plantado_f">2026/01/14</SimpleData>
+            <SimpleData name="Fecha_Plan">2026/01/14</SimpleData>
             <SimpleData name="Jornales">0.00000000000</SimpleData>
             <SimpleData name="Monto">0.00000000000</SimpleData>
-            <SimpleData name="Grupo_de_p">C-P2</SimpleData>
+            <SimpleData name="Grupo_de_p">C-P2-XX-XX-XX</SimpleData>
+            <SimpleData name="ETAPA_FAO">Mantenimiento A?o 1.1</SimpleData>
             <SimpleData name="Estado_del">Activo</SimpleData>
             <SimpleData name="Empresa">Unique Wood Paraguay SA</SimpleData>
             <SimpleData name="Lote">C</SimpleData>
-            <SimpleData name="Parametro">0.70000000000</SimpleData>
-            <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.64839130000</SimpleData>
             <SimpleData name="Y">-25.53433269000</SimpleData>
-            <SimpleData name="Sup_SIG">0.78769386664</SimpleData>
+            <SimpleData name="Sup_SIG">0.78769386663</SimpleData>
             <SimpleData name="cedula">6216126</SimpleData>
           </SchemaData>
         </ExtendedData>
@@ -1258,16 +1233,16 @@
           <outerBoundaryIs>
             <LinearRing>
               <coordinates>
-                -55.6478467004821,-25.534003300245,0
+                -55.6478467004821,-25.5340033002449,0
                 -55.648333300386,-25.5349399999974,0
                 -55.6485816997362,-25.5348466999782,0
                 -55.6489566998712,-25.5344583000454,0
                 -55.6487916995759,-25.5340967003089,0
                 -55.6487150000117,-25.5341133001664,0
                 -55.6486516996085,-25.533993299729,0
-                -55.6483699999216,-25.5340899999046,0
+                -55.6483699999215,-25.5340899999046,0
                 -55.6481350001366,-25.5336499998139,0
-                -55.6478467004821,-25.534003300245,0
+                -55.6478467004821,-25.5340033002449,0
               </coordinates>
             </LinearRing>
           </outerBoundaryIs>
@@ -1281,6 +1256,7 @@
             <SimpleData name="Sexo">Mujer</SimpleData>
             <SimpleData name="Cambio_de_">NO</SimpleData>
             <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="Cédula_Ti">NO</SimpleData>
             <SimpleData name="ci_UNIF">4416128.00000000000</SimpleData>
             <SimpleData name="Situación">NO</SimpleData>
             <SimpleData name="Comunidad">Ind?gena</SimpleData>
@@ -1288,21 +1264,19 @@
             <SimpleData name="Departamen">CAAGUAZU</SimpleData>
             <SimpleData name="Distrito">REPATRIACION</SimpleData>
             <SimpleData name="Localidad">COM INDIG PINDO-I</SimpleData>
+            <SimpleData name="Localidad_"><![CDATA[PINDO'I CULANDRILLO]]></SimpleData>
             <SimpleData name="Teléfono">0971605764</SimpleData>
             <SimpleData name="Vivienda_L">-25.52119810000</SimpleData>
             <SimpleData name="Vivienda_1">-55.64165450000</SimpleData>
             <SimpleData name="Superficie">0.70000000000</SimpleData>
-            <SimpleData name="Situaci_1">Par?metro</SimpleData>
-            <SimpleData name="Plantado">SI</SimpleData>
-            <SimpleData name="Plantado_f">2026/01/14</SimpleData>
+            <SimpleData name="Fecha_Plan">2026/01/14</SimpleData>
             <SimpleData name="Jornales">0.00000000000</SimpleData>
             <SimpleData name="Monto">0.00000000000</SimpleData>
-            <SimpleData name="Grupo_de_p">C-P2</SimpleData>
+            <SimpleData name="Grupo_de_p">C-P2-XX-XX-XX</SimpleData>
+            <SimpleData name="ETAPA_FAO">Mantenimiento A?o 1.1</SimpleData>
             <SimpleData name="Estado_del">Activo</SimpleData>
             <SimpleData name="Empresa">Unique Wood Paraguay SA</SimpleData>
             <SimpleData name="Lote">C</SimpleData>
-            <SimpleData name="Parametro">0.70000000000</SimpleData>
-            <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.64175131000</SimpleData>
             <SimpleData name="Y">-25.52069919000</SimpleData>
             <SimpleData name="Sup_SIG">0.69865446123</SimpleData>
@@ -1348,6 +1322,7 @@
             <SimpleData name="Sexo">Mujer</SimpleData>
             <SimpleData name="Cambio_de_">NO</SimpleData>
             <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="Cédula_Ti">NO</SimpleData>
             <SimpleData name="ci_UNIF">6365985.00000000000</SimpleData>
             <SimpleData name="Situación">NO</SimpleData>
             <SimpleData name="Comunidad">Campesina</SimpleData>
@@ -1355,24 +1330,22 @@
             <SimpleData name="Departamen">CAAGUAZU</SimpleData>
             <SimpleData name="Distrito">REPATRIACION</SimpleData>
             <SimpleData name="Localidad">ASENT. JULIANA FLEITAS</SimpleData>
+            <SimpleData name="Localidad_">ASENT. JULIANA FLEITAS</SimpleData>
             <SimpleData name="Teléfono">0972338711</SimpleData>
             <SimpleData name="Vivienda_L">-25.47930750000</SimpleData>
             <SimpleData name="Vivienda_1">-55.70176130000</SimpleData>
             <SimpleData name="Superficie">0.90000000000</SimpleData>
-            <SimpleData name="Situaci_1">Par?metro</SimpleData>
-            <SimpleData name="Plantado">SI</SimpleData>
-            <SimpleData name="Plantado_f">2026/01/13</SimpleData>
+            <SimpleData name="Fecha_Plan">2026/01/13</SimpleData>
             <SimpleData name="Jornales">0.00000000000</SimpleData>
             <SimpleData name="Monto">0.00000000000</SimpleData>
-            <SimpleData name="Grupo_de_p">C-P2</SimpleData>
+            <SimpleData name="Grupo_de_p">C-P2-XX-XX-XX</SimpleData>
+            <SimpleData name="ETAPA_FAO">Mantenimiento A?o 1.1</SimpleData>
             <SimpleData name="Estado_del">Activo</SimpleData>
             <SimpleData name="Empresa">Unique Wood Paraguay SA</SimpleData>
             <SimpleData name="Lote">C</SimpleData>
-            <SimpleData name="Parametro">0.90000000000</SimpleData>
-            <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.74138033000</SimpleData>
             <SimpleData name="Y">-25.49995095000</SimpleData>
-            <SimpleData name="Sup_SIG">0.90127386381</SimpleData>
+            <SimpleData name="Sup_SIG">0.90127386378</SimpleData>
             <SimpleData name="cedula">6365985</SimpleData>
           </SchemaData>
         </ExtendedData>
@@ -1399,6 +1372,7 @@
             <SimpleData name="Sexo">Mujer</SimpleData>
             <SimpleData name="Cambio_de_">NO</SimpleData>
             <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="Cédula_Ti">NO</SimpleData>
             <SimpleData name="ci_UNIF">7843474.00000000000</SimpleData>
             <SimpleData name="Situación">NO</SimpleData>
             <SimpleData name="Comunidad">Ind?gena</SimpleData>
@@ -1406,24 +1380,22 @@
             <SimpleData name="Departamen">CAAGUAZU</SimpleData>
             <SimpleData name="Distrito">REPATRIACION</SimpleData>
             <SimpleData name="Localidad">COM INDIG PINDO-I</SimpleData>
+            <SimpleData name="Localidad_"><![CDATA[PINDO'I CULANDRILLO]]></SimpleData>
             <SimpleData name="Teléfono">ND</SimpleData>
             <SimpleData name="Vivienda_L">-25.53419290000</SimpleData>
             <SimpleData name="Vivienda_1">-55.67996270000</SimpleData>
             <SimpleData name="Superficie">0.70000000000</SimpleData>
-            <SimpleData name="Situaci_1">Par?metro</SimpleData>
-            <SimpleData name="Plantado">SI</SimpleData>
-            <SimpleData name="Plantado_f">2026/01/14</SimpleData>
+            <SimpleData name="Fecha_Plan">2026/01/14</SimpleData>
             <SimpleData name="Jornales">0.00000000000</SimpleData>
             <SimpleData name="Monto">0.00000000000</SimpleData>
-            <SimpleData name="Grupo_de_p">C-P2</SimpleData>
+            <SimpleData name="Grupo_de_p">C-P2-XX-XX-XX</SimpleData>
+            <SimpleData name="ETAPA_FAO">Mantenimiento A?o 1.1</SimpleData>
             <SimpleData name="Estado_del">Activo</SimpleData>
             <SimpleData name="Empresa">Unique Wood Paraguay SA</SimpleData>
             <SimpleData name="Lote">C</SimpleData>
-            <SimpleData name="Parametro">0.70000000000</SimpleData>
-            <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.67970783000</SimpleData>
             <SimpleData name="Y">-25.53436544000</SimpleData>
-            <SimpleData name="Sup_SIG">0.69457697208</SimpleData>
+            <SimpleData name="Sup_SIG">0.69457697207</SimpleData>
             <SimpleData name="cedula">7843474</SimpleData>
           </SchemaData>
         </ExtendedData>
@@ -1454,7 +1426,7 @@
                 <coordinates>
                   -55.6801017003061,-25.5341133000321,0
                   -55.6802583005031,-25.5340699998139,0
-                  -55.6800933003257,-25.5336049998124,0
+                  -55.6800933003258,-25.5336049998124,0
                   -55.6799433001753,-25.5336666998025,0
                   -55.6801017003061,-25.5341133000321,0
                 </coordinates>
@@ -1471,6 +1443,7 @@
             <SimpleData name="Sexo">Mujer</SimpleData>
             <SimpleData name="Cambio_de_">NO</SimpleData>
             <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="Cédula_Ti">NO</SimpleData>
             <SimpleData name="ci_UNIF">8474363.00000000000</SimpleData>
             <SimpleData name="Situación">NO</SimpleData>
             <SimpleData name="Comunidad">Ind?gena</SimpleData>
@@ -1478,21 +1451,19 @@
             <SimpleData name="Departamen">CAAGUAZU</SimpleData>
             <SimpleData name="Distrito">REPATRIACION</SimpleData>
             <SimpleData name="Localidad">COM INDIG ?U JHOVY</SimpleData>
+            <SimpleData name="Localidad_">?U HOVY</SimpleData>
             <SimpleData name="Teléfono">0975956770</SimpleData>
             <SimpleData name="Vivienda_L">-25.64491500000</SimpleData>
             <SimpleData name="Vivienda_1">-55.71636670000</SimpleData>
             <SimpleData name="Superficie">0.70000000000</SimpleData>
-            <SimpleData name="Situaci_1">Pol?gono</SimpleData>
-            <SimpleData name="Plantado">SI</SimpleData>
-            <SimpleData name="Plantado_f">2025/09/19</SimpleData>
+            <SimpleData name="Fecha_Plan">2025/09/19</SimpleData>
             <SimpleData name="Jornales">0.00000000000</SimpleData>
             <SimpleData name="Monto">0.00000000000</SimpleData>
-            <SimpleData name="Grupo_de_p">C-P1</SimpleData>
+            <SimpleData name="Grupo_de_p">C-P1-XX-XX-XX</SimpleData>
+            <SimpleData name="ETAPA_FAO">Mantenimiento A?o 1.1</SimpleData>
             <SimpleData name="Estado_del">Activo</SimpleData>
             <SimpleData name="Empresa">Unique Wood Paraguay SA</SimpleData>
             <SimpleData name="Lote">C</SimpleData>
-            <SimpleData name="Parametro">0.70000000000</SimpleData>
-            <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.71703046000</SimpleData>
             <SimpleData name="Y">-25.64522637000</SimpleData>
             <SimpleData name="Sup_SIG">0.99407779719</SimpleData>
@@ -1526,6 +1497,7 @@
             <SimpleData name="Sexo">Mujer</SimpleData>
             <SimpleData name="Cambio_de_">NO</SimpleData>
             <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="Cédula_Ti">NO</SimpleData>
             <SimpleData name="ci_UNIF">3264014.00000000000</SimpleData>
             <SimpleData name="Situación">NO</SimpleData>
             <SimpleData name="Comunidad">Campesina</SimpleData>
@@ -1533,24 +1505,22 @@
             <SimpleData name="Departamen">CAAGUAZU</SimpleData>
             <SimpleData name="Distrito">REPATRIACION</SimpleData>
             <SimpleData name="Localidad">ARROYITO CHACORE</SimpleData>
+            <SimpleData name="Localidad_">ARROYITO CHACORE</SimpleData>
             <SimpleData name="Teléfono">0976474914</SimpleData>
             <SimpleData name="Vivienda_L">-25.55088770000</SimpleData>
             <SimpleData name="Vivienda_1">-55.81103080000</SimpleData>
             <SimpleData name="Superficie">0.70000000000</SimpleData>
-            <SimpleData name="Situaci_1">Par?metro</SimpleData>
-            <SimpleData name="Plantado">SI</SimpleData>
-            <SimpleData name="Plantado_f">2026/01/13</SimpleData>
+            <SimpleData name="Fecha_Plan">2026/01/13</SimpleData>
             <SimpleData name="Jornales">0.00000000000</SimpleData>
             <SimpleData name="Monto">0.00000000000</SimpleData>
-            <SimpleData name="Grupo_de_p">C-P2</SimpleData>
+            <SimpleData name="Grupo_de_p">C-P2-XX-XX-XX</SimpleData>
+            <SimpleData name="ETAPA_FAO">Mantenimiento A?o 1.1</SimpleData>
             <SimpleData name="Estado_del">Activo</SimpleData>
             <SimpleData name="Empresa">Unique Wood Paraguay SA</SimpleData>
             <SimpleData name="Lote">C</SimpleData>
-            <SimpleData name="Parametro">0.70000000000</SimpleData>
-            <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.77187269000</SimpleData>
             <SimpleData name="Y">-25.52411110000</SimpleData>
-            <SimpleData name="Sup_SIG">0.71079364329</SimpleData>
+            <SimpleData name="Sup_SIG">0.71079364327</SimpleData>
             <SimpleData name="cedula">3264014</SimpleData>
           </SchemaData>
         </ExtendedData>
@@ -1576,6 +1546,7 @@
             <SimpleData name="Sexo">Mujer</SimpleData>
             <SimpleData name="Cambio_de_">NO</SimpleData>
             <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="Cédula_Ti">NO</SimpleData>
             <SimpleData name="ci_UNIF">7206136.00000000000</SimpleData>
             <SimpleData name="Situación">NO</SimpleData>
             <SimpleData name="Comunidad">Ind?gena</SimpleData>
@@ -1583,24 +1554,22 @@
             <SimpleData name="Departamen">CAAGUAZU</SimpleData>
             <SimpleData name="Distrito">REPATRIACION</SimpleData>
             <SimpleData name="Localidad">COM INDIG KAATYMI</SimpleData>
+            <SimpleData name="Localidad_"><![CDATA[KA'ATYMI]]></SimpleData>
             <SimpleData name="Teléfono">ND</SimpleData>
             <SimpleData name="Vivienda_L">-25.66490450000</SimpleData>
             <SimpleData name="Vivienda_1">-55.70097970000</SimpleData>
             <SimpleData name="Superficie">0.70000000000</SimpleData>
-            <SimpleData name="Situaci_1">Pol?gono</SimpleData>
-            <SimpleData name="Plantado">SI</SimpleData>
-            <SimpleData name="Plantado_f">2025/09/26</SimpleData>
+            <SimpleData name="Fecha_Plan">2025/09/26</SimpleData>
             <SimpleData name="Jornales">0.00000000000</SimpleData>
             <SimpleData name="Monto">0.00000000000</SimpleData>
-            <SimpleData name="Grupo_de_p">C-P1</SimpleData>
+            <SimpleData name="Grupo_de_p">C-P1-XX-XX-XX</SimpleData>
+            <SimpleData name="ETAPA_FAO">Mantenimiento A?o 1.1</SimpleData>
             <SimpleData name="Estado_del">Activo</SimpleData>
             <SimpleData name="Empresa">Unique Wood Paraguay SA</SimpleData>
             <SimpleData name="Lote">C</SimpleData>
-            <SimpleData name="Parametro">0.70000000000</SimpleData>
-            <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.70155424000</SimpleData>
             <SimpleData name="Y">-25.66543625000</SimpleData>
-            <SimpleData name="Sup_SIG">0.90015197108</SimpleData>
+            <SimpleData name="Sup_SIG">0.90015197109</SimpleData>
             <SimpleData name="cedula">7206136</SimpleData>
           </SchemaData>
         </ExtendedData>
@@ -1631,6 +1600,7 @@
             <SimpleData name="Sexo">Mujer</SimpleData>
             <SimpleData name="Cambio_de_">NO</SimpleData>
             <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="Cédula_Ti">NO</SimpleData>
             <SimpleData name="ci_UNIF">5058958.00000000000</SimpleData>
             <SimpleData name="Situación">NO</SimpleData>
             <SimpleData name="Comunidad">Campesina</SimpleData>
@@ -1638,24 +1608,22 @@
             <SimpleData name="Departamen">CAAGUAZU</SimpleData>
             <SimpleData name="Distrito">REPATRIACION</SimpleData>
             <SimpleData name="Localidad">YPEGUA</SimpleData>
+            <SimpleData name="Localidad_">YPEGUA</SimpleData>
             <SimpleData name="Teléfono">0971466126</SimpleData>
             <SimpleData name="Vivienda_L">-25.50628000000</SimpleData>
             <SimpleData name="Vivienda_1">-55.76518170000</SimpleData>
             <SimpleData name="Superficie">0.80000000000</SimpleData>
-            <SimpleData name="Situaci_1">Par?metro</SimpleData>
-            <SimpleData name="Plantado">SI</SimpleData>
-            <SimpleData name="Plantado_f">2026/01/13</SimpleData>
+            <SimpleData name="Fecha_Plan">2026/01/13</SimpleData>
             <SimpleData name="Jornales">0.00000000000</SimpleData>
             <SimpleData name="Monto">0.00000000000</SimpleData>
-            <SimpleData name="Grupo_de_p">C-P2</SimpleData>
+            <SimpleData name="Grupo_de_p">C-P2-XX-XX-XX</SimpleData>
+            <SimpleData name="ETAPA_FAO">Mantenimiento A?o 1.1</SimpleData>
             <SimpleData name="Estado_del">Activo</SimpleData>
             <SimpleData name="Empresa">Unique Wood Paraguay SA</SimpleData>
             <SimpleData name="Lote">C</SimpleData>
-            <SimpleData name="Parametro">0.80000000000</SimpleData>
-            <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.80052325000</SimpleData>
             <SimpleData name="Y">-25.54455888000</SimpleData>
-            <SimpleData name="Sup_SIG">1.07449495509</SimpleData>
+            <SimpleData name="Sup_SIG">1.07449495508</SimpleData>
             <SimpleData name="cedula">5058958</SimpleData>
           </SchemaData>
         </ExtendedData>
@@ -1665,7 +1633,7 @@
               <LinearRing>
                 <coordinates>
                   -55.8009146001425,-25.5450240002908,0
-                  -55.8014093998517,-25.5449840996915,0
+                  -55.8014093998518,-25.5449840996915,0
                   -55.8015538002008,-25.5448437997484,0
                   -55.8007083997449,-25.5442165003165,0
                   -55.8005794995963,-25.544282200031,0
@@ -1698,6 +1666,7 @@
             <SimpleData name="Sexo">Mujer</SimpleData>
             <SimpleData name="Cambio_de_">NO</SimpleData>
             <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="Cédula_Ti">NO</SimpleData>
             <SimpleData name="ci_UNIF">6347059.00000000000</SimpleData>
             <SimpleData name="Situación">NO</SimpleData>
             <SimpleData name="Comunidad">Ind?gena</SimpleData>
@@ -1705,24 +1674,22 @@
             <SimpleData name="Departamen">CAAGUAZU</SimpleData>
             <SimpleData name="Distrito">REPATRIACION</SimpleData>
             <SimpleData name="Localidad">COM INDIG ?U JHOVY</SimpleData>
+            <SimpleData name="Localidad_">?U HOVY</SimpleData>
             <SimpleData name="Teléfono">ND</SimpleData>
             <SimpleData name="Vivienda_L">-25.65426830000</SimpleData>
             <SimpleData name="Vivienda_1">-55.71227330000</SimpleData>
             <SimpleData name="Superficie">0.90000000000</SimpleData>
-            <SimpleData name="Situaci_1">Pol?gono</SimpleData>
-            <SimpleData name="Plantado">SI</SimpleData>
-            <SimpleData name="Plantado_f">2025/09/19</SimpleData>
+            <SimpleData name="Fecha_Plan">2025/09/19</SimpleData>
             <SimpleData name="Jornales">0.00000000000</SimpleData>
             <SimpleData name="Monto">0.00000000000</SimpleData>
-            <SimpleData name="Grupo_de_p">C-P1</SimpleData>
+            <SimpleData name="Grupo_de_p">C-P1-XX-XX-XX</SimpleData>
+            <SimpleData name="ETAPA_FAO">Mantenimiento A?o 1.1</SimpleData>
             <SimpleData name="Estado_del">Activo</SimpleData>
             <SimpleData name="Empresa">Unique Wood Paraguay SA</SimpleData>
             <SimpleData name="Lote">C</SimpleData>
-            <SimpleData name="Parametro">0.90000000000</SimpleData>
-            <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.71241192000</SimpleData>
             <SimpleData name="Y">-25.65493414000</SimpleData>
-            <SimpleData name="Sup_SIG">0.93942299206</SimpleData>
+            <SimpleData name="Sup_SIG">0.93942299205</SimpleData>
             <SimpleData name="cedula">6347059</SimpleData>
           </SchemaData>
         </ExtendedData>
@@ -1752,6 +1719,7 @@
             <SimpleData name="Sexo">Hombre</SimpleData>
             <SimpleData name="Cambio_de_">NO</SimpleData>
             <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="Cédula_Ti">NO</SimpleData>
             <SimpleData name="ci_UNIF">3552199.00000000000</SimpleData>
             <SimpleData name="Situación">NO</SimpleData>
             <SimpleData name="Comunidad">Ind?gena</SimpleData>
@@ -1759,24 +1727,22 @@
             <SimpleData name="Departamen">CAAGUAZU</SimpleData>
             <SimpleData name="Distrito">REPATRIACION</SimpleData>
             <SimpleData name="Localidad">COM INDIG KAATYMI</SimpleData>
+            <SimpleData name="Localidad_"><![CDATA[KA'ATYMI]]></SimpleData>
             <SimpleData name="Teléfono">0975356069</SimpleData>
             <SimpleData name="Vivienda_L">-25.66128380000</SimpleData>
             <SimpleData name="Vivienda_1">-55.69594150000</SimpleData>
             <SimpleData name="Superficie">0.70000000000</SimpleData>
-            <SimpleData name="Situaci_1">Pol?gono</SimpleData>
-            <SimpleData name="Plantado">SI</SimpleData>
-            <SimpleData name="Plantado_f">2025/09/23</SimpleData>
+            <SimpleData name="Fecha_Plan">2025/09/23</SimpleData>
             <SimpleData name="Jornales">0.00000000000</SimpleData>
             <SimpleData name="Monto">0.00000000000</SimpleData>
-            <SimpleData name="Grupo_de_p">C-P1</SimpleData>
+            <SimpleData name="Grupo_de_p">C-P1-XX-XX-XX</SimpleData>
+            <SimpleData name="ETAPA_FAO">Mantenimiento A?o 1.1</SimpleData>
             <SimpleData name="Estado_del">Activo</SimpleData>
             <SimpleData name="Empresa">Unique Wood Paraguay SA</SimpleData>
             <SimpleData name="Lote">C</SimpleData>
-            <SimpleData name="Parametro">0.70000000000</SimpleData>
-            <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.69512611000</SimpleData>
             <SimpleData name="Y">-25.66130275000</SimpleData>
-            <SimpleData name="Sup_SIG">0.74939718682</SimpleData>
+            <SimpleData name="Sup_SIG">0.74939718683</SimpleData>
             <SimpleData name="cedula">3552199</SimpleData>
           </SchemaData>
         </ExtendedData>
@@ -1785,11 +1751,11 @@
             <outerBoundaryIs>
               <LinearRing>
                 <coordinates>
-                  -55.6955618004974,-25.6620988000012,0
+                  -55.6955618004973,-25.6620988000012,0
                   -55.6958255998966,-25.6620160003643,0
                   -55.6958083001525,-25.6615683003596,0
                   -55.6954151002149,-25.6616131005123,0
-                  -55.6955618004974,-25.6620988000012,0
+                  -55.6955618004973,-25.6620988000012,0
                 </coordinates>
               </LinearRing>
             </outerBoundaryIs>
@@ -1832,6 +1798,7 @@
             <SimpleData name="Sexo">Mujer</SimpleData>
             <SimpleData name="Cambio_de_">NO</SimpleData>
             <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="Cédula_Ti">NO</SimpleData>
             <SimpleData name="ci_UNIF">5138631.00000000000</SimpleData>
             <SimpleData name="Situación">NO</SimpleData>
             <SimpleData name="Comunidad">Campesina</SimpleData>
@@ -1839,24 +1806,22 @@
             <SimpleData name="Departamen">CAAGUAZU</SimpleData>
             <SimpleData name="Distrito">REPATRIACION</SimpleData>
             <SimpleData name="Localidad">CULANTRILLO</SimpleData>
+            <SimpleData name="Localidad_">CULANTRILLO</SimpleData>
             <SimpleData name="Teléfono">0975363739</SimpleData>
             <SimpleData name="Vivienda_L">-25.54427980000</SimpleData>
             <SimpleData name="Vivienda_1">-55.66566710000</SimpleData>
             <SimpleData name="Superficie">0.80000000000</SimpleData>
-            <SimpleData name="Situaci_1">Par?metro</SimpleData>
-            <SimpleData name="Plantado">SI</SimpleData>
-            <SimpleData name="Plantado_f">2026/01/14</SimpleData>
+            <SimpleData name="Fecha_Plan">2026/01/14</SimpleData>
             <SimpleData name="Jornales">0.00000000000</SimpleData>
             <SimpleData name="Monto">0.00000000000</SimpleData>
-            <SimpleData name="Grupo_de_p">C-P2</SimpleData>
+            <SimpleData name="Grupo_de_p">C-P2-XX-XX-XX</SimpleData>
+            <SimpleData name="ETAPA_FAO">Mantenimiento A?o 1.1</SimpleData>
             <SimpleData name="Estado_del">Activo</SimpleData>
             <SimpleData name="Empresa">Unique Wood Paraguay SA</SimpleData>
             <SimpleData name="Lote">C</SimpleData>
-            <SimpleData name="Parametro">0.80000000000</SimpleData>
-            <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.68807578000</SimpleData>
             <SimpleData name="Y">-25.54596142000</SimpleData>
-            <SimpleData name="Sup_SIG">0.89178882440</SimpleData>
+            <SimpleData name="Sup_SIG">0.89178882439</SimpleData>
             <SimpleData name="cedula">5138631</SimpleData>
           </SchemaData>
         </ExtendedData>
@@ -1864,13 +1829,13 @@
           <outerBoundaryIs>
             <LinearRing>
               <coordinates>
-                -55.6876599997031,-25.5443132995499,0
+                -55.6876599997031,-25.5443132995498,0
                 -55.6877550002101,-25.5463017003537,0
-                -55.688505000096,-25.5462899997146,0
+                -55.688505000096,-25.5462899997145,0
                 -55.6885132999417,-25.5456132999114,0
-                -55.6879467002879,-25.5456300001772,0
+                -55.6879467002878,-25.5456300001772,0
                 -55.6878649996786,-25.5443032996387,0
-                -55.6876599997031,-25.5443132995499,0
+                -55.6876599997031,-25.5443132995498,0
               </coordinates>
             </LinearRing>
           </outerBoundaryIs>
@@ -1884,6 +1849,7 @@
             <SimpleData name="Sexo">Hombre</SimpleData>
             <SimpleData name="Cambio_de_">NO</SimpleData>
             <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="Cédula_Ti">NO</SimpleData>
             <SimpleData name="ci_UNIF">4467644.00000000000</SimpleData>
             <SimpleData name="Situación">NO</SimpleData>
             <SimpleData name="Comunidad">Ind?gena</SimpleData>
@@ -1891,24 +1857,22 @@
             <SimpleData name="Departamen">CAAGUAZU</SimpleData>
             <SimpleData name="Distrito">REPATRIACION</SimpleData>
             <SimpleData name="Localidad">COM INDIG KAATYMI</SimpleData>
+            <SimpleData name="Localidad_"><![CDATA[KA'ATYMI]]></SimpleData>
             <SimpleData name="Teléfono">986138716</SimpleData>
             <SimpleData name="Vivienda_L">-25.65930710000</SimpleData>
             <SimpleData name="Vivienda_1">-55.69741680000</SimpleData>
             <SimpleData name="Superficie">0.80000000000</SimpleData>
-            <SimpleData name="Situaci_1">Pol?gono</SimpleData>
-            <SimpleData name="Plantado">SI</SimpleData>
-            <SimpleData name="Plantado_f">2025/09/23</SimpleData>
+            <SimpleData name="Fecha_Plan">2025/09/23</SimpleData>
             <SimpleData name="Jornales">0.00000000000</SimpleData>
             <SimpleData name="Monto">0.00000000000</SimpleData>
-            <SimpleData name="Grupo_de_p">C-P1</SimpleData>
+            <SimpleData name="Grupo_de_p">C-P1-XX-XX-XX</SimpleData>
+            <SimpleData name="ETAPA_FAO">Mantenimiento A?o 1.1</SimpleData>
             <SimpleData name="Estado_del">Activo</SimpleData>
             <SimpleData name="Empresa">Unique Wood Paraguay SA</SimpleData>
             <SimpleData name="Lote">C</SimpleData>
-            <SimpleData name="Parametro">0.80000000000</SimpleData>
-            <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.69325484000</SimpleData>
             <SimpleData name="Y">-25.65745751000</SimpleData>
-            <SimpleData name="Sup_SIG">0.94542234018</SimpleData>
+            <SimpleData name="Sup_SIG">0.94542234017</SimpleData>
             <SimpleData name="cedula">4467644</SimpleData>
           </SchemaData>
         </ExtendedData>
@@ -1917,10 +1881,10 @@
             <LinearRing>
               <coordinates>
                 -55.6939606235501,-25.657320679347,0
-                -55.6924000008313,-25.6570750001292,0
+                -55.6924000008314,-25.6570750001292,0
                 -55.6924346004382,-25.6575874998096,0
                 -55.6939716994833,-25.6578332997364,0
-                -55.6942034999436,-25.6573669001017,0
+                -55.6942034999435,-25.6573669001017,0
                 -55.6939606235501,-25.657320679347,0
               </coordinates>
             </LinearRing>
@@ -1935,6 +1899,7 @@
             <SimpleData name="Sexo">Hombre</SimpleData>
             <SimpleData name="Cambio_de_">NO</SimpleData>
             <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="Cédula_Ti">NO</SimpleData>
             <SimpleData name="ci_UNIF">6240996.00000000000</SimpleData>
             <SimpleData name="Situación">NO</SimpleData>
             <SimpleData name="Comunidad">Ind?gena</SimpleData>
@@ -1942,21 +1907,19 @@
             <SimpleData name="Departamen">CAAGUAZU</SimpleData>
             <SimpleData name="Distrito">REPATRIACION</SimpleData>
             <SimpleData name="Localidad">COM INDIG KAATYMI</SimpleData>
+            <SimpleData name="Localidad_"><![CDATA[KA'ATYMI]]></SimpleData>
             <SimpleData name="Teléfono">975904158</SimpleData>
             <SimpleData name="Vivienda_L">-25.65497000000</SimpleData>
             <SimpleData name="Vivienda_1">-55.70194670000</SimpleData>
             <SimpleData name="Superficie">0.70000000000</SimpleData>
-            <SimpleData name="Situaci_1">Pol?gono</SimpleData>
-            <SimpleData name="Plantado">SI</SimpleData>
-            <SimpleData name="Plantado_f">2025/09/25</SimpleData>
+            <SimpleData name="Fecha_Plan">2025/09/25</SimpleData>
             <SimpleData name="Jornales">0.00000000000</SimpleData>
             <SimpleData name="Monto">0.00000000000</SimpleData>
-            <SimpleData name="Grupo_de_p">C-P1</SimpleData>
+            <SimpleData name="Grupo_de_p">C-P1-XX-XX-XX</SimpleData>
+            <SimpleData name="ETAPA_FAO">Mantenimiento A?o 1.1</SimpleData>
             <SimpleData name="Estado_del">Activo</SimpleData>
             <SimpleData name="Empresa">Unique Wood Paraguay SA</SimpleData>
             <SimpleData name="Lote">C</SimpleData>
-            <SimpleData name="Parametro">0.70000000000</SimpleData>
-            <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.70247452000</SimpleData>
             <SimpleData name="Y">-25.65541657000</SimpleData>
             <SimpleData name="Sup_SIG">0.74176689899</SimpleData>
@@ -1971,8 +1934,8 @@
                 -55.7023799998233,-25.6560350003844,0
                 -55.7028723993253,-25.6557916000306,0
                 -55.7027132994892,-25.6548400000883,0
-                -55.7021616000871,-25.6549716999641,0
-                -55.7020656994899,-25.6552275993252,0
+                -55.702161600087,-25.6549716999641,0
+                -55.7020656994898,-25.6552275993251,0
                 -55.70218829994,-25.6557133000577,0
               </coordinates>
             </LinearRing>
@@ -1987,6 +1950,7 @@
             <SimpleData name="Sexo">Mujer</SimpleData>
             <SimpleData name="Cambio_de_">NO</SimpleData>
             <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="Cédula_Ti">NO</SimpleData>
             <SimpleData name="ci_UNIF">8287287.00000000000</SimpleData>
             <SimpleData name="Situación">NO</SimpleData>
             <SimpleData name="Comunidad">Campesina</SimpleData>
@@ -1994,21 +1958,19 @@
             <SimpleData name="Departamen">CAAGUAZU</SimpleData>
             <SimpleData name="Distrito">REPATRIACION</SimpleData>
             <SimpleData name="Localidad">CULANTRILLO</SimpleData>
+            <SimpleData name="Localidad_">CULANTRILLO</SimpleData>
             <SimpleData name="Teléfono">0975937947</SimpleData>
             <SimpleData name="Vivienda_L">-25.54342000000</SimpleData>
             <SimpleData name="Vivienda_1">-55.68530670000</SimpleData>
             <SimpleData name="Superficie">0.70000000000</SimpleData>
-            <SimpleData name="Situaci_1">Par?metro</SimpleData>
-            <SimpleData name="Plantado">SI</SimpleData>
-            <SimpleData name="Plantado_f">2026/01/14</SimpleData>
+            <SimpleData name="Fecha_Plan">2026/01/14</SimpleData>
             <SimpleData name="Jornales">0.00000000000</SimpleData>
             <SimpleData name="Monto">0.00000000000</SimpleData>
-            <SimpleData name="Grupo_de_p">C-P2</SimpleData>
+            <SimpleData name="Grupo_de_p">C-P2-XX-XX-XX</SimpleData>
+            <SimpleData name="ETAPA_FAO">Mantenimiento A?o 1.1</SimpleData>
             <SimpleData name="Estado_del">Activo</SimpleData>
             <SimpleData name="Empresa">Unique Wood Paraguay SA</SimpleData>
             <SimpleData name="Lote">C</SimpleData>
-            <SimpleData name="Parametro">0.70000000000</SimpleData>
-            <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.68526963000</SimpleData>
             <SimpleData name="Y">-25.54466954000</SimpleData>
             <SimpleData name="Sup_SIG">0.70253972921</SimpleData>
@@ -2041,6 +2003,7 @@
             <SimpleData name="Sexo">Mujer</SimpleData>
             <SimpleData name="Cambio_de_">NO</SimpleData>
             <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="Cédula_Ti">NO</SimpleData>
             <SimpleData name="ci_UNIF">2239764.00000000000</SimpleData>
             <SimpleData name="Situación">NO</SimpleData>
             <SimpleData name="Comunidad">Ind?gena</SimpleData>
@@ -2048,24 +2011,22 @@
             <SimpleData name="Departamen">CAAGUAZU</SimpleData>
             <SimpleData name="Distrito">REPATRIACION</SimpleData>
             <SimpleData name="Localidad">COM INDIG KAATYMI</SimpleData>
+            <SimpleData name="Localidad_"><![CDATA[KA'ATYMI]]></SimpleData>
             <SimpleData name="Teléfono">ND</SimpleData>
             <SimpleData name="Vivienda_L">-25.65824000000</SimpleData>
             <SimpleData name="Vivienda_1">-55.69351330000</SimpleData>
             <SimpleData name="Superficie">0.70000000000</SimpleData>
-            <SimpleData name="Situaci_1">Pol?gono</SimpleData>
-            <SimpleData name="Plantado">SI</SimpleData>
-            <SimpleData name="Plantado_f">2025/09/23</SimpleData>
+            <SimpleData name="Fecha_Plan">2025/09/23</SimpleData>
             <SimpleData name="Jornales">0.00000000000</SimpleData>
             <SimpleData name="Monto">0.00000000000</SimpleData>
-            <SimpleData name="Grupo_de_p">C-P1</SimpleData>
+            <SimpleData name="Grupo_de_p">C-P1-XX-XX-XX</SimpleData>
+            <SimpleData name="ETAPA_FAO">Mantenimiento A?o 1.1</SimpleData>
             <SimpleData name="Estado_del">Activo</SimpleData>
             <SimpleData name="Empresa">Unique Wood Paraguay SA</SimpleData>
             <SimpleData name="Lote">C</SimpleData>
-            <SimpleData name="Parametro">0.70000000000</SimpleData>
-            <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.69528332000</SimpleData>
             <SimpleData name="Y">-25.65744409000</SimpleData>
-            <SimpleData name="Sup_SIG">0.72402879005</SimpleData>
+            <SimpleData name="Sup_SIG">0.72402879006</SimpleData>
             <SimpleData name="cedula">2239764</SimpleData>
           </SchemaData>
         </ExtendedData>
@@ -2074,7 +2035,7 @@
             <LinearRing>
               <coordinates>
                 -55.6949083007563,-25.6570067000766,0
-                -55.6948883002695,-25.6578882994285,0
+                -55.6948883002694,-25.6578882994285,0
                 -55.6957141998215,-25.6578059998359,0
                 -55.6956812004774,-25.657047000207,0
                 -55.6953805005668,-25.6570916006269,0
@@ -2093,6 +2054,7 @@
             <SimpleData name="Sexo">Mujer</SimpleData>
             <SimpleData name="Cambio_de_">NO</SimpleData>
             <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="Cédula_Ti">NO</SimpleData>
             <SimpleData name="ci_UNIF">5573879.00000000000</SimpleData>
             <SimpleData name="Situación">NO</SimpleData>
             <SimpleData name="Comunidad">Campesina</SimpleData>
@@ -2100,24 +2062,22 @@
             <SimpleData name="Departamen">CAAGUAZU</SimpleData>
             <SimpleData name="Distrito">REPATRIACION</SimpleData>
             <SimpleData name="Localidad">ASENT. JULIANA FLEITAS</SimpleData>
+            <SimpleData name="Localidad_">ASENT. JULIANA FLEITAS</SimpleData>
             <SimpleData name="Teléfono">0975637152</SimpleData>
             <SimpleData name="Vivienda_L">-25.49949000000</SimpleData>
             <SimpleData name="Vivienda_1">-55.74624330000</SimpleData>
             <SimpleData name="Superficie">0.80000000000</SimpleData>
-            <SimpleData name="Situaci_1">Par?metro</SimpleData>
-            <SimpleData name="Plantado">SI</SimpleData>
-            <SimpleData name="Plantado_f">2026/01/13</SimpleData>
+            <SimpleData name="Fecha_Plan">2026/01/13</SimpleData>
             <SimpleData name="Jornales">0.00000000000</SimpleData>
             <SimpleData name="Monto">0.00000000000</SimpleData>
-            <SimpleData name="Grupo_de_p">C-P2</SimpleData>
+            <SimpleData name="Grupo_de_p">C-P2-XX-XX-XX</SimpleData>
+            <SimpleData name="ETAPA_FAO">Mantenimiento A?o 1.1</SimpleData>
             <SimpleData name="Estado_del">Activo</SimpleData>
             <SimpleData name="Empresa">Unique Wood Paraguay SA</SimpleData>
             <SimpleData name="Lote">C</SimpleData>
-            <SimpleData name="Parametro">0.80000000000</SimpleData>
-            <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.74089163000</SimpleData>
             <SimpleData name="Y">-25.49531614000</SimpleData>
-            <SimpleData name="Sup_SIG">0.81927054909</SimpleData>
+            <SimpleData name="Sup_SIG">0.81927054908</SimpleData>
             <SimpleData name="cedula">5573879</SimpleData>
           </SchemaData>
         </ExtendedData>
@@ -2129,7 +2089,7 @@
                   -55.7328439001137,-25.5094818998782,0
                   -55.7330038002054,-25.5092672001508,0
                   -55.7326141004811,-25.5090392999686,0
-                  -55.7324282995478,-25.5092582997597,0
+                  -55.7324282995478,-25.5092582997596,0
                   -55.7328439001137,-25.5094818998782,0
                 </coordinates>
               </LinearRing>
@@ -2139,14 +2099,14 @@
             <outerBoundaryIs>
               <LinearRing>
                 <coordinates>
-                  -55.7410882995106,-25.4958917000579,0
+                  -55.7410882995105,-25.4958917000579,0
                   -55.7413339996636,-25.4955887997154,0
                   -55.7413583004252,-25.4954300003314,0
                   -55.7411766998586,-25.4953182999815,0
                   -55.7413066999945,-25.4952067001454,0
                   -55.7407817000269,-25.4947400002659,0
                   -55.740336699801,-25.4952750001238,0
-                  -55.7410882995106,-25.4958917000579,0
+                  -55.7410882995105,-25.4958917000579,0
                 </coordinates>
               </LinearRing>
             </outerBoundaryIs>
@@ -2161,6 +2121,7 @@
             <SimpleData name="Sexo">Hombre</SimpleData>
             <SimpleData name="Cambio_de_">NO</SimpleData>
             <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="Cédula_Ti">NO</SimpleData>
             <SimpleData name="ci_UNIF">6578924.00000000000</SimpleData>
             <SimpleData name="Situación">NO</SimpleData>
             <SimpleData name="Comunidad">Ind?gena</SimpleData>
@@ -2168,21 +2129,19 @@
             <SimpleData name="Departamen">CAAGUAZU</SimpleData>
             <SimpleData name="Distrito">REPATRIACION</SimpleData>
             <SimpleData name="Localidad">COM INDIG ?U JHOVY</SimpleData>
+            <SimpleData name="Localidad_">?U HOVY</SimpleData>
             <SimpleData name="Teléfono">0975885536</SimpleData>
             <SimpleData name="Vivienda_L">-25.65430500000</SimpleData>
             <SimpleData name="Vivienda_1">-55.71392830000</SimpleData>
             <SimpleData name="Superficie">0.80000000000</SimpleData>
-            <SimpleData name="Situaci_1">Pol?gono</SimpleData>
-            <SimpleData name="Plantado">SI</SimpleData>
-            <SimpleData name="Plantado_f">2025/09/19</SimpleData>
+            <SimpleData name="Fecha_Plan">2025/09/19</SimpleData>
             <SimpleData name="Jornales">0.00000000000</SimpleData>
             <SimpleData name="Monto">0.00000000000</SimpleData>
-            <SimpleData name="Grupo_de_p">C-P1</SimpleData>
+            <SimpleData name="Grupo_de_p">C-P1-XX-XX-XX</SimpleData>
+            <SimpleData name="ETAPA_FAO">Mantenimiento A?o 1.1</SimpleData>
             <SimpleData name="Estado_del">Activo</SimpleData>
             <SimpleData name="Empresa">Unique Wood Paraguay SA</SimpleData>
             <SimpleData name="Lote">C</SimpleData>
-            <SimpleData name="Parametro">0.80000000000</SimpleData>
-            <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.71333450000</SimpleData>
             <SimpleData name="Y">-25.65447998000</SimpleData>
             <SimpleData name="Sup_SIG">0.88611723613</SimpleData>
@@ -2202,7 +2161,7 @@
                 -55.7137331995573,-25.6548230005318,0
                 -55.7138500005924,-25.6542133004864,0
                 -55.7132365995887,-25.6542017998258,0
-                -55.7130933000202,-25.6534800004934,0
+                -55.7130933000203,-25.6534800004934,0
                 -55.7128876999857,-25.6535968994201,0
                 -55.7130439782642,-25.6545888537767,0
               </coordinates>
@@ -2218,6 +2177,7 @@
             <SimpleData name="Sexo">Mujer</SimpleData>
             <SimpleData name="Cambio_de_">NO</SimpleData>
             <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="Cédula_Ti">NO</SimpleData>
             <SimpleData name="ci_UNIF">6611383.00000000000</SimpleData>
             <SimpleData name="Situación">NO</SimpleData>
             <SimpleData name="Comunidad">Ind?gena</SimpleData>
@@ -2225,24 +2185,22 @@
             <SimpleData name="Departamen">CAAGUAZU</SimpleData>
             <SimpleData name="Distrito">REPATRIACION</SimpleData>
             <SimpleData name="Localidad">COM INDIG PINDO-I</SimpleData>
+            <SimpleData name="Localidad_"><![CDATA[PINDO'I CULANDRILLO]]></SimpleData>
             <SimpleData name="Teléfono">0982287229</SimpleData>
             <SimpleData name="Vivienda_L">-25.53129260000</SimpleData>
             <SimpleData name="Vivienda_1">-55.64670920000</SimpleData>
             <SimpleData name="Superficie">0.70000000000</SimpleData>
-            <SimpleData name="Situaci_1">Par?metro</SimpleData>
-            <SimpleData name="Plantado">SI</SimpleData>
-            <SimpleData name="Plantado_f">2026/01/14</SimpleData>
+            <SimpleData name="Fecha_Plan">2026/01/14</SimpleData>
             <SimpleData name="Jornales">0.00000000000</SimpleData>
             <SimpleData name="Monto">0.00000000000</SimpleData>
-            <SimpleData name="Grupo_de_p">C-P2</SimpleData>
+            <SimpleData name="Grupo_de_p">C-P2-XX-XX-XX</SimpleData>
+            <SimpleData name="ETAPA_FAO">Mantenimiento A?o 1.1</SimpleData>
             <SimpleData name="Estado_del">Activo</SimpleData>
             <SimpleData name="Empresa">Unique Wood Paraguay SA</SimpleData>
             <SimpleData name="Lote">C</SimpleData>
-            <SimpleData name="Parametro">0.70000000000</SimpleData>
-            <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.64737665000</SimpleData>
             <SimpleData name="Y">-25.53099415000</SimpleData>
-            <SimpleData name="Sup_SIG">0.70080028414</SimpleData>
+            <SimpleData name="Sup_SIG">0.70080028413</SimpleData>
             <SimpleData name="cedula">6611383</SimpleData>
           </SchemaData>
         </ExtendedData>
@@ -2250,12 +2208,12 @@
           <outerBoundaryIs>
             <LinearRing>
               <coordinates>
-                -55.6466932995071,-25.5311767002838,0
+                -55.6466932995071,-25.5311767002837,0
                 -55.6472617001456,-25.5313049998532,0
                 -55.6480883004191,-25.5311417000266,0
                 -55.6477667000935,-25.5305982999109,0
                 -55.6466233002455,-25.530943299822,0
-                -55.6466932995071,-25.5311767002838,0
+                -55.6466932995071,-25.5311767002837,0
               </coordinates>
             </LinearRing>
           </outerBoundaryIs>
@@ -2269,6 +2227,7 @@
             <SimpleData name="Sexo">Mujer</SimpleData>
             <SimpleData name="Cambio_de_">NO</SimpleData>
             <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="Cédula_Ti">NO</SimpleData>
             <SimpleData name="ci_UNIF">1889004.00000000000</SimpleData>
             <SimpleData name="Situación">NO</SimpleData>
             <SimpleData name="Comunidad">Campesina</SimpleData>
@@ -2276,24 +2235,22 @@
             <SimpleData name="Departamen">CAAGUAZU</SimpleData>
             <SimpleData name="Distrito">REPATRIACION</SimpleData>
             <SimpleData name="Localidad">YPEGUA</SimpleData>
+            <SimpleData name="Localidad_">YPEGUA</SimpleData>
             <SimpleData name="Teléfono">0985308369</SimpleData>
             <SimpleData name="Vivienda_L">-25.52173870000</SimpleData>
             <SimpleData name="Vivienda_1">-55.77499010000</SimpleData>
             <SimpleData name="Superficie">0.70000000000</SimpleData>
-            <SimpleData name="Situaci_1">Par?metro</SimpleData>
-            <SimpleData name="Plantado">SI</SimpleData>
-            <SimpleData name="Plantado_f">2026/01/13</SimpleData>
+            <SimpleData name="Fecha_Plan">2026/01/13</SimpleData>
             <SimpleData name="Jornales">0.00000000000</SimpleData>
             <SimpleData name="Monto">0.00000000000</SimpleData>
-            <SimpleData name="Grupo_de_p">C-P2</SimpleData>
+            <SimpleData name="Grupo_de_p">C-P2-XX-XX-XX</SimpleData>
+            <SimpleData name="ETAPA_FAO">Mantenimiento A?o 1.1</SimpleData>
             <SimpleData name="Estado_del">Activo</SimpleData>
             <SimpleData name="Empresa">Unique Wood Paraguay SA</SimpleData>
             <SimpleData name="Lote">C</SimpleData>
-            <SimpleData name="Parametro">0.70000000000</SimpleData>
-            <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.77492081000</SimpleData>
             <SimpleData name="Y">-25.52154121000</SimpleData>
-            <SimpleData name="Sup_SIG">0.85863984851</SimpleData>
+            <SimpleData name="Sup_SIG">0.85863984849</SimpleData>
             <SimpleData name="cedula">1889004</SimpleData>
           </SchemaData>
         </ExtendedData>
@@ -2304,7 +2261,7 @@
                 <coordinates>
                   -55.7759033004818,-25.5217532997934,0
                   -55.775897600112,-25.521547100441,0
-                  -55.7739732999683,-25.5213278002245,0
+                  -55.7739732999682,-25.5213278002245,0
                   -55.7739367001651,-25.5215381999439,0
                   -55.7759033004818,-25.5217532997934,0
                 </coordinates>
@@ -2316,7 +2273,7 @@
               <LinearRing>
                 <coordinates>
                   -55.7725533003785,-25.5213600000877,0
-                  -55.7725903997407,-25.5211689002393,0
+                  -55.7725903997406,-25.5211689002393,0
                   -55.7709183002061,-25.5209467001015,0
                   -55.7707667002283,-25.5211517000657,0
                   -55.7725533003785,-25.5213600000877,0
@@ -2334,6 +2291,7 @@
             <SimpleData name="Sexo">Mujer</SimpleData>
             <SimpleData name="Cambio_de_">NO</SimpleData>
             <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="Cédula_Ti">NO</SimpleData>
             <SimpleData name="ci_UNIF">7539977.00000000000</SimpleData>
             <SimpleData name="Situación">NO</SimpleData>
             <SimpleData name="Comunidad">Ind?gena</SimpleData>
@@ -2341,21 +2299,19 @@
             <SimpleData name="Departamen">CAAGUAZU</SimpleData>
             <SimpleData name="Distrito">REPATRIACION</SimpleData>
             <SimpleData name="Localidad">COM INDIG KAATYMI</SimpleData>
+            <SimpleData name="Localidad_"><![CDATA[KA'ATYMI]]></SimpleData>
             <SimpleData name="Teléfono">ND</SimpleData>
             <SimpleData name="Vivienda_L">-25.66051490000</SimpleData>
             <SimpleData name="Vivienda_1">-55.69294050000</SimpleData>
             <SimpleData name="Superficie">0.70000000000</SimpleData>
-            <SimpleData name="Situaci_1">Pol?gono</SimpleData>
-            <SimpleData name="Plantado">SI</SimpleData>
-            <SimpleData name="Plantado_f">2025/09/22</SimpleData>
+            <SimpleData name="Fecha_Plan">2025/09/22</SimpleData>
             <SimpleData name="Jornales">0.00000000000</SimpleData>
             <SimpleData name="Monto">0.00000000000</SimpleData>
-            <SimpleData name="Grupo_de_p">C-P3</SimpleData>
+            <SimpleData name="Grupo_de_p">C-P3-XX-XX-XX</SimpleData>
+            <SimpleData name="ETAPA_FAO">Mantenimiento A?o 1.1</SimpleData>
             <SimpleData name="Estado_del">Activo</SimpleData>
             <SimpleData name="Empresa">Unique Wood Paraguay SA</SimpleData>
             <SimpleData name="Lote">C</SimpleData>
-            <SimpleData name="Parametro">0.70000000000</SimpleData>
-            <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.69328161000</SimpleData>
             <SimpleData name="Y">-25.66126537000</SimpleData>
             <SimpleData name="Sup_SIG">0.79829508760</SimpleData>
@@ -2390,6 +2346,7 @@
             <SimpleData name="Sexo">Mujer</SimpleData>
             <SimpleData name="Cambio_de_">NO</SimpleData>
             <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="Cédula_Ti">NO</SimpleData>
             <SimpleData name="ci_UNIF">7343815.00000000000</SimpleData>
             <SimpleData name="Situación">NO</SimpleData>
             <SimpleData name="Comunidad">Ind?gena</SimpleData>
@@ -2397,21 +2354,19 @@
             <SimpleData name="Departamen">CAAGUAZU</SimpleData>
             <SimpleData name="Distrito">REPATRIACION</SimpleData>
             <SimpleData name="Localidad"><![CDATA[COM INDIG YHOVY'I]]></SimpleData>
+            <SimpleData name="Localidad_"><![CDATA[YHOVY'I]]></SimpleData>
             <SimpleData name="Teléfono">ND</SimpleData>
             <SimpleData name="Vivienda_L">-25.68407470000</SimpleData>
             <SimpleData name="Vivienda_1">-55.74692710000</SimpleData>
             <SimpleData name="Superficie">0.70000000000</SimpleData>
-            <SimpleData name="Situaci_1">Pol?gono</SimpleData>
-            <SimpleData name="Plantado">SI</SimpleData>
-            <SimpleData name="Plantado_f">2025/10/22</SimpleData>
+            <SimpleData name="Fecha_Plan">2025/10/22</SimpleData>
             <SimpleData name="Jornales">0.00000000000</SimpleData>
             <SimpleData name="Monto">0.00000000000</SimpleData>
-            <SimpleData name="Grupo_de_p">C-P3</SimpleData>
+            <SimpleData name="Grupo_de_p">C-P3-XX-XX-XX</SimpleData>
+            <SimpleData name="ETAPA_FAO">Mantenimiento A?o 1.1</SimpleData>
             <SimpleData name="Estado_del">Activo</SimpleData>
             <SimpleData name="Empresa">Unique Wood Paraguay SA</SimpleData>
             <SimpleData name="Lote">C</SimpleData>
-            <SimpleData name="Parametro">0.70000000000</SimpleData>
-            <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.74767399000</SimpleData>
             <SimpleData name="Y">-25.68472715000</SimpleData>
             <SimpleData name="Sup_SIG">0.71202016322</SimpleData>
@@ -2440,6 +2395,7 @@
             <SimpleData name="Sexo">Mujer</SimpleData>
             <SimpleData name="Cambio_de_">NO</SimpleData>
             <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="Cédula_Ti">NO</SimpleData>
             <SimpleData name="ci_UNIF">4374187.00000000000</SimpleData>
             <SimpleData name="Situación">NO</SimpleData>
             <SimpleData name="Comunidad">Ind?gena</SimpleData>
@@ -2447,21 +2403,19 @@
             <SimpleData name="Departamen">CAAGUAZU</SimpleData>
             <SimpleData name="Distrito">REPATRIACION</SimpleData>
             <SimpleData name="Localidad">COM INDIG KAATYMI</SimpleData>
+            <SimpleData name="Localidad_"><![CDATA[KA'ATYMI]]></SimpleData>
             <SimpleData name="Teléfono">ND</SimpleData>
             <SimpleData name="Vivienda_L">-25.66299960000</SimpleData>
             <SimpleData name="Vivienda_1">-55.69715480000</SimpleData>
             <SimpleData name="Superficie">0.70000000000</SimpleData>
-            <SimpleData name="Situaci_1">Par?metro</SimpleData>
-            <SimpleData name="Plantado">SI</SimpleData>
-            <SimpleData name="Plantado_f">2025/09/24</SimpleData>
+            <SimpleData name="Fecha_Plan">2025/09/24</SimpleData>
             <SimpleData name="Jornales">0.00000000000</SimpleData>
             <SimpleData name="Monto">0.00000000000</SimpleData>
-            <SimpleData name="Grupo_de_p">C-P3</SimpleData>
+            <SimpleData name="Grupo_de_p">C-P3-XX-XX-XX</SimpleData>
+            <SimpleData name="ETAPA_FAO">Mantenimiento A?o 1.1</SimpleData>
             <SimpleData name="Estado_del">Activo</SimpleData>
             <SimpleData name="Empresa">Unique Wood Paraguay SA</SimpleData>
             <SimpleData name="Lote">C</SimpleData>
-            <SimpleData name="Parametro">0.70000000000</SimpleData>
-            <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.69701083000</SimpleData>
             <SimpleData name="Y">-25.66346033000</SimpleData>
             <SimpleData name="Sup_SIG">0.74974288037</SimpleData>
@@ -2476,7 +2430,7 @@
                 -55.6969982994173,-25.6640649997975,0
                 -55.6972966991857,-25.6640049999953,0
                 -55.6973166999146,-25.6637350004041,0
-                -55.6975975997652,-25.6635335997472,0
+                -55.6975975997652,-25.6635335997473,0
                 -55.6975682999629,-25.6632733997159,0
                 -55.6972013995909,-25.6633622000518,0
                 -55.6969608998832,-25.663227799992,0
@@ -2484,7 +2438,7 @@
                 -55.6969596991507,-25.6627119002077,0
                 -55.6967582999663,-25.6626950004432,0
                 -55.6967630993107,-25.6630727003588,0
-                -55.6965457991234,-25.6631220001851,0
+                -55.6965457991234,-25.663122000185,0
                 -55.6964962993363,-25.6632966998493,0
               </coordinates>
             </LinearRing>
@@ -2499,6 +2453,7 @@
             <SimpleData name="Sexo">Mujer</SimpleData>
             <SimpleData name="Cambio_de_">NO</SimpleData>
             <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="Cédula_Ti">NO</SimpleData>
             <SimpleData name="ci_UNIF">2453312.00000000000</SimpleData>
             <SimpleData name="Situación">NO</SimpleData>
             <SimpleData name="Comunidad">Ind?gena</SimpleData>
@@ -2506,21 +2461,19 @@
             <SimpleData name="Departamen">CAAGUAZU</SimpleData>
             <SimpleData name="Distrito">REPATRIACION</SimpleData>
             <SimpleData name="Localidad">COM INDIG ?U HOVY</SimpleData>
+            <SimpleData name="Localidad_">?U HOVY</SimpleData>
             <SimpleData name="Teléfono">975956770</SimpleData>
             <SimpleData name="Vivienda_L">-25.65658670000</SimpleData>
             <SimpleData name="Vivienda_1">-55.71598000000</SimpleData>
             <SimpleData name="Superficie">0.70000000000</SimpleData>
-            <SimpleData name="Situaci_1">Pol?gono</SimpleData>
-            <SimpleData name="Plantado">SI</SimpleData>
-            <SimpleData name="Plantado_f">2025/10/10</SimpleData>
+            <SimpleData name="Fecha_Plan">2025/10/10</SimpleData>
             <SimpleData name="Jornales">0.00000000000</SimpleData>
             <SimpleData name="Monto">0.00000000000</SimpleData>
-            <SimpleData name="Grupo_de_p">C-P3</SimpleData>
+            <SimpleData name="Grupo_de_p">C-P3-XX-XX-XX</SimpleData>
+            <SimpleData name="ETAPA_FAO">Mantenimiento A?o 1.1</SimpleData>
             <SimpleData name="Estado_del">Activo</SimpleData>
             <SimpleData name="Empresa">Unique Wood Paraguay SA</SimpleData>
             <SimpleData name="Lote">C</SimpleData>
-            <SimpleData name="Parametro">0.70000000000</SimpleData>
-            <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.71603748000</SimpleData>
             <SimpleData name="Y">-25.65939822000</SimpleData>
             <SimpleData name="Sup_SIG">0.82619344539</SimpleData>
@@ -2534,10 +2487,10 @@
                 -55.7153499999425,-25.6596050004522,0
                 -55.7170483997349,-25.6597970003082,0
                 -55.7170081999532,-25.6596210004538,0
-                -55.7163844990966,-25.6594748005073,0
+                -55.7163844990965,-25.6594748005073,0
                 -55.7163300990653,-25.6594304996499,0
-                -55.71629999931,-25.6590532999887,0
-                -55.7155809994827,-25.6589081004819,0
+                -55.7162999993099,-25.6590532999887,0
+                -55.7155809994827,-25.6589081004818,0
                 -55.7153499999425,-25.6596050004522,0
               </coordinates>
             </LinearRing>
@@ -2552,6 +2505,7 @@
             <SimpleData name="Sexo">Mujer</SimpleData>
             <SimpleData name="Cambio_de_">NO</SimpleData>
             <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="Cédula_Ti">NO</SimpleData>
             <SimpleData name="ci_UNIF">6047837.00000000000</SimpleData>
             <SimpleData name="Situación">NO</SimpleData>
             <SimpleData name="Comunidad">Ind?gena</SimpleData>
@@ -2559,24 +2513,22 @@
             <SimpleData name="Departamen">CAAGUAZU</SimpleData>
             <SimpleData name="Distrito">REPATRIACION</SimpleData>
             <SimpleData name="Localidad"><![CDATA[COM INDIG YHOVY'I]]></SimpleData>
+            <SimpleData name="Localidad_"><![CDATA[YHOVY'I]]></SimpleData>
             <SimpleData name="Teléfono">0983060740</SimpleData>
             <SimpleData name="Vivienda_L">-25.68163330000</SimpleData>
             <SimpleData name="Vivienda_1">-55.75151170000</SimpleData>
             <SimpleData name="Superficie">0.80000000000</SimpleData>
-            <SimpleData name="Situaci_1">Pol?gono</SimpleData>
-            <SimpleData name="Plantado">SI</SimpleData>
-            <SimpleData name="Plantado_f">2025/10/23</SimpleData>
+            <SimpleData name="Fecha_Plan">2025/10/23</SimpleData>
             <SimpleData name="Jornales">0.00000000000</SimpleData>
             <SimpleData name="Monto">0.00000000000</SimpleData>
-            <SimpleData name="Grupo_de_p">C-P3</SimpleData>
+            <SimpleData name="Grupo_de_p">C-P3-XX-XX-XX</SimpleData>
+            <SimpleData name="ETAPA_FAO">Mantenimiento A?o 1.1</SimpleData>
             <SimpleData name="Estado_del">Activo</SimpleData>
             <SimpleData name="Empresa">Unique Wood Paraguay SA</SimpleData>
             <SimpleData name="Lote">C</SimpleData>
-            <SimpleData name="Parametro">0.80000000000</SimpleData>
-            <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.75177167000</SimpleData>
             <SimpleData name="Y">-25.68295977000</SimpleData>
-            <SimpleData name="Sup_SIG">0.81272213182</SimpleData>
+            <SimpleData name="Sup_SIG">0.81272213183</SimpleData>
             <SimpleData name="cedula">6047837</SimpleData>
           </SchemaData>
         </ExtendedData>
@@ -2602,6 +2554,7 @@
             <SimpleData name="Sexo">Hombre</SimpleData>
             <SimpleData name="Cambio_de_">NO</SimpleData>
             <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="Cédula_Ti">NO</SimpleData>
             <SimpleData name="ci_UNIF">6704167.00000000000</SimpleData>
             <SimpleData name="Situación">NO</SimpleData>
             <SimpleData name="Comunidad">Ind?gena</SimpleData>
@@ -2609,24 +2562,22 @@
             <SimpleData name="Departamen">CAAGUAZU</SimpleData>
             <SimpleData name="Distrito">REPATRIACION</SimpleData>
             <SimpleData name="Localidad"><![CDATA[COM INDIG YHOVY'I]]></SimpleData>
+            <SimpleData name="Localidad_"><![CDATA[YHOVY'I]]></SimpleData>
             <SimpleData name="Teléfono">0981320831</SimpleData>
             <SimpleData name="Vivienda_L">-25.68210370000</SimpleData>
             <SimpleData name="Vivienda_1">-55.75212470000</SimpleData>
             <SimpleData name="Superficie">0.70000000000</SimpleData>
-            <SimpleData name="Situaci_1">Pol?gono</SimpleData>
-            <SimpleData name="Plantado">SI</SimpleData>
-            <SimpleData name="Plantado_f">2025/10/23</SimpleData>
+            <SimpleData name="Fecha_Plan">2025/10/23</SimpleData>
             <SimpleData name="Jornales">0.00000000000</SimpleData>
             <SimpleData name="Monto">0.00000000000</SimpleData>
-            <SimpleData name="Grupo_de_p">C-P3</SimpleData>
+            <SimpleData name="Grupo_de_p">C-P3-XX-XX-XX</SimpleData>
+            <SimpleData name="ETAPA_FAO">Mantenimiento A?o 1.1</SimpleData>
             <SimpleData name="Estado_del">Activo</SimpleData>
             <SimpleData name="Empresa">Unique Wood Paraguay SA</SimpleData>
             <SimpleData name="Lote">C</SimpleData>
-            <SimpleData name="Parametro">0.70000000000</SimpleData>
-            <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.75271390000</SimpleData>
             <SimpleData name="Y">-25.68266184000</SimpleData>
-            <SimpleData name="Sup_SIG">0.70171755619</SimpleData>
+            <SimpleData name="Sup_SIG">0.70171755620</SimpleData>
             <SimpleData name="cedula">6704167</SimpleData>
           </SchemaData>
         </ExtendedData>
@@ -2652,6 +2603,7 @@
             <SimpleData name="Sexo">Mujer</SimpleData>
             <SimpleData name="Cambio_de_">NO</SimpleData>
             <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="Cédula_Ti">NO</SimpleData>
             <SimpleData name="ci_UNIF">6578916.00000000000</SimpleData>
             <SimpleData name="Situación">NO</SimpleData>
             <SimpleData name="Comunidad">Ind?gena</SimpleData>
@@ -2659,21 +2611,19 @@
             <SimpleData name="Departamen">CAAGUAZU</SimpleData>
             <SimpleData name="Distrito">REPATRIACION</SimpleData>
             <SimpleData name="Localidad"><![CDATA[COM INDIG YHOVY'I]]></SimpleData>
+            <SimpleData name="Localidad_"><![CDATA[YHOVY'I]]></SimpleData>
             <SimpleData name="Teléfono">ND</SimpleData>
             <SimpleData name="Vivienda_L">-25.68326250000</SimpleData>
             <SimpleData name="Vivienda_1">-55.74875850000</SimpleData>
             <SimpleData name="Superficie">0.70000000000</SimpleData>
-            <SimpleData name="Situaci_1">Pol?gono</SimpleData>
-            <SimpleData name="Plantado">SI</SimpleData>
-            <SimpleData name="Plantado_f">2025/10/22</SimpleData>
+            <SimpleData name="Fecha_Plan">2025/10/22</SimpleData>
             <SimpleData name="Jornales">0.00000000000</SimpleData>
             <SimpleData name="Monto">0.00000000000</SimpleData>
-            <SimpleData name="Grupo_de_p">C-P3</SimpleData>
+            <SimpleData name="Grupo_de_p">C-P3-XX-XX-XX</SimpleData>
+            <SimpleData name="ETAPA_FAO">Mantenimiento A?o 1.1</SimpleData>
             <SimpleData name="Estado_del">Activo</SimpleData>
             <SimpleData name="Empresa">Unique Wood Paraguay SA</SimpleData>
             <SimpleData name="Lote">C</SimpleData>
-            <SimpleData name="Parametro">0.70000000000</SimpleData>
-            <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.74869414000</SimpleData>
             <SimpleData name="Y">-25.68434357000</SimpleData>
             <SimpleData name="Sup_SIG">0.74417697894</SimpleData>
@@ -2702,6 +2652,7 @@
             <SimpleData name="Sexo">Hombre</SimpleData>
             <SimpleData name="Cambio_de_">NO</SimpleData>
             <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="Cédula_Ti">NO</SimpleData>
             <SimpleData name="ci_UNIF">7990255.00000000000</SimpleData>
             <SimpleData name="Situación">NO</SimpleData>
             <SimpleData name="Comunidad">Ind?gena</SimpleData>
@@ -2709,24 +2660,22 @@
             <SimpleData name="Departamen">CAAGUAZU</SimpleData>
             <SimpleData name="Distrito">REPATRIACION</SimpleData>
             <SimpleData name="Localidad"><![CDATA[COM INDIG YHOVY'I]]></SimpleData>
+            <SimpleData name="Localidad_"><![CDATA[YHOVY'I]]></SimpleData>
             <SimpleData name="Teléfono">0971410645</SimpleData>
             <SimpleData name="Vivienda_L">-25.68542380000</SimpleData>
             <SimpleData name="Vivienda_1">-55.74237830000</SimpleData>
             <SimpleData name="Superficie">0.80000000000</SimpleData>
-            <SimpleData name="Situaci_1">Pol?gono</SimpleData>
-            <SimpleData name="Plantado">SI</SimpleData>
-            <SimpleData name="Plantado_f">2025/10/22</SimpleData>
+            <SimpleData name="Fecha_Plan">2025/10/22</SimpleData>
             <SimpleData name="Jornales">0.00000000000</SimpleData>
             <SimpleData name="Monto">0.00000000000</SimpleData>
-            <SimpleData name="Grupo_de_p">C-P3</SimpleData>
+            <SimpleData name="Grupo_de_p">C-P3-XX-XX-XX</SimpleData>
+            <SimpleData name="ETAPA_FAO">Mantenimiento A?o 1.1</SimpleData>
             <SimpleData name="Estado_del">Activo</SimpleData>
             <SimpleData name="Empresa">Unique Wood Paraguay SA</SimpleData>
             <SimpleData name="Lote">C</SimpleData>
-            <SimpleData name="Parametro">0.80000000000</SimpleData>
-            <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.74323615000</SimpleData>
             <SimpleData name="Y">-25.68660758000</SimpleData>
-            <SimpleData name="Sup_SIG">0.92228525670</SimpleData>
+            <SimpleData name="Sup_SIG">0.92228525669</SimpleData>
             <SimpleData name="cedula">7990255</SimpleData>
           </SchemaData>
         </ExtendedData>
@@ -2737,7 +2686,7 @@
                 -55.7426544000078,-25.6863110998856,0
                 -55.7428687999867,-25.6871229001937,0
                 -55.7438408991725,-25.6869098997747,0
-                -55.7435617997066,-25.6860740998888,0
+                -55.7435617997065,-25.6860740998888,0
                 -55.7426544000078,-25.6863110998856,0
               </coordinates>
             </LinearRing>
@@ -2752,6 +2701,7 @@
             <SimpleData name="Sexo">Mujer</SimpleData>
             <SimpleData name="Cambio_de_">NO</SimpleData>
             <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="Cédula_Ti">NO</SimpleData>
             <SimpleData name="ci_UNIF">4441889.00000000000</SimpleData>
             <SimpleData name="Situación">NO</SimpleData>
             <SimpleData name="Comunidad">Ind?gena</SimpleData>
@@ -2759,21 +2709,19 @@
             <SimpleData name="Departamen">CAAGUAZU</SimpleData>
             <SimpleData name="Distrito">REPATRIACION</SimpleData>
             <SimpleData name="Localidad">COM INDIG 23 DE JUNIO</SimpleData>
+            <SimpleData name="Localidad_">23 DE JUNIO</SimpleData>
             <SimpleData name="Teléfono">ND</SimpleData>
             <SimpleData name="Vivienda_L">-25.66508830000</SimpleData>
             <SimpleData name="Vivienda_1">-55.71648170000</SimpleData>
             <SimpleData name="Superficie">0.80000000000</SimpleData>
-            <SimpleData name="Situaci_1">Par?metro</SimpleData>
-            <SimpleData name="Plantado">SI</SimpleData>
-            <SimpleData name="Plantado_f">2025/10/21</SimpleData>
+            <SimpleData name="Fecha_Plan">2025/10/21</SimpleData>
             <SimpleData name="Jornales">0.00000000000</SimpleData>
             <SimpleData name="Monto">0.00000000000</SimpleData>
-            <SimpleData name="Grupo_de_p">C-P3</SimpleData>
+            <SimpleData name="Grupo_de_p">C-P3-XX-XX-XX</SimpleData>
+            <SimpleData name="ETAPA_FAO">Mantenimiento A?o 1.1</SimpleData>
             <SimpleData name="Estado_del">Activo</SimpleData>
             <SimpleData name="Empresa">Unique Wood Paraguay SA</SimpleData>
             <SimpleData name="Lote">C</SimpleData>
-            <SimpleData name="Parametro">0.80000000000</SimpleData>
-            <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.71614089000</SimpleData>
             <SimpleData name="Y">-25.66541840000</SimpleData>
             <SimpleData name="Sup_SIG">0.80271250326</SimpleData>
@@ -2802,14 +2750,14 @@
               <LinearRing>
                 <coordinates>
                   -55.7170249998896,-25.6649317000051,0
-                  -55.7168987991045,-25.664591600467,0
+                  -55.7168987991045,-25.6645916004669,0
                   -55.7168932997099,-25.6645917001919,0
                   -55.7168223999478,-25.6645088998472,0
                   -55.7167836993233,-25.6644768999122,0
                   -55.7167446995669,-25.664449299806,0
                   -55.7166904990998,-25.6644389998437,0
                   -55.7166450990251,-25.6644561996767,0
-                  -55.7167969995349,-25.6649786003114,0
+                  -55.716796999535,-25.6649786003114,0
                   -55.7170249998896,-25.6649317000051,0
                 </coordinates>
               </LinearRing>
@@ -2821,7 +2769,7 @@
                 <coordinates>
                   -55.717985199365,-25.6630932996557,0
                   -55.7179699995852,-25.6630635000284,0
-                  -55.718048699357,-25.6630190000547,0
+                  -55.7180486993569,-25.6630190000547,0
                   -55.7183913997932,-25.6629432997073,0
                   -55.717904999347,-25.6624450003845,0
                   -55.7175314996567,-25.6628238997134,0
@@ -2841,6 +2789,7 @@
             <SimpleData name="Sexo">Hombre</SimpleData>
             <SimpleData name="Cambio_de_">NO</SimpleData>
             <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="Cédula_Ti">NO</SimpleData>
             <SimpleData name="ci_UNIF">6771694.00000000000</SimpleData>
             <SimpleData name="Situación">NO</SimpleData>
             <SimpleData name="Comunidad">Ind?gena</SimpleData>
@@ -2848,21 +2797,19 @@
             <SimpleData name="Departamen">CAAGUAZU</SimpleData>
             <SimpleData name="Distrito">REPATRIACION</SimpleData>
             <SimpleData name="Localidad">COM INDIG TAKUARO 3 DE FEBRERO</SimpleData>
+            <SimpleData name="Localidad_">TAKUARO 3 DE FEBRERO</SimpleData>
             <SimpleData name="Teléfono">0971748263</SimpleData>
             <SimpleData name="Vivienda_L">-25.67613500000</SimpleData>
             <SimpleData name="Vivienda_1">-55.73948830000</SimpleData>
             <SimpleData name="Superficie">0.70000000000</SimpleData>
-            <SimpleData name="Situaci_1">Pol?gono</SimpleData>
-            <SimpleData name="Plantado">SI</SimpleData>
-            <SimpleData name="Plantado_f">2025/10/24</SimpleData>
+            <SimpleData name="Fecha_Plan">2025/10/24</SimpleData>
             <SimpleData name="Jornales">0.00000000000</SimpleData>
             <SimpleData name="Monto">0.00000000000</SimpleData>
-            <SimpleData name="Grupo_de_p">C-P3</SimpleData>
+            <SimpleData name="Grupo_de_p">C-P3-XX-XX-XX</SimpleData>
+            <SimpleData name="ETAPA_FAO">Mantenimiento A?o 1.1</SimpleData>
             <SimpleData name="Estado_del">Activo</SimpleData>
             <SimpleData name="Empresa">Unique Wood Paraguay SA</SimpleData>
             <SimpleData name="Lote">C</SimpleData>
-            <SimpleData name="Parametro">0.70000000000</SimpleData>
-            <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.74019402000</SimpleData>
             <SimpleData name="Y">-25.67661470000</SimpleData>
             <SimpleData name="Sup_SIG">0.78571797700</SimpleData>
@@ -2895,6 +2842,7 @@
             <SimpleData name="Sexo">Mujer</SimpleData>
             <SimpleData name="Cambio_de_">NO</SimpleData>
             <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="Cédula_Ti">NO</SimpleData>
             <SimpleData name="ci_UNIF">4721050.00000000000</SimpleData>
             <SimpleData name="Situación">NO</SimpleData>
             <SimpleData name="Comunidad">Ind?gena</SimpleData>
@@ -2902,24 +2850,22 @@
             <SimpleData name="Departamen">CAAGUAZU</SimpleData>
             <SimpleData name="Distrito">REPATRIACION</SimpleData>
             <SimpleData name="Localidad">COM INDIG TAKUARO 3 DE FEBRERO</SimpleData>
+            <SimpleData name="Localidad_">TAKUARO 3 DE FEBRERO</SimpleData>
             <SimpleData name="Teléfono">0971748263</SimpleData>
             <SimpleData name="Vivienda_L">-25.67756830000</SimpleData>
             <SimpleData name="Vivienda_1">-55.73696000000</SimpleData>
             <SimpleData name="Superficie">0.70000000000</SimpleData>
-            <SimpleData name="Situaci_1">Par?metro</SimpleData>
-            <SimpleData name="Plantado">SI</SimpleData>
-            <SimpleData name="Plantado_f">2025/10/30</SimpleData>
+            <SimpleData name="Fecha_Plan">2025/10/30</SimpleData>
             <SimpleData name="Jornales">0.00000000000</SimpleData>
             <SimpleData name="Monto">0.00000000000</SimpleData>
-            <SimpleData name="Grupo_de_p">C-P3</SimpleData>
+            <SimpleData name="Grupo_de_p">C-P3-XX-XX-XX</SimpleData>
+            <SimpleData name="ETAPA_FAO">Mantenimiento A?o 1.1</SimpleData>
             <SimpleData name="Estado_del">Activo</SimpleData>
             <SimpleData name="Empresa">Unique Wood Paraguay SA</SimpleData>
             <SimpleData name="Lote">C</SimpleData>
-            <SimpleData name="Parametro">0.70000000000</SimpleData>
-            <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.74069772000</SimpleData>
             <SimpleData name="Y">-25.67753992000</SimpleData>
-            <SimpleData name="Sup_SIG">0.72221557262</SimpleData>
+            <SimpleData name="Sup_SIG">0.72221557261</SimpleData>
             <SimpleData name="cedula">4721050</SimpleData>
           </SchemaData>
         </ExtendedData>
@@ -2946,6 +2892,7 @@
             <SimpleData name="Sexo">Mujer</SimpleData>
             <SimpleData name="Cambio_de_">NO</SimpleData>
             <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="Cédula_Ti">NO</SimpleData>
             <SimpleData name="ci_UNIF">4467625.00000000000</SimpleData>
             <SimpleData name="Situación">NO</SimpleData>
             <SimpleData name="Comunidad">Ind?gena</SimpleData>
@@ -2953,21 +2900,19 @@
             <SimpleData name="Departamen">CAAGUAZU</SimpleData>
             <SimpleData name="Distrito">REPATRIACION</SimpleData>
             <SimpleData name="Localidad">COM INDIG KAATYMI</SimpleData>
+            <SimpleData name="Localidad_"><![CDATA[KA'ATYMI]]></SimpleData>
             <SimpleData name="Teléfono">0981686754</SimpleData>
             <SimpleData name="Vivienda_L">-25.65445100000</SimpleData>
             <SimpleData name="Vivienda_1">-55.69241120000</SimpleData>
             <SimpleData name="Superficie">0.80000000000</SimpleData>
-            <SimpleData name="Situaci_1">Pol?gono</SimpleData>
-            <SimpleData name="Plantado">SI</SimpleData>
-            <SimpleData name="Plantado_f">2025/10/21</SimpleData>
+            <SimpleData name="Fecha_Plan">2025/10/21</SimpleData>
             <SimpleData name="Jornales">0.00000000000</SimpleData>
             <SimpleData name="Monto">0.00000000000</SimpleData>
-            <SimpleData name="Grupo_de_p">C-P3</SimpleData>
+            <SimpleData name="Grupo_de_p">C-P3-XX-XX-XX</SimpleData>
+            <SimpleData name="ETAPA_FAO">Mantenimiento A?o 1.1</SimpleData>
             <SimpleData name="Estado_del">Activo</SimpleData>
             <SimpleData name="Empresa">Unique Wood Paraguay SA</SimpleData>
             <SimpleData name="Lote">C</SimpleData>
-            <SimpleData name="Parametro">0.80000000000</SimpleData>
-            <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.69251021000</SimpleData>
             <SimpleData name="Y">-25.65469312000</SimpleData>
             <SimpleData name="Sup_SIG">1.01033946124</SimpleData>
@@ -2980,7 +2925,7 @@
               <coordinates>
                 -55.6921123998258,-25.6547089002998,0
                 -55.6921957996472,-25.6553213998113,0
-                -55.693072499687,-25.6551611003672,0
+                -55.6930724996869,-25.6551611003672,0
                 -55.6928399997067,-25.6544516999047,0
                 -55.692695300128,-25.6542107001151,0
                 -55.6926497000584,-25.6540058000339,0
@@ -3000,6 +2945,7 @@
             <SimpleData name="Sexo">Hombre</SimpleData>
             <SimpleData name="Cambio_de_">NO</SimpleData>
             <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="Cédula_Ti">NO</SimpleData>
             <SimpleData name="ci_UNIF">6901306.00000000000</SimpleData>
             <SimpleData name="Situación">NO</SimpleData>
             <SimpleData name="Comunidad">Ind?gena</SimpleData>
@@ -3007,21 +2953,19 @@
             <SimpleData name="Departamen">CAAGUAZU</SimpleData>
             <SimpleData name="Distrito">REPATRIACION</SimpleData>
             <SimpleData name="Localidad">COM INDIG 23 DE JUNIO</SimpleData>
+            <SimpleData name="Localidad_">23 DE JUNIO</SimpleData>
             <SimpleData name="Teléfono">ND</SimpleData>
             <SimpleData name="Vivienda_L">-25.67141620000</SimpleData>
             <SimpleData name="Vivienda_1">-55.71167030000</SimpleData>
             <SimpleData name="Superficie">0.80000000000</SimpleData>
-            <SimpleData name="Situaci_1">Par?metro</SimpleData>
-            <SimpleData name="Plantado">SI</SimpleData>
-            <SimpleData name="Plantado_f">2025/10/24</SimpleData>
+            <SimpleData name="Fecha_Plan">2025/10/24</SimpleData>
             <SimpleData name="Jornales">0.00000000000</SimpleData>
             <SimpleData name="Monto">0.00000000000</SimpleData>
-            <SimpleData name="Grupo_de_p">C-P3</SimpleData>
+            <SimpleData name="Grupo_de_p">C-P3-XX-XX-XX</SimpleData>
+            <SimpleData name="ETAPA_FAO">Mantenimiento A?o 1.1</SimpleData>
             <SimpleData name="Estado_del">Activo</SimpleData>
             <SimpleData name="Empresa">Unique Wood Paraguay SA</SimpleData>
             <SimpleData name="Lote">C</SimpleData>
-            <SimpleData name="Parametro">0.80000000000</SimpleData>
-            <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.71188544000</SimpleData>
             <SimpleData name="Y">-25.67097764000</SimpleData>
             <SimpleData name="Sup_SIG">0.80022997759</SimpleData>
@@ -3038,11 +2982,11 @@
                 -55.7116691003339,-25.6707540998371,0
                 -55.7116007997885,-25.6708171997407,0
                 -55.7111496000701,-25.6711093997683,0
-                -55.7111810998584,-25.671263500402,0
+                -55.7111810998583,-25.671263500402,0
                 -55.711081700345,-25.6713449996945,0
                 -55.71119570012,-25.6714682001249,0
                 -55.7114466997855,-25.671334100401,0
-                -55.7116673996584,-25.6712247001454,0
+                -55.7116673996585,-25.6712247001454,0
                 -55.7120861998084,-25.6713580999569,0
                 -55.712644100265,-25.6706626002345,0
                 -55.7122007999923,-25.67045510018,0
@@ -3059,6 +3003,7 @@
             <SimpleData name="Sexo">Hombre</SimpleData>
             <SimpleData name="Cambio_de_">NO</SimpleData>
             <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="Cédula_Ti">NO</SimpleData>
             <SimpleData name="ci_UNIF">4428801.00000000000</SimpleData>
             <SimpleData name="Situación">NO</SimpleData>
             <SimpleData name="Comunidad">Campesina</SimpleData>
@@ -3066,24 +3011,22 @@
             <SimpleData name="Departamen">CAAGUAZU</SimpleData>
             <SimpleData name="Distrito">REPATRIACION</SimpleData>
             <SimpleData name="Localidad">AGUILA NEGRA</SimpleData>
+            <SimpleData name="Localidad_">AGUILA NEGRA</SimpleData>
             <SimpleData name="Teléfono">971464293</SimpleData>
             <SimpleData name="Vivienda_L">-25.64298800000</SimpleData>
             <SimpleData name="Vivienda_1">-55.69396880000</SimpleData>
             <SimpleData name="Superficie">0.70000000000</SimpleData>
-            <SimpleData name="Situaci_1">Parametro</SimpleData>
-            <SimpleData name="Plantado">SI</SimpleData>
-            <SimpleData name="Plantado_f">2025/10/02</SimpleData>
+            <SimpleData name="Fecha_Plan">2025/10/02</SimpleData>
             <SimpleData name="Jornales">0.00000000000</SimpleData>
             <SimpleData name="Monto">0.00000000000</SimpleData>
-            <SimpleData name="Grupo_de_p">C-P3</SimpleData>
+            <SimpleData name="Grupo_de_p">C-P3-XX-XX-XX</SimpleData>
+            <SimpleData name="ETAPA_FAO">Mantenimiento A?o 1.1</SimpleData>
             <SimpleData name="Estado_del">Activo</SimpleData>
             <SimpleData name="Empresa">Unique Wood Paraguay SA</SimpleData>
             <SimpleData name="Lote">C</SimpleData>
-            <SimpleData name="Parametro">0.70000000000</SimpleData>
-            <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.69367843000</SimpleData>
             <SimpleData name="Y">-25.64233366000</SimpleData>
-            <SimpleData name="Sup_SIG">0.71124393759</SimpleData>
+            <SimpleData name="Sup_SIG">0.71124393760</SimpleData>
             <SimpleData name="cedula">4428801</SimpleData>
           </SchemaData>
         </ExtendedData>
@@ -3091,13 +3034,13 @@
           <outerBoundaryIs>
             <LinearRing>
               <coordinates>
-                -55.6929522995258,-25.641694400416,0
+                -55.6929522995258,-25.6416944004161,0
                 -55.6933463003071,-25.642836399784,0
                 -55.6944189995718,-25.6424032995724,0
                 -55.6942071001308,-25.6419761002514,0
                 -55.6933285001544,-25.6423522999583,0
-                -55.6931032998616,-25.6416217000572,0
-                -55.6929522995258,-25.641694400416,0
+                -55.6931032998616,-25.6416217000573,0
+                -55.6929522995258,-25.6416944004161,0
               </coordinates>
             </LinearRing>
           </outerBoundaryIs>
@@ -3111,6 +3054,7 @@
             <SimpleData name="Sexo">Hombre</SimpleData>
             <SimpleData name="Cambio_de_">NO</SimpleData>
             <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="Cédula_Ti">NO</SimpleData>
             <SimpleData name="ci_UNIF">7208572.00000000000</SimpleData>
             <SimpleData name="Situación">NO</SimpleData>
             <SimpleData name="Comunidad">Ind?gena</SimpleData>
@@ -3118,24 +3062,22 @@
             <SimpleData name="Departamen">CAAGUAZU</SimpleData>
             <SimpleData name="Distrito">REPATRIACION</SimpleData>
             <SimpleData name="Localidad">COM INDIG 23 DE JUNIO</SimpleData>
+            <SimpleData name="Localidad_">23 DE JUNIO</SimpleData>
             <SimpleData name="Teléfono">0975307375</SimpleData>
             <SimpleData name="Vivienda_L">-25.66755030000</SimpleData>
             <SimpleData name="Vivienda_1">-55.71453230000</SimpleData>
             <SimpleData name="Superficie">0.70000000000</SimpleData>
-            <SimpleData name="Situaci_1">Par?metro</SimpleData>
-            <SimpleData name="Plantado">SI</SimpleData>
-            <SimpleData name="Plantado_f">2025/10/21</SimpleData>
+            <SimpleData name="Fecha_Plan">2025/10/21</SimpleData>
             <SimpleData name="Jornales">0.00000000000</SimpleData>
             <SimpleData name="Monto">0.00000000000</SimpleData>
-            <SimpleData name="Grupo_de_p">C-P3</SimpleData>
+            <SimpleData name="Grupo_de_p">C-P3-XX-XX-XX</SimpleData>
+            <SimpleData name="ETAPA_FAO">Mantenimiento A?o 1.1</SimpleData>
             <SimpleData name="Estado_del">Activo</SimpleData>
             <SimpleData name="Empresa">Unique Wood Paraguay SA</SimpleData>
             <SimpleData name="Lote">C</SimpleData>
-            <SimpleData name="Parametro">0.70000000000</SimpleData>
-            <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.71468619000</SimpleData>
             <SimpleData name="Y">-25.66705163000</SimpleData>
-            <SimpleData name="Sup_SIG">0.74960209027</SimpleData>
+            <SimpleData name="Sup_SIG">0.74960209028</SimpleData>
             <SimpleData name="cedula">7208572</SimpleData>
           </SchemaData>
         </ExtendedData>
@@ -3171,15 +3113,15 @@
             <outerBoundaryIs>
               <LinearRing>
                 <coordinates>
-                  -55.7147466996886,-25.6674466996927,0
-                  -55.7148269000211,-25.6673653997024,0
+                  -55.7147466996886,-25.6674466996926,0
+                  -55.714826900021,-25.6673653997024,0
                   -55.7151272002892,-25.6669567998883,0
                   -55.7151021000678,-25.6667530000816,0
                   -55.7148755003648,-25.6667433998395,0
-                  -55.7148404001762,-25.6668083999992,0
+                  -55.7148404001762,-25.6668083999991,0
                   -55.7145209996214,-25.6666850997191,0
                   -55.7142074001619,-25.6672364995597,0
-                  -55.7147466996886,-25.6674466996927,0
+                  -55.7147466996886,-25.6674466996926,0
                 </coordinates>
               </LinearRing>
             </outerBoundaryIs>
@@ -3194,6 +3136,7 @@
             <SimpleData name="Sexo">Hombre</SimpleData>
             <SimpleData name="Cambio_de_">NO</SimpleData>
             <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="Cédula_Ti">NO</SimpleData>
             <SimpleData name="ci_UNIF">4347561.00000000000</SimpleData>
             <SimpleData name="Situación">NO</SimpleData>
             <SimpleData name="Comunidad">Ind?gena</SimpleData>
@@ -3201,24 +3144,22 @@
             <SimpleData name="Departamen">CAAGUAZU</SimpleData>
             <SimpleData name="Distrito">REPATRIACION</SimpleData>
             <SimpleData name="Localidad">COM INDIG 23 DE JUNIO</SimpleData>
+            <SimpleData name="Localidad_">23 DE JUNIO</SimpleData>
             <SimpleData name="Teléfono">0975334374</SimpleData>
             <SimpleData name="Vivienda_L">-25.67040830000</SimpleData>
             <SimpleData name="Vivienda_1">-55.71217830000</SimpleData>
             <SimpleData name="Superficie">0.80000000000</SimpleData>
-            <SimpleData name="Situaci_1">Par?metro</SimpleData>
-            <SimpleData name="Plantado">SI</SimpleData>
-            <SimpleData name="Plantado_f">2025/10/24</SimpleData>
+            <SimpleData name="Fecha_Plan">2025/10/24</SimpleData>
             <SimpleData name="Jornales">0.00000000000</SimpleData>
             <SimpleData name="Monto">0.00000000000</SimpleData>
-            <SimpleData name="Grupo_de_p">C-P3</SimpleData>
+            <SimpleData name="Grupo_de_p">C-P3-XX-XX-XX</SimpleData>
+            <SimpleData name="ETAPA_FAO">Mantenimiento A?o 1.1</SimpleData>
             <SimpleData name="Estado_del">Activo</SimpleData>
             <SimpleData name="Empresa">Unique Wood Paraguay SA</SimpleData>
             <SimpleData name="Lote">C</SimpleData>
-            <SimpleData name="Parametro">0.80000000000</SimpleData>
-            <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.71056033000</SimpleData>
             <SimpleData name="Y">-25.67172279000</SimpleData>
-            <SimpleData name="Sup_SIG">0.80197989602</SimpleData>
+            <SimpleData name="Sup_SIG">0.80197989601</SimpleData>
             <SimpleData name="cedula">4347561</SimpleData>
           </SchemaData>
         </ExtendedData>
@@ -3268,6 +3209,7 @@
             <SimpleData name="Sexo">Mujer</SimpleData>
             <SimpleData name="Cambio_de_">NO</SimpleData>
             <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="Cédula_Ti">NO</SimpleData>
             <SimpleData name="ci_UNIF">5956324.00000000000</SimpleData>
             <SimpleData name="Situación">NO</SimpleData>
             <SimpleData name="Comunidad">Campesina</SimpleData>
@@ -3275,21 +3217,19 @@
             <SimpleData name="Departamen">CAAGUAZU</SimpleData>
             <SimpleData name="Distrito">REPATRIACION</SimpleData>
             <SimpleData name="Localidad">AGUILA REAL</SimpleData>
+            <SimpleData name="Localidad_">AGUILA REAL</SimpleData>
             <SimpleData name="Teléfono">0976768234</SimpleData>
             <SimpleData name="Vivienda_L">-25.66667830000</SimpleData>
             <SimpleData name="Vivienda_1">-55.73408330000</SimpleData>
             <SimpleData name="Superficie">0.80000000000</SimpleData>
-            <SimpleData name="Situaci_1">Pol?gono</SimpleData>
-            <SimpleData name="Plantado">SI</SimpleData>
-            <SimpleData name="Plantado_f">2025/10/31</SimpleData>
+            <SimpleData name="Fecha_Plan">2025/10/31</SimpleData>
             <SimpleData name="Jornales">0.00000000000</SimpleData>
             <SimpleData name="Monto">0.00000000000</SimpleData>
-            <SimpleData name="Grupo_de_p">C-P3</SimpleData>
+            <SimpleData name="Grupo_de_p">C-P3-XX-XX-XX</SimpleData>
+            <SimpleData name="ETAPA_FAO">Mantenimiento A?o 1.1</SimpleData>
             <SimpleData name="Estado_del">Activo</SimpleData>
             <SimpleData name="Empresa">Unique Wood Paraguay SA</SimpleData>
             <SimpleData name="Lote">C</SimpleData>
-            <SimpleData name="Parametro">0.80000000000</SimpleData>
-            <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.73259054000</SimpleData>
             <SimpleData name="Y">-25.66741334000</SimpleData>
             <SimpleData name="Sup_SIG">0.97207619616</SimpleData>
@@ -3318,6 +3258,7 @@
             <SimpleData name="Sexo">Hombre</SimpleData>
             <SimpleData name="Cambio_de_">NO</SimpleData>
             <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="Cédula_Ti">NO</SimpleData>
             <SimpleData name="ci_UNIF">7208534.00000000000</SimpleData>
             <SimpleData name="Situación">NO</SimpleData>
             <SimpleData name="Comunidad">Ind?gena</SimpleData>
@@ -3325,24 +3266,22 @@
             <SimpleData name="Departamen">CAAGUAZU</SimpleData>
             <SimpleData name="Distrito">REPATRIACION</SimpleData>
             <SimpleData name="Localidad">COM INDIG KAATYMI</SimpleData>
+            <SimpleData name="Localidad_"><![CDATA[KA'ATYMI]]></SimpleData>
             <SimpleData name="Teléfono">ND</SimpleData>
             <SimpleData name="Vivienda_L">-25.66467660000</SimpleData>
             <SimpleData name="Vivienda_1">-55.69391330000</SimpleData>
             <SimpleData name="Superficie">0.70000000000</SimpleData>
-            <SimpleData name="Situaci_1">Pol?gono</SimpleData>
-            <SimpleData name="Plantado">SI</SimpleData>
-            <SimpleData name="Plantado_f">2025/10/21</SimpleData>
+            <SimpleData name="Fecha_Plan">2025/10/21</SimpleData>
             <SimpleData name="Jornales">0.00000000000</SimpleData>
             <SimpleData name="Monto">0.00000000000</SimpleData>
-            <SimpleData name="Grupo_de_p">C-P3</SimpleData>
+            <SimpleData name="Grupo_de_p">C-P3-XX-XX-XX</SimpleData>
+            <SimpleData name="ETAPA_FAO">Mantenimiento A?o 1.1</SimpleData>
             <SimpleData name="Estado_del">Activo</SimpleData>
             <SimpleData name="Empresa">Unique Wood Paraguay SA</SimpleData>
             <SimpleData name="Lote">C</SimpleData>
-            <SimpleData name="Parametro">0.70000000000</SimpleData>
-            <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.69362418000</SimpleData>
             <SimpleData name="Y">-25.66512165000</SimpleData>
-            <SimpleData name="Sup_SIG">0.75074052441</SimpleData>
+            <SimpleData name="Sup_SIG">0.75074052442</SimpleData>
             <SimpleData name="cedula">7208534</SimpleData>
           </SchemaData>
         </ExtendedData>
@@ -3355,10 +3294,10 @@
                 -55.6937933004493,-25.6646383003017,0
                 -55.6932699997864,-25.6647933001259,0
                 -55.6932882998397,-25.6649250000444,0
-                -55.6934867003795,-25.6649217002866,0
+                -55.6934867003794,-25.6649217002866,0
                 -55.6935044995721,-25.6650300002731,0
                 -55.6931272004744,-25.665058100213,0
-                -55.6931854995592,-25.6656747998521,0
+                -55.6931854995591,-25.6656747998521,0
                 -55.6936648995039,-25.6656642998911,0
                 -55.6938182998963,-25.6651283003781,0
                 -55.6939816995699,-25.6651633001728,0
@@ -3380,6 +3319,7 @@
             <SimpleData name="Sexo">Mujer</SimpleData>
             <SimpleData name="Cambio_de_">NO</SimpleData>
             <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="Cédula_Ti">NO</SimpleData>
             <SimpleData name="ci_UNIF">5813206.00000000000</SimpleData>
             <SimpleData name="Situación">NO</SimpleData>
             <SimpleData name="Comunidad">Ind?gena</SimpleData>
@@ -3387,24 +3327,22 @@
             <SimpleData name="Departamen">CAAGUAZU</SimpleData>
             <SimpleData name="Distrito">REPATRIACION</SimpleData>
             <SimpleData name="Localidad">COM INDIG TAKUARO 3 DE FEBRERO</SimpleData>
+            <SimpleData name="Localidad_">TAKUARO 3 DE FEBRERO</SimpleData>
             <SimpleData name="Teléfono">0987155858</SimpleData>
             <SimpleData name="Vivienda_L">-25.67791500000</SimpleData>
             <SimpleData name="Vivienda_1">-55.73612830000</SimpleData>
             <SimpleData name="Superficie">0.70000000000</SimpleData>
-            <SimpleData name="Situaci_1">Par?metro</SimpleData>
-            <SimpleData name="Plantado">SI</SimpleData>
-            <SimpleData name="Plantado_f">2025/10/24</SimpleData>
+            <SimpleData name="Fecha_Plan">2025/10/24</SimpleData>
             <SimpleData name="Jornales">0.00000000000</SimpleData>
             <SimpleData name="Monto">0.00000000000</SimpleData>
-            <SimpleData name="Grupo_de_p">C-P3</SimpleData>
+            <SimpleData name="Grupo_de_p">C-P3-XX-XX-XX</SimpleData>
+            <SimpleData name="ETAPA_FAO">Mantenimiento A?o 1.1</SimpleData>
             <SimpleData name="Estado_del">Activo</SimpleData>
             <SimpleData name="Empresa">Unique Wood Paraguay SA</SimpleData>
             <SimpleData name="Lote">C</SimpleData>
-            <SimpleData name="Parametro">0.70000000000</SimpleData>
-            <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.73569053000</SimpleData>
             <SimpleData name="Y">-25.67783062000</SimpleData>
-            <SimpleData name="Sup_SIG">0.73547677833</SimpleData>
+            <SimpleData name="Sup_SIG">0.73547677832</SimpleData>
             <SimpleData name="cedula">5813206</SimpleData>
           </SchemaData>
         </ExtendedData>
@@ -3418,7 +3356,7 @@
                 -55.7360005996806,-25.6782459997087,0
                 -55.7356618997386,-25.6779877001815,0
                 -55.7359772999353,-25.6776734996165,0
-                -55.7362631004183,-25.6778228004303,0
+                -55.7362631004184,-25.6778228004303,0
                 -55.7364008998914,-25.6776509997307,0
                 -55.735870000496,-25.6773033998215,0
                 -55.735580200358,-25.677412300395,0
@@ -3435,6 +3373,7 @@
             <SimpleData name="Sexo">Mujer</SimpleData>
             <SimpleData name="Cambio_de_">NO</SimpleData>
             <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="Cédula_Ti">NO</SimpleData>
             <SimpleData name="ci_UNIF">7649122.00000000000</SimpleData>
             <SimpleData name="Situación">NO</SimpleData>
             <SimpleData name="Comunidad">Ind?gena</SimpleData>
@@ -3442,21 +3381,19 @@
             <SimpleData name="Departamen">CAAGUAZU</SimpleData>
             <SimpleData name="Distrito">REPATRIACION</SimpleData>
             <SimpleData name="Localidad">COM INDIG ?U JHOVY</SimpleData>
+            <SimpleData name="Localidad_">?U HOVY</SimpleData>
             <SimpleData name="Teléfono">ND</SimpleData>
             <SimpleData name="Vivienda_L">-25.65546210000</SimpleData>
             <SimpleData name="Vivienda_1">-55.71526920000</SimpleData>
             <SimpleData name="Superficie">0.70000000000</SimpleData>
-            <SimpleData name="Situaci_1">Par?metro</SimpleData>
-            <SimpleData name="Plantado">SI</SimpleData>
-            <SimpleData name="Plantado_f">2025/10/15</SimpleData>
+            <SimpleData name="Fecha_Plan">2025/10/15</SimpleData>
             <SimpleData name="Jornales">0.00000000000</SimpleData>
             <SimpleData name="Monto">0.00000000000</SimpleData>
-            <SimpleData name="Grupo_de_p">C-P3</SimpleData>
+            <SimpleData name="Grupo_de_p">C-P3-XX-XX-XX</SimpleData>
+            <SimpleData name="ETAPA_FAO">Mantenimiento A?o 1.1</SimpleData>
             <SimpleData name="Estado_del">Activo</SimpleData>
             <SimpleData name="Empresa">Unique Wood Paraguay SA</SimpleData>
             <SimpleData name="Lote">C</SimpleData>
-            <SimpleData name="Parametro">0.70000000000</SimpleData>
-            <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.71210410000</SimpleData>
             <SimpleData name="Y">-25.65857895000</SimpleData>
             <SimpleData name="Sup_SIG">0.84047510573</SimpleData>
@@ -3492,6 +3429,7 @@
             <SimpleData name="Sexo">Mujer</SimpleData>
             <SimpleData name="Cambio_de_">NO</SimpleData>
             <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="Cédula_Ti">NO</SimpleData>
             <SimpleData name="ci_UNIF">6347053.00000000000</SimpleData>
             <SimpleData name="Situación">NO</SimpleData>
             <SimpleData name="Comunidad">Ind?gena</SimpleData>
@@ -3499,21 +3437,19 @@
             <SimpleData name="Departamen">CAAGUAZU</SimpleData>
             <SimpleData name="Distrito">REPATRIACION</SimpleData>
             <SimpleData name="Localidad">COM INDIG ?U JHOVY</SimpleData>
+            <SimpleData name="Localidad_">?U HOVY</SimpleData>
             <SimpleData name="Teléfono">0975956770</SimpleData>
             <SimpleData name="Vivienda_L">-25.46399900000</SimpleData>
             <SimpleData name="Vivienda_1">-56.01830530000</SimpleData>
             <SimpleData name="Superficie">0.70000000000</SimpleData>
-            <SimpleData name="Situaci_1">Par?metro</SimpleData>
-            <SimpleData name="Plantado">SI</SimpleData>
-            <SimpleData name="Plantado_f">2025/10/10</SimpleData>
+            <SimpleData name="Fecha_Plan">2025/10/10</SimpleData>
             <SimpleData name="Jornales">0.00000000000</SimpleData>
             <SimpleData name="Monto">0.00000000000</SimpleData>
-            <SimpleData name="Grupo_de_p">C-P3</SimpleData>
+            <SimpleData name="Grupo_de_p">C-P3-XX-XX-XX</SimpleData>
+            <SimpleData name="ETAPA_FAO">Mantenimiento A?o 1.1</SimpleData>
             <SimpleData name="Estado_del">Activo</SimpleData>
             <SimpleData name="Empresa">Unique Wood Paraguay SA</SimpleData>
             <SimpleData name="Lote">C</SimpleData>
-            <SimpleData name="Parametro">0.70000000000</SimpleData>
-            <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.71603093000</SimpleData>
             <SimpleData name="Y">-25.65845288000</SimpleData>
             <SimpleData name="Sup_SIG">0.70471092139</SimpleData>
@@ -3542,6 +3478,7 @@
             <SimpleData name="Sexo">Mujer</SimpleData>
             <SimpleData name="Cambio_de_">NO</SimpleData>
             <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="Cédula_Ti">NO</SimpleData>
             <SimpleData name="ci_UNIF">6347052.00000000000</SimpleData>
             <SimpleData name="Situación">NO</SimpleData>
             <SimpleData name="Comunidad">Ind?gena</SimpleData>
@@ -3549,21 +3486,19 @@
             <SimpleData name="Departamen">CAAGUAZU</SimpleData>
             <SimpleData name="Distrito">REPATRIACION</SimpleData>
             <SimpleData name="Localidad">COM INDIG ?U JHOVY</SimpleData>
+            <SimpleData name="Localidad_">?U HOVY</SimpleData>
             <SimpleData name="Teléfono">0975485523</SimpleData>
             <SimpleData name="Vivienda_L">-25.64727540000</SimpleData>
             <SimpleData name="Vivienda_1">-55.71500890000</SimpleData>
             <SimpleData name="Superficie">0.90000000000</SimpleData>
-            <SimpleData name="Situaci_1">Pol?gono</SimpleData>
-            <SimpleData name="Plantado">SI</SimpleData>
-            <SimpleData name="Plantado_f">2025/10/03</SimpleData>
+            <SimpleData name="Fecha_Plan">2025/10/03</SimpleData>
             <SimpleData name="Jornales">0.00000000000</SimpleData>
             <SimpleData name="Monto">0.00000000000</SimpleData>
-            <SimpleData name="Grupo_de_p">C-GN</SimpleData>
+            <SimpleData name="Grupo_de_p">C-P4-XX-XX-XX</SimpleData>
+            <SimpleData name="ETAPA_FAO">Plantaci?n</SimpleData>
             <SimpleData name="Estado_del">Activo</SimpleData>
             <SimpleData name="Empresa">Unique Wood Paraguay SA</SimpleData>
             <SimpleData name="Lote">C</SimpleData>
-            <SimpleData name="Parametro">0.70000000000</SimpleData>
-            <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.71008248000</SimpleData>
             <SimpleData name="Y">-25.64862205000</SimpleData>
             <SimpleData name="Sup_SIG">0.96586479705</SimpleData>
@@ -3598,6 +3533,7 @@
             <SimpleData name="Sexo">Mujer</SimpleData>
             <SimpleData name="Cambio_de_">NO</SimpleData>
             <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="Cédula_Ti">NO</SimpleData>
             <SimpleData name="ci_UNIF">3942019.00000000000</SimpleData>
             <SimpleData name="Situación">NO</SimpleData>
             <SimpleData name="Comunidad">Ind?gena</SimpleData>
@@ -3605,20 +3541,19 @@
             <SimpleData name="Departamen">CAAGUAZU</SimpleData>
             <SimpleData name="Distrito">REPATRIACION</SimpleData>
             <SimpleData name="Localidad">COM INDIG PINDO-I</SimpleData>
+            <SimpleData name="Localidad_"><![CDATA[PINDO'I CULANDRILLO]]></SimpleData>
             <SimpleData name="Teléfono">ND</SimpleData>
             <SimpleData name="Vivienda_L">-25.52700000000</SimpleData>
             <SimpleData name="Vivienda_1">-55.67974000000</SimpleData>
             <SimpleData name="Superficie">0.70000000000</SimpleData>
-            <SimpleData name="Situaci_1">Par?metro</SimpleData>
-            <SimpleData name="Plantado">SI</SimpleData>
-            <SimpleData name="Plantado_f">1899/12/30</SimpleData>
+            <SimpleData name="Fecha_Plan">2026/05/26</SimpleData>
             <SimpleData name="Jornales">0.00000000000</SimpleData>
             <SimpleData name="Monto">0.00000000000</SimpleData>
-            <SimpleData name="Grupo_de_p">C-GN</SimpleData>
+            <SimpleData name="Grupo_de_p">C-P4-XX-XX-XX</SimpleData>
+            <SimpleData name="ETAPA_FAO">Plantaci?n</SimpleData>
             <SimpleData name="Estado_del">Activo</SimpleData>
             <SimpleData name="Empresa">Unique Wood Paraguay SA</SimpleData>
             <SimpleData name="Lote">C</SimpleData>
-            <SimpleData name="Parametro">0.00000000000</SimpleData>
             <SimpleData name="X">-55.68028741000</SimpleData>
             <SimpleData name="Y">-25.52606662000</SimpleData>
             <SimpleData name="Sup_SIG">0.73993022461</SimpleData>
@@ -3650,6 +3585,7 @@
             <SimpleData name="Sexo">Mujer</SimpleData>
             <SimpleData name="Cambio_de_">NO</SimpleData>
             <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="Cédula_Ti">NO</SimpleData>
             <SimpleData name="ci_UNIF">6241010.00000000000</SimpleData>
             <SimpleData name="Situación">NO</SimpleData>
             <SimpleData name="Comunidad">Ind?gena</SimpleData>
@@ -3657,23 +3593,22 @@
             <SimpleData name="Departamen">CAAGUAZU</SimpleData>
             <SimpleData name="Distrito">REPATRIACION</SimpleData>
             <SimpleData name="Localidad">COM INDIG KAATYMI</SimpleData>
+            <SimpleData name="Localidad_"><![CDATA[KA'ATYMI]]></SimpleData>
             <SimpleData name="Teléfono">ND</SimpleData>
             <SimpleData name="Vivienda_L">-25.66352660000</SimpleData>
             <SimpleData name="Vivienda_1">-55.69315860000</SimpleData>
             <SimpleData name="Superficie">0.70000000000</SimpleData>
-            <SimpleData name="Situaci_1">Par?metro</SimpleData>
-            <SimpleData name="Plantado">SI</SimpleData>
-            <SimpleData name="Plantado_f">1899/12/30</SimpleData>
+            <SimpleData name="Fecha_Plan">2026/05/28</SimpleData>
             <SimpleData name="Jornales">0.00000000000</SimpleData>
             <SimpleData name="Monto">0.00000000000</SimpleData>
-            <SimpleData name="Grupo_de_p">C-GN</SimpleData>
+            <SimpleData name="Grupo_de_p">C-P4-XX-XX-XX</SimpleData>
+            <SimpleData name="ETAPA_FAO">Plantaci?n</SimpleData>
             <SimpleData name="Estado_del">Activo</SimpleData>
             <SimpleData name="Empresa">Unique Wood Paraguay SA</SimpleData>
             <SimpleData name="Lote">C</SimpleData>
-            <SimpleData name="Parametro">0.00000000000</SimpleData>
             <SimpleData name="X">-55.69759754000</SimpleData>
             <SimpleData name="Y">-25.66522794000</SimpleData>
-            <SimpleData name="Sup_SIG">0.73226873619</SimpleData>
+            <SimpleData name="Sup_SIG">0.73226873617</SimpleData>
             <SimpleData name="cedula">6241010</SimpleData>
           </SchemaData>
         </ExtendedData>
@@ -3685,7 +3620,7 @@
                 -55.6974728999269,-25.6657911998087,0
                 -55.6975493002581,-25.6657909995454,0
                 -55.6981733995126,-25.6651336998069,0
-                -55.6976949998975,-25.6646900004284,0
+                -55.6976949998974,-25.6646900004284,0
                 -55.6971411000239,-25.6650205005371,0
                 -55.6972851001755,-25.6652782998297,0
                 -55.6970658997304,-25.6653753999071,0
@@ -3702,6 +3637,7 @@
             <SimpleData name="Sexo">Mujer</SimpleData>
             <SimpleData name="Cambio_de_">NO</SimpleData>
             <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="Cédula_Ti">NO</SimpleData>
             <SimpleData name="ci_UNIF">6347049.00000000000</SimpleData>
             <SimpleData name="Situación">NO</SimpleData>
             <SimpleData name="Comunidad">Ind?gena</SimpleData>
@@ -3709,23 +3645,22 @@
             <SimpleData name="Departamen">CAAGUAZU</SimpleData>
             <SimpleData name="Distrito">REPATRIACION</SimpleData>
             <SimpleData name="Localidad">COM INDIG KAATYMI</SimpleData>
+            <SimpleData name="Localidad_"><![CDATA[KA'ATYMI]]></SimpleData>
             <SimpleData name="Teléfono">ND</SimpleData>
             <SimpleData name="Vivienda_L">-25.66217710000</SimpleData>
             <SimpleData name="Vivienda_1">-55.69449430000</SimpleData>
             <SimpleData name="Superficie">0.70000000000</SimpleData>
-            <SimpleData name="Situaci_1">Par?metro</SimpleData>
-            <SimpleData name="Plantado">SI</SimpleData>
-            <SimpleData name="Plantado_f">1899/12/30</SimpleData>
+            <SimpleData name="Fecha_Plan">2026/05/28</SimpleData>
             <SimpleData name="Jornales">0.00000000000</SimpleData>
             <SimpleData name="Monto">0.00000000000</SimpleData>
-            <SimpleData name="Grupo_de_p">C-GN</SimpleData>
+            <SimpleData name="Grupo_de_p">C-P4-XX-XX-XX</SimpleData>
+            <SimpleData name="ETAPA_FAO">Plantaci?n</SimpleData>
             <SimpleData name="Estado_del">Activo</SimpleData>
             <SimpleData name="Empresa">Unique Wood Paraguay SA</SimpleData>
             <SimpleData name="Lote">C</SimpleData>
-            <SimpleData name="Parametro">0.00000000000</SimpleData>
             <SimpleData name="X">-55.69820995000</SimpleData>
             <SimpleData name="Y">-25.66566055000</SimpleData>
-            <SimpleData name="Sup_SIG">0.73875823648</SimpleData>
+            <SimpleData name="Sup_SIG">0.73875823647</SimpleData>
             <SimpleData name="cedula">6347049</SimpleData>
           </SchemaData>
         </ExtendedData>
@@ -3741,7 +3676,7 @@
                 -55.6978199999318,-25.6658783003908,0
                 -55.6980683002143,-25.6661483002182,0
                 -55.6983867001704,-25.6660067001213,0
-                -55.6988599999134,-25.66559830032,0
+                -55.6988599999134,-25.6655983003199,0
                 -55.6987351713219,-25.665506385515,0
               </coordinates>
             </LinearRing>
@@ -3756,6 +3691,7 @@
             <SimpleData name="Sexo">Mujer</SimpleData>
             <SimpleData name="Cambio_de_">NO</SimpleData>
             <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="Cédula_Ti">NO</SimpleData>
             <SimpleData name="ci_UNIF">6347058.00000000000</SimpleData>
             <SimpleData name="Situación">NO</SimpleData>
             <SimpleData name="Comunidad">Ind?gena</SimpleData>
@@ -3763,20 +3699,19 @@
             <SimpleData name="Departamen">CAAGUAZU</SimpleData>
             <SimpleData name="Distrito">REPATRIACION</SimpleData>
             <SimpleData name="Localidad">COM INDIG ?U JHOVY</SimpleData>
+            <SimpleData name="Localidad_">?U HOVY</SimpleData>
             <SimpleData name="Teléfono">0987183674</SimpleData>
             <SimpleData name="Vivienda_L">-25.64928330000</SimpleData>
             <SimpleData name="Vivienda_1">-55.71517000000</SimpleData>
             <SimpleData name="Superficie">0.70000000000</SimpleData>
-            <SimpleData name="Situaci_1">Par?metro</SimpleData>
-            <SimpleData name="Plantado">SI</SimpleData>
-            <SimpleData name="Plantado_f">1899/12/30</SimpleData>
+            <SimpleData name="Fecha_Plan">2026/05/28</SimpleData>
             <SimpleData name="Jornales">0.00000000000</SimpleData>
             <SimpleData name="Monto">0.00000000000</SimpleData>
-            <SimpleData name="Grupo_de_p">C-GN</SimpleData>
+            <SimpleData name="Grupo_de_p">C-P4-XX-XX-XX</SimpleData>
+            <SimpleData name="ETAPA_FAO">Plantaci?n</SimpleData>
             <SimpleData name="Estado_del">Activo</SimpleData>
             <SimpleData name="Empresa">Unique Wood Paraguay SA</SimpleData>
             <SimpleData name="Lote">C</SimpleData>
-            <SimpleData name="Parametro">0.00000000000</SimpleData>
             <SimpleData name="X">-55.71471890000</SimpleData>
             <SimpleData name="Y">-25.64807050000</SimpleData>
             <SimpleData name="Sup_SIG">0.69972588253</SimpleData>
@@ -3790,7 +3725,7 @@
                 <coordinates>
                   -55.7146949992432,-25.6501816996347,0
                   -55.7147633000405,-25.649804999942,0
-                  -55.7141616931423,-25.6497420627624,0
+                  -55.7141616931424,-25.6497420627624,0
                   -55.7140483002048,-25.6500399998593,0
                   -55.7146949992432,-25.6501816996347,0
                 </coordinates>
@@ -3815,7 +3750,7 @@
               <LinearRing>
                 <coordinates>
                   -55.714886200073,-25.6477455001312,0
-                  -55.7144142996654,-25.6478952006862,0
+                  -55.7144142996654,-25.6478952006863,0
                   -55.7145705999188,-25.6483352000126,0
                   -55.7149716990905,-25.6483550005588,0
                   -55.714886200073,-25.6477455001312,0
@@ -3833,6 +3768,7 @@
             <SimpleData name="Sexo">Mujer</SimpleData>
             <SimpleData name="Cambio_de_">NO</SimpleData>
             <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="Cédula_Ti">NO</SimpleData>
             <SimpleData name="ci_UNIF">7755753.00000000000</SimpleData>
             <SimpleData name="Situación">NO</SimpleData>
             <SimpleData name="Comunidad">Ind?gena</SimpleData>
@@ -3840,20 +3776,19 @@
             <SimpleData name="Departamen">CAAGUAZU</SimpleData>
             <SimpleData name="Distrito">REPATRIACION</SimpleData>
             <SimpleData name="Localidad">COM INDIG PINDO-I</SimpleData>
+            <SimpleData name="Localidad_"><![CDATA[PINDO'I CULANDRILLO]]></SimpleData>
             <SimpleData name="Teléfono">ND</SimpleData>
             <SimpleData name="Vivienda_L">-25.52133330000</SimpleData>
             <SimpleData name="Vivienda_1">-55.66908330000</SimpleData>
             <SimpleData name="Superficie">0.70000000000</SimpleData>
-            <SimpleData name="Situaci_1">Par?metro</SimpleData>
-            <SimpleData name="Plantado">SI</SimpleData>
-            <SimpleData name="Plantado_f">1899/12/30</SimpleData>
+            <SimpleData name="Fecha_Plan">2026/05/26</SimpleData>
             <SimpleData name="Jornales">0.00000000000</SimpleData>
             <SimpleData name="Monto">0.00000000000</SimpleData>
-            <SimpleData name="Grupo_de_p">C-GN</SimpleData>
+            <SimpleData name="Grupo_de_p">C-P4-XX-XX-XX</SimpleData>
+            <SimpleData name="ETAPA_FAO">Plantaci?n</SimpleData>
             <SimpleData name="Estado_del">Activo</SimpleData>
             <SimpleData name="Empresa">Unique Wood Paraguay SA</SimpleData>
             <SimpleData name="Lote">C</SimpleData>
-            <SimpleData name="Parametro">0.00000000000</SimpleData>
             <SimpleData name="X">-55.66827441000</SimpleData>
             <SimpleData name="Y">-25.52168750000</SimpleData>
             <SimpleData name="Sup_SIG">0.78029583536</SimpleData>
@@ -3884,6 +3819,7 @@
             <SimpleData name="Sexo">Hombre</SimpleData>
             <SimpleData name="Cambio_de_">NO</SimpleData>
             <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="Cédula_Ti">NO</SimpleData>
             <SimpleData name="ci_UNIF">7990158.00000000000</SimpleData>
             <SimpleData name="Situación">NO</SimpleData>
             <SimpleData name="Comunidad">Ind?gena</SimpleData>
@@ -3891,23 +3827,22 @@
             <SimpleData name="Departamen">CAAGUAZU</SimpleData>
             <SimpleData name="Distrito">REPATRIACION</SimpleData>
             <SimpleData name="Localidad">COM INDIG 23 DE JUNIO</SimpleData>
+            <SimpleData name="Localidad_">23 DE JUNIO</SimpleData>
             <SimpleData name="Teléfono">971463027</SimpleData>
             <SimpleData name="Vivienda_L">-25.66662150000</SimpleData>
             <SimpleData name="Vivienda_1">-55.70623110000</SimpleData>
             <SimpleData name="Superficie">0.70000000000</SimpleData>
-            <SimpleData name="Situaci_1">Par?metro</SimpleData>
-            <SimpleData name="Plantado">SI</SimpleData>
-            <SimpleData name="Plantado_f">1899/12/30</SimpleData>
+            <SimpleData name="Fecha_Plan">2026/05/28</SimpleData>
             <SimpleData name="Jornales">0.00000000000</SimpleData>
             <SimpleData name="Monto">0.00000000000</SimpleData>
-            <SimpleData name="Grupo_de_p">C-GN</SimpleData>
+            <SimpleData name="Grupo_de_p">C-P4-XX-XX-XX</SimpleData>
+            <SimpleData name="ETAPA_FAO">Plantaci?n</SimpleData>
             <SimpleData name="Estado_del">Activo</SimpleData>
             <SimpleData name="Empresa">Unique Wood Paraguay SA</SimpleData>
             <SimpleData name="Lote">C</SimpleData>
-            <SimpleData name="Parametro">0.00000000000</SimpleData>
             <SimpleData name="X">-55.70594817000</SimpleData>
             <SimpleData name="Y">-25.66645733000</SimpleData>
-            <SimpleData name="Sup_SIG">0.70845273771</SimpleData>
+            <SimpleData name="Sup_SIG">0.70845273770</SimpleData>
             <SimpleData name="cedula">7990158</SimpleData>
           </SchemaData>
         </ExtendedData>
@@ -3917,13 +3852,13 @@
               <LinearRing>
                 <coordinates>
                   -55.7055997992656,-25.6670973996798,0
-                  -55.7059387003911,-25.6670063997783,0
+                  -55.705938700391,-25.6670063997783,0
                   -55.7060141998047,-25.6669323006206,0
                   -55.7060233999259,-25.6668240001672,0
                   -55.7060693995887,-25.6665189998427,0
                   -55.7059982001069,-25.6660851004426,0
                   -55.7059237999441,-25.6658558001509,0
-                  -55.7057166996293,-25.6659433002581,0
+                  -55.7057166996294,-25.6659433002581,0
                   -55.7057425992493,-25.6661631001702,0
                   -55.70571789932,-25.6662532000791,0
                   -55.7056402003193,-25.6663869998543,0
@@ -3956,6 +3891,7 @@
             <SimpleData name="Sexo">Mujer</SimpleData>
             <SimpleData name="Cambio_de_">NO</SimpleData>
             <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="Cédula_Ti">NO</SimpleData>
             <SimpleData name="ci_UNIF">7992021.00000000000</SimpleData>
             <SimpleData name="Situación">NO</SimpleData>
             <SimpleData name="Comunidad">Ind?gena</SimpleData>
@@ -3963,23 +3899,22 @@
             <SimpleData name="Departamen">CAAGUAZU</SimpleData>
             <SimpleData name="Distrito">REPATRIACION</SimpleData>
             <SimpleData name="Localidad">COM INDIG PINDO-I</SimpleData>
+            <SimpleData name="Localidad_"><![CDATA[PINDO'I CULANDRILLO]]></SimpleData>
             <SimpleData name="Teléfono">ND</SimpleData>
             <SimpleData name="Vivienda_L">-25.53277030000</SimpleData>
             <SimpleData name="Vivienda_1">-55.67336510000</SimpleData>
             <SimpleData name="Superficie">0.70000000000</SimpleData>
-            <SimpleData name="Situaci_1">Par?metro</SimpleData>
-            <SimpleData name="Plantado">SI</SimpleData>
-            <SimpleData name="Plantado_f">1899/12/30</SimpleData>
+            <SimpleData name="Fecha_Plan">2026/05/26</SimpleData>
             <SimpleData name="Jornales">0.00000000000</SimpleData>
             <SimpleData name="Monto">0.00000000000</SimpleData>
-            <SimpleData name="Grupo_de_p">C-GN</SimpleData>
+            <SimpleData name="Grupo_de_p">C-P4-XX-XX-XX</SimpleData>
+            <SimpleData name="ETAPA_FAO">Plantaci?n</SimpleData>
             <SimpleData name="Estado_del">Activo</SimpleData>
             <SimpleData name="Empresa">Unique Wood Paraguay SA</SimpleData>
             <SimpleData name="Lote">C</SimpleData>
-            <SimpleData name="Parametro">0.00000000000</SimpleData>
             <SimpleData name="X">-55.67602054000</SimpleData>
             <SimpleData name="Y">-25.52874553000</SimpleData>
-            <SimpleData name="Sup_SIG">0.71787930295</SimpleData>
+            <SimpleData name="Sup_SIG">0.71787930294</SimpleData>
             <SimpleData name="cedula">7992021</SimpleData>
           </SchemaData>
         </ExtendedData>
@@ -3990,7 +3925,7 @@
                 <coordinates>
                   -55.6756116998802,-25.5290299998352,0
                   -55.6756563006478,-25.5291600005084,0
-                  -55.6759531996117,-25.5290453000708,0
+                  -55.6759531996116,-25.5290453000708,0
                   -55.6760399995776,-25.5291950002985,0
                   -55.6762284007282,-25.5291167002649,0
                   -55.6761777998282,-25.5289846997958,0
@@ -4033,6 +3968,7 @@
             <SimpleData name="Sexo">Hombre</SimpleData>
             <SimpleData name="Cambio_de_">NO</SimpleData>
             <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="Cédula_Ti">NO</SimpleData>
             <SimpleData name="ci_UNIF">7992086.00000000000</SimpleData>
             <SimpleData name="Situación">NO</SimpleData>
             <SimpleData name="Comunidad">Ind?gena</SimpleData>
@@ -4040,23 +3976,22 @@
             <SimpleData name="Departamen">CAAGUAZU</SimpleData>
             <SimpleData name="Distrito">REPATRIACION</SimpleData>
             <SimpleData name="Localidad">COM INDIG PINDO-I</SimpleData>
+            <SimpleData name="Localidad_"><![CDATA[PINDO'I CULANDRILLO]]></SimpleData>
             <SimpleData name="Teléfono">ND</SimpleData>
             <SimpleData name="Vivienda_L">-25.52949390000</SimpleData>
             <SimpleData name="Vivienda_1">-55.67805200000</SimpleData>
             <SimpleData name="Superficie">0.70000000000</SimpleData>
-            <SimpleData name="Situaci_1">Par?metro</SimpleData>
-            <SimpleData name="Plantado">SI</SimpleData>
-            <SimpleData name="Plantado_f">1899/12/30</SimpleData>
+            <SimpleData name="Fecha_Plan">2026/05/26</SimpleData>
             <SimpleData name="Jornales">0.00000000000</SimpleData>
             <SimpleData name="Monto">0.00000000000</SimpleData>
-            <SimpleData name="Grupo_de_p">C-GN</SimpleData>
+            <SimpleData name="Grupo_de_p">C-P4-XX-XX-XX</SimpleData>
+            <SimpleData name="ETAPA_FAO">Plantaci?n</SimpleData>
             <SimpleData name="Estado_del">Activo</SimpleData>
             <SimpleData name="Empresa">Unique Wood Paraguay SA</SimpleData>
             <SimpleData name="Lote">C</SimpleData>
-            <SimpleData name="Parametro">0.00000000000</SimpleData>
             <SimpleData name="X">-55.67672994000</SimpleData>
             <SimpleData name="Y">-25.52833345000</SimpleData>
-            <SimpleData name="Sup_SIG">0.76047432242</SimpleData>
+            <SimpleData name="Sup_SIG">0.76047432244</SimpleData>
             <SimpleData name="cedula">7992086</SimpleData>
           </SchemaData>
         </ExtendedData>
@@ -4065,14 +4000,14 @@
             <outerBoundaryIs>
               <LinearRing>
                 <coordinates>
-                  -55.6773797992738,-25.5290118004153,0
+                  -55.6773797992737,-25.5290118004153,0
                   -55.67748329956,-25.5285736004853,0
                   -55.6774499995849,-25.5283533002291,0
                   -55.6771866997225,-25.5282283003651,0
                   -55.6769849997266,-25.5279833003562,0
                   -55.6764733005726,-25.5282183007056,0
-                  -55.6767983001054,-25.528711700081,0
-                  -55.6773797992738,-25.5290118004153,0
+                  -55.6767983001053,-25.528711700081,0
+                  -55.6773797992737,-25.5290118004153,0
                 </coordinates>
               </LinearRing>
             </outerBoundaryIs>
@@ -4085,7 +4020,7 @@
                   -55.6755300002164,-25.5276417005914,0
                   -55.6754399997492,-25.5275450007034,0
                   -55.6752781998599,-25.5276349005175,0
-                  -55.6751110001764,-25.5274178005773,0
+                  -55.6751110001763,-25.5274178005773,0
                   -55.6749217000721,-25.5275166996253,0
                   -55.6751382995025,-25.5278466998819,0
                 </coordinates>
@@ -4102,6 +4037,7 @@
             <SimpleData name="Sexo">Mujer</SimpleData>
             <SimpleData name="Cambio_de_">NO</SimpleData>
             <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="Cédula_Ti">NO</SimpleData>
             <SimpleData name="ci_UNIF">7994109.00000000000</SimpleData>
             <SimpleData name="Situación">NO</SimpleData>
             <SimpleData name="Comunidad">Ind?gena</SimpleData>
@@ -4109,20 +4045,19 @@
             <SimpleData name="Departamen">CAAGUAZU</SimpleData>
             <SimpleData name="Distrito">REPATRIACION</SimpleData>
             <SimpleData name="Localidad">COM INDIG PINDO-I</SimpleData>
+            <SimpleData name="Localidad_"><![CDATA[PINDO'I CULANDRILLO]]></SimpleData>
             <SimpleData name="Teléfono">0976411800</SimpleData>
             <SimpleData name="Vivienda_L">-25.52637500000</SimpleData>
             <SimpleData name="Vivienda_1">-55.67436670000</SimpleData>
             <SimpleData name="Superficie">0.70000000000</SimpleData>
-            <SimpleData name="Situaci_1">Par?metro</SimpleData>
-            <SimpleData name="Plantado">SI</SimpleData>
-            <SimpleData name="Plantado_f">1899/12/30</SimpleData>
+            <SimpleData name="Fecha_Plan">2026/05/26</SimpleData>
             <SimpleData name="Jornales">0.00000000000</SimpleData>
             <SimpleData name="Monto">0.00000000000</SimpleData>
-            <SimpleData name="Grupo_de_p">C-GN</SimpleData>
+            <SimpleData name="Grupo_de_p">C-P4-XX-XX-XX</SimpleData>
+            <SimpleData name="ETAPA_FAO">Plantaci?n</SimpleData>
             <SimpleData name="Estado_del">Activo</SimpleData>
             <SimpleData name="Empresa">Unique Wood Paraguay SA</SimpleData>
             <SimpleData name="Lote">C</SimpleData>
-            <SimpleData name="Parametro">0.00000000000</SimpleData>
             <SimpleData name="X">-55.67389059000</SimpleData>
             <SimpleData name="Y">-25.52641693000</SimpleData>
             <SimpleData name="Sup_SIG">0.74259577854</SimpleData>
@@ -4135,10 +4070,10 @@
               <coordinates>
                 -55.674136700442,-25.5258817000096,0
                 -55.6738367002517,-25.5260783000338,0
-                -55.6736569008935,-25.5260283000389,0
+                -55.6736569008934,-25.5260283000389,0
                 -55.673328299432,-25.5261433003566,0
                 -55.6738817006226,-25.5271500000993,0
-                -55.6742036004433,-25.5267624994215,0
+                -55.6742036004433,-25.5267624994214,0
                 -55.6740216999288,-25.5265400005172,0
                 -55.6744683005316,-25.5261999993131,0
                 -55.674136700442,-25.5258817000096,0
@@ -4155,6 +4090,7 @@
             <SimpleData name="Sexo">Mujer</SimpleData>
             <SimpleData name="Cambio_de_">NO</SimpleData>
             <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="Cédula_Ti">NO</SimpleData>
             <SimpleData name="ci_UNIF">7996733.00000000000</SimpleData>
             <SimpleData name="Situación">NO</SimpleData>
             <SimpleData name="Comunidad">Ind?gena</SimpleData>
@@ -4162,20 +4098,19 @@
             <SimpleData name="Departamen">CAAGUAZU</SimpleData>
             <SimpleData name="Distrito">REPATRIACION</SimpleData>
             <SimpleData name="Localidad">COM INDIG PINDO-I</SimpleData>
+            <SimpleData name="Localidad_"><![CDATA[PINDO'I CULANDRILLO]]></SimpleData>
             <SimpleData name="Teléfono">ND</SimpleData>
             <SimpleData name="Vivienda_L">-25.54334670000</SimpleData>
             <SimpleData name="Vivienda_1">-55.66229500000</SimpleData>
             <SimpleData name="Superficie">0.70000000000</SimpleData>
-            <SimpleData name="Situaci_1">Par?metro</SimpleData>
-            <SimpleData name="Plantado">SI</SimpleData>
-            <SimpleData name="Plantado_f">1899/12/30</SimpleData>
+            <SimpleData name="Fecha_Plan">2026/05/26</SimpleData>
             <SimpleData name="Jornales">0.00000000000</SimpleData>
             <SimpleData name="Monto">0.00000000000</SimpleData>
-            <SimpleData name="Grupo_de_p">C-GN</SimpleData>
+            <SimpleData name="Grupo_de_p">C-P4-XX-XX-XX</SimpleData>
+            <SimpleData name="ETAPA_FAO">Plantaci?n</SimpleData>
             <SimpleData name="Estado_del">Activo</SimpleData>
             <SimpleData name="Empresa">Unique Wood Paraguay SA</SimpleData>
             <SimpleData name="Lote">C</SimpleData>
-            <SimpleData name="Parametro">0.00000000000</SimpleData>
             <SimpleData name="X">-55.66280605000</SimpleData>
             <SimpleData name="Y">-25.54306242000</SimpleData>
             <SimpleData name="Sup_SIG">0.75792888721</SimpleData>
@@ -4187,10 +4122,10 @@
             <LinearRing>
               <coordinates>
                 -55.6626167002763,-25.5438782994381,0
-                -55.662923699089,-25.5438869002868,0
-                -55.6627883005621,-25.5433399995849,0
+                -55.662923699089,-25.5438869002867,0
+                -55.662788300562,-25.5433399995849,0
                 -55.663264699776,-25.543266700695,0
-                -55.6631812998664,-25.5429549994442,0
+                -55.6631812998664,-25.5429549994441,0
                 -55.6629450002199,-25.542421699749,0
                 -55.6624733001427,-25.5424833003802,0
                 -55.6626167002763,-25.5438782994381,0
@@ -4207,6 +4142,7 @@
             <SimpleData name="Sexo">Hombre</SimpleData>
             <SimpleData name="Cambio_de_">NO</SimpleData>
             <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="Cédula_Ti">NO</SimpleData>
             <SimpleData name="ci_UNIF">7997456.00000000000</SimpleData>
             <SimpleData name="Situación">NO</SimpleData>
             <SimpleData name="Comunidad">Ind?gena</SimpleData>
@@ -4214,20 +4150,19 @@
             <SimpleData name="Departamen">CAAGUAZU</SimpleData>
             <SimpleData name="Distrito">REPATRIACION</SimpleData>
             <SimpleData name="Localidad">COM INDIG PINDO-I</SimpleData>
+            <SimpleData name="Localidad_"><![CDATA[PINDO'I CULANDRILLO]]></SimpleData>
             <SimpleData name="Teléfono">0983280405</SimpleData>
             <SimpleData name="Vivienda_L">-25.52836260000</SimpleData>
             <SimpleData name="Vivienda_1">-55.67590950000</SimpleData>
             <SimpleData name="Superficie">0.70000000000</SimpleData>
-            <SimpleData name="Situaci_1">Par?metro</SimpleData>
-            <SimpleData name="Plantado">SI</SimpleData>
-            <SimpleData name="Plantado_f">1899/12/30</SimpleData>
+            <SimpleData name="Fecha_Plan">2026/05/26</SimpleData>
             <SimpleData name="Jornales">0.00000000000</SimpleData>
             <SimpleData name="Monto">0.00000000000</SimpleData>
-            <SimpleData name="Grupo_de_p">C-GN</SimpleData>
+            <SimpleData name="Grupo_de_p">C-P4-XX-XX-XX</SimpleData>
+            <SimpleData name="ETAPA_FAO">Plantaci?n</SimpleData>
             <SimpleData name="Estado_del">Activo</SimpleData>
             <SimpleData name="Empresa">Unique Wood Paraguay SA</SimpleData>
             <SimpleData name="Lote">C</SimpleData>
-            <SimpleData name="Parametro">0.00000000000</SimpleData>
             <SimpleData name="X">-55.67564770000</SimpleData>
             <SimpleData name="Y">-25.52798519000</SimpleData>
             <SimpleData name="Sup_SIG">0.75353750449</SimpleData>
@@ -4259,6 +4194,7 @@
             <SimpleData name="Sexo">Mujer</SimpleData>
             <SimpleData name="Cambio_de_">NO</SimpleData>
             <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="Cédula_Ti">NO</SimpleData>
             <SimpleData name="ci_UNIF">7998661.00000000000</SimpleData>
             <SimpleData name="Situación">NO</SimpleData>
             <SimpleData name="Comunidad">Ind?gena</SimpleData>
@@ -4266,20 +4202,19 @@
             <SimpleData name="Departamen">CAAGUAZU</SimpleData>
             <SimpleData name="Distrito">REPATRIACION</SimpleData>
             <SimpleData name="Localidad">COM INDIG PINDO-I</SimpleData>
+            <SimpleData name="Localidad_"><![CDATA[PINDO'I CULANDRILLO]]></SimpleData>
             <SimpleData name="Teléfono">0976469304</SimpleData>
             <SimpleData name="Vivienda_L">-25.52176500000</SimpleData>
             <SimpleData name="Vivienda_1">-55.66966000000</SimpleData>
             <SimpleData name="Superficie">0.70000000000</SimpleData>
-            <SimpleData name="Situaci_1">Par?metro</SimpleData>
-            <SimpleData name="Plantado">SI</SimpleData>
-            <SimpleData name="Plantado_f">1899/12/30</SimpleData>
+            <SimpleData name="Fecha_Plan">2026/05/26</SimpleData>
             <SimpleData name="Jornales">0.00000000000</SimpleData>
             <SimpleData name="Monto">0.00000000000</SimpleData>
-            <SimpleData name="Grupo_de_p">C-GN</SimpleData>
+            <SimpleData name="Grupo_de_p">C-P4-XX-XX-XX</SimpleData>
+            <SimpleData name="ETAPA_FAO">Plantaci?n</SimpleData>
             <SimpleData name="Estado_del">Activo</SimpleData>
             <SimpleData name="Empresa">Unique Wood Paraguay SA</SimpleData>
             <SimpleData name="Lote">C</SimpleData>
-            <SimpleData name="Parametro">0.00000000000</SimpleData>
             <SimpleData name="X">-55.66896540000</SimpleData>
             <SimpleData name="Y">-25.52245238000</SimpleData>
             <SimpleData name="Sup_SIG">0.77334383961</SimpleData>
@@ -4296,10 +4231,10 @@
                 -55.6685778002996,-25.5230586999822,0
                 -55.6692799996529,-25.5227144998923,0
                 -55.6691967005651,-25.522569999491,0
-                -55.6698425999971,-25.5222153001238,0
+                -55.6698425999972,-25.5222153001238,0
                 -55.6697236997331,-25.5220546003785,0
                 -55.6692325998311,-25.5223321004223,0
-                -55.6689400002371,-25.5219452995968,0
+                -55.668940000237,-25.5219452995968,0
                 -55.6684082996626,-25.5222300005627,0
               </coordinates>
             </LinearRing>
@@ -4314,6 +4249,7 @@
             <SimpleData name="Sexo">Mujer</SimpleData>
             <SimpleData name="Cambio_de_">NO</SimpleData>
             <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="Cédula_Ti">NO</SimpleData>
             <SimpleData name="ci_UNIF">8009548.00000000000</SimpleData>
             <SimpleData name="Situación">NO</SimpleData>
             <SimpleData name="Comunidad">Ind?gena</SimpleData>
@@ -4321,23 +4257,22 @@
             <SimpleData name="Departamen">CAAGUAZU</SimpleData>
             <SimpleData name="Distrito">REPATRIACION</SimpleData>
             <SimpleData name="Localidad">COM INDIG PINDO-I</SimpleData>
+            <SimpleData name="Localidad_"><![CDATA[PINDO'I CULANDRILLO]]></SimpleData>
             <SimpleData name="Teléfono">ND</SimpleData>
             <SimpleData name="Vivienda_L">-25.52709140000</SimpleData>
             <SimpleData name="Vivienda_1">-55.67570710000</SimpleData>
             <SimpleData name="Superficie">0.70000000000</SimpleData>
-            <SimpleData name="Situaci_1">Par?metro</SimpleData>
-            <SimpleData name="Plantado">SI</SimpleData>
-            <SimpleData name="Plantado_f">1899/12/30</SimpleData>
+            <SimpleData name="Fecha_Plan">2026/05/26</SimpleData>
             <SimpleData name="Jornales">0.00000000000</SimpleData>
             <SimpleData name="Monto">0.00000000000</SimpleData>
-            <SimpleData name="Grupo_de_p">C-GN</SimpleData>
+            <SimpleData name="Grupo_de_p">C-P4-XX-XX-XX</SimpleData>
+            <SimpleData name="ETAPA_FAO">Plantaci?n</SimpleData>
             <SimpleData name="Estado_del">Activo</SimpleData>
             <SimpleData name="Empresa">Unique Wood Paraguay SA</SimpleData>
             <SimpleData name="Lote">C</SimpleData>
-            <SimpleData name="Parametro">0.00000000000</SimpleData>
             <SimpleData name="X">-55.67637648000</SimpleData>
             <SimpleData name="Y">-25.52708079000</SimpleData>
-            <SimpleData name="Sup_SIG">0.75263036750</SimpleData>
+            <SimpleData name="Sup_SIG">0.75263036749</SimpleData>
             <SimpleData name="cedula">8009548</SimpleData>
           </SchemaData>
         </ExtendedData>
@@ -4350,7 +4285,7 @@
                   -55.6767982996159,-25.5273549997868,0
                   -55.6763766999189,-25.5265950002299,0
                   -55.6759132998712,-25.5267933001023,0
-                  -55.6762435004241,-25.5272103999566,0
+                  -55.676243500424,-25.5272103999566,0
                   -55.6762384999821,-25.5273687997115,0
                   -55.6763832995702,-25.5275900001401,0
                 </coordinates>

@@ -15,21 +15,19 @@
       <SimpleField name="Departamen" type="string"/>
       <SimpleField name="Distrito" type="string"/>
       <SimpleField name="Localidad" type="string"/>
+      <SimpleField name="Localidad_" type="string"/>
       <SimpleField name="Teléfono" type="string"/>
       <SimpleField name="Vivienda_L" type="double"/>
       <SimpleField name="Vivienda_1" type="double"/>
       <SimpleField name="Superficie" type="double"/>
-      <SimpleField name="Situaci_1" type="string"/>
-      <SimpleField name="Plantado" type="string"/>
-      <SimpleField name="Plantado_f" type="string"/>
+      <SimpleField name="Fecha_Plan" type="string"/>
       <SimpleField name="Jornales" type="double"/>
       <SimpleField name="Monto" type="double"/>
       <SimpleField name="Grupo_de_p" type="string"/>
+      <SimpleField name="ETAPA_FAO" type="string"/>
       <SimpleField name="Estado_del" type="string"/>
       <SimpleField name="Empresa" type="string"/>
       <SimpleField name="Lote" type="string"/>
-      <SimpleField name="Parametro" type="double"/>
-      <SimpleField name="Situacion" type="string"/>
       <SimpleField name="X" type="double"/>
       <SimpleField name="Y" type="double"/>
       <SimpleField name="Sup_SIG" type="double"/>
@@ -40,52 +38,47 @@
       <Placemark id="Distrito_MBARACAYU.1">
         <ExtendedData>
           <SchemaData schemaUrl="#Distrito_MBARACAYU.schema">
-            <SimpleData name="Cédula">7815688.00000000000</SimpleData>
-            <SimpleData name="Nombres_y_">ANDRES ALFONSO ACOSTA</SimpleData>
+            <SimpleData name="Cédula">4117402.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">EZEQUIEL OVIEDO VILLALBA</SimpleData>
             <SimpleData name="Sexo">Hombre</SimpleData>
             <SimpleData name="Cambio_de_">NO</SimpleData>
             <SimpleData name="Titular_se">NO</SimpleData>
-            <SimpleData name="ci_UNIF">7815688.00000000000</SimpleData>
+            <SimpleData name="Cédula_Ti">NO</SimpleData>
+            <SimpleData name="ci_UNIF">4117402.00000000000</SimpleData>
             <SimpleData name="Situación">NO</SimpleData>
             <SimpleData name="Comunidad">Ind?gena</SimpleData>
-            <SimpleData name="Modelo_imp">Modelo 1</SimpleData>
+            <SimpleData name="Modelo_imp">Modelo 3</SimpleData>
             <SimpleData name="Departamen">ALTO PARANA</SimpleData>
             <SimpleData name="Distrito">MBARACAYU</SimpleData>
-            <SimpleData name="Localidad">COM INDIG KIRITO - GLEVA 10</SimpleData>
-            <SimpleData name="Teléfono">0981674721</SimpleData>
-            <SimpleData name="Vivienda_L">-25.07483480000</SimpleData>
-            <SimpleData name="Vivienda_1">-54.85241750000</SimpleData>
-            <SimpleData name="Superficie">0.80000000000</SimpleData>
-            <SimpleData name="Situaci_1">Pol?gono</SimpleData>
-            <SimpleData name="Plantado">SI</SimpleData>
-            <SimpleData name="Plantado_f">2025/11/07</SimpleData>
+            <SimpleData name="Localidad">COM INDIG KIRITO PINDO</SimpleData>
+            <SimpleData name="Localidad_">KIRITO- BARRIO PINDO</SimpleData>
+            <SimpleData name="Teléfono">0983681253</SimpleData>
+            <SimpleData name="Vivienda_L">-25.11149440000</SimpleData>
+            <SimpleData name="Vivienda_1">-54.81582650000</SimpleData>
+            <SimpleData name="Superficie">1.00000000000</SimpleData>
+            <SimpleData name="Fecha_Plan">2025/11/20</SimpleData>
             <SimpleData name="Jornales">0.00000000000</SimpleData>
             <SimpleData name="Monto">0.00000000000</SimpleData>
-            <SimpleData name="Grupo_de_p">F-P1</SimpleData>
+            <SimpleData name="Grupo_de_p">F-P1-XX-XX-XX</SimpleData>
+            <SimpleData name="ETAPA_FAO">Mantenimiento A?o 1.1</SimpleData>
             <SimpleData name="Estado_del">Activo</SimpleData>
             <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
             <SimpleData name="Lote">F</SimpleData>
-            <SimpleData name="Parametro">0.80000000000</SimpleData>
-            <SimpleData name="Situacion">Cumple</SimpleData>
-            <SimpleData name="X">-54.85147226000</SimpleData>
-            <SimpleData name="Y">-25.07520938000</SimpleData>
-            <SimpleData name="Sup_SIG">0.87274204475</SimpleData>
-            <SimpleData name="cedula">7815688</SimpleData>
+            <SimpleData name="X">-54.81398243000</SimpleData>
+            <SimpleData name="Y">-25.11229711000</SimpleData>
+            <SimpleData name="Sup_SIG">1.20719214605</SimpleData>
+            <SimpleData name="cedula">4117402</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Polygon>
           <outerBoundaryIs>
             <LinearRing>
               <coordinates>
-                -54.8519831578359,-25.0747611904616,0
-                -54.8511537364574,-25.0747269651263,0
-                -54.8511134005357,-25.0747253004189,0
-                -54.8510472997113,-25.0757712002313,0
-                -54.8516793998607,-25.0757514997639,0
-                -54.8518061998198,-25.0751185005412,0
-                -54.8519841998624,-25.0751400007436,0
-                -54.8520584992909,-25.0747643005047,0
-                -54.8519831578359,-25.0747611904616,0
+                -54.8135359007635,-25.1117518004595,0
+                -54.8136748996927,-25.1131367003679,0
+                -54.8145819000588,-25.1126694002747,0
+                -54.8140728995575,-25.1114207004226,0
+                -54.8135359007635,-25.1117518004595,0
               </coordinates>
             </LinearRing>
           </outerBoundaryIs>
@@ -94,730 +87,49 @@
       <Placemark id="Distrito_MBARACAYU.2">
         <ExtendedData>
           <SchemaData schemaUrl="#Distrito_MBARACAYU.schema">
-            <SimpleData name="Cédula">1500586.00000000000</SimpleData>
-            <SimpleData name="Nombres_y_">ALICIA ROJAS DE RIVERA</SimpleData>
+            <SimpleData name="Cédula">5155613.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">SANTA VIVIANA ROJAS PALACIOS</SimpleData>
             <SimpleData name="Sexo">Mujer</SimpleData>
             <SimpleData name="Cambio_de_">NO</SimpleData>
             <SimpleData name="Titular_se">NO</SimpleData>
-            <SimpleData name="ci_UNIF">1500586.00000000000</SimpleData>
-            <SimpleData name="Situación">NO</SimpleData>
-            <SimpleData name="Comunidad">Ind?gena</SimpleData>
-            <SimpleData name="Modelo_imp">Modelo 1</SimpleData>
-            <SimpleData name="Departamen">ALTO PARANA</SimpleData>
-            <SimpleData name="Distrito">MBARACAYU</SimpleData>
-            <SimpleData name="Localidad">COM INDIG KIRITO - GLEVA 10</SimpleData>
-            <SimpleData name="Teléfono">0984532542</SimpleData>
-            <SimpleData name="Vivienda_L">-25.07330850000</SimpleData>
-            <SimpleData name="Vivienda_1">-54.85257880000</SimpleData>
-            <SimpleData name="Superficie">0.80000000000</SimpleData>
-            <SimpleData name="Situaci_1">Pol?gono</SimpleData>
-            <SimpleData name="Plantado">SI</SimpleData>
-            <SimpleData name="Plantado_f">2025/11/26</SimpleData>
-            <SimpleData name="Jornales">0.00000000000</SimpleData>
-            <SimpleData name="Monto">0.00000000000</SimpleData>
-            <SimpleData name="Grupo_de_p">F-P2</SimpleData>
-            <SimpleData name="Estado_del">Activo</SimpleData>
-            <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
-            <SimpleData name="Lote">F</SimpleData>
-            <SimpleData name="Parametro">0.80000000000</SimpleData>
-            <SimpleData name="Situacion">Cumple</SimpleData>
-            <SimpleData name="X">-54.85368807000</SimpleData>
-            <SimpleData name="Y">-25.07322608000</SimpleData>
-            <SimpleData name="Sup_SIG">0.88798594533</SimpleData>
-            <SimpleData name="cedula">1500586</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Polygon>
-          <outerBoundaryIs>
-            <LinearRing>
-              <coordinates>
-                -54.8532597724863,-25.0730413597275,0
-                -54.8529987996113,-25.0736170005001,0
-                -54.8533112996521,-25.0735656003164,0
-                -54.8540747002863,-25.0736509996463,0
-                -54.8542520997685,-25.0731536996814,0
-                -54.8542252997177,-25.0730039003811,0
-                -54.8541769001079,-25.0728831000152,0
-                -54.8540826005329,-25.0728145001592,0
-                -54.8533821998424,-25.0727998998425,0
-                -54.8532597724863,-25.0730413597275,0
-              </coordinates>
-            </LinearRing>
-          </outerBoundaryIs>
-        </Polygon>
-      </Placemark>
-      <Placemark id="Distrito_MBARACAYU.3">
-        <ExtendedData>
-          <SchemaData schemaUrl="#Distrito_MBARACAYU.schema">
-            <SimpleData name="Cédula">6529991.00000000000</SimpleData>
-            <SimpleData name="Nombres_y_">DINA MAXIMA MEDINA BENITEZ</SimpleData>
-            <SimpleData name="Sexo">Mujer</SimpleData>
-            <SimpleData name="Cambio_de_">NO</SimpleData>
-            <SimpleData name="Titular_se">NO</SimpleData>
-            <SimpleData name="ci_UNIF">6529991.00000000000</SimpleData>
-            <SimpleData name="Situación">NO</SimpleData>
-            <SimpleData name="Comunidad">Ind?gena</SimpleData>
-            <SimpleData name="Modelo_imp">Modelo 5</SimpleData>
-            <SimpleData name="Departamen">ALTO PARANA</SimpleData>
-            <SimpleData name="Distrito">MBARACAYU</SimpleData>
-            <SimpleData name="Localidad"><![CDATA[COM INDIG KIRITO - HUGUA'I]]></SimpleData>
-            <SimpleData name="Teléfono">ND</SimpleData>
-            <SimpleData name="Vivienda_L">-25.08890700000</SimpleData>
-            <SimpleData name="Vivienda_1">-54.82902210000</SimpleData>
-            <SimpleData name="Superficie">0.70000000000</SimpleData>
-            <SimpleData name="Situaci_1">Pol?gono</SimpleData>
-            <SimpleData name="Plantado">SI</SimpleData>
-            <SimpleData name="Plantado_f">2025/10/24</SimpleData>
-            <SimpleData name="Jornales">0.00000000000</SimpleData>
-            <SimpleData name="Monto">0.00000000000</SimpleData>
-            <SimpleData name="Grupo_de_p">F-P1</SimpleData>
-            <SimpleData name="Estado_del">Activo</SimpleData>
-            <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
-            <SimpleData name="Lote">F</SimpleData>
-            <SimpleData name="Parametro">0.70000000000</SimpleData>
-            <SimpleData name="Situacion">Cumple</SimpleData>
-            <SimpleData name="X">-54.82989901000</SimpleData>
-            <SimpleData name="Y">-25.08896026000</SimpleData>
-            <SimpleData name="Sup_SIG">0.74127874169</SimpleData>
-            <SimpleData name="cedula">6529991</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <MultiGeometry>
-          <Polygon>
-            <outerBoundaryIs>
-              <LinearRing>
-                <coordinates>
-                  -54.829541699426,-25.0892682999584,0
-                  -54.8303334002059,-25.0891744006166,0
-                  -54.8303388995843,-25.0891358002891,0
-                  -54.830321999943,-25.0890800002659,0
-                  -54.8303227987687,-25.0890568004148,0
-                  -54.8303208994928,-25.0890250000657,0
-                  -54.8303067999737,-25.0889890999862,0
-                  -54.8302898000715,-25.0889599997955,0
-                  -54.8302682994129,-25.0889284010327,0
-                  -54.830255999329,-25.0888999003726,0
-                  -54.8302101999801,-25.0888504016066,0
-                  -54.8301866999619,-25.0888242005002,0
-                  -54.8301603994307,-25.0887938006694,0
-                  -54.8301355994222,-25.0887692008486,0
-                  -54.8300785988465,-25.0887250011892,0
-                  -54.830049898833,-25.0887038006593,0
-                  -54.8300154996096,-25.0886887010034,0
-                  -54.8299812001664,-25.0886748006572,0
-                  -54.8298577995773,-25.0886406005433,0
-                  -54.8297902991803,-25.0886165005906,0
-                  -54.8297130000719,-25.0886027003333,0
-                  -54.8296249997813,-25.0885981006238,0
-                  -54.829541699426,-25.0892682999584,0
-                </coordinates>
-              </LinearRing>
-            </outerBoundaryIs>
-          </Polygon>
-          <Polygon>
-            <outerBoundaryIs>
-              <LinearRing>
-                <coordinates>
-                  -54.8284038000018,-25.0893244003882,0
-                  -54.8286701999119,-25.0893167005903,0
-                  -54.8290319995358,-25.0884208007309,0
-                  -54.8287497000384,-25.0882978998023,0
-                  -54.8284038000018,-25.0893244003882,0
-                </coordinates>
-              </LinearRing>
-            </outerBoundaryIs>
-          </Polygon>
-        </MultiGeometry>
-      </Placemark>
-      <Placemark id="Distrito_MBARACAYU.4">
-        <ExtendedData>
-          <SchemaData schemaUrl="#Distrito_MBARACAYU.schema">
-            <SimpleData name="Cédula">4709511.00000000000</SimpleData>
-            <SimpleData name="Nombres_y_">ANTONIA MENDOZA BENITEZ</SimpleData>
-            <SimpleData name="Sexo">Mujer</SimpleData>
-            <SimpleData name="Cambio_de_">NO</SimpleData>
-            <SimpleData name="Titular_se">NO</SimpleData>
-            <SimpleData name="ci_UNIF">4709511.00000000000</SimpleData>
-            <SimpleData name="Situación">NO</SimpleData>
-            <SimpleData name="Comunidad">Ind?gena</SimpleData>
-            <SimpleData name="Modelo_imp">Modelo 2</SimpleData>
-            <SimpleData name="Departamen">ALTO PARANA</SimpleData>
-            <SimpleData name="Distrito">MBARACAYU</SimpleData>
-            <SimpleData name="Localidad">COM INDIG KIRITO PINDO</SimpleData>
-            <SimpleData name="Teléfono">ND</SimpleData>
-            <SimpleData name="Vivienda_L">-25.10201330000</SimpleData>
-            <SimpleData name="Vivienda_1">-54.82814670000</SimpleData>
-            <SimpleData name="Superficie">0.80000000000</SimpleData>
-            <SimpleData name="Situaci_1">Pol?gono</SimpleData>
-            <SimpleData name="Plantado">SI</SimpleData>
-            <SimpleData name="Plantado_f">2025/10/24</SimpleData>
-            <SimpleData name="Jornales">0.00000000000</SimpleData>
-            <SimpleData name="Monto">0.00000000000</SimpleData>
-            <SimpleData name="Grupo_de_p">F-P1</SimpleData>
-            <SimpleData name="Estado_del">Activo</SimpleData>
-            <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
-            <SimpleData name="Lote">F</SimpleData>
-            <SimpleData name="Parametro">0.80000000000</SimpleData>
-            <SimpleData name="Situacion">Cumple</SimpleData>
-            <SimpleData name="X">-54.82750687000</SimpleData>
-            <SimpleData name="Y">-25.09871959000</SimpleData>
-            <SimpleData name="Sup_SIG">0.93034731700</SimpleData>
-            <SimpleData name="cedula">4709511</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Polygon>
-          <outerBoundaryIs>
-            <LinearRing>
-              <coordinates>
-                -54.8269125002176,-25.0989802006092,0
-                -54.8274514998225,-25.0991220995768,0
-                -54.8276054997302,-25.0990402002398,0
-                -54.8279823005936,-25.099099599792,0
-                -54.8282582995246,-25.0985099994909,0
-                -54.8271100001381,-25.0982816993938,0
-                -54.8267983001247,-25.0988460000101,0
-                -54.8269125002176,-25.0989802006092,0
-              </coordinates>
-            </LinearRing>
-          </outerBoundaryIs>
-        </Polygon>
-      </Placemark>
-      <Placemark id="Distrito_MBARACAYU.5">
-        <ExtendedData>
-          <SchemaData schemaUrl="#Distrito_MBARACAYU.schema">
-            <SimpleData name="Cédula">2330260.00000000000</SimpleData>
-            <SimpleData name="Nombres_y_">ELVIRA ACOSTA OJEDA</SimpleData>
-            <SimpleData name="Sexo">Mujer</SimpleData>
-            <SimpleData name="Cambio_de_">NO</SimpleData>
-            <SimpleData name="Titular_se">NO</SimpleData>
-            <SimpleData name="ci_UNIF">2330260.00000000000</SimpleData>
-            <SimpleData name="Situación">NO</SimpleData>
-            <SimpleData name="Comunidad">Ind?gena</SimpleData>
-            <SimpleData name="Modelo_imp">Modelo 2</SimpleData>
-            <SimpleData name="Departamen">ALTO PARANA</SimpleData>
-            <SimpleData name="Distrito">MBARACAYU</SimpleData>
-            <SimpleData name="Localidad">COM INDIG KIRITO - GLEVA 10</SimpleData>
-            <SimpleData name="Teléfono">0985162419</SimpleData>
-            <SimpleData name="Vivienda_L">-25.07800670000</SimpleData>
-            <SimpleData name="Vivienda_1">-54.85077150000</SimpleData>
-            <SimpleData name="Superficie">0.80000000000</SimpleData>
-            <SimpleData name="Situaci_1">Pol?gono</SimpleData>
-            <SimpleData name="Plantado">SI</SimpleData>
-            <SimpleData name="Plantado_f">2025/11/07</SimpleData>
-            <SimpleData name="Jornales">0.00000000000</SimpleData>
-            <SimpleData name="Monto">0.00000000000</SimpleData>
-            <SimpleData name="Grupo_de_p">F-P1</SimpleData>
-            <SimpleData name="Estado_del">Activo</SimpleData>
-            <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
-            <SimpleData name="Lote">F</SimpleData>
-            <SimpleData name="Parametro">0.80000000000</SimpleData>
-            <SimpleData name="Situacion">Cumple</SimpleData>
-            <SimpleData name="X">-54.85359274000</SimpleData>
-            <SimpleData name="Y">-25.07883328000</SimpleData>
-            <SimpleData name="Sup_SIG">0.87369773082</SimpleData>
-            <SimpleData name="cedula">2330260</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Polygon>
-          <outerBoundaryIs>
-            <LinearRing>
-              <coordinates>
-                -54.8533644045295,-25.0781938639476,0
-                -54.8529301002272,-25.0786190996233,0
-                -54.8538821995214,-25.0795379003318,0
-                -54.8540961998997,-25.0793106996762,0
-                -54.8540319995085,-25.0792382995397,0
-                -54.8541289996375,-25.0788553999748,0
-                -54.8539631805224,-25.078707428004,0
-                -54.8533754998319,-25.0781829999263,0
-                -54.8533644045295,-25.0781938639476,0
-              </coordinates>
-            </LinearRing>
-          </outerBoundaryIs>
-        </Polygon>
-      </Placemark>
-      <Placemark id="Distrito_MBARACAYU.6">
-        <ExtendedData>
-          <SchemaData schemaUrl="#Distrito_MBARACAYU.schema">
-            <SimpleData name="Cédula">6534653.00000000000</SimpleData>
-            <SimpleData name="Nombres_y_">MIGUEL PEREIRA VELGARA</SimpleData>
-            <SimpleData name="Sexo">Hombre</SimpleData>
-            <SimpleData name="Cambio_de_">SI</SimpleData>
-            <SimpleData name="Titular_se">LORENA PEREIRA ACOSTA</SimpleData>
-            <SimpleData name="Cédula_Ti">7268734</SimpleData>
-            <SimpleData name="ci_UNIF">7268734.00000000000</SimpleData>
-            <SimpleData name="Situación">Migraci?n</SimpleData>
-            <SimpleData name="Comunidad">Ind?gena</SimpleData>
-            <SimpleData name="Modelo_imp">Modelo 5</SimpleData>
-            <SimpleData name="Departamen">ALTO PARANA</SimpleData>
-            <SimpleData name="Distrito">MBARACAYU</SimpleData>
-            <SimpleData name="Localidad"><![CDATA[COM INDIG KIRITO - HUGUA'I]]></SimpleData>
-            <SimpleData name="Teléfono">ND</SimpleData>
-            <SimpleData name="Vivienda_L">-25.09133860000</SimpleData>
-            <SimpleData name="Vivienda_1">-54.82001340000</SimpleData>
-            <SimpleData name="Superficie">0.70000000000</SimpleData>
-            <SimpleData name="Situaci_1">Pol?gono</SimpleData>
-            <SimpleData name="Plantado">SI</SimpleData>
-            <SimpleData name="Plantado_f">2025/11/18</SimpleData>
-            <SimpleData name="Jornales">0.00000000000</SimpleData>
-            <SimpleData name="Monto">0.00000000000</SimpleData>
-            <SimpleData name="Grupo_de_p">F-P1</SimpleData>
-            <SimpleData name="Estado_del">Activo</SimpleData>
-            <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
-            <SimpleData name="Lote">F</SimpleData>
-            <SimpleData name="Parametro">0.70000000000</SimpleData>
-            <SimpleData name="Situacion">Cumple</SimpleData>
-            <SimpleData name="X">-54.82036802000</SimpleData>
-            <SimpleData name="Y">-25.09063385000</SimpleData>
-            <SimpleData name="Sup_SIG">0.72520489490</SimpleData>
-            <SimpleData name="cedula">6534653</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Polygon>
-          <outerBoundaryIs>
-            <LinearRing>
-              <coordinates>
-                -54.8201829000402,-25.0910705005947,0
-                -54.8203359002274,-25.0911644000265,0
-                -54.8208843999138,-25.0908765000297,0
-                -54.8204493003725,-25.0900025007605,0
-                -54.8198447006004,-25.0905329994617,0
-                -54.8201829000402,-25.0910705005947,0
-              </coordinates>
-            </LinearRing>
-          </outerBoundaryIs>
-        </Polygon>
-      </Placemark>
-      <Placemark id="Distrito_MBARACAYU.7">
-        <ExtendedData>
-          <SchemaData schemaUrl="#Distrito_MBARACAYU.schema">
-            <SimpleData name="Cédula">5832397.00000000000</SimpleData>
-            <SimpleData name="Nombres_y_">LIDUVINA ALFONSO ALFONSO</SimpleData>
-            <SimpleData name="Sexo">Mujer</SimpleData>
-            <SimpleData name="Cambio_de_">NO</SimpleData>
-            <SimpleData name="Titular_se">NO</SimpleData>
-            <SimpleData name="ci_UNIF">5832397.00000000000</SimpleData>
-            <SimpleData name="Situación">NO</SimpleData>
-            <SimpleData name="Comunidad">Ind?gena</SimpleData>
-            <SimpleData name="Modelo_imp">Modelo 1</SimpleData>
-            <SimpleData name="Departamen">ALTO PARANA</SimpleData>
-            <SimpleData name="Distrito">MBARACAYU</SimpleData>
-            <SimpleData name="Localidad">COM INDIG KIRITO - GLEVA 10</SimpleData>
-            <SimpleData name="Teléfono">0982041464</SimpleData>
-            <SimpleData name="Vivienda_L">-25.07827670000</SimpleData>
-            <SimpleData name="Vivienda_1">-54.85116520000</SimpleData>
-            <SimpleData name="Superficie">0.80000000000</SimpleData>
-            <SimpleData name="Situaci_1">Pol?gono</SimpleData>
-            <SimpleData name="Plantado">SI</SimpleData>
-            <SimpleData name="Plantado_f">2025/11/07</SimpleData>
-            <SimpleData name="Jornales">0.00000000000</SimpleData>
-            <SimpleData name="Monto">0.00000000000</SimpleData>
-            <SimpleData name="Grupo_de_p">F-P1</SimpleData>
-            <SimpleData name="Estado_del">Activo</SimpleData>
-            <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
-            <SimpleData name="Lote">F</SimpleData>
-            <SimpleData name="Parametro">0.80000000000</SimpleData>
-            <SimpleData name="Situacion">Cumple</SimpleData>
-            <SimpleData name="X">-54.85400935000</SimpleData>
-            <SimpleData name="Y">-25.07816400000</SimpleData>
-            <SimpleData name="Sup_SIG">0.93704751045</SimpleData>
-            <SimpleData name="cedula">5832397</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Polygon>
-          <outerBoundaryIs>
-            <LinearRing>
-              <coordinates>
-                -54.8533644045295,-25.0781938639476,0
-                -54.8533754998319,-25.0781829999263,0
-                -54.8539631805224,-25.078707428004,0
-                -54.854117400212,-25.0788396995878,0
-                -54.8546285003739,-25.0780617997698,0
-                -54.8544173996637,-25.0778692999969,0
-                -54.8543596005094,-25.0778994002155,0
-                -54.8539442996656,-25.0775140003278,0
-                -54.8533570998909,-25.0781876000961,0
-                -54.8533644045295,-25.0781938639476,0
-              </coordinates>
-            </LinearRing>
-          </outerBoundaryIs>
-        </Polygon>
-      </Placemark>
-      <Placemark id="Distrito_MBARACAYU.8">
-        <ExtendedData>
-          <SchemaData schemaUrl="#Distrito_MBARACAYU.schema">
-            <SimpleData name="Cédula">6909435.00000000000</SimpleData>
-            <SimpleData name="Nombres_y_">FATIMA PEREIRA ACOSTA</SimpleData>
-            <SimpleData name="Sexo">Mujer</SimpleData>
-            <SimpleData name="Cambio_de_">NO</SimpleData>
-            <SimpleData name="Titular_se">NO</SimpleData>
-            <SimpleData name="ci_UNIF">6909435.00000000000</SimpleData>
-            <SimpleData name="Situación">NO</SimpleData>
-            <SimpleData name="Comunidad">Ind?gena</SimpleData>
-            <SimpleData name="Modelo_imp">Modelo 1</SimpleData>
-            <SimpleData name="Departamen">ALTO PARANA</SimpleData>
-            <SimpleData name="Distrito">MBARACAYU</SimpleData>
-            <SimpleData name="Localidad"><![CDATA[COM INDIG KIRITO - HUGUA'I]]></SimpleData>
-            <SimpleData name="Teléfono">ND</SimpleData>
-            <SimpleData name="Vivienda_L">-25.09327960000</SimpleData>
-            <SimpleData name="Vivienda_1">-54.81879940000</SimpleData>
-            <SimpleData name="Superficie">0.80000000000</SimpleData>
-            <SimpleData name="Situaci_1">Pol?gono</SimpleData>
-            <SimpleData name="Plantado">SI</SimpleData>
-            <SimpleData name="Plantado_f">2025/11/18</SimpleData>
-            <SimpleData name="Jornales">0.00000000000</SimpleData>
-            <SimpleData name="Monto">0.00000000000</SimpleData>
-            <SimpleData name="Grupo_de_p">F-P1</SimpleData>
-            <SimpleData name="Estado_del">Activo</SimpleData>
-            <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
-            <SimpleData name="Lote">F</SimpleData>
-            <SimpleData name="Parametro">0.80000000000</SimpleData>
-            <SimpleData name="Situacion">Cumple</SimpleData>
-            <SimpleData name="X">-54.81840410000</SimpleData>
-            <SimpleData name="Y">-25.09257698000</SimpleData>
-            <SimpleData name="Sup_SIG">0.86010673284</SimpleData>
-            <SimpleData name="cedula">6909435</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Polygon>
-          <outerBoundaryIs>
-            <LinearRing>
-              <coordinates>
-                -54.8177038006052,-25.0924863000349,0
-                -54.8185997998339,-25.0931486000319,0
-                -54.819096399748,-25.0927226992406,0
-                -54.8182510998706,-25.091984399933,0
-                -54.8177038006052,-25.0924863000349,0
-              </coordinates>
-            </LinearRing>
-          </outerBoundaryIs>
-        </Polygon>
-      </Placemark>
-      <Placemark id="Distrito_MBARACAYU.9">
-        <ExtendedData>
-          <SchemaData schemaUrl="#Distrito_MBARACAYU.schema">
-            <SimpleData name="Cédula">7254831.00000000000</SimpleData>
-            <SimpleData name="Nombres_y_">MARIA CAMBILA MACIEL DENIS</SimpleData>
-            <SimpleData name="Sexo">Mujer</SimpleData>
-            <SimpleData name="Cambio_de_">NO</SimpleData>
-            <SimpleData name="Titular_se">NO</SimpleData>
-            <SimpleData name="ci_UNIF">7254831.00000000000</SimpleData>
-            <SimpleData name="Situación">NO</SimpleData>
-            <SimpleData name="Comunidad">Ind?gena</SimpleData>
-            <SimpleData name="Modelo_imp">Modelo 5</SimpleData>
-            <SimpleData name="Departamen">ALTO PARANA</SimpleData>
-            <SimpleData name="Distrito">MBARACAYU</SimpleData>
-            <SimpleData name="Localidad"><![CDATA[COM INDIG KIRITO - HUGUA'I]]></SimpleData>
-            <SimpleData name="Teléfono">0983345944</SimpleData>
-            <SimpleData name="Vivienda_L">-25.09579960000</SimpleData>
-            <SimpleData name="Vivienda_1">-54.81966730000</SimpleData>
-            <SimpleData name="Superficie">0.70000000000</SimpleData>
-            <SimpleData name="Situaci_1">Pol?gono</SimpleData>
-            <SimpleData name="Plantado">SI</SimpleData>
-            <SimpleData name="Plantado_f">2025/11/18</SimpleData>
-            <SimpleData name="Jornales">0.00000000000</SimpleData>
-            <SimpleData name="Monto">0.00000000000</SimpleData>
-            <SimpleData name="Grupo_de_p">F-P1</SimpleData>
-            <SimpleData name="Estado_del">Activo</SimpleData>
-            <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
-            <SimpleData name="Lote">F</SimpleData>
-            <SimpleData name="Parametro">0.70000000000</SimpleData>
-            <SimpleData name="Situacion">Cumple</SimpleData>
-            <SimpleData name="X">-54.81924258000</SimpleData>
-            <SimpleData name="Y">-25.09522847000</SimpleData>
-            <SimpleData name="Sup_SIG">0.74761267423</SimpleData>
-            <SimpleData name="cedula">7254831</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Polygon>
-          <outerBoundaryIs>
-            <LinearRing>
-              <coordinates>
-                -54.818789200628,-25.0947607002724,0
-                -54.8191149003087,-25.0958317001473,0
-                -54.8197706993013,-25.0956249998322,0
-                -54.8192396006054,-25.094578699886,0
-                -54.818789200628,-25.0947607002724,0
-              </coordinates>
-            </LinearRing>
-          </outerBoundaryIs>
-        </Polygon>
-      </Placemark>
-      <Placemark id="Distrito_MBARACAYU.10">
-        <ExtendedData>
-          <SchemaData schemaUrl="#Distrito_MBARACAYU.schema">
-            <SimpleData name="Cédula">2330244.00000000000</SimpleData>
-            <SimpleData name="Nombres_y_">MARCELINA ACOSTA GONZALEZ</SimpleData>
-            <SimpleData name="Sexo">Mujer</SimpleData>
-            <SimpleData name="Cambio_de_">NO</SimpleData>
-            <SimpleData name="Titular_se">NO</SimpleData>
-            <SimpleData name="ci_UNIF">2330244.00000000000</SimpleData>
-            <SimpleData name="Situación">NO</SimpleData>
-            <SimpleData name="Comunidad">Ind?gena</SimpleData>
-            <SimpleData name="Modelo_imp">Modelo 2</SimpleData>
-            <SimpleData name="Departamen">ALTO PARANA</SimpleData>
-            <SimpleData name="Distrito">MBARACAYU</SimpleData>
-            <SimpleData name="Localidad">COM INDIG KIRITO - GLEVA 10</SimpleData>
-            <SimpleData name="Teléfono">09849974928</SimpleData>
-            <SimpleData name="Vivienda_L">-25.07445300000</SimpleData>
-            <SimpleData name="Vivienda_1">-54.85248190000</SimpleData>
-            <SimpleData name="Superficie">0.80000000000</SimpleData>
-            <SimpleData name="Situaci_1">Pol?gono</SimpleData>
-            <SimpleData name="Plantado">SI</SimpleData>
-            <SimpleData name="Plantado_f">2025/11/07</SimpleData>
-            <SimpleData name="Jornales">0.00000000000</SimpleData>
-            <SimpleData name="Monto">0.00000000000</SimpleData>
-            <SimpleData name="Grupo_de_p">F-P1</SimpleData>
-            <SimpleData name="Estado_del">Activo</SimpleData>
-            <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
-            <SimpleData name="Lote">F</SimpleData>
-            <SimpleData name="Parametro">0.80000000000</SimpleData>
-            <SimpleData name="Situacion">Cumple</SimpleData>
-            <SimpleData name="X">-54.85161970000</SimpleData>
-            <SimpleData name="Y">-25.07428315000</SimpleData>
-            <SimpleData name="Sup_SIG">0.86342417504</SimpleData>
-            <SimpleData name="cedula">2330244</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Polygon>
-          <outerBoundaryIs>
-            <LinearRing>
-              <coordinates>
-                -54.8511537364574,-25.0747269651263,0
-                -54.8519831578359,-25.0747611904616,0
-                -54.852084500007,-25.0738011005089,0
-                -54.8512318000793,-25.0738490999334,0
-                -54.8511537364574,-25.0747269651263,0
-              </coordinates>
-            </LinearRing>
-          </outerBoundaryIs>
-        </Polygon>
-      </Placemark>
-      <Placemark id="Distrito_MBARACAYU.11">
-        <ExtendedData>
-          <SchemaData schemaUrl="#Distrito_MBARACAYU.schema">
-            <SimpleData name="Cédula">5086424.00000000000</SimpleData>
-            <SimpleData name="Nombres_y_">MARIA LOURDES PALACIO MOREIRA</SimpleData>
-            <SimpleData name="Sexo">Mujer</SimpleData>
-            <SimpleData name="Cambio_de_">NO</SimpleData>
-            <SimpleData name="Titular_se">NO</SimpleData>
-            <SimpleData name="ci_UNIF">5086424.00000000000</SimpleData>
-            <SimpleData name="Situación">NO</SimpleData>
-            <SimpleData name="Comunidad">Ind?gena</SimpleData>
-            <SimpleData name="Modelo_imp">Modelo 2</SimpleData>
-            <SimpleData name="Departamen">ALTO PARANA</SimpleData>
-            <SimpleData name="Distrito">MBARACAYU</SimpleData>
-            <SimpleData name="Localidad"><![CDATA[COM INDIG KIRITO - HUGUA'I]]></SimpleData>
-            <SimpleData name="Teléfono">ND</SimpleData>
-            <SimpleData name="Vivienda_L">-25.09004740000</SimpleData>
-            <SimpleData name="Vivienda_1">-54.82992180000</SimpleData>
-            <SimpleData name="Superficie">0.80000000000</SimpleData>
-            <SimpleData name="Situaci_1">Pol?gono</SimpleData>
-            <SimpleData name="Plantado">SI</SimpleData>
-            <SimpleData name="Plantado_f">2025/10/24</SimpleData>
-            <SimpleData name="Jornales">0.00000000000</SimpleData>
-            <SimpleData name="Monto">0.00000000000</SimpleData>
-            <SimpleData name="Grupo_de_p">F-P1</SimpleData>
-            <SimpleData name="Estado_del">Activo</SimpleData>
-            <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
-            <SimpleData name="Lote">F</SimpleData>
-            <SimpleData name="Parametro">0.80000000000</SimpleData>
-            <SimpleData name="Situacion">Cumple</SimpleData>
-            <SimpleData name="X">-54.83080989000</SimpleData>
-            <SimpleData name="Y">-25.09007068000</SimpleData>
-            <SimpleData name="Sup_SIG">0.87830953810</SimpleData>
-            <SimpleData name="cedula">5086424</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Polygon>
-          <outerBoundaryIs>
-            <LinearRing>
-              <coordinates>
-                -54.8304707997494,-25.0894050001525,0
-                -54.8303541007073,-25.0904651001963,0
-                -54.8310818996486,-25.090653200507,0
-                -54.831163799706,-25.09063850026,0
-                -54.8313036994897,-25.0905163002249,0
-                -54.8313156991651,-25.0903857999648,0
-                -54.8308724002486,-25.0902823002247,0
-                -54.8308542997416,-25.0902481993844,0
-                -54.8308583002465,-25.0901729002805,0
-                -54.8308842006619,-25.0900995002784,0
-                -54.8309442006434,-25.0900395001229,0
-                -54.8310499004415,-25.09003349961,0
-                -54.8311247994189,-25.0900443999138,0
-                -54.8312000002586,-25.0900768001414,0
-                -54.8312304000074,-25.0900990002245,0
-                -54.831259800768,-25.0901706002662,0
-                -54.8312908994908,-25.0901924007427,0
-                -54.8313534005027,-25.0902094004908,0
-                -54.8313638997364,-25.089889600464,0
-                -54.8310823006971,-25.0896813997468,0
-                -54.8304707997494,-25.0894050001525,0
-              </coordinates>
-            </LinearRing>
-          </outerBoundaryIs>
-        </Polygon>
-      </Placemark>
-      <Placemark id="Distrito_MBARACAYU.12">
-        <ExtendedData>
-          <SchemaData schemaUrl="#Distrito_MBARACAYU.schema">
-            <SimpleData name="Cédula">7822363.00000000000</SimpleData>
-            <SimpleData name="Nombres_y_">JULIANA ROMAN</SimpleData>
-            <SimpleData name="Sexo">Mujer</SimpleData>
-            <SimpleData name="Cambio_de_">NO</SimpleData>
-            <SimpleData name="Titular_se">NO</SimpleData>
-            <SimpleData name="ci_UNIF">7822363.00000000000</SimpleData>
+            <SimpleData name="Cédula_Ti">NO</SimpleData>
+            <SimpleData name="ci_UNIF">5155613.00000000000</SimpleData>
             <SimpleData name="Situación">NO</SimpleData>
             <SimpleData name="Comunidad">Ind?gena</SimpleData>
             <SimpleData name="Modelo_imp">Modelo 5</SimpleData>
             <SimpleData name="Departamen">ALTO PARANA</SimpleData>
             <SimpleData name="Distrito">MBARACAYU</SimpleData>
             <SimpleData name="Localidad">COM INDIG KIRITO PINDO</SimpleData>
+            <SimpleData name="Localidad_">KIRITO- BARRIO PINDO</SimpleData>
             <SimpleData name="Teléfono">ND</SimpleData>
-            <SimpleData name="Vivienda_L">-25.10039920000</SimpleData>
-            <SimpleData name="Vivienda_1">-54.82657900000</SimpleData>
+            <SimpleData name="Vivienda_L">-25.10615370000</SimpleData>
+            <SimpleData name="Vivienda_1">-54.82481510000</SimpleData>
             <SimpleData name="Superficie">0.70000000000</SimpleData>
-            <SimpleData name="Situaci_1">Pol?gono</SimpleData>
-            <SimpleData name="Plantado">SI</SimpleData>
-            <SimpleData name="Plantado_f">2025/10/24</SimpleData>
+            <SimpleData name="Fecha_Plan">2025/10/24</SimpleData>
             <SimpleData name="Jornales">0.00000000000</SimpleData>
             <SimpleData name="Monto">0.00000000000</SimpleData>
-            <SimpleData name="Grupo_de_p">F-P1</SimpleData>
+            <SimpleData name="Grupo_de_p">F-P1-XX-XX-XX</SimpleData>
+            <SimpleData name="ETAPA_FAO">Mantenimiento A?o 1.1</SimpleData>
             <SimpleData name="Estado_del">Activo</SimpleData>
             <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
             <SimpleData name="Lote">F</SimpleData>
-            <SimpleData name="Parametro">0.70000000000</SimpleData>
-            <SimpleData name="Situacion">Cumple</SimpleData>
-            <SimpleData name="X">-54.82583926000</SimpleData>
-            <SimpleData name="Y">-25.09910036000</SimpleData>
-            <SimpleData name="Sup_SIG">0.84548944692</SimpleData>
-            <SimpleData name="cedula">7822363</SimpleData>
+            <SimpleData name="X">-54.82424501000</SimpleData>
+            <SimpleData name="Y">-25.10479461000</SimpleData>
+            <SimpleData name="Sup_SIG">0.70804194869</SimpleData>
+            <SimpleData name="cedula">5155613</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Polygon>
           <outerBoundaryIs>
             <LinearRing>
               <coordinates>
-                -54.8252441007031,-25.0993576994645,0
-                -54.8253859999541,-25.0994129999856,0
-                -54.8256172997885,-25.0994987996219,0
-                -54.8257770002228,-25.099449700742,0
-                -54.8258832997025,-25.0994166996108,0
-                -54.8259270000278,-25.0993754001885,0
-                -54.8264127998586,-25.0994476999468,0
-                -54.8264446996182,-25.0994278004727,0
-                -54.8263771004267,-25.0987818999115,0
-                -54.8253378994457,-25.0987284996632,0
-                -54.8252441007031,-25.0993576994645,0
-              </coordinates>
-            </LinearRing>
-          </outerBoundaryIs>
-        </Polygon>
-      </Placemark>
-      <Placemark id="Distrito_MBARACAYU.13">
-        <ExtendedData>
-          <SchemaData schemaUrl="#Distrito_MBARACAYU.schema">
-            <SimpleData name="Cédula">5233240.00000000000</SimpleData>
-            <SimpleData name="Nombres_y_">HERMELINDA LOPEZ VILLALBA</SimpleData>
-            <SimpleData name="Sexo">Mujer</SimpleData>
-            <SimpleData name="Cambio_de_">NO</SimpleData>
-            <SimpleData name="Titular_se">NO</SimpleData>
-            <SimpleData name="ci_UNIF">5233240.00000000000</SimpleData>
-            <SimpleData name="Situación">NO</SimpleData>
-            <SimpleData name="Comunidad">Ind?gena</SimpleData>
-            <SimpleData name="Modelo_imp">Modelo 5</SimpleData>
-            <SimpleData name="Departamen">ALTO PARANA</SimpleData>
-            <SimpleData name="Distrito">MBARACAYU</SimpleData>
-            <SimpleData name="Localidad">COM INDIG KIRITO - GLEVA 10</SimpleData>
-            <SimpleData name="Teléfono">0983427969</SimpleData>
-            <SimpleData name="Vivienda_L">-25.08421900000</SimpleData>
-            <SimpleData name="Vivienda_1">-54.84789700000</SimpleData>
-            <SimpleData name="Superficie">0.70000000000</SimpleData>
-            <SimpleData name="Situaci_1">Pol?gono</SimpleData>
-            <SimpleData name="Plantado">SI</SimpleData>
-            <SimpleData name="Plantado_f">2025/11/07</SimpleData>
-            <SimpleData name="Jornales">0.00000000000</SimpleData>
-            <SimpleData name="Monto">0.00000000000</SimpleData>
-            <SimpleData name="Grupo_de_p">F-P1</SimpleData>
-            <SimpleData name="Estado_del">Activo</SimpleData>
-            <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
-            <SimpleData name="Lote">F</SimpleData>
-            <SimpleData name="Parametro">0.70000000000</SimpleData>
-            <SimpleData name="Situacion">Cumple</SimpleData>
-            <SimpleData name="X">-54.84849691000</SimpleData>
-            <SimpleData name="Y">-25.08391015000</SimpleData>
-            <SimpleData name="Sup_SIG">0.80844963005</SimpleData>
-            <SimpleData name="cedula">5233240</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Polygon>
-          <outerBoundaryIs>
-            <LinearRing>
-              <coordinates>
-                -54.8478394002376,-25.083962200559,0
-                -54.8482656996057,-25.0842923997496,0
-                -54.8483787997564,-25.0842239998929,0
-                -54.848601000454,-25.0844302005054,0
-                -54.8491620999789,-25.0839319998249,0
-                -54.8484380996093,-25.0833506000039,0
-                -54.8478394002376,-25.083962200559,0
-              </coordinates>
-            </LinearRing>
-          </outerBoundaryIs>
-        </Polygon>
-      </Placemark>
-      <Placemark id="Distrito_MBARACAYU.14">
-        <ExtendedData>
-          <SchemaData schemaUrl="#Distrito_MBARACAYU.schema">
-            <SimpleData name="Cédula">5109570.00000000000</SimpleData>
-            <SimpleData name="Nombres_y_">LUCIANA MERELES SCHIEFELBEIN</SimpleData>
-            <SimpleData name="Sexo">Mujer</SimpleData>
-            <SimpleData name="Cambio_de_">NO</SimpleData>
-            <SimpleData name="Titular_se">NO</SimpleData>
-            <SimpleData name="ci_UNIF">5109570.00000000000</SimpleData>
-            <SimpleData name="Situación">NO</SimpleData>
-            <SimpleData name="Comunidad">Ind?gena</SimpleData>
-            <SimpleData name="Modelo_imp">Modelo 5</SimpleData>
-            <SimpleData name="Departamen">ALTO PARANA</SimpleData>
-            <SimpleData name="Distrito">MBARACAYU</SimpleData>
-            <SimpleData name="Localidad"><![CDATA[COM INDIG KIRITO - HUGUA'I]]></SimpleData>
-            <SimpleData name="Teléfono">0985927900</SimpleData>
-            <SimpleData name="Vivienda_L">-25.07819000000</SimpleData>
-            <SimpleData name="Vivienda_1">-54.83616940000</SimpleData>
-            <SimpleData name="Superficie">0.70000000000</SimpleData>
-            <SimpleData name="Situaci_1">Pol?gono</SimpleData>
-            <SimpleData name="Plantado">SI</SimpleData>
-            <SimpleData name="Plantado_f">2025/10/24</SimpleData>
-            <SimpleData name="Jornales">0.00000000000</SimpleData>
-            <SimpleData name="Monto">0.00000000000</SimpleData>
-            <SimpleData name="Grupo_de_p">F-P1</SimpleData>
-            <SimpleData name="Estado_del">Activo</SimpleData>
-            <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
-            <SimpleData name="Lote">F</SimpleData>
-            <SimpleData name="Parametro">0.70000000000</SimpleData>
-            <SimpleData name="Situacion">Cumple</SimpleData>
-            <SimpleData name="X">-54.83603804000</SimpleData>
-            <SimpleData name="Y">-25.07692896000</SimpleData>
-            <SimpleData name="Sup_SIG">0.84768232467</SimpleData>
-            <SimpleData name="cedula">5109570</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Polygon>
-          <outerBoundaryIs>
-            <LinearRing>
-              <coordinates>
-                -54.8354813995723,-25.076473200574,0
-                -54.8362399998944,-25.0777300004787,0
-                -54.8366650006006,-25.0774317003463,0
-                -54.8357550000668,-25.0760899999728,0
-                -54.8355483006942,-25.076251399544,0
-                -54.8355303002321,-25.0762751997917,0
-                -54.8355080000202,-25.0763353001372,0
-                -54.8355000006189,-25.0763664000592,0
-                -54.8354831001527,-25.0764030001618,0
-                -54.8354839003569,-25.0764381993704,0
-                -54.8354813995723,-25.076473200574,0
+                -54.8234724002479,-25.1050497001229,0
+                -54.8239583003065,-25.1053666999673,0
+                -54.8242776001777,-25.1051501000285,0
+                -54.8242296002039,-25.1050643001637,0
+                -54.8250171994962,-25.10439470048,0
+                -54.824808000297,-25.1041741995169,0
+                -54.8234724002479,-25.1050497001229,0
               </coordinates>
             </LinearRing>
           </outerBoundaryIs>

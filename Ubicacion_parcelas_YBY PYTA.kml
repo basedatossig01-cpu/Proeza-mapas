@@ -15,21 +15,19 @@
       <SimpleField name="Departamen" type="string"/>
       <SimpleField name="Distrito" type="string"/>
       <SimpleField name="Localidad" type="string"/>
+      <SimpleField name="Localidad_" type="string"/>
       <SimpleField name="Teléfono" type="string"/>
       <SimpleField name="Vivienda_L" type="double"/>
       <SimpleField name="Vivienda_1" type="double"/>
       <SimpleField name="Superficie" type="double"/>
-      <SimpleField name="Situaci_1" type="string"/>
-      <SimpleField name="Plantado" type="string"/>
-      <SimpleField name="Plantado_f" type="string"/>
+      <SimpleField name="Fecha_Plan" type="string"/>
       <SimpleField name="Jornales" type="double"/>
       <SimpleField name="Monto" type="double"/>
       <SimpleField name="Grupo_de_p" type="string"/>
+      <SimpleField name="ETAPA_FAO" type="string"/>
       <SimpleField name="Estado_del" type="string"/>
       <SimpleField name="Empresa" type="string"/>
       <SimpleField name="Lote" type="string"/>
-      <SimpleField name="Parametro" type="double"/>
-      <SimpleField name="Situacion" type="string"/>
       <SimpleField name="X" type="double"/>
       <SimpleField name="Y" type="double"/>
       <SimpleField name="Sup_SIG" type="double"/>
@@ -45,6 +43,7 @@
             <SimpleData name="Sexo">Mujer</SimpleData>
             <SimpleData name="Cambio_de_">NO</SimpleData>
             <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="Cédula_Ti">NO</SimpleData>
             <SimpleData name="ci_UNIF">7027241.00000000000</SimpleData>
             <SimpleData name="Situación">NO</SimpleData>
             <SimpleData name="Comunidad">Campesina</SimpleData>
@@ -52,21 +51,19 @@
             <SimpleData name="Departamen">CANINDEYU</SimpleData>
             <SimpleData name="Distrito">YBY PYTA</SimpleData>
             <SimpleData name="Localidad">GUYRA KEHA - SAN JOSE</SimpleData>
+            <SimpleData name="Localidad_">GUYRA KEHA - SAN JOSE</SimpleData>
             <SimpleData name="Teléfono">983203683</SimpleData>
             <SimpleData name="Vivienda_L">-24.20712500000</SimpleData>
             <SimpleData name="Vivienda_1">-55.30502330000</SimpleData>
             <SimpleData name="Superficie">0.70000000000</SimpleData>
-            <SimpleData name="Situaci_1">Pol?gono</SimpleData>
-            <SimpleData name="Plantado">SI</SimpleData>
-            <SimpleData name="Plantado_f">2025/10/15</SimpleData>
+            <SimpleData name="Fecha_Plan">2025/10/15</SimpleData>
             <SimpleData name="Jornales">0.00000000000</SimpleData>
             <SimpleData name="Monto">0.00000000000</SimpleData>
-            <SimpleData name="Grupo_de_p">G-P1</SimpleData>
+            <SimpleData name="Grupo_de_p">G-P1-XX-XX-XX</SimpleData>
+            <SimpleData name="ETAPA_FAO">Mantenimiento A?o 1.1</SimpleData>
             <SimpleData name="Estado_del">Activo</SimpleData>
             <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
             <SimpleData name="Lote">G</SimpleData>
-            <SimpleData name="Parametro">0.70000000000</SimpleData>
-            <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.28897663000</SimpleData>
             <SimpleData name="Y">-24.21927300000</SimpleData>
             <SimpleData name="Sup_SIG">0.71343783385</SimpleData>

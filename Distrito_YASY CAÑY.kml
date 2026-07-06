@@ -15,21 +15,19 @@
       <SimpleField name="Departamen" type="string"/>
       <SimpleField name="Distrito" type="string"/>
       <SimpleField name="Localidad" type="string"/>
+      <SimpleField name="Localidad_" type="string"/>
       <SimpleField name="Teléfono" type="string"/>
       <SimpleField name="Vivienda_L" type="double"/>
       <SimpleField name="Vivienda_1" type="double"/>
       <SimpleField name="Superficie" type="double"/>
-      <SimpleField name="Situaci_1" type="string"/>
-      <SimpleField name="Plantado" type="string"/>
-      <SimpleField name="Plantado_f" type="string"/>
+      <SimpleField name="Fecha_Plan" type="string"/>
       <SimpleField name="Jornales" type="double"/>
       <SimpleField name="Monto" type="double"/>
       <SimpleField name="Grupo_de_p" type="string"/>
+      <SimpleField name="ETAPA_FAO" type="string"/>
       <SimpleField name="Estado_del" type="string"/>
       <SimpleField name="Empresa" type="string"/>
       <SimpleField name="Lote" type="string"/>
-      <SimpleField name="Parametro" type="double"/>
-      <SimpleField name="Situacion" type="string"/>
       <SimpleField name="X" type="double"/>
       <SimpleField name="Y" type="double"/>
       <SimpleField name="Sup_SIG" type="double"/>
@@ -40,48 +38,47 @@
       <Placemark id="Distrito_YASY_CA__Y.1">
         <ExtendedData>
           <SchemaData schemaUrl="#Distrito_YASY_CA__Y.schema">
-            <SimpleData name="Cédula">8085966.00000000000</SimpleData>
-            <SimpleData name="Nombres_y_">NOELIA IBA?EZ CENTURION</SimpleData>
+            <SimpleData name="Cédula">5826148.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">NICASIA BENITEZ DUARTE</SimpleData>
             <SimpleData name="Sexo">Mujer</SimpleData>
             <SimpleData name="Cambio_de_">NO</SimpleData>
             <SimpleData name="Titular_se">NO</SimpleData>
-            <SimpleData name="ci_UNIF">8085966.00000000000</SimpleData>
+            <SimpleData name="Cédula_Ti">NO</SimpleData>
+            <SimpleData name="ci_UNIF">5826148.00000000000</SimpleData>
             <SimpleData name="Situación">NO</SimpleData>
             <SimpleData name="Comunidad">Ind?gena</SimpleData>
             <SimpleData name="Modelo_imp">Modelo 5</SimpleData>
             <SimpleData name="Departamen">CANINDEYU</SimpleData>
             <SimpleData name="Distrito">YASY CA?Y</SimpleData>
-            <SimpleData name="Localidad">COM INDIG JOYVY</SimpleData>
-            <SimpleData name="Teléfono">0984035185</SimpleData>
-            <SimpleData name="Vivienda_L">-24.48284300000</SimpleData>
-            <SimpleData name="Vivienda_1">-55.95183210000</SimpleData>
+            <SimpleData name="Localidad">COM INDIG  TAKUA MIRI</SimpleData>
+            <SimpleData name="Localidad_">TAKUA MIR? 1</SimpleData>
+            <SimpleData name="Teléfono">0986843255</SimpleData>
+            <SimpleData name="Vivienda_L">-24.40661740000</SimpleData>
+            <SimpleData name="Vivienda_1">-56.01196480000</SimpleData>
             <SimpleData name="Superficie">0.70000000000</SimpleData>
-            <SimpleData name="Situaci_1">Par?metro</SimpleData>
-            <SimpleData name="Plantado">SI</SimpleData>
-            <SimpleData name="Plantado_f">2026/01/14</SimpleData>
+            <SimpleData name="Fecha_Plan">2025/10/16</SimpleData>
             <SimpleData name="Jornales">0.00000000000</SimpleData>
             <SimpleData name="Monto">0.00000000000</SimpleData>
-            <SimpleData name="Grupo_de_p">G-P2</SimpleData>
+            <SimpleData name="Grupo_de_p">G-P1-XX-XX-XX</SimpleData>
+            <SimpleData name="ETAPA_FAO">Mantenimiento A?o 1.1</SimpleData>
             <SimpleData name="Estado_del">Activo</SimpleData>
             <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
             <SimpleData name="Lote">G</SimpleData>
-            <SimpleData name="Parametro">0.70000000000</SimpleData>
-            <SimpleData name="Situacion">Cumple</SimpleData>
-            <SimpleData name="X">-55.95259393000</SimpleData>
-            <SimpleData name="Y">-24.48775492000</SimpleData>
-            <SimpleData name="Sup_SIG">0.76513444907</SimpleData>
-            <SimpleData name="cedula">8085966</SimpleData>
+            <SimpleData name="X">-56.01916375000</SimpleData>
+            <SimpleData name="Y">-24.41969632000</SimpleData>
+            <SimpleData name="Sup_SIG">0.71228627145</SimpleData>
+            <SimpleData name="cedula">5826148</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Polygon>
           <outerBoundaryIs>
             <LinearRing>
               <coordinates>
-                -55.9519290001087,-24.4879753006591,0
-                -55.9531232999057,-24.4880767003171,0
-                -55.9533116000201,-24.4875457008583,0
-                -55.9520058991162,-24.4874376002943,0
-                -55.9519290001087,-24.4879753006591,0
+                -56.0184052997142,-24.4197151002747,0
+                -56.0190450000242,-24.4200970001317,0
+                -56.0199666997916,-24.4197033001657,0
+                -56.0191867003615,-24.4192833002968,0
+                -56.0184052997142,-24.4197151002747,0
               </coordinates>
             </LinearRing>
           </outerBoundaryIs>
@@ -90,11 +87,164 @@
       <Placemark id="Distrito_YASY_CA__Y.2">
         <ExtendedData>
           <SchemaData schemaUrl="#Distrito_YASY_CA__Y.schema">
+            <SimpleData name="Cédula">6150799.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">JUANA VERA BENITEZ</SimpleData>
+            <SimpleData name="Sexo">Mujer</SimpleData>
+            <SimpleData name="Cambio_de_">NO</SimpleData>
+            <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="Cédula_Ti">NO</SimpleData>
+            <SimpleData name="ci_UNIF">6150799.00000000000</SimpleData>
+            <SimpleData name="Situación">NO</SimpleData>
+            <SimpleData name="Comunidad">Ind?gena</SimpleData>
+            <SimpleData name="Modelo_imp">Modelo 5</SimpleData>
+            <SimpleData name="Departamen">CANINDEYU</SimpleData>
+            <SimpleData name="Distrito">YASY CA?Y</SimpleData>
+            <SimpleData name="Localidad"><![CDATA[COM INDIG KA'AGUY POTY KAMBA]]></SimpleData>
+            <SimpleData name="Localidad_">KA?AGUY POTY KAMBA</SimpleData>
+            <SimpleData name="Teléfono">ND</SimpleData>
+            <SimpleData name="Vivienda_L">-24.56223360000</SimpleData>
+            <SimpleData name="Vivienda_1">-55.92391040000</SimpleData>
+            <SimpleData name="Superficie">0.70000000000</SimpleData>
+            <SimpleData name="Fecha_Plan">2025/09/29</SimpleData>
+            <SimpleData name="Jornales">0.00000000000</SimpleData>
+            <SimpleData name="Monto">0.00000000000</SimpleData>
+            <SimpleData name="Grupo_de_p">G-P1-XX-XX-XX</SimpleData>
+            <SimpleData name="ETAPA_FAO">Mantenimiento A?o 1.1</SimpleData>
+            <SimpleData name="Estado_del">Activo</SimpleData>
+            <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
+            <SimpleData name="Lote">G</SimpleData>
+            <SimpleData name="X">-55.92377838000</SimpleData>
+            <SimpleData name="Y">-24.56170292000</SimpleData>
+            <SimpleData name="Sup_SIG">0.70357508248</SimpleData>
+            <SimpleData name="cedula">6150799</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+                -55.9230622997831,-24.5616897997112,0
+                -55.9242608996455,-24.5621734997887,0
+                -55.9244060005991,-24.5616591996382,0
+                -55.9233905004615,-24.5612595994886,0
+                -55.9230622997831,-24.5616897997112,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark id="Distrito_YASY_CA__Y.3">
+        <ExtendedData>
+          <SchemaData schemaUrl="#Distrito_YASY_CA__Y.schema">
+            <SimpleData name="Cédula">3929698.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">LUIS ARMOA ALVARENGA</SimpleData>
+            <SimpleData name="Sexo">Hombre</SimpleData>
+            <SimpleData name="Cambio_de_">NO</SimpleData>
+            <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="Cédula_Ti">NO</SimpleData>
+            <SimpleData name="ci_UNIF">3929698.00000000000</SimpleData>
+            <SimpleData name="Situación">NO</SimpleData>
+            <SimpleData name="Comunidad">Campesina</SimpleData>
+            <SimpleData name="Modelo_imp">Modelo 4</SimpleData>
+            <SimpleData name="Departamen">CANINDEYU</SimpleData>
+            <SimpleData name="Distrito">YASY CA?Y</SimpleData>
+            <SimpleData name="Localidad">CALLE TACUAPI</SimpleData>
+            <SimpleData name="Localidad_">CALLE TACUAPI</SimpleData>
+            <SimpleData name="Teléfono">0985181182</SimpleData>
+            <SimpleData name="Vivienda_L">-24.56710640000</SimpleData>
+            <SimpleData name="Vivienda_1">-55.80611630000</SimpleData>
+            <SimpleData name="Superficie">0.70000000000</SimpleData>
+            <SimpleData name="Fecha_Plan">2025/11/15</SimpleData>
+            <SimpleData name="Jornales">0.00000000000</SimpleData>
+            <SimpleData name="Monto">0.00000000000</SimpleData>
+            <SimpleData name="Grupo_de_p">G-P1-XX-XX-XX</SimpleData>
+            <SimpleData name="ETAPA_FAO">Mantenimiento A?o 1.1</SimpleData>
+            <SimpleData name="Estado_del">Activo</SimpleData>
+            <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
+            <SimpleData name="Lote">G</SimpleData>
+            <SimpleData name="X">-55.80506268000</SimpleData>
+            <SimpleData name="Y">-24.56670194000</SimpleData>
+            <SimpleData name="Sup_SIG">0.72191586591</SimpleData>
+            <SimpleData name="cedula">3929698</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+                -55.8045799999219,-24.5667751003547,0
+                -55.8044432002586,-24.5668334994149,0
+                -55.8044170998323,-24.5667153996767,0
+                -55.8042382994473,-24.5667833001774,0
+                -55.8043882998751,-24.5672566995061,0
+                -55.8058641004632,-24.566522099874,0
+                -55.8057937001126,-24.5661714994861,0
+                -55.8049533004905,-24.566486700247,0
+                -55.804981699581,-24.5665782997012,0
+                -55.8045799999219,-24.5667751003547,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark id="Distrito_YASY_CA__Y.4">
+        <ExtendedData>
+          <SchemaData schemaUrl="#Distrito_YASY_CA__Y.schema">
+            <SimpleData name="Cédula">5980227.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">LILIAN IGNACIA MEDINA ACU?A</SimpleData>
+            <SimpleData name="Sexo">Mujer</SimpleData>
+            <SimpleData name="Cambio_de_">NO</SimpleData>
+            <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="Cédula_Ti">NO</SimpleData>
+            <SimpleData name="ci_UNIF">5980227.00000000000</SimpleData>
+            <SimpleData name="Situación">NO</SimpleData>
+            <SimpleData name="Comunidad">Campesina</SimpleData>
+            <SimpleData name="Modelo_imp">Modelo 4</SimpleData>
+            <SimpleData name="Departamen">CANINDEYU</SimpleData>
+            <SimpleData name="Distrito">YASY CA?Y</SimpleData>
+            <SimpleData name="Localidad">CALLE TACUAPI</SimpleData>
+            <SimpleData name="Localidad_">CALLE TACUAPI</SimpleData>
+            <SimpleData name="Teléfono">0983914795</SimpleData>
+            <SimpleData name="Vivienda_L">-24.56022810000</SimpleData>
+            <SimpleData name="Vivienda_1">-55.80382100000</SimpleData>
+            <SimpleData name="Superficie">0.70000000000</SimpleData>
+            <SimpleData name="Fecha_Plan">2025/11/15</SimpleData>
+            <SimpleData name="Jornales">0.00000000000</SimpleData>
+            <SimpleData name="Monto">0.00000000000</SimpleData>
+            <SimpleData name="Grupo_de_p">G-P1-XX-XX-XX</SimpleData>
+            <SimpleData name="ETAPA_FAO">Mantenimiento A?o 1.1</SimpleData>
+            <SimpleData name="Estado_del">Activo</SimpleData>
+            <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
+            <SimpleData name="Lote">G</SimpleData>
+            <SimpleData name="X">-55.80536178000</SimpleData>
+            <SimpleData name="Y">-24.56005452000</SimpleData>
+            <SimpleData name="Sup_SIG">0.84915507477</SimpleData>
+            <SimpleData name="cedula">5980227</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+                -55.804776700244,-24.5597717002697,0
+                -55.8050882997178,-24.5606167000494,0
+                -55.8059617003937,-24.5602283004707,0
+                -55.8056860998212,-24.5595692999662,0
+                -55.804776700244,-24.5597717002697,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark id="Distrito_YASY_CA__Y.5">
+        <ExtendedData>
+          <SchemaData schemaUrl="#Distrito_YASY_CA__Y.schema">
             <SimpleData name="Cédula">7302569.00000000000</SimpleData>
             <SimpleData name="Nombres_y_">JUAN CARLOS IBA?EZ</SimpleData>
             <SimpleData name="Sexo">Hombre</SimpleData>
             <SimpleData name="Cambio_de_">NO</SimpleData>
             <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="Cédula_Ti">NO</SimpleData>
             <SimpleData name="ci_UNIF">7302569.00000000000</SimpleData>
             <SimpleData name="Situación">NO</SimpleData>
             <SimpleData name="Comunidad">Ind?gena</SimpleData>
@@ -102,24 +252,22 @@
             <SimpleData name="Departamen">CANINDEYU</SimpleData>
             <SimpleData name="Distrito">YASY CA?Y</SimpleData>
             <SimpleData name="Localidad">COM INDIG JOYVY</SimpleData>
+            <SimpleData name="Localidad_">JOYVY (ZANJA MOROTI)</SimpleData>
             <SimpleData name="Teléfono">0984035185</SimpleData>
             <SimpleData name="Vivienda_L">-24.48422820000</SimpleData>
             <SimpleData name="Vivienda_1">-55.95151290000</SimpleData>
             <SimpleData name="Superficie">0.70000000000</SimpleData>
-            <SimpleData name="Situaci_1">Par?metro</SimpleData>
-            <SimpleData name="Plantado">SI</SimpleData>
-            <SimpleData name="Plantado_f">2026/01/14</SimpleData>
+            <SimpleData name="Fecha_Plan">2026/01/14</SimpleData>
             <SimpleData name="Jornales">0.00000000000</SimpleData>
             <SimpleData name="Monto">0.00000000000</SimpleData>
-            <SimpleData name="Grupo_de_p">G-P2</SimpleData>
+            <SimpleData name="Grupo_de_p">G-P2-XX-XX-XX</SimpleData>
+            <SimpleData name="ETAPA_FAO">Mantenimiento A?o 1.1</SimpleData>
             <SimpleData name="Estado_del">Activo</SimpleData>
             <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
             <SimpleData name="Lote">G</SimpleData>
-            <SimpleData name="Parametro">0.70000000000</SimpleData>
-            <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.95264303000</SimpleData>
             <SimpleData name="Y">-24.48720935000</SimpleData>
-            <SimpleData name="Sup_SIG">0.71150611888</SimpleData>
+            <SimpleData name="Sup_SIG">0.71150611887</SimpleData>
             <SimpleData name="cedula">7302569</SimpleData>
           </SchemaData>
         </ExtendedData>
@@ -129,9 +277,9 @@
               <coordinates>
                 -55.9520098000967,-24.4873965006003,0
                 -55.9533531003952,-24.4875317994018,0
-                -55.9534305001879,-24.4872354998007,0
+                -55.9534305001878,-24.4872354998007,0
                 -55.9529885995927,-24.4871928003604,0
-                -55.9529965996646,-24.4870116003682,0
+                -55.9529965996647,-24.4870116003682,0
                 -55.9521427996706,-24.4867852007365,0
                 -55.9520098000967,-24.4873965006003,0
               </coordinates>
@@ -139,7 +287,56 @@
           </outerBoundaryIs>
         </Polygon>
       </Placemark>
-      <Placemark id="Distrito_YASY_CA__Y.3">
+      <Placemark id="Distrito_YASY_CA__Y.6">
+        <ExtendedData>
+          <SchemaData schemaUrl="#Distrito_YASY_CA__Y.schema">
+            <SimpleData name="Cédula">8085966.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">NOELIA IBA?EZ CENTURION</SimpleData>
+            <SimpleData name="Sexo">Mujer</SimpleData>
+            <SimpleData name="Cambio_de_">NO</SimpleData>
+            <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="Cédula_Ti">NO</SimpleData>
+            <SimpleData name="ci_UNIF">8085966.00000000000</SimpleData>
+            <SimpleData name="Situación">NO</SimpleData>
+            <SimpleData name="Comunidad">Ind?gena</SimpleData>
+            <SimpleData name="Modelo_imp">Modelo 5</SimpleData>
+            <SimpleData name="Departamen">CANINDEYU</SimpleData>
+            <SimpleData name="Distrito">YASY CA?Y</SimpleData>
+            <SimpleData name="Localidad">COM INDIG JOYVY</SimpleData>
+            <SimpleData name="Localidad_">JOYVY (ZANJA MOROTI)</SimpleData>
+            <SimpleData name="Teléfono">0984035185</SimpleData>
+            <SimpleData name="Vivienda_L">-24.48284300000</SimpleData>
+            <SimpleData name="Vivienda_1">-55.95183210000</SimpleData>
+            <SimpleData name="Superficie">0.70000000000</SimpleData>
+            <SimpleData name="Fecha_Plan">2026/01/14</SimpleData>
+            <SimpleData name="Jornales">0.00000000000</SimpleData>
+            <SimpleData name="Monto">0.00000000000</SimpleData>
+            <SimpleData name="Grupo_de_p">G-P2-XX-XX-XX</SimpleData>
+            <SimpleData name="ETAPA_FAO">Mantenimiento A?o 1.1</SimpleData>
+            <SimpleData name="Estado_del">Activo</SimpleData>
+            <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
+            <SimpleData name="Lote">G</SimpleData>
+            <SimpleData name="X">-55.95259393000</SimpleData>
+            <SimpleData name="Y">-24.48775492000</SimpleData>
+            <SimpleData name="Sup_SIG">0.76513444906</SimpleData>
+            <SimpleData name="cedula">8085966</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+                -55.9519290001086,-24.4879753006591,0
+                -55.9531232999057,-24.4880767003171,0
+                -55.9533116000201,-24.4875457008583,0
+                -55.9520058991162,-24.4874376002943,0
+                -55.9519290001086,-24.4879753006591,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark id="Distrito_YASY_CA__Y.7">
         <ExtendedData>
           <SchemaData schemaUrl="#Distrito_YASY_CA__Y.schema">
             <SimpleData name="Cédula">6334372.00000000000</SimpleData>
@@ -147,6 +344,7 @@
             <SimpleData name="Sexo">Mujer</SimpleData>
             <SimpleData name="Cambio_de_">NO</SimpleData>
             <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="Cédula_Ti">NO</SimpleData>
             <SimpleData name="ci_UNIF">6334372.00000000000</SimpleData>
             <SimpleData name="Situación">NO</SimpleData>
             <SimpleData name="Comunidad">Ind?gena</SimpleData>
@@ -154,24 +352,22 @@
             <SimpleData name="Departamen">CANINDEYU</SimpleData>
             <SimpleData name="Distrito">YASY CA?Y</SimpleData>
             <SimpleData name="Localidad">COM INDIG JOYVY</SimpleData>
+            <SimpleData name="Localidad_">JOYVY (ZANJA MOROTI)</SimpleData>
             <SimpleData name="Teléfono">0984723424</SimpleData>
             <SimpleData name="Vivienda_L">-24.48340110000</SimpleData>
             <SimpleData name="Vivienda_1">-55.95173410000</SimpleData>
             <SimpleData name="Superficie">0.70000000000</SimpleData>
-            <SimpleData name="Situaci_1">Par?metro</SimpleData>
-            <SimpleData name="Plantado">SI</SimpleData>
-            <SimpleData name="Plantado_f">2026/01/14</SimpleData>
+            <SimpleData name="Fecha_Plan">2026/01/14</SimpleData>
             <SimpleData name="Jornales">0.00000000000</SimpleData>
             <SimpleData name="Monto">0.00000000000</SimpleData>
-            <SimpleData name="Grupo_de_p">G-P2</SimpleData>
+            <SimpleData name="Grupo_de_p">G-P2-XX-XX-XX</SimpleData>
+            <SimpleData name="ETAPA_FAO">Mantenimiento A?o 1.1</SimpleData>
             <SimpleData name="Estado_del">Activo</SimpleData>
             <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
             <SimpleData name="Lote">G</SimpleData>
-            <SimpleData name="Parametro">0.70000000000</SimpleData>
-            <SimpleData name="Situacion">Cumple</SimpleData>
             <SimpleData name="X">-55.95271459000</SimpleData>
             <SimpleData name="Y">-24.48658694000</SimpleData>
-            <SimpleData name="Sup_SIG">0.70544029283</SimpleData>
+            <SimpleData name="Sup_SIG">0.70544029282</SimpleData>
             <SimpleData name="cedula">6334372</SimpleData>
           </SchemaData>
         </ExtendedData>
@@ -179,11 +375,63 @@
           <outerBoundaryIs>
             <LinearRing>
               <coordinates>
-                -55.9521416997009,-24.4867717003179,0
+                -55.9521416997008,-24.4867717003179,0
                 -55.9530649993823,-24.4870100001576,0
                 -55.9533132994273,-24.4863850003494,0
-                -55.9523032994269,-24.4861882994548,0
-                -55.9521416997009,-24.4867717003179,0
+                -55.9523032994269,-24.4861882994549,0
+                -55.9521416997008,-24.4867717003179,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark id="Distrito_YASY_CA__Y.8">
+        <ExtendedData>
+          <SchemaData schemaUrl="#Distrito_YASY_CA__Y.schema">
+            <SimpleData name="Cédula">7162347.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">ELIODORA BENITEZ VILLALBA</SimpleData>
+            <SimpleData name="Sexo">Mujer</SimpleData>
+            <SimpleData name="Cambio_de_">NO</SimpleData>
+            <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="Cédula_Ti">NO</SimpleData>
+            <SimpleData name="ci_UNIF">7162347.00000000000</SimpleData>
+            <SimpleData name="Situación">NO</SimpleData>
+            <SimpleData name="Comunidad">Ind?gena</SimpleData>
+            <SimpleData name="Modelo_imp">Modelo 5</SimpleData>
+            <SimpleData name="Departamen">CANINDEYU</SimpleData>
+            <SimpleData name="Distrito">YASY CA?Y</SimpleData>
+            <SimpleData name="Localidad">COM INDIG  TAKUA MIRI</SimpleData>
+            <SimpleData name="Localidad_">TAKUA MIR? 1</SimpleData>
+            <SimpleData name="Teléfono">ND</SimpleData>
+            <SimpleData name="Vivienda_L">-24.40695640000</SimpleData>
+            <SimpleData name="Vivienda_1">-56.01366490000</SimpleData>
+            <SimpleData name="Superficie">0.70000000000</SimpleData>
+            <SimpleData name="Fecha_Plan">2025/10/16</SimpleData>
+            <SimpleData name="Jornales">0.00000000000</SimpleData>
+            <SimpleData name="Monto">0.00000000000</SimpleData>
+            <SimpleData name="Grupo_de_p">G-P1-XX-XX-XX</SimpleData>
+            <SimpleData name="ETAPA_FAO">Mantenimiento A?o 1.1</SimpleData>
+            <SimpleData name="Estado_del">Activo</SimpleData>
+            <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
+            <SimpleData name="Lote">G</SimpleData>
+            <SimpleData name="X">-56.01806195000</SimpleData>
+            <SimpleData name="Y">-24.41922521000</SimpleData>
+            <SimpleData name="Sup_SIG">0.70292893664</SimpleData>
+            <SimpleData name="cedula">7162347</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+                -56.0176601997449,-24.41883000038,0
+                -56.0173966997622,-24.4192567000722,0
+                -56.0182988996847,-24.4196751003972,0
+                -56.0186647001535,-24.4192587002397,0
+                -56.018608100283,-24.4190534994815,0
+                -56.0183377004823,-24.4189351008091,0
+                -56.0181581007949,-24.4189836997493,0
+                -56.0176601997449,-24.41883000038,0
               </coordinates>
             </LinearRing>
           </outerBoundaryIs>
