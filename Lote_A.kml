@@ -394,7 +394,7 @@
             <SimpleData name="Lote">A</SimpleData>
             <SimpleData name="X">-55.70530114000</SimpleData>
             <SimpleData name="Y">-26.24992549000</SimpleData>
-            <SimpleData name="Sup_SIG">0.90531378255</SimpleData>
+            <SimpleData name="Sup_SIG">0.90531378256</SimpleData>
             <SimpleData name="cedula">3932773</SimpleData>
           </SchemaData>
         </ExtendedData>
@@ -1179,7 +1179,7 @@
             <SimpleData name="Lote">A</SimpleData>
             <SimpleData name="X">-55.65070072000</SimpleData>
             <SimpleData name="Y">-26.69643558000</SimpleData>
-            <SimpleData name="Sup_SIG">0.96728722371</SimpleData>
+            <SimpleData name="Sup_SIG">0.96728722372</SimpleData>
             <SimpleData name="cedula">8068704</SimpleData>
           </SchemaData>
         </ExtendedData>
@@ -1297,7 +1297,7 @@
             <SimpleData name="Lote">A</SimpleData>
             <SimpleData name="X">-55.58650982000</SimpleData>
             <SimpleData name="Y">-26.15633722000</SimpleData>
-            <SimpleData name="Sup_SIG">0.96467871441</SimpleData>
+            <SimpleData name="Sup_SIG">0.96467871442</SimpleData>
             <SimpleData name="cedula">6177848</SimpleData>
           </SchemaData>
         </ExtendedData>
@@ -1718,7 +1718,7 @@
             <SimpleData name="Lote">A</SimpleData>
             <SimpleData name="X">-55.85036433000</SimpleData>
             <SimpleData name="Y">-26.68558308000</SimpleData>
-            <SimpleData name="Sup_SIG">0.72698373543</SimpleData>
+            <SimpleData name="Sup_SIG">0.72698373544</SimpleData>
             <SimpleData name="cedula">5601438</SimpleData>
           </SchemaData>
         </ExtendedData>
@@ -2523,7 +2523,7 @@
             <SimpleData name="Lote">A</SimpleData>
             <SimpleData name="X">-55.84331185000</SimpleData>
             <SimpleData name="Y">-26.69265227000</SimpleData>
-            <SimpleData name="Sup_SIG">0.75819931038</SimpleData>
+            <SimpleData name="Sup_SIG">0.75819931039</SimpleData>
             <SimpleData name="cedula">5651595</SimpleData>
           </SchemaData>
         </ExtendedData>
@@ -2741,7 +2741,7 @@
             <SimpleData name="Lote">A</SimpleData>
             <SimpleData name="X">-55.67152141000</SimpleData>
             <SimpleData name="Y">-26.23780095000</SimpleData>
-            <SimpleData name="Sup_SIG">0.91496374064</SimpleData>
+            <SimpleData name="Sup_SIG">0.91496374065</SimpleData>
             <SimpleData name="cedula">5078380</SimpleData>
           </SchemaData>
         </ExtendedData>
@@ -6095,7 +6095,7 @@
             <SimpleData name="Lote">A</SimpleData>
             <SimpleData name="X">-55.58398029000</SimpleData>
             <SimpleData name="Y">-26.24168078000</SimpleData>
-            <SimpleData name="Sup_SIG">0.79137325475</SimpleData>
+            <SimpleData name="Sup_SIG">0.79137325476</SimpleData>
             <SimpleData name="cedula">6297590</SimpleData>
           </SchemaData>
         </ExtendedData>
@@ -6195,7 +6195,7 @@
             <SimpleData name="Lote">A</SimpleData>
             <SimpleData name="X">-55.58652077000</SimpleData>
             <SimpleData name="Y">-26.23005196000</SimpleData>
-            <SimpleData name="Sup_SIG">0.73549402412</SimpleData>
+            <SimpleData name="Sup_SIG">0.73549402413</SimpleData>
             <SimpleData name="cedula">6777261</SimpleData>
           </SchemaData>
         </ExtendedData>
@@ -6978,6 +6978,60 @@
                 -55.6727683002012,-26.1393183007806,0
                 -55.6717850000288,-26.1391683001176,0
                 -55.6716360871164,-26.139528619017,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark id="Lote_A.130">
+        <ExtendedData>
+          <SchemaData schemaUrl="#Lote_A.schema">
+            <SimpleData name="Cédula">7847696.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">MARIA LILIANA  CENA BENITEZ</SimpleData>
+            <SimpleData name="Sexo">Mujer</SimpleData>
+            <SimpleData name="Cambio_de_">NO</SimpleData>
+            <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="Cédula_Ti">NO</SimpleData>
+            <SimpleData name="ci_UNIF">7847696.00000000000</SimpleData>
+            <SimpleData name="Situación">NO</SimpleData>
+            <SimpleData name="Comunidad">Campesina</SimpleData>
+            <SimpleData name="Modelo_imp">Modelo 1</SimpleData>
+            <SimpleData name="Departamen">CAAZAPA</SimpleData>
+            <SimpleData name="Distrito">TAVA?</SimpleData>
+            <SimpleData name="Localidad">SAN FRANCISCO</SimpleData>
+            <SimpleData name="Localidad_">SAN FRANCISCO</SimpleData>
+            <SimpleData name="Teléfono">985196687</SimpleData>
+            <SimpleData name="Vivienda_L">-26.15169330000</SimpleData>
+            <SimpleData name="Vivienda_1">-55.57229330000</SimpleData>
+            <SimpleData name="Superficie">0.00000000000</SimpleData>
+            <SimpleData name="Fecha_Plan">2025/12/12</SimpleData>
+            <SimpleData name="Jornales">0.00000000000</SimpleData>
+            <SimpleData name="Monto">0.00000000000</SimpleData>
+            <SimpleData name="Grupo_de_p">A-GN-XX-XX-XX</SimpleData>
+            <SimpleData name="ETAPA_FAO">Plantaci?n</SimpleData>
+            <SimpleData name="Estado_del">Activo</SimpleData>
+            <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
+            <SimpleData name="Lote">A</SimpleData>
+            <SimpleData name="X">-55.55767956000</SimpleData>
+            <SimpleData name="Y">-26.15631295000</SimpleData>
+            <SimpleData name="Sup_SIG">0.87571103844</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+                -55.5572268994498,-26.1558619999979,0
+                -55.5574849995809,-26.1571749995687,0
+                -55.5579266993429,-26.1570449994066,0
+                -55.5576682995681,-26.1561232993329,0
+                -55.5581899995405,-26.1560949999182,0
+                -55.5582332999735,-26.1561499999519,0
+                -55.5583716998889,-26.1560766996051,0
+                -55.558328299355,-26.1558950000741,0
+                -55.5581257997206,-26.1558954993889,0
+                -55.558036699735,-26.1556499996678,0
+                -55.5572268994498,-26.1558619999979,0
               </coordinates>
             </LinearRing>
           </outerBoundaryIs>

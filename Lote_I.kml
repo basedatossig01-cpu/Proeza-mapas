@@ -277,7 +277,7 @@
             <SimpleData name="Lote">I</SimpleData>
             <SimpleData name="X">-56.32685169000</SimpleData>
             <SimpleData name="Y">-24.38471666000</SimpleData>
-            <SimpleData name="Sup_SIG">0.99630691445</SimpleData>
+            <SimpleData name="Sup_SIG">0.99630691446</SimpleData>
             <SimpleData name="cedula">6233778</SimpleData>
           </SchemaData>
         </ExtendedData>
@@ -3059,7 +3059,7 @@
             <SimpleData name="Lote">I</SimpleData>
             <SimpleData name="X">-56.40592922000</SimpleData>
             <SimpleData name="Y">-24.55331370000</SimpleData>
-            <SimpleData name="Sup_SIG">0.81312391679</SimpleData>
+            <SimpleData name="Sup_SIG">0.81312391680</SimpleData>
             <SimpleData name="cedula">5305230</SimpleData>
           </SchemaData>
         </ExtendedData>
@@ -3351,7 +3351,7 @@
             <SimpleData name="Lote">I</SimpleData>
             <SimpleData name="X">-56.35682279000</SimpleData>
             <SimpleData name="Y">-24.17071764000</SimpleData>
-            <SimpleData name="Sup_SIG">0.72959610781</SimpleData>
+            <SimpleData name="Sup_SIG">0.72959610782</SimpleData>
             <SimpleData name="cedula">1235564</SimpleData>
           </SchemaData>
         </ExtendedData>
@@ -4011,7 +4011,7 @@
             <SimpleData name="Lote">I</SimpleData>
             <SimpleData name="X">-56.49802497000</SimpleData>
             <SimpleData name="Y">-24.53831873000</SimpleData>
-            <SimpleData name="Sup_SIG">0.78906776597</SimpleData>
+            <SimpleData name="Sup_SIG">0.78906776598</SimpleData>
             <SimpleData name="cedula">3620884</SimpleData>
           </SchemaData>
         </ExtendedData>
@@ -9426,6 +9426,58 @@
                 -56.5049056000683,-24.0115959007491,0
                 -56.5049262999025,-24.0117590999338,0
                 -56.504860400162,-24.0120059000059,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark id="Lote_I.178">
+        <ExtendedData>
+          <SchemaData schemaUrl="#Lote_I.schema">
+            <SimpleData name="Cédula">6361541.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">MIRIAN RAQUEL ROMERO SAAVEDRA</SimpleData>
+            <SimpleData name="Sexo">Mujer</SimpleData>
+            <SimpleData name="Cambio_de_">NO</SimpleData>
+            <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="Cédula_Ti">NO</SimpleData>
+            <SimpleData name="ci_UNIF">6361541.00000000000</SimpleData>
+            <SimpleData name="Situación">NO</SimpleData>
+            <SimpleData name="Comunidad">Campesina</SimpleData>
+            <SimpleData name="Modelo_imp">Modelo 5</SimpleData>
+            <SimpleData name="Departamen">SAN PEDRO</SimpleData>
+            <SimpleData name="Distrito">LIMA</SimpleData>
+            <SimpleData name="Localidad">NI?O MARTIR  (SANGUINA CUE)</SimpleData>
+            <SimpleData name="Localidad_">NI?O MARTIR  (SANGUINA CUE)</SimpleData>
+            <SimpleData name="Teléfono">0981391715</SimpleData>
+            <SimpleData name="Vivienda_L">-23.99820610000</SimpleData>
+            <SimpleData name="Vivienda_1">-56.51923360000</SimpleData>
+            <SimpleData name="Superficie">0.00000000000</SimpleData>
+            <SimpleData name="Fecha_Plan">2026/06/12</SimpleData>
+            <SimpleData name="Jornales">0.00000000000</SimpleData>
+            <SimpleData name="Monto">0.00000000000</SimpleData>
+            <SimpleData name="Grupo_de_p">I-GN-XX-XX-XX</SimpleData>
+            <SimpleData name="ETAPA_FAO">Plantaci?n</SimpleData>
+            <SimpleData name="Estado_del">Activo</SimpleData>
+            <SimpleData name="Empresa">Emilio Sol?s Grance</SimpleData>
+            <SimpleData name="Lote">I</SimpleData>
+            <SimpleData name="X">-56.51809111000</SimpleData>
+            <SimpleData name="Y">-24.00521650000</SimpleData>
+            <SimpleData name="Sup_SIG">0.79787052822</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+                -56.5177301993686,-24.0058495995069,0
+                -56.5183027994609,-24.0059812998263,0
+                -56.518421599523,-24.0054257999449,0
+                -56.518312999232,-24.0053923995905,0
+                -56.518228499713,-24.0050939999912,0
+                -56.5182664991627,-24.0047185001043,0
+                -56.518347199466,-24.0042930000441,0
+                -56.5180469990853,-24.0042297001279,0
+                -56.5177301993686,-24.0058495995069,0
               </coordinates>
             </LinearRing>
           </outerBoundaryIs>

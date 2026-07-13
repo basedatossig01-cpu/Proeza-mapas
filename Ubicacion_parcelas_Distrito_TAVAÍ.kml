@@ -15,362 +15,73 @@
       <SimpleField name="Departamen" type="string"/>
       <SimpleField name="Distrito" type="string"/>
       <SimpleField name="Localidad" type="string"/>
+      <SimpleField name="Localidad_" type="string"/>
       <SimpleField name="TelÈfono" type="string"/>
       <SimpleField name="Vivienda_L" type="double"/>
       <SimpleField name="Vivienda_1" type="double"/>
       <SimpleField name="Superficie" type="double"/>
-      <SimpleField name="Situaci_1" type="string"/>
-      <SimpleField name="Plantado" type="string"/>
-      <SimpleField name="Plantado_f" type="string"/>
+      <SimpleField name="Fecha_Plan" type="string"/>
       <SimpleField name="Jornales" type="double"/>
       <SimpleField name="Monto" type="double"/>
       <SimpleField name="Grupo_de_p" type="string"/>
+      <SimpleField name="ETAPA_FAO" type="string"/>
       <SimpleField name="Estado_del" type="string"/>
       <SimpleField name="Empresa" type="string"/>
       <SimpleField name="Lote" type="string"/>
-      <SimpleField name="Parametro" type="double"/>
-      <SimpleField name="Situacion" type="string"/>
       <SimpleField name="X" type="double"/>
       <SimpleField name="Y" type="double"/>
       <SimpleField name="Sup_SIG" type="double"/>
+      <SimpleField name="cedula" type="string"/>
     </Schema>
     <Document id="Distrito_TAVA__">
       <name>Distrito_TAVA√ç</name>
       <Placemark id="Distrito_TAVA__.1">
         <ExtendedData>
           <SchemaData schemaUrl="#Distrito_TAVA__.schema">
-            <SimpleData name="CÈdula">6177848.00000000000</SimpleData>
-            <SimpleData name="Nombres_y_">CARMELINA GARICOCHE BAEZ</SimpleData>
+            <SimpleData name="CÈdula">4875803.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">DUBELIA  ARG?ELLO VAZQUEZ</SimpleData>
             <SimpleData name="Sexo">Mujer</SimpleData>
             <SimpleData name="Cambio_de_">NO</SimpleData>
             <SimpleData name="Titular_se">NO</SimpleData>
-            <SimpleData name="ci_UNIF">6177848.00000000000</SimpleData>
-            <SimpleData name="SituaciÛn">NO</SimpleData>
-            <SimpleData name="Comunidad">Campesina</SimpleData>
-            <SimpleData name="Modelo_imp">Modelo 1</SimpleData>
-            <SimpleData name="Departamen">CAAZAPA</SimpleData>
-            <SimpleData name="Distrito">TAVA?</SimpleData>
-            <SimpleData name="Localidad">SAN AGUSTIN</SimpleData>
-            <SimpleData name="TelÈfono">0986932759</SimpleData>
-            <SimpleData name="Vivienda_L">-26.15830420000</SimpleData>
-            <SimpleData name="Vivienda_1">-55.59359050000</SimpleData>
-            <SimpleData name="Superficie">0.80000000000</SimpleData>
-            <SimpleData name="Situaci_1">Pol?gono</SimpleData>
-            <SimpleData name="Plantado">SI</SimpleData>
-            <SimpleData name="Plantado_f">2025/10/24</SimpleData>
-            <SimpleData name="Jornales">0.00000000000</SimpleData>
-            <SimpleData name="Monto">0.00000000000</SimpleData>
-            <SimpleData name="Grupo_de_p">A-P1</SimpleData>
-            <SimpleData name="Estado_del">Activo</SimpleData>
-            <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
-            <SimpleData name="Lote">A</SimpleData>
-            <SimpleData name="Parametro">0.80000000000</SimpleData>
-            <SimpleData name="Situacion">Cumple</SimpleData>
-            <SimpleData name="X">-55.58650982000</SimpleData>
-            <SimpleData name="Y">-26.15633722000</SimpleData>
-            <SimpleData name="Sup_SIG">0.96467871442</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            -55.5865098222335,-26.1563372209184,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Distrito_TAVA__.2">
-        <ExtendedData>
-          <SchemaData schemaUrl="#Distrito_TAVA__.schema">
-            <SimpleData name="CÈdula">2907706.00000000000</SimpleData>
-            <SimpleData name="Nombres_y_">CECILIA CHAMORRO DE ESCOBAR</SimpleData>
-            <SimpleData name="Sexo">Mujer</SimpleData>
-            <SimpleData name="Cambio_de_">NO</SimpleData>
-            <SimpleData name="Titular_se">NO</SimpleData>
-            <SimpleData name="ci_UNIF">2907706.00000000000</SimpleData>
-            <SimpleData name="SituaciÛn">NO</SimpleData>
-            <SimpleData name="Comunidad">Campesina</SimpleData>
-            <SimpleData name="Modelo_imp">Modelo 1</SimpleData>
-            <SimpleData name="Departamen">CAAZAPA</SimpleData>
-            <SimpleData name="Distrito">TAVA?</SimpleData>
-            <SimpleData name="Localidad">ITA ANGUA</SimpleData>
-            <SimpleData name="TelÈfono">0982682888</SimpleData>
-            <SimpleData name="Vivienda_L">-26.17810160000</SimpleData>
-            <SimpleData name="Vivienda_1">-55.56343650000</SimpleData>
-            <SimpleData name="Superficie">0.80000000000</SimpleData>
-            <SimpleData name="Situaci_1">Pol?gono</SimpleData>
-            <SimpleData name="Plantado">SI</SimpleData>
-            <SimpleData name="Plantado_f">2025/10/27</SimpleData>
-            <SimpleData name="Jornales">0.00000000000</SimpleData>
-            <SimpleData name="Monto">0.00000000000</SimpleData>
-            <SimpleData name="Grupo_de_p">A-P1</SimpleData>
-            <SimpleData name="Estado_del">Activo</SimpleData>
-            <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
-            <SimpleData name="Lote">A</SimpleData>
-            <SimpleData name="Parametro">0.80000000000</SimpleData>
-            <SimpleData name="Situacion">Cumple</SimpleData>
-            <SimpleData name="X">-55.55981701000</SimpleData>
-            <SimpleData name="Y">-26.16499516000</SimpleData>
-            <SimpleData name="Sup_SIG">0.97645414890</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            -55.5598170147352,-26.164995155806,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Distrito_TAVA__.3">
-        <ExtendedData>
-          <SchemaData schemaUrl="#Distrito_TAVA__.schema">
-            <SimpleData name="CÈdula">5748908.00000000000</SimpleData>
-            <SimpleData name="Nombres_y_">LEONARDO TROCHE VERA</SimpleData>
-            <SimpleData name="Sexo">Hombre</SimpleData>
-            <SimpleData name="Cambio_de_">NO</SimpleData>
-            <SimpleData name="Titular_se">NO</SimpleData>
-            <SimpleData name="ci_UNIF">5748908.00000000000</SimpleData>
-            <SimpleData name="SituaciÛn">NO</SimpleData>
-            <SimpleData name="Comunidad">Campesina</SimpleData>
-            <SimpleData name="Modelo_imp">Modelo 1</SimpleData>
-            <SimpleData name="Departamen">CAAZAPA</SimpleData>
-            <SimpleData name="Distrito">TAVA?</SimpleData>
-            <SimpleData name="Localidad">SAN AGUSTIN</SimpleData>
-            <SimpleData name="TelÈfono">0983211668</SimpleData>
-            <SimpleData name="Vivienda_L">-26.15863090000</SimpleData>
-            <SimpleData name="Vivienda_1">-55.59286900000</SimpleData>
-            <SimpleData name="Superficie">0.80000000000</SimpleData>
-            <SimpleData name="Situaci_1">Pol?gono</SimpleData>
-            <SimpleData name="Plantado">SI</SimpleData>
-            <SimpleData name="Plantado_f">2025/10/24</SimpleData>
-            <SimpleData name="Jornales">0.00000000000</SimpleData>
-            <SimpleData name="Monto">0.00000000000</SimpleData>
-            <SimpleData name="Grupo_de_p">A-P1</SimpleData>
-            <SimpleData name="Estado_del">Activo</SimpleData>
-            <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
-            <SimpleData name="Lote">A</SimpleData>
-            <SimpleData name="Parametro">0.80000000000</SimpleData>
-            <SimpleData name="Situacion">Cumple</SimpleData>
-            <SimpleData name="X">-55.59409931000</SimpleData>
-            <SimpleData name="Y">-26.16340408000</SimpleData>
-            <SimpleData name="Sup_SIG">0.87935112287</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            -55.5940993059687,-26.1634040812156,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Distrito_TAVA__.4">
-        <ExtendedData>
-          <SchemaData schemaUrl="#Distrito_TAVA__.schema">
-            <SimpleData name="CÈdula">2689413.00000000000</SimpleData>
-            <SimpleData name="Nombres_y_">ESTEBAN BENITEZ FRANCO</SimpleData>
-            <SimpleData name="Sexo">Hombre</SimpleData>
-            <SimpleData name="Cambio_de_">NO</SimpleData>
-            <SimpleData name="Titular_se">NO</SimpleData>
-            <SimpleData name="ci_UNIF">2689413.00000000000</SimpleData>
+            <SimpleData name="CÈdula_Ti">NO</SimpleData>
+            <SimpleData name="ci_UNIF">4875803.00000000000</SimpleData>
             <SimpleData name="SituaciÛn">NO</SimpleData>
             <SimpleData name="Comunidad">Campesina</SimpleData>
             <SimpleData name="Modelo_imp">Modelo 1</SimpleData>
             <SimpleData name="Departamen">CAAZAPA</SimpleData>
             <SimpleData name="Distrito">TAVA?</SimpleData>
             <SimpleData name="Localidad">ENRAMADITA</SimpleData>
-            <SimpleData name="TelÈfono">0985627320</SimpleData>
-            <SimpleData name="Vivienda_L">-26.17073010000</SimpleData>
-            <SimpleData name="Vivienda_1">-55.67659330000</SimpleData>
+            <SimpleData name="Localidad_">ENRAMADITA</SimpleData>
+            <SimpleData name="TelÈfono">984493428</SimpleData>
+            <SimpleData name="Vivienda_L">-26.17498290000</SimpleData>
+            <SimpleData name="Vivienda_1">-55.70112320000</SimpleData>
             <SimpleData name="Superficie">0.80000000000</SimpleData>
-            <SimpleData name="Situaci_1">Pol?gono</SimpleData>
-            <SimpleData name="Plantado">SI</SimpleData>
-            <SimpleData name="Plantado_f">2025/09/25</SimpleData>
+            <SimpleData name="Fecha_Plan">2025/10/24</SimpleData>
             <SimpleData name="Jornales">0.00000000000</SimpleData>
             <SimpleData name="Monto">0.00000000000</SimpleData>
-            <SimpleData name="Grupo_de_p">A-P1</SimpleData>
+            <SimpleData name="Grupo_de_p">A-P2-XX-XX-XX</SimpleData>
+            <SimpleData name="ETAPA_FAO">Mantenimiento A?o 1.1</SimpleData>
             <SimpleData name="Estado_del">Activo</SimpleData>
             <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
             <SimpleData name="Lote">A</SimpleData>
-            <SimpleData name="Parametro">0.80000000000</SimpleData>
-            <SimpleData name="Situacion">Cumple</SimpleData>
-            <SimpleData name="X">-55.66885034000</SimpleData>
-            <SimpleData name="Y">-26.16977459000</SimpleData>
-            <SimpleData name="Sup_SIG">0.94036736590</SimpleData>
+            <SimpleData name="X">-55.66933324000</SimpleData>
+            <SimpleData name="Y">-26.21849774000</SimpleData>
+            <SimpleData name="Sup_SIG">0.81340095405</SimpleData>
+            <SimpleData name="cedula">4875803</SimpleData>
           </SchemaData>
         </ExtendedData>
         <MultiGeometry>
           <Point>
             <coordinates>
-              -55.6688503403518,-26.1697745917497,0
+              -55.6779951329641,-26.2166330637922,0
             </coordinates>
           </Point>
           <Point>
             <coordinates>
-              -55.6678206472661,-26.1860487086933,0
+              -55.6693332369958,-26.2184977427876,0
             </coordinates>
           </Point>
         </MultiGeometry>
-      </Placemark>
-      <Placemark id="Distrito_TAVA__.5">
-        <ExtendedData>
-          <SchemaData schemaUrl="#Distrito_TAVA__.schema">
-            <SimpleData name="CÈdula">7047004.00000000000</SimpleData>
-            <SimpleData name="Nombres_y_">MARIA MAGDALENA ROJAS DEVALLE</SimpleData>
-            <SimpleData name="Sexo">Mujer</SimpleData>
-            <SimpleData name="Cambio_de_">NO</SimpleData>
-            <SimpleData name="Titular_se">NO</SimpleData>
-            <SimpleData name="ci_UNIF">7047004.00000000000</SimpleData>
-            <SimpleData name="SituaciÛn">NO</SimpleData>
-            <SimpleData name="Comunidad">Campesina</SimpleData>
-            <SimpleData name="Modelo_imp">Modelo 1</SimpleData>
-            <SimpleData name="Departamen">CAAZAPA</SimpleData>
-            <SimpleData name="Distrito">TAVA?</SimpleData>
-            <SimpleData name="Localidad">ITA ANGUA</SimpleData>
-            <SimpleData name="TelÈfono">0983067017</SimpleData>
-            <SimpleData name="Vivienda_L">-26.17561110000</SimpleData>
-            <SimpleData name="Vivienda_1">-55.56285020000</SimpleData>
-            <SimpleData name="Superficie">0.80000000000</SimpleData>
-            <SimpleData name="Situaci_1">Pol?gono</SimpleData>
-            <SimpleData name="Plantado">SI</SimpleData>
-            <SimpleData name="Plantado_f">2025/10/27</SimpleData>
-            <SimpleData name="Jornales">0.00000000000</SimpleData>
-            <SimpleData name="Monto">0.00000000000</SimpleData>
-            <SimpleData name="Grupo_de_p">A-P1</SimpleData>
-            <SimpleData name="Estado_del">Activo</SimpleData>
-            <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
-            <SimpleData name="Lote">A</SimpleData>
-            <SimpleData name="Parametro">0.80000000000</SimpleData>
-            <SimpleData name="Situacion">Cumple</SimpleData>
-            <SimpleData name="X">-55.55958143000</SimpleData>
-            <SimpleData name="Y">-26.16412751000</SimpleData>
-            <SimpleData name="Sup_SIG">0.79984188578</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            -55.5595814327777,-26.1641275088175,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Distrito_TAVA__.6">
-        <ExtendedData>
-          <SchemaData schemaUrl="#Distrito_TAVA__.schema">
-            <SimpleData name="CÈdula">3009418.00000000000</SimpleData>
-            <SimpleData name="Nombres_y_">SARA ACU?A DUARTE</SimpleData>
-            <SimpleData name="Sexo">Mujer</SimpleData>
-            <SimpleData name="Cambio_de_">NO</SimpleData>
-            <SimpleData name="Titular_se">NO</SimpleData>
-            <SimpleData name="ci_UNIF">3009418.00000000000</SimpleData>
-            <SimpleData name="SituaciÛn">NO</SimpleData>
-            <SimpleData name="Comunidad">Campesina</SimpleData>
-            <SimpleData name="Modelo_imp">Modelo 1</SimpleData>
-            <SimpleData name="Departamen">CAAZAPA</SimpleData>
-            <SimpleData name="Distrito">TAVA?</SimpleData>
-            <SimpleData name="Localidad">TORO BLANCO</SimpleData>
-            <SimpleData name="TelÈfono">0981767082</SimpleData>
-            <SimpleData name="Vivienda_L">-26.24034280000</SimpleData>
-            <SimpleData name="Vivienda_1">-55.69065360000</SimpleData>
-            <SimpleData name="Superficie">0.80000000000</SimpleData>
-            <SimpleData name="Situaci_1">Pol?gono</SimpleData>
-            <SimpleData name="Plantado">SI</SimpleData>
-            <SimpleData name="Plantado_f">2025/09/27</SimpleData>
-            <SimpleData name="Jornales">0.00000000000</SimpleData>
-            <SimpleData name="Monto">0.00000000000</SimpleData>
-            <SimpleData name="Grupo_de_p">A-P1</SimpleData>
-            <SimpleData name="Estado_del">Activo</SimpleData>
-            <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
-            <SimpleData name="Lote">A</SimpleData>
-            <SimpleData name="Parametro">0.80000000000</SimpleData>
-            <SimpleData name="Situacion">Cumple</SimpleData>
-            <SimpleData name="X">-55.68975005000</SimpleData>
-            <SimpleData name="Y">-26.23830584000</SimpleData>
-            <SimpleData name="Sup_SIG">1.01518465643</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            -55.6897500527918,-26.2383058370728,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Distrito_TAVA__.7">
-        <ExtendedData>
-          <SchemaData schemaUrl="#Distrito_TAVA__.schema">
-            <SimpleData name="CÈdula">5153841.00000000000</SimpleData>
-            <SimpleData name="Nombres_y_">MARIA ELIZABETH ORUE ORTIGOZA</SimpleData>
-            <SimpleData name="Sexo">Mujer</SimpleData>
-            <SimpleData name="Cambio_de_">NO</SimpleData>
-            <SimpleData name="Titular_se">NO</SimpleData>
-            <SimpleData name="ci_UNIF">5153841.00000000000</SimpleData>
-            <SimpleData name="SituaciÛn">NO</SimpleData>
-            <SimpleData name="Comunidad">Campesina</SimpleData>
-            <SimpleData name="Modelo_imp">Modelo 1</SimpleData>
-            <SimpleData name="Departamen">CAAZAPA</SimpleData>
-            <SimpleData name="Distrito">TAVA?</SimpleData>
-            <SimpleData name="Localidad">SAN AGUSTIN</SimpleData>
-            <SimpleData name="TelÈfono">0981707289</SimpleData>
-            <SimpleData name="Vivienda_L">-26.17192260000</SimpleData>
-            <SimpleData name="Vivienda_1">-55.59495620000</SimpleData>
-            <SimpleData name="Superficie">0.80000000000</SimpleData>
-            <SimpleData name="Situaci_1">Par?metro</SimpleData>
-            <SimpleData name="Plantado">SI</SimpleData>
-            <SimpleData name="Plantado_f">2025/10/24</SimpleData>
-            <SimpleData name="Jornales">0.00000000000</SimpleData>
-            <SimpleData name="Monto">0.00000000000</SimpleData>
-            <SimpleData name="Grupo_de_p">A-P1</SimpleData>
-            <SimpleData name="Estado_del">Activo</SimpleData>
-            <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
-            <SimpleData name="Lote">A</SimpleData>
-            <SimpleData name="Parametro">0.80000000000</SimpleData>
-            <SimpleData name="Situacion">Cumple</SimpleData>
-            <SimpleData name="X">-55.58160738000</SimpleData>
-            <SimpleData name="Y">-26.15262766000</SimpleData>
-            <SimpleData name="Sup_SIG">0.84942952964</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            -55.5816073764658,-26.1526276643483,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Distrito_TAVA__.8">
-        <ExtendedData>
-          <SchemaData schemaUrl="#Distrito_TAVA__.schema">
-            <SimpleData name="CÈdula">6827440.00000000000</SimpleData>
-            <SimpleData name="Nombres_y_">AMALIA CONCEPCION  BENITEZ GONZALEZ</SimpleData>
-            <SimpleData name="Sexo">Mujer</SimpleData>
-            <SimpleData name="Cambio_de_">SI</SimpleData>
-            <SimpleData name="Titular_se">BLANCA NIMIA BENITEZ GONZ?LEZ</SimpleData>
-            <SimpleData name="CÈdula_Ti">1539394</SimpleData>
-            <SimpleData name="ci_UNIF">1539394.00000000000</SimpleData>
-            <SimpleData name="SituaciÛn">NO</SimpleData>
-            <SimpleData name="Comunidad">Campesina</SimpleData>
-            <SimpleData name="Modelo_imp">Modelo 1</SimpleData>
-            <SimpleData name="Departamen">CAAZAPA</SimpleData>
-            <SimpleData name="Distrito">TAVA?</SimpleData>
-            <SimpleData name="Localidad">VIRGEN DEL CARMEN</SimpleData>
-            <SimpleData name="TelÈfono">983787123</SimpleData>
-            <SimpleData name="Vivienda_L">-26.23974830000</SimpleData>
-            <SimpleData name="Vivienda_1">-55.68095500000</SimpleData>
-            <SimpleData name="Superficie">0.80000000000</SimpleData>
-            <SimpleData name="Situaci_1">Pol?gono</SimpleData>
-            <SimpleData name="Plantado">SI</SimpleData>
-            <SimpleData name="Plantado_f">2025/09/24</SimpleData>
-            <SimpleData name="Jornales">0.00000000000</SimpleData>
-            <SimpleData name="Monto">0.00000000000</SimpleData>
-            <SimpleData name="Grupo_de_p">A-P2</SimpleData>
-            <SimpleData name="Estado_del">Activo</SimpleData>
-            <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
-            <SimpleData name="Lote">A</SimpleData>
-            <SimpleData name="Parametro">0.80000000000</SimpleData>
-            <SimpleData name="Situacion">Cumple</SimpleData>
-            <SimpleData name="X">-55.68116440000</SimpleData>
-            <SimpleData name="Y">-26.24024554000</SimpleData>
-            <SimpleData name="Sup_SIG">0.82475065440</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            -55.6811643955076,-26.2402455440598,0
-          </coordinates>
-        </Point>
       </Placemark>
     </Document>
   </Document>
