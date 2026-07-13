@@ -79,47 +79,6 @@
       <Placemark id="Distrito_YASY_CA__Y.2">
         <ExtendedData>
           <SchemaData schemaUrl="#Distrito_YASY_CA__Y.schema">
-            <SimpleData name="Cédula">1937002.00000000000</SimpleData>
-            <SimpleData name="Nombres_y_">ESTEBAN MEDINA</SimpleData>
-            <SimpleData name="Sexo">Hombre</SimpleData>
-            <SimpleData name="Cambio_de_">NO</SimpleData>
-            <SimpleData name="Titular_se">NO</SimpleData>
-            <SimpleData name="Cédula_Ti">NO</SimpleData>
-            <SimpleData name="ci_UNIF">1937002.00000000000</SimpleData>
-            <SimpleData name="Situación">NO</SimpleData>
-            <SimpleData name="Comunidad">Campesina</SimpleData>
-            <SimpleData name="Modelo_imp">Modelo 4</SimpleData>
-            <SimpleData name="Departamen">CANINDEYU</SimpleData>
-            <SimpleData name="Distrito">YASY CA?Y</SimpleData>
-            <SimpleData name="Localidad">ACEPAR 6TA LINEA</SimpleData>
-            <SimpleData name="Localidad_">ACEPAR 6TA LINEA</SimpleData>
-            <SimpleData name="Teléfono">0985983635</SimpleData>
-            <SimpleData name="Vivienda_L">-24.69555910000</SimpleData>
-            <SimpleData name="Vivienda_1">-55.77875080000</SimpleData>
-            <SimpleData name="Superficie">0.70000000000</SimpleData>
-            <SimpleData name="Fecha_Plan">2025/11/15</SimpleData>
-            <SimpleData name="Jornales">0.00000000000</SimpleData>
-            <SimpleData name="Monto">0.00000000000</SimpleData>
-            <SimpleData name="Grupo_de_p">G-P1-XX-XX-XX</SimpleData>
-            <SimpleData name="ETAPA_FAO">Mantenimiento A?o 1.1</SimpleData>
-            <SimpleData name="Estado_del">Activo</SimpleData>
-            <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
-            <SimpleData name="Lote">G</SimpleData>
-            <SimpleData name="X">-55.77871851000</SimpleData>
-            <SimpleData name="Y">-24.69461909000</SimpleData>
-            <SimpleData name="Sup_SIG">0.71831452506</SimpleData>
-            <SimpleData name="cedula">1937002</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            -55.7787185081503,-24.6946190868774,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Distrito_YASY_CA__Y.3">
-        <ExtendedData>
-          <SchemaData schemaUrl="#Distrito_YASY_CA__Y.schema">
             <SimpleData name="Cédula">2856210.00000000000</SimpleData>
             <SimpleData name="Nombres_y_">VIDALINA CONCEPCION GONZALEZ MARTINEZ</SimpleData>
             <SimpleData name="Sexo">Mujer</SimpleData>
@@ -155,6 +114,47 @@
         <Point>
           <coordinates>
             -55.7613944552937,-24.6882557705105,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Distrito_YASY_CA__Y.3">
+        <ExtendedData>
+          <SchemaData schemaUrl="#Distrito_YASY_CA__Y.schema">
+            <SimpleData name="Cédula">1937002.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">ESTEBAN MEDINA</SimpleData>
+            <SimpleData name="Sexo">Hombre</SimpleData>
+            <SimpleData name="Cambio_de_">NO</SimpleData>
+            <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="Cédula_Ti">NO</SimpleData>
+            <SimpleData name="ci_UNIF">1937002.00000000000</SimpleData>
+            <SimpleData name="Situación">NO</SimpleData>
+            <SimpleData name="Comunidad">Campesina</SimpleData>
+            <SimpleData name="Modelo_imp">Modelo 4</SimpleData>
+            <SimpleData name="Departamen">CANINDEYU</SimpleData>
+            <SimpleData name="Distrito">YASY CA?Y</SimpleData>
+            <SimpleData name="Localidad">ACEPAR 6TA LINEA</SimpleData>
+            <SimpleData name="Localidad_">ACEPAR 6TA LINEA</SimpleData>
+            <SimpleData name="Teléfono">0985983635</SimpleData>
+            <SimpleData name="Vivienda_L">-24.69555910000</SimpleData>
+            <SimpleData name="Vivienda_1">-55.77875080000</SimpleData>
+            <SimpleData name="Superficie">0.70000000000</SimpleData>
+            <SimpleData name="Fecha_Plan">2025/11/15</SimpleData>
+            <SimpleData name="Jornales">0.00000000000</SimpleData>
+            <SimpleData name="Monto">0.00000000000</SimpleData>
+            <SimpleData name="Grupo_de_p">G-P1-XX-XX-XX</SimpleData>
+            <SimpleData name="ETAPA_FAO">Mantenimiento A?o 1.1</SimpleData>
+            <SimpleData name="Estado_del">Activo</SimpleData>
+            <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
+            <SimpleData name="Lote">G</SimpleData>
+            <SimpleData name="X">-55.77871851000</SimpleData>
+            <SimpleData name="Y">-24.69461909000</SimpleData>
+            <SimpleData name="Sup_SIG">0.71831452506</SimpleData>
+            <SimpleData name="cedula">1937002</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -55.7787185081503,-24.6946190868774,0
           </coordinates>
         </Point>
       </Placemark>
