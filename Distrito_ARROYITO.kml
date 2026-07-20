@@ -32,62 +32,58 @@
       <SimpleField name="Y" type="double"/>
       <SimpleField name="Sup_SIG" type="double"/>
       <SimpleField name="cedula" type="string"/>
+      <SimpleField name="Shape_Leng" type="double"/>
+      <SimpleField name="Shape_Area" type="double"/>
     </Schema>
     <Document id="Distrito_ARROYITO">
       <name>Distrito_ARROYITO</name>
       <Placemark id="Distrito_ARROYITO.1">
         <ExtendedData>
           <SchemaData schemaUrl="#Distrito_ARROYITO.schema">
-            <SimpleData name="Cédula">7065795.00000000000</SimpleData>
-            <SimpleData name="Nombres_y_">ANIBAL ACOSTA ARCE</SimpleData>
-            <SimpleData name="Sexo">Hombre</SimpleData>
+            <SimpleData name="Cédula">7000773.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">FATIMA ELIZABETH CORONEL AREVALOS</SimpleData>
+            <SimpleData name="Sexo">Mujer</SimpleData>
             <SimpleData name="Cambio_de_">NO</SimpleData>
             <SimpleData name="Titular_se">NO</SimpleData>
             <SimpleData name="Cédula_Ti">NO</SimpleData>
-            <SimpleData name="ci_UNIF">7065795.00000000000</SimpleData>
+            <SimpleData name="ci_UNIF">7000773.00000000000</SimpleData>
             <SimpleData name="Situación">NO</SimpleData>
             <SimpleData name="Comunidad">Campesina</SimpleData>
             <SimpleData name="Modelo_imp">Modelo 5</SimpleData>
             <SimpleData name="Departamen">CONCEPCION</SimpleData>
             <SimpleData name="Distrito">ARROYITO</SimpleData>
-            <SimpleData name="Localidad">NUCLEO 5</SimpleData>
-            <SimpleData name="Localidad_">NUCLEO 5</SimpleData>
-            <SimpleData name="Teléfono">0971313335</SimpleData>
-            <SimpleData name="Vivienda_L">-23.24827930000</SimpleData>
-            <SimpleData name="Vivienda_1">-56.71632190000</SimpleData>
+            <SimpleData name="Localidad">NUCLEO 6</SimpleData>
+            <SimpleData name="Localidad_">NUCLEO 6</SimpleData>
+            <SimpleData name="Teléfono">0976803093</SimpleData>
+            <SimpleData name="Vivienda_L">-23.28979250000</SimpleData>
+            <SimpleData name="Vivienda_1">-56.70652970000</SimpleData>
             <SimpleData name="Superficie">0.70000000000</SimpleData>
-            <SimpleData name="Fecha_Plan">2026/05/04</SimpleData>
+            <SimpleData name="Fecha_Plan">2026/05/05</SimpleData>
             <SimpleData name="Jornales">0.00000000000</SimpleData>
             <SimpleData name="Monto">0.00000000000</SimpleData>
-            <SimpleData name="Grupo_de_p">J-P3-XX-XX-XX</SimpleData>
-            <SimpleData name="ETAPA_FAO">Mantenimiento A?o 1.1</SimpleData>
+            <SimpleData name="Grupo_de_p">J-P4-XX-XX-XX</SimpleData>
+            <SimpleData name="ETAPA_FAO">Plantaci?n</SimpleData>
             <SimpleData name="Estado_del">Activo</SimpleData>
             <SimpleData name="Empresa">Emilio Sol?s Grance</SimpleData>
             <SimpleData name="Lote">J</SimpleData>
-            <SimpleData name="X">-56.71580454000</SimpleData>
-            <SimpleData name="Y">-23.24966771000</SimpleData>
-            <SimpleData name="Sup_SIG">0.76834481987</SimpleData>
-            <SimpleData name="cedula">7065795</SimpleData>
+            <SimpleData name="X">-56.70612807000</SimpleData>
+            <SimpleData name="Y">-23.29108838000</SimpleData>
+            <SimpleData name="Sup_SIG">0.72087409879</SimpleData>
+            <SimpleData name="cedula">7000773</SimpleData>
+            <SimpleData name="Shape_Leng">392.31290327400</SimpleData>
+            <SimpleData name="Shape_Area">7208.74098793000</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Polygon>
           <outerBoundaryIs>
             <LinearRing>
               <coordinates>
-                -56.7155402991241,-23.2495727997011,0
-                -56.7153620992286,-23.2503323995279,0
-                -56.715601699355,-23.2504149993473,0
-                -56.7156599992948,-23.2501317000232,0
-                -56.7158967993379,-23.2501561998525,0
-                -56.7160042992131,-23.249945499736,0
-                -56.7161246993235,-23.2497821995724,0
-                -56.7162644995194,-23.2493382998941,0
-                -56.7161567998859,-23.2492655000961,0
-                -56.7160949994847,-23.2490999998525,0
-                -56.7157236990601,-23.2490283996649,0
-                -56.7156624990593,-23.2490982998253,0
-                -56.7156316991478,-23.2493616994093,0
-                -56.7155402991241,-23.2495727997011,0
+                -56.7057443995113,-23.2916858998856,0
+                -56.7062182000067,-23.2917937995573,0
+                -56.7064960999408,-23.2905153003043,0
+                -56.7061959994874,-23.2903804001791,0
+                -56.7060599992226,-23.2903636998672,0
+                -56.7057443995113,-23.2916858998856,0
               </coordinates>
             </LinearRing>
           </outerBoundaryIs>
@@ -96,89 +92,25 @@
       <Placemark id="Distrito_ARROYITO.2">
         <ExtendedData>
           <SchemaData schemaUrl="#Distrito_ARROYITO.schema">
-            <SimpleData name="Cédula">5742140.00000000000</SimpleData>
-            <SimpleData name="Nombres_y_">MIRIAN DIONISIA ALMADA CESPEDES</SimpleData>
+            <SimpleData name="Cédula">7753512.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">GLADYS MABEL MARTINEZ PEREIRA</SimpleData>
             <SimpleData name="Sexo">Mujer</SimpleData>
             <SimpleData name="Cambio_de_">NO</SimpleData>
             <SimpleData name="Titular_se">NO</SimpleData>
             <SimpleData name="Cédula_Ti">NO</SimpleData>
-            <SimpleData name="ci_UNIF">5742140.00000000000</SimpleData>
+            <SimpleData name="ci_UNIF">7753512.00000000000</SimpleData>
             <SimpleData name="Situación">NO</SimpleData>
             <SimpleData name="Comunidad">Campesina</SimpleData>
             <SimpleData name="Modelo_imp">Modelo 5</SimpleData>
             <SimpleData name="Departamen">CONCEPCION</SimpleData>
             <SimpleData name="Distrito">ARROYITO</SimpleData>
-            <SimpleData name="Localidad">NUCLEO 5</SimpleData>
-            <SimpleData name="Localidad_">NUCLEO 5</SimpleData>
-            <SimpleData name="Teléfono">0975298179</SimpleData>
-            <SimpleData name="Vivienda_L">-23.25626840000</SimpleData>
-            <SimpleData name="Vivienda_1">-56.72785450000</SimpleData>
+            <SimpleData name="Localidad">NUCLEO 4</SimpleData>
+            <SimpleData name="Localidad_">NUCLEO 4</SimpleData>
+            <SimpleData name="Teléfono">0985347854</SimpleData>
+            <SimpleData name="Vivienda_L">-23.25379750000</SimpleData>
+            <SimpleData name="Vivienda_1">-56.67526830000</SimpleData>
             <SimpleData name="Superficie">0.70000000000</SimpleData>
-            <SimpleData name="Fecha_Plan">2026/05/04</SimpleData>
-            <SimpleData name="Jornales">0.00000000000</SimpleData>
-            <SimpleData name="Monto">0.00000000000</SimpleData>
-            <SimpleData name="Grupo_de_p">J-P3-XX-XX-XX</SimpleData>
-            <SimpleData name="ETAPA_FAO">Mantenimiento A?o 1.1</SimpleData>
-            <SimpleData name="Estado_del">Activo</SimpleData>
-            <SimpleData name="Empresa">Emilio Sol?s Grance</SimpleData>
-            <SimpleData name="Lote">J</SimpleData>
-            <SimpleData name="X">-56.72759142000</SimpleData>
-            <SimpleData name="Y">-23.25714623000</SimpleData>
-            <SimpleData name="Sup_SIG">0.70681107241</SimpleData>
-            <SimpleData name="cedula">5742140</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <MultiGeometry>
-          <Polygon>
-            <outerBoundaryIs>
-              <LinearRing>
-                <coordinates>
-                  -56.72750199998,-23.2580872000862,0
-                  -56.7275737990421,-23.2576499997735,0
-                  -56.7272691998635,-23.2576441000064,0
-                  -56.7271593991537,-23.2579628998907,0
-                  -56.72750199998,-23.2580872000862,0
-                </coordinates>
-              </LinearRing>
-            </outerBoundaryIs>
-          </Polygon>
-          <Polygon>
-            <outerBoundaryIs>
-              <LinearRing>
-                <coordinates>
-                  -56.7277202994368,-23.2575885994509,0
-                  -56.7280010996945,-23.2564457001614,0
-                  -56.7275316996899,-23.2564266992717,0
-                  -56.7273035994275,-23.2574079997653,0
-                  -56.7277202994368,-23.2575885994509,0
-                </coordinates>
-              </LinearRing>
-            </outerBoundaryIs>
-          </Polygon>
-        </MultiGeometry>
-      </Placemark>
-      <Placemark id="Distrito_ARROYITO.3">
-        <ExtendedData>
-          <SchemaData schemaUrl="#Distrito_ARROYITO.schema">
-            <SimpleData name="Cédula">6620709.00000000000</SimpleData>
-            <SimpleData name="Nombres_y_">AIDA GRICELDA IRALA GONZALEZ</SimpleData>
-            <SimpleData name="Sexo">Mujer</SimpleData>
-            <SimpleData name="Cambio_de_">NO</SimpleData>
-            <SimpleData name="Titular_se">NO</SimpleData>
-            <SimpleData name="Cédula_Ti">NO</SimpleData>
-            <SimpleData name="ci_UNIF">6620709.00000000000</SimpleData>
-            <SimpleData name="Situación">NO</SimpleData>
-            <SimpleData name="Comunidad">Campesina</SimpleData>
-            <SimpleData name="Modelo_imp">Modelo 5</SimpleData>
-            <SimpleData name="Departamen">CONCEPCION</SimpleData>
-            <SimpleData name="Distrito">ARROYITO</SimpleData>
-            <SimpleData name="Localidad">NUCLEO 5</SimpleData>
-            <SimpleData name="Localidad_">NUCLEO 5</SimpleData>
-            <SimpleData name="Teléfono">0976843175</SimpleData>
-            <SimpleData name="Vivienda_L">-23.27263470000</SimpleData>
-            <SimpleData name="Vivienda_1">-56.72174700000</SimpleData>
-            <SimpleData name="Superficie">0.70000000000</SimpleData>
-            <SimpleData name="Fecha_Plan">2026/05/04</SimpleData>
+            <SimpleData name="Fecha_Plan">2026/05/18</SimpleData>
             <SimpleData name="Jornales">0.00000000000</SimpleData>
             <SimpleData name="Monto">0.00000000000</SimpleData>
             <SimpleData name="Grupo_de_p">J-P4-XX-XX-XX</SimpleData>
@@ -186,115 +118,49 @@
             <SimpleData name="Estado_del">Activo</SimpleData>
             <SimpleData name="Empresa">Emilio Sol?s Grance</SimpleData>
             <SimpleData name="Lote">J</SimpleData>
-            <SimpleData name="X">-56.72008461000</SimpleData>
-            <SimpleData name="Y">-23.27282390000</SimpleData>
-            <SimpleData name="Sup_SIG">0.70239548403</SimpleData>
-            <SimpleData name="cedula">6620709</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <MultiGeometry>
-          <Polygon>
-            <outerBoundaryIs>
-              <LinearRing>
-                <coordinates>
-                  -56.7204199997112,-23.2732500003922,0
-                  -56.7205493621867,-23.2726798408852,0
-                  -56.7205513003082,-23.2726712999638,0
-                  -56.7197543059037,-23.2724805822058,0
-                  -56.7196123000123,-23.272446600059,0
-                  -56.7194832991255,-23.2730300000856,0
-                  -56.7204199997112,-23.2732500003922,0
-                </coordinates>
-              </LinearRing>
-            </outerBoundaryIs>
-          </Polygon>
-          <Polygon>
-            <outerBoundaryIs>
-              <LinearRing>
-                <coordinates>
-                  -56.720915600027,-23.2727304995162,0
-                  -56.7210469001852,-23.2723178994478,0
-                  -56.7209445999777,-23.2722916996839,0
-                  -56.7208097000385,-23.272701200343,0
-                  -56.720915600027,-23.2727304995162,0
-                </coordinates>
-              </LinearRing>
-            </outerBoundaryIs>
-          </Polygon>
-        </MultiGeometry>
-      </Placemark>
-      <Placemark id="Distrito_ARROYITO.4">
-        <ExtendedData>
-          <SchemaData schemaUrl="#Distrito_ARROYITO.schema">
-            <SimpleData name="Cédula">2913537.00000000000</SimpleData>
-            <SimpleData name="Nombres_y_">VERONICA GAMARRA DE ZORRILLA</SimpleData>
-            <SimpleData name="Sexo">Mujer</SimpleData>
-            <SimpleData name="Cambio_de_">NO</SimpleData>
-            <SimpleData name="Titular_se">NO</SimpleData>
-            <SimpleData name="Cédula_Ti">NO</SimpleData>
-            <SimpleData name="ci_UNIF">2913537.00000000000</SimpleData>
-            <SimpleData name="Situación">NO</SimpleData>
-            <SimpleData name="Comunidad">Campesina</SimpleData>
-            <SimpleData name="Modelo_imp">Modelo 5</SimpleData>
-            <SimpleData name="Departamen">CONCEPCION</SimpleData>
-            <SimpleData name="Distrito">ARROYITO</SimpleData>
-            <SimpleData name="Localidad">NUCLEO 5</SimpleData>
-            <SimpleData name="Localidad_">NUCLEO 5</SimpleData>
-            <SimpleData name="Teléfono">0974232846</SimpleData>
-            <SimpleData name="Vivienda_L">-23.25066390000</SimpleData>
-            <SimpleData name="Vivienda_1">-56.73157910000</SimpleData>
-            <SimpleData name="Superficie">0.70000000000</SimpleData>
-            <SimpleData name="Fecha_Plan">2026/05/04</SimpleData>
-            <SimpleData name="Jornales">0.00000000000</SimpleData>
-            <SimpleData name="Monto">0.00000000000</SimpleData>
-            <SimpleData name="Grupo_de_p">J-P3-XX-XX-XX</SimpleData>
-            <SimpleData name="ETAPA_FAO">Mantenimiento A?o 1.1</SimpleData>
-            <SimpleData name="Estado_del">Activo</SimpleData>
-            <SimpleData name="Empresa">Emilio Sol?s Grance</SimpleData>
-            <SimpleData name="Lote">J</SimpleData>
-            <SimpleData name="X">-56.73221488000</SimpleData>
-            <SimpleData name="Y">-23.25016255000</SimpleData>
-            <SimpleData name="Sup_SIG">0.80165334405</SimpleData>
-            <SimpleData name="cedula">2913537</SimpleData>
+            <SimpleData name="X">-56.67409623000</SimpleData>
+            <SimpleData name="Y">-23.25213549000</SimpleData>
+            <SimpleData name="Sup_SIG">0.75138367203</SimpleData>
+            <SimpleData name="cedula">7753512</SimpleData>
+            <SimpleData name="Shape_Leng">371.99765158500</SimpleData>
+            <SimpleData name="Shape_Area">7513.83672028000</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Polygon>
           <outerBoundaryIs>
             <LinearRing>
               <coordinates>
-                -56.7321119993368,-23.2510356999859,0
-                -56.7323532992049,-23.2511032994653,0
-                -56.7324840991741,-23.2506486997928,0
-                -56.7326682996259,-23.2498249993312,0
-                -56.7317721993051,-23.2495300001007,0
-                -56.7316293994108,-23.2500044994122,0
-                -56.7322662999007,-23.250198399424,0
-                -56.7321119993368,-23.2510356999859,0
+                -56.6735987000467,-23.2517489002206,0
+                -56.6740817006492,-23.2527697000959,0
+                -56.6746300002189,-23.2525249995262,0
+                -56.674068299936,-23.2514917006391,0
+                -56.6735964995598,-23.2517087003489,0
+                -56.6735987000467,-23.2517489002206,0
               </coordinates>
             </LinearRing>
           </outerBoundaryIs>
         </Polygon>
       </Placemark>
-      <Placemark id="Distrito_ARROYITO.5">
+      <Placemark id="Distrito_ARROYITO.3">
         <ExtendedData>
           <SchemaData schemaUrl="#Distrito_ARROYITO.schema">
-            <SimpleData name="Cédula">6004001.00000000000</SimpleData>
-            <SimpleData name="Nombres_y_">GLORIA BEATRIZ MONTIEL MARTINEZ</SimpleData>
+            <SimpleData name="Cédula">7467853.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">CELFIRIA ENRRIQUEZ</SimpleData>
             <SimpleData name="Sexo">Mujer</SimpleData>
             <SimpleData name="Cambio_de_">NO</SimpleData>
             <SimpleData name="Titular_se">NO</SimpleData>
             <SimpleData name="Cédula_Ti">NO</SimpleData>
-            <SimpleData name="ci_UNIF">6004001.00000000000</SimpleData>
+            <SimpleData name="ci_UNIF">7467853.00000000000</SimpleData>
             <SimpleData name="Situación">NO</SimpleData>
             <SimpleData name="Comunidad">Campesina</SimpleData>
             <SimpleData name="Modelo_imp">Modelo 5</SimpleData>
             <SimpleData name="Departamen">CONCEPCION</SimpleData>
             <SimpleData name="Distrito">ARROYITO</SimpleData>
-            <SimpleData name="Localidad">NUCLEO 5</SimpleData>
-            <SimpleData name="Localidad_">NUCLEO 5</SimpleData>
-            <SimpleData name="Teléfono">0971829399</SimpleData>
-            <SimpleData name="Vivienda_L">-23.27254780000</SimpleData>
-            <SimpleData name="Vivienda_1">-56.72110550000</SimpleData>
+            <SimpleData name="Localidad">NUCLEO 3</SimpleData>
+            <SimpleData name="Localidad_">NUCLEO 3</SimpleData>
+            <SimpleData name="Teléfono">0975577121</SimpleData>
+            <SimpleData name="Vivienda_L">-23.22965600000</SimpleData>
+            <SimpleData name="Vivienda_1">-56.68968320000</SimpleData>
             <SimpleData name="Superficie">0.70000000000</SimpleData>
             <SimpleData name="Fecha_Plan">2026/05/04</SimpleData>
             <SimpleData name="Jornales">0.00000000000</SimpleData>
@@ -304,26 +170,145 @@
             <SimpleData name="Estado_del">Activo</SimpleData>
             <SimpleData name="Empresa">Emilio Sol?s Grance</SimpleData>
             <SimpleData name="Lote">J</SimpleData>
-            <SimpleData name="X">-56.72012654000</SimpleData>
-            <SimpleData name="Y">-23.27221882000</SimpleData>
-            <SimpleData name="Sup_SIG">0.72024164396</SimpleData>
-            <SimpleData name="cedula">6004001</SimpleData>
+            <SimpleData name="X">-56.69057314000</SimpleData>
+            <SimpleData name="Y">-23.22881937000</SimpleData>
+            <SimpleData name="Sup_SIG">0.71311714616</SimpleData>
+            <SimpleData name="cedula">7467853</SimpleData>
+            <SimpleData name="Shape_Leng">336.01459339800</SimpleData>
+            <SimpleData name="Shape_Area">7131.17146155000</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Polygon>
           <outerBoundaryIs>
             <LinearRing>
               <coordinates>
-                -56.7197543059037,-23.2724805822058,0
-                -56.7205513003082,-23.2726712999638,0
-                -56.7205493621867,-23.2726798408852,0
-                -56.7205499993493,-23.2726800000982,0
-                -56.7206903003985,-23.272131100239,0
-                -56.7200951999019,-23.2719605998211,0
-                -56.7201641000271,-23.2717152004504,0
-                -56.7197877006004,-23.2716926003117,0
-                -56.7196262993831,-23.2724485003289,0
-                -56.7197543059037,-23.2724805822058,0
+                -56.6900366992814,-23.2288232997481,0
+                -56.6906780995567,-23.2293433003646,0
+                -56.6911699996907,-23.2289382995614,0
+                -56.6904998995056,-23.2282740003547,0
+                -56.690055000227,-23.2286549996159,0
+                -56.6900366992814,-23.2288232997481,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark id="Distrito_ARROYITO.4">
+        <ExtendedData>
+          <SchemaData schemaUrl="#Distrito_ARROYITO.schema">
+            <SimpleData name="Cédula">6619197.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">ROSA GABRIELA ROMERO</SimpleData>
+            <SimpleData name="Sexo">Mujer</SimpleData>
+            <SimpleData name="Cambio_de_">NO</SimpleData>
+            <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="Cédula_Ti">NO</SimpleData>
+            <SimpleData name="ci_UNIF">6619197.00000000000</SimpleData>
+            <SimpleData name="Situación">NO</SimpleData>
+            <SimpleData name="Comunidad">Campesina</SimpleData>
+            <SimpleData name="Modelo_imp">Modelo 5</SimpleData>
+            <SimpleData name="Departamen">CONCEPCION</SimpleData>
+            <SimpleData name="Distrito">ARROYITO</SimpleData>
+            <SimpleData name="Localidad">NUCLEO 3</SimpleData>
+            <SimpleData name="Localidad_">NUCLEO 3</SimpleData>
+            <SimpleData name="Teléfono">0981677469</SimpleData>
+            <SimpleData name="Vivienda_L">-23.23580310000</SimpleData>
+            <SimpleData name="Vivienda_1">-56.71156780000</SimpleData>
+            <SimpleData name="Superficie">0.70000000000</SimpleData>
+            <SimpleData name="Fecha_Plan">2026/05/05</SimpleData>
+            <SimpleData name="Jornales">0.00000000000</SimpleData>
+            <SimpleData name="Monto">0.00000000000</SimpleData>
+            <SimpleData name="Grupo_de_p">J-P3-XX-XX-XX</SimpleData>
+            <SimpleData name="ETAPA_FAO">Mantenimiento A?o 1.1</SimpleData>
+            <SimpleData name="Estado_del">Activo</SimpleData>
+            <SimpleData name="Empresa">Emilio Sol?s Grance</SimpleData>
+            <SimpleData name="Lote">J</SimpleData>
+            <SimpleData name="X">-56.71084735000</SimpleData>
+            <SimpleData name="Y">-23.23653531000</SimpleData>
+            <SimpleData name="Sup_SIG">0.79767091719</SimpleData>
+            <SimpleData name="cedula">6619197</SimpleData>
+            <SimpleData name="Shape_Leng">558.19858094000</SimpleData>
+            <SimpleData name="Shape_Area">7976.70917192000</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <MultiGeometry>
+          <Polygon>
+            <outerBoundaryIs>
+              <LinearRing>
+                <coordinates>
+                  -56.6745518997187,-23.2633748994483,0
+                  -56.6751935995083,-23.2630705996655,0
+                  -56.6751329991634,-23.2629821997587,0
+                  -56.6744826990338,-23.2632728000203,0
+                  -56.6745518997187,-23.2633748994483,0
+                </coordinates>
+              </LinearRing>
+            </outerBoundaryIs>
+          </Polygon>
+          <Polygon>
+            <outerBoundaryIs>
+              <LinearRing>
+                <coordinates>
+                  -56.7104849990396,-23.2371532995006,0
+                  -56.7115276999234,-23.2362563994941,0
+                  -56.7111807991782,-23.2359427998325,0
+                  -56.7101779992881,-23.2367954999627,0
+                  -56.7103751999139,-23.236987199856,0
+                  -56.7104849990396,-23.2371532995006,0
+                </coordinates>
+              </LinearRing>
+            </outerBoundaryIs>
+          </Polygon>
+        </MultiGeometry>
+      </Placemark>
+      <Placemark id="Distrito_ARROYITO.5">
+        <ExtendedData>
+          <SchemaData schemaUrl="#Distrito_ARROYITO.schema">
+            <SimpleData name="Cédula">6747497.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">FATIMA ELIZABETH SANCHEZ GONZALEZ</SimpleData>
+            <SimpleData name="Sexo">Mujer</SimpleData>
+            <SimpleData name="Cambio_de_">NO</SimpleData>
+            <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="Cédula_Ti">NO</SimpleData>
+            <SimpleData name="ci_UNIF">6747497.00000000000</SimpleData>
+            <SimpleData name="Situación">NO</SimpleData>
+            <SimpleData name="Comunidad">Campesina</SimpleData>
+            <SimpleData name="Modelo_imp">Modelo 5</SimpleData>
+            <SimpleData name="Departamen">CONCEPCION</SimpleData>
+            <SimpleData name="Distrito">ARROYITO</SimpleData>
+            <SimpleData name="Localidad">NUCLEO 3</SimpleData>
+            <SimpleData name="Localidad_">NUCLEO 3</SimpleData>
+            <SimpleData name="Teléfono">0972948232</SimpleData>
+            <SimpleData name="Vivienda_L">-23.22637500000</SimpleData>
+            <SimpleData name="Vivienda_1">-56.69405720000</SimpleData>
+            <SimpleData name="Superficie">0.70000000000</SimpleData>
+            <SimpleData name="Fecha_Plan">2026/05/05</SimpleData>
+            <SimpleData name="Jornales">0.00000000000</SimpleData>
+            <SimpleData name="Monto">0.00000000000</SimpleData>
+            <SimpleData name="Grupo_de_p">J-P4-XX-XX-XX</SimpleData>
+            <SimpleData name="ETAPA_FAO">Plantaci?n</SimpleData>
+            <SimpleData name="Estado_del">Activo</SimpleData>
+            <SimpleData name="Empresa">Emilio Sol?s Grance</SimpleData>
+            <SimpleData name="Lote">J</SimpleData>
+            <SimpleData name="X">-56.69059930000</SimpleData>
+            <SimpleData name="Y">-23.22325624000</SimpleData>
+            <SimpleData name="Sup_SIG">0.73832521555</SimpleData>
+            <SimpleData name="cedula">6747497</SimpleData>
+            <SimpleData name="Shape_Leng">349.16290053400</SimpleData>
+            <SimpleData name="Shape_Area">7383.25215546000</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+                -56.6907340081487,-23.2227053900659,0
+                -56.6899747002964,-23.2233580997503,0
+                -56.6904551002065,-23.223784499919,0
+                -56.6908599999354,-23.2234833001983,0
+                -56.6912118000496,-23.2231982998727,0
+                -56.6908188147907,-23.2227861429642,0
+                -56.690738300531,-23.2227017003577,0
+                -56.6907340081487,-23.2227053900659,0
               </coordinates>
             </LinearRing>
           </outerBoundaryIs>
@@ -332,23 +317,1315 @@
       <Placemark id="Distrito_ARROYITO.6">
         <ExtendedData>
           <SchemaData schemaUrl="#Distrito_ARROYITO.schema">
-            <SimpleData name="Cédula">5866461.00000000000</SimpleData>
-            <SimpleData name="Nombres_y_">SELVA NOEMI VEGA FRETES</SimpleData>
-            <SimpleData name="Sexo">Mujer</SimpleData>
+            <SimpleData name="Cédula">3860015.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">EDISSON VILLALBA DENIS</SimpleData>
+            <SimpleData name="Sexo">Hombre</SimpleData>
             <SimpleData name="Cambio_de_">NO</SimpleData>
             <SimpleData name="Titular_se">NO</SimpleData>
             <SimpleData name="Cédula_Ti">NO</SimpleData>
-            <SimpleData name="ci_UNIF">5866461.00000000000</SimpleData>
+            <SimpleData name="ci_UNIF">3860015.00000000000</SimpleData>
             <SimpleData name="Situación">NO</SimpleData>
             <SimpleData name="Comunidad">Campesina</SimpleData>
             <SimpleData name="Modelo_imp">Modelo 5</SimpleData>
             <SimpleData name="Departamen">CONCEPCION</SimpleData>
             <SimpleData name="Distrito">ARROYITO</SimpleData>
-            <SimpleData name="Localidad">NUCLEO 5</SimpleData>
-            <SimpleData name="Localidad_">NUCLEO 5</SimpleData>
-            <SimpleData name="Teléfono">0986855950</SimpleData>
-            <SimpleData name="Vivienda_L">-23.26083350000</SimpleData>
-            <SimpleData name="Vivienda_1">-56.72207490000</SimpleData>
+            <SimpleData name="Localidad">NUCLEO 6</SimpleData>
+            <SimpleData name="Localidad_">NUCLEO 6</SimpleData>
+            <SimpleData name="Teléfono">0976504011</SimpleData>
+            <SimpleData name="Vivienda_L">-23.29373300000</SimpleData>
+            <SimpleData name="Vivienda_1">-56.70068710000</SimpleData>
+            <SimpleData name="Superficie">0.70000000000</SimpleData>
+            <SimpleData name="Fecha_Plan">2026/05/07</SimpleData>
+            <SimpleData name="Jornales">0.00000000000</SimpleData>
+            <SimpleData name="Monto">0.00000000000</SimpleData>
+            <SimpleData name="Grupo_de_p">J-P4-XX-XX-XX</SimpleData>
+            <SimpleData name="ETAPA_FAO">Plantaci?n</SimpleData>
+            <SimpleData name="Estado_del">Activo</SimpleData>
+            <SimpleData name="Empresa">Emilio Sol?s Grance</SimpleData>
+            <SimpleData name="Lote">J</SimpleData>
+            <SimpleData name="X">-56.70560341000</SimpleData>
+            <SimpleData name="Y">-23.29227677000</SimpleData>
+            <SimpleData name="Sup_SIG">0.84302080127</SimpleData>
+            <SimpleData name="cedula">3860015</SimpleData>
+            <SimpleData name="Shape_Leng">537.60584219600</SimpleData>
+            <SimpleData name="Shape_Area">8430.20801269000</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <MultiGeometry>
+          <Polygon>
+            <outerBoundaryIs>
+              <LinearRing>
+                <coordinates>
+                  -56.7003598993263,-23.2938817995874,0
+                  -56.7005306999973,-23.2933002995742,0
+                  -56.6999767003484,-23.2931867002441,0
+                  -56.6998369001705,-23.2937776993846,0
+                  -56.7003598993263,-23.2938817995874,0
+                </coordinates>
+              </LinearRing>
+            </outerBoundaryIs>
+          </Polygon>
+          <Polygon>
+            <outerBoundaryIs>
+              <LinearRing>
+                <coordinates>
+                  -56.7060191003498,-23.2925716004211,0
+                  -56.7061302993365,-23.2921598999061,0
+                  -56.7051711001244,-23.2919754999976,0
+                  -56.7051013992746,-23.2924085000403,0
+                  -56.7060191003498,-23.2925716004211,0
+                </coordinates>
+              </LinearRing>
+            </outerBoundaryIs>
+          </Polygon>
+        </MultiGeometry>
+      </Placemark>
+      <Placemark id="Distrito_ARROYITO.7">
+        <ExtendedData>
+          <SchemaData schemaUrl="#Distrito_ARROYITO.schema">
+            <SimpleData name="Cédula">7389275.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">RUSMARI ROMINA RAMIREZ ROMERO</SimpleData>
+            <SimpleData name="Sexo">Mujer</SimpleData>
+            <SimpleData name="Cambio_de_">NO</SimpleData>
+            <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="Cédula_Ti">NO</SimpleData>
+            <SimpleData name="ci_UNIF">7389275.00000000000</SimpleData>
+            <SimpleData name="Situación">NO</SimpleData>
+            <SimpleData name="Comunidad">Campesina</SimpleData>
+            <SimpleData name="Modelo_imp">Modelo 5</SimpleData>
+            <SimpleData name="Departamen">CONCEPCION</SimpleData>
+            <SimpleData name="Distrito">ARROYITO</SimpleData>
+            <SimpleData name="Localidad">NUCLEO 3</SimpleData>
+            <SimpleData name="Localidad_">NUCLEO 3</SimpleData>
+            <SimpleData name="Teléfono">0971829301</SimpleData>
+            <SimpleData name="Vivienda_L">-23.23559670000</SimpleData>
+            <SimpleData name="Vivienda_1">-56.71153890000</SimpleData>
+            <SimpleData name="Superficie">0.70000000000</SimpleData>
+            <SimpleData name="Fecha_Plan">2026/05/20</SimpleData>
+            <SimpleData name="Jornales">0.00000000000</SimpleData>
+            <SimpleData name="Monto">0.00000000000</SimpleData>
+            <SimpleData name="Grupo_de_p">J-P4-XX-XX-XX</SimpleData>
+            <SimpleData name="ETAPA_FAO">Plantaci?n</SimpleData>
+            <SimpleData name="Estado_del">Activo</SimpleData>
+            <SimpleData name="Empresa">Emilio Sol?s Grance</SimpleData>
+            <SimpleData name="Lote">J</SimpleData>
+            <SimpleData name="X">-56.70957859000</SimpleData>
+            <SimpleData name="Y">-23.24339483000</SimpleData>
+            <SimpleData name="Sup_SIG">0.77512854664</SimpleData>
+            <SimpleData name="cedula">7389275</SimpleData>
+            <SimpleData name="Shape_Leng">365.85735838600</SimpleData>
+            <SimpleData name="Shape_Area">7751.28546640000</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+                -56.7089617993792,-23.2432300997303,0
+                -56.7097156996081,-23.2439763999022,0
+                -56.7102117004796,-23.2435832994692,0
+                -56.7094167004812,-23.2427967003812,0
+                -56.7089617993792,-23.2432300997303,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark id="Distrito_ARROYITO.8">
+        <ExtendedData>
+          <SchemaData schemaUrl="#Distrito_ARROYITO.schema">
+            <SimpleData name="Cédula">7198369.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">NILSA ILUMINADA GARCIA DUARTE</SimpleData>
+            <SimpleData name="Sexo">Mujer</SimpleData>
+            <SimpleData name="Cambio_de_">NO</SimpleData>
+            <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="Cédula_Ti">NO</SimpleData>
+            <SimpleData name="ci_UNIF">7198369.00000000000</SimpleData>
+            <SimpleData name="Situación">NO</SimpleData>
+            <SimpleData name="Comunidad">Campesina</SimpleData>
+            <SimpleData name="Modelo_imp">Modelo 5</SimpleData>
+            <SimpleData name="Departamen">CONCEPCION</SimpleData>
+            <SimpleData name="Distrito">ARROYITO</SimpleData>
+            <SimpleData name="Localidad">NUCLEO 3</SimpleData>
+            <SimpleData name="Localidad_">NUCLEO 3</SimpleData>
+            <SimpleData name="Teléfono">0976662162</SimpleData>
+            <SimpleData name="Vivienda_L">-23.23902880000</SimpleData>
+            <SimpleData name="Vivienda_1">-56.69026080000</SimpleData>
+            <SimpleData name="Superficie">0.70000000000</SimpleData>
+            <SimpleData name="Fecha_Plan">2026/05/05</SimpleData>
+            <SimpleData name="Jornales">0.00000000000</SimpleData>
+            <SimpleData name="Monto">0.00000000000</SimpleData>
+            <SimpleData name="Grupo_de_p">J-P4-XX-XX-XX</SimpleData>
+            <SimpleData name="ETAPA_FAO">Plantaci?n</SimpleData>
+            <SimpleData name="Estado_del">Activo</SimpleData>
+            <SimpleData name="Empresa">Emilio Sol?s Grance</SimpleData>
+            <SimpleData name="Lote">J</SimpleData>
+            <SimpleData name="X">-56.69618019000</SimpleData>
+            <SimpleData name="Y">-23.22507013000</SimpleData>
+            <SimpleData name="Sup_SIG">0.74359634435</SimpleData>
+            <SimpleData name="cedula">7198369</SimpleData>
+            <SimpleData name="Shape_Leng">449.85077297200</SimpleData>
+            <SimpleData name="Shape_Area">7435.96344354000</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+                -56.6955699997526,-23.2251700003453,0
+                -56.6962442997954,-23.2258569007663,0
+                -56.6964032996065,-23.2256849999692,0
+                -56.696070000759,-23.2254050000787,0
+                -56.6967921000801,-23.2247470005948,0
+                -56.6964770004518,-23.2244244004022,0
+                -56.6955699997526,-23.2251700003453,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark id="Distrito_ARROYITO.9">
+        <ExtendedData>
+          <SchemaData schemaUrl="#Distrito_ARROYITO.schema">
+            <SimpleData name="Cédula">7213721.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">ROBERTO PALACIOS FERNANDEZ</SimpleData>
+            <SimpleData name="Sexo">Hombre</SimpleData>
+            <SimpleData name="Cambio_de_">NO</SimpleData>
+            <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="Cédula_Ti">NO</SimpleData>
+            <SimpleData name="ci_UNIF">7213721.00000000000</SimpleData>
+            <SimpleData name="Situación">NO</SimpleData>
+            <SimpleData name="Comunidad">Ind?gena</SimpleData>
+            <SimpleData name="Modelo_imp">Modelo 1</SimpleData>
+            <SimpleData name="Departamen">CONCEPCION</SimpleData>
+            <SimpleData name="Distrito">ARROYITO</SimpleData>
+            <SimpleData name="Localidad">COM INDIG KORAI PUNTA SUERTE</SimpleData>
+            <SimpleData name="Localidad_">KORAI PUNTA SUERTE</SimpleData>
+            <SimpleData name="Teléfono">0976844550</SimpleData>
+            <SimpleData name="Vivienda_L">-23.26309550000</SimpleData>
+            <SimpleData name="Vivienda_1">-56.74811700000</SimpleData>
+            <SimpleData name="Superficie">0.80000000000</SimpleData>
+            <SimpleData name="Fecha_Plan">2026/05/27</SimpleData>
+            <SimpleData name="Jornales">0.00000000000</SimpleData>
+            <SimpleData name="Monto">0.00000000000</SimpleData>
+            <SimpleData name="Grupo_de_p">J-P4-XX-XX-XX</SimpleData>
+            <SimpleData name="ETAPA_FAO">Plantaci?n</SimpleData>
+            <SimpleData name="Estado_del">Activo</SimpleData>
+            <SimpleData name="Empresa">Emilio Sol?s Grance</SimpleData>
+            <SimpleData name="Lote">J</SimpleData>
+            <SimpleData name="X">-56.75046631000</SimpleData>
+            <SimpleData name="Y">-23.26441113000</SimpleData>
+            <SimpleData name="Sup_SIG">0.80227327771</SimpleData>
+            <SimpleData name="cedula">7213721</SimpleData>
+            <SimpleData name="Shape_Leng">413.31306758200</SimpleData>
+            <SimpleData name="Shape_Area">8022.73277705000</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+                -56.7502812999701,-23.2639372003479,0
+                -56.7498590000574,-23.264446499972,0
+                -56.7504467005755,-23.2650199999768,0
+                -56.7511804999679,-23.2641102005558,0
+                -56.7508717001684,-23.2640132998522,0
+                -56.7507838007435,-23.2642709998466,0
+                -56.7505999992475,-23.2640566997451,0
+                -56.7504867000037,-23.2639850002789,0
+                -56.7502812999701,-23.2639372003479,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark id="Distrito_ARROYITO.10">
+        <ExtendedData>
+          <SchemaData schemaUrl="#Distrito_ARROYITO.schema">
+            <SimpleData name="Cédula">6115508.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">LETICIA SOLEDAD VALIENTE PAEZ</SimpleData>
+            <SimpleData name="Sexo">Mujer</SimpleData>
+            <SimpleData name="Cambio_de_">NO</SimpleData>
+            <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="Cédula_Ti">NO</SimpleData>
+            <SimpleData name="ci_UNIF">6115508.00000000000</SimpleData>
+            <SimpleData name="Situación">NO</SimpleData>
+            <SimpleData name="Comunidad">Campesina</SimpleData>
+            <SimpleData name="Modelo_imp">Modelo 5</SimpleData>
+            <SimpleData name="Departamen">CONCEPCION</SimpleData>
+            <SimpleData name="Distrito">ARROYITO</SimpleData>
+            <SimpleData name="Localidad">NUCLEO 6</SimpleData>
+            <SimpleData name="Localidad_">NUCLEO 6</SimpleData>
+            <SimpleData name="Teléfono">0983582437</SimpleData>
+            <SimpleData name="Vivienda_L">-23.29322260000</SimpleData>
+            <SimpleData name="Vivienda_1">-56.69872440000</SimpleData>
+            <SimpleData name="Superficie">0.70000000000</SimpleData>
+            <SimpleData name="Fecha_Plan">2026/05/07</SimpleData>
+            <SimpleData name="Jornales">0.00000000000</SimpleData>
+            <SimpleData name="Monto">0.00000000000</SimpleData>
+            <SimpleData name="Grupo_de_p">J-P4-XX-XX-XX</SimpleData>
+            <SimpleData name="ETAPA_FAO">Plantaci?n</SimpleData>
+            <SimpleData name="Estado_del">Activo</SimpleData>
+            <SimpleData name="Empresa">Emilio Sol?s Grance</SimpleData>
+            <SimpleData name="Lote">J</SimpleData>
+            <SimpleData name="X">-56.69622311000</SimpleData>
+            <SimpleData name="Y">-23.29282987000</SimpleData>
+            <SimpleData name="Sup_SIG">0.72764062078</SimpleData>
+            <SimpleData name="cedula">6115508</SimpleData>
+            <SimpleData name="Shape_Leng">376.96083200400</SimpleData>
+            <SimpleData name="Shape_Area">7276.40620782000</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+                -56.6955098995352,-23.2929552003514,0
+                -56.6968264001291,-23.2931806005144,0
+                -56.6969122000488,-23.2926995997113,0
+                -56.6956500999244,-23.2924783002576,0
+                -56.6955098995352,-23.2929552003514,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark id="Distrito_ARROYITO.11">
+        <ExtendedData>
+          <SchemaData schemaUrl="#Distrito_ARROYITO.schema">
+            <SimpleData name="Cédula">7189106.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">MARLENE BEATRIZ GARCETE AQUINO</SimpleData>
+            <SimpleData name="Sexo">Mujer</SimpleData>
+            <SimpleData name="Cambio_de_">NO</SimpleData>
+            <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="Cédula_Ti">NO</SimpleData>
+            <SimpleData name="ci_UNIF">7189106.00000000000</SimpleData>
+            <SimpleData name="Situación">NO</SimpleData>
+            <SimpleData name="Comunidad">Campesina</SimpleData>
+            <SimpleData name="Modelo_imp">Modelo 5</SimpleData>
+            <SimpleData name="Departamen">CONCEPCION</SimpleData>
+            <SimpleData name="Distrito">ARROYITO</SimpleData>
+            <SimpleData name="Localidad">NUCLEO 2</SimpleData>
+            <SimpleData name="Localidad_">NUCLEO 2</SimpleData>
+            <SimpleData name="Teléfono">0986150781</SimpleData>
+            <SimpleData name="Vivienda_L">-23.23843050000</SimpleData>
+            <SimpleData name="Vivienda_1">-56.74189920000</SimpleData>
+            <SimpleData name="Superficie">0.70000000000</SimpleData>
+            <SimpleData name="Fecha_Plan">2026/05/26</SimpleData>
+            <SimpleData name="Jornales">0.00000000000</SimpleData>
+            <SimpleData name="Monto">0.00000000000</SimpleData>
+            <SimpleData name="Grupo_de_p">J-P4-XX-XX-XX</SimpleData>
+            <SimpleData name="ETAPA_FAO">Plantaci?n</SimpleData>
+            <SimpleData name="Estado_del">Activo</SimpleData>
+            <SimpleData name="Empresa">Emilio Sol?s Grance</SimpleData>
+            <SimpleData name="Lote">J</SimpleData>
+            <SimpleData name="X">-56.74151471000</SimpleData>
+            <SimpleData name="Y">-23.23769657000</SimpleData>
+            <SimpleData name="Sup_SIG">0.80066753701</SimpleData>
+            <SimpleData name="cedula">7189106</SimpleData>
+            <SimpleData name="Shape_Leng">360.77970494000</SimpleData>
+            <SimpleData name="Shape_Area">8006.67537009000</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+                -56.7408877996462,-23.2377548000618,0
+                -56.74141930064,-23.2382673994747,0
+                -56.7421513997552,-23.2376298006881,0
+                -56.7415923000872,-23.2371312996652,0
+                -56.7408877996462,-23.2377548000618,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark id="Distrito_ARROYITO.12">
+        <ExtendedData>
+          <SchemaData schemaUrl="#Distrito_ARROYITO.schema">
+            <SimpleData name="Cédula">6684618.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">ANA CAROLINA ALVARENGA IRALA</SimpleData>
+            <SimpleData name="Sexo">Mujer</SimpleData>
+            <SimpleData name="Cambio_de_">NO</SimpleData>
+            <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="Cédula_Ti">NO</SimpleData>
+            <SimpleData name="ci_UNIF">6684618.00000000000</SimpleData>
+            <SimpleData name="Situación">NO</SimpleData>
+            <SimpleData name="Comunidad">Campesina</SimpleData>
+            <SimpleData name="Modelo_imp">Modelo 5</SimpleData>
+            <SimpleData name="Departamen">CONCEPCION</SimpleData>
+            <SimpleData name="Distrito">ARROYITO</SimpleData>
+            <SimpleData name="Localidad">NUCLEO 4</SimpleData>
+            <SimpleData name="Localidad_">NUCLEO 4</SimpleData>
+            <SimpleData name="Teléfono">0985409795</SimpleData>
+            <SimpleData name="Vivienda_L">-23.25879810000</SimpleData>
+            <SimpleData name="Vivienda_1">-56.68096750000</SimpleData>
+            <SimpleData name="Superficie">0.70000000000</SimpleData>
+            <SimpleData name="Fecha_Plan">2026/05/18</SimpleData>
+            <SimpleData name="Jornales">0.00000000000</SimpleData>
+            <SimpleData name="Monto">0.00000000000</SimpleData>
+            <SimpleData name="Grupo_de_p">J-P4-XX-XX-XX</SimpleData>
+            <SimpleData name="ETAPA_FAO">Plantaci?n</SimpleData>
+            <SimpleData name="Estado_del">Activo</SimpleData>
+            <SimpleData name="Empresa">Emilio Sol?s Grance</SimpleData>
+            <SimpleData name="Lote">J</SimpleData>
+            <SimpleData name="X">-56.68188852000</SimpleData>
+            <SimpleData name="Y">-23.25935061000</SimpleData>
+            <SimpleData name="Sup_SIG">0.76688695341</SimpleData>
+            <SimpleData name="cedula">6684618</SimpleData>
+            <SimpleData name="Shape_Leng">468.94054767700</SimpleData>
+            <SimpleData name="Shape_Area">7668.86953408000</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+                -56.6812733003271,-23.2586050002218,0
+                -56.6821416000982,-23.2602166996734,0
+                -56.6824858997089,-23.2600552005372,0
+                -56.681658399674,-23.2585217992494,0
+                -56.6812733003271,-23.2586050002218,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark id="Distrito_ARROYITO.13">
+        <ExtendedData>
+          <SchemaData schemaUrl="#Distrito_ARROYITO.schema">
+            <SimpleData name="Cédula">7024482.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">MARIA CONCEPCION ALEN MARTINEZ</SimpleData>
+            <SimpleData name="Sexo">Mujer</SimpleData>
+            <SimpleData name="Cambio_de_">NO</SimpleData>
+            <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="Cédula_Ti">NO</SimpleData>
+            <SimpleData name="ci_UNIF">7024482.00000000000</SimpleData>
+            <SimpleData name="Situación">NO</SimpleData>
+            <SimpleData name="Comunidad">Campesina</SimpleData>
+            <SimpleData name="Modelo_imp">Modelo 5</SimpleData>
+            <SimpleData name="Departamen">CONCEPCION</SimpleData>
+            <SimpleData name="Distrito">ARROYITO</SimpleData>
+            <SimpleData name="Localidad">NUCLEO 2</SimpleData>
+            <SimpleData name="Localidad_">NUCLEO 2</SimpleData>
+            <SimpleData name="Teléfono">0984178695</SimpleData>
+            <SimpleData name="Vivienda_L">-23.24134340000</SimpleData>
+            <SimpleData name="Vivienda_1">-56.74020660000</SimpleData>
+            <SimpleData name="Superficie">0.70000000000</SimpleData>
+            <SimpleData name="Fecha_Plan">2026/05/27</SimpleData>
+            <SimpleData name="Jornales">0.00000000000</SimpleData>
+            <SimpleData name="Monto">0.00000000000</SimpleData>
+            <SimpleData name="Grupo_de_p">J-P4-XX-XX-XX</SimpleData>
+            <SimpleData name="ETAPA_FAO">Plantaci?n</SimpleData>
+            <SimpleData name="Estado_del">Activo</SimpleData>
+            <SimpleData name="Empresa">Emilio Sol?s Grance</SimpleData>
+            <SimpleData name="Lote">J</SimpleData>
+            <SimpleData name="X">-56.74038418000</SimpleData>
+            <SimpleData name="Y">-23.24176853000</SimpleData>
+            <SimpleData name="Sup_SIG">0.77750531556</SimpleData>
+            <SimpleData name="cedula">7024482</SimpleData>
+            <SimpleData name="Shape_Leng">369.63418979700</SimpleData>
+            <SimpleData name="Shape_Area">7775.05315556000</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+                -56.7406970995857,-23.2413385999917,0
+                -56.7402076001868,-23.2415383995465,0
+                -56.740122700341,-23.2414040000887,0
+                -56.739840900509,-23.2414940996778,0
+                -56.7398031995941,-23.2415267000588,0
+                -56.7397992004494,-23.241595799408,0
+                -56.7400050000219,-23.2421982001983,0
+                -56.740104899995,-23.2421642998272,0
+                -56.7405668997953,-23.2420819000532,0
+                -56.740971400431,-23.2419474999061,0
+                -56.7410524004066,-23.2418816998732,0
+                -56.7406970995857,-23.2413385999917,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark id="Distrito_ARROYITO.14">
+        <ExtendedData>
+          <SchemaData schemaUrl="#Distrito_ARROYITO.schema">
+            <SimpleData name="Cédula">7770565.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">MANUELA BRIZUELA ALEN</SimpleData>
+            <SimpleData name="Sexo">Mujer</SimpleData>
+            <SimpleData name="Cambio_de_">NO</SimpleData>
+            <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="Cédula_Ti">NO</SimpleData>
+            <SimpleData name="ci_UNIF">7770565.00000000000</SimpleData>
+            <SimpleData name="Situación">NO</SimpleData>
+            <SimpleData name="Comunidad">Campesina</SimpleData>
+            <SimpleData name="Modelo_imp">Modelo 5</SimpleData>
+            <SimpleData name="Departamen">CONCEPCION</SimpleData>
+            <SimpleData name="Distrito">ARROYITO</SimpleData>
+            <SimpleData name="Localidad">NUCLEO 2</SimpleData>
+            <SimpleData name="Localidad_">NUCLEO 2</SimpleData>
+            <SimpleData name="Teléfono">0974607560</SimpleData>
+            <SimpleData name="Vivienda_L">-23.23859170000</SimpleData>
+            <SimpleData name="Vivienda_1">-56.75168290000</SimpleData>
+            <SimpleData name="Superficie">0.70000000000</SimpleData>
+            <SimpleData name="Fecha_Plan">2026/05/20</SimpleData>
+            <SimpleData name="Jornales">0.00000000000</SimpleData>
+            <SimpleData name="Monto">0.00000000000</SimpleData>
+            <SimpleData name="Grupo_de_p">J-P4-XX-XX-XX</SimpleData>
+            <SimpleData name="ETAPA_FAO">Plantaci?n</SimpleData>
+            <SimpleData name="Estado_del">Activo</SimpleData>
+            <SimpleData name="Empresa">Emilio Sol?s Grance</SimpleData>
+            <SimpleData name="Lote">J</SimpleData>
+            <SimpleData name="X">-56.70842849000</SimpleData>
+            <SimpleData name="Y">-23.24413471000</SimpleData>
+            <SimpleData name="Sup_SIG">0.80239119853</SimpleData>
+            <SimpleData name="cedula">7770565</SimpleData>
+            <SimpleData name="Shape_Leng">403.54152822700</SimpleData>
+            <SimpleData name="Shape_Area">8023.91198534000</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+                -56.7077882997784,-23.2438600000996,0
+                -56.7087307001788,-23.2448094003079,0
+                -56.7090875003571,-23.2444430001163,0
+                -56.708110100001,-23.243440200218,0
+                -56.7077882997784,-23.2438600000996,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark id="Distrito_ARROYITO.15">
+        <ExtendedData>
+          <SchemaData schemaUrl="#Distrito_ARROYITO.schema">
+            <SimpleData name="Cédula">7210028.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">RUFINA GARCETE TORRES</SimpleData>
+            <SimpleData name="Sexo">Mujer</SimpleData>
+            <SimpleData name="Cambio_de_">NO</SimpleData>
+            <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="Cédula_Ti">NO</SimpleData>
+            <SimpleData name="ci_UNIF">7210028.00000000000</SimpleData>
+            <SimpleData name="Situación">NO</SimpleData>
+            <SimpleData name="Comunidad">Ind?gena</SimpleData>
+            <SimpleData name="Modelo_imp">Modelo 2</SimpleData>
+            <SimpleData name="Departamen">CONCEPCION</SimpleData>
+            <SimpleData name="Distrito">ARROYITO</SimpleData>
+            <SimpleData name="Localidad">COM INDIG KORAI PUNTA SUERTE</SimpleData>
+            <SimpleData name="Localidad_">KORAI PUNTA SUERTE</SimpleData>
+            <SimpleData name="Teléfono">0975376046</SimpleData>
+            <SimpleData name="Vivienda_L">-23.26307470000</SimpleData>
+            <SimpleData name="Vivienda_1">-56.74826060000</SimpleData>
+            <SimpleData name="Superficie">0.80000000000</SimpleData>
+            <SimpleData name="Fecha_Plan">2026/05/27</SimpleData>
+            <SimpleData name="Jornales">0.00000000000</SimpleData>
+            <SimpleData name="Monto">0.00000000000</SimpleData>
+            <SimpleData name="Grupo_de_p">J-P4-XX-XX-XX</SimpleData>
+            <SimpleData name="ETAPA_FAO">Plantaci?n</SimpleData>
+            <SimpleData name="Estado_del">Activo</SimpleData>
+            <SimpleData name="Empresa">Emilio Sol?s Grance</SimpleData>
+            <SimpleData name="Lote">J</SimpleData>
+            <SimpleData name="X">-56.75013294000</SimpleData>
+            <SimpleData name="Y">-23.26863447000</SimpleData>
+            <SimpleData name="Sup_SIG">0.80319747307</SimpleData>
+            <SimpleData name="cedula">7210028</SimpleData>
+            <SimpleData name="Shape_Leng">392.31918483900</SimpleData>
+            <SimpleData name="Shape_Area">8031.97473073000</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+                -56.7498186997885,-23.2685109000978,0
+                -56.7498248001361,-23.2686494998495,0
+                -56.7495689992525,-23.268593899871,0
+                -56.7495111000328,-23.2689262004378,0
+                -56.7504985997441,-23.2690782000054,0
+                -56.7506549998669,-23.2683116998749,0
+                -56.7502810997712,-23.2682191000157,0
+                -56.7498683008126,-23.2681400004651,0
+                -56.7498186997885,-23.2685109000978,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark id="Distrito_ARROYITO.16">
+        <ExtendedData>
+          <SchemaData schemaUrl="#Distrito_ARROYITO.schema">
+            <SimpleData name="Cédula">6994252.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">LISANDRI SILVA COHENE</SimpleData>
+            <SimpleData name="Sexo">Mujer</SimpleData>
+            <SimpleData name="Cambio_de_">NO</SimpleData>
+            <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="Cédula_Ti">NO</SimpleData>
+            <SimpleData name="ci_UNIF">6994252.00000000000</SimpleData>
+            <SimpleData name="Situación">NO</SimpleData>
+            <SimpleData name="Comunidad">Campesina</SimpleData>
+            <SimpleData name="Modelo_imp">Modelo 5</SimpleData>
+            <SimpleData name="Departamen">CONCEPCION</SimpleData>
+            <SimpleData name="Distrito">ARROYITO</SimpleData>
+            <SimpleData name="Localidad">NUCLEO 1</SimpleData>
+            <SimpleData name="Localidad_">NUCLEO 1</SimpleData>
+            <SimpleData name="Teléfono">0971812172</SimpleData>
+            <SimpleData name="Vivienda_L">-23.21280530000</SimpleData>
+            <SimpleData name="Vivienda_1">-56.72815780000</SimpleData>
+            <SimpleData name="Superficie">0.70000000000</SimpleData>
+            <SimpleData name="Fecha_Plan">2026/06/04</SimpleData>
+            <SimpleData name="Jornales">0.00000000000</SimpleData>
+            <SimpleData name="Monto">0.00000000000</SimpleData>
+            <SimpleData name="Grupo_de_p">J-P4-XX-XX-XX</SimpleData>
+            <SimpleData name="ETAPA_FAO">Plantaci?n</SimpleData>
+            <SimpleData name="Estado_del">Activo</SimpleData>
+            <SimpleData name="Empresa">Emilio Sol?s Grance</SimpleData>
+            <SimpleData name="Lote">J</SimpleData>
+            <SimpleData name="X">-56.72747669000</SimpleData>
+            <SimpleData name="Y">-23.21203576000</SimpleData>
+            <SimpleData name="Sup_SIG">0.81819523581</SimpleData>
+            <SimpleData name="cedula">6994252</SimpleData>
+            <SimpleData name="Shape_Leng">485.01224597000</SimpleData>
+            <SimpleData name="Shape_Area">8181.95235811000</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+                -56.7271340999372,-23.2119316995184,0
+                -56.7268606997233,-23.2122213999091,0
+                -56.7268987999699,-23.2122701004611,0
+                -56.727093000389,-23.2124801001902,0
+                -56.7274741999226,-23.2121110007138,0
+                -56.7280307003304,-23.2126060999096,0
+                -56.7282081995122,-23.2124663995048,0
+                -56.7282424007353,-23.2123324999423,0
+                -56.7272085001953,-23.2113917998264,0
+                -56.7268960999192,-23.2117151000535,0
+                -56.7271340999372,-23.2119316995184,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark id="Distrito_ARROYITO.17">
+        <ExtendedData>
+          <SchemaData schemaUrl="#Distrito_ARROYITO.schema">
+            <SimpleData name="Cédula">7269952.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">NILDA ESTELA GARCIA DUARTE</SimpleData>
+            <SimpleData name="Sexo">Mujer</SimpleData>
+            <SimpleData name="Cambio_de_">NO</SimpleData>
+            <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="Cédula_Ti">NO</SimpleData>
+            <SimpleData name="ci_UNIF">7269952.00000000000</SimpleData>
+            <SimpleData name="Situación">NO</SimpleData>
+            <SimpleData name="Comunidad">Campesina</SimpleData>
+            <SimpleData name="Modelo_imp">Modelo 5</SimpleData>
+            <SimpleData name="Departamen">CONCEPCION</SimpleData>
+            <SimpleData name="Distrito">ARROYITO</SimpleData>
+            <SimpleData name="Localidad">NUCLEO 3</SimpleData>
+            <SimpleData name="Localidad_">NUCLEO 3</SimpleData>
+            <SimpleData name="Teléfono">0972892629</SimpleData>
+            <SimpleData name="Vivienda_L">-23.22654170000</SimpleData>
+            <SimpleData name="Vivienda_1">-56.69489830000</SimpleData>
+            <SimpleData name="Superficie">0.70000000000</SimpleData>
+            <SimpleData name="Fecha_Plan">2026/05/19</SimpleData>
+            <SimpleData name="Jornales">0.00000000000</SimpleData>
+            <SimpleData name="Monto">0.00000000000</SimpleData>
+            <SimpleData name="Grupo_de_p">J-P4-XX-XX-XX</SimpleData>
+            <SimpleData name="ETAPA_FAO">Plantaci?n</SimpleData>
+            <SimpleData name="Estado_del">Activo</SimpleData>
+            <SimpleData name="Empresa">Emilio Sol?s Grance</SimpleData>
+            <SimpleData name="Lote">J</SimpleData>
+            <SimpleData name="X">-56.69420198000</SimpleData>
+            <SimpleData name="Y">-23.22452206000</SimpleData>
+            <SimpleData name="Sup_SIG">0.84527644602</SimpleData>
+            <SimpleData name="cedula">7269952</SimpleData>
+            <SimpleData name="Shape_Leng">545.30732412300</SimpleData>
+            <SimpleData name="Shape_Area">8452.76446021000</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <MultiGeometry>
+          <Polygon>
+            <outerBoundaryIs>
+              <LinearRing>
+                <coordinates>
+                  -56.693436700084,-23.2248200000049,0
+                  -56.6935699999049,-23.224985000146,0
+                  -56.6939494991993,-23.2247512997264,0
+                  -56.6940512997485,-23.2247794995814,0
+                  -56.6942553993182,-23.2250038001115,0
+                  -56.6943034000837,-23.2250417999596,0
+                  -56.6946202994053,-23.224785400649,0
+                  -56.6939733005362,-23.2241150002268,0
+                  -56.6933082998135,-23.2246932997174,0
+                  -56.693436700084,-23.2248200000049,0
+                </coordinates>
+              </LinearRing>
+            </outerBoundaryIs>
+          </Polygon>
+          <Polygon>
+            <outerBoundaryIs>
+              <LinearRing>
+                <coordinates>
+                  -56.6950418000824,-23.2244367995066,0
+                  -56.695357599349,-23.2241728999603,0
+                  -56.6950615997812,-23.2238822009364,0
+                  -56.6947777995954,-23.2241616005003,0
+                  -56.6950418000824,-23.2244367995066,0
+                </coordinates>
+              </LinearRing>
+            </outerBoundaryIs>
+          </Polygon>
+        </MultiGeometry>
+      </Placemark>
+      <Placemark id="Distrito_ARROYITO.18">
+        <ExtendedData>
+          <SchemaData schemaUrl="#Distrito_ARROYITO.schema">
+            <SimpleData name="Cédula">8386027.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">SANDRA BARBARA VELAZQUEZ CUEVAS</SimpleData>
+            <SimpleData name="Sexo">Mujer</SimpleData>
+            <SimpleData name="Cambio_de_">NO</SimpleData>
+            <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="Cédula_Ti">NO</SimpleData>
+            <SimpleData name="ci_UNIF">8386027.00000000000</SimpleData>
+            <SimpleData name="Situación">NO</SimpleData>
+            <SimpleData name="Comunidad">Ind?gena</SimpleData>
+            <SimpleData name="Modelo_imp">Modelo 2</SimpleData>
+            <SimpleData name="Departamen">CONCEPCION</SimpleData>
+            <SimpleData name="Distrito">ARROYITO</SimpleData>
+            <SimpleData name="Localidad">COM INDIG KORAI PUNTA SUERTE</SimpleData>
+            <SimpleData name="Localidad_">KORAI PUNTA SUERTE</SimpleData>
+            <SimpleData name="Teléfono">0985376046</SimpleData>
+            <SimpleData name="Vivienda_L">-23.26639730000</SimpleData>
+            <SimpleData name="Vivienda_1">-56.75036210000</SimpleData>
+            <SimpleData name="Superficie">0.80000000000</SimpleData>
+            <SimpleData name="Fecha_Plan">2026/05/27</SimpleData>
+            <SimpleData name="Jornales">0.00000000000</SimpleData>
+            <SimpleData name="Monto">0.00000000000</SimpleData>
+            <SimpleData name="Grupo_de_p">J-P4-XX-XX-XX</SimpleData>
+            <SimpleData name="ETAPA_FAO">Plantaci?n</SimpleData>
+            <SimpleData name="Estado_del">Activo</SimpleData>
+            <SimpleData name="Empresa">Emilio Sol?s Grance</SimpleData>
+            <SimpleData name="Lote">J</SimpleData>
+            <SimpleData name="X">-56.74999209000</SimpleData>
+            <SimpleData name="Y">-23.26524274000</SimpleData>
+            <SimpleData name="Sup_SIG">0.84551654463</SimpleData>
+            <SimpleData name="cedula">8386027</SimpleData>
+            <SimpleData name="Shape_Leng">516.41705994000</SimpleData>
+            <SimpleData name="Shape_Area">8455.16544628000</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+                -56.749458100123,-23.265144900421,0
+                -56.7497257004395,-23.2653265001733,0
+                -56.7497731000168,-23.2653450005061,0
+                -56.7498680997221,-23.2653059997917,0
+                -56.7499265004569,-23.2652835995417,0
+                -56.7500184993652,-23.2653405993777,0
+                -56.7499260996964,-23.2654595995068,0
+                -56.7498660995768,-23.2655656995661,0
+                -56.7498223000404,-23.2656821999129,0
+                -56.749845900305,-23.265735900356,0
+                -56.7500221996835,-23.2657930995239,0
+                -56.7499531996047,-23.2659700001362,0
+                -56.7498771001063,-23.2661962000981,0
+                -56.7498863007853,-23.2662672003334,0
+                -56.7499552996136,-23.2662765998635,0
+                -56.750005399919,-23.2662574003405,0
+                -56.7504682998204,-23.2650883000352,0
+                -56.7498300000888,-23.264495000274,0
+                -56.7497084999722,-23.2646500004435,0
+                -56.7496520002587,-23.2648283002296,0
+                -56.749558599484,-23.2649656004857,0
+                -56.7494987000337,-23.2650742993895,0
+                -56.749458100123,-23.265144900421,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark id="Distrito_ARROYITO.19">
+        <ExtendedData>
+          <SchemaData schemaUrl="#Distrito_ARROYITO.schema">
+            <SimpleData name="Cédula">7224710.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">GABINO BENITEZ GONZALEZ</SimpleData>
+            <SimpleData name="Sexo">Hombre</SimpleData>
+            <SimpleData name="Cambio_de_">NO</SimpleData>
+            <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="Cédula_Ti">NO</SimpleData>
+            <SimpleData name="ci_UNIF">7224710.00000000000</SimpleData>
+            <SimpleData name="Situación">NO</SimpleData>
+            <SimpleData name="Comunidad">Ind?gena</SimpleData>
+            <SimpleData name="Modelo_imp">Modelo 5</SimpleData>
+            <SimpleData name="Departamen">CONCEPCION</SimpleData>
+            <SimpleData name="Distrito">ARROYITO</SimpleData>
+            <SimpleData name="Localidad">COM INDIG KORAI PUNTA SUERTE</SimpleData>
+            <SimpleData name="Localidad_">KORAI PUNTA SUERTE</SimpleData>
+            <SimpleData name="Teléfono">0975376046</SimpleData>
+            <SimpleData name="Vivienda_L">-23.26298270000</SimpleData>
+            <SimpleData name="Vivienda_1">-56.74860060000</SimpleData>
+            <SimpleData name="Superficie">0.70000000000</SimpleData>
+            <SimpleData name="Fecha_Plan">2026/05/27</SimpleData>
+            <SimpleData name="Jornales">0.00000000000</SimpleData>
+            <SimpleData name="Monto">0.00000000000</SimpleData>
+            <SimpleData name="Grupo_de_p">J-P4-XX-XX-XX</SimpleData>
+            <SimpleData name="ETAPA_FAO">Plantaci?n</SimpleData>
+            <SimpleData name="Estado_del">Activo</SimpleData>
+            <SimpleData name="Empresa">Emilio Sol?s Grance</SimpleData>
+            <SimpleData name="Lote">J</SimpleData>
+            <SimpleData name="X">-56.75009940000</SimpleData>
+            <SimpleData name="Y">-23.26690779000</SimpleData>
+            <SimpleData name="Sup_SIG">0.75976139015</SimpleData>
+            <SimpleData name="cedula">7224710</SimpleData>
+            <SimpleData name="Shape_Leng">481.53788536900</SimpleData>
+            <SimpleData name="Shape_Area">7597.61390145000</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+                -56.7505956215122,-23.2668751026028,0
+                -56.7506525527466,-23.2666144476887,0
+                -56.7506567999287,-23.2665949998841,0
+                -56.7504963000323,-23.2665382998689,0
+                -56.7503498998392,-23.2665177996076,0
+                -56.7503282998625,-23.2666444994064,0
+                -56.7502394003359,-23.2666886995975,0
+                -56.7498752003868,-23.2665869998379,0
+                -56.7493302996633,-23.2665868001068,0
+                -56.7492499999936,-23.2666288003617,0
+                -56.7492599998433,-23.2668075999927,0
+                -56.7493272997925,-23.2668210999123,0
+                -56.7497175002938,-23.266818600629,0
+                -56.7496647002027,-23.2669801995774,0
+                -56.7497730005026,-23.2670163004113,0
+                -56.7498952994763,-23.2670996999126,0
+                -56.7500556999239,-23.2671050997049,0
+                -56.7501532996822,-23.2671405003398,0
+                -56.7502569000214,-23.2671982998566,0
+                -56.750188399755,-23.2674100003762,0
+                -56.7502532996919,-23.2675416000085,0
+                -56.7504094002645,-23.2675634996554,0
+                -56.7504533008202,-23.2675267000192,0
+                -56.7505956215122,-23.2668751026028,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark id="Distrito_ARROYITO.20">
+        <ExtendedData>
+          <SchemaData schemaUrl="#Distrito_ARROYITO.schema">
+            <SimpleData name="Cédula">4420224.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">ROQUE AMALIO ROMERO PAREDES</SimpleData>
+            <SimpleData name="Sexo">Hombre</SimpleData>
+            <SimpleData name="Cambio_de_">NO</SimpleData>
+            <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="Cédula_Ti">NO</SimpleData>
+            <SimpleData name="ci_UNIF">4420224.00000000000</SimpleData>
+            <SimpleData name="Situación">NO</SimpleData>
+            <SimpleData name="Comunidad">Campesina</SimpleData>
+            <SimpleData name="Modelo_imp">Modelo 5</SimpleData>
+            <SimpleData name="Departamen">CONCEPCION</SimpleData>
+            <SimpleData name="Distrito">ARROYITO</SimpleData>
+            <SimpleData name="Localidad">NUCLEO 3</SimpleData>
+            <SimpleData name="Localidad_">NUCLEO 3</SimpleData>
+            <SimpleData name="Teléfono">0976664208</SimpleData>
+            <SimpleData name="Vivienda_L">-23.22083830000</SimpleData>
+            <SimpleData name="Vivienda_1">-56.69720170000</SimpleData>
+            <SimpleData name="Superficie">0.70000000000</SimpleData>
+            <SimpleData name="Fecha_Plan">2026/05/05</SimpleData>
+            <SimpleData name="Jornales">0.00000000000</SimpleData>
+            <SimpleData name="Monto">0.00000000000</SimpleData>
+            <SimpleData name="Grupo_de_p">J-P3-XX-XX-XX</SimpleData>
+            <SimpleData name="ETAPA_FAO">Mantenimiento A?o 1.1</SimpleData>
+            <SimpleData name="Estado_del">Activo</SimpleData>
+            <SimpleData name="Empresa">Emilio Sol?s Grance</SimpleData>
+            <SimpleData name="Lote">J</SimpleData>
+            <SimpleData name="X">-56.69815449000</SimpleData>
+            <SimpleData name="Y">-23.22022102000</SimpleData>
+            <SimpleData name="Sup_SIG">0.73776235967</SimpleData>
+            <SimpleData name="cedula">4420224</SimpleData>
+            <SimpleData name="Shape_Leng">403.83855770100</SimpleData>
+            <SimpleData name="Shape_Area">7377.62359670000</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+                -56.697843547751,-23.2201853934758,0
+                -56.697498199189,-23.2204935994031,0
+                -56.6974870942756,-23.2204818946166,0
+                -56.6974496993933,-23.220512999533,0
+                -56.6977549999178,-23.2208617000773,0
+                -56.6988249999015,-23.2199399996127,0
+                -56.6988116998837,-23.2198585000104,0
+                -56.6985698991963,-23.2195811998647,0
+                -56.697843547751,-23.2201853934758,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark id="Distrito_ARROYITO.21">
+        <ExtendedData>
+          <SchemaData schemaUrl="#Distrito_ARROYITO.schema">
+            <SimpleData name="Cédula">7750497.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">SANDRA ESTELA LIME?O MARTINEZ</SimpleData>
+            <SimpleData name="Sexo">Mujer</SimpleData>
+            <SimpleData name="Cambio_de_">NO</SimpleData>
+            <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="Cédula_Ti">NO</SimpleData>
+            <SimpleData name="ci_UNIF">7750497.00000000000</SimpleData>
+            <SimpleData name="Situación">NO</SimpleData>
+            <SimpleData name="Comunidad">Campesina</SimpleData>
+            <SimpleData name="Modelo_imp">Modelo 5</SimpleData>
+            <SimpleData name="Departamen">CONCEPCION</SimpleData>
+            <SimpleData name="Distrito">ARROYITO</SimpleData>
+            <SimpleData name="Localidad">NUCLEO 3</SimpleData>
+            <SimpleData name="Localidad_">NUCLEO 3</SimpleData>
+            <SimpleData name="Teléfono">0976252413</SimpleData>
+            <SimpleData name="Vivienda_L">-23.22335230000</SimpleData>
+            <SimpleData name="Vivienda_1">-56.69145970000</SimpleData>
+            <SimpleData name="Superficie">0.70000000000</SimpleData>
+            <SimpleData name="Fecha_Plan">2026/05/05</SimpleData>
+            <SimpleData name="Jornales">0.00000000000</SimpleData>
+            <SimpleData name="Monto">0.00000000000</SimpleData>
+            <SimpleData name="Grupo_de_p">J-P3-XX-XX-XX</SimpleData>
+            <SimpleData name="ETAPA_FAO">Mantenimiento A?o 1.1</SimpleData>
+            <SimpleData name="Estado_del">Activo</SimpleData>
+            <SimpleData name="Empresa">Emilio Sol?s Grance</SimpleData>
+            <SimpleData name="Lote">J</SimpleData>
+            <SimpleData name="X">-56.69201585000</SimpleData>
+            <SimpleData name="Y">-23.22266547000</SimpleData>
+            <SimpleData name="Sup_SIG">0.77995611568</SimpleData>
+            <SimpleData name="cedula">7750497</SimpleData>
+            <SimpleData name="Shape_Leng">623.72762881500</SimpleData>
+            <SimpleData name="Shape_Area">7799.56115679000</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+                -56.6918549376581,-23.2223808031887,0
+                -56.6910861170941,-23.2230238234291,0
+                -56.691224799205,-23.2231549999418,0
+                -56.6914739993966,-23.22302269987,0
+                -56.6917874993199,-23.2233107995295,0
+                -56.6919229995231,-23.2231985000191,0
+                -56.6916631992144,-23.2229384995294,0
+                -56.691302899341,-23.2228923000046,0
+                -56.6916564990948,-23.2225779996955,0
+                -56.692088299039,-23.2230482998532,0
+                -56.6927181993402,-23.2225282996553,0
+                -56.6922399994359,-23.222069999375,0
+                -56.6918549376581,-23.2223808031887,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark id="Distrito_ARROYITO.22">
+        <ExtendedData>
+          <SchemaData schemaUrl="#Distrito_ARROYITO.schema">
+            <SimpleData name="Cédula">7210003.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">MARINA TORRES RAMIREZ</SimpleData>
+            <SimpleData name="Sexo">Mujer</SimpleData>
+            <SimpleData name="Cambio_de_">NO</SimpleData>
+            <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="Cédula_Ti">NO</SimpleData>
+            <SimpleData name="ci_UNIF">7210003.00000000000</SimpleData>
+            <SimpleData name="Situación">NO</SimpleData>
+            <SimpleData name="Comunidad">Ind?gena</SimpleData>
+            <SimpleData name="Modelo_imp">Modelo 5</SimpleData>
+            <SimpleData name="Departamen">CONCEPCION</SimpleData>
+            <SimpleData name="Distrito">ARROYITO</SimpleData>
+            <SimpleData name="Localidad">COM INDIG KORAI PUNTA SUERTE</SimpleData>
+            <SimpleData name="Localidad_">KORAI PUNTA SUERTE</SimpleData>
+            <SimpleData name="Teléfono">0985376046</SimpleData>
+            <SimpleData name="Vivienda_L">-23.26592160000</SimpleData>
+            <SimpleData name="Vivienda_1">-56.75057330000</SimpleData>
+            <SimpleData name="Superficie">0.70000000000</SimpleData>
+            <SimpleData name="Fecha_Plan">2026/05/27</SimpleData>
+            <SimpleData name="Jornales">0.00000000000</SimpleData>
+            <SimpleData name="Monto">0.00000000000</SimpleData>
+            <SimpleData name="Grupo_de_p">J-P4-XX-XX-XX</SimpleData>
+            <SimpleData name="ETAPA_FAO">Plantaci?n</SimpleData>
+            <SimpleData name="Estado_del">Activo</SimpleData>
+            <SimpleData name="Empresa">Emilio Sol?s Grance</SimpleData>
+            <SimpleData name="Lote">J</SimpleData>
+            <SimpleData name="X">-56.75058676000</SimpleData>
+            <SimpleData name="Y">-23.26754195000</SimpleData>
+            <SimpleData name="Sup_SIG">0.79257357119</SimpleData>
+            <SimpleData name="cedula">7210003</SimpleData>
+            <SimpleData name="Shape_Leng">480.99018604500</SimpleData>
+            <SimpleData name="Shape_Area">7925.73571193000</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+                -56.7505956215122,-23.2668751026028,0
+                -56.7504684999424,-23.2675532001404,0
+                -56.7504718000845,-23.2676511998665,0
+                -56.7504267002491,-23.2677050999333,0
+                -56.7502811002845,-23.2676884001882,0
+                -56.7501733003897,-23.2676834998586,0
+                -56.7501468992425,-23.2677348000694,0
+                -56.7501120998184,-23.2680402001195,0
+                -56.750058399736,-23.2681533000363,0
+                -56.7506553995854,-23.268291299297,0
+                -56.7510066999656,-23.2667433003154,0
+                -56.7506525527466,-23.2666144476887,0
+                -56.7505956215122,-23.2668751026028,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark id="Distrito_ARROYITO.23">
+        <ExtendedData>
+          <SchemaData schemaUrl="#Distrito_ARROYITO.schema">
+            <SimpleData name="Cédula">6991627.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">HERMELINDA CORONEL ALEN</SimpleData>
+            <SimpleData name="Sexo">Mujer</SimpleData>
+            <SimpleData name="Cambio_de_">NO</SimpleData>
+            <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="Cédula_Ti">NO</SimpleData>
+            <SimpleData name="ci_UNIF">6991627.00000000000</SimpleData>
+            <SimpleData name="Situación">NO</SimpleData>
+            <SimpleData name="Comunidad">Campesina</SimpleData>
+            <SimpleData name="Modelo_imp">Modelo 2</SimpleData>
+            <SimpleData name="Departamen">CONCEPCION</SimpleData>
+            <SimpleData name="Distrito">ARROYITO</SimpleData>
+            <SimpleData name="Localidad">NUCLEO 3</SimpleData>
+            <SimpleData name="Localidad_">NUCLEO 3</SimpleData>
+            <SimpleData name="Teléfono">0984875518</SimpleData>
+            <SimpleData name="Vivienda_L">-23.23393540000</SimpleData>
+            <SimpleData name="Vivienda_1">-56.70960260000</SimpleData>
+            <SimpleData name="Superficie">0.80000000000</SimpleData>
+            <SimpleData name="Fecha_Plan">2026/05/05</SimpleData>
+            <SimpleData name="Jornales">0.00000000000</SimpleData>
+            <SimpleData name="Monto">0.00000000000</SimpleData>
+            <SimpleData name="Grupo_de_p">J-P3-XX-XX-XX</SimpleData>
+            <SimpleData name="ETAPA_FAO">Mantenimiento A?o 1.1</SimpleData>
+            <SimpleData name="Estado_del">Activo</SimpleData>
+            <SimpleData name="Empresa">Emilio Sol?s Grance</SimpleData>
+            <SimpleData name="Lote">J</SimpleData>
+            <SimpleData name="X">-56.70842928000</SimpleData>
+            <SimpleData name="Y">-23.23525479000</SimpleData>
+            <SimpleData name="Sup_SIG">0.87606369713</SimpleData>
+            <SimpleData name="cedula">6991627</SimpleData>
+            <SimpleData name="Shape_Leng">778.30296703000</SimpleData>
+            <SimpleData name="Shape_Area">8760.63697129000</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <MultiGeometry>
+          <Polygon>
+            <outerBoundaryIs>
+              <LinearRing>
+                <coordinates>
+                  -56.7090988996363,-23.2444442994052,0
+                  -56.7091666998795,-23.2443800000502,0
+                  -56.7081799995897,-23.2433899995068,0
+                  -56.7081253995552,-23.2434441995862,0
+                  -56.7090988996363,-23.2444442994052,0
+                </coordinates>
+              </LinearRing>
+            </outerBoundaryIs>
+          </Polygon>
+          <Polygon>
+            <outerBoundaryIs>
+              <LinearRing>
+                <coordinates>
+                  -56.7088650992889,-23.2347999999236,0
+                  -56.7087440999592,-23.2346979998177,0
+                  -56.7076525994105,-23.2356637999468,0
+                  -56.7079349995638,-23.2359432995489,0
+                  -56.7089510995431,-23.2350344000787,0
+                  -56.709213199863,-23.234850099694,0
+                  -56.7092914997435,-23.2347660994372,0
+                  -56.7091281998512,-23.2346118001302,0
+                  -56.7088650992889,-23.2347999999236,0
+                </coordinates>
+              </LinearRing>
+            </outerBoundaryIs>
+          </Polygon>
+        </MultiGeometry>
+      </Placemark>
+      <Placemark id="Distrito_ARROYITO.24">
+        <ExtendedData>
+          <SchemaData schemaUrl="#Distrito_ARROYITO.schema">
+            <SimpleData name="Cédula">8057338.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">EMILIANA PALACIOS GARCETE</SimpleData>
+            <SimpleData name="Sexo">Mujer</SimpleData>
+            <SimpleData name="Cambio_de_">NO</SimpleData>
+            <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="Cédula_Ti">NO</SimpleData>
+            <SimpleData name="ci_UNIF">8057338.00000000000</SimpleData>
+            <SimpleData name="Situación">NO</SimpleData>
+            <SimpleData name="Comunidad">Ind?gena</SimpleData>
+            <SimpleData name="Modelo_imp">Modelo 1</SimpleData>
+            <SimpleData name="Departamen">CONCEPCION</SimpleData>
+            <SimpleData name="Distrito">ARROYITO</SimpleData>
+            <SimpleData name="Localidad">COM INDIG KORAI PUNTA SUERTE</SimpleData>
+            <SimpleData name="Localidad_">KORAI PUNTA SUERTE</SimpleData>
+            <SimpleData name="Teléfono">0975376046</SimpleData>
+            <SimpleData name="Vivienda_L">-23.26307020000</SimpleData>
+            <SimpleData name="Vivienda_1">-56.74810760000</SimpleData>
+            <SimpleData name="Superficie">0.80000000000</SimpleData>
+            <SimpleData name="Fecha_Plan">2026/05/27</SimpleData>
+            <SimpleData name="Jornales">0.00000000000</SimpleData>
+            <SimpleData name="Monto">0.00000000000</SimpleData>
+            <SimpleData name="Grupo_de_p">J-P4-XX-XX-XX</SimpleData>
+            <SimpleData name="ETAPA_FAO">Plantaci?n</SimpleData>
+            <SimpleData name="Estado_del">Activo</SimpleData>
+            <SimpleData name="Empresa">Emilio Sol?s Grance</SimpleData>
+            <SimpleData name="Lote">J</SimpleData>
+            <SimpleData name="X">-56.74851993000</SimpleData>
+            <SimpleData name="Y">-23.26514172000</SimpleData>
+            <SimpleData name="Sup_SIG">0.80198975666</SimpleData>
+            <SimpleData name="cedula">8057338</SimpleData>
+            <SimpleData name="Shape_Leng">585.25877257500</SimpleData>
+            <SimpleData name="Shape_Area">8019.89756660000</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <MultiGeometry>
+          <Polygon>
+            <outerBoundaryIs>
+              <LinearRing>
+                <coordinates>
+                  -56.7481808998624,-23.2658825003592,0
+                  -56.7483349995951,-23.2658826002136,0
+                  -56.7483941004663,-23.2654162003541,0
+                  -56.7486467000402,-23.26507020067,0
+                  -56.7486293002407,-23.26498820029,0
+                  -56.7484389998851,-23.2649127998572,0
+                  -56.7483954998817,-23.2649442005124,0
+                  -56.7482571001478,-23.265063799801,0
+                  -56.748190299743,-23.2651107008423,0
+                  -56.7479878997611,-23.2652581997851,0
+                  -56.7478709999413,-23.2653908002233,0
+                  -56.7477865002319,-23.2654500001121,0
+                  -56.7476975998507,-23.2655714994722,0
+                  -56.7477080997821,-23.2656144000009,0
+                  -56.747768300217,-23.2657233002057,0
+                  -56.747816899658,-23.2657546002226,0
+                  -56.7480572994196,-23.265817500535,0
+                  -56.7481808998624,-23.2658825003592,0
+                </coordinates>
+              </LinearRing>
+            </outerBoundaryIs>
+          </Polygon>
+          <Polygon>
+            <outerBoundaryIs>
+              <LinearRing>
+                <coordinates>
+                  -56.7488773993648,-23.2650318007464,0
+                  -56.749085699751,-23.2648694994287,0
+                  -56.749615000473,-23.2642582996624,0
+                  -56.7494524994164,-23.2641477997611,0
+                  -56.7491621995501,-23.2644177000779,0
+                  -56.7487099997543,-23.2648899998414,0
+                  -56.7488773993648,-23.2650318007464,0
+                </coordinates>
+              </LinearRing>
+            </outerBoundaryIs>
+          </Polygon>
+        </MultiGeometry>
+      </Placemark>
+      <Placemark id="Distrito_ARROYITO.25">
+        <ExtendedData>
+          <SchemaData schemaUrl="#Distrito_ARROYITO.schema">
+            <SimpleData name="Cédula">6684202.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">PATRICIA CORONEL MELGAREJO</SimpleData>
+            <SimpleData name="Sexo">Mujer</SimpleData>
+            <SimpleData name="Cambio_de_">NO</SimpleData>
+            <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="Cédula_Ti">NO</SimpleData>
+            <SimpleData name="ci_UNIF">6684202.00000000000</SimpleData>
+            <SimpleData name="Situación">NO</SimpleData>
+            <SimpleData name="Comunidad">Campesina</SimpleData>
+            <SimpleData name="Modelo_imp">Modelo 5</SimpleData>
+            <SimpleData name="Departamen">CONCEPCION</SimpleData>
+            <SimpleData name="Distrito">ARROYITO</SimpleData>
+            <SimpleData name="Localidad">NUCLEO 3</SimpleData>
+            <SimpleData name="Localidad_">NUCLEO 3</SimpleData>
+            <SimpleData name="Teléfono">0975392658</SimpleData>
+            <SimpleData name="Vivienda_L">-23.23927560000</SimpleData>
+            <SimpleData name="Vivienda_1">-56.70771200000</SimpleData>
+            <SimpleData name="Superficie">0.70000000000</SimpleData>
+            <SimpleData name="Fecha_Plan">2026/05/04</SimpleData>
+            <SimpleData name="Jornales">0.00000000000</SimpleData>
+            <SimpleData name="Monto">0.00000000000</SimpleData>
+            <SimpleData name="Grupo_de_p">J-P3-XX-XX-XX</SimpleData>
+            <SimpleData name="ETAPA_FAO">Mantenimiento A?o 1.1</SimpleData>
+            <SimpleData name="Estado_del">Activo</SimpleData>
+            <SimpleData name="Empresa">Emilio Sol?s Grance</SimpleData>
+            <SimpleData name="Lote">J</SimpleData>
+            <SimpleData name="X">-56.71008191000</SimpleData>
+            <SimpleData name="Y">-23.24209838000</SimpleData>
+            <SimpleData name="Sup_SIG">0.69819905423</SimpleData>
+            <SimpleData name="cedula">6684202</SimpleData>
+            <SimpleData name="Shape_Leng">368.33393310300</SimpleData>
+            <SimpleData name="Shape_Area">6981.99054225000</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+                -56.7094482995436,-23.241814799681,0
+                -56.7103232991333,-23.2426982995952,0
+                -56.7107097993173,-23.2423264997266,0
+                -56.7098100992667,-23.2415126998938,0
+                -56.7094482995436,-23.241814799681,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark id="Distrito_ARROYITO.26">
+        <ExtendedData>
+          <SchemaData schemaUrl="#Distrito_ARROYITO.schema">
+            <SimpleData name="Cédula">4601355.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">ESTELVINA PRIETO DUARTE</SimpleData>
+            <SimpleData name="Sexo">Mujer</SimpleData>
+            <SimpleData name="Cambio_de_">NO</SimpleData>
+            <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="Cédula_Ti">NO</SimpleData>
+            <SimpleData name="ci_UNIF">4601355.00000000000</SimpleData>
+            <SimpleData name="Situación">NO</SimpleData>
+            <SimpleData name="Comunidad">Campesina</SimpleData>
+            <SimpleData name="Modelo_imp">Modelo 5</SimpleData>
+            <SimpleData name="Departamen">CONCEPCION</SimpleData>
+            <SimpleData name="Distrito">ARROYITO</SimpleData>
+            <SimpleData name="Localidad">NUCLEO 3</SimpleData>
+            <SimpleData name="Localidad_">NUCLEO 3</SimpleData>
+            <SimpleData name="Teléfono">0972667337</SimpleData>
+            <SimpleData name="Vivienda_L">-23.22063840000</SimpleData>
+            <SimpleData name="Vivienda_1">-56.69715410000</SimpleData>
+            <SimpleData name="Superficie">0.70000000000</SimpleData>
+            <SimpleData name="Fecha_Plan">2026/05/05</SimpleData>
+            <SimpleData name="Jornales">0.00000000000</SimpleData>
+            <SimpleData name="Monto">0.00000000000</SimpleData>
+            <SimpleData name="Grupo_de_p">J-P3-XX-XX-XX</SimpleData>
+            <SimpleData name="ETAPA_FAO">Mantenimiento A?o 1.1</SimpleData>
+            <SimpleData name="Estado_del">Activo</SimpleData>
+            <SimpleData name="Empresa">Emilio Sol?s Grance</SimpleData>
+            <SimpleData name="Lote">J</SimpleData>
+            <SimpleData name="X">-56.69787536000</SimpleData>
+            <SimpleData name="Y">-23.21985391000</SimpleData>
+            <SimpleData name="Sup_SIG">0.73344069875</SimpleData>
+            <SimpleData name="cedula">4601355</SimpleData>
+            <SimpleData name="Shape_Leng">399.02801763600</SimpleData>
+            <SimpleData name="Shape_Area">7334.40698752000</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+                -56.6974870942756,-23.2204818946166,0
+                -56.697498199189,-23.2204935994031,0
+                -56.697843547751,-23.2201853934758,0
+                -56.6985349991047,-23.2195682996184,0
+                -56.698503999201,-23.2194619999764,0
+                -56.6982766997542,-23.2192082999842,0
+                -56.6971816996807,-23.2201600000182,0
+                -56.6974870942756,-23.2204818946166,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark id="Distrito_ARROYITO.27">
+        <ExtendedData>
+          <SchemaData schemaUrl="#Distrito_ARROYITO.schema">
+            <SimpleData name="Cédula">5016573.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">MIRIAM ROSALBA CORONEL MELGAREJO</SimpleData>
+            <SimpleData name="Sexo">Mujer</SimpleData>
+            <SimpleData name="Cambio_de_">NO</SimpleData>
+            <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="Cédula_Ti">NO</SimpleData>
+            <SimpleData name="ci_UNIF">5016573.00000000000</SimpleData>
+            <SimpleData name="Situación">NO</SimpleData>
+            <SimpleData name="Comunidad">Campesina</SimpleData>
+            <SimpleData name="Modelo_imp">Modelo 5</SimpleData>
+            <SimpleData name="Departamen">CONCEPCION</SimpleData>
+            <SimpleData name="Distrito">ARROYITO</SimpleData>
+            <SimpleData name="Localidad">NUCLEO 3</SimpleData>
+            <SimpleData name="Localidad_">NUCLEO 3</SimpleData>
+            <SimpleData name="Teléfono">0984504996</SimpleData>
+            <SimpleData name="Vivienda_L">-23.23353180000</SimpleData>
+            <SimpleData name="Vivienda_1">-56.70891400000</SimpleData>
+            <SimpleData name="Superficie">0.70000000000</SimpleData>
+            <SimpleData name="Fecha_Plan">2026/05/05</SimpleData>
+            <SimpleData name="Jornales">0.00000000000</SimpleData>
+            <SimpleData name="Monto">0.00000000000</SimpleData>
+            <SimpleData name="Grupo_de_p">J-P3-XX-XX-XX</SimpleData>
+            <SimpleData name="ETAPA_FAO">Mantenimiento A?o 1.1</SimpleData>
+            <SimpleData name="Estado_del">Activo</SimpleData>
+            <SimpleData name="Empresa">Emilio Sol?s Grance</SimpleData>
+            <SimpleData name="Lote">J</SimpleData>
+            <SimpleData name="X">-56.70796109000</SimpleData>
+            <SimpleData name="Y">-23.23438479000</SimpleData>
+            <SimpleData name="Sup_SIG">0.73216760827</SimpleData>
+            <SimpleData name="cedula">5016573</SimpleData>
+            <SimpleData name="Shape_Leng">406.83009422200</SimpleData>
+            <SimpleData name="Shape_Area">7321.67608273000</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+                -56.7075546372814,-23.2350209020442,0
+                -56.7078916994247,-23.2347259993877,0
+                -56.7078962752581,-23.2347344077696,0
+                -56.7086666996617,-23.2340566997088,0
+                -56.7085949991608,-23.2339432998577,0
+                -56.7083525991399,-23.2337562995809,0
+                -56.7072376999171,-23.2347270000842,0
+                -56.7075546372814,-23.2350209020442,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark id="Distrito_ARROYITO.28">
+        <ExtendedData>
+          <SchemaData schemaUrl="#Distrito_ARROYITO.schema">
+            <SimpleData name="Cédula">4285024.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">PETRONA CARRERA</SimpleData>
+            <SimpleData name="Sexo">Mujer</SimpleData>
+            <SimpleData name="Cambio_de_">NO</SimpleData>
+            <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="Cédula_Ti">NO</SimpleData>
+            <SimpleData name="ci_UNIF">4285024.00000000000</SimpleData>
+            <SimpleData name="Situación">NO</SimpleData>
+            <SimpleData name="Comunidad">Campesina</SimpleData>
+            <SimpleData name="Modelo_imp">Modelo 5</SimpleData>
+            <SimpleData name="Departamen">CONCEPCION</SimpleData>
+            <SimpleData name="Distrito">ARROYITO</SimpleData>
+            <SimpleData name="Localidad">NUCLEO 3</SimpleData>
+            <SimpleData name="Localidad_">NUCLEO 3</SimpleData>
+            <SimpleData name="Teléfono">0981798350</SimpleData>
+            <SimpleData name="Vivienda_L">-23.22954030000</SimpleData>
+            <SimpleData name="Vivienda_1">-56.68897340000</SimpleData>
             <SimpleData name="Superficie">0.70000000000</SimpleData>
             <SimpleData name="Fecha_Plan">2026/05/04</SimpleData>
             <SimpleData name="Jornales">0.00000000000</SimpleData>
@@ -358,64 +1635,65 @@
             <SimpleData name="Estado_del">Activo</SimpleData>
             <SimpleData name="Empresa">Emilio Sol?s Grance</SimpleData>
             <SimpleData name="Lote">J</SimpleData>
-            <SimpleData name="X">-56.71343491000</SimpleData>
-            <SimpleData name="Y">-23.26019459000</SimpleData>
-            <SimpleData name="Sup_SIG">0.79114785344</SimpleData>
-            <SimpleData name="cedula">5866461</SimpleData>
+            <SimpleData name="X">-56.68017253000</SimpleData>
+            <SimpleData name="Y">-23.22655032000</SimpleData>
+            <SimpleData name="Sup_SIG">0.72601061356</SimpleData>
+            <SimpleData name="cedula">4285024</SimpleData>
+            <SimpleData name="Shape_Leng">348.89641732500</SimpleData>
+            <SimpleData name="Shape_Area">7260.10613555000</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Polygon>
           <outerBoundaryIs>
             <LinearRing>
               <coordinates>
-                -56.7135012001952,-23.2596351995026,0
-                -56.7134375993874,-23.2599188998478,0
-                -56.7130081001779,-23.2598572000498,0
-                -56.7128982999459,-23.2603731995883,0
-                -56.7131992004829,-23.2604639004026,0
-                -56.7131849997558,-23.260636700589,0
-                -56.7136633997707,-23.2607517995689,0
-                -56.7137473000046,-23.2605805997059,0
-                -56.7138730997397,-23.259686600089,0
-                -56.7135012001952,-23.2596351995026,0
+                -56.6802549999336,-23.2259932996147,0
+                -56.6799546992792,-23.2263185997365,0
+                -56.6798982994983,-23.2263117001498,0
+                -56.6795650004373,-23.2265933006726,0
+                -56.6800849995996,-23.2270899999854,0
+                -56.6807716992851,-23.22650329934,0
+                -56.6802549999336,-23.2259932996147,0
               </coordinates>
             </LinearRing>
           </outerBoundaryIs>
         </Polygon>
       </Placemark>
-      <Placemark id="Distrito_ARROYITO.7">
+      <Placemark id="Distrito_ARROYITO.29">
         <ExtendedData>
           <SchemaData schemaUrl="#Distrito_ARROYITO.schema">
-            <SimpleData name="Cédula">6646223.00000000000</SimpleData>
-            <SimpleData name="Nombres_y_">PAOLA JOHANNA VILLA DE MONTIEL</SimpleData>
+            <SimpleData name="Cédula">6004084.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">PERLA GODOY MAIDANA</SimpleData>
             <SimpleData name="Sexo">Mujer</SimpleData>
             <SimpleData name="Cambio_de_">NO</SimpleData>
             <SimpleData name="Titular_se">NO</SimpleData>
             <SimpleData name="Cédula_Ti">NO</SimpleData>
-            <SimpleData name="ci_UNIF">6646223.00000000000</SimpleData>
+            <SimpleData name="ci_UNIF">6004084.00000000000</SimpleData>
             <SimpleData name="Situación">NO</SimpleData>
             <SimpleData name="Comunidad">Campesina</SimpleData>
             <SimpleData name="Modelo_imp">Modelo 5</SimpleData>
             <SimpleData name="Departamen">CONCEPCION</SimpleData>
             <SimpleData name="Distrito">ARROYITO</SimpleData>
-            <SimpleData name="Localidad">NUCLEO 5</SimpleData>
-            <SimpleData name="Localidad_">NUCLEO 5</SimpleData>
-            <SimpleData name="Teléfono">0975242834</SimpleData>
-            <SimpleData name="Vivienda_L">-23.24787150000</SimpleData>
-            <SimpleData name="Vivienda_1">-56.71609610000</SimpleData>
+            <SimpleData name="Localidad">NUCLEO 3</SimpleData>
+            <SimpleData name="Localidad_">NUCLEO 3</SimpleData>
+            <SimpleData name="Teléfono">0981424230</SimpleData>
+            <SimpleData name="Vivienda_L">-23.22431370000</SimpleData>
+            <SimpleData name="Vivienda_1">-56.69217410000</SimpleData>
             <SimpleData name="Superficie">0.70000000000</SimpleData>
-            <SimpleData name="Fecha_Plan">2026/05/04</SimpleData>
+            <SimpleData name="Fecha_Plan">2026/05/05</SimpleData>
             <SimpleData name="Jornales">0.00000000000</SimpleData>
             <SimpleData name="Monto">0.00000000000</SimpleData>
-            <SimpleData name="Grupo_de_p">J-P3-XX-XX-XX</SimpleData>
-            <SimpleData name="ETAPA_FAO">Mantenimiento A?o 1.1</SimpleData>
+            <SimpleData name="Grupo_de_p">J-P4-XX-XX-XX</SimpleData>
+            <SimpleData name="ETAPA_FAO">Plantaci?n</SimpleData>
             <SimpleData name="Estado_del">Activo</SimpleData>
             <SimpleData name="Empresa">Emilio Sol?s Grance</SimpleData>
             <SimpleData name="Lote">J</SimpleData>
-            <SimpleData name="X">-56.71664627000</SimpleData>
-            <SimpleData name="Y">-23.24554705000</SimpleData>
-            <SimpleData name="Sup_SIG">0.76663399851</SimpleData>
-            <SimpleData name="cedula">6646223</SimpleData>
+            <SimpleData name="X">-56.69428276000</SimpleData>
+            <SimpleData name="Y">-23.22289535000</SimpleData>
+            <SimpleData name="Sup_SIG">0.72658327039</SimpleData>
+            <SimpleData name="cedula">6004084</SimpleData>
+            <SimpleData name="Shape_Leng">534.19707576500</SimpleData>
+            <SimpleData name="Shape_Area">7265.83270385000</SimpleData>
           </SchemaData>
         </ExtendedData>
         <MultiGeometry>
@@ -423,13 +1701,12 @@
             <outerBoundaryIs>
               <LinearRing>
                 <coordinates>
-                  -56.7166943992678,-23.2464195992939,0
-                  -56.7170016993003,-23.2451249996332,0
-                  -56.7164949998529,-23.2449849999878,0
-                  -56.7162649990535,-23.245823299909,0
-                  -56.7166949991418,-23.2459082995431,0
-                  -56.7165826993843,-23.2463852997173,0
-                  -56.7166943992678,-23.2464195992939,0
+                  -56.700437998973,-23.2322324998943,0
+                  -56.7011216996464,-23.23161170027,0
+                  -56.7009416995248,-23.2314332992882,0
+                  -56.7004298000123,-23.2318598004055,0
+                  -56.7002516997151,-23.2320517004905,0
+                  -56.700437998973,-23.2322324998943,0
                 </coordinates>
               </LinearRing>
             </outerBoundaryIs>
@@ -438,128 +1715,449 @@
             <outerBoundaryIs>
               <LinearRing>
                 <coordinates>
-                  -56.7035048992507,-23.2442731995153,0
-                  -56.7038061991486,-23.2439808998905,0
-                  -56.7035303997161,-23.2437174997856,0
-                  -56.7033309994509,-23.2438914998584,0
-                  -56.7032838997963,-23.2440999992759,0
-                  -56.7035048992507,-23.2442731995153,0
+                  -56.6940916994318,-23.2233350000901,0
+                  -56.6947749995514,-23.2227832998856,0
+                  -56.6944733001082,-23.2224466996054,0
+                  -56.6937841995031,-23.2230272001161,0
+                  -56.6940916994318,-23.2233350000901,0
                 </coordinates>
               </LinearRing>
             </outerBoundaryIs>
           </Polygon>
         </MultiGeometry>
       </Placemark>
-      <Placemark id="Distrito_ARROYITO.8">
+      <Placemark id="Distrito_ARROYITO.30">
         <ExtendedData>
           <SchemaData schemaUrl="#Distrito_ARROYITO.schema">
-            <SimpleData name="Cédula">6004091.00000000000</SimpleData>
-            <SimpleData name="Nombres_y_">SINTIA CAROLINA MONTIEL MARTINEZ</SimpleData>
+            <SimpleData name="Cédula">5790702.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">CINTIA RAQUELA GARCIA SANCHEZ</SimpleData>
             <SimpleData name="Sexo">Mujer</SimpleData>
             <SimpleData name="Cambio_de_">NO</SimpleData>
             <SimpleData name="Titular_se">NO</SimpleData>
             <SimpleData name="Cédula_Ti">NO</SimpleData>
-            <SimpleData name="ci_UNIF">6004091.00000000000</SimpleData>
+            <SimpleData name="ci_UNIF">5790702.00000000000</SimpleData>
             <SimpleData name="Situación">NO</SimpleData>
             <SimpleData name="Comunidad">Campesina</SimpleData>
             <SimpleData name="Modelo_imp">Modelo 5</SimpleData>
             <SimpleData name="Departamen">CONCEPCION</SimpleData>
             <SimpleData name="Distrito">ARROYITO</SimpleData>
-            <SimpleData name="Localidad">NUCLEO 5</SimpleData>
-            <SimpleData name="Localidad_">NUCLEO 5</SimpleData>
-            <SimpleData name="Teléfono">0972490601</SimpleData>
-            <SimpleData name="Vivienda_L">-23.24777600000</SimpleData>
-            <SimpleData name="Vivienda_1">-56.71723040000</SimpleData>
+            <SimpleData name="Localidad">NUCLEO 2</SimpleData>
+            <SimpleData name="Localidad_">NUCLEO 2</SimpleData>
+            <SimpleData name="Teléfono">0981351104</SimpleData>
+            <SimpleData name="Vivienda_L">-23.23493760000</SimpleData>
+            <SimpleData name="Vivienda_1">-56.74668700000</SimpleData>
             <SimpleData name="Superficie">0.70000000000</SimpleData>
-            <SimpleData name="Fecha_Plan">2026/05/04</SimpleData>
+            <SimpleData name="Fecha_Plan">2026/05/28</SimpleData>
             <SimpleData name="Jornales">0.00000000000</SimpleData>
             <SimpleData name="Monto">0.00000000000</SimpleData>
-            <SimpleData name="Grupo_de_p">J-P3-XX-XX-XX</SimpleData>
-            <SimpleData name="ETAPA_FAO">Mantenimiento A?o 1.1</SimpleData>
+            <SimpleData name="Grupo_de_p">J-P4-XX-XX-XX</SimpleData>
+            <SimpleData name="ETAPA_FAO">Plantaci?n</SimpleData>
             <SimpleData name="Estado_del">Activo</SimpleData>
             <SimpleData name="Empresa">Emilio Sol?s Grance</SimpleData>
             <SimpleData name="Lote">J</SimpleData>
-            <SimpleData name="X">-56.71795547000</SimpleData>
-            <SimpleData name="Y">-23.24600755000</SimpleData>
-            <SimpleData name="Sup_SIG">0.75753140079</SimpleData>
-            <SimpleData name="cedula">6004091</SimpleData>
+            <SimpleData name="X">-56.74614265000</SimpleData>
+            <SimpleData name="Y">-23.23419583000</SimpleData>
+            <SimpleData name="Sup_SIG">0.77413955083</SimpleData>
+            <SimpleData name="cedula">5790702</SimpleData>
+            <SimpleData name="Shape_Leng">406.10705052200</SimpleData>
+            <SimpleData name="Shape_Area">7741.39550830000</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Polygon>
           <outerBoundaryIs>
             <LinearRing>
               <coordinates>
-                -56.7174982994391,-23.2465332993427,0
-                -56.7181016993862,-23.2466016996306,0
-                -56.7183782991575,-23.2454467000174,0
-                -56.7180849999052,-23.245394999718,0
-                -56.717923099272,-23.2453829995185,0
-                -56.7177549992921,-23.245681700121,0
-                -56.7174982994391,-23.2465332993427,0
+                -56.7455299998334,-23.234254999774,0
+                -56.7459916996908,-23.234681700593,0
+                -56.7462934994733,-23.2343984000541,0
+                -56.7465903007754,-23.2345858996624,0
+                -56.7468582999741,-23.2343933001593,0
+                -56.746016399586,-23.2336119005096,0
+                -56.7457265999334,-23.2338866999317,0
+                -56.7458382002772,-23.2339777996822,0
+                -56.7455299998334,-23.234254999774,0
               </coordinates>
             </LinearRing>
           </outerBoundaryIs>
         </Polygon>
       </Placemark>
-      <Placemark id="Distrito_ARROYITO.9">
+      <Placemark id="Distrito_ARROYITO.31">
         <ExtendedData>
           <SchemaData schemaUrl="#Distrito_ARROYITO.schema">
-            <SimpleData name="Cédula">4996807.00000000000</SimpleData>
-            <SimpleData name="Nombres_y_">BLANCA DE BELEN ALMADA CESPEDES</SimpleData>
+            <SimpleData name="Cédula">6794951.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">ANTONIA CUBAS MAZACOTE</SimpleData>
             <SimpleData name="Sexo">Mujer</SimpleData>
             <SimpleData name="Cambio_de_">NO</SimpleData>
             <SimpleData name="Titular_se">NO</SimpleData>
             <SimpleData name="Cédula_Ti">NO</SimpleData>
-            <SimpleData name="ci_UNIF">4996807.00000000000</SimpleData>
+            <SimpleData name="ci_UNIF">6794951.00000000000</SimpleData>
             <SimpleData name="Situación">NO</SimpleData>
             <SimpleData name="Comunidad">Campesina</SimpleData>
             <SimpleData name="Modelo_imp">Modelo 5</SimpleData>
             <SimpleData name="Departamen">CONCEPCION</SimpleData>
             <SimpleData name="Distrito">ARROYITO</SimpleData>
-            <SimpleData name="Localidad">NUCLEO 5</SimpleData>
-            <SimpleData name="Localidad_">NUCLEO 5</SimpleData>
-            <SimpleData name="Teléfono">0975620914</SimpleData>
-            <SimpleData name="Vivienda_L">-23.25550770000</SimpleData>
-            <SimpleData name="Vivienda_1">-56.72636590000</SimpleData>
+            <SimpleData name="Localidad">NUCLEO 6</SimpleData>
+            <SimpleData name="Localidad_">NUCLEO 6</SimpleData>
+            <SimpleData name="Teléfono">0976980047</SimpleData>
+            <SimpleData name="Vivienda_L">-23.29584060000</SimpleData>
+            <SimpleData name="Vivienda_1">-56.70985270000</SimpleData>
             <SimpleData name="Superficie">0.70000000000</SimpleData>
-            <SimpleData name="Fecha_Plan">2026/05/04</SimpleData>
+            <SimpleData name="Fecha_Plan">2026/05/21</SimpleData>
             <SimpleData name="Jornales">0.00000000000</SimpleData>
             <SimpleData name="Monto">0.00000000000</SimpleData>
-            <SimpleData name="Grupo_de_p">J-P3-XX-XX-XX</SimpleData>
-            <SimpleData name="ETAPA_FAO">Mantenimiento A?o 1.1</SimpleData>
+            <SimpleData name="Grupo_de_p">J-P4-XX-XX-XX</SimpleData>
+            <SimpleData name="ETAPA_FAO">Plantaci?n</SimpleData>
             <SimpleData name="Estado_del">Activo</SimpleData>
             <SimpleData name="Empresa">Emilio Sol?s Grance</SimpleData>
             <SimpleData name="Lote">J</SimpleData>
-            <SimpleData name="X">-56.72693874000</SimpleData>
-            <SimpleData name="Y">-23.25471060000</SimpleData>
-            <SimpleData name="Sup_SIG">0.75962586241</SimpleData>
-            <SimpleData name="cedula">4996807</SimpleData>
+            <SimpleData name="X">-56.71204982000</SimpleData>
+            <SimpleData name="Y">-23.29458225000</SimpleData>
+            <SimpleData name="Sup_SIG">0.75484911126</SimpleData>
+            <SimpleData name="cedula">6794951</SimpleData>
+            <SimpleData name="Shape_Leng">428.47526508900</SimpleData>
+            <SimpleData name="Shape_Area">7548.49111258000</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Polygon>
           <outerBoundaryIs>
             <LinearRing>
               <coordinates>
-                -56.7264281994619,-23.2548882995106,0
-                -56.7272299993453,-23.2552432996058,0
-                -56.7274877992652,-23.2545487000603,0
-                -56.7265916998523,-23.2541816992908,0
-                -56.7264281994619,-23.2548882995106,0
+                -56.7119687005197,-23.2938601003515,0
+                -56.7116682994558,-23.2953883003283,0
+                -56.7120464000432,-23.2953236003204,0
+                -56.7121300997367,-23.2951736999768,0
+                -56.7124574995616,-23.2938663998312,0
+                -56.7119687005197,-23.2938601003515,0
               </coordinates>
             </LinearRing>
           </outerBoundaryIs>
         </Polygon>
       </Placemark>
-      <Placemark id="Distrito_ARROYITO.10">
+      <Placemark id="Distrito_ARROYITO.32">
         <ExtendedData>
           <SchemaData schemaUrl="#Distrito_ARROYITO.schema">
-            <SimpleData name="Cédula">6229421.00000000000</SimpleData>
-            <SimpleData name="Nombres_y_">LIA MAYESI LEZCANO CUEVAS</SimpleData>
+            <SimpleData name="Cédula">6268993.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">SINTHIA CAROLINA URBIETA GODOY</SimpleData>
             <SimpleData name="Sexo">Mujer</SimpleData>
             <SimpleData name="Cambio_de_">NO</SimpleData>
             <SimpleData name="Titular_se">NO</SimpleData>
             <SimpleData name="Cédula_Ti">NO</SimpleData>
-            <SimpleData name="ci_UNIF">6229421.00000000000</SimpleData>
+            <SimpleData name="ci_UNIF">6268993.00000000000</SimpleData>
+            <SimpleData name="Situación">NO</SimpleData>
+            <SimpleData name="Comunidad">Campesina</SimpleData>
+            <SimpleData name="Modelo_imp">Modelo 5</SimpleData>
+            <SimpleData name="Departamen">CONCEPCION</SimpleData>
+            <SimpleData name="Distrito">ARROYITO</SimpleData>
+            <SimpleData name="Localidad">NUCLEO 4</SimpleData>
+            <SimpleData name="Localidad_">NUCLEO 4</SimpleData>
+            <SimpleData name="Teléfono">0987241015</SimpleData>
+            <SimpleData name="Vivienda_L">-23.25795080000</SimpleData>
+            <SimpleData name="Vivienda_1">-56.68165410000</SimpleData>
+            <SimpleData name="Superficie">0.70000000000</SimpleData>
+            <SimpleData name="Fecha_Plan">2026/05/18</SimpleData>
+            <SimpleData name="Jornales">0.00000000000</SimpleData>
+            <SimpleData name="Monto">0.00000000000</SimpleData>
+            <SimpleData name="Grupo_de_p">J-P4-XX-XX-XX</SimpleData>
+            <SimpleData name="ETAPA_FAO">Plantaci?n</SimpleData>
+            <SimpleData name="Estado_del">Activo</SimpleData>
+            <SimpleData name="Empresa">Emilio Sol?s Grance</SimpleData>
+            <SimpleData name="Lote">J</SimpleData>
+            <SimpleData name="X">-56.68156876000</SimpleData>
+            <SimpleData name="Y">-23.25971118000</SimpleData>
+            <SimpleData name="Sup_SIG">0.77654369435</SimpleData>
+            <SimpleData name="cedula">6268993</SimpleData>
+            <SimpleData name="Shape_Leng">411.54521377500</SimpleData>
+            <SimpleData name="Shape_Area">7765.43694345000</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+                -56.6814838001015,-23.2601013000837,0
+                -56.6816946004876,-23.2604049002629,0
+                -56.6821316004638,-23.2602315993251,0
+                -56.6814161994698,-23.25892739987,0
+                -56.6812937995976,-23.2590947995619,0
+                -56.6810248995914,-23.2592266998301,0
+                -56.6814838001015,-23.2601013000837,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark id="Distrito_ARROYITO.33">
+        <ExtendedData>
+          <SchemaData schemaUrl="#Distrito_ARROYITO.schema">
+            <SimpleData name="Cédula">6729649.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">DAISY NOEMI SANCHEZ GOMEZ</SimpleData>
+            <SimpleData name="Sexo">Mujer</SimpleData>
+            <SimpleData name="Cambio_de_">NO</SimpleData>
+            <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="Cédula_Ti">NO</SimpleData>
+            <SimpleData name="ci_UNIF">6729649.00000000000</SimpleData>
+            <SimpleData name="Situación">NO</SimpleData>
+            <SimpleData name="Comunidad">Campesina</SimpleData>
+            <SimpleData name="Modelo_imp">Modelo 5</SimpleData>
+            <SimpleData name="Departamen">CONCEPCION</SimpleData>
+            <SimpleData name="Distrito">ARROYITO</SimpleData>
+            <SimpleData name="Localidad">NUCLEO 2</SimpleData>
+            <SimpleData name="Localidad_">NUCLEO 2</SimpleData>
+            <SimpleData name="Teléfono">0974140252</SimpleData>
+            <SimpleData name="Vivienda_L">-23.24143600000</SimpleData>
+            <SimpleData name="Vivienda_1">-56.73882550000</SimpleData>
+            <SimpleData name="Superficie">0.70000000000</SimpleData>
+            <SimpleData name="Fecha_Plan">2026/05/26</SimpleData>
+            <SimpleData name="Jornales">0.00000000000</SimpleData>
+            <SimpleData name="Monto">0.00000000000</SimpleData>
+            <SimpleData name="Grupo_de_p">J-P4-XX-XX-XX</SimpleData>
+            <SimpleData name="ETAPA_FAO">Plantaci?n</SimpleData>
+            <SimpleData name="Estado_del">Activo</SimpleData>
+            <SimpleData name="Empresa">Emilio Sol?s Grance</SimpleData>
+            <SimpleData name="Lote">J</SimpleData>
+            <SimpleData name="X">-56.73646336000</SimpleData>
+            <SimpleData name="Y">-23.23716103000</SimpleData>
+            <SimpleData name="Sup_SIG">0.74710978904</SimpleData>
+            <SimpleData name="cedula">6729649</SimpleData>
+            <SimpleData name="Shape_Leng">346.11705128500</SimpleData>
+            <SimpleData name="Shape_Area">7471.09789038000</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+                -56.7358150001061,-23.2370767004888,0
+                -56.7364883000725,-23.2376649993083,0
+                -56.7371145993961,-23.2372680007001,0
+                -56.7364920004395,-23.2366879997457,0
+                -56.7363133005027,-23.2367182996615,0
+                -56.7358150001061,-23.2370767004888,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark id="Distrito_ARROYITO.34">
+        <ExtendedData>
+          <SchemaData schemaUrl="#Distrito_ARROYITO.schema">
+            <SimpleData name="Cédula">4309167.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">BEATRIZ LEZCANO GAMARRA</SimpleData>
+            <SimpleData name="Sexo">Mujer</SimpleData>
+            <SimpleData name="Cambio_de_">NO</SimpleData>
+            <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="Cédula_Ti">NO</SimpleData>
+            <SimpleData name="ci_UNIF">4309167.00000000000</SimpleData>
+            <SimpleData name="Situación">NO</SimpleData>
+            <SimpleData name="Comunidad">Campesina</SimpleData>
+            <SimpleData name="Modelo_imp">Modelo 5</SimpleData>
+            <SimpleData name="Departamen">CONCEPCION</SimpleData>
+            <SimpleData name="Distrito">ARROYITO</SimpleData>
+            <SimpleData name="Localidad">NUCLEO 2</SimpleData>
+            <SimpleData name="Localidad_">NUCLEO 2</SimpleData>
+            <SimpleData name="Teléfono">0982487496</SimpleData>
+            <SimpleData name="Vivienda_L">-23.23462790000</SimpleData>
+            <SimpleData name="Vivienda_1">-56.76068730000</SimpleData>
+            <SimpleData name="Superficie">0.70000000000</SimpleData>
+            <SimpleData name="Fecha_Plan">2026/05/28</SimpleData>
+            <SimpleData name="Jornales">0.00000000000</SimpleData>
+            <SimpleData name="Monto">0.00000000000</SimpleData>
+            <SimpleData name="Grupo_de_p">J-P4-XX-XX-XX</SimpleData>
+            <SimpleData name="ETAPA_FAO">Plantaci?n</SimpleData>
+            <SimpleData name="Estado_del">Activo</SimpleData>
+            <SimpleData name="Empresa">Emilio Sol?s Grance</SimpleData>
+            <SimpleData name="Lote">J</SimpleData>
+            <SimpleData name="X">-56.70412839000</SimpleData>
+            <SimpleData name="Y">-23.24467850000</SimpleData>
+            <SimpleData name="Sup_SIG">0.78859618179</SimpleData>
+            <SimpleData name="cedula">4309167</SimpleData>
+            <SimpleData name="Shape_Leng">402.71357326800</SimpleData>
+            <SimpleData name="Shape_Area">7885.96181791000</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+                -56.7034521142111,-23.2443548285228,0
+                -56.703449999553,-23.2443567007028,0
+                -56.7038972473898,-23.2448002692383,0
+                -56.7044582994949,-23.2453566994962,0
+                -56.704785000713,-23.244974999322,0
+                -56.7038282992847,-23.2440217006357,0
+                -56.7034521142111,-23.2443548285228,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark id="Distrito_ARROYITO.35">
+        <ExtendedData>
+          <SchemaData schemaUrl="#Distrito_ARROYITO.schema">
+            <SimpleData name="Cédula">7001057.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">ODULIA URBIETA ALFONZO</SimpleData>
+            <SimpleData name="Sexo">Mujer</SimpleData>
+            <SimpleData name="Cambio_de_">NO</SimpleData>
+            <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="Cédula_Ti">NO</SimpleData>
+            <SimpleData name="ci_UNIF">7001057.00000000000</SimpleData>
+            <SimpleData name="Situación">NO</SimpleData>
+            <SimpleData name="Comunidad">Campesina</SimpleData>
+            <SimpleData name="Modelo_imp">Modelo 5</SimpleData>
+            <SimpleData name="Departamen">CONCEPCION</SimpleData>
+            <SimpleData name="Distrito">ARROYITO</SimpleData>
+            <SimpleData name="Localidad">NUCLEO 4</SimpleData>
+            <SimpleData name="Localidad_">NUCLEO 4</SimpleData>
+            <SimpleData name="Teléfono">0984339997</SimpleData>
+            <SimpleData name="Vivienda_L">-23.25661920000</SimpleData>
+            <SimpleData name="Vivienda_1">-56.68242490000</SimpleData>
+            <SimpleData name="Superficie">0.70000000000</SimpleData>
+            <SimpleData name="Fecha_Plan">2026/05/18</SimpleData>
+            <SimpleData name="Jornales">0.00000000000</SimpleData>
+            <SimpleData name="Monto">0.00000000000</SimpleData>
+            <SimpleData name="Grupo_de_p">J-P4-XX-XX-XX</SimpleData>
+            <SimpleData name="ETAPA_FAO">Plantaci?n</SimpleData>
+            <SimpleData name="Estado_del">Activo</SimpleData>
+            <SimpleData name="Empresa">Emilio Sol?s Grance</SimpleData>
+            <SimpleData name="Lote">J</SimpleData>
+            <SimpleData name="X">-56.69286164000</SimpleData>
+            <SimpleData name="Y">-23.27550522000</SimpleData>
+            <SimpleData name="Sup_SIG">0.86069935851</SimpleData>
+            <SimpleData name="cedula">7001057</SimpleData>
+            <SimpleData name="Shape_Leng">378.61843814500</SimpleData>
+            <SimpleData name="Shape_Area">8606.99358513000</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+                -56.6923199006682,-23.2751682999981,0
+                -56.6927217003987,-23.2761182999431,0
+                -56.693416699579,-23.2758317002097,0
+                -56.6929801002306,-23.2748883996538,0
+                -56.6923199006682,-23.2751682999981,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark id="Distrito_ARROYITO.36">
+        <ExtendedData>
+          <SchemaData schemaUrl="#Distrito_ARROYITO.schema">
+            <SimpleData name="Cédula">4285027.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">VICENTE CARRERAS CENTURION</SimpleData>
+            <SimpleData name="Sexo">Hombre</SimpleData>
+            <SimpleData name="Cambio_de_">NO</SimpleData>
+            <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="Cédula_Ti">NO</SimpleData>
+            <SimpleData name="ci_UNIF">4285027.00000000000</SimpleData>
+            <SimpleData name="Situación">NO</SimpleData>
+            <SimpleData name="Comunidad">Campesina</SimpleData>
+            <SimpleData name="Modelo_imp">Modelo 5</SimpleData>
+            <SimpleData name="Departamen">CONCEPCION</SimpleData>
+            <SimpleData name="Distrito">ARROYITO</SimpleData>
+            <SimpleData name="Localidad">NUCLEO 3</SimpleData>
+            <SimpleData name="Localidad_">NUCLEO 3</SimpleData>
+            <SimpleData name="Teléfono">0975297029</SimpleData>
+            <SimpleData name="Vivienda_L">-23.22946400000</SimpleData>
+            <SimpleData name="Vivienda_1">-56.68854780000</SimpleData>
+            <SimpleData name="Superficie">0.70000000000</SimpleData>
+            <SimpleData name="Fecha_Plan">2026/05/04</SimpleData>
+            <SimpleData name="Jornales">0.00000000000</SimpleData>
+            <SimpleData name="Monto">0.00000000000</SimpleData>
+            <SimpleData name="Grupo_de_p">J-P4-XX-XX-XX</SimpleData>
+            <SimpleData name="ETAPA_FAO">Plantaci?n</SimpleData>
+            <SimpleData name="Estado_del">Activo</SimpleData>
+            <SimpleData name="Empresa">Emilio Sol?s Grance</SimpleData>
+            <SimpleData name="Lote">J</SimpleData>
+            <SimpleData name="X">-56.67948342000</SimpleData>
+            <SimpleData name="Y">-23.22713076000</SimpleData>
+            <SimpleData name="Sup_SIG">0.69895314573</SimpleData>
+            <SimpleData name="cedula">4285027</SimpleData>
+            <SimpleData name="Shape_Leng">336.62170115100</SimpleData>
+            <SimpleData name="Shape_Area">6989.53145725000</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+                -56.6789112999198,-23.2271635003224,0
+                -56.6793734004404,-23.2276679000089,0
+                -56.6800800002493,-23.2270882997201,0
+                -56.6795464998766,-23.2266006999035,0
+                -56.6789112999198,-23.2271635003224,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark id="Distrito_ARROYITO.37">
+        <ExtendedData>
+          <SchemaData schemaUrl="#Distrito_ARROYITO.schema">
+            <SimpleData name="Cédula">6743219.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">MIRNA VILLAMAYOR FERNANDEZ</SimpleData>
+            <SimpleData name="Sexo">Mujer</SimpleData>
+            <SimpleData name="Cambio_de_">NO</SimpleData>
+            <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="Cédula_Ti">NO</SimpleData>
+            <SimpleData name="ci_UNIF">6743219.00000000000</SimpleData>
+            <SimpleData name="Situación">NO</SimpleData>
+            <SimpleData name="Comunidad">Campesina</SimpleData>
+            <SimpleData name="Modelo_imp">Modelo 5</SimpleData>
+            <SimpleData name="Departamen">CONCEPCION</SimpleData>
+            <SimpleData name="Distrito">ARROYITO</SimpleData>
+            <SimpleData name="Localidad">NUCLEO 6</SimpleData>
+            <SimpleData name="Localidad_">NUCLEO 6</SimpleData>
+            <SimpleData name="Teléfono">0975574427</SimpleData>
+            <SimpleData name="Vivienda_L">-23.29681770000</SimpleData>
+            <SimpleData name="Vivienda_1">-56.71912020000</SimpleData>
+            <SimpleData name="Superficie">0.70000000000</SimpleData>
+            <SimpleData name="Fecha_Plan">2026/05/21</SimpleData>
+            <SimpleData name="Jornales">0.00000000000</SimpleData>
+            <SimpleData name="Monto">0.00000000000</SimpleData>
+            <SimpleData name="Grupo_de_p">J-P4-XX-XX-XX</SimpleData>
+            <SimpleData name="ETAPA_FAO">Plantaci?n</SimpleData>
+            <SimpleData name="Estado_del">Activo</SimpleData>
+            <SimpleData name="Empresa">Emilio Sol?s Grance</SimpleData>
+            <SimpleData name="Lote">J</SimpleData>
+            <SimpleData name="X">-56.71321968000</SimpleData>
+            <SimpleData name="Y">-23.29416828000</SimpleData>
+            <SimpleData name="Sup_SIG">0.79057423076</SimpleData>
+            <SimpleData name="cedula">6743219</SimpleData>
+            <SimpleData name="Shape_Leng">400.16097327400</SimpleData>
+            <SimpleData name="Shape_Area">7905.74230759000</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+                -56.7128267003203,-23.2947587999208,0
+                -56.7133349996359,-23.294875000249,0
+                -56.7136158002195,-23.2935056999569,0
+                -56.7133002004694,-23.2934653997576,0
+                -56.7131996998283,-23.2934856993359,0
+                -56.7131625998406,-23.2936185995426,0
+                -56.7130823005214,-23.2937278996107,0
+                -56.7130000005593,-23.2937942005478,0
+                -56.7128267003203,-23.2947587999208,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark id="Distrito_ARROYITO.38">
+        <ExtendedData>
+          <SchemaData schemaUrl="#Distrito_ARROYITO.schema">
+            <SimpleData name="Cédula">4966887.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">OLGA RAQUEL FLEITAS ROJAS</SimpleData>
+            <SimpleData name="Sexo">Mujer</SimpleData>
+            <SimpleData name="Cambio_de_">NO</SimpleData>
+            <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="Cédula_Ti">NO</SimpleData>
+            <SimpleData name="ci_UNIF">4966887.00000000000</SimpleData>
             <SimpleData name="Situación">NO</SimpleData>
             <SimpleData name="Comunidad">Campesina</SimpleData>
             <SimpleData name="Modelo_imp">Modelo 5</SimpleData>
@@ -567,11 +2165,159 @@
             <SimpleData name="Distrito">ARROYITO</SimpleData>
             <SimpleData name="Localidad">NUCLEO 5</SimpleData>
             <SimpleData name="Localidad_">NUCLEO 5</SimpleData>
-            <SimpleData name="Teléfono">0981293618</SimpleData>
-            <SimpleData name="Vivienda_L">-23.25333290000</SimpleData>
-            <SimpleData name="Vivienda_1">-56.71419160000</SimpleData>
+            <SimpleData name="Teléfono">0973704339</SimpleData>
+            <SimpleData name="Vivienda_L">-23.24426330000</SimpleData>
+            <SimpleData name="Vivienda_1">-56.70330630000</SimpleData>
             <SimpleData name="Superficie">0.70000000000</SimpleData>
             <SimpleData name="Fecha_Plan">2026/05/04</SimpleData>
+            <SimpleData name="Jornales">0.00000000000</SimpleData>
+            <SimpleData name="Monto">0.00000000000</SimpleData>
+            <SimpleData name="Grupo_de_p">J-P4-XX-XX-XX</SimpleData>
+            <SimpleData name="ETAPA_FAO">Plantaci?n</SimpleData>
+            <SimpleData name="Estado_del">Activo</SimpleData>
+            <SimpleData name="Empresa">Emilio Sol?s Grance</SimpleData>
+            <SimpleData name="Lote">J</SimpleData>
+            <SimpleData name="X">-56.70332795000</SimpleData>
+            <SimpleData name="Y">-23.24457025000</SimpleData>
+            <SimpleData name="Sup_SIG">0.79698756508</SimpleData>
+            <SimpleData name="cedula">4966887</SimpleData>
+            <SimpleData name="Shape_Leng">658.70685133600</SimpleData>
+            <SimpleData name="Shape_Area">7969.87565079000</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <MultiGeometry>
+          <Polygon>
+            <outerBoundaryIs>
+              <LinearRing>
+                <coordinates>
+                  -56.7027142001659,-23.2442761008346,0
+                  -56.7027617001371,-23.2443237002089,0
+                  -56.7028447999561,-23.2442413004423,0
+                  -56.7029853004415,-23.2444051001573,0
+                  -56.7029345003318,-23.2445009002266,0
+                  -56.7034193001227,-23.2449853001816,0
+                  -56.7036989002308,-23.2449776004205,0
+                  -56.7038972473898,-23.2448002692383,0
+                  -56.703449999553,-23.2443567007028,0
+                  -56.7034521142111,-23.2443548285228,0
+                  -56.7034504997535,-23.2443532997876,0
+                  -56.7033500001371,-23.2443883002431,0
+                  -56.7032926000503,-23.2443921004667,0
+                  -56.7030516995458,-23.244210199592,0
+                  -56.7031090006277,-23.2440086000281,0
+                  -56.7030517000642,-23.2439600003373,0
+                  -56.7027142001659,-23.2442761008346,0
+                </coordinates>
+              </LinearRing>
+            </outerBoundaryIs>
+          </Polygon>
+          <Polygon>
+            <outerBoundaryIs>
+              <LinearRing>
+                <coordinates>
+                  -56.7056366998534,-23.2384533006155,0
+                  -56.7058932995543,-23.2383050006383,0
+                  -56.706263299738,-23.2385750007849,0
+                  -56.7063309000877,-23.2385124004401,0
+                  -56.7056714002483,-23.2378640999891,0
+                  -56.7053500000115,-23.2381984004678,0
+                  -56.7056366998534,-23.2384533006155,0
+                </coordinates>
+              </LinearRing>
+            </outerBoundaryIs>
+          </Polygon>
+        </MultiGeometry>
+      </Placemark>
+      <Placemark id="Distrito_ARROYITO.39">
+        <ExtendedData>
+          <SchemaData schemaUrl="#Distrito_ARROYITO.schema">
+            <SimpleData name="Cédula">4561307.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">ADOLFINA BAREIRO RIQUELME</SimpleData>
+            <SimpleData name="Sexo">Mujer</SimpleData>
+            <SimpleData name="Cambio_de_">NO</SimpleData>
+            <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="Cédula_Ti">NO</SimpleData>
+            <SimpleData name="ci_UNIF">4561307.00000000000</SimpleData>
+            <SimpleData name="Situación">NO</SimpleData>
+            <SimpleData name="Comunidad">Campesina</SimpleData>
+            <SimpleData name="Modelo_imp">Modelo 5</SimpleData>
+            <SimpleData name="Departamen">CONCEPCION</SimpleData>
+            <SimpleData name="Distrito">ARROYITO</SimpleData>
+            <SimpleData name="Localidad">NUCLEO 6</SimpleData>
+            <SimpleData name="Localidad_">NUCLEO 6</SimpleData>
+            <SimpleData name="Teléfono">0975251732</SimpleData>
+            <SimpleData name="Vivienda_L">-23.29616380000</SimpleData>
+            <SimpleData name="Vivienda_1">-56.71060060000</SimpleData>
+            <SimpleData name="Superficie">0.70000000000</SimpleData>
+            <SimpleData name="Fecha_Plan">2026/05/22</SimpleData>
+            <SimpleData name="Jornales">0.00000000000</SimpleData>
+            <SimpleData name="Monto">0.00000000000</SimpleData>
+            <SimpleData name="Grupo_de_p">J-P4-XX-XX-XX</SimpleData>
+            <SimpleData name="ETAPA_FAO">Plantaci?n</SimpleData>
+            <SimpleData name="Estado_del">Activo</SimpleData>
+            <SimpleData name="Empresa">Emilio Sol?s Grance</SimpleData>
+            <SimpleData name="Lote">J</SimpleData>
+            <SimpleData name="X">-56.71089697000</SimpleData>
+            <SimpleData name="Y">-23.30010866000</SimpleData>
+            <SimpleData name="Sup_SIG">0.82839644886</SimpleData>
+            <SimpleData name="cedula">4561307</SimpleData>
+            <SimpleData name="Shape_Leng">650.91386358200</SimpleData>
+            <SimpleData name="Shape_Area">8283.96448860000</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <MultiGeometry>
+          <Polygon>
+            <outerBoundaryIs>
+              <LinearRing>
+                <coordinates>
+                  -56.7110056996362,-23.3007511004856,0
+                  -56.7110880998051,-23.3001770997931,0
+                  -56.7109250003259,-23.3000673000116,0
+                  -56.7111175994985,-23.2993420004539,0
+                  -56.7108895003973,-23.2992744999697,0
+                  -56.7106561005184,-23.3007198998254,0
+                  -56.7110056996362,-23.3007511004856,0
+                </coordinates>
+              </LinearRing>
+            </outerBoundaryIs>
+          </Polygon>
+          <Polygon>
+            <outerBoundaryIs>
+              <LinearRing>
+                <coordinates>
+                  -56.7118354002925,-23.2995596999364,0
+                  -56.7119776992649,-23.2988457001524,0
+                  -56.7115352998138,-23.2987510998438,0
+                  -56.7113299994139,-23.2994650004241,0
+                  -56.7118354002925,-23.2995596999364,0
+                </coordinates>
+              </LinearRing>
+            </outerBoundaryIs>
+          </Polygon>
+        </MultiGeometry>
+      </Placemark>
+      <Placemark id="Distrito_ARROYITO.40">
+        <ExtendedData>
+          <SchemaData schemaUrl="#Distrito_ARROYITO.schema">
+            <SimpleData name="Cédula">6785689.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">ALICIA MARICEL CORONEL</SimpleData>
+            <SimpleData name="Sexo">Mujer</SimpleData>
+            <SimpleData name="Cambio_de_">NO</SimpleData>
+            <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="Cédula_Ti">NO</SimpleData>
+            <SimpleData name="ci_UNIF">6785689.00000000000</SimpleData>
+            <SimpleData name="Situación">NO</SimpleData>
+            <SimpleData name="Comunidad">Campesina</SimpleData>
+            <SimpleData name="Modelo_imp">Modelo 5</SimpleData>
+            <SimpleData name="Departamen">CONCEPCION</SimpleData>
+            <SimpleData name="Distrito">ARROYITO</SimpleData>
+            <SimpleData name="Localidad">NUCLEO 3</SimpleData>
+            <SimpleData name="Localidad_">NUCLEO 3</SimpleData>
+            <SimpleData name="Teléfono">0975599982</SimpleData>
+            <SimpleData name="Vivienda_L">-23.23397680000</SimpleData>
+            <SimpleData name="Vivienda_1">-56.70961760000</SimpleData>
+            <SimpleData name="Superficie">0.70000000000</SimpleData>
+            <SimpleData name="Fecha_Plan">2026/05/05</SimpleData>
             <SimpleData name="Jornales">0.00000000000</SimpleData>
             <SimpleData name="Monto">0.00000000000</SimpleData>
             <SimpleData name="Grupo_de_p">J-P3-XX-XX-XX</SimpleData>
@@ -579,22 +2325,510 @@
             <SimpleData name="Estado_del">Activo</SimpleData>
             <SimpleData name="Empresa">Emilio Sol?s Grance</SimpleData>
             <SimpleData name="Lote">J</SimpleData>
-            <SimpleData name="X">-56.71401007000</SimpleData>
-            <SimpleData name="Y">-23.25476691000</SimpleData>
-            <SimpleData name="Sup_SIG">0.78473722485</SimpleData>
-            <SimpleData name="cedula">6229421</SimpleData>
+            <SimpleData name="X">-56.70798718000</SimpleData>
+            <SimpleData name="Y">-23.23503577000</SimpleData>
+            <SimpleData name="Sup_SIG">0.71248400461</SimpleData>
+            <SimpleData name="cedula">6785689</SimpleData>
+            <SimpleData name="Shape_Leng">438.39970992400</SimpleData>
+            <SimpleData name="Shape_Area">7124.84004612000</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Polygon>
           <outerBoundaryIs>
             <LinearRing>
               <coordinates>
-                -56.7136449994526,-23.2557282995781,0
-                -56.7139518999334,-23.2558050998286,0
-                -56.7144016991394,-23.2537332995222,0
-                -56.7141366990727,-23.2536324996654,0
-                -56.7136024999029,-23.255684399919,0
-                -56.7136449994526,-23.2557282995781,0
+                -56.7078962752581,-23.2347344077696,0
+                -56.7078916994247,-23.2347259993877,0
+                -56.7075546372814,-23.2350209020442,0
+                -56.7072832996716,-23.2352582997481,0
+                -56.7076321991753,-23.2356243993771,0
+                -56.708757599407,-23.2346864995055,0
+                -56.7084959993488,-23.2344017998262,0
+                -56.7080851991209,-23.2348739994737,0
+                -56.7080006998135,-23.2349262994991,0
+                -56.7078962752581,-23.2347344077696,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark id="Distrito_ARROYITO.41">
+        <ExtendedData>
+          <SchemaData schemaUrl="#Distrito_ARROYITO.schema">
+            <SimpleData name="Cédula">6004002.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">VALERIANA PAEZ SERRANO</SimpleData>
+            <SimpleData name="Sexo">Mujer</SimpleData>
+            <SimpleData name="Cambio_de_">NO</SimpleData>
+            <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="Cédula_Ti">NO</SimpleData>
+            <SimpleData name="ci_UNIF">6004002.00000000000</SimpleData>
+            <SimpleData name="Situación">NO</SimpleData>
+            <SimpleData name="Comunidad">Campesina</SimpleData>
+            <SimpleData name="Modelo_imp">Modelo 5</SimpleData>
+            <SimpleData name="Departamen">CONCEPCION</SimpleData>
+            <SimpleData name="Distrito">ARROYITO</SimpleData>
+            <SimpleData name="Localidad">NUCLEO 6</SimpleData>
+            <SimpleData name="Localidad_">NUCLEO 6</SimpleData>
+            <SimpleData name="Teléfono">0985293135</SimpleData>
+            <SimpleData name="Vivienda_L">-23.29411550000</SimpleData>
+            <SimpleData name="Vivienda_1">-56.70261120000</SimpleData>
+            <SimpleData name="Superficie">0.70000000000</SimpleData>
+            <SimpleData name="Fecha_Plan">2026/05/05</SimpleData>
+            <SimpleData name="Jornales">0.00000000000</SimpleData>
+            <SimpleData name="Monto">0.00000000000</SimpleData>
+            <SimpleData name="Grupo_de_p">J-P4-XX-XX-XX</SimpleData>
+            <SimpleData name="ETAPA_FAO">Plantaci?n</SimpleData>
+            <SimpleData name="Estado_del">Activo</SimpleData>
+            <SimpleData name="Empresa">Emilio Sol?s Grance</SimpleData>
+            <SimpleData name="Lote">J</SimpleData>
+            <SimpleData name="X">-56.70288652000</SimpleData>
+            <SimpleData name="Y">-23.29227005000</SimpleData>
+            <SimpleData name="Sup_SIG">0.71370115538</SimpleData>
+            <SimpleData name="cedula">6004002</SimpleData>
+            <SimpleData name="Shape_Leng">402.77873025700</SimpleData>
+            <SimpleData name="Shape_Area">7137.01155382000</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+                -56.7025586992848,-23.2929599006108,0
+                -56.702923300256,-23.2930299995362,0
+                -56.7030513994955,-23.292613399477,0
+                -56.7032434005462,-23.2916229001049,0
+                -56.7027668996309,-23.29156239982,0
+                -56.7025586992848,-23.2929599006108,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark id="Distrito_ARROYITO.42">
+        <ExtendedData>
+          <SchemaData schemaUrl="#Distrito_ARROYITO.schema">
+            <SimpleData name="Cédula">4284995.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">LUZ MARLENE PENAYO CENDRA</SimpleData>
+            <SimpleData name="Sexo">Mujer</SimpleData>
+            <SimpleData name="Cambio_de_">NO</SimpleData>
+            <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="Cédula_Ti">NO</SimpleData>
+            <SimpleData name="ci_UNIF">4284995.00000000000</SimpleData>
+            <SimpleData name="Situación">NO</SimpleData>
+            <SimpleData name="Comunidad">Campesina</SimpleData>
+            <SimpleData name="Modelo_imp">Modelo 2</SimpleData>
+            <SimpleData name="Departamen">CONCEPCION</SimpleData>
+            <SimpleData name="Distrito">ARROYITO</SimpleData>
+            <SimpleData name="Localidad">NUCLEO 3</SimpleData>
+            <SimpleData name="Localidad_">NUCLEO 3</SimpleData>
+            <SimpleData name="Teléfono">0976446690</SimpleData>
+            <SimpleData name="Vivienda_L">-23.24505420000</SimpleData>
+            <SimpleData name="Vivienda_1">-56.70238110000</SimpleData>
+            <SimpleData name="Superficie">0.80000000000</SimpleData>
+            <SimpleData name="Fecha_Plan">2026/05/04</SimpleData>
+            <SimpleData name="Jornales">0.00000000000</SimpleData>
+            <SimpleData name="Monto">0.00000000000</SimpleData>
+            <SimpleData name="Grupo_de_p">J-P4-XX-XX-XX</SimpleData>
+            <SimpleData name="ETAPA_FAO">Plantaci?n</SimpleData>
+            <SimpleData name="Estado_del">Activo</SimpleData>
+            <SimpleData name="Empresa">Emilio Sol?s Grance</SimpleData>
+            <SimpleData name="Lote">J</SimpleData>
+            <SimpleData name="X">-56.70402164000</SimpleData>
+            <SimpleData name="Y">-23.24666324000</SimpleData>
+            <SimpleData name="Sup_SIG">0.83749691081</SimpleData>
+            <SimpleData name="cedula">4284995</SimpleData>
+            <SimpleData name="Shape_Leng">494.58456115200</SimpleData>
+            <SimpleData name="Shape_Area">8374.96910809000</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+                -56.7031917003958,-23.2461083003303,0
+                -56.7045844004415,-23.2474883998291,0
+                -56.7048414998167,-23.2472182998652,0
+                -56.7034916991,-23.2458567002195,0
+                -56.7031917003958,-23.2461083003303,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark id="Distrito_ARROYITO.43">
+        <ExtendedData>
+          <SchemaData schemaUrl="#Distrito_ARROYITO.schema">
+            <SimpleData name="Cédula">8386021.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">EDISON FELIPE GARCETE TORRES</SimpleData>
+            <SimpleData name="Sexo">Hombre</SimpleData>
+            <SimpleData name="Cambio_de_">NO</SimpleData>
+            <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="Cédula_Ti">NO</SimpleData>
+            <SimpleData name="ci_UNIF">8386021.00000000000</SimpleData>
+            <SimpleData name="Situación">NO</SimpleData>
+            <SimpleData name="Comunidad">Ind?gena</SimpleData>
+            <SimpleData name="Modelo_imp">Modelo 1</SimpleData>
+            <SimpleData name="Departamen">CONCEPCION</SimpleData>
+            <SimpleData name="Distrito">ARROYITO</SimpleData>
+            <SimpleData name="Localidad">COM INDIG KORAI PUNTA SUERTE</SimpleData>
+            <SimpleData name="Localidad_">KORAI PUNTA SUERTE</SimpleData>
+            <SimpleData name="Teléfono">0985376046</SimpleData>
+            <SimpleData name="Vivienda_L">-23.26626670000</SimpleData>
+            <SimpleData name="Vivienda_1">-56.75035380000</SimpleData>
+            <SimpleData name="Superficie">0.80000000000</SimpleData>
+            <SimpleData name="Fecha_Plan">2026/05/27</SimpleData>
+            <SimpleData name="Jornales">0.00000000000</SimpleData>
+            <SimpleData name="Monto">0.00000000000</SimpleData>
+            <SimpleData name="Grupo_de_p">J-P4-XX-XX-XX</SimpleData>
+            <SimpleData name="ETAPA_FAO">Plantaci?n</SimpleData>
+            <SimpleData name="Estado_del">Activo</SimpleData>
+            <SimpleData name="Empresa">Emilio Sol?s Grance</SimpleData>
+            <SimpleData name="Lote">J</SimpleData>
+            <SimpleData name="X">-56.75106519000</SimpleData>
+            <SimpleData name="Y">-23.26485654000</SimpleData>
+            <SimpleData name="Sup_SIG">0.91694772514</SimpleData>
+            <SimpleData name="cedula">8386021</SimpleData>
+            <SimpleData name="Shape_Leng">399.43399608600</SimpleData>
+            <SimpleData name="Shape_Area">9169.47725141000</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+                -56.7509644000087,-23.2655365000044,0
+                -56.7510338003835,-23.2655580004157,0
+                -56.7512700002315,-23.2653975000822,0
+                -56.751523300008,-23.2642932993915,0
+                -56.7513733000714,-23.2641733003784,0
+                -56.7511899998768,-23.2641267000887,0
+                -56.7504900997817,-23.2650488004844,0
+                -56.7509644000087,-23.2655365000044,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark id="Distrito_ARROYITO.44">
+        <ExtendedData>
+          <SchemaData schemaUrl="#Distrito_ARROYITO.schema">
+            <SimpleData name="Cédula">7001055.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">ANTONIA MARTINEZ FLORENCIANO</SimpleData>
+            <SimpleData name="Sexo">Mujer</SimpleData>
+            <SimpleData name="Cambio_de_">NO</SimpleData>
+            <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="Cédula_Ti">NO</SimpleData>
+            <SimpleData name="ci_UNIF">7001055.00000000000</SimpleData>
+            <SimpleData name="Situación">NO</SimpleData>
+            <SimpleData name="Comunidad">Campesina</SimpleData>
+            <SimpleData name="Modelo_imp">Modelo 5</SimpleData>
+            <SimpleData name="Departamen">CONCEPCION</SimpleData>
+            <SimpleData name="Distrito">ARROYITO</SimpleData>
+            <SimpleData name="Localidad">NUCLEO 1</SimpleData>
+            <SimpleData name="Localidad_">NUCLEO 1</SimpleData>
+            <SimpleData name="Teléfono">0976838327</SimpleData>
+            <SimpleData name="Vivienda_L">-23.21392710000</SimpleData>
+            <SimpleData name="Vivienda_1">-56.72740720000</SimpleData>
+            <SimpleData name="Superficie">0.70000000000</SimpleData>
+            <SimpleData name="Fecha_Plan">2026/06/04</SimpleData>
+            <SimpleData name="Jornales">0.00000000000</SimpleData>
+            <SimpleData name="Monto">0.00000000000</SimpleData>
+            <SimpleData name="Grupo_de_p">J-P4-XX-XX-XX</SimpleData>
+            <SimpleData name="ETAPA_FAO">Plantaci?n</SimpleData>
+            <SimpleData name="Estado_del">Activo</SimpleData>
+            <SimpleData name="Empresa">Emilio Sol?s Grance</SimpleData>
+            <SimpleData name="Lote">J</SimpleData>
+            <SimpleData name="X">-56.72725281000</SimpleData>
+            <SimpleData name="Y">-23.21309912000</SimpleData>
+            <SimpleData name="Sup_SIG">0.70219130112</SimpleData>
+            <SimpleData name="cedula">7001055</SimpleData>
+            <SimpleData name="Shape_Leng">354.07442559900</SimpleData>
+            <SimpleData name="Shape_Area">7021.91301124000</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+                -56.7266509001801,-23.2129520001225,0
+                -56.7274466994567,-23.2136482992073,0
+                -56.7278732995094,-23.2133116992284,0
+                -56.7270564006783,-23.2125191998257,0
+                -56.7266509001801,-23.2129520001225,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark id="Distrito_ARROYITO.45">
+        <ExtendedData>
+          <SchemaData schemaUrl="#Distrito_ARROYITO.schema">
+            <SimpleData name="Cédula">6039607.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">JUAN DARIO CORONEL AREVALOS</SimpleData>
+            <SimpleData name="Sexo">Hombre</SimpleData>
+            <SimpleData name="Cambio_de_">NO</SimpleData>
+            <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="Cédula_Ti">NO</SimpleData>
+            <SimpleData name="ci_UNIF">6039607.00000000000</SimpleData>
+            <SimpleData name="Situación">NO</SimpleData>
+            <SimpleData name="Comunidad">Campesina</SimpleData>
+            <SimpleData name="Modelo_imp">Modelo 5</SimpleData>
+            <SimpleData name="Departamen">CONCEPCION</SimpleData>
+            <SimpleData name="Distrito">ARROYITO</SimpleData>
+            <SimpleData name="Localidad">NUCLEO 6</SimpleData>
+            <SimpleData name="Localidad_">NUCLEO 6</SimpleData>
+            <SimpleData name="Teléfono">0976488565</SimpleData>
+            <SimpleData name="Vivienda_L">-23.28953160000</SimpleData>
+            <SimpleData name="Vivienda_1">-56.70674940000</SimpleData>
+            <SimpleData name="Superficie">0.70000000000</SimpleData>
+            <SimpleData name="Fecha_Plan">2026/05/04</SimpleData>
+            <SimpleData name="Jornales">0.00000000000</SimpleData>
+            <SimpleData name="Monto">0.00000000000</SimpleData>
+            <SimpleData name="Grupo_de_p">J-P4-XX-XX-XX</SimpleData>
+            <SimpleData name="ETAPA_FAO">Plantaci?n</SimpleData>
+            <SimpleData name="Estado_del">Activo</SimpleData>
+            <SimpleData name="Empresa">Emilio Sol?s Grance</SimpleData>
+            <SimpleData name="Lote">J</SimpleData>
+            <SimpleData name="X">-56.69657851000</SimpleData>
+            <SimpleData name="Y">-23.28132587000</SimpleData>
+            <SimpleData name="Sup_SIG">0.81111585601</SimpleData>
+            <SimpleData name="cedula">6039607</SimpleData>
+            <SimpleData name="Shape_Leng">550.87400648800</SimpleData>
+            <SimpleData name="Shape_Area">8111.15856005000</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+                -56.6954015003053,-23.2812809006994,0
+                -56.6977276004955,-23.2816741996272,0
+                -56.6977812999587,-23.2813862006449,0
+                -56.6954583006496,-23.2809716998907,0
+                -56.6954015003053,-23.2812809006994,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark id="Distrito_ARROYITO.46">
+        <ExtendedData>
+          <SchemaData schemaUrl="#Distrito_ARROYITO.schema">
+            <SimpleData name="Cédula">6724443.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">SOFIA GAONA RIOS</SimpleData>
+            <SimpleData name="Sexo">Mujer</SimpleData>
+            <SimpleData name="Cambio_de_">NO</SimpleData>
+            <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="Cédula_Ti">NO</SimpleData>
+            <SimpleData name="ci_UNIF">6724443.00000000000</SimpleData>
+            <SimpleData name="Situación">NO</SimpleData>
+            <SimpleData name="Comunidad">Campesina</SimpleData>
+            <SimpleData name="Modelo_imp">Modelo 1</SimpleData>
+            <SimpleData name="Departamen">CONCEPCION</SimpleData>
+            <SimpleData name="Distrito">ARROYITO</SimpleData>
+            <SimpleData name="Localidad">NUCLEO 4</SimpleData>
+            <SimpleData name="Localidad_">NUCLEO 4</SimpleData>
+            <SimpleData name="Teléfono">0976502227</SimpleData>
+            <SimpleData name="Vivienda_L">-23.25682470000</SimpleData>
+            <SimpleData name="Vivienda_1">-56.69275660000</SimpleData>
+            <SimpleData name="Superficie">0.80000000000</SimpleData>
+            <SimpleData name="Fecha_Plan">2026/05/19</SimpleData>
+            <SimpleData name="Jornales">0.00000000000</SimpleData>
+            <SimpleData name="Monto">0.00000000000</SimpleData>
+            <SimpleData name="Grupo_de_p">J-P4-XX-XX-XX</SimpleData>
+            <SimpleData name="ETAPA_FAO">Plantaci?n</SimpleData>
+            <SimpleData name="Estado_del">Activo</SimpleData>
+            <SimpleData name="Empresa">Emilio Sol?s Grance</SimpleData>
+            <SimpleData name="Lote">J</SimpleData>
+            <SimpleData name="X">-56.70044767000</SimpleData>
+            <SimpleData name="Y">-23.25189569000</SimpleData>
+            <SimpleData name="Sup_SIG">0.88579118174</SimpleData>
+            <SimpleData name="cedula">6724443</SimpleData>
+            <SimpleData name="Shape_Leng">391.29555976300</SimpleData>
+            <SimpleData name="Shape_Area">8857.91181744000</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+                -56.6997771997348,-23.2516955005072,0
+                -56.7006100004795,-23.252531699979,0
+                -56.7011078999387,-23.2520949994661,0
+                -56.7003067003137,-23.2512649999523,0
+                -56.6997771997348,-23.2516955005072,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark id="Distrito_ARROYITO.47">
+        <ExtendedData>
+          <SchemaData schemaUrl="#Distrito_ARROYITO.schema">
+            <SimpleData name="Cédula">4724357.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">TERESA DE JESUS OVELAR</SimpleData>
+            <SimpleData name="Sexo">Mujer</SimpleData>
+            <SimpleData name="Cambio_de_">NO</SimpleData>
+            <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="Cédula_Ti">NO</SimpleData>
+            <SimpleData name="ci_UNIF">4724357.00000000000</SimpleData>
+            <SimpleData name="Situación">NO</SimpleData>
+            <SimpleData name="Comunidad">Campesina</SimpleData>
+            <SimpleData name="Modelo_imp">Modelo 5</SimpleData>
+            <SimpleData name="Departamen">CONCEPCION</SimpleData>
+            <SimpleData name="Distrito">ARROYITO</SimpleData>
+            <SimpleData name="Localidad">NUCLEO 6</SimpleData>
+            <SimpleData name="Localidad_">NUCLEO 6</SimpleData>
+            <SimpleData name="Teléfono">0983940783</SimpleData>
+            <SimpleData name="Vivienda_L">-23.29685310000</SimpleData>
+            <SimpleData name="Vivienda_1">-56.71002850000</SimpleData>
+            <SimpleData name="Superficie">0.70000000000</SimpleData>
+            <SimpleData name="Fecha_Plan">2026/05/21</SimpleData>
+            <SimpleData name="Jornales">0.00000000000</SimpleData>
+            <SimpleData name="Monto">0.00000000000</SimpleData>
+            <SimpleData name="Grupo_de_p">J-P4-XX-XX-XX</SimpleData>
+            <SimpleData name="ETAPA_FAO">Plantaci?n</SimpleData>
+            <SimpleData name="Estado_del">Activo</SimpleData>
+            <SimpleData name="Empresa">Emilio Sol?s Grance</SimpleData>
+            <SimpleData name="Lote">J</SimpleData>
+            <SimpleData name="X">-56.71871849000</SimpleData>
+            <SimpleData name="Y">-23.30089915000</SimpleData>
+            <SimpleData name="Sup_SIG">0.76885092777</SimpleData>
+            <SimpleData name="cedula">4724357</SimpleData>
+            <SimpleData name="Shape_Leng">481.87638096300</SimpleData>
+            <SimpleData name="Shape_Area">7688.50927770000</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+                -56.718375500048,-23.3018000008151,0
+                -56.7187397003721,-23.3018198993325,0
+                -56.7190654998403,-23.3000240003009,0
+                -56.7186905996623,-23.2999775994455,0
+                -56.718375500048,-23.3018000008151,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark id="Distrito_ARROYITO.48">
+        <ExtendedData>
+          <SchemaData schemaUrl="#Distrito_ARROYITO.schema">
+            <SimpleData name="Cédula">6649512.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">ZUNY ALICIA CORONEL AREVALOS</SimpleData>
+            <SimpleData name="Sexo">Mujer</SimpleData>
+            <SimpleData name="Cambio_de_">NO</SimpleData>
+            <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="Cédula_Ti">NO</SimpleData>
+            <SimpleData name="ci_UNIF">6649512.00000000000</SimpleData>
+            <SimpleData name="Situación">NO</SimpleData>
+            <SimpleData name="Comunidad">Campesina</SimpleData>
+            <SimpleData name="Modelo_imp">Modelo 5</SimpleData>
+            <SimpleData name="Departamen">CONCEPCION</SimpleData>
+            <SimpleData name="Distrito">ARROYITO</SimpleData>
+            <SimpleData name="Localidad">NUCLEO 6</SimpleData>
+            <SimpleData name="Localidad_">NUCLEO 6</SimpleData>
+            <SimpleData name="Teléfono">0972615103</SimpleData>
+            <SimpleData name="Vivienda_L">-23.29753760000</SimpleData>
+            <SimpleData name="Vivienda_1">-56.70993870000</SimpleData>
+            <SimpleData name="Superficie">0.70000000000</SimpleData>
+            <SimpleData name="Fecha_Plan">2026/05/04</SimpleData>
+            <SimpleData name="Jornales">0.00000000000</SimpleData>
+            <SimpleData name="Monto">0.00000000000</SimpleData>
+            <SimpleData name="Grupo_de_p">J-P4-XX-XX-XX</SimpleData>
+            <SimpleData name="ETAPA_FAO">Plantaci?n</SimpleData>
+            <SimpleData name="Estado_del">Activo</SimpleData>
+            <SimpleData name="Empresa">Emilio Sol?s Grance</SimpleData>
+            <SimpleData name="Lote">J</SimpleData>
+            <SimpleData name="X">-56.70584002000</SimpleData>
+            <SimpleData name="Y">-23.28625763000</SimpleData>
+            <SimpleData name="Sup_SIG">0.85866893095</SimpleData>
+            <SimpleData name="cedula">6649512</SimpleData>
+            <SimpleData name="Shape_Leng">622.36047567000</SimpleData>
+            <SimpleData name="Shape_Area">8586.68930948000</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <MultiGeometry>
+          <Polygon>
+            <outerBoundaryIs>
+              <LinearRing>
+                <coordinates>
+                  -56.7062614004949,-23.2865347000401,0
+                  -56.7063524994069,-23.2861248998608,0
+                  -56.7053948992991,-23.2859966999552,0
+                  -56.7053287996827,-23.2862907998967,0
+                  -56.7053704997782,-23.2863825003007,0
+                  -56.7062614004949,-23.2865347000401,0
+                </coordinates>
+              </LinearRing>
+            </outerBoundaryIs>
+          </Polygon>
+          <Polygon>
+            <outerBoundaryIs>
+              <LinearRing>
+                <coordinates>
+                  -56.701045199918,-23.2822289999212,0
+                  -56.7011147994032,-23.2819673992996,0
+                  -56.6997466991754,-23.2817167004513,0
+                  -56.6997333995173,-23.2819977000562,0
+                  -56.701045199918,-23.2822289999212,0
+                </coordinates>
+              </LinearRing>
+            </outerBoundaryIs>
+          </Polygon>
+        </MultiGeometry>
+      </Placemark>
+      <Placemark id="Distrito_ARROYITO.49">
+        <ExtendedData>
+          <SchemaData schemaUrl="#Distrito_ARROYITO.schema">
+            <SimpleData name="Cédula">4160700.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">NILSA RAQUEL LARREA LEIVA</SimpleData>
+            <SimpleData name="Sexo">Mujer</SimpleData>
+            <SimpleData name="Cambio_de_">NO</SimpleData>
+            <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="Cédula_Ti">NO</SimpleData>
+            <SimpleData name="ci_UNIF">4160700.00000000000</SimpleData>
+            <SimpleData name="Situación">NO</SimpleData>
+            <SimpleData name="Comunidad">Campesina</SimpleData>
+            <SimpleData name="Modelo_imp">Modelo 1</SimpleData>
+            <SimpleData name="Departamen">CONCEPCION</SimpleData>
+            <SimpleData name="Distrito">ARROYITO</SimpleData>
+            <SimpleData name="Localidad">NUCLEO 3</SimpleData>
+            <SimpleData name="Localidad_">NUCLEO 3</SimpleData>
+            <SimpleData name="Teléfono">0985638523</SimpleData>
+            <SimpleData name="Vivienda_L">-23.23773930000</SimpleData>
+            <SimpleData name="Vivienda_1">-56.69761840000</SimpleData>
+            <SimpleData name="Superficie">0.80000000000</SimpleData>
+            <SimpleData name="Fecha_Plan">2026/05/19</SimpleData>
+            <SimpleData name="Jornales">0.00000000000</SimpleData>
+            <SimpleData name="Monto">0.00000000000</SimpleData>
+            <SimpleData name="Grupo_de_p">J-P4-XX-XX-XX</SimpleData>
+            <SimpleData name="ETAPA_FAO">Plantaci?n</SimpleData>
+            <SimpleData name="Estado_del">Activo</SimpleData>
+            <SimpleData name="Empresa">Emilio Sol?s Grance</SimpleData>
+            <SimpleData name="Lote">J</SimpleData>
+            <SimpleData name="X">-56.69876206000</SimpleData>
+            <SimpleData name="Y">-23.23653109000</SimpleData>
+            <SimpleData name="Sup_SIG">0.83617708784</SimpleData>
+            <SimpleData name="cedula">4160700</SimpleData>
+            <SimpleData name="Shape_Leng">398.67690873800</SimpleData>
+            <SimpleData name="Shape_Area">8361.77087838000</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+                -56.6980299997196,-23.2367682996733,0
+                -56.6985108002202,-23.2371517000788,0
+                -56.6994650003874,-23.2362382996524,0
+                -56.6993941000727,-23.2361214998751,0
+                -56.699238599214,-23.2360075001291,0
+                -56.6990469001578,-23.2359550998243,0
+                -56.6987517007007,-23.2361899998007,0
+                -56.6980299997196,-23.2367682996733,0
               </coordinates>
             </LinearRing>
           </outerBoundaryIs>

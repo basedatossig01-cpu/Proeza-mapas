@@ -32,29 +32,31 @@
       <SimpleField name="Y" type="double"/>
       <SimpleField name="Sup_SIG" type="double"/>
       <SimpleField name="cedula" type="string"/>
+      <SimpleField name="Shape_Leng" type="double"/>
+      <SimpleField name="Shape_Area" type="double"/>
     </Schema>
     <Document id="Distrito_GUAYAIBI">
       <name>Distrito_GUAYAIBI</name>
       <Placemark id="Distrito_GUAYAIBI.1">
         <ExtendedData>
           <SchemaData schemaUrl="#Distrito_GUAYAIBI.schema">
-            <SimpleData name="Cédula">4596707.00000000000</SimpleData>
-            <SimpleData name="Nombres_y_">GLADIS ZUNILDA FERNANDEZ NU?EZ</SimpleData>
+            <SimpleData name="Cédula">5836644.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">MERCEDES CAJE ESCURRA</SimpleData>
             <SimpleData name="Sexo">Mujer</SimpleData>
             <SimpleData name="Cambio_de_">NO</SimpleData>
             <SimpleData name="Titular_se">NO</SimpleData>
             <SimpleData name="Cédula_Ti">NO</SimpleData>
-            <SimpleData name="ci_UNIF">4596707.00000000000</SimpleData>
+            <SimpleData name="ci_UNIF">5836644.00000000000</SimpleData>
             <SimpleData name="Situación">NO</SimpleData>
             <SimpleData name="Comunidad">Campesina</SimpleData>
             <SimpleData name="Modelo_imp">Modelo 5</SimpleData>
             <SimpleData name="Departamen">SAN PEDRO</SimpleData>
             <SimpleData name="Distrito">GUAYAIBI</SimpleData>
-            <SimpleData name="Localidad">TAVA I</SimpleData>
-            <SimpleData name="Localidad_">TAVA I</SimpleData>
-            <SimpleData name="Teléfono">0981511925</SimpleData>
-            <SimpleData name="Vivienda_L">-24.53089340000</SimpleData>
-            <SimpleData name="Vivienda_1">-56.38301940000</SimpleData>
+            <SimpleData name="Localidad">URBANO</SimpleData>
+            <SimpleData name="Localidad_">URBANO</SimpleData>
+            <SimpleData name="Teléfono">0993438392</SimpleData>
+            <SimpleData name="Vivienda_L">-24.53005570000</SimpleData>
+            <SimpleData name="Vivienda_1">-56.39778520000</SimpleData>
             <SimpleData name="Superficie">0.70000000000</SimpleData>
             <SimpleData name="Fecha_Plan">2025/06/23</SimpleData>
             <SimpleData name="Jornales">0.00000000000</SimpleData>
@@ -64,15 +66,60 @@
             <SimpleData name="Estado_del">Activo</SimpleData>
             <SimpleData name="Empresa">Hyh Consultores SRL</SimpleData>
             <SimpleData name="Lote">Lote 1</SimpleData>
-            <SimpleData name="X">-56.38393121000</SimpleData>
-            <SimpleData name="Y">-24.50783417000</SimpleData>
-            <SimpleData name="Sup_SIG">0.78664781192</SimpleData>
-            <SimpleData name="cedula">4596707</SimpleData>
+            <SimpleData name="X">-56.39859935000</SimpleData>
+            <SimpleData name="Y">-24.52337316000</SimpleData>
+            <SimpleData name="Sup_SIG">0.81462193280</SimpleData>
+            <SimpleData name="cedula">5836644</SimpleData>
+            <SimpleData name="Shape_Leng">362.23180740700</SimpleData>
+            <SimpleData name="Shape_Area">8146.21932804000</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Point>
           <coordinates>
-            -56.3839312093284,-24.5078341727814,0
+            -56.3985993457171,-24.5233731635604,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Distrito_GUAYAIBI.2">
+        <ExtendedData>
+          <SchemaData schemaUrl="#Distrito_GUAYAIBI.schema">
+            <SimpleData name="Cédula">7067438.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">ANALIZ GOMEZ SALINAS</SimpleData>
+            <SimpleData name="Sexo">Mujer</SimpleData>
+            <SimpleData name="Cambio_de_">NO</SimpleData>
+            <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="Cédula_Ti">NO</SimpleData>
+            <SimpleData name="ci_UNIF">7067438.00000000000</SimpleData>
+            <SimpleData name="Situación">NO</SimpleData>
+            <SimpleData name="Comunidad">Campesina</SimpleData>
+            <SimpleData name="Modelo_imp">Modelo 5</SimpleData>
+            <SimpleData name="Departamen">SAN PEDRO</SimpleData>
+            <SimpleData name="Distrito">GUAYAIBI</SimpleData>
+            <SimpleData name="Localidad">CALLE 4000</SimpleData>
+            <SimpleData name="Localidad_">CALLE 4000</SimpleData>
+            <SimpleData name="Teléfono">0982206565</SimpleData>
+            <SimpleData name="Vivienda_L">-24.55919910000</SimpleData>
+            <SimpleData name="Vivienda_1">-56.33732780000</SimpleData>
+            <SimpleData name="Superficie">0.70000000000</SimpleData>
+            <SimpleData name="Fecha_Plan">2025/06/06</SimpleData>
+            <SimpleData name="Jornales">0.00000000000</SimpleData>
+            <SimpleData name="Monto">0.00000000000</SimpleData>
+            <SimpleData name="Grupo_de_p">Lote 1-P1-XX-XX-XX</SimpleData>
+            <SimpleData name="ETAPA_FAO">Mantenimiento A?o 1.1</SimpleData>
+            <SimpleData name="Estado_del">Activo</SimpleData>
+            <SimpleData name="Empresa">Hyh Consultores SRL</SimpleData>
+            <SimpleData name="Lote">Lote 1</SimpleData>
+            <SimpleData name="X">-56.33787043000</SimpleData>
+            <SimpleData name="Y">-24.55505496000</SimpleData>
+            <SimpleData name="Sup_SIG">0.85419258923</SimpleData>
+            <SimpleData name="cedula">7067438</SimpleData>
+            <SimpleData name="Shape_Leng">370.95586297000</SimpleData>
+            <SimpleData name="Shape_Area">8541.92589232000</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -56.3378704323971,-24.5550549607391,0
           </coordinates>
         </Point>
       </Placemark>

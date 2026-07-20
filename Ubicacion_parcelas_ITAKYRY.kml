@@ -32,49 +32,103 @@
       <SimpleField name="Y" type="double"/>
       <SimpleField name="Sup_SIG" type="double"/>
       <SimpleField name="cedula" type="string"/>
+      <SimpleField name="Shape_Leng" type="double"/>
+      <SimpleField name="Shape_Area" type="double"/>
     </Schema>
     <Document id="Distrito_ITAKYRY">
       <name>Distrito_ITAKYRY</name>
       <Placemark id="Distrito_ITAKYRY.1">
         <ExtendedData>
           <SchemaData schemaUrl="#Distrito_ITAKYRY.schema">
-            <SimpleData name="Cédula">2261475.00000000000</SimpleData>
-            <SimpleData name="Nombres_y_">AMALIA  PEREIRA PERALTA</SimpleData>
-            <SimpleData name="Sexo">Mujer</SimpleData>
+            <SimpleData name="Cédula">4455365.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">SAMUEL BRIZUELA GAMARRA</SimpleData>
+            <SimpleData name="Sexo">Hombre</SimpleData>
             <SimpleData name="Cambio_de_">NO</SimpleData>
             <SimpleData name="Titular_se">NO</SimpleData>
             <SimpleData name="Cédula_Ti">NO</SimpleData>
-            <SimpleData name="ci_UNIF">2261475.00000000000</SimpleData>
+            <SimpleData name="ci_UNIF">4455365.00000000000</SimpleData>
             <SimpleData name="Situación">NO</SimpleData>
             <SimpleData name="Comunidad">Campesina</SimpleData>
-            <SimpleData name="Modelo_imp">Modelo 5</SimpleData>
+            <SimpleData name="Modelo_imp">Modelo 6</SimpleData>
             <SimpleData name="Departamen">ALTO PARANA</SimpleData>
             <SimpleData name="Distrito">ITAKYRY</SimpleData>
-            <SimpleData name="Localidad">MARIA AUXILIADORA</SimpleData>
-            <SimpleData name="Localidad_">MARIA AUXILIADORA</SimpleData>
-            <SimpleData name="Teléfono">971362287</SimpleData>
-            <SimpleData name="Vivienda_L">-24.98332330000</SimpleData>
-            <SimpleData name="Vivienda_1">-55.15669170000</SimpleData>
-            <SimpleData name="Superficie">0.70000000000</SimpleData>
-            <SimpleData name="Fecha_Plan">2026/01/14</SimpleData>
+            <SimpleData name="Localidad">SANTA LUCIA</SimpleData>
+            <SimpleData name="Localidad_">SANTA LUCIA</SimpleData>
+            <SimpleData name="Teléfono">0983580299</SimpleData>
+            <SimpleData name="Vivienda_L">-24.55211390000</SimpleData>
+            <SimpleData name="Vivienda_1">-55.08817590000</SimpleData>
+            <SimpleData name="Superficie">0.90000000000</SimpleData>
+            <SimpleData name="Fecha_Plan">2025/11/27</SimpleData>
             <SimpleData name="Jornales">0.00000000000</SimpleData>
             <SimpleData name="Monto">0.00000000000</SimpleData>
-            <SimpleData name="Grupo_de_p">F-P2-XX-XX-XX</SimpleData>
+            <SimpleData name="Grupo_de_p">F-P1-XX-XX-XX</SimpleData>
             <SimpleData name="ETAPA_FAO">Mantenimiento A?o 1.1</SimpleData>
             <SimpleData name="Estado_del">Activo</SimpleData>
             <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
             <SimpleData name="Lote">F</SimpleData>
-            <SimpleData name="X">-55.10952824000</SimpleData>
-            <SimpleData name="Y">-24.98586500000</SimpleData>
-            <SimpleData name="Sup_SIG">0.70846156067</SimpleData>
-            <SimpleData name="cedula">2261475</SimpleData>
+            <SimpleData name="X">-55.09780934000</SimpleData>
+            <SimpleData name="Y">-24.55331124000</SimpleData>
+            <SimpleData name="Sup_SIG">0.91939916742</SimpleData>
+            <SimpleData name="cedula">4455365</SimpleData>
+            <SimpleData name="Shape_Leng">491.56888909900</SimpleData>
+            <SimpleData name="Shape_Area">9193.99167416000</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Point>
           <coordinates>
-            -55.1095282418469,-24.9858649953368,0
+            -55.097809341626,-24.5533112373772,0
           </coordinates>
         </Point>
+      </Placemark>
+      <Placemark id="Distrito_ITAKYRY.2">
+        <ExtendedData>
+          <SchemaData schemaUrl="#Distrito_ITAKYRY.schema">
+            <SimpleData name="Cédula">6605100.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">LOURDES MARTINEZ CARDENA</SimpleData>
+            <SimpleData name="Sexo">Mujer</SimpleData>
+            <SimpleData name="Cambio_de_">NO</SimpleData>
+            <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="Cédula_Ti">NO</SimpleData>
+            <SimpleData name="ci_UNIF">6605100.00000000000</SimpleData>
+            <SimpleData name="Situación">NO</SimpleData>
+            <SimpleData name="Comunidad">Campesina</SimpleData>
+            <SimpleData name="Modelo_imp">Modelo 6</SimpleData>
+            <SimpleData name="Departamen">ALTO PARANA</SimpleData>
+            <SimpleData name="Distrito">ITAKYRY</SimpleData>
+            <SimpleData name="Localidad">SANTA LUCIA</SimpleData>
+            <SimpleData name="Localidad_">SANTA LUCIA</SimpleData>
+            <SimpleData name="Teléfono">0972446679</SimpleData>
+            <SimpleData name="Vivienda_L">-24.55935400000</SimpleData>
+            <SimpleData name="Vivienda_1">-55.03229640000</SimpleData>
+            <SimpleData name="Superficie">0.90000000000</SimpleData>
+            <SimpleData name="Fecha_Plan">2025/11/14</SimpleData>
+            <SimpleData name="Jornales">0.00000000000</SimpleData>
+            <SimpleData name="Monto">0.00000000000</SimpleData>
+            <SimpleData name="Grupo_de_p">F-P1-XX-XX-XX</SimpleData>
+            <SimpleData name="ETAPA_FAO">Mantenimiento A?o 1.1</SimpleData>
+            <SimpleData name="Estado_del">Activo</SimpleData>
+            <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
+            <SimpleData name="Lote">F</SimpleData>
+            <SimpleData name="X">-55.03965318000</SimpleData>
+            <SimpleData name="Y">-24.56193370000</SimpleData>
+            <SimpleData name="Sup_SIG">0.91597501259</SimpleData>
+            <SimpleData name="cedula">6605100</SimpleData>
+            <SimpleData name="Shape_Leng">633.44844670800</SimpleData>
+            <SimpleData name="Shape_Area">9159.75012587000</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <MultiGeometry>
+          <Point>
+            <coordinates>
+              -55.0396531822398,-24.5619336979657,0
+            </coordinates>
+          </Point>
+          <Point>
+            <coordinates>
+              -55.0316612557576,-24.5600008161283,0
+            </coordinates>
+          </Point>
+        </MultiGeometry>
       </Placemark>
     </Document>
   </Document>
