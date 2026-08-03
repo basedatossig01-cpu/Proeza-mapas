@@ -3,15 +3,17 @@
   <Document id="root_doc">
     <Schema id="Distrito_YH__.schema">
       <SimpleField name="Cédula" type="double"/>
+      <SimpleField name="cedula" type="string"/>
+      <SimpleField name="Cédula_1" type="double"/>
+      <SimpleField name="N_" type="double"/>
       <SimpleField name="Nombres_y_" type="string"/>
       <SimpleField name="Sexo" type="string"/>
       <SimpleField name="Cambio_de_" type="string"/>
       <SimpleField name="Titular_se" type="string"/>
       <SimpleField name="Cédula_Ti" type="string"/>
-      <SimpleField name="ci_UNIF" type="double"/>
       <SimpleField name="Situación" type="string"/>
       <SimpleField name="Comunidad" type="string"/>
-      <SimpleField name="Modelo_imp" type="string"/>
+      <SimpleField name="Modelo" type="string"/>
       <SimpleField name="Departamen" type="string"/>
       <SimpleField name="Distrito" type="string"/>
       <SimpleField name="Localidad" type="string"/>
@@ -21,163 +23,90 @@
       <SimpleField name="Superficie" type="double"/>
       <SimpleField name="Situaci_1" type="string"/>
       <SimpleField name="Plantado" type="string"/>
-      <SimpleField name="Fecha_Plan" type="string"/>
+      <SimpleField name="Parcela_La" type="double"/>
+      <SimpleField name="Parcela_Lo" type="double"/>
+      <SimpleField name="Grupo_Impl" type="string"/>
+      <SimpleField name="Grupo_de_P" type="string"/>
       <SimpleField name="Jornales" type="double"/>
       <SimpleField name="Monto" type="double"/>
-      <SimpleField name="Grupo_de_p" type="string"/>
       <SimpleField name="Estado_del" type="string"/>
       <SimpleField name="Empresa" type="string"/>
       <SimpleField name="Lote" type="string"/>
-      <SimpleField name="Parametro" type="double"/>
-      <SimpleField name="Sup_SIG" type="double"/>
-      <SimpleField name="Situacion" type="string"/>
-      <SimpleField name="X" type="double"/>
-      <SimpleField name="Y" type="double"/>
-      <SimpleField name="cedula" type="string"/>
+      <SimpleField name="Fecha_de_M" type="string"/>
+      <SimpleField name="F__de_pren" type="string"/>
+      <SimpleField name="Cocina_Efi" type="string"/>
+      <SimpleField name="Estado_FAO" type="string"/>
+      <SimpleField name="Etapa_de_i" type="string"/>
+      <SimpleField name="Fecha_visi" type="string"/>
+      <SimpleField name="Etapa_impl" type="string"/>
+      <SimpleField name="Cumple_sup" type="string"/>
+      <SimpleField name="Estado_mon" type="string"/>
+      <SimpleField name="Situaci_12" type="string"/>
+      <SimpleField name="Observaci" type="string"/>
+      <SimpleField name="Dias_trans" type="string"/>
+      <SimpleField name="Prioridad" type="string"/>
+      <SimpleField name="OBJECTID_1" type="int"/>
     </Schema>
     <Document id="Distrito_YH__">
       <name>Distrito_YHÃš</name>
       <Placemark id="Distrito_YH__.1">
         <ExtendedData>
           <SchemaData schemaUrl="#Distrito_YH__.schema">
-            <SimpleData name="Cédula">4393559.00000000000</SimpleData>
-            <SimpleData name="Nombres_y_">GESSICA GRACIELA ALMADA ALVAREZ</SimpleData>
+            <SimpleData name="Cédula">2681410.00000000000</SimpleData>
+            <SimpleData name="cedula">2681410</SimpleData>
+            <SimpleData name="Cédula_1">2681410.00000000000</SimpleData>
+            <SimpleData name="N_">250.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">NATIVIDAD DE MERCEDES PAREDES DE ACU?A</SimpleData>
             <SimpleData name="Sexo">Mujer</SimpleData>
             <SimpleData name="Cambio_de_">NO</SimpleData>
             <SimpleData name="Titular_se">NO</SimpleData>
-            <SimpleData name="ci_UNIF">4393559.00000000000</SimpleData>
+            <SimpleData name="Cédula_Ti">NO</SimpleData>
             <SimpleData name="Situación">NO</SimpleData>
             <SimpleData name="Comunidad">Campesina</SimpleData>
-            <SimpleData name="Modelo_imp">Modelo 1</SimpleData>
-            <SimpleData name="Departamen">CAAGUAZU</SimpleData>
-            <SimpleData name="Distrito">YH?</SimpleData>
-            <SimpleData name="Localidad">SAN RAMON</SimpleData>
-            <SimpleData name="Teléfono">983238673</SimpleData>
-            <SimpleData name="Vivienda_L">-25.09479830000</SimpleData>
-            <SimpleData name="Vivienda_1">-55.98959670000</SimpleData>
-            <SimpleData name="Superficie">0.80000000000</SimpleData>
-            <SimpleData name="Situaci_1">Parametro</SimpleData>
-            <SimpleData name="Plantado">SI</SimpleData>
-            <SimpleData name="Fecha_Plan">2026/05/22</SimpleData>
-            <SimpleData name="Jornales">0.00000000000</SimpleData>
-            <SimpleData name="Monto">0.00000000000</SimpleData>
-            <SimpleData name="Grupo_de_p">D-P4-XX-XX-XX</SimpleData>
-            <SimpleData name="Estado_del">Activo</SimpleData>
-            <SimpleData name="Empresa">Unique Wood Paraguay SA</SimpleData>
-            <SimpleData name="Lote">D</SimpleData>
-            <SimpleData name="Sup_SIG">0.85941005211</SimpleData>
-            <SimpleData name="X">-56.00585714000</SimpleData>
-            <SimpleData name="Y">-25.11124636000</SimpleData>
-            <SimpleData name="cedula">4393559</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Polygon>
-          <outerBoundaryIs>
-            <LinearRing>
-              <coordinates>
-                -56.0062226137102,-25.1114591154223,0
-                -56.0056537415206,-25.1103960566588,0
-                -56.0052610004708,-25.1104705004095,0
-                -56.0059570998725,-25.1120166000725,0
-                -56.0064740997195,-25.1119888005193,0
-                -56.0062226137102,-25.1114591154223,0
-              </coordinates>
-            </LinearRing>
-          </outerBoundaryIs>
-        </Polygon>
-      </Placemark>
-      <Placemark id="Distrito_YH__.2">
-        <ExtendedData>
-          <SchemaData schemaUrl="#Distrito_YH__.schema">
-            <SimpleData name="Cédula">6112334.00000000000</SimpleData>
-            <SimpleData name="Nombres_y_">BRUNO  MIRANDA AQUINO</SimpleData>
-            <SimpleData name="Sexo">Hombre</SimpleData>
-            <SimpleData name="Cambio_de_">NO</SimpleData>
-            <SimpleData name="Titular_se">NO</SimpleData>
-            <SimpleData name="ci_UNIF">6112334.00000000000</SimpleData>
-            <SimpleData name="Situación">NO</SimpleData>
-            <SimpleData name="Comunidad">Campesina</SimpleData>
-            <SimpleData name="Modelo_imp">Modelo 1</SimpleData>
+            <SimpleData name="Modelo">Modelo 5</SimpleData>
             <SimpleData name="Departamen">CAAGUAZU</SimpleData>
             <SimpleData name="Distrito">YH?</SimpleData>
             <SimpleData name="Localidad">JUAN SINFORIANO BOGARIN</SimpleData>
-            <SimpleData name="Teléfono">986238190</SimpleData>
-            <SimpleData name="Vivienda_L">-25.16479360000</SimpleData>
-            <SimpleData name="Vivienda_1">-55.93560120000</SimpleData>
-            <SimpleData name="Superficie">0.80000000000</SimpleData>
+            <SimpleData name="Teléfono">983891662</SimpleData>
+            <SimpleData name="Vivienda_L">-25.16334670000</SimpleData>
+            <SimpleData name="Vivienda_1">-55.93723670000</SimpleData>
+            <SimpleData name="Superficie">0.70000000000</SimpleData>
             <SimpleData name="Situaci_1">Pol?gono</SimpleData>
             <SimpleData name="Plantado">SI</SimpleData>
-            <SimpleData name="Fecha_Plan">2025/10/21</SimpleData>
+            <SimpleData name="Parcela_La">-25.16187924000</SimpleData>
+            <SimpleData name="Parcela_Lo">-55.92988362000</SimpleData>
+            <SimpleData name="Grupo_Impl">G2</SimpleData>
+            <SimpleData name="Grupo_de_P">D-P1-XX-XX-XX</SimpleData>
             <SimpleData name="Jornales">0.00000000000</SimpleData>
             <SimpleData name="Monto">0.00000000000</SimpleData>
-            <SimpleData name="Grupo_de_p">D-P3-XX-XX-XX</SimpleData>
             <SimpleData name="Estado_del">Activo</SimpleData>
             <SimpleData name="Empresa">Unique Wood Paraguay SA</SimpleData>
             <SimpleData name="Lote">D</SimpleData>
-            <SimpleData name="Sup_SIG">1.00349220703</SimpleData>
-            <SimpleData name="X">-55.92918129000</SimpleData>
-            <SimpleData name="Y">-25.16431220000</SimpleData>
-            <SimpleData name="cedula">6112334</SimpleData>
+            <SimpleData name="Fecha_de_M">-</SimpleData>
+            <SimpleData name="F__de_pren">-</SimpleData>
+            <SimpleData name="Cocina_Efi">No</SimpleData>
+            <SimpleData name="Estado_FAO">Verificar posible desercion</SimpleData>
+            <SimpleData name="Etapa_de_i">Mantenimiento A?o 1.1</SimpleData>
+            <SimpleData name="Fecha_visi">2026/07/30</SimpleData>
+            <SimpleData name="Etapa_impl">Mantenimiento A?o 1.1</SimpleData>
+            <SimpleData name="Cumple_sup">-</SimpleData>
+            <SimpleData name="Estado_mon">-</SimpleData>
+            <SimpleData name="Situaci_12">-</SimpleData>
+            <SimpleData name="Observaci">-</SimpleData>
+            <SimpleData name="Dias_trans">-</SimpleData>
+            <SimpleData name="Prioridad">ALTA</SimpleData>
+            <SimpleData name="OBJECTID_1">250</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Polygon>
           <outerBoundaryIs>
             <LinearRing>
               <coordinates>
-                -55.9286166999361,-25.1646958997626,0
-                -55.9296126997926,-25.1648068995211,0
-                -55.9297622997906,-25.1639413998492,0
-                -55.9287368998012,-25.1638141993141,0
-                -55.9286166999361,-25.1646958997626,0
-              </coordinates>
-            </LinearRing>
-          </outerBoundaryIs>
-        </Polygon>
-      </Placemark>
-      <Placemark id="Distrito_YH__.3">
-        <ExtendedData>
-          <SchemaData schemaUrl="#Distrito_YH__.schema">
-            <SimpleData name="Cédula">5311042.00000000000</SimpleData>
-            <SimpleData name="Nombres_y_">PERLA PATRICIA ALONSO</SimpleData>
-            <SimpleData name="Sexo">Mujer</SimpleData>
-            <SimpleData name="Cambio_de_">NO</SimpleData>
-            <SimpleData name="Titular_se">NO</SimpleData>
-            <SimpleData name="ci_UNIF">5311042.00000000000</SimpleData>
-            <SimpleData name="Situación">NO</SimpleData>
-            <SimpleData name="Comunidad">Campesina</SimpleData>
-            <SimpleData name="Modelo_imp">Modelo 1</SimpleData>
-            <SimpleData name="Departamen">CAAGUAZU</SimpleData>
-            <SimpleData name="Distrito">YH?</SimpleData>
-            <SimpleData name="Localidad">JUAN SINFORIANO BOGARIN</SimpleData>
-            <SimpleData name="Teléfono">983448373</SimpleData>
-            <SimpleData name="Vivienda_L">-25.17340170000</SimpleData>
-            <SimpleData name="Vivienda_1">-55.93566170000</SimpleData>
-            <SimpleData name="Superficie">0.80000000000</SimpleData>
-            <SimpleData name="Situaci_1">Pol?gono</SimpleData>
-            <SimpleData name="Plantado">SI</SimpleData>
-            <SimpleData name="Fecha_Plan">2025/10/22</SimpleData>
-            <SimpleData name="Jornales">0.00000000000</SimpleData>
-            <SimpleData name="Monto">0.00000000000</SimpleData>
-            <SimpleData name="Grupo_de_p">D-P3-XX-XX-XX</SimpleData>
-            <SimpleData name="Estado_del">Activo</SimpleData>
-            <SimpleData name="Empresa">Unique Wood Paraguay SA</SimpleData>
-            <SimpleData name="Lote">D</SimpleData>
-            <SimpleData name="Sup_SIG">0.85718278116</SimpleData>
-            <SimpleData name="X">-55.92872575000</SimpleData>
-            <SimpleData name="Y">-25.16504694000</SimpleData>
-            <SimpleData name="cedula">5311042</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Polygon>
-          <outerBoundaryIs>
-            <LinearRing>
-              <coordinates>
-                -55.9275288991624,-25.1650874993547,0
-                -55.9298671992013,-25.1653292993371,0
-                -55.9299073996973,-25.1651575996426,0
-                -55.9298278994194,-25.1649872993447,0
-                -55.9275830997005,-25.1647696999927,0
-                -55.9275288991624,-25.1650874993547,0
+                -55.9294905003283,-25.1623297997945,0
+                -55.9302374008296,-25.1623879999476,0
+                -55.9302781995229,-25.1613955999328,0
+                -55.929508299799,-25.1614116996684,0
+                -55.9294905003283,-25.1623297997945,0
               </coordinates>
             </LinearRing>
           </outerBoundaryIs>

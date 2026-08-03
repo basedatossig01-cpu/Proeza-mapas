@@ -3,165 +3,104 @@
   <Document id="root_doc">
     <Schema id="Distrito_HERNANDARIAS.schema">
       <SimpleField name="Cédula" type="double"/>
+      <SimpleField name="cedula" type="string"/>
+      <SimpleField name="Cédula_1" type="double"/>
+      <SimpleField name="N_" type="double"/>
       <SimpleField name="Nombres_y_" type="string"/>
       <SimpleField name="Sexo" type="string"/>
       <SimpleField name="Cambio_de_" type="string"/>
       <SimpleField name="Titular_se" type="string"/>
       <SimpleField name="Cédula_Ti" type="string"/>
-      <SimpleField name="ci_UNIF" type="double"/>
       <SimpleField name="Situación" type="string"/>
       <SimpleField name="Comunidad" type="string"/>
-      <SimpleField name="Modelo_imp" type="string"/>
+      <SimpleField name="Modelo" type="string"/>
       <SimpleField name="Departamen" type="string"/>
       <SimpleField name="Distrito" type="string"/>
       <SimpleField name="Localidad" type="string"/>
-      <SimpleField name="Localidad_" type="string"/>
       <SimpleField name="Teléfono" type="string"/>
       <SimpleField name="Vivienda_L" type="double"/>
       <SimpleField name="Vivienda_1" type="double"/>
       <SimpleField name="Superficie" type="double"/>
-      <SimpleField name="Fecha_Plan" type="string"/>
+      <SimpleField name="Situaci_1" type="string"/>
+      <SimpleField name="Plantado" type="string"/>
+      <SimpleField name="Parcela_La" type="double"/>
+      <SimpleField name="Parcela_Lo" type="double"/>
+      <SimpleField name="Grupo_Impl" type="string"/>
+      <SimpleField name="Grupo_de_P" type="string"/>
       <SimpleField name="Jornales" type="double"/>
       <SimpleField name="Monto" type="double"/>
-      <SimpleField name="Grupo_de_p" type="string"/>
-      <SimpleField name="ETAPA_FAO" type="string"/>
       <SimpleField name="Estado_del" type="string"/>
       <SimpleField name="Empresa" type="string"/>
       <SimpleField name="Lote" type="string"/>
-      <SimpleField name="X" type="double"/>
-      <SimpleField name="Y" type="double"/>
-      <SimpleField name="Sup_SIG" type="double"/>
-      <SimpleField name="cedula" type="string"/>
+      <SimpleField name="Fecha_de_M" type="string"/>
+      <SimpleField name="F__de_pren" type="string"/>
+      <SimpleField name="Cocina_Efi" type="string"/>
+      <SimpleField name="Estado_FAO" type="string"/>
+      <SimpleField name="Etapa_de_i" type="string"/>
+      <SimpleField name="Fecha_visi" type="string"/>
+      <SimpleField name="Etapa_impl" type="string"/>
+      <SimpleField name="Cumple_sup" type="string"/>
+      <SimpleField name="Estado_mon" type="string"/>
+      <SimpleField name="Situaci_12" type="string"/>
+      <SimpleField name="Observaci" type="string"/>
+      <SimpleField name="Dias_trans" type="string"/>
+      <SimpleField name="Prioridad" type="string"/>
+      <SimpleField name="OBJECTID_1" type="int"/>
     </Schema>
     <Document id="Distrito_HERNANDARIAS">
       <name>Distrito_HERNANDARIAS</name>
       <Placemark id="Distrito_HERNANDARIAS.1">
         <ExtendedData>
           <SchemaData schemaUrl="#Distrito_HERNANDARIAS.schema">
-            <SimpleData name="Cédula">7274981.00000000000</SimpleData>
-            <SimpleData name="Nombres_y_">AGUSTINA  BENITEZ DUARTE</SimpleData>
+            <SimpleData name="Cédula">7897608.00000000000</SimpleData>
+            <SimpleData name="cedula">7897608</SimpleData>
+            <SimpleData name="Cédula_1">7897608.00000000000</SimpleData>
+            <SimpleData name="N_">110.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">DOMITILA DELGADO AQUINO</SimpleData>
             <SimpleData name="Sexo">Mujer</SimpleData>
             <SimpleData name="Cambio_de_">NO</SimpleData>
             <SimpleData name="Titular_se">NO</SimpleData>
             <SimpleData name="Cédula_Ti">NO</SimpleData>
-            <SimpleData name="ci_UNIF">7274981.00000000000</SimpleData>
             <SimpleData name="Situación">NO</SimpleData>
             <SimpleData name="Comunidad">Ind?gena</SimpleData>
-            <SimpleData name="Modelo_imp">Modelo 5</SimpleData>
+            <SimpleData name="Modelo">Modelo 5</SimpleData>
             <SimpleData name="Departamen">ALTO PARANA</SimpleData>
             <SimpleData name="Distrito">HERNANDARIAS</SimpleData>
-            <SimpleData name="Localidad">COM INDIG ACARAYMI - ANGELA ANTONIA</SimpleData>
-            <SimpleData name="Localidad_">ACARAYMI - BARRIO ?NGELA ANTONIA</SimpleData>
-            <SimpleData name="Teléfono">982793364</SimpleData>
-            <SimpleData name="Vivienda_L">-25.27846170000</SimpleData>
-            <SimpleData name="Vivienda_1">-54.87745500000</SimpleData>
+            <SimpleData name="Localidad">COM INDIG ACARAYMI - INDEPENDIENTE</SimpleData>
+            <SimpleData name="Teléfono">ND</SimpleData>
+            <SimpleData name="Vivienda_L">-25.31986580000</SimpleData>
+            <SimpleData name="Vivienda_1">-54.91773570000</SimpleData>
             <SimpleData name="Superficie">0.70000000000</SimpleData>
-            <SimpleData name="Fecha_Plan">2025/11/18</SimpleData>
+            <SimpleData name="Situaci_1">Pol?gono</SimpleData>
+            <SimpleData name="Plantado">SI</SimpleData>
+            <SimpleData name="Parcela_La">-25.31955683000</SimpleData>
+            <SimpleData name="Parcela_Lo">-54.91813201000</SimpleData>
+            <SimpleData name="Grupo_Impl">G2</SimpleData>
+            <SimpleData name="Grupo_de_P">F-P1-XX-XX-XX</SimpleData>
             <SimpleData name="Jornales">0.00000000000</SimpleData>
             <SimpleData name="Monto">0.00000000000</SimpleData>
-            <SimpleData name="Grupo_de_p">F-P1-XX-XX-XX</SimpleData>
-            <SimpleData name="ETAPA_FAO">Mantenimiento A?o 1.1</SimpleData>
             <SimpleData name="Estado_del">Activo</SimpleData>
             <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
             <SimpleData name="Lote">F</SimpleData>
-            <SimpleData name="X">-54.87721478000</SimpleData>
-            <SimpleData name="Y">-25.27819890000</SimpleData>
-            <SimpleData name="Sup_SIG">0.69778026285</SimpleData>
-            <SimpleData name="cedula">7274981</SimpleData>
+            <SimpleData name="Fecha_de_M">-</SimpleData>
+            <SimpleData name="F__de_pren">-</SimpleData>
+            <SimpleData name="Cocina_Efi">No</SimpleData>
+            <SimpleData name="Estado_FAO">Monitorear</SimpleData>
+            <SimpleData name="Etapa_de_i">Mantenimiento A?o 1.1</SimpleData>
+            <SimpleData name="Fecha_visi">2026/07/27</SimpleData>
+            <SimpleData name="Etapa_impl">Mantenimiento A?o 1.1</SimpleData>
+            <SimpleData name="Cumple_sup">Si</SimpleData>
+            <SimpleData name="Estado_mon">-</SimpleData>
+            <SimpleData name="Situaci_12">-</SimpleData>
+            <SimpleData name="Observaci">-</SimpleData>
+            <SimpleData name="Dias_trans">6</SimpleData>
+            <SimpleData name="Prioridad">ALTA</SimpleData>
+            <SimpleData name="OBJECTID_1">110</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Point>
           <coordinates>
-            -54.8772147828161,-25.2781988972239,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark id="Distrito_HERNANDARIAS.2">
-        <ExtendedData>
-          <SchemaData schemaUrl="#Distrito_HERNANDARIAS.schema">
-            <SimpleData name="Cédula">4641317.00000000000</SimpleData>
-            <SimpleData name="Nombres_y_">BENEDICTA OLIVEIRA BENITEZ</SimpleData>
-            <SimpleData name="Sexo">Mujer</SimpleData>
-            <SimpleData name="Cambio_de_">NO</SimpleData>
-            <SimpleData name="Titular_se">NO</SimpleData>
-            <SimpleData name="Cédula_Ti">NO</SimpleData>
-            <SimpleData name="ci_UNIF">4641317.00000000000</SimpleData>
-            <SimpleData name="Situación">NO</SimpleData>
-            <SimpleData name="Comunidad">Ind?gena</SimpleData>
-            <SimpleData name="Modelo_imp">Modelo 5</SimpleData>
-            <SimpleData name="Departamen">ALTO PARANA</SimpleData>
-            <SimpleData name="Distrito">HERNANDARIAS</SimpleData>
-            <SimpleData name="Localidad">COM INDIG ACARAYMI - BARRIO ANGELA ANTONIA</SimpleData>
-            <SimpleData name="Localidad_">ACARAYMI - BARRIO ?NGELA ANTONIA</SimpleData>
-            <SimpleData name="Teléfono">0986339952</SimpleData>
-            <SimpleData name="Vivienda_L">-25.28898740000</SimpleData>
-            <SimpleData name="Vivienda_1">-54.87051360000</SimpleData>
-            <SimpleData name="Superficie">0.70000000000</SimpleData>
-            <SimpleData name="Fecha_Plan">2025/11/18</SimpleData>
-            <SimpleData name="Jornales">0.00000000000</SimpleData>
-            <SimpleData name="Monto">0.00000000000</SimpleData>
-            <SimpleData name="Grupo_de_p">F-P1-XX-XX-XX</SimpleData>
-            <SimpleData name="ETAPA_FAO">Mantenimiento A?o 1.1</SimpleData>
-            <SimpleData name="Estado_del">Activo</SimpleData>
-            <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
-            <SimpleData name="Lote">F</SimpleData>
-            <SimpleData name="X">-54.87047691000</SimpleData>
-            <SimpleData name="Y">-25.28873562000</SimpleData>
-            <SimpleData name="Sup_SIG">0.70174336840</SimpleData>
-            <SimpleData name="cedula">4641317</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <MultiGeometry>
-          <Point>
-            <coordinates>
-              -54.8709940777407,-25.289148419775,0
-            </coordinates>
-          </Point>
-          <Point>
-            <coordinates>
-              -54.8701594190934,-25.2884821957625,0
-            </coordinates>
-          </Point>
-        </MultiGeometry>
-      </Placemark>
-      <Placemark id="Distrito_HERNANDARIAS.3">
-        <ExtendedData>
-          <SchemaData schemaUrl="#Distrito_HERNANDARIAS.schema">
-            <SimpleData name="Cédula">7589269.00000000000</SimpleData>
-            <SimpleData name="Nombres_y_">MIGUELINA  MILTOS BOGADO</SimpleData>
-            <SimpleData name="Sexo">Mujer</SimpleData>
-            <SimpleData name="Cambio_de_">NO</SimpleData>
-            <SimpleData name="Titular_se">NO</SimpleData>
-            <SimpleData name="Cédula_Ti">NO</SimpleData>
-            <SimpleData name="ci_UNIF">7589269.00000000000</SimpleData>
-            <SimpleData name="Situación">NO</SimpleData>
-            <SimpleData name="Comunidad">Campesina</SimpleData>
-            <SimpleData name="Modelo_imp">Modelo 5</SimpleData>
-            <SimpleData name="Departamen">ALTO PARANA</SimpleData>
-            <SimpleData name="Distrito">HERNANDARIAS</SimpleData>
-            <SimpleData name="Localidad">NUEVA FORTUNA</SimpleData>
-            <SimpleData name="Localidad_">NUEVA FORTUNA</SimpleData>
-            <SimpleData name="Teléfono">0986228527</SimpleData>
-            <SimpleData name="Vivienda_L">-25.24707360000</SimpleData>
-            <SimpleData name="Vivienda_1">-54.96520910000</SimpleData>
-            <SimpleData name="Superficie">0.70000000000</SimpleData>
-            <SimpleData name="Fecha_Plan">2025/11/18</SimpleData>
-            <SimpleData name="Jornales">0.00000000000</SimpleData>
-            <SimpleData name="Monto">0.00000000000</SimpleData>
-            <SimpleData name="Grupo_de_p">F-P1-XX-XX-XX</SimpleData>
-            <SimpleData name="ETAPA_FAO">Mantenimiento A?o 1.1</SimpleData>
-            <SimpleData name="Estado_del">Activo</SimpleData>
-            <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
-            <SimpleData name="Lote">F</SimpleData>
-            <SimpleData name="X">-54.96420489000</SimpleData>
-            <SimpleData name="Y">-25.24832837000</SimpleData>
-            <SimpleData name="Sup_SIG">0.89446975062</SimpleData>
-            <SimpleData name="cedula">7589269</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Point>
-          <coordinates>
-            -54.964204894832,-25.2483283740452,0
+            -54.9181320088458,-25.3195568324143,0
           </coordinates>
         </Point>
       </Placemark>
