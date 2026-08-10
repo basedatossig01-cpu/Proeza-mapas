@@ -1398,6 +1398,7 @@
     const prioridad = limpiarValor(get(row, "Prioridad"));
     const superficie = limpiarValor(get(row, "Superficie (Ha.)"));
     const etapaFAO = limpiarValor(get(row, "Etapa de implementación FAO"));
+    const monitorearCocinas = limpiarValor(get(row, "Monitorear Cocinas Eficientes"));
     const visitadoId = tipo === "Plantación" ? crearIdVisitado("plantacion", nombre, cedula, lat, lon, archivoCSV) : "";
     const botonVisitado = tipo === "Plantación" ? crearBotonVisitado(visitadoId) : "";
 
@@ -1419,6 +1420,7 @@
           <div><b>Empresa:</b> ${empresa}</div>
           <div><b>Lote:</b> ${lote}</div>
           <div><b>Etapa de implementación FAO:</b> ${etapaFAO}</div>
+          <div><b>Monitorear Cocinas Eficientes:</b> ${monitorearCocinas}</div>
           <div><b>Prioridad:</b> ${prioridad}</div>
         </div>
         ${crearBloqueDistancia(lat, lon)}
@@ -1591,9 +1593,10 @@
     const cocinaImplementada = getPropFlexible(
       props,
       [
-        "Monitorear Cocinas Eficientes"
+        "Monitorear Cocinas Eficientes",
+        "Monitorear"
       ],
-      "monitorear cocinas eficientes"
+      "monitorear"
     );
     const visitadoId = (tipo === "Ubicación Mantenimiento" && latlng) ? crearIdVisitado("ubicacion_mantenimiento", nombres, cedula, latlng.lat, latlng.lng, archivo) : "";
     const botonVisitado = tipo === "Ubicación Mantenimiento" ? crearBotonVisitado(visitadoId) : "";
@@ -1634,6 +1637,7 @@
     const localidad = limpiarValor(get(row, "Localidad"));
     const telefono = limpiarValor(get(row, "Teléfono"));
     const lote = limpiarValor(get(row, "Lote"));
+    const monitorearCocinas = limpiarValor(get(row, "Monitorear Cocinas Eficientes"));
     const visitadoId = crearIdVisitado("cocina_eficiente", nombre, cedula, lat, lon, archivoCocinas);
     const botonVisitado = crearBotonVisitado(visitadoId);
 
@@ -1650,6 +1654,7 @@
           <div><b>Localidad:</b> ${localidad}</div>
           <div><b>Teléfono:</b> ${telefono}</div>
           <div><b>Lote:</b> ${lote}</div>
+          <div><b>Monitorear Cocinas Eficientes:</b> ${monitorearCocinas}</div>
         </div>
         ${crearBloqueDistancia(lat, lon)}
         ${crearBotonRuta(lat, lon)}
