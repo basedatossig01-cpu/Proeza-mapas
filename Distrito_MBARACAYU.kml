@@ -3,133 +3,111 @@
   <Document id="root_doc">
     <Schema id="Distrito_MBARACAYU.schema">
       <SimpleField name="Cédula" type="double"/>
+      <SimpleField name="cedula" type="string"/>
+      <SimpleField name="Cédula_1" type="double"/>
+      <SimpleField name="N_" type="double"/>
       <SimpleField name="Nombres_y_" type="string"/>
       <SimpleField name="Sexo" type="string"/>
       <SimpleField name="Cambio_de_" type="string"/>
       <SimpleField name="Titular_se" type="string"/>
       <SimpleField name="Cédula_Ti" type="string"/>
-      <SimpleField name="ci_UNIF" type="double"/>
       <SimpleField name="Situación" type="string"/>
       <SimpleField name="Comunidad" type="string"/>
+      <SimpleField name="Modelo_sel" type="string"/>
       <SimpleField name="Modelo_imp" type="string"/>
       <SimpleField name="Departamen" type="string"/>
       <SimpleField name="Distrito" type="string"/>
       <SimpleField name="Localidad" type="string"/>
-      <SimpleField name="Localidad_" type="string"/>
       <SimpleField name="Teléfono" type="string"/>
       <SimpleField name="Vivienda_L" type="double"/>
       <SimpleField name="Vivienda_1" type="double"/>
       <SimpleField name="Superficie" type="double"/>
-      <SimpleField name="Fecha_Plan" type="string"/>
+      <SimpleField name="Situaci_1" type="string"/>
+      <SimpleField name="Plantado" type="string"/>
+      <SimpleField name="Parcela_La" type="double"/>
+      <SimpleField name="Parcela_Lo" type="double"/>
+      <SimpleField name="Grupo_Impl" type="string"/>
+      <SimpleField name="Grupo_de_P" type="string"/>
       <SimpleField name="Jornales" type="double"/>
       <SimpleField name="Monto" type="double"/>
-      <SimpleField name="Grupo_de_p" type="string"/>
-      <SimpleField name="ETAPA_FAO" type="string"/>
+      <SimpleField name="Asistencia" type="string"/>
       <SimpleField name="Estado_del" type="string"/>
+      <SimpleField name="Adjudicado" type="string"/>
       <SimpleField name="Empresa" type="string"/>
       <SimpleField name="Lote" type="string"/>
-      <SimpleField name="X" type="double"/>
-      <SimpleField name="Y" type="double"/>
-      <SimpleField name="Sup_SIG" type="double"/>
-      <SimpleField name="cedula" type="string"/>
+      <SimpleField name="Monitorear" type="string"/>
+      <SimpleField name="Fecha_de_M" type="string"/>
+      <SimpleField name="F__de_pren" type="string"/>
+      <SimpleField name="Estado_FAO" type="string"/>
+      <SimpleField name="Etapa_de_i" type="string"/>
+      <SimpleField name="Fecha_visi" type="string"/>
+      <SimpleField name="Cumple_sup" type="string"/>
+      <SimpleField name="Estado_mon" type="string"/>
+      <SimpleField name="Situaci_12" type="string"/>
+      <SimpleField name="Observaci" type="string"/>
+      <SimpleField name="Dias_trans" type="double"/>
+      <SimpleField name="Prioridad" type="string"/>
+      <SimpleField name="OBJECTID_1" type="int"/>
     </Schema>
     <Document id="Distrito_MBARACAYU">
       <name>Distrito_MBARACAYU</name>
       <Placemark id="Distrito_MBARACAYU.1">
         <ExtendedData>
           <SchemaData schemaUrl="#Distrito_MBARACAYU.schema">
-            <SimpleData name="Cédula">4117402.00000000000</SimpleData>
-            <SimpleData name="Nombres_y_">EZEQUIEL OVIEDO VILLALBA</SimpleData>
-            <SimpleData name="Sexo">Hombre</SimpleData>
-            <SimpleData name="Cambio_de_">NO</SimpleData>
-            <SimpleData name="Titular_se">NO</SimpleData>
-            <SimpleData name="Cédula_Ti">NO</SimpleData>
-            <SimpleData name="ci_UNIF">4117402.00000000000</SimpleData>
-            <SimpleData name="Situación">NO</SimpleData>
-            <SimpleData name="Comunidad">Ind?gena</SimpleData>
-            <SimpleData name="Modelo_imp">Modelo 3</SimpleData>
-            <SimpleData name="Departamen">ALTO PARANA</SimpleData>
-            <SimpleData name="Distrito">MBARACAYU</SimpleData>
-            <SimpleData name="Localidad">COM INDIG KIRITO PINDO</SimpleData>
-            <SimpleData name="Localidad_">KIRITO- BARRIO PINDO</SimpleData>
-            <SimpleData name="Teléfono">0983681253</SimpleData>
-            <SimpleData name="Vivienda_L">-25.11149440000</SimpleData>
-            <SimpleData name="Vivienda_1">-54.81582650000</SimpleData>
-            <SimpleData name="Superficie">1.00000000000</SimpleData>
-            <SimpleData name="Fecha_Plan">2025/11/20</SimpleData>
-            <SimpleData name="Jornales">0.00000000000</SimpleData>
-            <SimpleData name="Monto">0.00000000000</SimpleData>
-            <SimpleData name="Grupo_de_p">F-P1-XX-XX-XX</SimpleData>
-            <SimpleData name="ETAPA_FAO">Mantenimiento A?o 1.1</SimpleData>
-            <SimpleData name="Estado_del">Activo</SimpleData>
-            <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
-            <SimpleData name="Lote">F</SimpleData>
-            <SimpleData name="X">-54.81398243000</SimpleData>
-            <SimpleData name="Y">-25.11229711000</SimpleData>
-            <SimpleData name="Sup_SIG">1.20719214605</SimpleData>
-            <SimpleData name="cedula">4117402</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Polygon>
-          <outerBoundaryIs>
-            <LinearRing>
-              <coordinates>
-                -54.8135359007635,-25.1117518004595,0
-                -54.8136748996927,-25.1131367003679,0
-                -54.8145819000588,-25.1126694002747,0
-                -54.8140728995575,-25.1114207004226,0
-                -54.8135359007635,-25.1117518004595,0
-              </coordinates>
-            </LinearRing>
-          </outerBoundaryIs>
-        </Polygon>
-      </Placemark>
-      <Placemark id="Distrito_MBARACAYU.2">
-        <ExtendedData>
-          <SchemaData schemaUrl="#Distrito_MBARACAYU.schema">
-            <SimpleData name="Cédula">5155613.00000000000</SimpleData>
-            <SimpleData name="Nombres_y_">SANTA VIVIANA ROJAS PALACIOS</SimpleData>
+            <SimpleData name="Cédula">2538189.00000000000</SimpleData>
+            <SimpleData name="cedula">2538189</SimpleData>
+            <SimpleData name="Cédula_1">2538189.00000000000</SimpleData>
+            <SimpleData name="N_">99.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">MARIA ANASTACIA AGUILERA DE BLANCO</SimpleData>
             <SimpleData name="Sexo">Mujer</SimpleData>
             <SimpleData name="Cambio_de_">NO</SimpleData>
             <SimpleData name="Titular_se">NO</SimpleData>
             <SimpleData name="Cédula_Ti">NO</SimpleData>
-            <SimpleData name="ci_UNIF">5155613.00000000000</SimpleData>
             <SimpleData name="Situación">NO</SimpleData>
-            <SimpleData name="Comunidad">Ind?gena</SimpleData>
-            <SimpleData name="Modelo_imp">Modelo 5</SimpleData>
+            <SimpleData name="Comunidad">Campesina</SimpleData>
+            <SimpleData name="Modelo_sel">Modelo 3</SimpleData>
+            <SimpleData name="Modelo_imp">Modelo 3</SimpleData>
             <SimpleData name="Departamen">ALTO PARANA</SimpleData>
             <SimpleData name="Distrito">MBARACAYU</SimpleData>
-            <SimpleData name="Localidad">COM INDIG KIRITO PINDO</SimpleData>
-            <SimpleData name="Localidad_">KIRITO- BARRIO PINDO</SimpleData>
-            <SimpleData name="Teléfono">ND</SimpleData>
-            <SimpleData name="Vivienda_L">-25.10615370000</SimpleData>
-            <SimpleData name="Vivienda_1">-54.82481510000</SimpleData>
-            <SimpleData name="Superficie">0.70000000000</SimpleData>
-            <SimpleData name="Fecha_Plan">2025/10/24</SimpleData>
+            <SimpleData name="Localidad">PUERTO INDIO</SimpleData>
+            <SimpleData name="Teléfono">0973994749</SimpleData>
+            <SimpleData name="Vivienda_L">-24.92028100000</SimpleData>
+            <SimpleData name="Vivienda_1">-54.48221120000</SimpleData>
+            <SimpleData name="Superficie">1.00000000000</SimpleData>
+            <SimpleData name="Situaci_1">Pol?gono</SimpleData>
+            <SimpleData name="Plantado">SI</SimpleData>
+            <SimpleData name="Parcela_La">-24.91942976000</SimpleData>
+            <SimpleData name="Parcela_Lo">-54.48228943000</SimpleData>
+            <SimpleData name="Grupo_Impl">G2</SimpleData>
+            <SimpleData name="Grupo_de_P">F-P1-XX-XX-XX</SimpleData>
             <SimpleData name="Jornales">0.00000000000</SimpleData>
             <SimpleData name="Monto">0.00000000000</SimpleData>
-            <SimpleData name="Grupo_de_p">F-P1-XX-XX-XX</SimpleData>
-            <SimpleData name="ETAPA_FAO">Mantenimiento A?o 1.1</SimpleData>
             <SimpleData name="Estado_del">Activo</SimpleData>
+            <SimpleData name="Adjudicado">SI</SimpleData>
             <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
             <SimpleData name="Lote">F</SimpleData>
-            <SimpleData name="X">-54.82424501000</SimpleData>
-            <SimpleData name="Y">-25.10479461000</SimpleData>
-            <SimpleData name="Sup_SIG">0.70804194869</SimpleData>
-            <SimpleData name="cedula">5155613</SimpleData>
+            <SimpleData name="Monitorear">No</SimpleData>
+            <SimpleData name="Estado_FAO">Verificar posible deserci?n</SimpleData>
+            <SimpleData name="Etapa_de_i">Mantenimiento A?o 1.1</SimpleData>
+            <SimpleData name="Fecha_visi">2026/08/03</SimpleData>
+            <SimpleData name="Cumple_sup">-</SimpleData>
+            <SimpleData name="Estado_mon">-</SimpleData>
+            <SimpleData name="Situaci_12">-</SimpleData>
+            <SimpleData name="Observaci">Falta de inter?s o no ve el beneficio;La beneficiaria  no desea seguir con el proyecto</SimpleData>
+            <SimpleData name="Dias_trans">0.00000000000</SimpleData>
+            <SimpleData name="Prioridad">ALTA</SimpleData>
+            <SimpleData name="OBJECTID_1">99</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Polygon>
           <outerBoundaryIs>
             <LinearRing>
               <coordinates>
-                -54.8234724002479,-25.1050497001229,0
-                -54.8239583003065,-25.1053666999673,0
-                -54.8242776001777,-25.1051501000285,0
-                -54.8242296002039,-25.1050643001637,0
-                -54.8250171994962,-25.10439470048,0
-                -54.824808000297,-25.1041741995169,0
-                -54.8234724002479,-25.1050497001229,0
+                -54.4818407998213,-24.9198152005301,0
+                -54.4826876994405,-24.9202554999785,0
+                -54.4828384996349,-24.9187375006955,0
+                -54.4815500001585,-24.9190717003298,0
+                -54.4818407998213,-24.9198152005301,0
               </coordinates>
             </LinearRing>
           </outerBoundaryIs>
