@@ -3,12 +3,14 @@
   <Document id="root_doc">
     <Schema id="Distrito_YBY_PYTA.schema">
       <SimpleField name="Cédula" type="double"/>
+      <SimpleField name="cedula" type="string"/>
+      <SimpleField name="Cédula_1" type="double"/>
+      <SimpleField name="N_" type="double"/>
       <SimpleField name="Nombres_y_" type="string"/>
       <SimpleField name="Sexo" type="string"/>
       <SimpleField name="Cambio_de_" type="string"/>
       <SimpleField name="Titular_se" type="string"/>
       <SimpleField name="Cédula_Ti" type="string"/>
-      <SimpleField name="ci_UNIF" type="double"/>
       <SimpleField name="Situación" type="string"/>
       <SimpleField name="Comunidad" type="string"/>
       <SimpleField name="Modelo_imp" type="string"/>
@@ -21,115 +23,89 @@
       <SimpleField name="Superficie" type="double"/>
       <SimpleField name="Situaci_1" type="string"/>
       <SimpleField name="Plantado" type="string"/>
-      <SimpleField name="Fecha_Plan" type="string"/>
+      <SimpleField name="Parcela_La" type="double"/>
+      <SimpleField name="Parcela_Lo" type="double"/>
+      <SimpleField name="Grupo_Impl" type="string"/>
+      <SimpleField name="Grupo_de_P" type="string"/>
       <SimpleField name="Jornales" type="double"/>
       <SimpleField name="Monto" type="double"/>
-      <SimpleField name="Grupo_de_p" type="string"/>
+      <SimpleField name="Asistencia" type="string"/>
       <SimpleField name="Estado_del" type="string"/>
+      <SimpleField name="Adjudicado" type="string"/>
       <SimpleField name="Empresa" type="string"/>
       <SimpleField name="Lote" type="string"/>
-      <SimpleField name="Parametro" type="double"/>
-      <SimpleField name="Sup_SIG" type="double"/>
-      <SimpleField name="Situacion" type="string"/>
-      <SimpleField name="X" type="double"/>
-      <SimpleField name="Y" type="double"/>
-      <SimpleField name="cedula" type="string"/>
+      <SimpleField name="Monitorear" type="string"/>
+      <SimpleField name="Fecha_de_M" type="string"/>
+      <SimpleField name="F__de_pren" type="string"/>
+      <SimpleField name="Estado_FAO" type="string"/>
+      <SimpleField name="Etapa_de_i" type="string"/>
+      <SimpleField name="Fecha_visi" type="string"/>
+      <SimpleField name="Cumple_sup" type="string"/>
+      <SimpleField name="Estado_mon" type="string"/>
+      <SimpleField name="Situaci_12" type="string"/>
+      <SimpleField name="Observaci" type="string"/>
+      <SimpleField name="Dias_trans" type="double"/>
+      <SimpleField name="Prioridad" type="string"/>
+      <SimpleField name="OBJECTID_1" type="int"/>
     </Schema>
     <Document id="Distrito_YBY_PYTA">
       <name>Distrito_YBY PYTA</name>
       <Placemark id="Distrito_YBY_PYTA.1">
         <ExtendedData>
           <SchemaData schemaUrl="#Distrito_YBY_PYTA.schema">
-            <SimpleData name="Cédula">8104074.00000000000</SimpleData>
-            <SimpleData name="Nombres_y_">MILAGROS CACERES</SimpleData>
-            <SimpleData name="Sexo">Mujer</SimpleData>
+            <SimpleData name="Cédula">5470984.00000000000</SimpleData>
+            <SimpleData name="cedula">5470984</SimpleData>
+            <SimpleData name="Cédula_1">5470984.00000000000</SimpleData>
+            <SimpleData name="N_">112.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">ISMAEL GARCETE RAMIREZ</SimpleData>
+            <SimpleData name="Sexo">Hombre</SimpleData>
             <SimpleData name="Cambio_de_">NO</SimpleData>
             <SimpleData name="Titular_se">NO</SimpleData>
-            <SimpleData name="ci_UNIF">8104074.00000000000</SimpleData>
             <SimpleData name="Situación">NO</SimpleData>
-            <SimpleData name="Comunidad">Campesina</SimpleData>
-            <SimpleData name="Modelo_imp">Modelo 5</SimpleData>
+            <SimpleData name="Comunidad">Ind?gena</SimpleData>
+            <SimpleData name="Modelo_imp">Modelo 4</SimpleData>
             <SimpleData name="Departamen">CANINDEYU</SimpleData>
             <SimpleData name="Distrito">YBY PYTA</SimpleData>
-            <SimpleData name="Localidad">GUYRA KEHA</SimpleData>
-            <SimpleData name="Teléfono">0986429813</SimpleData>
-            <SimpleData name="Vivienda_L">-24.24786360000</SimpleData>
-            <SimpleData name="Vivienda_1">-55.28904890000</SimpleData>
+            <SimpleData name="Localidad">COM INDIG TEKOHA POTY PYAHU</SimpleData>
+            <SimpleData name="Teléfono">0981857258</SimpleData>
+            <SimpleData name="Vivienda_L">-24.25170880000</SimpleData>
+            <SimpleData name="Vivienda_1">-55.20870460000</SimpleData>
             <SimpleData name="Superficie">0.70000000000</SimpleData>
-            <SimpleData name="Situaci_1">Pol?gono</SimpleData>
+            <SimpleData name="Situaci_1">Par?metro</SimpleData>
             <SimpleData name="Plantado">SI</SimpleData>
-            <SimpleData name="Fecha_Plan">2025/10/24</SimpleData>
+            <SimpleData name="Parcela_La">-24.25537717000</SimpleData>
+            <SimpleData name="Parcela_Lo">-55.20684869000</SimpleData>
+            <SimpleData name="Grupo_Impl">G2</SimpleData>
+            <SimpleData name="Grupo_de_P">G-P5-XX-XX-XX</SimpleData>
             <SimpleData name="Jornales">0.00000000000</SimpleData>
             <SimpleData name="Monto">0.00000000000</SimpleData>
-            <SimpleData name="Grupo_de_p">G-P1-XX-XX-XX</SimpleData>
             <SimpleData name="Estado_del">Activo</SimpleData>
+            <SimpleData name="Adjudicado">SI</SimpleData>
             <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
             <SimpleData name="Lote">G</SimpleData>
-            <SimpleData name="Sup_SIG">0.70559503080</SimpleData>
-            <SimpleData name="X">-55.28766661000</SimpleData>
-            <SimpleData name="Y">-24.24716107000</SimpleData>
-            <SimpleData name="cedula">8104074</SimpleData>
+            <SimpleData name="Monitorear">NO</SimpleData>
+            <SimpleData name="Fecha_de_M">-</SimpleData>
+            <SimpleData name="F__de_pren">-</SimpleData>
+            <SimpleData name="Estado_FAO">Monitorear</SimpleData>
+            <SimpleData name="Etapa_de_i">Mantenimiento A?o 1.1</SimpleData>
+            <SimpleData name="Fecha_visi">2026/05/20</SimpleData>
+            <SimpleData name="Cumple_sup">SI</SimpleData>
+            <SimpleData name="Estado_mon">-</SimpleData>
+            <SimpleData name="Situaci_12">-</SimpleData>
+            <SimpleData name="Dias_trans">88.99984953700</SimpleData>
+            <SimpleData name="Prioridad">ALTA</SimpleData>
+            <SimpleData name="OBJECTID_1">112</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Polygon>
           <outerBoundaryIs>
             <LinearRing>
               <coordinates>
-                -55.2872535008318,-24.2475629995912,0
-                -55.2880244002949,-24.247616100007,0
-                -55.2880162005006,-24.2467234003421,0
-                -55.2873730999692,-24.2466881000922,0
-                -55.2872535008318,-24.2475629995912,0
-              </coordinates>
-            </LinearRing>
-          </outerBoundaryIs>
-        </Polygon>
-      </Placemark>
-      <Placemark id="Distrito_YBY_PYTA.2">
-        <ExtendedData>
-          <SchemaData schemaUrl="#Distrito_YBY_PYTA.schema">
-            <SimpleData name="Cédula">5086494.00000000000</SimpleData>
-            <SimpleData name="Nombres_y_">DIONICIA  FLEITAS</SimpleData>
-            <SimpleData name="Sexo">Mujer</SimpleData>
-            <SimpleData name="Cambio_de_">NO</SimpleData>
-            <SimpleData name="Titular_se">NO</SimpleData>
-            <SimpleData name="ci_UNIF">5086494.00000000000</SimpleData>
-            <SimpleData name="Situación">NO</SimpleData>
-            <SimpleData name="Comunidad">Campesina</SimpleData>
-            <SimpleData name="Modelo_imp">Modelo 1</SimpleData>
-            <SimpleData name="Departamen">CANINDEYU</SimpleData>
-            <SimpleData name="Distrito">YBY PYTA</SimpleData>
-            <SimpleData name="Localidad">GUYRA KEHA - SAN JOSE</SimpleData>
-            <SimpleData name="Teléfono">972969702</SimpleData>
-            <SimpleData name="Vivienda_L">-24.24389650000</SimpleData>
-            <SimpleData name="Vivienda_1">-55.28871780000</SimpleData>
-            <SimpleData name="Superficie">0.80000000000</SimpleData>
-            <SimpleData name="Situaci_1">Pol?gono</SimpleData>
-            <SimpleData name="Plantado">SI</SimpleData>
-            <SimpleData name="Fecha_Plan">2025/10/29</SimpleData>
-            <SimpleData name="Jornales">0.00000000000</SimpleData>
-            <SimpleData name="Monto">0.00000000000</SimpleData>
-            <SimpleData name="Grupo_de_p">G-P1-XX-XX-XX</SimpleData>
-            <SimpleData name="Estado_del">Activo</SimpleData>
-            <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
-            <SimpleData name="Lote">G</SimpleData>
-            <SimpleData name="Sup_SIG">0.81202050577</SimpleData>
-            <SimpleData name="X">-55.28861336000</SimpleData>
-            <SimpleData name="Y">-24.24617037000</SimpleData>
-            <SimpleData name="cedula">5086494</SimpleData>
-          </SchemaData>
-        </ExtendedData>
-        <Polygon>
-          <outerBoundaryIs>
-            <LinearRing>
-              <coordinates>
-                -55.2880861201243,-24.2458352347861,0
-                -55.287996199726,-24.2464513001218,0
-                -55.289153500285,-24.2465171002498,0
-                -55.2892017001533,-24.2458699996768,0
-                -55.2881120947176,-24.2458348327349,0
-                -55.2880863001263,-24.2458339997966,0
-                -55.2880861201243,-24.2458352347861,0
+                -55.2062689000591,-24.2554050999102,0
+                -55.2066473004274,-24.2559623003866,0
+                -55.2074535998204,-24.2554244999719,0
+                -55.2069700000242,-24.2547533001444,0
+                -55.2062689000591,-24.2554050999102,0
               </coordinates>
             </LinearRing>
           </outerBoundaryIs>

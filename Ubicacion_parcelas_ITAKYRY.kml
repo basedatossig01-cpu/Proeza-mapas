@@ -3,132 +3,211 @@
   <Document id="root_doc">
     <Schema id="Distrito_ITAKYRY.schema">
       <SimpleField name="Cédula" type="double"/>
+      <SimpleField name="cedula" type="string"/>
+      <SimpleField name="Cédula_1" type="double"/>
+      <SimpleField name="N_" type="double"/>
       <SimpleField name="Nombres_y_" type="string"/>
       <SimpleField name="Sexo" type="string"/>
       <SimpleField name="Cambio_de_" type="string"/>
       <SimpleField name="Titular_se" type="string"/>
       <SimpleField name="Cédula_Ti" type="string"/>
-      <SimpleField name="ci_UNIF" type="double"/>
       <SimpleField name="Situación" type="string"/>
       <SimpleField name="Comunidad" type="string"/>
       <SimpleField name="Modelo_imp" type="string"/>
       <SimpleField name="Departamen" type="string"/>
       <SimpleField name="Distrito" type="string"/>
       <SimpleField name="Localidad" type="string"/>
-      <SimpleField name="Localidad_" type="string"/>
       <SimpleField name="Teléfono" type="string"/>
       <SimpleField name="Vivienda_L" type="double"/>
       <SimpleField name="Vivienda_1" type="double"/>
       <SimpleField name="Superficie" type="double"/>
-      <SimpleField name="Fecha_Plan" type="string"/>
+      <SimpleField name="Situaci_1" type="string"/>
+      <SimpleField name="Plantado" type="string"/>
+      <SimpleField name="Parcela_La" type="double"/>
+      <SimpleField name="Parcela_Lo" type="double"/>
+      <SimpleField name="Grupo_Impl" type="string"/>
+      <SimpleField name="Grupo_de_P" type="string"/>
       <SimpleField name="Jornales" type="double"/>
       <SimpleField name="Monto" type="double"/>
-      <SimpleField name="Grupo_de_p" type="string"/>
-      <SimpleField name="ETAPA_FAO" type="string"/>
+      <SimpleField name="Asistencia" type="string"/>
       <SimpleField name="Estado_del" type="string"/>
+      <SimpleField name="Adjudicado" type="string"/>
       <SimpleField name="Empresa" type="string"/>
       <SimpleField name="Lote" type="string"/>
-      <SimpleField name="X" type="double"/>
-      <SimpleField name="Y" type="double"/>
-      <SimpleField name="Sup_SIG" type="double"/>
-      <SimpleField name="cedula" type="string"/>
-      <SimpleField name="Shape_Leng" type="double"/>
-      <SimpleField name="Shape_Area" type="double"/>
+      <SimpleField name="Monitorear" type="string"/>
+      <SimpleField name="Fecha_de_M" type="string"/>
+      <SimpleField name="F__de_pren" type="string"/>
+      <SimpleField name="Estado_FAO" type="string"/>
+      <SimpleField name="Etapa_de_i" type="string"/>
+      <SimpleField name="Fecha_visi" type="string"/>
+      <SimpleField name="Cumple_sup" type="string"/>
+      <SimpleField name="Estado_mon" type="string"/>
+      <SimpleField name="Situaci_12" type="string"/>
+      <SimpleField name="Observaci" type="string"/>
+      <SimpleField name="Dias_trans" type="double"/>
+      <SimpleField name="Prioridad" type="string"/>
+      <SimpleField name="OBJECTID_1" type="int"/>
     </Schema>
     <Document id="Distrito_ITAKYRY">
       <name>Distrito_ITAKYRY</name>
       <Placemark id="Distrito_ITAKYRY.1">
         <ExtendedData>
           <SchemaData schemaUrl="#Distrito_ITAKYRY.schema">
-            <SimpleData name="Cédula">4455365.00000000000</SimpleData>
-            <SimpleData name="Nombres_y_">SAMUEL BRIZUELA GAMARRA</SimpleData>
-            <SimpleData name="Sexo">Hombre</SimpleData>
+            <SimpleData name="Cédula">7731685.00000000000</SimpleData>
+            <SimpleData name="cedula">7731685</SimpleData>
+            <SimpleData name="Cédula_1">7731685.00000000000</SimpleData>
+            <SimpleData name="N_">70.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">YESSICA BENITEZ ALEMA</SimpleData>
+            <SimpleData name="Sexo">Mujer</SimpleData>
             <SimpleData name="Cambio_de_">NO</SimpleData>
             <SimpleData name="Titular_se">NO</SimpleData>
-            <SimpleData name="Cédula_Ti">NO</SimpleData>
-            <SimpleData name="ci_UNIF">4455365.00000000000</SimpleData>
             <SimpleData name="Situación">NO</SimpleData>
             <SimpleData name="Comunidad">Campesina</SimpleData>
-            <SimpleData name="Modelo_imp">Modelo 6</SimpleData>
+            <SimpleData name="Modelo_imp">Modelo 1</SimpleData>
             <SimpleData name="Departamen">ALTO PARANA</SimpleData>
             <SimpleData name="Distrito">ITAKYRY</SimpleData>
-            <SimpleData name="Localidad">SANTA LUCIA</SimpleData>
-            <SimpleData name="Localidad_">SANTA LUCIA</SimpleData>
-            <SimpleData name="Teléfono">0983580299</SimpleData>
-            <SimpleData name="Vivienda_L">-24.55211390000</SimpleData>
-            <SimpleData name="Vivienda_1">-55.08817590000</SimpleData>
+            <SimpleData name="Localidad">CHINO KUE 2 LINEA</SimpleData>
+            <SimpleData name="Teléfono">0971423113</SimpleData>
+            <SimpleData name="Vivienda_L">-24.84266000000</SimpleData>
+            <SimpleData name="Vivienda_1">-55.19682170000</SimpleData>
             <SimpleData name="Superficie">0.90000000000</SimpleData>
-            <SimpleData name="Fecha_Plan">2025/11/27</SimpleData>
+            <SimpleData name="Situaci_1">Par?metro</SimpleData>
+            <SimpleData name="Plantado">SI</SimpleData>
+            <SimpleData name="Parcela_La">-24.81330401000</SimpleData>
+            <SimpleData name="Parcela_Lo">-55.29900136000</SimpleData>
+            <SimpleData name="Grupo_Impl">G2</SimpleData>
+            <SimpleData name="Grupo_de_P">F-P2-XX-XX-XX</SimpleData>
             <SimpleData name="Jornales">0.00000000000</SimpleData>
             <SimpleData name="Monto">0.00000000000</SimpleData>
-            <SimpleData name="Grupo_de_p">F-P1-XX-XX-XX</SimpleData>
-            <SimpleData name="ETAPA_FAO">Mantenimiento A?o 1.1</SimpleData>
             <SimpleData name="Estado_del">Activo</SimpleData>
+            <SimpleData name="Adjudicado">SI</SimpleData>
             <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
             <SimpleData name="Lote">F</SimpleData>
-            <SimpleData name="X">-55.09780934000</SimpleData>
-            <SimpleData name="Y">-24.55331124000</SimpleData>
-            <SimpleData name="Sup_SIG">0.91939916742</SimpleData>
-            <SimpleData name="cedula">4455365</SimpleData>
-            <SimpleData name="Shape_Leng">491.56888909900</SimpleData>
-            <SimpleData name="Shape_Area">9193.99167416000</SimpleData>
+            <SimpleData name="Monitorear">NO</SimpleData>
+            <SimpleData name="Fecha_de_M">-</SimpleData>
+            <SimpleData name="F__de_pren">-</SimpleData>
+            <SimpleData name="Estado_FAO">Monitorear</SimpleData>
+            <SimpleData name="Etapa_de_i">Mantenimiento A?o 1.1</SimpleData>
+            <SimpleData name="Fecha_visi">2026/08/17</SimpleData>
+            <SimpleData name="Cumple_sup">SI</SimpleData>
+            <SimpleData name="Estado_mon">-</SimpleData>
+            <SimpleData name="Situaci_12">-</SimpleData>
+            <SimpleData name="Dias_trans">-0.48149305556</SimpleData>
+            <SimpleData name="Prioridad">ALTA</SimpleData>
+            <SimpleData name="OBJECTID_1">70</SimpleData>
           </SchemaData>
         </ExtendedData>
         <Point>
           <coordinates>
-            -55.097809341626,-24.5533112373772,0
+            -55.2990013644277,-24.8133040055589,0
           </coordinates>
         </Point>
       </Placemark>
       <Placemark id="Distrito_ITAKYRY.2">
         <ExtendedData>
           <SchemaData schemaUrl="#Distrito_ITAKYRY.schema">
-            <SimpleData name="Cédula">6605100.00000000000</SimpleData>
-            <SimpleData name="Nombres_y_">LOURDES MARTINEZ CARDENA</SimpleData>
+            <SimpleData name="Cédula">2474360.00000000000</SimpleData>
+            <SimpleData name="cedula">2474360</SimpleData>
+            <SimpleData name="Cédula_1">2474360.00000000000</SimpleData>
+            <SimpleData name="N_">71.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">CRESENCIA ROA BORJAS</SimpleData>
             <SimpleData name="Sexo">Mujer</SimpleData>
             <SimpleData name="Cambio_de_">NO</SimpleData>
             <SimpleData name="Titular_se">NO</SimpleData>
-            <SimpleData name="Cédula_Ti">NO</SimpleData>
-            <SimpleData name="ci_UNIF">6605100.00000000000</SimpleData>
             <SimpleData name="Situación">NO</SimpleData>
             <SimpleData name="Comunidad">Campesina</SimpleData>
-            <SimpleData name="Modelo_imp">Modelo 6</SimpleData>
+            <SimpleData name="Modelo_imp">Modelo 1</SimpleData>
             <SimpleData name="Departamen">ALTO PARANA</SimpleData>
             <SimpleData name="Distrito">ITAKYRY</SimpleData>
-            <SimpleData name="Localidad">SANTA LUCIA</SimpleData>
-            <SimpleData name="Localidad_">SANTA LUCIA</SimpleData>
-            <SimpleData name="Teléfono">0972446679</SimpleData>
-            <SimpleData name="Vivienda_L">-24.55935400000</SimpleData>
-            <SimpleData name="Vivienda_1">-55.03229640000</SimpleData>
-            <SimpleData name="Superficie">0.90000000000</SimpleData>
-            <SimpleData name="Fecha_Plan">2025/11/14</SimpleData>
+            <SimpleData name="Localidad">CHINO KUE 2 LINEA</SimpleData>
+            <SimpleData name="Teléfono">0982108979</SimpleData>
+            <SimpleData name="Vivienda_L">-24.85101930000</SimpleData>
+            <SimpleData name="Vivienda_1">-55.14862530000</SimpleData>
+            <SimpleData name="Superficie">0.80000000000</SimpleData>
+            <SimpleData name="Situaci_1">Pol?gono</SimpleData>
+            <SimpleData name="Plantado">SI</SimpleData>
+            <SimpleData name="Parcela_La">-24.84997428000</SimpleData>
+            <SimpleData name="Parcela_Lo">-55.13114161000</SimpleData>
+            <SimpleData name="Grupo_Impl">G2</SimpleData>
+            <SimpleData name="Grupo_de_P">F-P1-XX-XX-XX</SimpleData>
             <SimpleData name="Jornales">0.00000000000</SimpleData>
             <SimpleData name="Monto">0.00000000000</SimpleData>
-            <SimpleData name="Grupo_de_p">F-P1-XX-XX-XX</SimpleData>
-            <SimpleData name="ETAPA_FAO">Mantenimiento A?o 1.1</SimpleData>
             <SimpleData name="Estado_del">Activo</SimpleData>
+            <SimpleData name="Adjudicado">SI</SimpleData>
             <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
             <SimpleData name="Lote">F</SimpleData>
-            <SimpleData name="X">-55.03965318000</SimpleData>
-            <SimpleData name="Y">-24.56193370000</SimpleData>
-            <SimpleData name="Sup_SIG">0.91597501259</SimpleData>
-            <SimpleData name="cedula">6605100</SimpleData>
-            <SimpleData name="Shape_Leng">633.44844670800</SimpleData>
-            <SimpleData name="Shape_Area">9159.75012587000</SimpleData>
+            <SimpleData name="Monitorear">NO</SimpleData>
+            <SimpleData name="Fecha_de_M">-</SimpleData>
+            <SimpleData name="F__de_pren">-</SimpleData>
+            <SimpleData name="Estado_FAO">Monitorear</SimpleData>
+            <SimpleData name="Etapa_de_i">Mantenimiento A?o 1.1</SimpleData>
+            <SimpleData name="Fecha_visi">2026/08/14</SimpleData>
+            <SimpleData name="Cumple_sup">SI</SimpleData>
+            <SimpleData name="Estado_mon">-</SimpleData>
+            <SimpleData name="Situaci_12">-</SimpleData>
+            <SimpleData name="Dias_trans">2.40842592593</SimpleData>
+            <SimpleData name="Prioridad">ALTA</SimpleData>
+            <SimpleData name="OBJECTID_1">71</SimpleData>
           </SchemaData>
         </ExtendedData>
-        <MultiGeometry>
-          <Point>
-            <coordinates>
-              -55.0396531822398,-24.5619336979657,0
-            </coordinates>
-          </Point>
-          <Point>
-            <coordinates>
-              -55.0316612557576,-24.5600008161283,0
-            </coordinates>
-          </Point>
-        </MultiGeometry>
+        <Point>
+          <coordinates>
+            -55.1311416134326,-24.8499742805776,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="Distrito_ITAKYRY.3">
+        <ExtendedData>
+          <SchemaData schemaUrl="#Distrito_ITAKYRY.schema">
+            <SimpleData name="Cédula">5787145.00000000000</SimpleData>
+            <SimpleData name="cedula">5787145</SimpleData>
+            <SimpleData name="Cédula_1">5787145.00000000000</SimpleData>
+            <SimpleData name="N_">72.00000000000</SimpleData>
+            <SimpleData name="Nombres_y_">MAIDA STELA LOPEZ TORRES</SimpleData>
+            <SimpleData name="Sexo">Mujer</SimpleData>
+            <SimpleData name="Cambio_de_">NO</SimpleData>
+            <SimpleData name="Titular_se">NO</SimpleData>
+            <SimpleData name="Situación">NO</SimpleData>
+            <SimpleData name="Comunidad">Campesina</SimpleData>
+            <SimpleData name="Modelo_imp">Modelo 5</SimpleData>
+            <SimpleData name="Departamen">ALTO PARANA</SimpleData>
+            <SimpleData name="Distrito">ITAKYRY</SimpleData>
+            <SimpleData name="Localidad">26 DE MARZO</SimpleData>
+            <SimpleData name="Teléfono">0983343641</SimpleData>
+            <SimpleData name="Vivienda_L">-24.84682650000</SimpleData>
+            <SimpleData name="Vivienda_1">-55.11457150000</SimpleData>
+            <SimpleData name="Superficie">0.70000000000</SimpleData>
+            <SimpleData name="Situaci_1">Par?metro</SimpleData>
+            <SimpleData name="Plantado">SI</SimpleData>
+            <SimpleData name="Parcela_La">-24.84775910000</SimpleData>
+            <SimpleData name="Parcela_Lo">-55.11501037000</SimpleData>
+            <SimpleData name="Grupo_Impl">G2</SimpleData>
+            <SimpleData name="Grupo_de_P">F-P2-XX-XX-XX</SimpleData>
+            <SimpleData name="Jornales">0.00000000000</SimpleData>
+            <SimpleData name="Monto">0.00000000000</SimpleData>
+            <SimpleData name="Estado_del">Activo</SimpleData>
+            <SimpleData name="Adjudicado">SI</SimpleData>
+            <SimpleData name="Empresa">Red Forestal Paraguay SA</SimpleData>
+            <SimpleData name="Lote">F</SimpleData>
+            <SimpleData name="Monitorear">NO</SimpleData>
+            <SimpleData name="Fecha_de_M">-</SimpleData>
+            <SimpleData name="F__de_pren">-</SimpleData>
+            <SimpleData name="Estado_FAO">Monitorear</SimpleData>
+            <SimpleData name="Etapa_de_i">Mantenimiento A?o 1.1</SimpleData>
+            <SimpleData name="Fecha_visi">2026/08/14</SimpleData>
+            <SimpleData name="Cumple_sup">SI</SimpleData>
+            <SimpleData name="Estado_mon">-</SimpleData>
+            <SimpleData name="Situaci_12">-</SimpleData>
+            <SimpleData name="Dias_trans">2.40871527778</SimpleData>
+            <SimpleData name="Prioridad">ALTA</SimpleData>
+            <SimpleData name="OBJECTID_1">72</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -55.1150103652432,-24.8477591024817,0
+          </coordinates>
+        </Point>
       </Placemark>
     </Document>
   </Document>
